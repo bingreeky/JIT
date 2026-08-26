@@ -1,0 +1,25 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "read company revenues, calculate the revenue difference of the first year and last year in the table, save the result in improvement.txt, and generate a short report in reports.docx",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "txt",
+                "file": "data/improvement.txt",
+                "keywords": [
+                    "1606499"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/reports.docx"
+            }
+        }
+    ]
+}

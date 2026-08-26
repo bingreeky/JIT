@@ -1,0 +1,42 @@
+{
+    "task": "Add a new row labeled 'miscellaneous' with the amount of 2500 to the bottom of the company_budget.xlsx sheet.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "miscellaneous"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "2500"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please add a new budget item labeled 'miscellaneous' with the appropriate value to the bottom of the budget file.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new expense labeled 'miscellaneous' should be added."
+        },
+        {
+            "fact": "The amount for 'miscellaneous' is 2500."
+        },
+        {
+            "fact": "The file to update is company_budget.xlsx."
+        },
+        {
+            "fact": "The new row should be appended to the bottom after existing items."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

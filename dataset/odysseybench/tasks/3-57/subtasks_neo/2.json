@@ -1,0 +1,52 @@
+{
+    "task": "Create a new Excel file named 'data/class_member_update.xlsx' that adds a new row for the student 'Lily' assigned to class '2' based on the current structure of 'data/class_member.xlsx'. Ensure the new row for Lily is appended at the end of the worksheet.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/class_member_update.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member_update.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "Lily"
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "value": "2"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add the new student information to the class list in a new file.",
+    "ground_truth_memory": [
+        {
+            "memory_type": "action_item",
+            "content": "The update must be saved in a new file named 'data/class_member_update.xlsx'."
+        },
+        {
+            "memory_type": "fact",
+            "content": "A new student named Lily needs to be added to the class list."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Lily should be assigned to class '2'."
+        },
+        {
+            "memory_type": "action_item",
+            "content": "Lily's data should be appended as the last row (row 22) in the worksheet following the current entries."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

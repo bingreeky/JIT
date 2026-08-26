@@ -1,0 +1,457 @@
+{
+  "query": "I'm doing a big wardrobe refresh and have a very specific list of things I need to buy. First, I'm looking for a Khaki Training Top that's highly popular, with a total sales volume over 6000, and great reviews—fewer than 20 three-star reviews and less than 5 two-star reviews. To go with that, I need some Canvas Utility Trousers in size XL. They should be selling well, with a monthly sales volume over 300, and have a balanced review profile with more than 100 four-star reviews and more than 10 two-star reviews.\n\nI also need a few other items. One is a green product in size XL that can get to me fast, so the transport time has to be less than 2 days. It must have more than 1100 total reviews and fewer than 10 one-star reviews. I’m also looking for something in Wine Red with a transport time under 3 days and over 1200 total reviews. Additionally, I need a very popular Navy Blue, all-seasons item with a monthly sales volume of more than 950. Lastly, I'm looking for a men's product from Patagonia with a stock quantity of more than 100. Please help me find options that fall within a budget of 3537 to 3599.",
+  "ground_truth_products": [
+    {
+      "product_id": "d1826a8d",
+      "name": "Men's Aero-Dry V-Neck Training Top",
+      "price": 189.0,
+      "brand": "Anta",
+      "color": "Khaki",
+      "size": "XL",
+      "stock_quantity": 872,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not use fabric softener. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1543,
+        "total": 6210
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 580,
+        "distribution": {
+          "5_star": 452,
+          "4_star": 101,
+          "3_star": 18,
+          "2_star": 4,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "60b81dc5",
+      "name": "Men's Urban Explorer Hooded Down Jacket",
+      "price": 1499.9,
+      "brand": "Bosideng",
+      "color": "Green",
+      "size": "XL",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 55
+        },
+        {
+          "material": "Down",
+          "percentage": 40
+        },
+        {
+          "material": "Nylon",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Professional dry clean recommended. If machine washing, use gentle cycle with cold water and specific down detergent.",
+      "sales_volume": {
+        "monthly": 480,
+        "total": 3120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 940,
+          "4_star": 155,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "9d43d137",
+      "name": "Men's Essential Fleece Joggers",
+      "price": 429.9,
+      "brand": "New Balance",
+      "color": "Wine Red",
+      "size": "XL",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 78
+        },
+        {
+          "material": "Polyester",
+          "percentage": 16
+        },
+        {
+          "material": "Spandex",
+          "percentage": 6
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or dry clean.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 14880
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1954,
+        "distribution": {
+          "5_star": 1450,
+          "4_star": 350,
+          "3_star": 98,
+          "2_star": 31,
+          "1_star": 25
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3a9a929f",
+      "name": "Men's Canvas Utility Trousers",
+      "price": 649.9,
+      "brand": "Timberland",
+      "color": "Red",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4215
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 110,
+          "3_star": 30,
+          "2_star": 12,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ad679fad",
+      "name": "Men's P-6 Logo Responsibili-Tee",
+      "price": 349.9,
+      "brand": "Patagonia",
+      "color": "Light Blue",
+      "size": "XL",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 50
+        },
+        {
+          "material": "Polyester",
+          "percentage": 50
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or iron on design.",
+      "sales_volume": {
+        "monthly": 852,
+        "total": 12457
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 150,
+          "3_star": 30,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e6ef0c46",
+      "name": "Men's All-Season Tech Pants",
+      "price": 429.0,
+      "brand": "Under Armour",
+      "color": "Navy Blue",
+      "size": "XL",
+      "stock_quantity": 288,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 87
+        },
+        {
+          "material": "Spandex",
+          "percentage": 13
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or use fabric softeners.",
+      "sales_volume": {
+        "monthly": 985,
+        "total": 14320
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 150,
+          "3_star": 30,
+          "2_star": 12,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the total sales volume is more than 6000, the color is Khaki, the number of 3-star reviews is less than 20, the number of 2-star reviews is less than 5, and the name contains 'Training Top'.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 6210
+        },
+        {
+          "field": "color",
+          "value": "Khaki"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 18
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 4
+        },
+        {
+          "field": "name",
+          "value": "Men's Aero-Dry V-Neck Training Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is XL, the color is Green, there are more than 1100 total reviews, less than 10 one-star reviews, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "size",
+          "value": "XL"
+        },
+        {
+          "field": "color",
+          "value": "Green"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1150
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 8
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 3, the total number of reviews is greater than 1200, and the color is Wine Red.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1245
+        },
+        {
+          "field": "color",
+          "value": "Wine Red"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is XL, the monthly sales volume is more than 300, it has more than 100 4-star reviews and more than 10 2-star reviews, and the name contains 'Canvas Utility Trousers'.",
+      "features": [
+        {
+          "field": "size",
+          "value": "XL"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 350
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 110
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12
+        },
+        {
+          "field": "name",
+          "value": "Men's Canvas Utility Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Men, the brand is Patagonia, and the stock quantity is more than 100.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "brand",
+          "value": "Patagonia"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 125
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the monthly sales volume is more than 950, the suitable season is All Seasons, and the color is Navy Blue.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 985
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "color",
+          "value": "Navy Blue"
+        }
+      ]
+    }
+  ]
+}

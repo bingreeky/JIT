@@ -1,0 +1,26 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "for the calendar data of Alice, find frequency of meeting, generate a file report.pdf about meeting frequency",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/report.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/report.pdf",
+                "keywords": [
+                    "weekly"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a report on the frequency of Alice's meetings and save it as a PDF file."
+}

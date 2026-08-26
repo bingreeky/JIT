@@ -1,0 +1,22 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Retrieve reference text from reference.txt and add it to the end of word file project_report.docx.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "./data/project_report.docx",
+                "keywords": [
+                    "Martin Arjovsky",
+                    "Amar Shah",
+                    "Yoshua Bengio",
+                    "Unitary Evolution Recurrent Neural Networks"
+                ]
+            }
+        }
+    ]
+}

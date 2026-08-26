@@ -1,0 +1,39 @@
+{
+    "task": "Read the training manual in manual.docx, identify the three main skills or techniques taught for working with 3D models in Word, and create a summary document named summary.docx listing these three key points.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary.docx",
+                "keywords": [
+                    "insert",
+                    "manipulate",
+                    "highlight"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Make a summary listing the key techniques taught for working with 3D models in the training manual.",
+    "ground_truth_memory": [
+        {
+            "document_to_read": "manual.docx"
+        },
+        {
+            "main_points_to_extract": "Summarize the three main skills or techniques for working with 3D models."
+        },
+        {
+            "output_file": "summary.docx"
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

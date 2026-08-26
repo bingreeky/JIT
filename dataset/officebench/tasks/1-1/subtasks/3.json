@@ -1,0 +1,21 @@
+{
+  "username": "Bob",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "at 5/15/2024 4:00 p.m to 6:00 p.m at Mathematic Science 4000A, Bob needs to have a class",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./calendar/Bob.ics",
+        "keywords": [
+          "Mathematic Science 4000A",
+          "DTSTART:20240515T160000",
+          "DTEND:20240515T180000"
+        ]
+      }
+    }
+  ]
+}

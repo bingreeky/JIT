@@ -1,0 +1,306 @@
+{
+  "query": "I have a last-minute event this weekend and need to get a few new things for myself, all with fast shipping. First, I'm looking for a popular men's item from Ralph Lauren that's in stock, with more than 180 available and a total sales volume over 2500. It absolutely must have a transport time of less than 2 days. Next, I need something for men from Nike in size L; to ensure quality, it must have fewer than 25 one-star reviews and also arrive in less than 2 days. To go with that, I need a white item for men, also with fewer than 25 one-star reviews and a transport time under 3 days. Finally, I'm searching for a well-reviewed black item for men that has a total number of reviews over 4500 to complete my look. Find me some products where the total price is no less than 2035 and no more than 2371.",
+  "ground_truth_products": [
+    {
+      "product_id": "d69e1543",
+      "name": "Men's Classic Pima Cotton Polo Shirt",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Button-down, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 3480
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 752,
+        "distribution": {
+          "5_star": 610,
+          "4_star": 115,
+          "3_star": 18,
+          "2_star": 5,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "389e460d",
+      "name": "Men's Sportswear Club Fleece Crew Sweatshirt",
+      "price": 399.0,
+      "brand": "Nike",
+      "color": "Purple",
+      "size": "L",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or iron design.",
+      "sales_volume": {
+        "monthly": 2345,
+        "total": 15488
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 5280,
+        "distribution": {
+          "5_star": 4300,
+          "4_star": 810,
+          "3_star": 120,
+          "2_star": 30,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "0914e5da",
+      "name": "Men's Canvas Authentic Lite Sneakers",
+      "price": 489.0,
+      "brand": "Vans",
+      "color": "White",
+      "size": "44",
+      "stock_quantity": 1250,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 90
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Hand wash recommended. Use a soft brush with mild detergent. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 12430
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1720,
+          "4_star": 322,
+          "3_star": 65,
+          "2_star": 21,
+          "1_star": 22
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1046ae66",
+      "name": "Nike Men's Dri-FIT Performance Tee",
+      "price": 249.9,
+      "brand": "Nike",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 875,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or use fabric softeners.",
+      "sales_volume": {
+        "monthly": 1280,
+        "total": 21560
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 4512,
+        "distribution": {
+          "5_star": 3880,
+          "4_star": 541,
+          "3_star": 68,
+          "2_star": 13,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great for workouts",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the target demographic is Men, the transport time is less than 2, stock quantity is greater than 180, the brand is Ralph Lauren, and the total sales volume is more than 2500.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "stock_quantity",
+          "value": 185
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 2540
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Men, the brand is Nike, the size is L, the number of 1-star reviews is less than 25, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "brand",
+          "value": "Nike"
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 20
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 3, the number of 1-star reviews is less than 25, the color is White, and the target demographic is Men.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 22
+        },
+        {
+          "field": "color",
+          "value": "White"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Black, the total number of reviews is more than 4500, and the target demographic is Men.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Black"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 4512
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "What is Xihozun's HW2 score?",
+    "evaluation": [
+        {
+          "function": "evaluate_contain",
+          "args": {
+            "doc_type": "txt",
+            "file": "./data/answer.txt",
+            "keywords": [
+              "54"
+            ]
+          }
+        }
+      ]
+
+}

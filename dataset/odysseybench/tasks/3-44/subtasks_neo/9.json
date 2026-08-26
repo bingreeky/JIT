@@ -1,0 +1,47 @@
+{
+    "task": "You are required to update the employee salary records. First, locate the Excel file named 'salary.xlsx' in the company's data folder. Next, add a new employee named Alice Green with an annual salary of 120000 to the excel sheet. Then, update the existing employee John Doe's salary to 200000. Finally, verify that both Alice Green and the updated salary for John Doe are correctly saved in 'salary.xlsx'.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "Alice Green"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "120000"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "200000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the salary spreadsheet with the necessary additions and changes as previously discussed.",
+    "ground_truth_memory": [
+        {
+            "info": "The company's salary records are maintained in data/salary.xlsx."
+        },
+        {
+            "info": "A new employee named Alice Green needs to be added to the salary sheet with an annual salary of 120000."
+        },
+        {
+            "info": "John Doe's annual salary must be updated to 200000 in the same sheet."
+        },
+        {
+            "info": "After the updates, Alice Green should be on row 5 with her correct salary and John Doe's new salary should be reflected on row 2."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

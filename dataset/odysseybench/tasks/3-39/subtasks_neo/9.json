@@ -1,0 +1,110 @@
+{
+    "task": "Extract the list of students and their IDs from the image file student_ids.png and organize them into a new Excel spreadsheet named Department_Student_List.xlsx. In this spreadsheet, create two sheets: 'Dept1' containing students with IDs starting with 's1', and 'Dept2' containing students with IDs starting with 's2'. Each sheet should have two columns: 'Name' and 'ID', and contain the relevant students. Ensure that the output file is saved as Department_Student_List.xlsx.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Department_Student_List.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/Department_Student_List.xlsx",
+                "sheet_name": "Dept1",
+                "keywords": [
+                    "Alice",
+                    "s1001",
+                    "Bob",
+                    "s1002",
+                    "Carol",
+                    "s1003",
+                    "Frank",
+                    "s1006",
+                    "Grace",
+                    "s1007",
+                    "Hank",
+                    "s1008",
+                    "Jack",
+                    "s1010"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/Department_Student_List.xlsx",
+                "sheet_name": "Dept1",
+                "keywords": [
+                    "David",
+                    "s2004",
+                    "Eva",
+                    "s2005",
+                    "Ivy",
+                    "s2009"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/Department_Student_List.xlsx",
+                "sheet_name": "Dept2",
+                "keywords": [
+                    "David",
+                    "s2004",
+                    "Eva",
+                    "s2005",
+                    "Ivy",
+                    "s2009"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/Department_Student_List.xlsx",
+                "sheet_name": "Dept2",
+                "keywords": [
+                    "Alice",
+                    "s1001",
+                    "Bob",
+                    "s1002",
+                    "Carol",
+                    "s1003",
+                    "Frank",
+                    "s1006",
+                    "Grace",
+                    "s1007",
+                    "Hank",
+                    "s1008",
+                    "Jack",
+                    "s1010"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create an Excel spreadsheet listing students by their IDs, grouped according to their department, and include their names.",
+    "ground_truth_memory": [
+        {
+            "fact": "Students and IDs are obtained from student_ids.png."
+        },
+        {
+            "action_item": "Group students whose IDs start with 's1' under sheet 'Dept1' and those starting with 's2' under sheet 'Dept2' in the Excel file."
+        },
+        {
+            "action_item": "Output filename should be Department_Student_List.xlsx."
+        },
+        {
+            "fact": "Each sheet should have columns named 'Name' and 'ID'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,32 @@
+{
+    "task": "Based on the company_trading_records.jpg, identify the date and item of the single highest-value transaction, and provide both as your final answer. Only one transaction should be reported: its item and the date it occurred. The agent must read the trading record, determine which transaction (buy or sell) has the largest amount, and then write this transaction's item and date as the answer (e.g., '2024-01-01 Laptop').",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/answer.txt",
+                "doc_type": "txt",
+                "keywords": [
+                    "2024-01-01",
+                    "Laptop"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "What is the date and item of the highest-value transaction in the company trading record?",
+    "ground_truth_memory": [
+        {
+            "fact": "The company trading records are contained in company_trading_records.jpg and list transactions with dates, items, and amounts."
+        },
+        {
+            "action_item": "Read all recorded transactions and compare their amounts to find the one with the highest value."
+        },
+        {
+            "action_item": "The answer should contain both the date and the item name of this transaction in the format 'YYYY-MM-DD Item'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

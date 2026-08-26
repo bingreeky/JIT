@@ -1,0 +1,42 @@
+{
+    "task": "Add the office rent expense of $1500 to the company_budget.xlsx file. Enter 'office rent' in the Name column and '1500' in the amount column as a new row after the last existing entry.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "office rent"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "1500"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Record the new office rent expense in the company budget file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The office rent expense is $1500."
+        },
+        {
+            "action": "Add a new row to company_budget.xlsx with Name as 'office rent' and amount as '1500'."
+        },
+        {
+            "structure": "The Name column is the first column, amount is the second column in company_budget.xlsx."
+        },
+        {
+            "instruction": "The new row for office rent should be placed after the last current row in the file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

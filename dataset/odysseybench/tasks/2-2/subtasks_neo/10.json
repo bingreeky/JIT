@@ -1,0 +1,43 @@
+{
+    "task": "Summarize the main highlights from the most recent company newsletter in newsletter.docx and save the summary in summary.docx. The summary should mention key announcements: 1) New remote work policy, 2) Quarterly Town Hall scheduled, 3) Upcoming annual charity event, and 4) Employee of the Month winner. Ensure that the summary is concise (about 3-5 sentences) and covers each point clearly.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/summary.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "remote work policy",
+                    "quarterly town hall",
+                    "annual charity event",
+                    "employee of the month"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the main highlights from newsletter.docx and save the summary in summary.docx.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary must be saved in a new file called summary.docx."
+        },
+        {
+            "fact": "The company newsletter includes a new remote work policy update."
+        },
+        {
+            "fact": "The newsletter announces a Quarterly Town Hall meeting."
+        },
+        {
+            "fact": "There is mention of an upcoming annual charity event in the newsletter."
+        },
+        {
+            "fact": "The newsletter highlights the Employee of the Month winner."
+        },
+        {
+            "action_item": "The summary should be concise, about 3-5 sentences, and cover each of the four key points."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

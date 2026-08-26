@@ -1,0 +1,18 @@
+description: |-
+  ## 1. Architecture Overview
+
+  GAM is a ReAct harness that combines DAG-style planning with Generative Agent Memory (GAM). It first decomposes the task into several relatively independent goals with fallback paths, then executes them through a tool-calling action-observation loop. Unlike a standard ReAct agent that mainly relies on recent context, GAM continuously converts each new step into compact memory pages and periodically runs a research-style reorganization pass to build an integrated memory summary for later reasoning.
+
+  ## 2. Key Features / Innovations
+
+  - Uses a dual-stage memory design: every step is abstracted into long-term memory pages, and periodic research passes reorganize those pages into a more useful integrated context.
+  - Mixes short-term trajectory context with long-term reorganized memory, helping the agent preserve important facts without carrying the entire raw history.
+  - Supports retrieval-oriented memory access over stored pages, making it better suited for longer multi-step tasks where useful evidence may otherwise be buried in earlier steps.
+
+  ## 3. Where These Features Are Implemented
+
+  - `planning`: `planning.py` defines the DAG-style planner. It creates the initial goal-path decomposition, decides when to summarize progress, and updates the execution directive with new parallel sub-path recommendations.
+  - `memory`: `memory.py` is the core of the GAM harness. It maintains two coupled long-term memory stores: `_abstracts`, which keeps one compact abstract per remembered item, and `_pages`, which stores the corresponding full page content plus metadata. On every `update()`, the module formats the new step into a textual record, asks the MemoryAgent prompt to compress it into an abstract, stores that abstract if it is new, creates a decorated page, and encodes the page content into a dense embedding for later retrieval.
+  - `memory`: retrieval is implemented through multiple channels over the accumulated pages. Dense retrieval uses a lazily initialized sentence-transformer encoder plus a FAISS inner-product index, keyword retrieval uses a BM25 index rebuilt when the page count changes, and there is also direct page-index lookup for exact page access. These channels are not used independently; they are orchestrated together by the periodic research pass.
+  - `memory`: every `reorg_interval` steps, `_research()` launches a ResearchAgent loop with the stages `plan -> search -> integrate -> reflect`. The planning stage asks the model to produce a structured `SearchPlan` containing information needs and retrieval actions; the search stage executes keyword, vector, and page-index retrieval against the stored pages; the integration stage merges the retrieved evidence into a working result; and the reflection stage decides whether the current integrated result is sufficient or whether another retrieval request should be generated.
+  - `memory`: the output of the research loop is stored in `_integrated_memory`, which acts as the reorganized long-term context. Then `build_context()` constructs the actual prompt context as `system prompt + task + integrated memory + recent raw steps`. Before the first research pass it falls back to showing recent abstracts instead, so the agent always sees either a compact page-level memory view or a more fully reorganized integrated memory summary.

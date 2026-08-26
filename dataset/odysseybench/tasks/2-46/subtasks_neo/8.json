@@ -1,0 +1,37 @@
+{
+    "task": "You are asked to recall and provide the location of Alice's favorite restaurant along with the cuisine it serves. The information has been discussed previously in chats but is not available in any files. State both the name of the restaurant, its address, and the type of cuisine it is known for in your answer.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_contains_keywords",
+            "args": {
+                "file": "answer.txt",
+                "keywords": [
+                    [
+                        "Blue Garden",
+                        "120 Main Street",
+                        "Vietnamese"
+                    ]
+                ]
+            }
+        }
+    ],
+    "query_sentence": "What is Alice's favorite restaurant, where is it located, and what cuisine does it offer?",
+    "ground_truth_memory": [
+        {
+            "memory_type": "fact",
+            "content": "Alice's favorite restaurant is called Blue Garden."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Blue Garden is located at 120 Main Street."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Blue Garden is known for its Vietnamese cuisine."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

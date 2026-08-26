@@ -1,0 +1,46 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "collect company trading and save the items about `sold` in company_trading.xlsx",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/company_trading.xlsx",
+        "doc_type": "xlsx",
+        "keywords": [
+          "2024-01-05",
+          "Sold",
+          "Desk",
+          "300",
+          "2024-01-12",
+          "Sold",
+          "Monitor",
+          "400",
+          "2024-01-20",
+          "Sold",
+          "Tablet",
+          "500",
+          "2024-01-30",
+          "Sold",
+          "Keyboard",
+          "100"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_not_contain",
+      "args": {
+        "file": "data/company_trading.xlsx",
+        "doc_type": "xlsx",
+        "keywords": [
+          "Bought",
+          "Laptop",
+          "2024-01-01"
+        ]
+      }
+    }
+  ]
+}

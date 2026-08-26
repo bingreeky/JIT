@@ -1,0 +1,38 @@
+{
+    "task": "Update the 'company_budget.xlsx' file by adding a new row at the bottom: set the Name as 'misc' and the amount as 4500. This should be entered on the next available row after the existing data.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "misc"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "4500"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the company budget Excel file by including an additional entry with all required details.",
+    "ground_truth_memory": [
+        {
+            "memory_type": "action_item",
+            "content": "A new item named 'misc' should be added to company_budget.xlsx with amount 4500."
+        },
+        {
+            "memory_type": "action_item",
+            "content": "The new row should be placed at the end, following the current last data row in the sheet."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

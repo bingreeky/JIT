@@ -1,0 +1,42 @@
+{
+    "task": "Add a new budget category 'office supplies' with an amount of 3000 to the existing company_budget.xlsx file. The new entry should be appended as a new row below the existing budget entries. Ensure the entry is correctly added under the columns 'Name' and 'amount'.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "office supplies"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "3000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add a new budget category for office supplies in the company_budget.xlsx file with the correct amount.",
+    "ground_truth_memory": [
+        {
+            "file": "company_budget.xlsx"
+        },
+        {
+            "new_budget_category": "office supplies"
+        },
+        {
+            "category_amount": 3000
+        },
+        {
+            "action": "Add the new budget entry as a new row below the existing ones in the budget file, using the correct columns 'Name' and 'amount'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

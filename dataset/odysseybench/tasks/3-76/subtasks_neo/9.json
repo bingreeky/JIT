@@ -1,0 +1,41 @@
+{
+    "task": "Summarize the key statistics from the car trading summary shown in '/testbed/data/car_trading.png' and create a Word document named 'car_trading_report.docx' with the following items: 1) the total number of cars traded, 2) the name and trading volume of the top-performing car model, and 3) a short executive summary highlighting a major trend visible in the trading data. Action items and specific trend details will be provided in memory. Use the information from the image and complement it with the details from memory for completeness.",
+    "evaluation": [
+        {
+            "function": "evaluate_doc_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "car_trading_report.docx",
+                "keywords": [
+                    "total number of cars",
+                    "top performing car model",
+                    "trading volume",
+                    "executive summary",
+                    "major trend"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare a report summarizing the most important statistics and trends from the car trading summary image.",
+    "ground_truth_memory": [
+        {
+            "item": "The output file should be named 'car_trading_report.docx'."
+        },
+        {
+            "item": "Include the total number of cars traded as reported in the image."
+        },
+        {
+            "item": "Identify and mention the top performing car model and its trading volume."
+        },
+        {
+            "item": "Summarize a major visible trend, such as an increase in electric vehicle trading, in the executive summary section."
+        },
+        {
+            "item": "Format the Word report with clear sections for statistics and executive summary."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,48 @@
+{
+    "task": "Extract the notice period for termination and the roles of both parties from 'contract_agreement.pdf', then summarize these in a Word document named 'notice_terms.docx'. The document should clearly state the required notice period for termination and describe each party's role, labelling ABC Company as Service Provider and XYZ Inc. as Client.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/notice_terms.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "./data/notice_terms.docx",
+                "keywords": [
+                    "notice period",
+                    "30 days",
+                    "ABC Company",
+                    "Service Provider",
+                    "XYZ Inc.",
+                    "Client"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the contract's termination notice period and the roles of the involved parties in a Word file.",
+    "ground_truth_memory": [
+        {
+            "file_name": "notice_terms.docx"
+        },
+        {
+            "termination_notice_period": "30 days"
+        },
+        {
+            "ABC_Company_role": "Service Provider"
+        },
+        {
+            "XYZ_Inc_role": "Client"
+        },
+        {
+            "output_file_should_contain": "The document must clearly state the 30-day notice period for termination, and label ABC Company as Service Provider and XYZ Inc. as Client."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

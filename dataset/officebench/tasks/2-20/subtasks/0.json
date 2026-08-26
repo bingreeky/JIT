@@ -1,0 +1,22 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Find all students who are taking CS161 and put the name and Student ID of students into students.docx. Each student should be on seperate lines, with the format `Student ID, name`.",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/students.docx",
+        "doc_type": "doc",
+        "keywords": [
+          "Vufuh",
+          "Pom",
+          "S1006"
+        ]
+      }
+    }
+  ]
+
+}

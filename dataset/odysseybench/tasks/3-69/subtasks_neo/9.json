@@ -1,0 +1,49 @@
+{
+    "task": "Extract and summarize all transcript data from 'transcripts.pdf', including each course's academic year, course number, course title, grade, GPA, credits, and the overall cumulative GPA. Produce a summary report in a new Word document named 'transcript_summary.docx', ensuring that all major transcript headings are included and cumulative GPA is clearly stated.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/transcript_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/transcript_summary.docx",
+                "keywords": [
+                    "Academic Year",
+                    "Course Number",
+                    "Course Title",
+                    "Grade",
+                    "GPA",
+                    "Credits",
+                    "Cumulative GPA"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the information from the transcript PDF into a Word document.",
+    "ground_truth_memory": [
+        {
+            "memory_item": "The transcript summary must be written to a file named 'transcript_summary.docx'."
+        },
+        {
+            "memory_item": "Summarize the main columns: Academic Year, Course Number, Course Title, Grade, GPA, Credits for each course."
+        },
+        {
+            "memory_item": "Include 'Cumulative GPA' as a clearly labeled section in the summary document."
+        },
+        {
+            "memory_item": "The summary should include headings or labels for each key transcript element: Academic Year, Course Number, Course Title, Grade, GPA, Credits, Cumulative GPA."
+        },
+        {
+            "memory_item": "Extract all the relevant course rows and cumulative GPA from 'transcripts.pdf' for the summary."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,15 @@
+description: |-
+  ## 1. Architecture Overview
+
+  HiAgent is a flat ReAct-style harness that keeps execution simple while making context management more selective.Its main innovation is a hierarchical memory strategy that stores the entire trajectory internally but only surfaces the most informative steps back to the model when building the next context window. This makes the harness especially suited to longer tool-using runs where the bottleneck is context budget rather than task decomposition.
+
+  ## 2. Key Features / Innovations
+
+  - Implements value-based memory selection rather than naive truncation: when the trajectory grows long, it scores prior steps by boundary importance and observation novelty, then keeps the highest-value ones in context.
+  - Keeps omitted history visible through explicit `[Omitted]` placeholders, so the model knows context was pruned instead of incorrectly assuming no prior work exists.
+ 
+  ## 3. Where These Features Are Implemented
+
+  - `memory`: `memory.py` is the distinctive part of HiAgent. `MemoryStrategy` stores all `StepRecord`, `PlanState`, and `SummaryState` items, but `build_context()` only selects a bounded subset of step records for the next model call. Structural items such as plan and summary are never pruned.
+  - `memory`: the value function is implemented by `_calculate_values()`. It combines boundary weighting (`w1`) with inter-step observation change (`w2`) and an optional reward-delta term (`w3`, disabled by default). Observation novelty is estimated through `_calculate_similarity()`, which prefers TF-IDF cosine similarity and falls back to a lightweight token-overlap heuristic if needed.
+  - `memory`: sampled context assembly happens in `_build_sampled_messages()`, which preserves original order, keeps first/last steps, inserts omission markers for skipped regions, and iteratively shrinks the retained step count if the token budget is still exceeded.

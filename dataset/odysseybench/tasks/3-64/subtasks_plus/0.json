@@ -1,0 +1,22 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "give some instruction and prediction in file house_price.docx based on house price index, convert to a post housing.jpg",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/housing.jpg"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/house_price.docx"
+            }
+        }
+    ],
+    "query_sentence": "Convert the instructions and predictions from the file into a post and save it as an image."
+}

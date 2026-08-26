@@ -1,0 +1,70 @@
+{
+    "task": "Add a new header 'Parent Contact' in the class_member.xlsx file and input a unique phone number for each student under this new column. Each number should be distinct and formatted as a 10-digit number. Ensure that all existing students (Noah, Carol, Jack, Mia, Noah) have a parent contact added beside their name.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Parent Contact"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_comparator",
+            "args": {
+                "file": "./data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "comparator": "lambda x: len(x) == 10 and x.isdigit()"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "comparator": "lambda x: len(x) == 10 and x.isdigit()"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "comparator": "lambda x: len(x) == 10 and x.isdigit()"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "comparator": "lambda x: len(x) == 10 and x.isdigit()"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "comparator": "lambda x: len(x) == 10 and x.isdigit()"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the class_member.xlsx file with additional contact information for each student's parent.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new header 'Parent Contact' needs to be added as column 2 in class_member.xlsx."
+        },
+        {
+            "fact": "Each student (Noah, Carol, Jack, Mia, Noah) must have a unique 10-digit phone number filled in under 'Parent Contact'."
+        },
+        {
+            "action_item": "Ensure that the phone numbers for each student parent are distinct and formatted as 10 digits only (no dashes or spaces)."
+        },
+        {
+            "action_item": "The parent phone numbers should be placed in column 2 for all rows with student names."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

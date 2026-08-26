@@ -1,0 +1,347 @@
+{
+  "query": "I have a last-minute trip coming up, so I need to order a few things that will all arrive quickly. First, I'm looking for something from Anta in size 42 and a Light Grey color; since it's a rush order, I want a popular item with more than 950 total reviews and a transport time of less than 2. Next, I need a men's item for myself from Under Armour in Dark Green, which also has to have a transport time of less than 2. I'm also getting a very highly-rated product from the brand Salomon. To ensure its quality, it must have more than 550 five-star reviews, with fewer than 5 one-star and two-star reviews, and a transport time of less than 2 days. Finally, I need one more men's item from Anta in Beige, and I want to make sure it's definitely available, so the stock quantity must be more than 200.",
+  "ground_truth_products": [
+    {
+      "product_id": "7b1481f6",
+      "name": "Anta Men's Urban Explorer Running Shoes",
+      "price": 479.9,
+      "brand": "Anta",
+      "color": "Light Grey",
+      "size": "42",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 18750
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 988,
+        "distribution": {
+          "5_star": 741,
+          "4_star": 178,
+          "3_star": 39,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "JD Logistics"
+      }
+    },
+    {
+      "product_id": "97681f89",
+      "name": "Men's Rival Fleece Joggers",
+      "price": 449.0,
+      "brand": "Under Armour",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 482,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 957,
+        "total": 11340
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 980,
+          "4_star": 215,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "916ffc72",
+      "name": "Men's Wayfarer Hiking Pants",
+      "price": 849.5,
+      "brand": "Salomon",
+      "color": "Olive Green",
+      "size": "L",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not iron or bleach.",
+      "sales_volume": {
+        "monthly": 375,
+        "total": 4150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 720,
+        "distribution": {
+          "5_star": 595,
+          "4_star": 105,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2c3562f8",
+      "name": "Men's Urban Trekker Winter Boots",
+      "price": 629.5,
+      "brand": "Anta",
+      "color": "Beige",
+      "size": "42",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Wool",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 7890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 390,
+          "4_star": 95,
+          "3_star": 18,
+          "2_star": 7,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the size is 42, the brand is Anta, the color is Light Grey, the total number of reviews is more than 950, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "size",
+          "value": "42",
+          "operator": "equals",
+          "operator_value": "42"
+        },
+        {
+          "field": "brand",
+          "value": "Anta",
+          "operator": "equals",
+          "operator_value": "Anta"
+        },
+        {
+          "field": "color",
+          "value": "Light Grey",
+          "operator": "equals",
+          "operator_value": "Light Grey"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 988,
+          "operator": "greater_than",
+          "operator_value": 950.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Under Armour, the color is Dark Green, the target demographic is Men, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Under Armour",
+          "operator": "equals",
+          "operator_value": "Under Armour"
+        },
+        {
+          "field": "color",
+          "value": "Dark Green",
+          "operator": "equals",
+          "operator_value": "Dark Green"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Salomon, the transport time is less than 2 days, there are more than 550 5-star reviews, fewer than 5 1-star reviews, and fewer than 5 2-star reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Salomon",
+          "operator": "equals",
+          "operator_value": "Salomon"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 578,
+          "operator": "greater_than",
+          "operator_value": 550.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Anta, the stock quantity is more than 200, the target demographic is Men, and the color is Beige.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Anta",
+          "operator": "equals",
+          "operator_value": "Anta"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 215,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "color",
+          "value": "Beige",
+          "operator": "equals",
+          "operator_value": "Beige"
+        }
+      ]
+    }
+  ]
+}

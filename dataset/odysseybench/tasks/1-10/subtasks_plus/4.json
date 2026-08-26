@@ -1,0 +1,20 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "What is the item that is bought the fewest amount in shopping list excel file?",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "txt",
+                "file": "./data/answer.txt",
+                "keywords": [
+                    "apple"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Identify the item bought the fewest amount in the shopping list excel file."
+}

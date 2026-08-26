@@ -1,0 +1,66 @@
+{
+    "task": "1. Convert the task list from the Excel file 'task.xlsx' into a Word document named 'task_summary.docx'. 2. Summarize the activities from the Excel sheet and include at least the following keywords for each activity in the Word document: activity number, start date, end date, and the name of the activity. 3. Ensure all 12 activities are included and formatted as a bullet list. 4. Email Alice with the main contents of the generated Word document for review.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/task_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/task_summary.docx",
+                "keywords": [
+                    "Activity 1",
+                    "Activity 2",
+                    "Activity 3",
+                    "Activity 4",
+                    "Activity 5",
+                    "Activity 6",
+                    "Activity 7",
+                    "Activity 8",
+                    "Activity 9",
+                    "Activity 10",
+                    "Activity 11",
+                    "Activity 12"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "Activity 1",
+                    "Activity 2",
+                    "Activity 3"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize all tasks from the Excel file in a Word document and send the summary to Alice via email.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output Word document should be named 'task_summary.docx' in the data directory."
+        },
+        {
+            "fact": "Each activity from the Excel (activity number, start date, end date, and name) must be included in the summary as a bullet point in the Word document."
+        },
+        {
+            "fact": "There are 12 activities in the Excel file, all should be in the Word summary."
+        },
+        {
+            "fact": "After generating the Word document, email Alice the main contents from this summary for review."
+        },
+        {
+            "fact": "The Excel file with the source data is 'task.xlsx' in the data directory."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

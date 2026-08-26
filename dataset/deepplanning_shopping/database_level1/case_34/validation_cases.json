@@ -1,0 +1,417 @@
+{
+  "query": "I'm getting some new gear for my spring and autumn activities. First, I’m looking for a product from the Salomon brand in Green, and I want to ensure it's well-liked by checking that it has fewer than 10 two-star reviews. To go with that, I need another Salomon item, specifically in Olive Green, suitable for Spring/Autumn, with 'X-Adventure Trail Running' in the name and a transport time of less than 2 days. I also need to find a product with 'Phoenix Fleece' in the name that can arrive quickly, so it must have a transport time of less than 2 days, over 600 five-star reviews, and a stock quantity greater than 200. Next, I need a highly-rated item in Grey with more than 1100 total reviews, fewer than 35 three-star reviews, and less than 10 one-star reviews. Finally, I'm looking for a popular size S item with a monthly sales volume over 950 that also has a transport time of less than 2 days.",
+  "ground_truth_products": [
+    {
+      "product_id": "429b136a",
+      "name": "Women's XT-6 Trail Running Shoes",
+      "price": 1399.0,
+      "brand": "Salomon",
+      "color": "Green",
+      "size": "37",
+      "stock_quantity": 152,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 4560
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 110,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Great color",
+        "True to size",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2b7fc4b0",
+      "name": "Nike Sportswear Phoenix Fleece Turtleneck Top",
+      "price": 449.0,
+      "brand": "Nike",
+      "color": "Beige",
+      "size": "S",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Loose Fit (Oversize)",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold inside out with like colors. Tumble dry low. Do not iron on embroidered logo.",
+      "sales_volume": {
+        "monthly": 1340,
+        "total": 5280
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 720,
+        "distribution": {
+          "5_star": 610,
+          "4_star": 85,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "fecb310e",
+      "name": "Salomon Women's X-Adventure Trail Running Shoes",
+      "price": 1199.0,
+      "brand": "Salomon",
+      "color": "Olive Green",
+      "size": "37",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 312,
+        "total": 4580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1024,
+        "distribution": {
+          "5_star": 850,
+          "4_star": 125,
+          "3_star": 35,
+          "2_star": 9,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "cbd3757a",
+      "name": "Women's Omni-Wick™ Tech Long-Sleeve Top",
+      "price": 389.0,
+      "brand": "Columbia",
+      "color": "Grey",
+      "size": "S",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips,Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or use fabric softener.",
+      "sales_volume": {
+        "monthly": 570,
+        "total": 6890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 980,
+          "4_star": 125,
+          "3_star": 30,
+          "2_star": 12,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "5d241d07",
+      "name": "Women's Ribbed Crew Neck Long-Sleeve T-shirt",
+      "price": 99.0,
+      "brand": "Uniqlo",
+      "color": "Coffee",
+      "size": "S",
+      "stock_quantity": 872,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 96
+        },
+        {
+          "material": "Spandex",
+          "percentage": 4
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1548,
+        "total": 25730
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1245,
+        "distribution": {
+          "5_star": 980,
+          "4_star": 210,
+          "3_star": 40,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Salomon, the color is Green, and the number of 2-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Salomon",
+          "operator": "equals",
+          "operator_value": "Salomon"
+        },
+        {
+          "field": "color",
+          "value": "Green",
+          "operator": "equals",
+          "operator_value": "Green"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with 'Phoenix Fleece' in the name, with more than 600 5-star reviews, a transport time of less than 2 days, and a stock quantity greater than 200.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 610,
+          "operator": "greater_than",
+          "operator_value": 600.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 215,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        },
+        {
+          "field": "name",
+          "value": "Nike Sportswear Phoenix Fleece Turtleneck Top",
+          "operator": "contains",
+          "operator_value": "Phoenix Fleece"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Olive Green, the brand is Salomon, transport time is less than 2 days, the product is suitable for Spring/Autumn, and the name contains 'X-Adventure Trail Running'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Olive Green",
+          "operator": "equals",
+          "operator_value": "Olive Green"
+        },
+        {
+          "field": "brand",
+          "value": "Salomon",
+          "operator": "equals",
+          "operator_value": "Salomon"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        },
+        {
+          "field": "name",
+          "value": "Salomon Women's X-Adventure Trail Running Shoes",
+          "operator": "contains",
+          "operator_value": "X-Adventure Trail Running"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where there are fewer than 35 3-star reviews, the color is Grey, there are less than 10 1-star reviews, and the total number of reviews is more than 1100.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 30,
+          "operator": "less_than",
+          "operator_value": 35.0
+        },
+        {
+          "field": "color",
+          "value": "Grey",
+          "operator": "equals",
+          "operator_value": "Grey"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1152,
+          "operator": "greater_than",
+          "operator_value": 1100.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the monthly sales volume is more than 950, transport time is less than 2, and the size is S.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 975,
+          "operator": "greater_than",
+          "operator_value": 950.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "size",
+          "value": "S",
+          "operator": "equals",
+          "operator_value": "S"
+        }
+      ]
+    }
+  ]
+}

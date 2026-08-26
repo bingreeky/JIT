@@ -1,0 +1,460 @@
+{
+  "query": "I'm updating my wardrobe for an upcoming trip and need to order a few specific things. First, I'm looking for a 'Henley Top' from the brand Timberland that is popular, with monthly sales over 350 and fewer than 10 one-star reviews. Next, I need something from Ralph Lauren with an average rating score greater than 4.5 that can get here in less than 3 days. I also need a high-performance item for women from Arc'teryx that has to arrive in under 2 days; it must be a bestseller with more than 1900 total sales and over 300 five-star ratings.\n\nAdditionally, I'm searching for a black item with an average score above 4.5, monthly sales of more than 200, and fewer than 10 two-star reviews. For layering, I need a 'Tech Base Layer' in size XL that is well-reviewed, with more than 350 total reviews and under 5 two-star reviews. Finally, I'm looking for a beige item for women that is in stock, with a quantity over 300, has fewer than 10 two-star reviews, and can be delivered in less than 3 days. My budget is between 5556 and 6346.",
+  "ground_truth_products": [
+    {
+      "product_id": "81f38e71",
+      "name": "Women's Heritage Long-Sleeve Henley Top",
+      "price": 549.5,
+      "brand": "Timberland",
+      "color": "Camel",
+      "size": "XL",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Button-down, Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 12450
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 580,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 100,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "146e8556",
+      "name": "Women's Cable-Knit Turtleneck Sweater",
+      "price": 1499.0,
+      "brand": "Ralph Lauren",
+      "color": "Camel",
+      "size": "XL",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 85
+        },
+        {
+          "material": "Nylon",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Hand wash cold, lay flat to dry. Do not bleach. Use a cool iron if necessary.",
+      "sales_volume": {
+        "monthly": 120,
+        "total": 578
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 188,
+        "distribution": {
+          "5_star": 155,
+          "4_star": 25,
+          "3_star": 6,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d3cfba9c",
+      "name": "Women's Aerios GTX Winter Hiking Shoes",
+      "price": 1899.0,
+      "brand": "Arc'teryx",
+      "color": "Khaki",
+      "size": "38",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth and mild soap. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 230,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 45,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Great for winter hiking",
+        "Comfortable fabric",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "c9f7bf70",
+      "name": "Women's Classic Commuter Loafer Shoes",
+      "price": 549.0,
+      "brand": "Peacebird",
+      "color": "Black",
+      "size": "38",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach.",
+      "sales_volume": {
+        "monthly": 230,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 680,
+        "distribution": {
+          "5_star": 510,
+          "4_star": 130,
+          "3_star": 25,
+          "2_star": 8,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "b2a5fc04",
+      "name": "Women's Summit Series Tech Base Layer Top",
+      "price": 649.0,
+      "brand": "The North Face",
+      "color": "Blue",
+      "size": "XL",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 115,
+        "total": 1450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 388,
+        "distribution": {
+          "5_star": 320,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e0d19fb3",
+      "name": "Women's Breathable Mesh Platform Sneakers",
+      "price": 429.0,
+      "brand": "Peacebird",
+      "color": "Beige",
+      "size": "38",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        },
+        {
+          "material": "Cotton",
+          "percentage": 25
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Avoid direct sunlight.",
+      "sales_volume": {
+        "monthly": 580,
+        "total": 3450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 720,
+          "4_star": 135,
+          "3_star": 25,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "STO Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Timberland, the number of 1-star reviews is less than 10, the monthly sales volume is more than 350, and the name contains 'Henley Top'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Timberland"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 352
+        },
+        {
+          "field": "name",
+          "value": "Women's Redwood Falls Cozy Henley Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Ralph Lauren, the transport time is less than 3, and the average rating score is greater than 4.5.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the brand is Arc'teryx, it has more than 300 5-star ratings, the total sales volume is more than 1900, and the target demographic is Women.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Arc'teryx"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 340
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 1988
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the monthly sales volume is more than 200, the color is Black, the number of 2-star reviews is less than 10, and the average score is greater than 4.5.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 230
+        },
+        {
+          "field": "color",
+          "value": "Black"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 8
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total number of reviews is more than 350, the size is XL, the number of 2-star reviews is less than 5, and the name contains 'Tech Base Layer'.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 388
+        },
+        {
+          "field": "size",
+          "value": "XL"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 2
+        },
+        {
+          "field": "name",
+          "value": "Women's Summit Series Tech Base Layer Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Beige, the transport time is less than 3, the target demographic is Women, the stock quantity is more than 300, and the number of 2 star reviews is less than 10.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Beige"
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 312
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}

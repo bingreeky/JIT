@@ -1,0 +1,21 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Scan Conference Invitation PDF and search for conference date, add event to that date on calender, save in my calendar.",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "calendar/Alice.ics",
+        "doc_type": "ics",
+        "keywords": [
+          "Conference",
+          "DTSTART:20241115"
+        ]
+      }
+    }
+  ]
+  
+}

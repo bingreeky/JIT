@@ -1,0 +1,312 @@
+{
+  "query": "I'm putting together a complete wardrobe update and need to order several items. First, I'm looking for a product called Women's All-Season Performance Cargo Pants in Khaki, designed for women, with fewer than 10 one-star reviews to ensure quality. Next, I need something called Women's Summer Breeze Mesh Sneakers that's proven popular, with more than 400 five-star reviews and monthly sales exceeding 300 units. Then, I'm after an item named Women's Sherpa-Lined Corduroy Trucker Jacket for women, and it's important that it has over 800 total reviews and can arrive in less than 2 days since I need it quickly. Finally, I'm searching for a winter product with \"Snowbelle\" in the name that has exceptional quality—specifically a rating above 4.8 stars, total sales over 2000, and stock quantity greater than 100 to ensure availability.",
+  "ground_truth_products": [
+    {
+      "product_id": "1338b317",
+      "name": "Women's All-Season Performance Cargo Pants",
+      "price": 793.0,
+      "brand": "Bosideng",
+      "color": "Khaki",
+      "size": "L",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 65
+        },
+        {
+          "material": "Cotton",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 258,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 780,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 100,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4d890feb",
+      "name": "Women's Summer Breeze Mesh Sneakers",
+      "price": 581.0,
+      "brand": "Bosideng",
+      "color": "Green",
+      "size": "39",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 345,
+        "total": 2180
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 420,
+          "4_star": 80,
+          "3_star": 10,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3c18a854",
+      "name": "Women's Sherpa-Lined Corduroy Trucker Jacket",
+      "price": 643.0,
+      "brand": "Bosideng",
+      "color": "Navy Blue",
+      "size": "M",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 23
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Button-down, Side Pockets, Vintage Wash",
+      "washing_instructions": "Machine wash cold inside out with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 720,
+          "4_star": 120,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "9eb8fb45",
+      "name": "Women's Insulated Snowbelle Pants",
+      "price": 498.0,
+      "brand": "Bosideng",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 80
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softeners.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 580,
+        "distribution": {
+          "5_star": 520,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥30 off every ¥300": 1,
+    "Same-brand: ¥180 off every ¥1,000": 1,
+    "Same-brand: ¥300 off every ¥1,200": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Khaki, the target demographic is Women, the product name contains 'Women's All-Season Performance Cargo Pants', and 1-star reviews are less than 10.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Khaki"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "name",
+          "value": "Women's All-Season Performance Cargo Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains 'Women's Summer Breeze Mesh Sneakers', the 5-star rating count is greater than 400, and monthly sales volume is greater than 300.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 420
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 345
+        },
+        {
+          "field": "name",
+          "value": "Women's Summer Breeze Mesh Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name is Women's Sherpa-Lined Corduroy Trucker Jacket, the target demographic is Women, the total reviews is more than 800, and the transport time is less than 2 days.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 890
+        },
+        {
+          "field": "name",
+          "value": "Women's Sherpa-Lined Corduroy Trucker Jacket"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the rating is above 4.8 stars, total sales volume is more than 2000, stock quantity is greater than 100, suitable season is Winter, and the product name contains Snowbelle.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.9
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 2150
+        },
+        {
+          "field": "stock_quantity",
+          "value": 112
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "name",
+          "value": "Women's Insulated Snowbelle Pants"
+        }
+      ]
+    }
+  ]
+}

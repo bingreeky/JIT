@@ -1,0 +1,46 @@
+{
+    "task": "Review the 'meeting_agenda.pdf' file and create a new Word document named 'financial_meeting_summary.docx' that summarizes the main agenda points. The summary should cover the welcome, fiscal year review, vote on new secretary, discussion of advisory committees, vote on budget, break, and new business. Ensure that each agenda item is presented as a bullet point. The document must be saved as 'financial_meeting_summary.docx' in the data directory.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/financial_meeting_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/financial_meeting_summary.docx",
+                "keywords": [
+                    "welcome",
+                    "fiscal year review",
+                    "vote",
+                    "secretary",
+                    "advisory",
+                    "committees",
+                    "budget",
+                    "break",
+                    "new",
+                    "business"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please review the meeting agenda and create a summary document capturing all main agenda items.",
+    "ground_truth_memory": [
+        {
+            "note": "The output file should be named 'financial_meeting_summary.docx' and saved in the data directory."
+        },
+        {
+            "note": "Summarize the agenda points from 'meeting_agenda.pdf' as bullet points: welcome, fiscal year review, vote on new secretary, discussion of advisory committees, vote on budget, break, new business."
+        },
+        {
+            "note": "Include the main agenda items explicitly as keywords in the summary: welcome, fiscal year review, vote, secretary, advisory committees, budget, break, new business."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

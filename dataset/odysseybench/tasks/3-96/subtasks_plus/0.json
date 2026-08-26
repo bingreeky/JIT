@@ -1,0 +1,35 @@
+{
+    "username": "Jack",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "read company revenues and send an email with subject revenues, containing data to Bob for reporting, also write a revenue.docx to summarize it",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/revenue.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "emails/Bob/revenues.eml"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "4439044",
+                    "2212203",
+                    "4983791",
+                    "2832545"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Send an email with the company revenue data to Bob for reporting and summarize it in a document."
+}

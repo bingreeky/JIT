@@ -1,0 +1,38 @@
+{
+    "task": "Remove all entries for the student named 'Olivia' from the class_member.xlsx file. Ensure that every row where the Name is 'Olivia' is deleted from the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_diff_contain_text",
+            "file": "./data/class_member.xlsx",
+            "args": {
+                "input_file": "../../../../cache/0/testbed/data/class_member.xlsx",
+                "output_file": "./data/class_member.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "Olivia",
+                    "1",
+                    "2"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Remove every student named Olivia from the class_member.xlsx file.",
+    "ground_truth_memory": [
+        {
+            "fact": "There are multiple entries for the student 'Olivia' in class_member.xlsx."
+        },
+        {
+            "fact": "Each row with the name 'Olivia' must be deleted from class_member.xlsx."
+        },
+        {
+            "fact": "Be sure to remove 'Olivia' from all listed classes, not just one instance."
+        },
+        {
+            "action_item": "Only rows where the Name column is exactly 'Olivia' should be deleted in class_member.xlsx."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

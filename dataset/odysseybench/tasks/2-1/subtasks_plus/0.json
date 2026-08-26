@@ -1,0 +1,23 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "extract text from power failure notification image and save in power_failure.pdf",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/power_failure.pdf",
+                "doc_type": "pdf",
+                "keywords": [
+                    "Electric",
+                    "Failure",
+                    "Power",
+                    "issue"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract and save the text from the notification image into the specified PDF file."
+}

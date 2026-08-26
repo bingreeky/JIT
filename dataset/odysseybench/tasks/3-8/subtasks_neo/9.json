@@ -1,0 +1,56 @@
+{
+    "task": "Read the student scores in both midterm1 and midterm2 from score.xlsx. Identify students whose scores increased by 20 points or more from midterm1 to midterm2. Create a new file improved_students.xlsx listing only these students with their scores. Then, summarize the number of improved students and note the improvement criteria in a summary report called improvement_summary.docx.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/improved_students.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/improvement_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/improved_students.xlsx",
+                "keywords": [
+                    "Ivy",
+                    "Kate"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/improvement_summary.docx",
+                "keywords": [
+                    "students",
+                    "improved",
+                    "20 points",
+                    "2"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a file with students who had significant improvement and summarize the results in a report.",
+    "ground_truth_memory": [
+        {
+            "fact": "Only include students who improved by 20 points or more.",
+            "action_item": "Filter and list only the qualifying students and their scores in improved_students.xlsx"
+        },
+        {
+            "fact": "Summarize the number of improved students and the improvement rule in a Word report.",
+            "action_item": "The report filename should be improvement_summary.docx and mention the improvement criteria (at least 20 points increase) and the count of such students."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

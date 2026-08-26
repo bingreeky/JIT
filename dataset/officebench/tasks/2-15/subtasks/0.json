@@ -1,0 +1,27 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Convert meeting agenda from calendar into Excel file meeting_agenda.xlsx for further analysis",
+  "evaluation": [
+    {
+      "function": "evaluate_file_exist",
+      "args": {
+        "file": "data/meeting_agenda.xlsx"
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+          "doc_type": "xlsx",
+          "file": "data/meeting_agenda.xlsx",
+          "keywords": [
+              "Linda",
+              "Davide",
+              "Charlie"
+          ]
+      }
+  }
+  ]
+}

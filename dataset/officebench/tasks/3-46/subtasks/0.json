@@ -1,0 +1,75 @@
+{
+  "username": "Bob",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "schedule a reward meeting to the top-three students in midterm 2, create calendar event reward for them with their score in midterm 2. email to top-three students separately with the same details in the calendar event.",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "calendar/Carol.ics",
+        "keywords": [
+          "reward",
+          "100"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "calendar/Kate.ics",
+        "keywords": [
+          "reward",
+          "95"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "calendar/Emma.ics",
+        "keywords": [
+          "reward",
+          "93"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "email",
+        "username": "Carol",
+        "keywords": [
+          "reward",
+          "100"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "email",
+        "username": "Kate",
+        "keywords": [
+          "reward",
+          "95"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "email",
+        "username": "Emma",
+        "keywords": [
+          "reward",
+          "93"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "task": "Review Thomas Robinson's course history in 'Thomas_Robinson_Course_List.xlsx' and determine if he qualifies for the Robotics Specialization. The requirements are as follows: The student must have completed CS 101, CS 102, CS 104, MATH 151, and PHYS 104, all in any term. Output your answer as 'Yes' if all courses have been completed, otherwise 'No', and write the result to 'answer.txt'.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "txt",
+                "file": "./data/answer.txt",
+                "keywords": [
+                    "Yes"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Determine if Thomas Robinson is eligible for the Robotics Specialization based on his completed courses.",
+    "ground_truth_memory": [
+        {
+            "item": "The file name for Thomas Robinson's course history is 'Thomas_Robinson_Course_List.xlsx'."
+        },
+        {
+            "item": "The answer, either 'Yes' or 'No', must be written to 'answer.txt' in the data directory."
+        },
+        {
+            "item": "Required Robotics Specialization courses: CS 101, CS 102, CS 104, MATH 151, PHYS 104. Student must have completed all of these, any term."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,261 @@
+{
+  "query": "I'm doing a wardrobe refresh and need a few specific items. First, I'm looking for a popular summer product in Khaki, size M. To ensure it's a trending item, it must have a monthly sales volume of more than 1500, and I'll need it to arrive in less than 5 days. Next, I want a couple of things from the brand Anta. I need a highly-rated item from them suitable for Spring/Autumn, with an average score greater than 4.5. I also need an all-seasons product from Anta in black. This one is more urgent, so the transport time must be less than 2 days, and it should have more than 950 total reviews so I know it's a solid choice.",
+  "ground_truth_products": [
+    {
+      "product_id": "bdb77a63",
+      "name": "Men's Summer Breeze Linen Shorts",
+      "price": 249.0,
+      "brand": "Bosideng",
+      "color": "Khaki",
+      "size": "M",
+      "stock_quantity": 780,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 55
+        },
+        {
+          "material": "Cotton",
+          "percentage": 45
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1530,
+        "total": 5210
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 452,
+        "distribution": {
+          "5_star": 310,
+          "4_star": 95,
+          "3_star": 32,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great for hot weather"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "b35c5cb9",
+      "name": "Men's Urban Walker Lite Shoes",
+      "price": 429.0,
+      "brand": "Anta",
+      "color": "White",
+      "size": "41",
+      "stock_quantity": 380,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash or expose to direct sunlight.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 9800
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 612,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 120,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e370b8b6",
+      "name": "Anta UrbanRider Pro Running Shoes",
+      "price": 479.0,
+      "brand": "Anta",
+      "color": "Black",
+      "size": "41",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a soft, damp cloth. Air dry. Do not machine wash or expose to high heat.",
+      "sales_volume": {
+        "monthly": 612,
+        "total": 5488
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 975,
+        "distribution": {
+          "5_star": 780,
+          "4_star": 150,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the size is M, it is suitable for Summer, the transport time is less than 5 days, the color is Khaki, and the monthly sales volume is more than 1500.",
+      "features": [
+        {
+          "field": "size",
+          "value": "M",
+          "operator": "equals",
+          "operator_value": "M"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "transport_time",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "color",
+          "value": "Khaki",
+          "operator": "equals",
+          "operator_value": "Khaki"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1530,
+          "operator": "greater_than",
+          "operator_value": 1500.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Anta, the average score is greater than 4.5, and the suitable season is Spring/Autumn.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Anta",
+          "operator": "equals",
+          "operator_value": "Anta"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with more than 950 total reviews, a transport time of less than 2 days, where the brand is Anta, the color is Black, and they are suitable for All Seasons.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 975,
+          "operator": "greater_than",
+          "operator_value": 950.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Anta",
+          "operator": "equals",
+          "operator_value": "Anta"
+        },
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        }
+      ]
+    }
+  ]
+}

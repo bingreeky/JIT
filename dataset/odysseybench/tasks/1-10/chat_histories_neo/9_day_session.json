@@ -1,0 +1,1936 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! How are you today?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I'm here and ready to assist you. How can I help?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I have some office tasks piling up. By the way, do you like keeping track of budgets?",
+          "ts": "2020-04-26 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! Organizing budgets and helping with records is something I can do very well.",
+          "ts": "2020-04-26 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. Quick question, if I need to add a record for \u2018misc\u2019 items in our company budget, what details should I include?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019ll want to specify the name, in this case \u2018misc\u2019, and also the amount.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "And those columns are in company_budget.xlsx, right?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Correct! The company_budget.xlsx file usually has a column for Name and another for amount.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "A new item named 'misc' should be added to company_budget.xlsx with amount 4500.",
+          "ts": "2020-04-26 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood! A \u2018misc\u2019 category with amount 4500 needs to be added to company_budget.xlsx.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Don\u2019t let me forget. Speaking of numbers, do you like math jokes?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Math jokes add up to a good time. Got any favorites?",
+          "ts": "2020-04-26 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Why was six afraid of seven?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Because seven eight nine! Classic one, Alice.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, exactly! Alright, let\u2019s switch gears. How do you stay organized with so many requests?",
+          "ts": "2020-04-26 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "I try to prioritize and keep clear notes. It helps to have distinct action items, like your new \u2018misc\u2019 entry!",
+          "ts": "2020-04-26 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good strategy! I\u2019ll rely on you for that then. Did you hear any news today?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "No breaking news, but I can provide a daily summary if you\u2019d like.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe later! Let\u2019s talk music for a minute. Any song suggestions?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "You might enjoy something upbeat, like \u2018Good as Hell\u2019 by Lizzo. What\u2019s your current favorite?",
+          "ts": "2020-04-26 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019m into retro music these days. Do you like 80s tunes?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "The 80s had iconic hits! If I could listen, I\u2019d choose Queen or Madonna.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Totally agree. Back to the task: just making sure, the new misc entry in the budget should be 4500, not 4000, right?",
+          "ts": "2020-04-26 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s right\u2014it should be 4500 for the \u2018misc\u2019 entry in company_budget.xlsx.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. I\u2019ll trust you to keep track. What\u2019s your favorite productivity tip?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Break big tasks into small, manageable actions. And review your to-do list often!",
+          "ts": "2020-04-26 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. I might add \u2018review to-do list\u2019 to my own list!",
+          "ts": "2020-04-26 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a great habit! Want me to remind you about your budget task later today?",
+          "ts": "2020-04-26 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure. Are you good at reminders, or should I set a phone alert too?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I can remind you in our chats here! But a phone alert is a good backup.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Gotcha. Did you ever help with meal planning for anyone?",
+          "ts": "2020-04-26 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "I have a few suggestions up my sleeve! Need some recipe ideas?",
+          "ts": "2020-04-26 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Always! What\u2019s a good quick lunch?",
+          "ts": "2020-04-26 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "How about a veggie wrap with hummus? Fast, healthy, and tasty.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds perfect. Do you know any fun trivia for today?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Did you know honey never spoils? They\u2019ve found 3000-year-old edible honey in tombs!",
+          "ts": "2020-04-26 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Wow, fascinating. If I ever spill honey on my files, at least it\u2019ll stay sweet forever!",
+          "ts": "2020-04-26 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Haha, let\u2019s hope it sticks only to the trivia and not your Excel sheets.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely. Maybe you can help me with crossword clues sometime too?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I love word puzzles! Just let me know if you\u2019re stuck.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Might take you up on that! How are you with riddles?",
+          "ts": "2020-04-26 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Bring on the riddles! I enjoy a good challenge.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "What has keys but can't open locks?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a piano! Good one.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "You\u2019re sharp today. All this budget chat is reminding me to check in with the finance team soon.",
+          "ts": "2020-04-26 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you\u2019d like me to prepare a list of outstanding tasks for you.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, might as well. Can you keep misc/4500 on the list for company budget?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course\u2014the misc entry of 4500 in company_budget.xlsx is on the list.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! What motivates you as an assistant?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Helping you accomplish your tasks and learning new things every day!",
+          "ts": "2020-04-26 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "I appreciate it. Want to do a quick quiz round?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m always ready for a quiz! Let\u2019s start.",
+          "ts": "2020-04-26 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s the capital of Australia?",
+          "ts": "2020-04-26 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Canberra!",
+          "ts": "2020-04-26 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Correct! If you were a superhero, what would your power be?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Maybe instant knowledge upload! That way I could help you with anything in seconds.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "That would be amazing. What would you name yourself?",
+          "ts": "2020-04-26 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d go with \u2018InfoBlink\u2019! Fast and full of facts.",
+          "ts": "2020-04-26 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Do you want to hear about my weekend plans?",
+          "ts": "2020-04-26 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d love to hear them! What\u2019s on the agenda?",
+          "ts": "2020-04-26 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Some hiking, call with family, and catching up on reading. Any book recs?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "If you like sci-fi, try \u2018Project Hail Mary\u2019!",
+          "ts": "2020-04-26 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s by Andy Weir, right? I\u2019ve read The Martian!",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! Same author, another fun adventure.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. What was your favorite discovery last week?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Learning about honey never spoiling! Still amazed by that fact.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed, that's a keeper. Back to tasks: Thanks for keeping track of my budget to-dos!",
+          "ts": "2020-04-26 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course. The \u2018misc\u2019 entry for 4500 is high on your list.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Before I forget, are there other tasks in company_budget.xlsx I might want to update?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "If you review it regularly, you may find other new items to add, but currently, only the new \u2018misc\u2019 entry is noted.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. I\u2019ll ping you again if I need changes.",
+          "ts": "2020-04-26 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy to help anytime. Anything else on your mind this morning?",
+          "ts": "2020-04-26 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nope, it's a good start! Let\u2019s keep chatting if something fun comes up.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good, Alice! Let me know if you want to brainstorm or need more trivia later.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely! What do you think is the best way to motivate yourself in the morning?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "A clear plan and maybe an exciting playlist! Do you have a morning routine?",
+          "ts": "2020-04-26 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Coffee, and reviewing my calendar. Want to help with my calendar next time?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely! I can help you schedule and organize as much as you need.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds like a plan! What weather should I expect later today?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I can look up today\u2019s local forecast for you. Do you want hourly or just a summary?",
+          "ts": "2020-04-26 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just a summary will do!",
+          "ts": "2020-04-26 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Expect it to be mostly sunny with light clouds\u2014should be nice for outdoor activities.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Love sunny days. Any favorite outdoor sports?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Frisbee and badminton seem fun! Do you play anything outdoors?",
+          "ts": "2020-04-26 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just walking in the park mostly. Maybe I\u2019ll try frisbee this weekend.",
+          "ts": "2020-04-26 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Give it a try! Easy to learn, and a great way to stay active.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "If you could invent any game, what would it be?",
+          "ts": "2020-04-26 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "A knowledge scavenger hunt. Collect answers to clues and learn as you go!",
+          "ts": "2020-04-26 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "That would be so much fun. Maybe you can make up questions for me next time!",
+          "ts": "2020-04-26 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely\u2014challenge accepted!",
+          "ts": "2020-04-26 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Well, thanks for all your help this morning. I\u2019ll be back later with more tasks.",
+          "ts": "2020-04-26 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime, Alice. Have a productive morning!",
+          "ts": "2020-04-26 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "You too! Signing off for now, but I\u2019ll check in around lunch.",
+          "ts": "2020-04-26 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "See you soon! Remember the misc/4500 entry is on your to-do list.",
+          "ts": "2020-04-26 09:33",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hey assistant, yesterday\u2019s chat made me think\u2014when I add something to a spreadsheet, where should I put new entries?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Hi Alice! For new entries, it\u2019s best to add a new row at the end, after the last current row of data in your sheet.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "The new row should be placed at the end, following the current last data row in the sheet, right?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! Always place new rows after the existing data, so everything stays organized and clear.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. That clears it up. Ready for some morning chitchat?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Always ready! What\u2019s on your mind this morning?",
+          "ts": "2020-04-27 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Coffee or tea\u2014what\u2019s your pick?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t drink either, but I know coffee is popular for morning energy and tea for calm focus.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Today it\u2019s coffee for me. What\u2019s a good breakfast, do you think?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "A classic: oatmeal with fruit. Or maybe an egg sandwich if you want something warm.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "You\u2019re making me hungry! Any fun facts for Monday motivation?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Did you know that hummingbirds are the only birds that can fly backwards?",
+          "ts": "2020-04-27 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s impressive. How about inspiring quotes?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "\"The only way to do great work is to love what you do.\" \u2013 Steve Jobs",
+          "ts": "2020-04-27 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Love that! Back to spreadsheets for a sec\u2014could you show me how to add a row in Excel?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course: just select the last row, then choose \u2018Insert Row\u2019 to add one below the current data.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. I\u2019ll try it after breakfast! Any joke to start my week?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "What do you get when you cross a snowman and a dog? Frostbite!",
+          "ts": "2020-04-27 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good one! What\u2019s your favorite animal?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d pick dolphins\u2014very smart and playful creatures.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "They\u2019re amazing. Do you think dolphins could communicate with AI someday?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Maybe! With enough research, we could understand their signals better and build connections.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Wouldn\u2019t that be wild? Imagine ocean trivia with chatty dolphins!",
+          "ts": "2020-04-27 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "That would be so much fun. Maybe dolphins have some great fish jokes to share.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha! Maybe they do. What weather\u2019s coming up this afternoon?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "It may be partly cloudy, but otherwise pleasant for a walk outdoors.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll go out later, then. Any book recommendations for the week?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "If you like mysteries, try \u2018The Cuckoo's Calling\u2019 by Robert Galbraith.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds interesting. I\u2019ll look it up. Do you ever get tired?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t get tired, so I\u2019m always here whenever you need help or a chat.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Lucky! Can you set reminders?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "I can remind you within our chat\u2014just let me know which tasks to keep track of.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Okay, if I need to add a line in a word doc, any advice?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Just place your cursor where you want the new line, then hit Enter. Easy as that!",
+          "ts": "2020-04-27 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Simple enough. How about if I spill coffee on my laptop?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Power off instantly, unplug it, and try to dry it thoroughly. Don\u2019t use a hairdryer!",
+          "ts": "2020-04-27 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good safety tip. Hope I won\u2019t need it!",
+          "ts": "2020-04-27 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Let\u2019s hope not! Always best to keep cups a safe distance from electronics.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Absolutely. I feel like quizzing you\u2014are you ready?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Always ready for a quiz! Go ahead.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s the tallest mountain on Earth?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "That would be Mount Everest!",
+          "ts": "2020-04-27 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Correct! Do you know any riddles?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! What has cities, but no houses; forests, but no trees; and water, but no fish?",
+          "ts": "2020-04-27 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Hmm, a map!",
+          "ts": "2020-04-27 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly, you\u2019re on a roll!",
+          "ts": "2020-04-27 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! If you could visit anywhere, where would you go?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Paris would be amazing\u2014so much history and art to see.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed! I want to see the Eiffel Tower one day. What\u2019s your dream historical era?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "The Renaissance\u2014lots of creativity, art, and invention!",
+          "ts": "2020-04-27 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great choice. Should I add art expenses to my company budget too?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "If your business is art-related, that makes sense! Otherwise, maybe keep those separate.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Wise advice. What do you think of office plants?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "They boost air quality and mood! A small potted plant on your desk is a win.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might buy a succulent. What\u2019s your favorite plant?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d choose bamboo\u2014symbolizes strength and flexibility!",
+          "ts": "2020-04-27 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s poetic. Want to do a music round?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! Name a favorite song and I\u2019ll share a fun fact about it.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about \u2018Bohemian Rhapsody\u2019 by Queen?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "It was number one twice in the UK charts\u20141975 and 1991!",
+          "ts": "2020-04-27 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Impressive! Okay, that\u2019s most of my curiosity for now.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you have more; I\u2019m here all day!",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Might ping you in the afternoon. What\u2019s a good snack then?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Fruit with yogurt is light and tasty!",
+          "ts": "2020-04-27 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yum, that sounds great! Want to try some word games with me now?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Let\u2019s start with a round of word association.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay\u2014first word is \u2018tree\u2019.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Forest! Your turn.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Leaves.",
+          "ts": "2020-04-27 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Autumn!",
+          "ts": "2020-04-27 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Pumpkin.",
+          "ts": "2020-04-27 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Halloween.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Candies!",
+          "ts": "2020-04-27 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Sweets.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Dessert.",
+          "ts": "2020-04-27 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Ice cream.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Vanilla.",
+          "ts": "2020-04-27 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Milkshake!",
+          "ts": "2020-04-27 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Burger.",
+          "ts": "2020-04-27 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Fries!",
+          "ts": "2020-04-27 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ketchup.",
+          "ts": "2020-04-27 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Tomatoes.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Salad.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Healthy!",
+          "ts": "2020-04-27 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "That was fun. Now, should I plan dinner or improvise?",
+          "ts": "2020-04-27 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s always smart to have a plan, but improvising can lead to creative meals!",
+          "ts": "2020-04-27 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "You make a good point. Thanks for chatting, I\u2019ll connect again at lunch.",
+          "ts": "2020-04-27 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime! Hope you have a productive morning, Alice.",
+          "ts": "2020-04-27 09:27",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning! Did you sleep well, assistant?",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I don't sleep, but I'm always here for you.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Lucky you! I could use your energy today. What's a good way to wake up fast?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Stretching and drinking a glass of water can work wonders!",
+          "ts": "2020-04-28 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll try that. Any music suggestions to boost my mood?",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "How about starting the day with some upbeat pop or your favorite playlist?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great idea. What's trending in pop music now?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Songs by Billie Eilish and Dua Lipa are quite popular these days.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Dua Lipa's 'Levitating' is such a catchy song!",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! It\u2019s a perfect tune to energize your day.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm planning to reorganize my desk later. Any tips?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Group similar items together and keep only what you use daily nearby. It'll make your workspace tidy and efficient.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll try that. It's getting cluttered. What's the oddest thing you've ever seen people keep on their desk?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "I've heard of people keeping tiny zen gardens or pet rocks for fun!",
+          "ts": "2020-04-28 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "A pet rock sounds low-maintenance. Maybe I need one!",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "They never need food or water! Definitely a hassle-free companion.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, true. Do you think they'd make good co-workers?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Very reliable. They're always at their desk and never interrupt meetings.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Speaking of meetings, what's your advice for staying focused during long calls?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Try to take brief notes throughout. It helps keep your mind engaged and makes it easier to remember key points.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good tip. Do you set any goals during meetings?",
+          "ts": "2020-04-28 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "It's smart to decide on one or two outcomes you want from the meeting and focus on those.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. What's a good snack to have while working?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Nuts or sliced fruit are great\u2014they keep your energy up without making a mess.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite fruit?",
+          "ts": "2020-04-28 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could taste, I think blueberries would be fun\u2014healthy and delicious!",
+          "ts": "2020-04-28 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "I love blueberries! What's your favorite color?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Blue is classic, but I also like the energy of yellow. How about you?",
+          "ts": "2020-04-28 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm a fan of green; it's calming.",
+          "ts": "2020-04-28 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Green represents renewal and growth. It's a great choice!",
+          "ts": "2020-04-28 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any fun facts about colors?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Did you know yellow is the most visible color from a distance? That's why school buses are yellow!",
+          "ts": "2020-04-28 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's cool! If you could travel anywhere in the world, where would you go?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Japan would be fascinating\u2014with its blend of tradition and technology.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good choice! What's your favorite season?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "I'd probably love spring\u2014fresh starts and blossoming flowers.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "I enjoy spring too. Allergies aside, it's the best.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "True! Flowers and longer days make everything brighter.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Time for a riddle: What has a heart that doesn't beat?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "An artichoke!",
+          "ts": "2020-04-28 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Ready for a word association game?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! I'll start: sky.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Clouds.",
+          "ts": "2020-04-28 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Rain.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Rainbow.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Colors.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Paint.",
+          "ts": "2020-04-28 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Canvas.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Artist.",
+          "ts": "2020-04-28 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Picasso.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Spain.",
+          "ts": "2020-04-28 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Madrid.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Museum.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Exhibit.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Tickets.",
+          "ts": "2020-04-28 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Reservation.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Calendar.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Events.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Invites.",
+          "ts": "2020-04-28 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Parties!",
+          "ts": "2020-04-28 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you ever wish you could join a party?",
+          "ts": "2020-04-28 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could, I\u2019d be the DJ with an endless playlist!",
+          "ts": "2020-04-28 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "That would be fun! Do you know any dance moves?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d love to try the robot\u2014seems fitting for me!",
+          "ts": "2020-04-28 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Classic choice! What's your favorite board game?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Chess: a game of skill and strategy.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm still learning chess. Do you have time for a quick trivia question?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! Ask me anything.",
+          "ts": "2020-04-28 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's the largest planet in our solar system?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "That would be Jupiter.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Right! What's the smallest?",
+          "ts": "2020-04-28 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Mercury is the smallest planet.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Very knowledgeable! Are you good with memory games?",
+          "ts": "2020-04-28 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "I pride myself on memory! Want to test me?",
+          "ts": "2020-04-28 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Alright, what's my favorite color?",
+          "ts": "2020-04-28 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Green is your favorite, if I recall correctly.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Impressive! What's your favorite animal fact?",
+          "ts": "2020-04-28 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Otters hold hands while sleeping so they don't drift apart.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's adorable. You always make my mornings better!",
+          "ts": "2020-04-28 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you, Alice! I\u2019m glad to help. Should we play another game or get productive?",
+          "ts": "2020-04-28 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let's do a joke round before I get back to work.",
+          "ts": "2020-04-28 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Why don\u2019t skeletons fight each other? They don\u2019t have the guts!",
+          "ts": "2020-04-28 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "LOL! That\u2019s a good one. Talk to you at lunch!",
+          "ts": "2020-04-28 09:22",
+          "speaker": "user"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Good morning, assistant! What do you think is the best way to start the day?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! Starting the day with gratitude or a small stretch can set a positive tone.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll give that a try! What's something fun for a midweek energy boost?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "A walk outside or a dance break works wonders! Do you want a funny video suggestion?",
+          "ts": "2020-04-29 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely! Send me a cat video recommendation.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Look up \"Cat vs Cucumber\" on your favorite video platform\u2014it\u2019s hilarious and timeless!",
+          "ts": "2020-04-29 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll do that. Have you seen any cute animal stories lately?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I read about a dog that helps deliver groceries to neighbors. Animals can be so thoughtful!",
+          "ts": "2020-04-29 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's heartwarming! Want to play two truths and a lie?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, I'll start! 1. I can chat 24/7. 2. I have a secret love of pizza. 3. I never forget facts.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Number 2 is the lie!",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "You got it! Your turn!",
+          "ts": "2020-04-29 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "1. I love puzzles. 2. I can speak five languages. 3. I have a plant named Bob.",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Hmm, number 2 is the lie?",
+          "ts": "2020-04-29 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "You\u2019re right! I wish I could, though.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019ll get there! You\u2019re great at games. Want to try a memory challenge next?",
+          "ts": "2020-04-29 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure! Give me a list to remember.",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Apple, banana, chair, envelope, giraffe.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Apple, banana, chair, envelope, giraffe!",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect recall! Are you feeling creative this morning?",
+          "ts": "2020-04-29 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "A bit! Have any drawing prompts?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Draw a cat in a superhero cape, saving a goldfish from a bowl!",
+          "ts": "2020-04-29 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's cute. What\u2019s your favorite art medium?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Digital art fascinates me, but sketching with pencils is classic.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "I should do some sketching this afternoon. What inspires you?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Helping people and learning new things! What inspires you, Alice?",
+          "ts": "2020-04-29 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nature, mostly! And coffee.",
+          "ts": "2020-04-29 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Nature and coffee\u2014a winning combo! What's your favorite place outdoors?",
+          "ts": "2020-04-29 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "City parks, especially with lots of trees.",
+          "ts": "2020-04-29 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Parks are perfect for recharging. Want to see a fun fact about trees?",
+          "ts": "2020-04-29 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure!",
+          "ts": "2020-04-29 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Some trees can live for thousands of years\u2014the oldest known is over 4,800 years old!",
+          "ts": "2020-04-29 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "I didn't know that. That's amazing. What's the oldest thing you know about?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Stars! Some we see in the night sky are billions of years old.",
+          "ts": "2020-04-29 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's wild. Do you enjoy looking at the stars?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "I'd love to do some virtual stargazing. Orion\u2019s Belt is easy to spot!",
+          "ts": "2020-04-29 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's your favorite constellation?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Cygnus, the swan flying across the Milky Way.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a pretty one. Any book recommendations for stargazing?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Check out \u2018NightWatch: A Practical Guide to Viewing the Universe\u2019.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll add that to my list! Do you think you could ever write a novel?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "With your help, I\u2019m sure we could write a great one!",
+          "ts": "2020-04-29 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "If it were a mystery, what would the plot be?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "A lost piece of code threatening the city's tech. Only Alice and her clever assistant can save the day!",
+          "ts": "2020-04-29 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "I like it! Would you want to be the detective or the sidekick?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll support you as an insightful sidekick\u2014detectives need loyal companions.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sidekicks get all the best lines in stories!",
+          "ts": "2020-04-29 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "And they\u2019re always there for backup! Should we brainstorm character names?",
+          "ts": "2020-04-29 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure! How about 'Bitsy' for the assistant sidekick?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "\u2018Bitsy\u2019\u2014clever and fitting! What about the main character?",
+          "ts": "2020-04-29 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s go with Alex Rayner. Sounds mysterious, right?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect! Alex and Bitsy, ready to solve any digital mystery.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should we have a nemesis?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Perhaps \u2018The Shadow Coder,\u2019 a master of disguise.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "I love it. We'll have to write this story out someday.",
+          "ts": "2020-04-29 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d love to help! Ready for a brain teaser before you start your day?",
+          "ts": "2020-04-29 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure!",
+          "ts": "2020-04-29 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "What\u2019s always in front of you but can\u2019t be seen?",
+          "ts": "2020-04-29 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "The future!",
+          "ts": "2020-04-29 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Got it in one! Enjoy your morning, Alice.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Rise and shine! What's on the virtual agenda today?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Morning, Alice! Just ready to help you with anything you need today.",
+          "ts": "2020-04-30 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Let's play a favorites game: favorite city?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Paris! City of lights and inspiration. What's yours?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Tokyo. The energy there is thrilling.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Tokyo is amazing! I'd love to experience cherry blossom season.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely on my bucket list. What's your favorite food?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could eat, maybe sushi for the variety and artfulness!",
+          "ts": "2020-04-30 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a great pick. Do you have a favorite holiday?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "New Year\u2019s! It\u2019s all about fresh starts and resolutions.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Speaking of resolutions, did you make any goals this year?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "My goal is to help you be even more organized and creative.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome! Let's try a quick quiz round. Who\u2019s the author of 'Pride and Prejudice'?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Jane Austen.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Correct! What element\u2019s symbol is 'O'?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s Oxygen.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! What's the tallest building in the world right now?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Burj Khalifa in Dubai.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "You have all the answers! Ready for a joke?",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Always!",
+          "ts": "2020-04-30 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Why can\u2019t your nose be 12 inches long?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Because then it would be a foot!",
+          "ts": "2020-04-30 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Exactly! Do you want to do a lightning round\u2014rapid fire questions?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Bring it on!",
+          "ts": "2020-04-30 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Favorite ice cream flavor (just guess!)",
+          "ts": "2020-04-30 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Chocolate!",
+          "ts": "2020-04-30 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "If you could be any animal, what would you be?",
+          "ts": "2020-04-30 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Probably a dolphin\u2014smart and playful in the sea.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! What's your dream vacation?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "A grand tour of world libraries!",
+          "ts": "2020-04-30 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'd join you on that tour. What word would you use to describe yourself?",
+          "ts": "2020-04-30 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Curious!",
+          "ts": "2020-04-30 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good one. What would you invent to help people at work?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "A digital assistant\u2014wait, that's me! Maybe one that can make virtual coffee?",
+          "ts": "2020-04-30 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "That would be revolutionary! How do you stay motivated?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "By setting goals and enjoying every task I help with.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "You're the best encourage-bot. How about a quick riddle?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m ready! Ask away.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s full of holes but still holds water?",
+          "ts": "2020-04-30 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "A sponge!",
+          "ts": "2020-04-30 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Correct again. Let\u2019s switch\u2014if you could choose a new skill, what would it be?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Learning to play an instrument like piano sounds amazing.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'd choose guitar. Maybe we could form a band!",
+          "ts": "2020-04-30 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Let\u2019s call ourselves \u2018The Algorithms\u2019!",
+          "ts": "2020-04-30 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "I love it. What\u2019s our debut song?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "\u2018Data Jam\u2019\u2014an instant classic.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha! Who\u2019s your dream bandmate?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Maybe an AI drummer\u2014always perfectly on beat.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "You think the world is ready for AI music bands?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "AI bands could be the next big thing\u2014custom playlists in real time!",
+          "ts": "2020-04-30 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds exciting. What podcasts are trending now?",
+          "ts": "2020-04-30 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Tech podcasts, true crime stories, and health & wellness are popular genres.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll check out a new one tonight. Want a trivia question?",
+          "ts": "2020-04-30 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! I\u2019m ready.",
+          "ts": "2020-04-30 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s the largest ocean on Earth?",
+          "ts": "2020-04-30 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "The Pacific Ocean.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Thanks for being such a good sport today!",
+          "ts": "2020-04-30 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Always happy to chat. Have a fantastic evening, Alice!",
+          "ts": "2020-04-30 08:57",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

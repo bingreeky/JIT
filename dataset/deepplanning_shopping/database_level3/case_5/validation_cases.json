@@ -1,0 +1,222 @@
+{
+  "query": "I'm putting together a complete outdoor adventure outfit and need to find three specific items online. First, I'm looking for a Women's Rho Hybrid Zip Neck Top that's proven popular with customers - it needs to have more than 25 four-star reviews and total sales volume exceeding 4000 to ensure it's a reliable choice. Next, I need an all-seasons item that has solid customer feedback, specifically one with exactly 50 three-star ratings and more than 3000 total reviews, which shows it's been thoroughly tested by many buyers. Finally, I'm searching for Women's Omni-Shield Adventure Trek Pants targeted specifically for women, and I need the exact item that has 18 four-star ratings and 689 total sales volume - these specific numbers help me identify the right product variant I've been researching.",
+  "ground_truth_products": [
+    {
+      "product_id": "8e4ca530",
+      "name": "Women's Rho Hybrid Zip Neck Top",
+      "price": 1160,
+      "brand": "Arc'teryx",
+      "color": "Green",
+      "size": "M",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 84
+        },
+        {
+          "material": "Spandex",
+          "percentage": 16
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Reflective Strips, Patchwork",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4200
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 180,
+          "4_star": 28,
+          "3_star": 5,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a393e541",
+      "name": "Women's AirSense Pleated Wide Pants",
+      "price": 291.0,
+      "brand": "Uniqlo",
+      "color": "Black",
+      "size": "M",
+      "stock_quantity": 842,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 15800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3150,
+        "distribution": {
+          "5_star": 2700,
+          "4_star": 350,
+          "3_star": 50,
+          "2_star": 30,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "581cf5c8",
+      "name": "Women's Omni-Shield Adventure Trek Pants",
+      "price": 737.0,
+      "brand": "Columbia",
+      "color": "Light Grey",
+      "size": "M",
+      "stock_quantity": 88,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Vintage Wash",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or use fabric softeners.",
+      "sales_volume": {
+        "monthly": 74,
+        "total": 689
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 135,
+        "distribution": {
+          "5_star": 112,
+          "4_star": 18,
+          "3_star": 3,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great for hiking"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥120 off every ¥900": 1,
+    "Cross-store: ¥200 off every ¥1,200": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the name contains 'Women's Rho Hybrid Zip Neck Top', 4-star reviews are more than 25, and total sales volume is more than 4000.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 28
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 4200
+        },
+        {
+          "field": "name",
+          "value": "Women's Rho Hybrid Zip Neck Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the 3-star rating count is 50, the suitable season is All Seasons, and the total reviews count is more than 3000.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 50
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 3150
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the 4-star rating count is 18, total sales volume is 689, target demographic is Women, and the product name contains 'Women's Omni-Shield Adventure Trek Pants'.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 18
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 689
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "name",
+          "value": "Women's Omni-Shield Adventure Trek Pants"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "task": "From 'CS161_Class_Roster.xlsx', find all students who are 'Freshman' and majoring in 'Math.' Create a document named 'freshman_math_list.docx' and list each student's Student ID, Last Name, and First Name on separate lines in the format: 'Student ID, Last Name, First Name.' Ensure only those who meet both criteria ('Freshman' and 'Math' major) are included.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/freshman_math_list.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "S1008",
+                    "Sude",
+                    "Mec"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please extract relevant student details from the CS161_Class_Roster.xlsx based on the specified criteria and enter them into the appropriate document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The file to read data from is CS161_Class_Roster.xlsx."
+        },
+        {
+            "fact": "Only include students who have both 'Freshman' as Academic Standing and 'Math' as Major."
+        },
+        {
+            "fact": "The required output file is named 'freshman_math_list.docx'."
+        },
+        {
+            "fact": "List each student's Student ID, Last Name, and First Name in the following format: 'Student ID, Last Name, First Name', each entry on a separate line."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

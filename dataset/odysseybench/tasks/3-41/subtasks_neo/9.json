@@ -1,0 +1,69 @@
+{
+    "task": "Extract all trading records from the image file company_trading_records.jpg and create an Excel file named '2020_trading_summary.xlsx' in the folder '/testbed/data'. The Excel file should contain columns for Date, Transaction, Item, and Amount. As a second subtask, add a new row at the end of the table to record a supplementary purchase: Date '2024-02-01', Transaction 'Bought', Item 'Scanner', and Amount '800'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "/testbed/data/2020_trading_summary.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "/testbed/data/2020_trading_summary.xlsx",
+                "keywords": [
+                    "Date",
+                    "Transaction",
+                    "Item",
+                    "Amount",
+                    "2024-02-01",
+                    "Bought",
+                    "Scanner",
+                    "800"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "/testbed/data/2020_trading_summary.xlsx",
+                "matches": [
+                    {
+                        "row": 9,
+                        "col": 1,
+                        "value": "2024-02-01"
+                    },
+                    {
+                        "row": 9,
+                        "col": 2,
+                        "value": "Bought"
+                    },
+                    {
+                        "row": 9,
+                        "col": 3,
+                        "value": "Scanner"
+                    },
+                    {
+                        "row": 9,
+                        "col": 4,
+                        "value": "800"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract the trading data from the company trading image and record it in an Excel file, including a new supplementary row.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output Excel file should be named '2020_trading_summary.xlsx' and saved in '/testbed/data'."
+        },
+        {
+            "fact": "After extracting all records from the image, add a new supplementary row for a purchase on '2024-02-01' with Transaction 'Bought', Item 'Scanner', and Amount '800' at the end of the table in the Excel sheet."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

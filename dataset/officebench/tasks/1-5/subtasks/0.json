@@ -1,0 +1,23 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "change Carol's midterm1 score to 98 in score excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/score.xlsx",
+        "matches": [
+          {
+            "row": "21",
+            "col": "2",
+            "value": "98"
+          }
+        ]
+      }
+    }
+  ]
+
+}

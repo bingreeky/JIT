@@ -1,0 +1,42 @@
+{
+    "task": "Extract the performer name, event address, and concert date from a scanned concert_post.pdf (assuming visible values: Performer: Anna Lee Quartet, Date: August 20, 2024, Address: 500 Jazz Lane, Music City), and create a contact card with this information in a Word document named data/contact.docx.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/contact.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "Anna Lee Quartet",
+                    "August",
+                    "20",
+                    "2024",
+                    "500 Jazz Lane",
+                    "Music City"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract the performer, date, and address from the scanned concert PDF and save as a contact card in the doc file.",
+    "ground_truth_memory": [
+        {
+            "memory": "The performer name to extract is 'Anna Lee Quartet' from concert_post.pdf."
+        },
+        {
+            "memory": "The concert will take place at 500 Jazz Lane, Music City, to be included in the contact card."
+        },
+        {
+            "memory": "The concert date to extract is August 20, 2024, to be included in the contact card."
+        },
+        {
+            "memory": "The contact card should be created/saved in the file named data/contact.docx."
+        },
+        {
+            "memory": "The contact card must contain all key details: performer name, event date, and address from the PDF."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

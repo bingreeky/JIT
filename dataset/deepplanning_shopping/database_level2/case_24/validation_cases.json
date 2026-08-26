@@ -1,0 +1,387 @@
+{
+  "query": "I'm getting some new clothes for an upcoming winter trip and need everything to arrive quickly. First, I'm looking for a popular brown item with 'Canvas' in its name that has a monthly sales volume of over 1200 and a transport time of less than 5 days. Next, I need something for men from the brand Vans that can get here in under 2 days; I’m picky, so it must have fewer than 15 two-star reviews and less than 40 three-star reviews. For a nicer outfit, I'm searching for a Gucci product with 'Polo Top' in the name, an average score above 4.5, and fewer than 10 three-star reviews. I also need a navy blue item with an average rating over 4.5 stars and more than 200 total reviews. Finally, I'm looking for a men's winter product in size 43 with a monthly sales volume over 100 and a transport time of less than 2 days. Find me some products where the total price is no less than 6962 and no more than 7608.",
+  "ground_truth_products": [
+    {
+      "product_id": "31492ad8",
+      "name": "Men's Canvas Summer Slip-On Shoes",
+      "price": 249.9,
+      "brand": "Uniqlo",
+      "color": "Brown",
+      "size": "43",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 8750
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 850,
+          "4_star": 210,
+          "3_star": 50,
+          "2_star": 25,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "STO Express"
+      }
+    },
+    {
+      "product_id": "9cd33cd5",
+      "name": "Men's Vintage Wash Graphic Tee",
+      "price": 289.0,
+      "brand": "Vans",
+      "color": "Brown",
+      "size": "XL",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Vintage Wash, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron on graphic.",
+      "sales_volume": {
+        "monthly": 853,
+        "total": 5241
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 789,
+        "distribution": {
+          "5_star": 640,
+          "4_star": 115,
+          "3_star": 24,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "eb2f70b9",
+      "name": "Men's Luxury Interlocking G Piqué Polo Top",
+      "price": 4800.0,
+      "brand": "Gucci",
+      "color": "Purple",
+      "size": "XL",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Button-down, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Do not bleach. Lay flat to dry.",
+      "sales_volume": {
+        "monthly": 92,
+        "total": 1150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 210,
+        "distribution": {
+          "5_star": 185,
+          "4_star": 18,
+          "3_star": 5,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "91bf2f15",
+      "name": "Men's All-Weather Navigator Boots",
+      "price": 1299.0,
+      "brand": "Timberland",
+      "color": "Navy Blue",
+      "size": "43",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Zipper Closure",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge in water. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 268,
+        "total": 4150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 852,
+        "distribution": {
+          "5_star": 680,
+          "4_star": 125,
+          "3_star": 30,
+          "2_star": 12,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "dec833ad",
+      "name": "Men's Urban Winter Sneaker Boots",
+      "price": 499.0,
+      "brand": "Uniqlo",
+      "color": "Black",
+      "size": "43",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Zipper Closure, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 642,
+        "total": 3890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 755,
+        "distribution": {
+          "5_star": 550,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Brown, the monthly sales volume is more than 1200, transport time is less than 5 days, and the name contains 'Canvas'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Brown"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1250
+        },
+        {
+          "field": "transport_time",
+          "value": 3
+        },
+        {
+          "field": "name",
+          "value": "Men's Canvas Summer Slip-On Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Men, the brand is Vans, the transport time is less than 2, the number of 2-star reviews is less than 15, and the number of 3-star reviews is less than 40.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Vans"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Gucci, the average score is above 4.5, the number of 3-star reviews is less than 10, and the name contains 'Polo Top'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Gucci"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 5
+        },
+        {
+          "field": "name",
+          "value": "Men's Luxury Interlocking G Piqué Polo Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Navy Blue, the average rating is above 4.5 stars, and there are more than 200 total reviews.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Navy Blue"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 215
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the suitable season is Winter, the monthly sales volume is more than 100, the target demographic is Men, and the size is 43.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 115
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "size",
+          "value": "43"
+        }
+      ]
+    }
+  ]
+}

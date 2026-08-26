@@ -1,0 +1,54 @@
+{
+    "task": "Generate a summary report titled 'score_summary.docx' that includes the following: (1) a brief introduction mentioning that the report summarizes the score records for students, (2) a section listing the student(s) with the highest and lowest score(s) based on the excel data, (3) a section with a count of unique students in the dataset, and (4) a final section titled 'Special Note' with the text: 'Report prepared for Alice on 2020-05-01.'. The report should be divided clearly by sections and saved as 'score_summary.docx'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/score_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/score_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "introduction",
+                    "score records",
+                    "highest",
+                    "lowest",
+                    "unique students",
+                    "Special",
+                    "Note",
+                    "prepared",
+                    "Alice",
+                    "2020",
+                    "05",
+                    "01"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary report based on the student scores in the Excel file, organized into labeled sections, and include a special note as instructed.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary report must be saved as 'score_summary.docx' in the data folder."
+        },
+        {
+            "fact": "The report should have an introduction mentioning it covers student score records."
+        },
+        {
+            "fact": "Include a section that lists the student(s) with the highest and lowest scores based on the Excel file."
+        },
+        {
+            "fact": "Include the count of unique students as a separate section."
+        },
+        {
+            "fact": "There must be a final section titled 'Special Note' with the sentence: 'Report prepared for Alice on 2020-05-01.'"
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

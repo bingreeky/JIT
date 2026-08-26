@@ -1,0 +1,231 @@
+{
+  "query": "I'm getting into a new outdoor hobby and need to order some gear. First, I urgently need Trail Shoes with a transport time of less than 2 days. They must be highly rated, with an average score over 4.5, more than 150 four-star ratings, and fewer than 10 one-star ratings. To go with them, I want a specific item that's Yellow. It should be popular and in-stock, so I'm looking for something with over 650 five-star ratings and a stock quantity of more than 180. Lastly, I need another piece of equipment that is well-regarded, with an average score greater than 4.5, more than 30 three-star reviews, and fewer than 10 two-star reviews. Please help me find options that fall within a budget of 1985 to 2369.",
+  "ground_truth_products": [
+    {
+      "product_id": "3b8d09a3",
+      "name": "Women's Casual Stand Collar Lightweight Jacket",
+      "price": 589.0,
+      "brand": "Bosideng",
+      "color": "Light Blue",
+      "size": "XS",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 530,
+        "total": 3450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 980,
+        "distribution": {
+          "5_star": 810,
+          "4_star": 120,
+          "3_star": 40,
+          "2_star": 8,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3977776e",
+      "name": "Women's All-Season Trail Shoes",
+      "price": 849.0,
+      "brand": "Columbia",
+      "color": "Yellow",
+      "size": "37",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 176,
+        "total": 2540
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 700,
+          "4_star": 150,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Comfortable fabric",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d675572d",
+      "name": "Women's X-Adventure Trail Shoes",
+      "price": 929.9,
+      "brand": "Salomon",
+      "color": "Pink",
+      "size": "37",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Printing, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 352,
+        "total": 4180
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 180,
+          "3_star": 45,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products that have an average score greater than 4.5, more than 30 3-star reviews, and fewer than 10 2-star reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 40
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 8
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Yellow, the stock quantity is more than 180, and the number of 5-star ratings is greater than 650.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Yellow"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 188
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 700
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a name containing 'Trail Shoes', an average score greater than 4.5, more than 150 4-star ratings, fewer than 10 1-star ratings, and a transport time of less than 2 days.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 180
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        },
+        {
+          "field": "name",
+          "value": "Women's X-Adventure Trail Shoes"
+        }
+      ]
+    }
+  ]
+}

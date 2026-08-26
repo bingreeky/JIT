@@ -1,0 +1,74 @@
+{
+    "task": "1. Read and extract car information from 'car_inventory.pdf' using OCR. 2. Filter and save all cars with mileage below 50,000 into a new Excel file named 'selected_cars.xlsx', including their IDs, mileage, and driver names. 3. Create a new calendar event in Bob's calendar for a test drive with the driver of the second car listed in 'selected_cars.xlsx'. The event should be titled 'Test Drive with [DriverName] - CarID: [CarID]' and scheduled on 2020-06-15 from 2:00 PM to 3:00 PM. 4. Ensure all information is properly captured in the Excel file and calendar event as specified.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/selected_cars.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Bob.ics"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "Test Drive",
+                    "2020-06-15",
+                    "14:00",
+                    "15:00"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/selected_cars.xlsx",
+                "keywords": [
+                    "AB1234",
+                    "John Smith"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/selected_cars.xlsx",
+                "keywords": [
+                    "XY5678",
+                    "Lisa Brown"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare a list of select cars with low mileage and arrange a test drive for Bob with a chosen driver.",
+    "ground_truth_memory": [
+        {
+            "note": "Save cars with mileage less than 50,000 from 'car_inventory.pdf' into 'selected_cars.xlsx' with car ID, mileage, and driver name columns."
+        },
+        {
+            "note": "Schedule a test drive between Bob and the driver of the second car in the Excel list on 2020-06-15, 2:00 PM to 3:00 PM."
+        },
+        {
+            "note": "The second car to be listed in 'selected_cars.xlsx' should belong to Lisa Brown with Car ID XY5678."
+        },
+        {
+            "note": "The event title in Bob's calendar must be 'Test Drive with Lisa Brown - CarID: XY5678'."
+        },
+        {
+            "note": "Selected cars' details to include: (1) AB1234, 42,000 miles, John Smith; (2) XY5678, 38,200 miles, Lisa Brown; more cars may be present."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

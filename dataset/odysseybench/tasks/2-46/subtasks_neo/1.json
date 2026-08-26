@@ -1,0 +1,30 @@
+{
+    "task": "Extract the class canceling notification from the email with subject 'class cancel', save it as a docx file named 'class_cancel_notice.docx', and convert this docx file into a PDF file named 'class_cancel_notice.pdf'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/class_cancel_notice.pdf"
+            }
+        }
+    ],
+    "query_sentence": "Extract the class canceling notification from the class cancel email, save it as a docx file, and convert it to a PDF file.",
+    "ground_truth_memory": [
+        {
+            "fact": "There is an email with subject 'class cancel'."
+        },
+        {
+            "fact": "The notification to extract is 'class cancel today due to protesting.'"
+        },
+        {
+            "fact": "The extracted notice should be saved as 'class_cancel_notice.docx'."
+        },
+        {
+            "fact": "The PDF file must be named 'class_cancel_notice.pdf'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

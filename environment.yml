@@ -1,0 +1,13 @@
+# conda env create -f environment.yml && conda activate jit
+#
+# Equivalent to requirements.txt; use whichever you prefer. Serving a local
+# meta model (vLLM/SGLang + torch) is deliberately NOT included -- that stack
+# is hardware-specific, and the pipeline only ever talks HTTP to it.
+name: jit
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt

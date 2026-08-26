@@ -1,0 +1,58 @@
+# DeepPlanning-Travel -- 120 zh cases. The judge converts the agent's plan text
+# into structured JSON, then a deterministic evaluator scores commonsense and
+# personalized constraints; a judge failure is therefore an infra failure, not
+# a zero.
+#
+# Needs dataset/deepplanning_travel/database/ (748 MB, see dataset/README.md).
+#
+# NOTE ON MODEL ROLES
+#
+#   model:            the EXECUTION model -- runs the harness's agent loop.
+#   benchmark.judge:  the JUDGE model     -- grades the produced artifacts.
+#   (the META model, which writes the harness, is NOT configured here: it is
+#    injected by the runner via --meta-model / --meta-base so the three can
+#    never be confused -- in particular so the meta model's 64k max_tokens
+#    never leaks into the execution model.)
+#
+# All three speak the OpenAI chat-completions protocol. ${VAR:-default}
+# placeholders resolve from the environment; see .env.example.
+
+harness: plan_and_execute
+
+model:
+  model_id: "${EXEC_MODEL:-deepseek-v4-flash}"
+  api_base: "${OPENAI_API_BASE}"
+  api_key: "${OPENAI_API_KEY}"
+  max_tokens: 64000
+  temperature: 0
+
+tools:
+  - execute_code
+  - final_answer
+
+execution:
+  max_steps: 40
+  concurrency: 1
+  benchmark_tools: true
+
+prompts_type: default
+
+# Optional pre-flight gate: after generating a harness the meta model reviews
+# it once and regenerates on a fail verdict. Off by default everywhere; the
+# published best-of-N numbers do NOT use it (selection plays that role instead).
+meta_review:
+  enabled: false
+  mode: single            # single | panel
+  max_retries: 6
+
+benchmark:
+  name: deepplanning_travel
+  dataset_path: ./dataset/deepplanning_travel/
+  output_path: ./outputs/deepplanning_travel_results.jsonl
+  # The difficulty axis for travel is the language, not a numeric level.
+  language: "zh"          # "zh" | "en"
+  judge:
+    model_id: "${JUDGE_MODEL:-deepseek-v4-flash}"
+    api_base: "${JUDGE_API_BASE:-${OPENAI_API_BASE}}"
+    api_key: "${JUDGE_API_KEY:-${OPENAI_API_KEY}}"
+    temperature: 0

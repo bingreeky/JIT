@@ -1,0 +1,39 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Scan printed car inventory lists from PDF, convert them to Excel file car_inventory.xlsx using OCR, save in folder named cars",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/car_inventory.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/cars/car_inventory.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "file": "data/car_inventory.xlsx",
+            "args": {
+                "matches": [
+                    {
+                        "row": "2",
+                        "col": "2",
+                        "value": "FD06MTG001"
+                    },
+                    {
+                        "row": "3",
+                        "col": "2",
+                        "value": "FD06MTG002"
+                    }
+                ]
+            }
+        }
+    ]
+}

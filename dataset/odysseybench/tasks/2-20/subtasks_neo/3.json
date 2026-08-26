@@ -1,0 +1,34 @@
+{
+    "task": "Find all students in CS161_Class_Roster.xlsx whose Midterm score is below 40 and list their Student ID and Last Name in a new Word document named midterm_intervention_list.docx. Each entry should be on a separate line in the format 'Student ID, Last Name'.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/midterm_intervention_list.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "S1003",
+                    "Xihozun",
+                    "S1006",
+                    "Vufuh"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a document listing the students who need intervention after the midterm based on their scores.",
+    "ground_truth_memory": [
+        {
+            "fact": "The document to be generated is named midterm_intervention_list.docx."
+        },
+        {
+            "fact": "List students whose Midterm score is less than 40."
+        },
+        {
+            "fact": "Only Student ID and Last Name should be included for each student, in the format 'Student ID, Last Name', one per line."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

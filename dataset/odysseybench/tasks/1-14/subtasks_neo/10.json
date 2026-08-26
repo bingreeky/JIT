@@ -1,0 +1,35 @@
+{
+    "task": "Add a new salary category named 'adjustment' with a value of 15000 as a new row at the end of the salary.xlsx spreadsheet. Ensure the new row contains 'adjustment' in the first column and 15000 in the second column. Save the change in place.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "adjustment"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "15000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the salary.xlsx spreadsheet with new information as discussed.",
+    "ground_truth_memory": [
+        {
+            "file": "salary.xlsx",
+            "action": "Add a new row at the end of the sheet with category 'adjustment' in column 1 and value 15000 in column 2.",
+            "note": "The entry should be added as a new salary category in the existing file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

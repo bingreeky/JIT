@@ -1,0 +1,232 @@
+{
+  "query": "I'm putting together a new wardrobe and need to get several popular items that I know will be reliable choices. First, I'm looking for something with \"Old Skool\" in the name that's proven to be a bestseller - it needs to have more than 11,000 total sales and over 900 monthly sales to ensure it's a solid choice. Next, I want to find a women's product that has \"Sk8-Hi\" in the name and maintains excellent quality with fewer than 2 two-star reviews. Finally, I need another item with \"Sk8-Hi\" in the name that's both popular and well-stocked, requiring more than 900 total reviews, over 300 monthly sales, stock quantity above 100, and fewer than 50 three-star reviews to guarantee availability and customer satisfaction.",
+  "ground_truth_products": [
+    {
+      "product_id": "a2344ac5",
+      "name": "Women's Old Skool Classic Skate Shoes",
+      "price": 254.0,
+      "brand": "Vans",
+      "color": "Burgundy",
+      "size": "38",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 982,
+        "total": 11045
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 3450,
+        "distribution": {
+          "5_star": 3150,
+          "4_star": 255,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "d10ac8a2",
+      "name": "Women's Sk8-Hi Suede Classic Skate Shoes",
+      "price": 381.0,
+      "brand": "Vans",
+      "color": "Light Blue",
+      "size": "38",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not submerge in water. Air dry.",
+      "sales_volume": {
+        "monthly": 95,
+        "total": 521
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 168,
+        "distribution": {
+          "5_star": 140,
+          "4_star": 22,
+          "3_star": 5,
+          "2_star": 1,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Stylish design",
+        "True to size",
+        "Excellent quality",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "9e65e715",
+      "name": "Vans Women's 'Sk8-Hi' Platform Sneakers",
+      "price": 776.0,
+      "brand": "Vans",
+      "color": "Black",
+      "size": "38",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 310,
+        "total": 4580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 950,
+        "distribution": {
+          "5_star": 780,
+          "4_star": 125,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Same-brand: ¥60 off every ¥400": 1,
+    "Same-brand: ¥180 off every ¥1,000": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the total sales volume is more than 11000, monthly sales volume is more than 900, and the product name contains Old Skool.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 11045
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 982
+        },
+        {
+          "field": "name",
+          "value": "Women's Old Skool Classic Skate Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, the product name contains Sk8-Hi, and the 2-star rating count is less than 2.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 1
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "name",
+          "value": "Women's Sk8-Hi Suede Classic Skate Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains 'Sk8-Hi', 3-star reviews are less than 50, stock quantity is more than 100, total reviews are more than 900, and monthly sales volume is more than 300.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 30
+        },
+        {
+          "field": "stock_quantity",
+          "value": 112
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 950
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 310
+        },
+        {
+          "field": "name",
+          "value": "Vans Women's 'Sk8-Hi' Platform Sneakers"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "query": "I have a last-minute event this weekend and need to get an outfit together quickly. First, I'm looking for a highly-rated product that can arrive in under 2 days. To ensure quality, it must have more than 1800 total reviews, with over 250 four-star reviews, but fewer than 50 three-star and less than 10 one-star reviews. To go with that, I need something very specific in Olive Green, size 38. Since I can't try it on, I want a popular item with a total sales volume over 4500, more than 1800 total reviews, and at least 300 four-star reviews. Lastly, I'm looking for a popular item from the brand Converse that has an average score greater than 4.5, a monthly sales volume of over 800, and fewer than 10 one-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "65e6bfd5",
+      "name": "Women's Suede Classic XXI Sneakers",
+      "price": 649.0,
+      "brand": "Puma",
+      "color": "Green",
+      "size": "38",
+      "stock_quantity": 288,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Nylon",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash, bleach, or tumble dry. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 972,
+        "total": 14580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1855,
+        "distribution": {
+          "5_star": 1520,
+          "4_star": 280,
+          "3_star": 40,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "574d9646",
+      "name": "Women's Crestwood Hiking Shoes",
+      "price": 849.9,
+      "brand": "Columbia",
+      "color": "Olive Green",
+      "size": "38",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or expose to direct sunlight.",
+      "sales_volume": {
+        "monthly": 312,
+        "total": 4580
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1850,
+        "distribution": {
+          "5_star": 1450,
+          "4_star": 320,
+          "3_star": 50,
+          "2_star": 15,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "db8a80a7",
+      "name": "Women's Chuck Taylor Canvas Athleisure Shorts",
+      "price": 349.0,
+      "brand": "Converse",
+      "color": "Light Grey",
+      "size": "XL",
+      "stock_quantity": 180,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 3100
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 620,
+        "distribution": {
+          "5_star": 455,
+          "4_star": 121,
+          "3_star": 30,
+          "2_star": 9,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "STO Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products that have fewer than 50 3-star reviews, more than 1800 total reviews, a transport time less than 2, fewer than 10 1-star reviews, and more than 250 4-star reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 40,
+          "operator": "less_than",
+          "operator_value": 50.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1855,
+          "operator": "greater_than",
+          "operator_value": 1800.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 280,
+          "operator": "greater_than",
+          "operator_value": 250.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 4-star reviews is greater than 300, the total sales volume is more than 4500, the total number of reviews is over 1800, the size is 38, and the color is Olive Green.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 320,
+          "operator": "greater_than",
+          "operator_value": 300.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 4580,
+          "operator": "greater_than",
+          "operator_value": 4500.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1850,
+          "operator": "greater_than",
+          "operator_value": 1800.0
+        },
+        {
+          "field": "size",
+          "value": "38",
+          "operator": "equals",
+          "operator_value": "38"
+        },
+        {
+          "field": "color",
+          "value": "Olive Green",
+          "operator": "equals",
+          "operator_value": "Olive Green"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Converse, the average score is greater than 4.5, the monthly sales volume is more than 800, and the number of 1-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Converse",
+          "operator": "equals",
+          "operator_value": "Converse"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 850,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "task": "Read the student names and their scores for midterm1 and midterm2 from score.xlsx. For each student whose score increased from midterm1 to midterm2 by at least 20 points, generate a personalized congratulation message (with the increased point amount) and save all the messages in a Word document named congratulations.docx. The word file should mention each congratulated student's name and the specific improvement.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/congratulations.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/congratulations.docx",
+                "keywords": [
+                    "Ivy",
+                    "congratulation",
+                    "26"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/congratulations.docx",
+                "keywords": [
+                    "Kate",
+                    "congratulation",
+                    "31"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Identify all students who improved their midterm2 score by 20 or more points and write a congratulation message for each in a Word file.",
+    "ground_truth_memory": [
+        {
+            "item": "Output file name for congratulation messages must be congratulations.docx."
+        },
+        {
+            "item": "The Word file must include each congratulated student's name and the specific number of points improved."
+        },
+        {
+            "item": "Students should only be included if their midterm2 score increased by at least 20 points compared to midterm1."
+        },
+        {
+            "item": "Each congratulation message should explicitly state the point improvement."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

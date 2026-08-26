@@ -1,0 +1,84 @@
+{
+    "task": "Create a new Excel spreadsheet named 'team_tasks.xlsx' containing a table with two columns: 'Task' and 'Status'. Add three rows to the table with the following tasks: 'Prepare project outline' (Status: Completed), 'Review budget proposal' (Status: In Progress), and 'Organize kickoff meeting' (Status: Not Started). Ensure the data is entered correctly and the file is named exactly as specified.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/team_tasks.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_tasks.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Task"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Status"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Prepare project outline"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "Completed"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Review budget proposal"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "In Progress"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Organize kickoff meeting"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "Not Started"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a new spreadsheet to track team tasks and their statuses.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Excel file must be named 'team_tasks.xlsx'."
+        },
+        {
+            "fact": "The sheet should have two columns: 'Task' and 'Status'."
+        },
+        {
+            "fact": "Add a row with Task: 'Prepare project outline', Status: 'Completed'."
+        },
+        {
+            "fact": "Add a row with Task: 'Review budget proposal', Status: 'In Progress'."
+        },
+        {
+            "fact": "Add a row with Task: 'Organize kickoff meeting', Status: 'Not Started'."
+        },
+        {
+            "action_item": "Check that data is entered exactly as described and the file is named correctly."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

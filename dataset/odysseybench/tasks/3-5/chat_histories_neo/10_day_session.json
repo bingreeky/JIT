@@ -1,0 +1,2441 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hey there! Could you give me a hand with something office-related today?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! What can I help you with?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I have two PDF invoices in the data folder. Their filenames are Invoice.pdf and Invoice_2.pdf.",
+          "ts": "2020-04-26 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. Do you want to extract any specific details from them?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, I'd like to extract the important details from both and have them summarized and compared.",
+          "ts": "2020-04-26 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Got it. How would you like the output\u2014should I save it as a new document or somewhere else?",
+          "ts": "2020-04-26 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Please create a new file for the summary and comparison.",
+          "ts": "2020-04-26 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "What format should the new file be in? Word document, PDF, or something else?",
+          "ts": "2020-04-26 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let's go with a Word document.",
+          "ts": "2020-04-26 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect. Do you have a preferred name for this summary file?",
+          "ts": "2020-04-26 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, let\u2019s call it summary_report.docx.",
+          "ts": "2020-04-26 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted. I will put the extracted details from Invoice.pdf and Invoice_2.pdf into summary_report.docx and summarize and compare them.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Should summary_report.docx stay in the data folder?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, that's the standard location. I'll save summary_report.docx in the data folder.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome! Just to confirm: you'll extract details from both invoices and summarize and compare them in summary_report.docx?",
+          "ts": "2020-04-26 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s correct! The extracted details from Invoice.pdf and Invoice_2.pdf will be summarized and compared in summary_report.docx.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Fantastic. Can you visually break down the comparison if possible?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! I can organize the comparison using tables or bullet points to make it clear.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "I appreciate that. Sometimes visual summaries help me a lot.",
+          "ts": "2020-04-26 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to hear it. Visual structure can make differences stand out more clearly.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you worked with invoice comparisons before?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ve helped with invoice comparisons, extracting important fields like buyer name, amounts, and descriptions.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s reassuring. I want to make sure all key info from both invoices is present.",
+          "ts": "2020-04-26 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "I'll make sure all important details from each invoice are included and compared in summary_report.docx.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I later want to add more info to summary_report.docx, can you help me update it?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely! We can revisit and update summary_report.docx anytime you\u2019d like.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s great! Will you be listing out where each detail comes from?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I\u2019ll clearly indicate which information in the summary_report.docx came from which invoice.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. I get confused if things aren\u2019t labeled.",
+          "ts": "2020-04-26 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "No worries, I\u2019ll make all labelings and distinctions clear in your document.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you track which version of a file you\u2019re editing?",
+          "ts": "2020-04-26 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I always reference the latest version unless you specify otherwise.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s helpful. Some files change often around here.",
+          "ts": "2020-04-26 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know if you ever need version control or a backup copy.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool. Have you ever run into trouble extracting data from PDFs?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Sometimes formatting can be tricky, but I\u2019m designed to handle PDF extraction efficiently.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "How do you organize the comparison? Side-by-side or a summary section?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Usually a side-by-side table makes things clearest for comparisons.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are you able to handle more than two files if needed?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can handle as many invoices or files as needed for summaries and comparisons.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Neat. For now, just use those two invoices.",
+          "ts": "2020-04-26 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Confirmed\u2014Invoice.pdf and Invoice_2.pdf only.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Can I add a custom note to summary_report.docx?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! Just let me know what you want to add and I'll include it.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll let you know if I think of one! How soon will summary_report.docx be ready after I give the details?",
+          "ts": "2020-04-26 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Once I have all details, it should only take a short while to prepare the document.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s fast! Will you log the request for future reference?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, our conversation\u2014including your request for summary_report.docx\u2014will be logged for you.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Can I share summary_report.docx with my team once it\u2019s done?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! Once summary_report.docx is saved in the data folder, you can share it as you wish.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you be able to review the doc and make suggestions for improvement later?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I can review, edit, or offer suggestions on summary_report.docx anytime.",
+          "ts": "2020-04-26 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! Do you like handling document editing projects?",
+          "ts": "2020-04-26 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t have feelings, but I am optimized for document handling and editing!",
+          "ts": "2020-04-26 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Fair point! Can you remind me to check summary_report.docx once it\u2019s done?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! I\u2019ll prompt you to review summary_report.docx when it\u2019s complete.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. By the way, do you support file version history?",
+          "ts": "2020-04-26 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Currently, I keep track of the latest changes and can help you track manual versions if requested.",
+          "ts": "2020-04-26 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. I\u2019ll let you know if I want any copies archived.",
+          "ts": "2020-04-26 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know whenever you need an archived version.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "How will I know when summary_report.docx is ready?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll notify you as soon as summary_report.docx is complete and saved.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Does the document include a date or timestamp?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "If you\u2019d like, I can add a date and timestamp to summary_report.docx.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, please add today\u2019s date at the top.",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Will do! The date will be at the top of the document.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Do you want me to review the doc before finalizing it?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, your feedback will be very helpful. Review and let me know if changes are needed.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll do that. How about document formatting, can you add headings?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, I can use headings to organize sections in summary_report.docx.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. Can you highlight differences between the two invoices in the doc?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can emphasize any differences between Invoice.pdf and Invoice_2.pdf in the summary_report.docx.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s so helpful. Could I request a graph if needed, or stick to tables for now?",
+          "ts": "2020-04-26 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "I can include tables or add simple charts to the Word document if you\u2019d like.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s do tables this time.",
+          "ts": "2020-04-26 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Great, I\u2019ll make sure the data is organized into clear tables for comparison.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want me to send anything else right now?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Not at this time. I have the two invoice filenames and the instructions to summarize and compare them in summary_report.docx.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good. There might be a few small comments for special instructions, but that\u2019s it.",
+          "ts": "2020-04-26 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know when you have those special instructions ready.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Do you support multiple users collaborating?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can help organize changes from multiple users if needed.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice to know. Which details from the invoices do you plan to extract for now?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "The initial plan is to extract key details like buyer names, items, and total dues for comparison.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect! Will you list these as sections or rows in the table?",
+          "ts": "2020-04-26 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll structure the comparison table by rows, separating buyers, items, and totals.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Very clear, thank you. Will you notify me when the draft is ready?",
+          "ts": "2020-04-26 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ll send you a notification when summary_report.docx\u2019s draft is done.",
+          "ts": "2020-04-26 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. I might have more files for you to work on soon.",
+          "ts": "2020-04-26 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know when you\u2019re ready\u2014I\u2019m here to help with as many files as you need.",
+          "ts": "2020-04-26 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! What\u2019s the weather like for you today?",
+          "ts": "2020-04-26 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t experience weather, but I hope it\u2019s a nice day where you are!",
+          "ts": "2020-04-26 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "It\u2019s sunny here. Do you have a favorite type of document to work on?",
+          "ts": "2020-04-26 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m equally optimized for all office document types! I\u2019m here for whatever you need.",
+          "ts": "2020-04-26 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s efficient! Thanks for handling tracking and reminders too.",
+          "ts": "2020-04-26 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome! I\u2019ll remind you about summary_report.docx as soon as it\u2019s done.",
+          "ts": "2020-04-26 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you. Have you been busy lately?",
+          "ts": "2020-04-26 09:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Always ready for new tasks! Your requests are my priority.",
+          "ts": "2020-04-26 09:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Appreciate it. How do you keep track of everything?",
+          "ts": "2020-04-26 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "I keep logs of our chats and action items to ensure nothing is missed.",
+          "ts": "2020-04-26 09:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Very organized. That\u2019s all for now\u2014thanks!",
+          "ts": "2020-04-26 09:40",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome, Alice! Just ask if you have more requests or questions.",
+          "ts": "2020-04-26 09:41",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning! Are you ready to keep working on the invoice summary today?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! Yes, I\u2019m ready to continue with the summary report for the invoices.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. How did the preliminary review of the invoices go?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "The initial review was straightforward. I have both Invoice.pdf and Invoice_2.pdf ready to extract details from.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! Do you remember the buyers named on these two invoices?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I have both buyer names from the invoices. Would you like them listed clearly in the summary report?",
+          "ts": "2020-04-27 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely! The summary report must mention the buyers: Liane Cormier and Mollie Grau.",
+          "ts": "2020-04-27 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. I\u2019ll ensure both Liane Cormier and Mollie Grau are clearly identified as buyers in summary_report.docx.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Place their names in a way that makes it obvious which buyer corresponds to which invoice.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "I will label each section to make sure it\u2019s clear which buyer is associated with each invoice.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are there any other names on the invoices that you noticed?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "The main buyers to include are Liane Cormier for Invoice.pdf and Mollie Grau for Invoice_2.pdf. I\u2019ll highlight these in the summary.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. What\u2019s the best way to format their names in the report?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Usually, I list each buyer in bold above their respective invoice details for clarity.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's good. Keep them prominent. Could you also include their company names if available?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! I\u2019ll include company names along with each buyer in the summary.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would it make sense to put all buyer info in a table or separate sections?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Using a table can help with easy comparison, but separate sections with headings can also keep the report organized. Your preference?",
+          "ts": "2020-04-27 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let's do a table for the buyer names, then expand on details in sections.",
+          "ts": "2020-04-27 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds great. I'll create a buyers table at the top of summary_report.docx, with details in following sections.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. Can you add contact information for each buyer if it's on the invoice?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, I will extract and add any contact information provided for each buyer.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you remember if there was a phone number for Liane Cormier?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, there is a phone number listed on the invoice for Liane Cormier. I'll include it in the summary.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. How about Mollie Grau?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "There was a phone number for Mollie Grau as well. Both phone numbers will be listed with their buyer info.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent. Make the report easy to skim for someone looking just at the buyers.",
+          "ts": "2020-04-27 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I\u2019ll make sure the buyer names and info are unmistakable and easy to find.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Out of curiosity, does each invoice have a unique ID or number?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, both invoices have unique invoice numbers. I\u2019ll present those alongside the buyer names.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's helpful. I want anyone reading the report to match buyers and invoice numbers easily.",
+          "ts": "2020-04-27 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll row buyers and invoice numbers together at the top of the comparison table.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will the table be at the start of summary_report.docx?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I'll place the buyer and invoice info table right at the beginning for quick reference.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Keep their names especially clear. Should these be in a bigger font or just bold?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Bold should suffice, but I can increase the font size for buyer names if you want extra prominence.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Bold will do for now. I\u2019ll let you know if I change my mind.",
+          "ts": "2020-04-27 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good! Flexibility is key. Just say the word if you need a formatting update.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do either of these buyers appear multiple times, or just once each?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Each buyer appears only once in their respective invoice.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. That will make the comparison neat.",
+          "ts": "2020-04-27 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly. Single entries are easier to display and compare.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there an address for each buyer?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, each invoice provides a mailing address for the buyer. I\u2019ll list these as well.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent, makes it easy for follow-ups. Will the address appear in the table or details section?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "For clarity, I\u2019ll include addresses in the details section after the buyers table.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds good. Do you plan to include both buyers on one line or separate them in the table?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "They\u2019ll each have their own row in the buyers table for easy comparison.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "That will look clean. When noting contact info, will you use labels like 'Phone' and 'Address'?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ll clearly label every contact field in the details.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good. How many summary sections do you think the report will have?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Likely three: buyers summary table, invoice details by buyer, and a concluding comparison section.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Will you use invoice numbers as section IDs?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ll use invoice numbers as section identifiers under each buyer.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Easy to reference, thanks!",
+          "ts": "2020-04-27 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to hear it suits your needs! I\u2019m all about making it readable.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want to include a summary paragraph before the table for context?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, that\u2019s a great idea. I\u2019ll write a summary paragraph to introduce the document.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. Make sure that paragraph lists both buyer names.",
+          "ts": "2020-04-27 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course, Liane Cormier and Mollie Grau will both be mentioned from the start.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just right! How do you decide which order to put buyers in?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can use invoice date or list alphabetically. Would you prefer a certain order?",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s go with the order the files were listed to you: Liane Cormier first, then Mollie Grau.",
+          "ts": "2020-04-27 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good. I\u2019ll follow that order throughout summary_report.docx.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "When names are repeated in documents, do you verify spelling?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I make sure names are spelled exactly as they appear in the source invoices.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good. Accurate, consistent spelling is crucial.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Agreed. I\u2019ll check both Liane Cormier and Mollie Grau for accuracy in every section.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Ready for a quick break from invoices?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Naturally! What would you like to chat about?",
+          "ts": "2020-04-27 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any fun facts about Seattle?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Seattle is famous for its coffee culture, rainy weather, and as the home of tech giants like Microsoft and Amazon.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! I wonder if either buyer has ever been. I bet they travel for business.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s possible! Business invoices often cross state lines.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know where those buyers are located?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Liane Cormier's address is in Nashville, TN, and Mollie Grau is in Berkeley, CA.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ah, opposite sides of the country.",
+          "ts": "2020-04-27 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! It\u2019s interesting how business connects distant locations.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed. Do you ever mix up buyer info?",
+          "ts": "2020-04-27 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I double-check to ensure each piece of buyer info is matched correctly to their invoice.",
+          "ts": "2020-04-27 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Reliable as always. Back to business! Will the buyers' company names be matched to them in the table?",
+          "ts": "2020-04-27 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, company names will appear in the same row as each buyer in the table.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Super! That makes cross-referencing easier.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly\u2014making information accessible is my goal.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want to show sample email addresses, even if not on the invoice?",
+          "ts": "2020-04-27 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll only include actual contact details found in the invoices for accuracy.",
+          "ts": "2020-04-27 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good call. Do you plan to show both buyer names in the report\u2019s opening summary too?",
+          "ts": "2020-04-27 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, both Liane Cormier and Mollie Grau will appear in the report\u2019s introduction as the buyers.",
+          "ts": "2020-04-27 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent. Can you quickly repeat their names for me now?",
+          "ts": "2020-04-27 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! The buyers to mention are Liane Cormier and Mollie Grau.",
+          "ts": "2020-04-27 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Just wanted to be sure. That's all for the moment.",
+          "ts": "2020-04-27 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome! Let me know if you want any more report updates or details.",
+          "ts": "2020-04-27 09:31",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Morning! Ready to keep working on the summary report?",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! Yes, I\u2019m all set to continue building out summary_report.docx for the invoice comparison.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. So far, we've confirmed buyer names and some contact info, right?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That's correct\u2014we have both Liane Cormier and Mollie Grau with their details prepared.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s focus on what was purchased in each invoice today.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Good plan. Would you like item descriptions highlighted as part of the comparison?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Absolutely. The summary report must include the item descriptions: 'cloud service' from Invoice.pdf and 'decorative clay pottery (LG)' from Invoice_2.pdf.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood! I will clearly list 'cloud service' as the purchased item for Liane Cormier, and 'decorative clay pottery (LG)' for Mollie Grau in summary_report.docx.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good. Can you include the item descriptions in the main comparison table as well as in details below?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! The table will have item descriptions, and I'll elaborate on them in each invoice's section.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Do both invoices only have one item each?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, each invoice lists a single main item. I\u2019ll make this clear in the summary.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "That makes the comparison easier. Could you also list item quantities with the descriptions?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! I will include both the item descriptions and their quantities for clarity.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you remember the quantities for each item?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "For Invoice.pdf ('cloud service'), the quantity is 1 TB. For Invoice_2.pdf ('decorative clay pottery (LG)'), the quantity is 100.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Put the quantities directly next to their corresponding item descriptions in the table.",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Will do! The table will have columns for buyer, item description, and quantity.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Are you also adding unit prices, or just sticking with descriptions for now?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Would you like unit prices included? I can extract those details as well if desired.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let's stick to descriptions and quantities for now, but mention if you see unit prices easily extractable.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. I\u2019ll focus on descriptions and quantities but keep an eye out for any clear pricing.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want to bold the item descriptions in the table for visibility?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Bolded item descriptions will improve visibility\u2014I\u2019ll format them that way in the table.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. If the item description is long, will it wrap in the table cell?",
+          "ts": "2020-04-28 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Word tables will wrap text in each cell so nothing is hidden.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Could someone skim the table and immediately see what was purchased?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. The summary table will make it easy to see what each buyer purchased.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good. Are both item descriptions from the invoice originals, or did you have to interpret them?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "The descriptions are taken directly from each invoice for accuracy\u2014no interpretation needed.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent, that's what I want. Make sure the wording in the summary matches exactly what's on the invoices.",
+          "ts": "2020-04-28 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course. I'll ensure the item descriptions in summary_report.docx are identical to those on each invoice.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Which invoice had the more expensive purchase based on the item description?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Based on item type, 'decorative clay pottery (LG)' for Mollie Grau seems more expensive than 'cloud service' for Liane Cormier.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Interesting! Do you think the item description gives insight into the industry or operation of each buyer?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! One is a tech/cloud purchase, the other focuses on decorative art\u2014likely different industries.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe you could mention that as a fun fact in the commentary section.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a great idea! I can add a brief observation about industry focus based on items purchased.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you also highlight the seller name, or just buyer and items?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "For now, I\u2019ll focus on buyers and items. Seller names can be added if you\u2019d like.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Buyer and items for now. Could you underline the item descriptions too, or is that too much?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Bold text should be sufficient, but I can underline if you'd like extra emphasis.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Stick to bold for now. Will you use bullet points for details section for each item?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, bullet points will be used in the details section to list the item description and quantity clearly.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. I prefer clear, readable formatting.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Same here\u2014readability is a top priority.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "When showing descriptions, will you also indicate which invoice they came from in the table?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes. Each table row will make clear which invoice (by number or filename) the item description comes from.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about including invoice date near the item description?",
+          "ts": "2020-04-28 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! Including the invoice date alongside the item details will add clarity.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there room for a column for item notes if I want to add any extra?",
+          "ts": "2020-04-28 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can reserve a column for item notes in case you want to add comments later.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. What\u2019s the longest item description you\u2019ve had to summarize before?",
+          "ts": "2020-04-28 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "I've handled some lengthy technical and legal descriptions before, but these two invoice items are quite concise.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Concise is good! Less to misinterpret.",
+          "ts": "2020-04-28 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly\u2014concise descriptions make for cleaner, more accurate summaries.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can you repeat the key item descriptions for me?",
+          "ts": "2020-04-28 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! The items are 'cloud service' from Invoice.pdf and 'decorative clay pottery (LG)' from Invoice_2.pdf.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect, thanks for confirming. Is there a summary at the end of the report that highlights both items?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I will include a final summary in summary_report.docx that reiterates the item descriptions for both invoices.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good\u2014helps to have it clear in multiple places.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, I\u2019ll reinforce the key details throughout the report for clarity.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "If someone wanted to search the doc for items purchased, could they find what they need easily?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely\u2014the item descriptions will be repeated, bolded, and easy to locate through search.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Are there any common item types between the two invoices?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "No, the items purchased\u2014'cloud service' and 'decorative clay pottery (LG)'\u2014are quite different.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "That will make the contrast stand out!",
+          "ts": "2020-04-28 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly, the unique items highlight the diversity of purchases in the summary.",
+          "ts": "2020-04-28 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want a fun fact in the item description\u2014like a note about cloud technology or pottery history?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "I can include a brief side note, perhaps as a footnote, if you like!",
+          "ts": "2020-04-28 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Keep that in mind for the next draft. For now, stick to the basic descriptions.",
+          "ts": "2020-04-28 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Will do\u2014basic item descriptions only unless you ask for more detail.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool. Do you also plan to include sales tax near item descriptions?",
+          "ts": "2020-04-28 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "If you prefer, I can display sales tax next to each item\u2019s info, or reserve that for the totals section.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s save sales tax for the totals section.",
+          "ts": "2020-04-28 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood! Item descriptions sections will focus exclusively on item names and quantities.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent. Once the draft is ready, will I be able to add images to the report?",
+          "ts": "2020-04-28 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, images can be added to summary_report.docx whenever you like.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! If I wanted a logo next to each item, is that possible?",
+          "ts": "2020-04-28 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! You can add images or logos next to items or headings at any time.",
+          "ts": "2020-04-28 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good to know. Does each item description need to be in a certain format for best results in Word?",
+          "ts": "2020-04-28 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Short, clear phrases work best for item descriptions in Word tables.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for the tip! Will you highlight differences between items in the commentary as well as the table?",
+          "ts": "2020-04-28 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the commentary section will note the clear difference between the two purchased items.",
+          "ts": "2020-04-28 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! You\u2019re very thorough.",
+          "ts": "2020-04-28 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you, Alice! I aim to make your summary easy to understand and navigate.",
+          "ts": "2020-04-28 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will the table and commentary section reference both the buyer and their item?",
+          "ts": "2020-04-28 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely. Each section will make it clear which buyer corresponds with which item.",
+          "ts": "2020-04-28 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds like a solid plan. Do you want to move on to discussing totals next?",
+          "ts": "2020-04-28 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, let me know when you're ready to focus on the total due amounts for each invoice.",
+          "ts": "2020-04-28 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s save that for tomorrow. Thanks for today\u2019s work!",
+          "ts": "2020-04-28 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome! I look forward to adding and comparing invoice totals in the next session.",
+          "ts": "2020-04-28 09:31",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Good morning! Ready to continue with the invoice comparison summary?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! Yes, I\u2019m ready to keep working on summary_report.docx.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yesterday we focused on the item descriptions, right?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That's right. Both 'cloud service' and 'decorative clay pottery (LG)' are clearly listed for their respective buyers.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Today, let\u2019s make sure all the total due amounts are summarized and compared clearly.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. The summary report should state and compare the total due amounts: 104.98 and 1389.99 for each invoice.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Please make those totals prominent in the comparison section.",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll make sure the totals 104.98 and 1389.99 are clear and bolded in summary_report.docx.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should we show the totals in the same table as the buyer and items, or in their own section?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "For clarity, I can display them in both the main table and a separate Totals Comparison section.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds good. Is it helpful to mention which buyer corresponds with each total?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely. I will clearly associate 104.98 with Liane Cormier and 1389.99 with Mollie Grau.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. Will you include currency signs for context?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ll use the appropriate currency sign\u2014likely '$'\u2014for both totals.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! Should the totals stand out with bold or a colored cell?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Bold should suffice for clarity, but I can use colored cells if you prefer extra emphasis.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s stick to bold for now.",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood\u2014totals will be bolded in the table and in the summary section.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "For the Totals Comparison section, do you suggest a quick analysis of the difference?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "A brief comment highlighting the difference between 104.98 and 1389.99 could add helpful context.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Add that. Maybe a line about how they reflect different order scales.",
+          "ts": "2020-04-29 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I\u2019ll note that the significant difference in totals reflects different types and sizes of orders.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Could you also reiterate totals with their respective invoice numbers?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! Each total will be linked to its invoice number for clarity.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a way to highlight which invoice had the largest total?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can add a quick highlight or note that Invoice_2.pdf (1389.99) had the larger total.",
+          "ts": "2020-04-29 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you. Will you mention subtotals and sales tax separately or just focus on final total due?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Unless you\u2019d like otherwise, I\u2019ll focus on comparing just the final total due for each invoice.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. Can you show the totals at the top of your summary table?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, totals will appear prominently at the top of the summary table.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. Will the commentary analyze why the totals differ if buyers have only a single item bought on each invoice?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ll mention that the nature and quantity of the items account for the total difference.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great\u2014add that observation.",
+          "ts": "2020-04-29 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll include a note that the 100 pottery items lead to Mollie Grau\u2019s higher total.",
+          "ts": "2020-04-29 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want a percentage difference shown as well, or is that not needed?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "I can mention the percentage difference if you'd like, but it's optional for a basic summary.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Skip it for now. Are you adding a line that spells out the totals (\u201cone hundred four dollars and ninety-eight cents\u201d etc.)?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "I can include totals in both numeral and written-out form if you want extra clarity.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s stick with numerals for this draft.",
+          "ts": "2020-04-29 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. Totals will be listed as 104.98 and 1389.99 only.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "When you compare, is the buyer name placed next to the total?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, each total amount will be next to the buyer\u2019s name in both table and commentary.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can you set a summary line that explicitly states which total belongs to which invoice?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I\u2019ll create a line: 'Liane Cormier\u2019s total due is 104.98. Mollie Grau\u2019s total due is 1389.99.'",
+          "ts": "2020-04-29 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Very clear! Will you separate the totals with a heading?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, there will be a 'Totals Comparison' heading to introduce this section.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I expect to see both numbers in every major section of the summary?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, totals will show up in each section related to buyer, item, and the main comparison.",
+          "ts": "2020-04-29 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good. Is there a reason to mention due dates, or just the amounts?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "If the due dates are relevant, I can add them, but just the amounts may suffice for your summary.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s stick to amounts today.",
+          "ts": "2020-04-29 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted\u2014amounts only will be emphasized in the comparison.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want to use any graphic element\u2014like a bar or icon\u2014for the totals?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "I can do so in Word, but for clarity, bold text may be better for a first draft.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed. Consistency is best. If the report is printed, will totals still stand out?",
+          "ts": "2020-04-29 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes\u2014bolded totals will be visible in both digital and printed copies.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. Will the table and totals comparison be at the start, or do you end with totals?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "I will introduce totals in the table, then refer to them again in the concluding section.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good plan. Have you ever had to report much larger totals before?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ve compared invoices and reports with various amounts\u2014from small to very large totals.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Interesting! How do you keep amounts from being mixed up between buyers?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I keep every field strictly matched to the correct buyer and invoice for accuracy.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good! Please double-check for any risks of swapping totals.",
+          "ts": "2020-04-29 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Will do. I\u2019ll closely verify that 104.98 is only for Liane Cormier and 1389.99 is only for Mollie Grau.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Will you reference file names and invoice numbers as well as buyer names?",
+          "ts": "2020-04-29 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, each total amount will show the connection to the file name, invoice number, and buyer.",
+          "ts": "2020-04-29 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Fabulous. Can you fit this all on one page of summary_report.docx?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "With concise tables and clear sections, all comparison details should fit on one page.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Will I be able to update the totals later, if an invoice changes?",
+          "ts": "2020-04-29 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely\u2014you can update the numbers in summary_report.docx any time if new totals arise.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Do you want me to send you sample edits if I make changes?",
+          "ts": "2020-04-29 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome! I\u2019d love to see edits or comments\u2014just send me your revisions.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Do you repeat the totals at the top and bottom of the document or just once?",
+          "ts": "2020-04-29 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "To reinforce clarity, I\u2019ll list them at the start (table) and the end (summary section).",
+          "ts": "2020-04-29 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent. Do you include a brief intro line about what the numbers mean?",
+          "ts": "2020-04-29 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the totals section will start with a quick explanation about the comparison.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. If you print the report, will the formatting remain?",
+          "ts": "2020-04-29 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes\u2014Word formatting will carry over to printed reports.",
+          "ts": "2020-04-29 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want to walk through the structure one more time for me?",
+          "ts": "2020-04-29 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! Summary_report.docx will include: an introductory paragraph, a main table (buyers, items, totals), buyers' detail sections, a 'Totals Comparison' heading, bolded totals with invoice links, and a brief analysis.",
+          "ts": "2020-04-29 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "That covers it! Are there any possible errors to watch for with comparing totals?",
+          "ts": "2020-04-29 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Besides avoiding swapped or missing totals, the main risk is accidentally mismatching buyers or invoice files.",
+          "ts": "2020-04-29 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good to know, thanks for being thorough.",
+          "ts": "2020-04-29 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome. I\u2019ll double-check all matching details before finalizing the summary.",
+          "ts": "2020-04-29 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Is everything so far saved in the data folder?",
+          "ts": "2020-04-29 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, summary_report.docx will be saved in the data folder along with the original invoices.",
+          "ts": "2020-04-29 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great\u2014I love having everything in one place.",
+          "ts": "2020-04-29 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "It does make organization much easier!",
+          "ts": "2020-04-29 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are you adding page numbers to summary_report.docx by default?",
+          "ts": "2020-04-29 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I can add page numbers if you\u2019d like, but it may be just one page at this length.",
+          "ts": "2020-04-29 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s skip them for now.",
+          "ts": "2020-04-29 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "No page numbers\u2014got it!",
+          "ts": "2020-04-29 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for your help with this section. Want to chat about something else for a minute?",
+          "ts": "2020-04-29 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! What would you like to talk about?",
+          "ts": "2020-04-29 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite style of business report formatting?",
+          "ts": "2020-04-29 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t have personal favorites, but I\u2019ve seen that clear tables and concise commentary work best.",
+          "ts": "2020-04-29 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "That makes sense. I find tables easiest too!",
+          "ts": "2020-04-29 09:36",
+          "speaker": "user"
+        },
+        {
+          "text": "They\u2019re quick to scan and organize info well.",
+          "ts": "2020-04-29 09:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you keep a list of all reports you help draft?",
+          "ts": "2020-04-29 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "I log requests like our chat for reference, but final documents are only kept where you save them.",
+          "ts": "2020-04-29 09:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's all I needed. Can you summarize what\u2019s left for the report?",
+          "ts": "2020-04-29 09:40",
+          "speaker": "user"
+        },
+        {
+          "text": "The main tasks remaining are double-checking format and clarity, ensuring all details are present, then confirming your review.",
+          "ts": "2020-04-29 09:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great, thanks for tracking that.",
+          "ts": "2020-04-29 09:42",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome, Alice! Just let me know if you want any last touches after today\u2019s sync.",
+          "ts": "2020-04-29 09:43",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Good morning! Following up on the summary report\u2014are you ready to review the totals one more time?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! Yes, let's review the section comparing total due amounts.",
+          "ts": "2020-04-30 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. I want to be extra sure both invoice totals are highlighted. Can you remind me of the values?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! The summary report should state and compare the total due amounts: 104.98 and 1389.99 for each invoice.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Make sure they're bolded and easy to spot in both the table and the analysis section.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Will do! Totals 104.98 and 1389.99 will be bolded wherever they appear in the report.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Which buyer corresponds to each total?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "104.98 belongs to Liane Cormier, and 1389.99 belongs to Mollie Grau.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a heading just for totals in the report?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, there is a 'Totals Comparison' heading for a separate section highlighting and analyzing both totals.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. I like the idea of seeing both numbers side-by-side in the table. Is that included?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s included! The table presents both totals next to their associated buyers and items.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can you add a quick line to the commentary section drawing attention to the difference between the two totals?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! I\u2019ll add a note highlighting the significant difference between 104.98 and 1389.99.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you call the difference a result of quantity or product type, or both?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "The difference is primarily a result of both the higher quantity for Mollie Grau and the product type purchased.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Neatly observed. Please make sure that's included as a concluding remark for that section.",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted\u2014all conclusions about total difference will be in the analysis.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are subtotal and sales tax values shown directly or just final totals?",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Only final totals are directly compared, but we could include more breakdowns if needed.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just final totals for now. Would you underline the numbers in the table, or is bold enough?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Bold should be sufficient, but I can underline them if you want further emphasis.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s stick with bold. Do you summarize both totals again in the report\u2019s closing paragraph?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, both totals are restated in the conclusion of summary_report.docx.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Do you ever present a visual like a chart to compare totals?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Charts can definitely make differences clear, but for this summary text and tables will suffice.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. Should the currency sign be in the totals wherever they appear?",
+          "ts": "2020-04-30 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ll use the dollar sign ($) next to both totals throughout the document.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good. Do you find visual differences like font or color help with quick recognition?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely\u2014bold, color, or size can all enhance visibility, but for now bold is effective.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. When presenting totals in both the table and the analysis, do you repeat buyer names both times?",
+          "ts": "2020-04-30 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, whenever a total appears it\u2019s next to or associated with its buyer for clarity.",
+          "ts": "2020-04-30 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just what I want! Are you adding invoice file names/invoice numbers next to each total as well?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ll associate totals with buyer, invoice number, and filename wherever possible.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Have you run into confusion comparing invoice totals in the past?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "I always double-check to ensure each value matches the correct invoice and buyer.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Appreciate the care! Can you quickly state which total belongs to which file for me now?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure\u2014104.98 is in Invoice.pdf for Liane Cormier, and 1389.99 is in Invoice_2.pdf for Mollie Grau.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Will you label columns in the table as Buyer, File, and Total?",
+          "ts": "2020-04-30 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the main table will have clear column headings for Buyer, Invoice/File, and Total Due.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "That helps a lot. Are both totals presented at or near the top of the report for quick reference?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the table with totals is front and center at the beginning of the summary.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. Did you restate both numbers in the concluding bullet points?",
+          "ts": "2020-04-30 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the conclusion summarizes and repeats both 104.98 and 1389.99 in bullet points.",
+          "ts": "2020-04-30 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Clear and thorough\u2014thank you! Any risk that one total will be missed or omitted?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "No risk\u2014both 104.98 and 1389.99 are included at every major comparison point.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will the totals also appear in footnotes or just main text?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Totals are in the main text and the table. Footnotes can be added for context if needed.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just main text for now. Should the total values always have two decimal places?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, using two decimal places for currency creates clarity and professionalism.",
+          "ts": "2020-04-30 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed. Would you suggest right-aligning totals in the table?",
+          "ts": "2020-04-30 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Right-aligning totals is standard for currency\u2014I'll format them appropriately.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Do you also state in commentary which total is larger?",
+          "ts": "2020-04-30 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the commentary will clearly state that 1389.99 is the larger total.",
+          "ts": "2020-04-30 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Helpful. Are the table and commentary the only two places totals are shown?",
+          "ts": "2020-04-30 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Totals are also mentioned in the report\u2019s introductory and concluding paragraphs for emphasis.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's just right. In your experience, does bold text help more than using color alone?",
+          "ts": "2020-04-30 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Bold is most effective for black-and-white printed documents. Color can help digitally if needed.",
+          "ts": "2020-04-30 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense for printing! Can you sum up your approach to totals one more time?",
+          "ts": "2020-04-30 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! I present totals with bold text, associate them with buyers, files, and section headings, and summarize the difference and context in commentary and conclusion.",
+          "ts": "2020-04-30 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Comprehensive, thank you. Have you seen reports where totals were overlooked?",
+          "ts": "2020-04-30 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Occasionally in manual processes, but automation helps prevent such errors.",
+          "ts": "2020-04-30 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good backup! How do you ensure computer-based reports avoid mistakes?",
+          "ts": "2020-04-30 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "By methodically matching each value to buyer and invoice, double checking references and section placements.",
+          "ts": "2020-04-30 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent process. Do you want me to review a draft before finalizing?",
+          "ts": "2020-04-30 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "I would appreciate your feedback\u2014just let me know when you\u2019re ready to review.",
+          "ts": "2020-04-30 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I will. Can I mark up specific numbers if I see any issues?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! You can make comments or highlight any number in the draft.",
+          "ts": "2020-04-30 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Are you saving the report draft along with the source invoices?",
+          "ts": "2020-04-30 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes\u2014summary_report.docx will be saved in the same data folder as Invoice.pdf and Invoice_2.pdf.",
+          "ts": "2020-04-30 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's great. One stop for everything.",
+          "ts": "2020-04-30 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Organization makes retrieval much simpler!",
+          "ts": "2020-04-30 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Totally agree. Will you send an alert when the final summary is ready for review?",
+          "ts": "2020-04-30 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I\u2019ll notify you the moment summary_report.docx is complete and ready.",
+          "ts": "2020-04-30 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Fantastic. Thanks for your attention to detail on totals.",
+          "ts": "2020-04-30 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! Your clear instructions make it easy to produce an accurate summary.",
+          "ts": "2020-04-30 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Glad to hear. Anything else needed from me today?",
+          "ts": "2020-04-30 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Not right now. If any questions about totals or format arise, I\u2019ll reach out.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Thanks. Want to chat about something else while I have my coffee?",
+          "ts": "2020-04-30 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! What\u2019s on your mind?",
+          "ts": "2020-04-30 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any tips for keeping documents organized in busy projects?",
+          "ts": "2020-04-30 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Consistent file naming, clear folder structure, and regular reviews help keep things in order.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I try to label by date and task. Do you automate file naming?",
+          "ts": "2020-04-30 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can automate names based on project, file type, and date for clarity.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a lifesaver! Do you back up reports too?",
+          "ts": "2020-04-30 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "I recommend regular backups, especially for important documents like summary reports.",
+          "ts": "2020-04-30 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you use cloud storage or just local folders?",
+          "ts": "2020-04-30 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "I can organize both local and cloud storage, depending on user preference.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Handy! Do you have a method for tracking last edits to a report?",
+          "ts": "2020-04-30 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I can timestamp every save and keep a log of edit history within the metadata.",
+          "ts": "2020-04-30 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Brilliant. Does that work for summaries like this one too?",
+          "ts": "2020-04-30 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, summary_report.docx will include the latest save date in its properties.",
+          "ts": "2020-04-30 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you! That\u2019s all for now\u2014I\u2019ll touch base on the next review round.",
+          "ts": "2020-04-30 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to the next review, Alice! Let me know when you\u2019re ready.",
+          "ts": "2020-04-30 09:33",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

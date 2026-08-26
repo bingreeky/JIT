@@ -1,0 +1,313 @@
+{
+  "query": "I'm refreshing my wardrobe and have a few specific items I need to buy. First, I'm searching for a 'Women's Dri-FIT Long-Sleeve Training Top' from Nike. It must be Beige, have an average rating score greater than 4.5, and a stock quantity of more than 800. Next, I need a very popular item delivered quickly, so it must have a transport time of less than 2 days, a total sales volume over 5500, more than 500 five-star ratings, and fewer than 10 two-star ratings. I’m also looking for an Orange item from Zara that has a lot of feedback—specifically, more than 1300 total reviews and over 50 three-star reviews. Finally, I'm looking for something for women from the brand Salomon in Wine Red. It needs to be well-rated with an average score greater than 4.5 and have more than 80 in stock. My budget is between 2458 and 2529.",
+  "ground_truth_products": [
+    {
+      "product_id": "2a62b411",
+      "name": "Women's Dri-FIT Long-Sleeve Training Top",
+      "price": 329.0,
+      "brand": "Nike",
+      "color": "Beige",
+      "size": "M",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use softeners or bleach.",
+      "sales_volume": {
+        "monthly": 1245,
+        "total": 15580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1558,
+        "distribution": {
+          "5_star": 1250,
+          "4_star": 220,
+          "3_star": 65,
+          "2_star": 13,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "24444829",
+      "name": "Women's Glacial Fleece Quarter-Zip Top",
+      "price": 389.0,
+      "brand": "Columbia",
+      "color": "Silver",
+      "size": "M",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 96
+        },
+        {
+          "material": "Spandex",
+          "percentage": 4
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 980,
+        "total": 11500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 620,
+        "distribution": {
+          "5_star": 515,
+          "4_star": 85,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "40d0129c",
+      "name": "Women's Retro Suede Platform Sneakers",
+      "price": 459.0,
+      "brand": "Zara",
+      "color": "Orange",
+      "size": "38",
+      "stock_quantity": 210,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Cotton",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Wipe with a damp cloth only. Do not machine wash. Avoid direct sun exposure.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 5230
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1345,
+        "distribution": {
+          "5_star": 1050,
+          "4_star": 210,
+          "3_star": 55,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Great color",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "03f03245",
+      "name": "Women's Agile Warm Ski Bottoms",
+      "price": 1299.0,
+      "brand": "Salomon",
+      "color": "Wine Red",
+      "size": "M",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 152,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 258,
+        "distribution": {
+          "5_star": 200,
+          "4_star": 45,
+          "3_star": 8,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Beige, the stock quantity is more than 800, the brand is Nike, the average rating score is greater than 4.5, and the name is 'Women's Dri-FIT Long-Sleeve Training Top'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Beige"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 850
+        },
+        {
+          "field": "brand",
+          "value": "Nike"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "name",
+          "value": "Women's Dri-FIT Long-Sleeve Training Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 2-star ratings is less than 10, the total sales volume is greater than 5500, the transport time is less than 2, and there are more than 500 5-star ratings.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 5678
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 520
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Zara, the color is Orange, the total number of reviews is greater than 1300, and there are more than 50 3-star reviews.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1345
+        },
+        {
+          "field": "color",
+          "value": "Orange"
+        },
+        {
+          "field": "brand",
+          "value": "Zara"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 55
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products for Women where the brand is Salomon, the average score is greater than 4.5, the stock quantity is more than 80, and the color is Wine Red.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "brand",
+          "value": "Salomon"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "stock_quantity",
+          "value": 85
+        },
+        {
+          "field": "color",
+          "value": "Wine Red"
+        }
+      ]
+    }
+  ]
+}

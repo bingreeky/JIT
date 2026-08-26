@@ -1,0 +1,56 @@
+{
+    "task": "Collect the contact names John, Bob, and Tom from available sources (e.g., OCR or chat context) and save them into an Excel file at data/contacts/contact.xlsx. The file must be created inside a folder named contacts. The first row must have the header 'name'. The names should be saved in alphabetical order starting from row 2. Do not include any other information besides the names.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/contacts/contact.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/contacts/contact.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Bob"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "John"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Tom"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please collect and save all available contact names in an Excel file, ensuring they are in alphabetical order. Use the appropriate header and store the results in the correct folder.",
+    "ground_truth_memory": [
+        {
+            "fact": "The contact names to be collected are Bob, John, and Tom."
+        },
+        {
+            "fact": "The output file should be named contact.xlsx and stored in the data/contacts folder."
+        },
+        {
+            "fact": "The first row of the Excel file must have the header 'name'."
+        },
+        {
+            "fact": "All names must be entered in alphabetical order starting from row 2."
+        },
+        {
+            "fact": "Only the contact names should be included, no other information."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

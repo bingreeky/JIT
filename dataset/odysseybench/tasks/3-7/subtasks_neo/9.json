@@ -1,0 +1,96 @@
+{
+    "task": "1. Extract the names, emails, and admitted term of all students from 'UIC_Admitted_Students.xlsx' whose last name is 'Nguyen'. 2. Create a PDF file named 'Nguyen_Notifications.pdf' listing, in tabular form, each qualifying student's full name (first and last), email, admitted term, and phone number. 3. For each student listed in the PDF, send an email to their email address with subject 'Welcome to UIC', and include in the email body a personalized welcome message that contains their full name and admitted term. Each email must reference their admitted term and full name explicitly.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Nguyen_Notifications.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Nguyen_Notifications.pdf",
+                "keywords": [
+                    "Nguyen"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "dorothy.green",
+                "keywords": [
+                    "Nguyen",
+                    "Paul",
+                    "Fall",
+                    "2024",
+                    "Welcome"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "david.rodriguez",
+                "keywords": [
+                    "Nguyen",
+                    "John",
+                    "Fall",
+                    "2024",
+                    "Welcome"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "nancy.brown",
+                "keywords": [
+                    "Nguyen",
+                    "Brian",
+                    "Fall",
+                    "2024",
+                    "Welcome"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "melissa.miller",
+                "keywords": [
+                    "Nguyen",
+                    "Thomas",
+                    "Fall",
+                    "2024",
+                    "Welcome"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a personalized welcome email for all admitted students with the last name 'Nguyen', and create a PDF listing their information.",
+    "ground_truth_memory": [
+        {
+            "fact": "The PDF export should be named 'Nguyen_Notifications.pdf' and should include each Nguyen student's full name, email, admitted term, and phone number in a table."
+        },
+        {
+            "fact": "For each student with the last name 'Nguyen', a personalized email should be sent to their email address, using 'Welcome to UIC' as the subject."
+        },
+        {
+            "fact": "In each email, the body should reference both the student's full name and admitted term."
+        },
+        {
+            "fact": "All necessary information is in 'UIC_Admitted_Students.xlsx', and the agent should filter for students whose last name is 'Nguyen'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

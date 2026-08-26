@@ -1,0 +1,415 @@
+{
+  "query": "I'm getting my gear ready for an upcoming outdoor trip and need to order a few things. First, I need a women's 'Fleece Half-Zip' from Patagonia, and since I need it quickly, the transport time must be less than two days. I’m also looking for something in burgundy from the brand Vans; to make sure it's well-liked, it needs to have more than 1000 five-star ratings. For layering, I specifically need the 'Women's Rho Heavyweight Base Layer Bottoms' from Arc'teryx that have a total sales volume over 2500 and fewer than five 2-star reviews. Next, I’m searching for Salomon's 'Women's All-Terrain Performance Tights' in a size M and the color black, but only if they’re very popular, with a total sales volume greater than 8500. Lastly, I need a light grey item from Anta that has a stock quantity of more than 1200.",
+  "ground_truth_products": [
+    {
+      "product_id": "3abf46e2",
+      "name": "Women's Winter Fleece Half-Zip Top",
+      "price": 899.9,
+      "brand": "Patagonia",
+      "color": "Dark Green",
+      "size": "XL",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 94
+        },
+        {
+          "material": "Spandex",
+          "percentage": 6
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or use fabric softeners.",
+      "sales_volume": {
+        "monthly": 385,
+        "total": 4120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 751,
+        "distribution": {
+          "5_star": 612,
+          "4_star": 105,
+          "3_star": 21,
+          "2_star": 8,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3bd35a8c",
+      "name": "Women's Off The Wall Winter Hoodie",
+      "price": 549.9,
+      "brand": "Vans",
+      "color": "Burgundy",
+      "size": "XL",
+      "stock_quantity": 152,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 6780
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1421,
+        "distribution": {
+          "5_star": 1066,
+          "4_star": 284,
+          "3_star": 43,
+          "2_star": 14,
+          "1_star": 14
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "fd1edf1c",
+      "name": "Women's Rho Heavyweight Base Layer Bottoms",
+      "price": 1399.0,
+      "brand": "Arc'teryx",
+      "color": "Purple",
+      "size": "M",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 84
+        },
+        {
+          "material": "Wool",
+          "percentage": 11
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Side Pockets, Patchwork",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 210,
+        "total": 2550
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 390,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1605842b",
+      "name": "Women's All-Terrain Performance Tights",
+      "price": 799.0,
+      "brand": "Salomon",
+      "color": "Black",
+      "size": "M",
+      "stock_quantity": 245,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Reflective Strips, Printing",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 8560
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 938,
+          "4_star": 225,
+          "3_star": 50,
+          "2_star": 25,
+          "1_star": 12
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "33851ef2",
+      "name": "Women's Nova-Run Lightweight Sneakers",
+      "price": 389.9,
+      "brand": "Anta",
+      "color": "Light Grey",
+      "size": "38",
+      "stock_quantity": 1250,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 5400
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 315,
+        "distribution": {
+          "5_star": 240,
+          "4_star": 55,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the target demographic is Women, the brand is Patagonia, the transport time is less than 2, and the name contains 'Fleece Half-Zip'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "brand",
+          "value": "Patagonia",
+          "operator": "equals",
+          "operator_value": "Patagonia"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Winter Fleece Half-Zip Top",
+          "operator": "contains",
+          "operator_value": "Fleece Half-Zip"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Burgundy, the brand is Vans, and the number of 5-star ratings is more than 1000.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Burgundy",
+          "operator": "equals",
+          "operator_value": "Burgundy"
+        },
+        {
+          "field": "brand",
+          "value": "Vans",
+          "operator": "equals",
+          "operator_value": "Vans"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 1066,
+          "operator": "greater_than",
+          "operator_value": 1000.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total sales volume is more than 2500, the number of 2-star reviews is less than 5, the brand is Arc'teryx, and the name is 'Women's Rho Heavyweight Base Layer Bottoms'.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 2550,
+          "operator": "greater_than",
+          "operator_value": 2500.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "brand",
+          "value": "Arc'teryx",
+          "operator": "equals",
+          "operator_value": "Arc'teryx"
+        },
+        {
+          "field": "name",
+          "value": "Women's Rho Heavyweight Base Layer Bottoms",
+          "operator": "equals",
+          "operator_value": "Women's Rho Heavyweight Base Layer Bottoms"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a total sales volume greater than 8500, where the color is Black, the size is M, the brand is Salomon, and the name is 'Women's All-Terrain Performance Tights'.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 8560,
+          "operator": "greater_than",
+          "operator_value": 8500.0
+        },
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "size",
+          "value": "M",
+          "operator": "equals",
+          "operator_value": "M"
+        },
+        {
+          "field": "brand",
+          "value": "Salomon",
+          "operator": "equals",
+          "operator_value": "Salomon"
+        },
+        {
+          "field": "name",
+          "value": "Women's All-Terrain Performance Tights",
+          "operator": "equals",
+          "operator_value": "Women's All-Terrain Performance Tights"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Light Grey, the brand is Anta, and the stock quantity is more than 1200.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Light Grey",
+          "operator": "equals",
+          "operator_value": "Light Grey"
+        },
+        {
+          "field": "brand",
+          "value": "Anta",
+          "operator": "equals",
+          "operator_value": "Anta"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 1250,
+          "operator": "greater_than",
+          "operator_value": 1200.0
+        }
+      ]
+    }
+  ]
+}

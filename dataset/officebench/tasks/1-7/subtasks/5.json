@@ -1,0 +1,22 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "we already have onion at home, remove this entry from the shopping list excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_diff_contain_text",
+      "file": "./data/shopping_list.xlsx",
+      "args": {
+        "input_file": "../../../../cache/5/testbed/data/shopping_list.xlsx",
+        "output_file": "./data/shopping_list.xlsx",
+        "doc_type": "xlsx",
+        "keywords": [
+          "onion",
+          "2"
+        ]
+      }
+    }
+  ]
+}

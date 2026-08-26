@@ -1,0 +1,344 @@
+{
+  "query": "I'm doing a big wardrobe refresh for different seasons and occasions. First, for a summer event, I'm looking for a popular silver item from Zara with a monthly sales volume over 900, and since I need it soon, the transport time must be less than 5 days. Next, I need a staple piece for women from Uniqlo in a coffee color; I want something well-vetted, so it must have more than 1800 total reviews. I'm also searching for a best-selling item from The North Face that has a total sales volume of over 2800 and an excellent average rating above 4.5. Finally, to prepare for winter, I need something in beige that is highly rated, specifically with fewer than 5 one-star reviews but more than 40 four-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "56c1e8f6",
+      "name": "Women's Shimmering Sequin Cami Top",
+      "price": 299.9,
+      "brand": "Zara",
+      "color": "Silver",
+      "size": "M",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Patchwork",
+      "washing_instructions": "Hand wash cold recommended. Do not bleach or tumble dry. Iron on low heat.",
+      "sales_volume": {
+        "monthly": 950,
+        "total": 5120
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 418,
+        "distribution": {
+          "5_star": 310,
+          "4_star": 85,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Great color",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "1753749b",
+      "name": "Women's Pleated Wide-Leg Trousers",
+      "price": 399.0,
+      "brand": "Uniqlo",
+      "color": "Coffee",
+      "size": "M",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 65
+        },
+        {
+          "material": "Viscose",
+          "percentage": 32
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Loose Fit (Oversize)",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not tumble dry. Cool iron.",
+      "sales_volume": {
+        "monthly": 1280,
+        "total": 9540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1850,
+        "distribution": {
+          "5_star": 1450,
+          "4_star": 320,
+          "3_star": 55,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d063ed7d",
+      "name": "Women's Explorer Cargo Pants",
+      "price": 899.0,
+      "brand": "The North Face",
+      "color": "Beige",
+      "size": "M",
+      "stock_quantity": 258,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Patchwork",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 312,
+        "total": 2890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 754,
+        "distribution": {
+          "5_star": 590,
+          "4_star": 121,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e2f5cbf0",
+      "name": "Women's Cable-Knit Turtleneck Top",
+      "price": 399.9,
+      "brand": "Zara",
+      "color": "Beige",
+      "size": "M",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Acrylic",
+          "percentage": 50
+        },
+        {
+          "material": "Wool",
+          "percentage": 45
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Button-down",
+      "washing_instructions": "Hand wash cold or machine wash gentle cycle. Lay flat to dry. Do not bleach.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 3240
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 258,
+        "distribution": {
+          "5_star": 180,
+          "4_star": 60,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products from the brand Zara with a transport time of less than 5 days, suitable for Summer, in the color Silver, and with a monthly sales volume over 900.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Zara",
+          "operator": "equals",
+          "operator_value": "Zara"
+        },
+        {
+          "field": "transport_time",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "color",
+          "value": "Silver",
+          "operator": "equals",
+          "operator_value": "Silver"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 950,
+          "operator": "greater_than",
+          "operator_value": 900.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Uniqlo, the color is Coffee, the total number of reviews is more than 1800, and the target demographic is Women.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Uniqlo",
+          "operator": "equals",
+          "operator_value": "Uniqlo"
+        },
+        {
+          "field": "color",
+          "value": "Coffee",
+          "operator": "equals",
+          "operator_value": "Coffee"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1850,
+          "operator": "greater_than",
+          "operator_value": 1800.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is The North Face, the average rating is above 4.5, and the total sales volume is more than 2800.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "brand",
+          "value": "The North Face",
+          "operator": "equals",
+          "operator_value": "The North Face"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 2890,
+          "operator": "greater_than",
+          "operator_value": 2800.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Beige, the suitable season is Winter, the number of 1-star reviews is less than 5, and the number of 4-star reviews is more than 40.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 50,
+          "operator": "greater_than",
+          "operator_value": 40.0
+        },
+        {
+          "field": "color",
+          "value": "Beige",
+          "operator": "equals",
+          "operator_value": "Beige"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        }
+      ]
+    }
+  ]
+}

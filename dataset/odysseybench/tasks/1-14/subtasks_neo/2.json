@@ -1,0 +1,42 @@
+{
+    "task": "Add a new salary component called 'transportation' with an amount of 15000 to the salary table in '/testbed/data/salary.xlsx'. The new row should have 'transportation' in the 'Name' column and '15000' in the 'amount' column. Ensure the information is entered as a new row after the last existing row.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "transportation"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "15000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the salary file with a missing compensation component and the required amount.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new salary component to be added is 'transportation'.",
+            "action": "Add this as a new row after the current last row in the salary table."
+        },
+        {
+            "fact": "The amount for 'transportation' should be 15000.",
+            "action": "Enter '15000' in the 'amount' column for the new row."
+        },
+        {
+            "fact": "The file to update is '/testbed/data/salary.xlsx'.",
+            "action": "Do not overwrite existing data; append the new row."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

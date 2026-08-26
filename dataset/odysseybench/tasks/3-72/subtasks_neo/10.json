@@ -1,0 +1,55 @@
+{
+    "task": "Extract all agenda items, their corresponding scheduled times, and owners from 'meeting_agenda.pdf', and create a structured Word document named 'data/meetings/structured_agenda.docx'. The Word file should present this information as a table with columns for Time, Item, and Owner, listing all main agenda topics as found in the original agenda, following the order and content of the PDF. Ensure that the structured summary table accurately reflects the scheduled activities, participants, and that the document includes the agenda's date and facilitator in plain text above the table.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/meetings/structured_agenda.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/meetings/structured_agenda.docx",
+                "keywords": [
+                    "Welcome",
+                    "Fiscal",
+                    "Vote",
+                    "Discuss",
+                    "Break",
+                    "New",
+                    "Business"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract the agenda items from the provided meeting_agenda.pdf and generate a structured docx file summarizing the key details in a table.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file for the structured agenda must be named data/meetings/structured_agenda.docx."
+        },
+        {
+            "fact": "The agenda information should be summarized in a table with columns Time, Item, Owner in the Word document."
+        },
+        {
+            "fact": "The agenda date is September 9."
+        },
+        {
+            "fact": "The agenda facilitator is Mirjam Nilsson."
+        },
+        {
+            "action_item": "All main meeting topics with their scheduled times and owners must be included as table rows, following the original pdf order."
+        },
+        {
+            "fact": "The agenda items to be captured are: Welcome (11:00, Mirjam Nilsson), Fiscal year review (11:05, Flora Berggren), Vote on new secretary (11:15, Rajesh Santoshi), Discuss advisory committees (11:20, Graham Barnes), Vote on budget (11:30, Rowan Murphy), Break (11:40, Robin Kline), New Business (11:45, Mirjam Nilsson)."
+        },
+        {
+            "note": "The agenda date and facilitator are to be presented in plain text above the summary table in the docx."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,25 @@
+{
+    "task": "Provide a direct answer to the question: What city does Bob prefer to visit for his next vacation, based on his recent preferences? The agent should utilize memory about Bob's stated favorite city, which was recently discussed but not recorded in any file. The final answer should simply state the city name.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/answer.txt",
+                "doc_type": "txt",
+                "keywords": [
+                    "Kyoto"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Based on recent conversations, which city does Bob prefer to visit for his next vacation?",
+    "ground_truth_memory": [
+        {
+            "fact": "Bob mentioned he prefers to visit Kyoto for his next vacation."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

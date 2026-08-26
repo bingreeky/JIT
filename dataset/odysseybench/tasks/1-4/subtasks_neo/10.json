@@ -1,0 +1,49 @@
+{
+    "task": "Add 'internet fee' with an amount of $120 and 'cleaning service' with an amount of $250 to the company_budget.xlsx file as new budget items, placing them in the next available rows after existing entries.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "internet fee"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "120"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "cleaning service"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "250"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add new expense items for internet and cleaning service to the company budget file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The company_budget.xlsx file tracks various expense items and their amounts."
+        },
+        {
+            "action_item": "Add a new row for 'internet fee' with the amount 120 in the next available row."
+        },
+        {
+            "action_item": "Add a new row for 'cleaning service' with the amount 250 in the next available row after 'internet fee'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

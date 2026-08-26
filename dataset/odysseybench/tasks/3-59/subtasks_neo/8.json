@@ -1,0 +1,57 @@
+{
+    "task": "Analyze the students' scores in data/score.xlsx by calculating the average scores for each student (grouping by student name if repeated entries exist) and add a new sheet to the Excel file named 'Summary' containing these average scores. Then, generate a summary report in a new Word file named 'score_analysis.docx'. The Word report must include a table listing each student's name alongside their computed average score, and a brief discussion highlighting which student(s) have the highest and lowest average scores.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "sheet": "Summary",
+                        "row": 2,
+                        "col": 1,
+                        "value": "Alice"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/score_analysis.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/score_analysis.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "average",
+                    "Alice",
+                    "highest",
+                    "lowest"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Provide an in-depth analysis of the student scores data, including computed averages and summary insights, and document your findings appropriately.",
+    "ground_truth_memory": [
+        {
+            "content": "The average score for each student must be calculated by grouping all rows with the same name and averaging their midterm1 and midterm2 scores."
+        },
+        {
+            "content": "A new sheet named 'Summary' must be added to the original Excel file to record each student's name and their computed average score."
+        },
+        {
+            "content": "Create a new Word document named 'score_analysis.docx' for the summary report."
+        },
+        {
+            "content": "The Word report must contain a table of all students and their average scores and include a brief discussion highlighting which student(s) achieved the highest and lowest averages."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

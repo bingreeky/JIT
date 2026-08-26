@@ -1,0 +1,49 @@
+{
+    "task": "Update the 'salary.xlsx' file by adding a new row for the 'allowance' category with an amount of 15000. Update the total compensation in the 'salary.xlsx' file by adding a new row labeled 'total' which sums up all previous amount values (base, stock, bonus, and the newly added allowance). Ensure the order of the new rows is: first allowance, then total. Do not alter any other entries.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "allowance"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "15000"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "total"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "435000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the salary.xlsx file to include an additional allowance of 15000 and make sure the total amount is adjusted accordingly.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new row for 'allowance' with amount 15000 needs to be added to 'salary.xlsx' after the existing 'bonus' row and before any new totals."
+        },
+        {
+            "fact": "After adding 'allowance', a final row labeled 'total' must sum up all current values in the amount column, including the new allowance (base, stock, bonus, allowance)."
+        },
+        {
+            "fact": "The updated 'salary.xlsx' should list 'allowance' before 'total' in the file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

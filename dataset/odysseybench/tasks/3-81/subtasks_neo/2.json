@@ -1,0 +1,37 @@
+{
+    "task": "Review the company trading records from company_trading_records.jpg, summarize the monthly income and expenditures trends, and send a concise analysis email to manager Carol. The summary should mention both income and expenditure, and note any notable trends or anomalies observed in the trading records.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Carol",
+                "keywords": [
+                    "income",
+                    "expenditure",
+                    "trading",
+                    "trend"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Email a concise summary of the income and expenditure trends in the company trading records to manager Carol.",
+    "ground_truth_memory": [
+        {
+            "fact": "Manager Carol is the recipient for the summary email."
+        },
+        {
+            "fact": "The trading records are stored in company_trading_records.jpg."
+        },
+        {
+            "action_item": "Summarize both income and expenditure trends, mentioning any notable changes or anomalies."
+        },
+        {
+            "action_item": "The summary should be concise and should use the words income, expenditure, trading, and trend in relation to the records."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

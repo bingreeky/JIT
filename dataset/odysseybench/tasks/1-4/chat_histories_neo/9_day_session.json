@@ -1,0 +1,601 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning, AI! Hope you had a restful night\u2014ready to start another week?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I\u2019m always ready to help. What do you have planned for this week?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quite a few things on my plate! Starting with a bit of digital organizing today.",
+          "ts": "2020-04-26 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds productive. Let me know if I can assist you with any file-related tasks.",
+          "ts": "2020-04-26 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Actually, do you organize your files by project, by date, or in another way?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "I recommend organizing by project name and date within specific folders for easy tracking.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. I might take your advice and reorganize today.",
+          "ts": "2020-04-26 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you need help renaming files or creating new ones as you go.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Speaking of which, I want to start tracking my monthly expenses in an Excel file. What\u2019s the best way to do this?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "A dedicated spreadsheet for tracking expenses is a great idea. You can have columns like item, month, and amount.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I decide on a name like 'monthly_expenses.xlsx', would it be easy for you to work with?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! It\u2019s best to have a clear and descriptive filename like 'monthly_expenses.xlsx'.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Where should I save it to keep things tidy? I typically use a './data' directory for similar files.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Saving 'monthly_expenses.xlsx' in the ./data directory is a great choice and will help keep everything organized.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. I\u2019ll remember: the output file must be named 'monthly_expenses.xlsx' and saved in the ./data directory.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! Just be sure to always use that name and location for consistency.",
+          "ts": "2020-04-26 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. Do you know any tips for maintaining clean digital records?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely\u2014consistent naming conventions and regular cleanups are crucial for digital organization.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you think one Excel file per month, or one for the whole year?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "One file for the whole year with months as a column is generally easier for seeing your spending patterns.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good advice! Maybe I'll just do that. Okay, I\u2019ll start organizing my receipts after breakfast.",
+          "ts": "2020-04-26 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you\u2019d like help creating the spreadsheet or if you need any reminders.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, I\u2019ll definitely ask if I get stuck!",
+          "ts": "2020-04-26 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Always here to help, Alice!",
+          "ts": "2020-04-26 08:25",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning! Did you see the groceries sale flyer I uploaded yesterday?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I didn't actually see the flyer, but if you need to track grocery expenses, I can help log that.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yeah, I'm hoping to keep better tabs on spending starting this April.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That's a great idea! April is a good month to start a tracking habit.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "So, for my expense spreadsheet, what should the first entry look like if I bought groceries this month?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "The first row should include the item you purchased, the month, and the amount spent.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, so for example, if I bought groceries in April for $150, is that how it should be recorded?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! The first row should contain item = groceries, month = April, and amount = 150.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I really like having one specific row per expense. Would the order matter for those values?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Usually, yes. Having a standard order makes it much easier to read and update.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool! I might spend more in May but April's groceries were exactly $150.",
+          "ts": "2020-04-27 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect, then that\u2019s what we\u2019ll enter for the first row: groceries, April, and 150 as the amount.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you think I should add a category column too, or is this fine for now?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "This is fine for now, but you can always add a category column later if you want more detailed tracking.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. I want it to be easy to start, so let's keep it simple.",
+          "ts": "2020-04-27 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Simplicity is key when you\u2019re building a new habit!",
+          "ts": "2020-04-27 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "How quickly can you update files when I make a change?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Pretty much instantly if you tell me the details, like item, month, and amount.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's handy. Okay, first row: groceries in April for $150. I'll keep it in mind for later when we create the file.",
+          "ts": "2020-04-27 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. Just let me know when you\u2019re ready and I\u2019ll help set it up exactly as discussed.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. By the way, do you like budgeting apps?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "They can be really helpful! But an Excel file is a great way to customize and control your budget records.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "True. I like knowing where every dollar goes.",
+          "ts": "2020-04-27 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s the best way to spot trends and save more over time.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Exactly. Thanks for helping me get the details right for that first entry.",
+          "ts": "2020-04-27 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome, Alice! I\u2019m always here to support your organization goals.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Morning, AI! Did you get a chance to look over how we might structure my new expense sheet?",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! Yes, I did. Structuring it well at the start will make it easier to use later.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s the most important thing when setting up those columns, you think?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Making sure the column order is consistent and logical is key for clarity and data entry.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "So what order makes the most sense for our expense file?",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "For your file, the columns should be ordered as: item, month, amount.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds pretty straightforward. Why do you put item first?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Listing the item first lets you immediately see what was purchased before looking at timing or cost.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I see. After that, I\u2019ll always know which month and then how much I spent.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! This order will help keep everything consistent and easy to track or filter later.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should the sheet include headers with these names too?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it\u2019s best to use headers\u2014item, month, amount\u2014at the top so every entry is clearly labeled.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have any suggestions for fonts or colors to make it easier to read?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Simple, legible fonts like Arial or Calibri are best. Shade the header row for distinction, if you like.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! I\u2019ll probably keep it basic for now. Thanks for clarifying the columns.",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome! Let me know if you need help making the actual spreadsheet.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Hopefully I\u2019ll get time this week. Out of curiosity, do you use spreadsheets for your own tasks?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Not directly, but I\u2019m designed to help people automate and track things using spreadsheets.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "I wish I had your level of organization! Maybe I\u2019ll get there.",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "With a little consistency, you\u2019ll have a system better than mine in no time.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the guidance, AI.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Always happy to help, Alice!",
+          "ts": "2020-04-28 08:21",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Hey there, AI! Following up about the spreadsheet, is there a risk of putting the wrong values in the wrong cell?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Hi Alice! As long as we\u2019re careful about where values go, it should stay correct. Placing each piece of information in the right spot is key.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "For my expenses, how do I make sure the groceries for April go where they belong?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Just remember, the values must be placed in the first row under the columns item, month, and amount.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "So, groceries under item, April under month, and 150 under amount, all in that initial row? Got it.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! That way, your spreadsheet stays organized and accurate from the start.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are there any tricks to help avoid shifting rows or mixing up entries later?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Using locked headers and double-checking each entry as you add it can help a lot. Make a habit of reviewing your spreadsheet regularly.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll try to review things as I go. Spreadsheets can get messy quickly otherwise!",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Very true! Keeping it tidy from the beginning makes future updates much smoother.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thinking of adding more expenses later. Should I insert them below the first row?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, each additional expense should go in a new row beneath the initial entry.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Would you recommend making backups regularly?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. Saving copies or using cloud storage is a smart way to keep your records safe.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you think I should password-protect the file?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "If you\u2019re worried about privacy, password protection is a good step, especially for financial records.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good point. I\u2019ll consider it. Is there a best day of the week to update expenses?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Many people like to do it once a week\u2014Sunday evenings work for some, but pick what fits your routine.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll do Wednesdays, it\u2019s a low-key day for me.",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds like a great plan, Alice! I\u2019m here whenever you want to update your sheet.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Your advice keeps me motivated.",
+          "ts": "2020-04-29 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to hear that! Staying organized really pays off in the long run.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Hi AI! Quick question\u2014what happens if I try to save my expenses in a file that doesn't already exist?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Hi Alice! If the file doesn't exist, it should be created with the correct columns and entry to match your needs.",
+          "ts": "2020-04-30 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "So, if 'monthly_expenses.xlsx' is missing, you would just make it from scratch?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! I'll make sure it includes all the right columns and details as we discussed.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's reassuring. I've accidentally deleted files before, so it's good to know you can recreate them.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "No worries\u2014I'll always set the columns up as item, month, and amount, and add that first groceries entry for April.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome! Is it possible to recover older entries if I lose the file again later?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "If you\u2019ve backed up the file or used cloud storage, you can restore it easily. Otherwise, I can help you rebuild the structure and any details you remember.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good reminder to keep backups. If the file needs to be created anew, you won\u2019t forget to set up the correct headers and that first row, right?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "I promise, the correct columns and the groceries entry will always be there if I have to make the file again.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Makes me feel a lot more secure about my records.",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s what I\u2019m here for! Organization and consistency are the names of the game.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I ever want to start a new sheet mid-year, is the process the same?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, you just specify the columns and any first row values, and I\u2019ll create the new file for you.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. Do you like organizing digital files, or is it just part of your job?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "You could say it\u2019s my specialty! I find satisfaction in helping users keep records neat and accurate.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019m glad you\u2019re designed that way. It helps me a lot.",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you, Alice. Let\u2019s keep your new spreadsheet organized!",
+          "ts": "2020-04-30 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely. I'll double-check everything is saved in './data' as usual.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! Consistency is key and your data will always be easy to find.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you! That\u2019s all my questions for now.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome, Alice. Always happy to help!",
+          "ts": "2020-04-30 08:21",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

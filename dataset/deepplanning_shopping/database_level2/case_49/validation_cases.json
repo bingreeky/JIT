@@ -1,0 +1,231 @@
+{
+  "query": "I'm refreshing my wardrobe for the season and need a few specific things delivered quickly. First, I'm looking for a men's 'Denim Trucker Jacket' suitable for spring/autumn. It needs to be well-regarded, with more than 850 total reviews, and crucially, have a transport time of less than 2 days. To go with it, I'm searching for a dark green item for the same spring/autumn season, but I only want high-quality options, so it must have fewer than 10 one-star reviews. Lastly, I need to find something in navy blue. It has to be a popular choice with more than 1000 total reviews, be readily available with a stock quantity of over 800, and also have a transport time under 2. Find me some products where the total price is no less than 1702 and no more than 2073.",
+  "ground_truth_products": [
+    {
+      "product_id": "b2aa463e",
+      "name": "Men's Classic Logo Crewneck Sweatshirt",
+      "price": 499.0,
+      "brand": "Vans",
+      "color": "Dark Green",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or iron on print.",
+      "sales_volume": {
+        "monthly": 310,
+        "total": 4521
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 945,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ac354269",
+      "name": "Men's Tech Fleece Crewneck Sweatshirt",
+      "price": 329.0,
+      "brand": "Anta",
+      "color": "Navy Blue",
+      "size": "XL",
+      "stock_quantity": 856,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not bleach or iron on print.",
+      "sales_volume": {
+        "monthly": 4150,
+        "total": 28990
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 6754,
+        "distribution": {
+          "5_star": 5403,
+          "4_star": 1013,
+          "3_star": 203,
+          "2_star": 68,
+          "1_star": 67
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "JD Logistics"
+      }
+    },
+    {
+      "product_id": "e92a4e1b",
+      "name": "Men's Classic Denim Trucker Jacket",
+      "price": 899.99,
+      "brand": "Levi's",
+      "color": "Navy Blue",
+      "size": "XL",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Button-down, Side Pockets, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold, inside out with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 5890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Dark Green, the number of 1-star reviews is less than 10, and it is suitable for Spring/Autumn.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Dark Green"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 8
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the stock quantity is more than 800, the color is Navy Blue, and there are more than 1000 total reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "stock_quantity",
+          "value": 850
+        },
+        {
+          "field": "color",
+          "value": "Navy Blue"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1150
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the suitable season is Spring/Autumn, there are more than 850 total reviews, the target demographic is Men, and the name contains 'Denim Trucker Jacket'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 856
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "name",
+          "value": "Men's Classic Red Denim Trucker Jacket"
+        }
+      ]
+    }
+  ]
+}

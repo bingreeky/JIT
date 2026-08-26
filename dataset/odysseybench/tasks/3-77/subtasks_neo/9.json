@@ -1,0 +1,43 @@
+{
+    "task": "Based on the image /testbed/data/house_price_index.jpg, summarize the overall trends observed in the house price index and write a summary in the file market_trends.docx. The summary should mention the general direction of the house price index over time and highlight any significant increases or decreases. Format the summary in a way suitable for a report, using clear and concise language.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/market_trends.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/market_trends.docx",
+                "keywords": [
+                    "house",
+                    "price",
+                    "index",
+                    "trend"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please summarize the general trends from the house price index image into the specified document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output summary must be written in the file named market_trends.docx."
+        },
+        {
+            "action_item": "Summarize observed trends (direction, significant increases/decreases) of the house price index from the image."
+        },
+        {
+            "fact": "The summary should be concise and suitable for a report format."
+        },
+        {
+            "action_item": "Include the keywords: house, price, index, trend in the summary."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

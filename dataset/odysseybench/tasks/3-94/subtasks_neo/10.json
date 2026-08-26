@@ -1,0 +1,82 @@
+{
+    "task": "Create a new Excel file named 'project_plan.xlsx' with a sheet for a project timeline. Add the following milestones as rows: (1) 'Planning' scheduled for 2020-05-04, (2) 'Development' scheduled for 2020-05-11, and (3) 'Testing' scheduled for 2020-05-18. Each milestone should be in a separate row with columns: Milestone, Date. Then send an email to Bob with subject 'Project Timeline Created' and body mentioning that the project timeline was created and includes the three milestones, listing their names and dates.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/project_plan.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Planning"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "2020-05-04"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Development"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "2020-05-11"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Testing"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "2020-05-18"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "project",
+                    "timeline",
+                    "Planning",
+                    "2020-05-04",
+                    "Development",
+                    "2020-05-11",
+                    "Testing",
+                    "2020-05-18"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a project timeline Excel file with milestones and notify me by email.",
+    "ground_truth_memory": [
+        {
+            "note": "The Excel file name must be 'project_plan.xlsx'."
+        },
+        {
+            "note": "Each project milestone must have its own row with columns: Milestone, Date."
+        },
+        {
+            "note": "Milestones are: Planning (2020-05-04), Development (2020-05-11), Testing (2020-05-18)."
+        },
+        {
+            "note": "After creating the file, send an email to Bob with the subject 'Project Timeline Created'."
+        },
+        {
+            "note": "The email should mention that the timeline was created and list the three milestones with their dates in the body."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

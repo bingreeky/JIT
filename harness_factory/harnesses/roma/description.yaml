@@ -1,0 +1,19 @@
+description: |-
+  ## 1. Architecture Overview
+
+  ROMA is a recursive decomposition harness for tasks that may contain multiple semi-independent goals. Instead of assuming every task should be handled in one flat ReAct loop, it first decides whether the task is atomic or complex. Atomic tasks are executed directly with standard tool-calling steps, while complex tasks are decomposed into subtasks with dependency edges, executed in topological layers, and then synthesized back into a final answer. This gives the harness a tree-shaped execution pattern with explicit aggregation, rather than a purely linear or purely memory-compression-driven workflow.
+
+  ## 2. Key Features / Innovations
+
+  - Uses a two-phase planning process: an atomizer first decides whether decomposition is necessary, and a planner only runs when the task is judged complex.
+  - Supports recursive subtask execution, so a subtask can itself be reclassified as atomic or decomposed again up to a bounded depth.
+  - Preserves structured information flow between subtasks through an artifact store, allowing dependent subtasks to receive explicit context from earlier completed results instead of relying on one shared flat transcript.
+  - Executes dependency-free subtasks in parallel topological layers, then performs a dedicated aggregation step to turn distributed sub-results into a single final answer.
+
+  ## 3. Where These Features Are Implemented
+
+  - `planning`: `planning.py` is the entry point for ROMA's decomposition logic. `init_plan()` first calls `_atomize()` to classify the task as atomic or complex, then calls `_plan()` only for complex tasks to produce `subtasks` plus a `dependencies` DAG. This metadata is serialized into `PlanState.plan_reasoning`, which the action layer later reads back to decide whether to recurse or execute directly.
+  - `action`: `action.py` is the core of the harness. `_run_recursive()` performs the main control flow: it asks the planner for decomposition metadata, falls back to `_execute_atomic()` for atomic tasks, or else computes topological layers with `_topological_order()`, runs ready subtasks sequentially or in parallel, and finally calls `_aggregate()` to synthesize all subtask results into the answer for the parent task.
+  - `action`: recursive execution is implemented in `_execute_subtask()`, which creates an isolated `MemoryStrategy` instance for each subtask, injects dependency results into the subtask prompt as explicit context, and then calls `_run_recursive()` again at `depth + 1`. The recursion depth is bounded by `MAX_DEPTH`, after which tasks are forced into direct execution to avoid unbounded decomposition.
+  - `action`: parallelism is implemented in `_execute_subtasks_parallel()` using a `ThreadPoolExecutor`, with concurrency capped by `MAX_PARALLEL`. This means ROMA does not indiscriminately parallelize everything; it only parallelizes subtasks that are in the same dependency-ready layer.
+  - `memory`: `memory.py` keeps the full conversation history for each task or subtask through `MemoryStrategy`, but its distinctive addition is `ArtifactStore`. The store records each subtask's goal and result, can assemble dependency-specific context with `get_dependency_context()`, and can expose all subtask outputs through `get_all_results()` for the aggregator stage.

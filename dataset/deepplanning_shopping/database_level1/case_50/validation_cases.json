@@ -1,0 +1,238 @@
+{
+  "query": "I'm doing some shopping to update my wardrobe for the year. First, I'm looking for a popular item for men from The North Face; specifically, it needs to have more than 350 five-star ratings. I also need a very reliable all-seasons product for men, so I'm only interested in something with fewer than 5 one-star reviews. To round things out for the milder weather, I'm searching for an item suitable for spring and autumn. For this one, I want to ensure high quality, so it must have an average score greater than 4.5 and also have fewer than 5 one-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "9e335ee9",
+      "name": "Men's Horizon Short-Sleeve Tech Polo",
+      "price": 549.5,
+      "brand": "The North Face",
+      "color": "Khaki",
+      "size": "L",
+      "stock_quantity": 288,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or use fabric softeners.",
+      "sales_volume": {
+        "monthly": 315,
+        "total": 1980
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great for hiking",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2640b2e0",
+      "name": "Men's Agile Performance Base Layer",
+      "price": 549.0,
+      "brand": "Salomon",
+      "color": "Wine Red",
+      "size": "L",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 325,
+        "distribution": {
+          "5_star": 244,
+          "4_star": 65,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "175ee160",
+      "name": "Men's Slim Fit Crew Neck Knit Top",
+      "price": 329.0,
+      "brand": "Zara",
+      "color": "Wine Red",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 52
+        },
+        {
+          "material": "Polyester",
+          "percentage": 28
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Lay flat to dry to prevent stretching.",
+      "sales_volume": {
+        "monthly": 985,
+        "total": 5420
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 751,
+        "distribution": {
+          "5_star": 612,
+          "4_star": 105,
+          "3_star": 24,
+          "2_star": 7,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the target demographic is Men, the brand is The North Face, and the number of 5-star ratings is more than 350.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "brand",
+          "value": "The North Face",
+          "operator": "equals",
+          "operator_value": "The North Face"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 380,
+          "operator": "greater_than",
+          "operator_value": 350.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with less than 5 1-star reviews, where the target demographic is Men and it is suitable for All Seasons.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Spring/Autumn, the average score is greater than 4.5, and the number of 1-star reviews is less than 5.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        }
+      ]
+    }
+  ]
+}

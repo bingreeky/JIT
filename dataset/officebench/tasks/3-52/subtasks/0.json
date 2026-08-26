@@ -1,0 +1,51 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Create meeting agenda from Excel data and add it to my calendar and email to the participants emails as reminders, separately.",
+    "evaluation": [
+        {
+          "function": "evaluate_contain",
+          "args": {
+            "doc_type": "ics",
+            "file": "calendar/Bob.ics",
+            "keywords": [
+                "Introductions", "Linda",
+                "Agenda", "Davide",
+                "Strategy", "Charlie"
+            ]
+          }
+        },
+        {
+          "function": "evaluate_contain",
+          "args": {
+            "doc_type": "email",
+            "username": "Linda",
+            "keywords": [
+              "Introductions", "Linda"
+            ]
+          }
+        },
+        {
+          "function": "evaluate_contain",
+          "args": {
+            "doc_type": "email",
+            "username": "Davide",
+            "keywords": [
+              "Agenda", "Davide"
+            ]
+          }
+        },
+        {
+          "function": "evaluate_contain",
+          "args": {
+            "doc_type": "email",
+            "username": "Charlie",
+            "keywords": [
+              "Strategy", "Charlie"
+            ]
+          }
+        }
+    ]
+}

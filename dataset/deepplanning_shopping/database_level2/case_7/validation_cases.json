@@ -1,0 +1,385 @@
+{
+  "query": "I'm doing a major wardrobe update and need to get a few things delivered quickly, so I'm being very specific. First, I'm looking for a popular item from Vans that has more than 250 four-star reviews and a transport time of less than two days. For the upcoming cooler weather, I need a spring/autumn product from Adidas in size S. To ensure its quality, it should have fewer than 40 two-star reviews and also needs to arrive in under two days. Next, I'm searching for some size 36 women's 'Lightweight Sneakers' that are a reliable choice, meaning a total sales volume over 2100 and fewer than 15 one-star reviews. For summer, I want an 'All-Star Classic Skort' that's a bestseller with monthly sales over 600, fewer than 5 one-star reviews, and, again, a transport time of less than two days. Lastly, I need a versatile, all-seasons 'Sunbeam' item from Li-Ning with fewer than 10 two-star reviews. I'm looking for something that costs somewhere in the range of 2165 to 2180.",
+  "ground_truth_products": [
+    {
+      "product_id": "e408e69f",
+      "name": "Women's Classic Canvas Skater Shoes",
+      "price": 529.0,
+      "brand": "Vans",
+      "color": "Burgundy",
+      "size": "36",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 90
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Ribbed Cuffs, Printing",
+      "washing_instructions": "Wipe clean with a damp cloth. Avoid prolonged sun exposure. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 890,
+        "total": 11540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1852,
+        "distribution": {
+          "5_star": 1490,
+          "4_star": 285,
+          "3_star": 55,
+          "2_star": 12,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2ca4c4e5",
+      "name": "Women's Essentials 3-Stripes Tapered Pants",
+      "price": 399.0,
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "S",
+      "stock_quantity": 1280,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Cotton",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 11245
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1530,
+        "distribution": {
+          "5_star": 1100,
+          "4_star": 350,
+          "3_star": 50,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "8eb3b2a7",
+      "name": "Women's Summer Breeze Lightweight Sneakers",
+      "price": 429.9,
+      "brand": "Li-Ning",
+      "color": "Green",
+      "size": "36",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not expose to direct heat.",
+      "sales_volume": {
+        "monthly": 345,
+        "total": 2188
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 680,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 160,
+          "3_star": 45,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "7d7fa477",
+      "name": "Women's All-Star Classic Skort",
+      "price": 349.0,
+      "brand": "Converse",
+      "color": "Wine Red",
+      "size": "S",
+      "stock_quantity": 381,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron decoration.",
+      "sales_volume": {
+        "monthly": 625,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 420,
+          "4_star": 75,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4356bcaa",
+      "name": "Women's 'Sunbeam' Breathable Running Shoes",
+      "price": 459.9,
+      "brand": "Li-Ning",
+      "color": "Yellow",
+      "size": "36",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3280
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 678,
+        "distribution": {
+          "5_star": 510,
+          "4_star": 120,
+          "3_star": 35,
+          "2_star": 8,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2, the brand is Vans, and the number of 4-star reviews is more than 250.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Vans"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 280
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products from the brand Adidas, in size S, suitable for Spring/Autumn, with a transport time of less than 2 days, and with fewer than 40 2-star reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 30
+        },
+        {
+          "field": "brand",
+          "value": "Adidas"
+        },
+        {
+          "field": "size",
+          "value": "S"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, the total sales volume is more than 2100, the number of 1-star reviews is less than 15, the size is 36, and the name contains 'Lightweight Sneakers'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 2188
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 10
+        },
+        {
+          "field": "size",
+          "value": "36"
+        },
+        {
+          "field": "name",
+          "value": "Women's Summer Breeze Lightweight Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a name containing 'All-Star Classic Skort', that are suitable for Summer, have a monthly sales volume greater than 600, a transport time less than 2 days, and fewer than 5 1-star reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 625
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "name",
+          "value": "Women's All-Star Classic Skort"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is All Seasons, the number of 2-star reviews is less than 10, the brand is Li-Ning, and the name contains 'Sunbeam'.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 8
+        },
+        {
+          "field": "brand",
+          "value": "Li-Ning"
+        },
+        {
+          "field": "name",
+          "value": "Women's 'Sunbeam' Breathable Running Shoes"
+        }
+      ]
+    }
+  ]
+}

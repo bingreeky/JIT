@@ -1,0 +1,25 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Take the text from market_analysis.pdf and place it into a new file called market_analysis.docx",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/market_analysis.docx",
+        "doc_type": "doc",
+        "keywords": [
+          "Market",
+          "Analysis",
+          "Marketing",
+          "Plan",
+          "Business",
+          "Customer",
+          "How Large"
+        ]
+      }
+    }
+  ]
+}

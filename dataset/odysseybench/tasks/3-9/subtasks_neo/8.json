@@ -1,0 +1,52 @@
+{
+    "task": "Summarize the years with company revenues below $2,000,000 as found in /testbed/data/company_revenues.xlsx, and generate a Word document titled 'LowRevenueYears.docx' containing this summary. Include a statement in the document that mentions the specific range of years for which this trend holds. Make sure the Word file contains keywords indicating the low revenue threshold and references the Excel source by name.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/LowRevenueYears.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/LowRevenueYears.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "low",
+                    "revenue",
+                    "years",
+                    "2,000,000",
+                    "company_revenues.xlsx"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a Word document summarizing the years when company revenue was below the specified threshold, and reference the Excel file.",
+    "ground_truth_memory": [
+        {
+            "type": "fact",
+            "content": "The analysis should focus on years when company revenue was below $2,000,000."
+        },
+        {
+            "type": "fact",
+            "content": "The Word output file must be named 'LowRevenueYears.docx'."
+        },
+        {
+            "type": "fact",
+            "content": "The document should reference 'company_revenues.xlsx' by name."
+        },
+        {
+            "type": "action_item",
+            "content": "Include in the output document a statement about the years for which revenues were under the $2,000,000 threshold."
+        },
+        {
+            "type": "action_item",
+            "content": "The summary document should mention the low revenue threshold explicitly."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

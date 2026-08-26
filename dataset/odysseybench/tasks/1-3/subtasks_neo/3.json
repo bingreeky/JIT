@@ -1,0 +1,45 @@
+{
+    "task": "Move file1.docx, file2.pdf, file3.xlsx, and file4.jpg into a new folder named 'project_archive' in the /testbed/data directory. Create the 'project_archive' directory if it does not already exist before moving the files into it.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/project_archive/file1.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/project_archive/file2.pdf"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/project_archive/file3.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/project_archive/file4.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Move the office files and images into the project archive folder.",
+    "ground_truth_memory": [
+        {
+            "fact": "The files to move are file1.docx, file2.pdf, file3.xlsx, and file4.jpg."
+        },
+        {
+            "action_item": "Create a directory named 'project_archive' in /testbed/data if it does not already exist before moving the files."
+        },
+        {
+            "note": "All specified files should be moved into /testbed/data/project_archive/."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

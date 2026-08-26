@@ -1,0 +1,27 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "add annual bonus $50000 to salary excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/salary.xlsx",
+        "matches": [
+          {
+            "row": "5",
+            "col": "1",
+            "value": "annual bonus"
+          },
+          {
+            "row": "5",
+            "col": "2",
+            "value": "50000"
+          }
+        ]
+      }
+    }
+  ]
+}

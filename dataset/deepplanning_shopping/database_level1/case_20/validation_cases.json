@@ -1,0 +1,514 @@
+{
+  "query": "I'm getting ready for a last-minute trip and need to order several things for myself, all with very quick delivery. First, I need a men's item from Ralph Lauren with a transport time of less than 2 days; it has to be popular, with over 1200 total reviews and more than 1000 five-star ratings. Next, I need a summer product for men from Salomon that has 'Agile Tech' in its name and a transport time under 2 days. I'm also looking for a size L item with 'Canyonwall' in the name, ensuring it has more than 150 four-star reviews and less than 10 one-star reviews. To go with that, I need something blue with a monthly sales volume over 800, a stock quantity greater than 200, and fewer than 20 two-star reviews. Then, a highly-rated Timberland product with total sales over 1800, less than 10 one-star and two-star ratings each, and a transport time under 2 days. Finally, I need another men's item with a stock quantity of more than 200 and fewer than 5 two-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "3e28fc8a",
+      "name": "Men's Luxury Pima Cotton Polo",
+      "price": 599.0,
+      "brand": "Ralph Lauren",
+      "color": "Burgundy",
+      "size": "L",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Button-down",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 12450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3150,
+        "distribution": {
+          "5_star": 2650,
+          "4_star": 400,
+          "3_star": 70,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "126254a4",
+      "name": "Men's Agile Tech Short-Sleeve Top",
+      "price": 389.0,
+      "brand": "Salomon",
+      "color": "Khaki",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not use fabric softeners.",
+      "sales_volume": {
+        "monthly": 521,
+        "total": 3155
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 754,
+        "distribution": {
+          "5_star": 610,
+          "4_star": 125,
+          "3_star": 12,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6fb8cf6c",
+      "name": "Men's Tech Fleece Winter Jogger Pants",
+      "price": 749.0,
+      "brand": "Nike",
+      "color": "Blue",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 66
+        },
+        {
+          "material": "Polyester",
+          "percentage": 34
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Zipper Closure, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 9870
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 655,
+        "distribution": {
+          "5_star": 520,
+          "4_star": 110,
+          "3_star": 15,
+          "2_star": 6,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "Excellent quality",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "43097b93",
+      "name": "Men's Classic Wool Blend Overcoat",
+      "price": 899.0,
+      "brand": "Timberland",
+      "color": "Camel",
+      "size": "L",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Button-down, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Dry clean only. Do not machine wash. Iron on low heat. Do not bleach.",
+      "sales_volume": {
+        "monthly": 310,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 420,
+        "distribution": {
+          "5_star": 340,
+          "4_star": 65,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Great color",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "eb3208a4",
+      "name": "Men's Apex Canyonwall Eco Trekking Bottoms",
+      "price": 998.0,
+      "brand": "The North Face",
+      "color": "Burgundy",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 93
+        },
+        {
+          "material": "Spandex",
+          "percentage": 7
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1154,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 155,
+          "3_star": 30,
+          "2_star": 12,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4f9eee75",
+      "name": "Men's 'City Explorer' Graphic Long-Sleeve T-Shirt",
+      "price": 249.0,
+      "brand": "Li-Ning",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron on graphic.",
+      "sales_volume": {
+        "monthly": 378,
+        "total": 4120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 451,
+        "distribution": {
+          "5_star": 370,
+          "4_star": 65,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Ralph Lauren, the target demographic is Men, the total number of reviews is more than 1200, there are more than 1000 5-star ratings, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1254,
+          "operator": "greater_than",
+          "operator_value": 1200.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren",
+          "operator": "equals",
+          "operator_value": "Ralph Lauren"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 1053,
+          "operator": "greater_than",
+          "operator_value": 1000.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the brand is Salomon, it is suitable for Summer, the target demographic is Men, and the name contains 'Agile Tech'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Salomon",
+          "operator": "equals",
+          "operator_value": "Salomon"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "name",
+          "value": "Men's Agile Tech Short-Sleeve Tee",
+          "operator": "contains",
+          "operator_value": "Agile Tech"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Blue, the monthly sales volume is more than 800, the number of 2-star reviews is less than 20, and the stock quantity is greater than 200.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Blue",
+          "operator": "equals",
+          "operator_value": "Blue"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 850,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 16,
+          "operator": "less_than",
+          "operator_value": 20.0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 235,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total sales volume is more than 1800, the brand is Timberland, the number of 2-star ratings is less than 10, the number of 1-star ratings is less than 10, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 1845,
+          "operator": "greater_than",
+          "operator_value": 1800.0
+        },
+        {
+          "field": "brand",
+          "value": "Timberland",
+          "operator": "equals",
+          "operator_value": "Timberland"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 7,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains 'Canyonwall', the size is L, there are less than 10 1-star reviews, and more than 150 4-star reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 7,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 155,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "name",
+          "value": "Men's Apex Canyonwall Eco Trekking Bottoms",
+          "operator": "contains",
+          "operator_value": "Canyonwall"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 2-star reviews is less than 5, the target demographic is Men, and the stock quantity is more than 200.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 215,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        }
+      ]
+    }
+  ]
+}

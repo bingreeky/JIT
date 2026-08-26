@@ -1,0 +1,41 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Convert Excel spreadsheet containing project tasks to task.pdf and email Alice.eml containing pdf file for review",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/task.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "Activaty1",
+                    "Activaty2",
+                    "Activaty3",
+                    "Activaty4"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/task.pdf",
+                "keywords": [
+                    "Activaty1",
+                    "Activaty2",
+                    "Activaty3",
+                    "Activaty4"
+                ]
+            }
+        }
+    ]
+}

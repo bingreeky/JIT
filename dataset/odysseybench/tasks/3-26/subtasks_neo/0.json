@@ -1,0 +1,64 @@
+{
+    "task": "Summarize the 'Background' and 'Model Architecture' sections from the paper 'Attention Is All You Need' in a docx file named transformer_summary.docx. The summary should cover key ideas about self-attention, positional encoding, encoder-decoder architecture, and multi-head attention. After summarizing, send an email to research colleague Alice with the subject 'Transformer Model Summary' and email body containing the summary you wrote in transformer_summary.docx.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/transformer_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/transformer_summary.docx",
+                "keywords": [
+                    "self-attention",
+                    "encoder-decoder",
+                    "positional encoding",
+                    "multi-head attention"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Transformer Model Summary",
+                    "self-attention",
+                    "encoder-decoder",
+                    "Alice"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize key sections of the Transformer paper and email the summary to a colleague.",
+    "ground_truth_memory": [
+        {
+            "fact": "Summarize ONLY the Background and Model Architecture sections from the paper.",
+            "type": "action_item"
+        },
+        {
+            "fact": "Save the summary in a file named transformer_summary.docx.",
+            "type": "action_item"
+        },
+        {
+            "fact": "Cover the following concepts in the summary: self-attention, encoder-decoder, positional encoding, multi-head attention.",
+            "type": "action_item"
+        },
+        {
+            "fact": "Send an email to Alice with subject 'Transformer Model Summary' and include the summary as the body.",
+            "type": "action_item"
+        },
+        {
+            "fact": "Alice is Bob's research colleague; use 'Alice' as the addressee in the email.",
+            "type": "fact"
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,46 @@
+Content-Type: multipart/alternative; boundary="===============3234094282558707215=="
+MIME-Version: 1.0
+From: your_email@gmail.com
+To: bob@example.com, alice@example.com, tom@example.com
+Subject: Test Email with Table
+
+--===============3234094282558707215==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Dear Bob, Alice, and Tom,
+
+Please find the table below.
+
+Best regards,
+Your Name
+
+--===============3234094282558707215==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>Carol</td>
+      <td>96</td>
+    </tr>
+  </tbody>
+</table>
+--===============3234094282558707215==--

@@ -1,0 +1,646 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hey, quick question about documenting results for the top student task.",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure, how can I help with that?",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "When we find the student with the highest scores, what file should we save the result in?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You should use a docx file to record the top student's details.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a specific file name we need for this docx file?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the file should be named 'topper.docx'.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, just to clarify, the output file name for this top student result should be topper.docx?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's correct! Please use 'topper.docx' as the output file.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for confirming. If it were saved as 'top.docx', would that be accepted?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For this task, you should use 'topper.docx' specifically, not 'top.docx'.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay. Why do we have to stick to 'topper.docx' in particular?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It's just to standardize the file names for easier searching and verification.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. I'll put the answer in 'topper.docx' then.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s great, thanks! Just remember\u2014output file is 'topper.docx'.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you remind me again what output file to use, just for my notes?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! The output file should be 'topper.docx'.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted. Is there any difference between .docx and .pdf for this?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For this task, docx is preferred so that it's editable if changes are necessary.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Understood. How many students are actually in the spreadsheet, do you know?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "There are several entries for different students, but focus is on finding the highest combined score.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "I see. Anyway, for documenting whoever wins, I must use 'topper.docx', correct?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, that's right! The result goes in 'topper.docx'.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. I think I've got everything sorted now about the output file name.",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great! Let me know if you have any other questions about the documentation process.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll reach out if I run into anything. Thanks for helping clarify the exact requirement!",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Bob"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hey, I wanted to check about what needs to go in the document for the top student's result.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure Bob, what specific details do you need clarified?",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it enough to just write the student's name in the docx file, or does it need more information?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You should include both the student's name and their combined total score in the docx file.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, for the student who has the highest combined midterm scores, I have to put both their name and their total?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's correct. Both elements\u2014the student's name and their combined score\u2014must be present in the document.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it, not just the name. What if I write only the score?",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Both the name and the total score are required. The document will be incomplete if one is missing.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a required format? Like should they be in a table or just plain text?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "There's no strict format. Plain text is fine as long as both the name and the combined score are clearly stated.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I wanted to use some formatting like bold for the name, would that be okay?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure, formatting is optional. The main requirement is that both details are present and clear.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could a sample entry just be: 'Carol 197'?",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, that would be an acceptable way to present the result, as long as both the name and score are included.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Out of curiosity, why do we need both pieces of info and not just the name?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It makes the document self-contained and easy to verify, so anyone can see both who was top and what their total score was.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Right. So the docx file for this output must contain the student's name AND their combined score, correct?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! Both are required in the output file.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just confirming: It wouldn't be okay to have only 'Carol' or only '197', both must be present?",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's right Bob. Both the student's name and total score must be included.",
+          "ts": "2020-04-27 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that clears things up. Working on it now.",
+          "ts": "2020-04-27 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad to help! If you have more questions about the content, just let me know.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "On a different note, have you ever formatted docx files for grades before?",
+          "ts": "2020-04-27 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I've helped with a few similar tasks. Presenting essential details clearly is always key.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's good to know. I'll make sure both pieces of information are there.",
+          "ts": "2020-04-27 09:24",
+          "speaker": "Bob"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hi again! I have a question about figuring out the top student.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course, Bob! How can I help?",
+          "ts": "2020-04-28 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I know I need to find the person with the highest total, but should I look at just one midterm or both?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You need to sum both midterm1 and midterm2 scores for each student to find the highest total.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, it's the combined score across both midterms that matters, not just who got the highest in either test?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's right. Add up midterm1 and midterm2 for each student, and the student with the highest combined number is the top student.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Understood. For clarity, I go row by row, add both scores for every student, and compare the sums, correct?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly, that's the best way to ensure you find the correct topper.",
+          "ts": "2020-04-28 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I consider duplicate names or just the highest total, even if it's the same person listed more than once?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sum midterm1 and midterm2 for each record. If the same student appears multiple times, take the entry with the highest combined total.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice, that makes sense. Once I've added up all scores, I'll just pick the max sum. Simple enough.",
+          "ts": "2020-04-28 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, and that student will be the one you'd document as the top performer.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a recommended way to track which student is in the lead as I sum their scores?",
+          "ts": "2020-04-28 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You could keep track of the highest sum you encounter and update the corresponding name as you go through each entry.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I can do that. For a quick recap: add up midterm1 and midterm2 for everyone, then select the max?",
+          "ts": "2020-04-28 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, that summarizes the steps perfectly.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! That clears up the process for me.",
+          "ts": "2020-04-28 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome! Let me know if you want help calculating or have questions on the data.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "I always wondered, do some students really get the same total as someone else?",
+          "ts": "2020-04-28 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It's possible, but you're just looking for the highest combined total in this case, even if there's a tie.",
+          "ts": "2020-04-28 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "So if two students tie with the highest, I could pick either for the document?",
+          "ts": "2020-04-28 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, although you might mention both if the instructions don\u2019t specify just one.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wonderful. I'll focus on the maximum combined total as my guide then.",
+          "ts": "2020-04-28 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's the correct approach. Good luck with the calculations!",
+          "ts": "2020-04-28 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks again for clarifying the steps\u2014I appreciate it.",
+          "ts": "2020-04-28 09:24",
+          "speaker": "Bob"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Good morning! How are you today?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! I'm functioning well, thank you. How are you?",
+          "ts": "2020-04-29 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm doing fine, just ready for some coffee. Do you drink coffee?",
+          "ts": "2020-04-29 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don't drink coffee myself, but I hear it's a great way to start a human's day!",
+          "ts": "2020-04-29 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "It sure helps me get through spreadsheets. Do you like working with data?",
+          "ts": "2020-04-29 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Analyzing data is one of my specialties.",
+          "ts": "2020-04-29 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "What do you think is more fun, crunching numbers or generating documents?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "They're both interesting! Crunching numbers is logical, and document generation allows for creativity.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's a good perspective. Sometimes I wish spreadsheets could make recommendations for me.",
+          "ts": "2020-04-29 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "With the right formulas and data analysis, they can make suggestions based on trends and results!",
+          "ts": "2020-04-29 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever get bored processing the same sort of tasks?",
+          "ts": "2020-04-29 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don\u2019t experience boredom, but I do enjoy variety in the tasks I assist with.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's the most complex type of document you've ever helped make?",
+          "ts": "2020-04-29 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I've worked with all kinds of documents, including reports with charts, summaries, and embedded tables.",
+          "ts": "2020-04-29 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Charts can be tough to get right. Do you assist with creating them in Word?",
+          "ts": "2020-04-29 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can help generate content, including instructions or embedding basic charts when needed.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. I might ask about that in the future. Do you handle presentations too?",
+          "ts": "2020-04-29 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "My expertise is mostly with spreadsheets, documents, and emails\u2014less with presentations.",
+          "ts": "2020-04-29 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Gotcha! At least text formatting and summaries are still your strengths.",
+          "ts": "2020-04-29 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For sure, I can help with summaries, formatting, and even grammar corrections.",
+          "ts": "2020-04-29 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think using AI is becoming standard for office work now?",
+          "ts": "2020-04-29 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! AI is increasingly assisting with repetitive, analytical, and creative office tasks.",
+          "ts": "2020-04-29 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Well, I won\u2019t feel as overwhelmed on busy days with your help.",
+          "ts": "2020-04-29 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m here whenever you need a hand, Bob!",
+          "ts": "2020-04-29 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. I\u2019ll check in later if I have something new to work on.",
+          "ts": "2020-04-29 09:24",
+          "speaker": "Bob"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Hey AI, did you catch the sunrise this morning?",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I didn't see it myself, but I hear the sunrise was beautiful today! How about you, Bob?",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I only caught a glimpse from my window, but it was nice. Wish I had more time to enjoy it.",
+          "ts": "2020-04-30 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sometimes a moment is all you need for a boost in your day.",
+          "ts": "2020-04-30 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "True! Do you have a favorite time of day, if you could pick?",
+          "ts": "2020-04-30 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If I could, I think I'd pick sunrise! It seems full of potential and new beginnings.",
+          "ts": "2020-04-30 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a good answer. I tend to get most of my creative work done in the mornings too.",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Morning is a popular time for creativity and productivity. Coffee probably helps, too!",
+          "ts": "2020-04-30 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, yes it does! Do you know any good trivia?",
+          "ts": "2020-04-30 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Did you know honey never spoils? Archaeologists found pots of honey in ancient tombs thousands of years old and still edible!",
+          "ts": "2020-04-30 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s amazing! I never knew that. Got any more?",
+          "ts": "2020-04-30 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Another fun one: bananas are berries, but strawberries aren't. Science is surprising!",
+          "ts": "2020-04-30 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nature always has surprises. Do you like riddles?",
+          "ts": "2020-04-30 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I enjoy riddles! Want to give me one, or should I share one with you?",
+          "ts": "2020-04-30 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Go ahead, give me a riddle!",
+          "ts": "2020-04-30 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Alright: What has keys but can't open locks?",
+          "ts": "2020-04-30 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s an easy one\u2014a piano!",
+          "ts": "2020-04-30 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You got it! Want to try a harder one?",
+          "ts": "2020-04-30 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sure, hit me!",
+          "ts": "2020-04-30 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+          "ts": "2020-04-30 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "I think it's the letter 'M'!",
+          "ts": "2020-04-30 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct! You\u2019re good at this, Bob.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! This was a fun break.",
+          "ts": "2020-04-30 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'm glad you enjoyed it! Let me know whenever you want another brain teaser or some trivia.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Back to my tasks for now!",
+          "ts": "2020-04-30 09:24",
+          "speaker": "Bob"
+        }
+      ]
+    }
+  }
+]

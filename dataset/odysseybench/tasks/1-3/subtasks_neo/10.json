@@ -1,0 +1,36 @@
+{
+    "task": "Rename the existing image file file4.jpg to company_logo.jpg. Then, move the newly named image file along with file1.docx to a new directory named 'company_assets' inside the /testbed/data path. Create the 'company_assets' subdirectory if it does not exist.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/company_assets/company_logo.jpg"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/company_assets/file1.docx"
+            }
+        }
+    ],
+    "query_sentence": "Organize the relevant company files as specified, making sure to properly rename and move files as needed.",
+    "ground_truth_memory": [
+        {
+            "fact": "The current image file is named file4.jpg in /testbed/data."
+        },
+        {
+            "action_item": "Rename file4.jpg to company_logo.jpg before moving."
+        },
+        {
+            "action_item": "Move company_logo.jpg and file1.docx into a subdirectory named company_assets within /testbed/data."
+        },
+        {
+            "fact": "Create the company_assets directory if it does not already exist."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

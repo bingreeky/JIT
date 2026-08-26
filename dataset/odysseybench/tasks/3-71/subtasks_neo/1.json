@@ -1,0 +1,76 @@
+{
+    "task": "Extract the entire financial meeting agenda from 'meeting_agenda.pdf' and perform the following: (1) Add each agenda item from the meeting schedule as a calendar event in 'calendar/Bob.ics' with its title, owner, and scheduled start time; (2) Create and save a visual agenda as 'data/agenda.jpg' that presents the key meeting schedule including time, item, and owner; (3) Ensure the event titles in the calendar contain both the agenda item and the owner. Do not omit any schedule item. When listing the events, use exact start times as shown in the PDF.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Bob.ics"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "Welcome",
+                    "Fiscal year review",
+                    "Vote on new secretary",
+                    "Discuss advisory committees",
+                    "Vote on budget",
+                    "Break",
+                    "New Business"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "Mirjam Nilsson",
+                    "Flora Berggren",
+                    "Rajesh Santoshi",
+                    "Graham Barn",
+                    "Rowan Murphy",
+                    "Robin Kline"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/agenda.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Extract the main meeting schedule and organize it in both the calendar and an image file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The financial meeting agenda is taken from 'meeting_agenda.pdf'."
+        },
+        {
+            "fact": "Each agenda item must be created as a separate event in Bob's calendar, with its scheduled start time, item name, and owner."
+        },
+        {
+            "fact": "Calendar file to update is 'calendar/Bob.ics'."
+        },
+        {
+            "fact": "Export a visual copy of the agenda (with time, item, and owner) to 'data/agenda.jpg'."
+        },
+        {
+            "fact": "Event titles in the calendar should include both the agenda item and the owner's full name—for example, 'Fiscal year review - Flora Berggren'."
+        },
+        {
+            "fact": "Scheduled times from the PDF are: 11:00 Welcome (Mirjam Nilsson), 11:05 Fiscal year review (Flora Berggren), 11:15 Vote on new secretary (Rajesh Santoshi), 11:20 Discuss advisory committees (Graham Barnes), 11:30 Vote on budget (Rowan Murphy), 11:40 Break (Robin Kline), 11:45 New Business (Mirjam Nilsson)."
+        },
+        {
+            "fact": "Do not leave out any scheduled item from the agenda when creating the calendar or the agenda image."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

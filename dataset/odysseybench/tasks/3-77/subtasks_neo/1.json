@@ -1,0 +1,48 @@
+{
+    "task": "Create a Word document summarizing the historical trends and possible contributing factors to the house price index using the image file 'house_price_index.jpg' as a visual reference. The summary should be titled 'House Price Index Analysis' and saved as 'house_index_summary.docx'. The summary must include general trends and at least three hypothesized factors affecting house prices, based on what might typically be visible in such a chart (for example, economic cycles, population growth, or policy changes).",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/house_index_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/house_index_summary.docx",
+                "keywords": [
+                    "House",
+                    "Price",
+                    "Index",
+                    "trends",
+                    "factors",
+                    "analysis"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Write a summary of the historical trends and factors influencing the house price index using the provided image and document your findings.",
+    "ground_truth_memory": [
+        {
+            "item": "The summary should be saved in a new file called house_index_summary.docx."
+        },
+        {
+            "item": "The title of the summary document must be 'House Price Index Analysis'."
+        },
+        {
+            "item": "Include discussion of at least three possible factors that influence house price trends, such as economic cycles, population growth, and policy changes."
+        },
+        {
+            "item": "The summary should address general historical trends as inferred from a typical price index chart."
+        },
+        {
+            "item": "Reference the image file 'house_price_index.jpg' as the basis for the analysis."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

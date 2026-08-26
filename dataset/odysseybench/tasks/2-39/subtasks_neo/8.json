@@ -1,0 +1,44 @@
+{
+    "task": "Create a Word document named project_brief.docx summarizing the main objectives and expected outcomes for the upcoming 'AI for Health' project. Focus on including three main objectives and two expected outcomes as part of the summary. The objectives and outcomes must be stated clearly, with objectives centered on AI-driven diagnosis, patient data privacy, and real-time monitoring, and outcomes including improved diagnostic accuracy and enhanced patient engagement.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_brief.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/project_brief.docx",
+                "keywords": [
+                    "AI-driven diagnosis",
+                    "patient data privacy",
+                    "real-time monitoring",
+                    "improved diagnostic accuracy",
+                    "enhanced patient engagement"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the main objectives and outcomes for the AI for Health project in a new document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The project is named 'AI for Health'."
+        },
+        {
+            "fact": "The project brief should be saved as project_brief.docx."
+        },
+        {
+            "action_item": "Include three main objectives in the summary: AI-driven diagnosis, patient data privacy, and real-time monitoring."
+        },
+        {
+            "action_item": "Include two expected outcomes: improved diagnostic accuracy and enhanced patient engagement."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,39 @@
+{
+    "task": "Update the company_budget.xlsx file by adding a new expense item: travel, with an amount of 30000, as a new row at the end of the item list. Ensure that the item is added in the same format as the existing items, with 'travel' in the Name column and 30000 in the amount column. Double-check that the new row is properly aligned with headers and existing data.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "travel"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "30000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the company budget spreadsheet by adding any recent expenses that should be included.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new expense for travel needs to be added to the company budget spreadsheet."
+        },
+        {
+            "fact": "The amount for the travel expense is 30000."
+        },
+        {
+            "action_item": "Add the travel expense as a new row at the end of the budget list in company_budget.xlsx, with 'travel' in the Name column and 30000 in the amount column."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

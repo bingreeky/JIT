@@ -1,0 +1,245 @@
+{
+  "query": "I'm doing some quick online shopping to refresh my wardrobe. First, I'm looking for an all-seasons item for women; to ensure I'm seeing a balanced set of opinions, I want something with more than 35 three-star ratings. Since I need a couple of things urgently, I'm also searching for a product in size XL that is readily available with a stock quantity of more than 150 and has a transport time of less than 2. Finally, I'm on the hunt for a very specific white item with 'Princetown Leather' in its name. This also needs to arrive in less than 2, and since I'm looking for proven quality, it must have over 600 five-star ratings and fewer than 20 three-star ratings.",
+  "ground_truth_products": [
+    {
+      "product_id": "80c1b3ce",
+      "name": "Women's High-Waisted Straight Leg Jeans",
+      "price": 349.9,
+      "brand": "Zara",
+      "color": "Blue",
+      "size": "M",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Vintage Wash, Side Pockets, Zipper Closure, Distressed",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 13480
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 3250,
+        "distribution": {
+          "5_star": 2438,
+          "4_star": 487,
+          "3_star": 163,
+          "2_star": 97,
+          "1_star": 65
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "96692456",
+      "name": "Puma Women's Active Summer Performance Top",
+      "price": 229.0,
+      "brand": "Puma",
+      "color": "Light Blue",
+      "size": "XL",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 620,
+        "total": 5150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 940,
+          "4_star": 155,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d07aaa88",
+      "name": "Gucci Princetown Leather Slippers",
+      "price": 7500.0,
+      "brand": "Gucci",
+      "color": "White",
+      "size": "38",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Silk",
+          "percentage": 80
+        },
+        {
+          "material": "Viscose",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Patchwork",
+      "washing_instructions": "Do not wash. Clean with a specialized leather cleaner. Store in a dry place.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 9500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 720,
+        "distribution": {
+          "5_star": 610,
+          "4_star": 85,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Good value for money",
+        "Runs small"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the target demographic is Women, the suitable season is All Seasons, and the number of 3-star ratings is more than 35.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 37,
+          "operator": "greater_than",
+          "operator_value": 35.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the stock quantity is more than 150, and the size is XL.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 185,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "size",
+          "value": "XL",
+          "operator": "equals",
+          "operator_value": "XL"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the color is White, the number of 5-star ratings is greater than 600, the number of 3-star ratings is less than 20, and the name contains 'Princetown Leather'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "color",
+          "value": "White",
+          "operator": "equals",
+          "operator_value": "White"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 610,
+          "operator": "greater_than",
+          "operator_value": 600.0
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 15,
+          "operator": "less_than",
+          "operator_value": 20.0
+        },
+        {
+          "field": "name",
+          "value": "Gucci Princetown Leather Slippers",
+          "operator": "contains",
+          "operator_value": "Princetown Leather"
+        }
+      ]
+    }
+  ]
+}

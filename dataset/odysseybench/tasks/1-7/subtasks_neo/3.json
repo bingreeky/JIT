@@ -1,0 +1,34 @@
+{
+    "task": "Remove cabbage from the shopping list excel file as it is confirmed we already have it at home. Ensure that the cabbage entry (name and amount) is deleted from the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_diff_contain_text",
+            "file": "./data/shopping_list.xlsx",
+            "args": {
+                "input_file": "../../../../cache/0/testbed/data/shopping_list.xlsx",
+                "output_file": "./data/shopping_list.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "cabbage",
+                    "2"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Remove the listed item from the shopping list excel file as discussed.",
+    "ground_truth_memory": [
+        {
+            "content": "We already have cabbage at home, so it should be removed from the shopping list."
+        },
+        {
+            "content": "The shopping list is saved in the file shopping_list.xlsx."
+        },
+        {
+            "content": "The cabbage entry to be removed includes both the name and the amount."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,60 @@
+{
+    "task": "1. Check the data/salary.xlsx file and update the salary of employee Tom in row 4, column 2 to 95000. 2. Update the document data/summary.docx with a statement reflecting Tom's salary change. 3. Send an email to user Tom notifying him about his updated salary.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "95000"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary.docx",
+                "keywords": [
+                    "Tom",
+                    "salary",
+                    "95000"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "salary",
+                    "95000"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update Tom's salary in the salary spreadsheet, reflect the salary change in the summary document, and inform Tom by email about the update.",
+    "ground_truth_memory": [
+        {
+            "memory_item": "The salary spreadsheet is data/salary.xlsx."
+        },
+        {
+            "memory_item": "Tom's salary should be updated to 95000 in row 4, column 2."
+        },
+        {
+            "memory_item": "Include a statement about Tom's new salary in the document data/summary.docx."
+        },
+        {
+            "memory_item": "Notify Tom about the salary change and the new amount by sending him an email."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

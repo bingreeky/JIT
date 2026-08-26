@@ -1,0 +1,32 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Extract schedule from PDF and add it to a text file meeting_agenda.txt, also save it in folder named meetings",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/meetings/meeting_agenda.txt"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "txt",
+                "file": "data/meetings/meeting_agenda.txt",
+                "keywords": [
+                    "welcome",
+                    "fiscal",
+                    "vote",
+                    "discuss",
+                    "break",
+                    "new",
+                    "business"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract the schedule from the PDF and save it in the specified text file within the designated folder."
+}

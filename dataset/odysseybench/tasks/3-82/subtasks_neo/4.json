@@ -1,0 +1,52 @@
+{
+    "task": "Create a summary report of the top three students with the highest average scores across midterm1 and midterm2 from score.xlsx, and write their names and average scores in a new document named top_students.docx. The report must include the average calculation for each student included.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/top_students.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/top_students.docx",
+                "keywords": [
+                    "top",
+                    "average",
+                    "score"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/top_students.docx",
+                "keywords": [
+                    "students"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize academic performance and report the top students in a new document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary report should be created in a new file named top_students.docx."
+        },
+        {
+            "fact": "The report should list the top three students by their average scores across midterm1 and midterm2."
+        },
+        {
+            "fact": "The document should include both the students' names and their average scores."
+        },
+        {
+            "fact": "The report must mention that the selection is based on average scores calculated from both exams."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

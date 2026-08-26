@@ -1,0 +1,53 @@
+{
+    "task": "Update the meeting agenda in /testbed/data/meeting_agenda_2.xlsx by adding a new agenda item starting at 14:30:00 with the topic 'Budget Review' and the contact 'Sophia'. Ensure the End time formula for the new row is consistent with previous rows (use 00:20:00 as Time duration for the new item).",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/meeting_agenda_2.xlsx",
+                "matches": [
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "14:30:00"
+                    },
+                    {
+                        "row": 6,
+                        "col": 5,
+                        "value": "Budget Review"
+                    },
+                    {
+                        "row": 6,
+                        "col": 6,
+                        "value": "Sophia"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the meeting agenda to reflect a recent change.",
+    "ground_truth_memory": [
+        {
+            "note": "A new agenda entry must be added to /testbed/data/meeting_agenda_2.xlsx at the first empty row after existing agenda items."
+        },
+        {
+            "note": "The Start time for the new item must be 14:30:00."
+        },
+        {
+            "note": "Set the topic in the new item to 'Budget Review'."
+        },
+        {
+            "note": "Set the Contact in the new item to 'Sophia'."
+        },
+        {
+            "note": "Use a Time duration of 00:20:00 for the new item."
+        },
+        {
+            "note": "Ensure the End time formula matches the pattern in previous rows."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

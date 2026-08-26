@@ -1,0 +1,34 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "move all docx, pdf, xlsx, and image files to a new subdirectory named new_dir, create this directory if does not exist",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/new_dir/file1.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/new_dir/file2.pdf"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/new_dir/file3.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/new_dir/file4.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Move all specified file types to the new subdirectory."
+}

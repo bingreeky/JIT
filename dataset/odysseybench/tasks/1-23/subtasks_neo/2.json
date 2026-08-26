@@ -1,0 +1,31 @@
+{
+    "task": "Open CS161_Class_Roster.xlsx and find the academic standing for the student with the last name 'Xihozun'. Then write the standing into the answer.txt file as the final answer. Ensure the output file is answer.txt, not any other file.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "txt",
+                "file": "./data/answer.txt",
+                "keywords": [
+                    "Sophomore"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Find the academic year for the student named Xihozun in the class roster and provide your answer.",
+    "ground_truth_memory": [
+        {
+            "fact": "Output the result into answer.txt as the final answer file."
+        },
+        {
+            "fact": "The student's last name to look up is 'Xihozun'."
+        },
+        {
+            "fact": "The answer should be the academic standing, not any other detail."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

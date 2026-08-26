@@ -1,0 +1,68 @@
+{
+    "task": "Review the meeting agenda in 'meeting_agenda_2.xlsx' and create a new Word document named 'summary_meeting_agenda.docx' that summarizes the agenda items, including for each item: the start time, end time, agenda item name, and the contact person responsible. The summary must be structured as clear bullet points, one bullet per agenda item. For clarity, include 'Meeting Agenda Summary - May 2020' as the Word document's title.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "summary_meeting_agenda.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "summary_meeting_agenda.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Meeting",
+                    "Agenda",
+                    "Summary",
+                    "May",
+                    "2020"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "summary_meeting_agenda.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Introductions",
+                    "13:00"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "summary_meeting_agenda.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Agenda",
+                    "Linda",
+                    "Davide",
+                    "Charlie"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the agenda items from the Excel file into a Word document as a meeting agenda summary.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output Word document must be named 'summary_meeting_agenda.docx'."
+        },
+        {
+            "fact": "The summary document should be titled 'Meeting Agenda Summary - May 2020'."
+        },
+        {
+            "fact": "For each agenda item in the Excel sheet, the summary should include: start time, end time, the agenda item title, and the contact person."
+        },
+        {
+            "fact": "Information on agenda items (Introductions, Agenda, Strategy) and contacts (Linda, Davide, Charlie) are in the Excel file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

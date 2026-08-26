@@ -1,0 +1,475 @@
+{
+  "query": "I'm doing a complete wardrobe refresh online and have a very specific list. First, for the summer, I need a navy blue size S item for women from Uniqlo. I’m also looking for a popular pair of women's 'Chino Pants' from Ralph Lauren that has an average score above 4.5 and more than 300 in monthly sales volume. For a more formal piece, I need something from Gucci with 'Velvet' in the name, in a size S with over 150 five-star reviews. To prepare for transitional weather, I need a spring/autumn item that ships quickly, in less than 2 days. It must be well-liked, with over 100 total reviews, more than 80 five-star reviews, and fewer than 5 two-star reviews. I also need an item with 'TrailScape' in its name that has over 80 in stock, an average score above 4.5, more than 250 five-star ratings, and fewer than 15 three-star ratings. Finally, I'm looking for a yellow, size S item from Peacebird that ships in less than 3 days and has more than 750 total reviews. Find me some products where the total price is no less than 12064 and no more than 12560.",
+  "ground_truth_products": [
+    {
+      "product_id": "e68704d5",
+      "name": "Women's Ribbed Crew Neck Cropped T-Shirt",
+      "price": 99.0,
+      "brand": "Uniqlo",
+      "color": "Navy Blue",
+      "size": "S",
+      "stock_quantity": 2150,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 96
+        },
+        {
+          "material": "Spandex",
+          "percentage": 4
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low or line dry.",
+      "sales_volume": {
+        "monthly": 8750,
+        "total": 95200
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 15432,
+        "distribution": {
+          "5_star": 14200,
+          "4_star": 1012,
+          "3_star": 150,
+          "2_star": 40,
+          "1_star": 30
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "dbc311ae",
+      "name": "Women's Classic Fit Chino Pants",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Grey",
+      "size": "S",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 340,
+        "total": 4120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 855,
+        "distribution": {
+          "5_star": 710,
+          "4_star": 105,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3e9e56fb",
+      "name": "Gucci Women's Monogram Velvet Winter Trousers",
+      "price": 8500.0,
+      "brand": "Gucci",
+      "color": "Black",
+      "size": "S",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 65
+        },
+        {
+          "material": "Viscose",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Zipper Closure, Side Pockets",
+      "washing_instructions": "Dry clean only. Do not machine wash or tumble dry.",
+      "sales_volume": {
+        "monthly": 120,
+        "total": 1150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 180,
+          "4_star": 25,
+          "3_star": 5,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "Runs small"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6d30f6e7",
+      "name": "Women's Pleated Corduroy Mini Skirt",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Green",
+      "size": "S",
+      "stock_quantity": 175,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 85,
+        "total": 510
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 122,
+        "distribution": {
+          "5_star": 85,
+          "4_star": 25,
+          "3_star": 8,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "402b64cf",
+      "name": "Women's TrailScape Hiking Shoes",
+      "price": 1388.0,
+      "brand": "Patagonia",
+      "color": "Wine Red",
+      "size": "37",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Printing, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry away from direct heat. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 124,
+        "total": 1573
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 345,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "11da6320",
+      "name": "Women's High-Waisted Wide-Leg Linen Shorts",
+      "price": 289.0,
+      "brand": "Peacebird",
+      "color": "Yellow",
+      "size": "S",
+      "stock_quantity": 450,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 70
+        },
+        {
+          "material": "Viscose",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Non-stretch",
+      "version_type": "Loose Fit (Oversize)",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash",
+      "washing_instructions": "Machine wash cold on gentle cycle. Hang to dry. Do not bleach. Iron on low heat.",
+      "sales_volume": {
+        "monthly": 1152,
+        "total": 9840
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 788,
+        "distribution": {
+          "5_star": 590,
+          "4_star": 145,
+          "3_star": 33,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the suitable season is Summer, the color is Navy Blue, the size is S, the target demographic is Women, and the brand is Uniqlo.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "color",
+          "value": "Navy Blue"
+        },
+        {
+          "field": "size",
+          "value": "S"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "brand",
+          "value": "Uniqlo"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, the monthly sales volume is more than 300, the brand is Ralph Lauren, the average score is above 4.5, and the name contains 'Chino Pants'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 340
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "name",
+          "value": "Women's Classic Fit Chino Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 5-star reviews is greater than 150, the brand is Gucci, the size is S, and the name contains 'Velvet'.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 180
+        },
+        {
+          "field": "brand",
+          "value": "Gucci"
+        },
+        {
+          "field": "size",
+          "value": "S"
+        },
+        {
+          "field": "name",
+          "value": "Gucci Women's Monogram Velvet Winter Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the total number of reviews is more than 100, there are fewer than 5 2-star reviews, the suitable season is Spring/Autumn, and there are more than 80 5-star reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 122
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains 'TrailScape', the average score is above 4.5, there are more than 250 5-star ratings, fewer than 15 3-star ratings, and the stock quantity is more than 80.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 280
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10
+        },
+        {
+          "field": "stock_quantity",
+          "value": 85
+        },
+        {
+          "field": "name",
+          "value": "Women's TrailScape Hiking Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is S, the total number of reviews is more than 750, the color is Yellow, the transport time is less than 3 days, and the brand is Peacebird.",
+      "features": [
+        {
+          "field": "size",
+          "value": "S"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 788
+        },
+        {
+          "field": "color",
+          "value": "Yellow"
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "brand",
+          "value": "Peacebird"
+        }
+      ]
+    }
+  ]
+}

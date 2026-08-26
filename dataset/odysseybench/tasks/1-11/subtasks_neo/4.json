@@ -1,0 +1,44 @@
+{
+    "task": "Add a new row labeled 'allowance' with the amount 15000 to the existing salary.xlsx file. After adding this row, calculate the total sum of all amounts, and add a final row labeled 'total' with this calculated value into the file. Ensure the updates are saved in the same file.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "allowance"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "15000"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "total"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the salary Excel file with a new allowance row and calculate the total sum, adding all necessary rows.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new row with 'allowance' as Name and 15000 as amount should be added after the current last row."
+        },
+        {
+            "fact": "After adding the allowance, a row with 'total' as Name and the sum of all amounts as value should be added after allowance."
+        },
+        {
+            "fact": "All updates should be applied to /testbed/data/salary.xlsx."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

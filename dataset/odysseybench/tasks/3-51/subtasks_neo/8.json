@@ -1,0 +1,92 @@
+{
+    "task": "Create a new Excel file named project_tracking.xlsx. In the file, add a worksheet named 'Milestones'. Populate the worksheet with a table containing 3 columns: Milestone, Due Date, and Status. Enter the following milestone data: (1) 'Initial Planning' due on 2020-05-10, status 'Completed'; (2) 'Design Phase' due on 2020-05-17, status 'In Progress'; (3) 'Deployment' due on 2020-05-24, status 'Pending'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_tracking.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/project_tracking.xlsx",
+                "matches": [
+                    {
+                        "sheet": "Milestones",
+                        "row": 2,
+                        "col": 1,
+                        "value": "Initial Planning"
+                    },
+                    {
+                        "sheet": "Milestones",
+                        "row": 2,
+                        "col": 2,
+                        "value": "2020-05-10"
+                    },
+                    {
+                        "sheet": "Milestones",
+                        "row": 2,
+                        "col": 3,
+                        "value": "Completed"
+                    },
+                    {
+                        "sheet": "Milestones",
+                        "row": 3,
+                        "col": 1,
+                        "value": "Design Phase"
+                    },
+                    {
+                        "sheet": "Milestones",
+                        "row": 3,
+                        "col": 2,
+                        "value": "2020-05-17"
+                    },
+                    {
+                        "sheet": "Milestones",
+                        "row": 3,
+                        "col": 3,
+                        "value": "In Progress"
+                    },
+                    {
+                        "sheet": "Milestones",
+                        "row": 4,
+                        "col": 1,
+                        "value": "Deployment"
+                    },
+                    {
+                        "sheet": "Milestones",
+                        "row": 4,
+                        "col": 2,
+                        "value": "2020-05-24"
+                    },
+                    {
+                        "sheet": "Milestones",
+                        "row": 4,
+                        "col": 3,
+                        "value": "Pending"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a project tracking Excel file with milestone information.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Excel file must be named project_tracking.xlsx."
+        },
+        {
+            "fact": "Create a worksheet named 'Milestones' in the Excel file."
+        },
+        {
+            "fact": "The table in 'Milestones' should have columns: Milestone, Due Date, and Status."
+        },
+        {
+            "action_item": "Enter the following milestones: 1) Initial Planning, due 2020-05-10, status 'Completed'; 2) Design Phase, due 2020-05-17, status 'In Progress'; 3) Deployment, due 2020-05-24, status 'Pending'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

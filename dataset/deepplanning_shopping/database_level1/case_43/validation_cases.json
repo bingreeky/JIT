@@ -1,0 +1,357 @@
+{
+  "query": "I'm doing a big wardrobe refresh and need everything delivered quickly, so for all these items, the transport time must be less than 2. First, I'm looking for a specific pair of 'Men's Vaughn Canvas Sneaker' for Spring/Autumn, which must have an average score over 4.5 and fewer than 15 three-star reviews. For the colder weather, I also need a men's product from Anta that's suitable for Winter and has 'Thermal Fleece Pullover' in its name. Then, I’m searching for something from Adidas in light grey and size 44, with an average rating of more than 4.5. To finish my order, I want to find a popular item from Nike that has a stock quantity of more than 800 and fewer than 10 one-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "89d1d01d",
+      "name": "Men's Vaughn Canvas Sneaker",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Light Blue",
+      "size": "44",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Printing",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or submerge in water.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1850
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 290,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "326b5cd6",
+      "name": "Men's Thermal Fleece Pullover Top",
+      "price": 329.0,
+      "brand": "Anta",
+      "color": "Wine Red",
+      "size": "L",
+      "stock_quantity": 480,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Reflective Strips, Zipper Closure",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 1580,
+        "total": 5230
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 950,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 165,
+          "3_star": 25,
+          "2_star": 7,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b79a178a",
+      "name": "Men's Urban Runner Pro Shoes",
+      "price": 799.0,
+      "brand": "Adidas",
+      "color": "Light Grey",
+      "size": "44",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        },
+        {
+          "material": "Nylon",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1245,
+        "total": 15890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2854,
+        "distribution": {
+          "5_star": 2401,
+          "4_star": 350,
+          "3_star": 68,
+          "2_star": 22,
+          "1_star": 13
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1319c71f",
+      "name": "Men's Dri-FIT Woven Training Shorts",
+      "price": 349.0,
+      "brand": "Nike",
+      "color": "Beige",
+      "size": "L",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 2150,
+        "total": 18500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 985,
+        "distribution": {
+          "5_star": 788,
+          "4_star": 148,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 9
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the name is Men's Vaughn Canvas Sneaker, the suitable season is Spring/Autumn, the average score is greater than 4.5, the transport time is less than 2, and the number of 3-star reviews is less than 15.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Vaughn Canvas Sneaker",
+          "operator": "equals",
+          "operator_value": "Men's Vaughn Canvas Sneaker"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products for Men from the brand Anta, suitable for Winter, with a transport time of less than 2 days, and the name should contain 'Thermal Fleece Pullover'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "brand",
+          "value": "Anta",
+          "operator": "equals",
+          "operator_value": "Anta"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "name",
+          "value": "Men's Thermal Fleece Pullover Top",
+          "operator": "contains",
+          "operator_value": "Thermal Fleece Pullover"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the average rating is more than 4.5, the size is 44, the brand is Adidas, and the color is Light Grey.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "size",
+          "value": "44",
+          "operator": "equals",
+          "operator_value": "44"
+        },
+        {
+          "field": "brand",
+          "value": "Adidas",
+          "operator": "equals",
+          "operator_value": "Adidas"
+        },
+        {
+          "field": "color",
+          "value": "Light Grey",
+          "operator": "equals",
+          "operator_value": "Light Grey"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Nike, the number of 1-star reviews is less than 10, stock quantity is more than 800, and transport time is less than 2.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 9,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 850,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Nike",
+          "operator": "equals",
+          "operator_value": "Nike"
+        }
+      ]
+    }
+  ]
+}

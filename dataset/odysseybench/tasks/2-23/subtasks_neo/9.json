@@ -1,0 +1,65 @@
+{
+    "task": "Extract the total due amounts from both Invoice.pdf and Invoice_2.pdf and record them in a new Excel file named 'invoice_summary.xlsx'. Create a table with two rows, one for each invoice, and three columns: 'Invoice Number', 'Client Name', and 'Total Due'. Fill in the invoice number, client name, and total due for both invoices accordingly.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/invoice_summary.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "100"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "Liane Cormier"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "104.98"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "100"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "Mollie Grau"
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": "1389.99"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Compile a summary table of the invoices and their totals from both PDF files using an Excel spreadsheet.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary should be created as a new Excel file named 'invoice_summary.xlsx' in the data folder."
+        },
+        {
+            "fact": "The table must have columns: 'Invoice Number', 'Client Name', and 'Total Due'."
+        },
+        {
+            "fact": "Each row should correspond to one invoice; Invoice.pdf and Invoice_2.pdf each provide one row."
+        },
+        {
+            "fact": "Client names are 'Liane Cormier' (Invoice.pdf) and 'Mollie Grau' (Invoice_2.pdf)."
+        },
+        {
+            "fact": "'Invoice Number' for both invoices is '100'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,121 @@
+{
+    "task": "Perform OCR on Bob_card.png, John_card.jpg, and Tom_card.png, then create a new Excel file named contact.xlsx. Add a sheet with four columns: Name, Phone, Email, and Address. For each card, extract the relevant contact information and add it as a row in the Excel sheet, with Bob as the first row, John as the second, and Tom as the third row.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/contact.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/contact.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Name"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Phone"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "value": "Email"
+                    },
+                    {
+                        "row": 1,
+                        "col": 4,
+                        "value": "Address"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Bob"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "+1 (555) 123-4567"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "Bob@example.com"
+                    },
+                    {
+                        "row": 2,
+                        "col": 4,
+                        "value": "1234 Elm Street, Anytown, USA"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "John Doe"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "(123) 456-7890"
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": "john.doe@example.com"
+                    },
+                    {
+                        "row": 3,
+                        "col": 4,
+                        "value": "1234 Elm Street, Anytown, USA"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Tom"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "+1 (689) 123-4567"
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "value": "tom@example.com"
+                    },
+                    {
+                        "row": 4,
+                        "col": 4,
+                        "value": "809 River street, Ayrton,, USA"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add information from all available cards to a spreadsheet.",
+    "ground_truth_memory": [
+        {
+            "fact": "Create a new file named contact.xlsx in data/."
+        },
+        {
+            "fact": "Add a sheet with columns: Name, Phone, Email, and Address."
+        },
+        {
+            "fact": "Bob is the first row of contacts, with Name: Bob, Phone: +1 (555) 123-4567, Email: Bob@example.com, Address: 1234 Elm Street, Anytown, USA."
+        },
+        {
+            "fact": "John is the second row of contacts, with Name: John Doe, Phone: (123) 456-7890, Email: john.doe@example.com, Address: 1234 Elm Street, Anytown, USA."
+        },
+        {
+            "fact": "Tom is the third row of contacts, with Name: Tom, Phone: +1 (689) 123-4567, Email: tom@example.com, Address: 809 River street, Ayrton,, USA."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,307 @@
+{
+  "query": "I'm planning a weekend outdoor adventure and need to grab a few essentials quickly. First, I'm looking for All-Terrain Cargo Trousers in Camel color with a 2-day transport time and total sales volume exceeding 2800 units. To go with that, I need a size 44 item that has exactly 4 three-star ratings and just 1 one-star rating. Next, I want something with Himalayan in the name that's really popular—it must have more than 350 five-star reviews, monthly sales over 200, and arrive in less than 3 days. Finally, I need a Chuck Taylor Patch Crewneck Sweatshirt with an average rating above 4.5, more than 50 four-star reviews, and transport time under 3 days to complete my outfit.",
+  "ground_truth_products": [
+    {
+      "product_id": "f55b5a0f",
+      "name": "Men's All-Terrain Cargo Trousers",
+      "price": 329.0,
+      "brand": "Salomon",
+      "color": "Camel",
+      "size": "L",
+      "stock_quantity": 174,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 412,
+        "total": 2890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 355,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 50,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2503d4c9",
+      "name": "Men's Classic Suede Deck Shoes",
+      "price": 251.0,
+      "brand": "Ralph Lauren",
+      "color": "Brown",
+      "size": "44",
+      "stock_quantity": 88,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Patchwork, Side Pockets",
+      "washing_instructions": "Wipe with a damp cloth. Specialist cleaning recommended. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 195,
+        "total": 2430
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 470,
+          "4_star": 35,
+          "3_star": 4,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "55cbc709",
+      "name": "Men's Himalayan Down Parka",
+      "price": 403.0,
+      "brand": "The North Face",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 55
+        },
+        {
+          "material": "Down",
+          "percentage": 40
+        },
+        {
+          "material": "Polyester",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Hand wash recommended, use down-specific detergent. Do not bleach or tumble dry.",
+      "sales_volume": {
+        "monthly": 210,
+        "total": 1550
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "fa29eede",
+      "name": "Men's Chuck Taylor Patch Crewneck Sweatshirt",
+      "price": 356.0,
+      "brand": "Converse",
+      "color": "Coffee",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1200,
+        "total": 8500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥30 off every ¥300": 1,
+    "VIP: ¥200 off every ¥1,000": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Camel, the transport time is 2 days, the total sales volume is more than 2800, and the name contains All-Terrain Cargo Trousers.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Camel"
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 2890
+        },
+        {
+          "field": "name",
+          "value": "Men's All-Terrain Cargo Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is 44, the 3-star rating count is 4, and the 1-star rating count is 1.",
+      "features": [
+        {
+          "field": "size",
+          "value": "44"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 4
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains Himalayan, 5-star reviews are more than 350, transport time is less than 3 days, and monthly sales volume is more than 200.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 380
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 210
+        },
+        {
+          "field": "name",
+          "value": "Men's Himalayan Down Parka"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains Chuck Taylor Patch Crewneck Sweatshirt, the average rating score is greater than 4.5, the 4-star review count is greater than 50, and the transport time is less than 3 days.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 55
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "name",
+          "value": "Men's Chuck Taylor Patch Crewneck Sweatshirt"
+        }
+      ]
+    }
+  ]
+}

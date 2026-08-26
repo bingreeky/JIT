@@ -1,0 +1,20 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "find the lowest score and highest score of midterm 1, what is their difference?",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "txt",
+                "file": "./data/answer.txt",
+                "keywords": [
+                    "40"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Retrieve the lowest and highest scores of midterm 1 and calculate their difference."
+}

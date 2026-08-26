@@ -1,0 +1,47 @@
+{
+    "task": "Read the invitation_letter.pdf and extract the dates and title for the IAEM 72nd Annual Conference. Create a new calendar event for 'IAEM 72nd Annual Conference' on November 15, 2024, using 6:00 am as the default start time if no specific time is stated, and add the full event title to the calendar event. Also, create a social media image for the announcement, saved as 'conference_invite.jpg'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Bob.ics"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "IAEM 72nd Annual Conference",
+                    "DTSTART:20241115T060000"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/conference_invite.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Add the IAEM 72nd Annual Conference event to my calendar and create an announcement image.",
+    "ground_truth_memory": [
+        {
+            "fact": "The IAEM 72nd Annual Conference is scheduled for November 15-21, 2024."
+        },
+        {
+            "fact": "If no time is specified in the invitation, set the event start time to 6:00 am."
+        },
+        {
+            "fact": "The new calendar event should use the full title 'IAEM 72nd Annual Conference'."
+        },
+        {
+            "fact": "Create the announcement image as 'conference_invite.jpg'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

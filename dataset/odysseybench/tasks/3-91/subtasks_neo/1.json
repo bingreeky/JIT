@@ -1,0 +1,84 @@
+{
+    "task": "Create a new Excel file named 'project_budget.xlsx' in the /testbed/data directory. Add a table with columns 'Item', 'Estimated Cost', and 'Actual Cost'. Enter the following items: 'Hardware', 'Software', 'Labor', and 'Miscellaneous'. Set the 'Estimated Cost' values as: 5000 for Hardware, 3000 for Software, 7000 for Labor, and 1000 for Miscellaneous. Leave the 'Actual Cost' column blank. Save the changes.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_budget.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/project_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Hardware"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "5000"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Software"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "3000"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Labor"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "7000"
+                    },
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "Miscellaneous"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "1000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a new project budget Excel file with necessary item names and estimated costs.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new Excel file must be created and named 'project_budget.xlsx'."
+        },
+        {
+            "fact": "The file should be saved in the /testbed/data directory."
+        },
+        {
+            "fact": "The table should have columns: 'Item', 'Estimated Cost', and 'Actual Cost'."
+        },
+        {
+            "fact": "Add these rows: 'Hardware', 'Software', 'Labor', 'Miscellaneous' as items."
+        },
+        {
+            "fact": "Estimated Costs should be: 5000 for Hardware, 3000 for Software, 7000 for Labor, 1000 for Miscellaneous."
+        },
+        {
+            "fact": "Leave all 'Actual Cost' fields blank."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

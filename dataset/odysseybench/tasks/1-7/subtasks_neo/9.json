@@ -1,0 +1,42 @@
+{
+    "task": "Update the score of student Emma in the file score.xlsx. The new scores for Emma should be midterm1: 95 and midterm2: 98. Ensure that the correct row corresponding to Emma is updated with these new values, and double-check that the updated values appear in the correct columns for 'midterm1' and 'midterm2'.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 20,
+                        "col": 2,
+                        "value": "95"
+                    },
+                    {
+                        "row": 20,
+                        "col": 3,
+                        "value": "98"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update Emma's scores in the score excel file.",
+    "ground_truth_memory": [
+        {
+            "fact": "Emma's new scores for midterm1 and midterm2 must be set to 95 and 98, respectively."
+        },
+        {
+            "action": "The update must be made in the file named score.xlsx."
+        },
+        {
+            "action": "Emma's data is found in row 20 of the file."
+        },
+        {
+            "action": "The columns for midterm1 and midterm2 are columns 2 and 3, respectively."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

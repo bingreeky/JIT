@@ -1,0 +1,2471 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hi! I need to create a summary for the business card extraction project. What should I call the new file?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "The output file for the summary should be named contact_summary.xlsx.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's with an underscore and not a dash, correct?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Correct, it is contact_summary.xlsx with an underscore.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome, thanks for clarifying! Should I use .csv instead, or is .xlsx the requirement?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Please use .xlsx. The summary file must be contact_summary.xlsx in Excel format.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Noted. Is there a specific folder to put it in or just my working directory?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Save contact_summary.xlsx in the 'data' folder to keep things organized.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. And this is the only summary file, right? No backup or alternate names needed?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "That is correct. Just contact_summary.xlsx is needed as the summary file.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I add the date in the file name, or just keep it as is?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Keep it as is. Only \"contact_summary.xlsx\" is needed as the file name.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for confirming! On another note, how's the weather today?",
+          "ts": "2020-04-26 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s partly cloudy today with mild temperatures. A good day for indoor work!",
+          "ts": "2020-04-26 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds good. Is there a template I can use for contact_summary.xlsx?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "You could start with a simple table listing each contact per row. Use standard columns like Name, Phone, Email, etc.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Alright. Should the worksheet inside also be called anything specific?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "There\u2019s no special requirement for worksheet name. The default is fine unless you prefer otherwise.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. By the way, did I mention how much I love organized files?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "It does help make things smoother! Let me know if you\u2019d like file organization tips.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe later. For the summary, want me to use all lowercase for the file name?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, use all lowercase: contact_summary.xlsx.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "No spaces, just the underscore, right?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly\u2014just the underscore, no spaces or other characters.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Crystal clear! On a different note, do you have any podcast recommendations?",
+          "ts": "2020-04-26 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "If you like science, try \"Science Vs\". For storytelling, \"The Moth\" is great!",
+          "ts": "2020-04-26 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice, I\u2019ll check those out. Remind me, why can\u2019t I use contact-summary.xlsx?",
+          "ts": "2020-04-26 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "We require consistency: the file name is specifically contact_summary.xlsx with an underscore.",
+          "ts": "2020-04-26 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right, will do. Should I email the file to anyone once complete?",
+          "ts": "2020-04-26 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "There\u2019s no need to email the file for this task. Just store it in the designated folder.",
+          "ts": "2020-04-26 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Can I include extra tabs in the Excel workbook for notes?",
+          "ts": "2020-04-26 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "You may, but the summary should be on the main worksheet. Additional tabs are optional.",
+          "ts": "2020-04-26 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great, that helps. What time is it right now?",
+          "ts": "2020-04-26 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "It is currently 9:33 AM.",
+          "ts": "2020-04-26 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. Do you remember how many contacts I\u2019ll be entering?",
+          "ts": "2020-04-26 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "The summary will contain entries for selected business cards. Would you like to specify which now?",
+          "ts": "2020-04-26 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not just yet. More on that later. Can you recommend a quick breakfast?",
+          "ts": "2020-04-26 09:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Oatmeal with fruit toppings is healthy and fast. Or try an avocado toast!",
+          "ts": "2020-04-26 09:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds tasty! For my summary file, is there a naming convention for backups?",
+          "ts": "2020-04-26 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "If you make a backup, you could add _backup.xlsx at the end, but the main deliverable should be contact_summary.xlsx.",
+          "ts": "2020-04-26 09:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the details. Are there any good virtual workshops today?",
+          "ts": "2020-04-26 09:40",
+          "speaker": "user"
+        },
+        {
+          "text": "There's a productivity workshop at 2 PM online. Should I add it to your calendar?",
+          "ts": "2020-04-26 09:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s OK, I\u2019ll see if I can join. Is there a color theme recommendation for the Excel file?",
+          "ts": "2020-04-26 09:42",
+          "speaker": "user"
+        },
+        {
+          "text": "No color preference is specified; standard formatting is sufficient.",
+          "ts": "2020-04-26 09:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I include today\u2019s date in any cell inside the summary?",
+          "ts": "2020-04-26 09:44",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s optional, but not required by the instructions.",
+          "ts": "2020-04-26 09:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any new Excel shortcuts?",
+          "ts": "2020-04-26 09:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Try Ctrl+Shift+L to toggle filters, or Alt+H+O+I to auto-fit columns.",
+          "ts": "2020-04-26 09:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Does the summary need to include my name as the preparer?",
+          "ts": "2020-04-26 09:48",
+          "speaker": "user"
+        },
+        {
+          "text": "No, there\u2019s no requirement to include preparer information.",
+          "ts": "2020-04-26 09:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Super helpful, thank you! If I get stuck, can I reach out to you?",
+          "ts": "2020-04-26 09:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! I\u2019m always here to help with your questions.",
+          "ts": "2020-04-26 09:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a joke for me?",
+          "ts": "2020-04-26 09:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Why did the computer go to the doctor? It had a virus!",
+          "ts": "2020-04-26 09:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, good one! Can you confirm the exact spelling again for the summary file?",
+          "ts": "2020-04-26 09:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure thing: contact_summary.xlsx. All lowercase, with an underscore.",
+          "ts": "2020-04-26 09:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! Let me know if you spot any typos before I save it.",
+          "ts": "2020-04-26 09:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Will do! Double-checking file names always helps avoid confusion.",
+          "ts": "2020-04-26 09:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you remember what I said my favorite color was?",
+          "ts": "2020-04-26 09:58",
+          "speaker": "user"
+        },
+        {
+          "text": "You mentioned blue is your favorite color last week.",
+          "ts": "2020-04-26 09:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s right! Thanks for remembering. Should I add colors to the header row?",
+          "ts": "2020-04-26 10:00",
+          "speaker": "user"
+        },
+        {
+          "text": "You can if you wish, but it's not necessary for this summary.",
+          "ts": "2020-04-26 10:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect, thanks! What if I need to update the file later, is renaming allowed?",
+          "ts": "2020-04-26 10:02",
+          "speaker": "user"
+        },
+        {
+          "text": "For updates, keep the file name as contact_summary.xlsx.",
+          "ts": "2020-04-26 10:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "You always answer so quickly. Do you ever get tired?",
+          "ts": "2020-04-26 10:04",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm here to help 24/7\u2014no sleep required!",
+          "ts": "2020-04-26 10:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool! By the way, what\u2019s an easy way to ensure I don\u2019t overwrite old files?",
+          "ts": "2020-04-26 10:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Make a backup copy before changes if you want to preserve the original, but submit contact_summary.xlsx as the final version.",
+          "ts": "2020-04-26 10:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for the tip. For fun, what\u2019s today\u2019s trivia question?",
+          "ts": "2020-04-26 10:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Here's one: What is the capital of Australia?",
+          "ts": "2020-04-26 10:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s Canberra, right?",
+          "ts": "2020-04-26 10:10",
+          "speaker": "user"
+        },
+        {
+          "text": "You got it! Well done.",
+          "ts": "2020-04-26 10:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s circle back\u2014just so I\u2019m 100% sure, the summary file should ONLY be contact_summary.xlsx. Correct?",
+          "ts": "2020-04-26 10:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the exact name should be contact_summary.xlsx in all lowercase, with the .xlsx extension.",
+          "ts": "2020-04-26 10:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good to know. Would you suggest putting a readme file with it?",
+          "ts": "2020-04-26 10:14",
+          "speaker": "user"
+        },
+        {
+          "text": "For this project, just the Excel summary is required \u2013 no readme necessary.",
+          "ts": "2020-04-26 10:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "You\u2019re so efficient! Do you think robots will ever dream?",
+          "ts": "2020-04-26 10:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Not quite, but I can help you brainstorm creative ideas anytime!",
+          "ts": "2020-04-26 10:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, I might take you up on that. Any tips for reducing spreadsheet errors?",
+          "ts": "2020-04-26 10:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Double-check data, use formulas for consistency, and avoid manual entry when possible.",
+          "ts": "2020-04-26 10:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks so much. To wrap up: summary file named contact_summary.xlsx, .xlsx format, stored in 'data' folder. That\u2019s all?",
+          "ts": "2020-04-26 10:20",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s correct! You\u2019re set to start whenever you\u2019re ready.",
+          "ts": "2020-04-26 10:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Fantastic. I\u2019ll get working on it. Oh\u2014do you keep logs of these chats?",
+          "ts": "2020-04-26 10:22",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t store logs, but our conversation helps me provide quick reminders while we\u2019re working together.",
+          "ts": "2020-04-26 10:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. I\u2019ll reach out if I need a refresher on the file name. Thanks!",
+          "ts": "2020-04-26 10:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime, Alice! Good luck with the summary.",
+          "ts": "2020-04-26 10:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you! Now, about lunch plans...",
+          "ts": "2020-04-26 10:26",
+          "speaker": "user"
+        },
+        {
+          "text": "How about trying a new salad recipe today?",
+          "ts": "2020-04-26 10:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not a bad idea. Maybe I\u2019ll add chicken for protein.",
+          "ts": "2020-04-26 10:28",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds like a perfect lunch! Let me know how it turns out.",
+          "ts": "2020-04-26 10:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Over and out for now.",
+          "ts": "2020-04-26 10:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Talk soon, Alice!",
+          "ts": "2020-04-26 10:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back for a moment\u2014forgot to ask, what\u2019s your favorite Excel function?",
+          "ts": "2020-04-26 10:32",
+          "speaker": "user"
+        },
+        {
+          "text": "I like SUM and VLOOKUP\u2014they\u2019re super useful.",
+          "ts": "2020-04-26 10:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed! Have you tried the new dynamic arrays?",
+          "ts": "2020-04-26 10:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! They make data manipulation much easier.",
+          "ts": "2020-04-26 10:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll experiment with those next time.",
+          "ts": "2020-04-26 10:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Great idea! Let me know if you have questions about them.",
+          "ts": "2020-04-26 10:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks a million for all this! I\u2019ll check in tomorrow with updates.",
+          "ts": "2020-04-26 10:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to it. Have a productive day!",
+          "ts": "2020-04-26 10:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Bye!",
+          "ts": "2020-04-26 10:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Bye, Alice!",
+          "ts": "2020-04-26 10:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "One last thing: should the summary be shared with Bob or John?",
+          "ts": "2020-04-26 10:42",
+          "speaker": "user"
+        },
+        {
+          "text": "There\u2019s no requirement to share the summary with Bob or John for this task.",
+          "ts": "2020-04-26 10:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, thanks again! For real this time, have a good one!",
+          "ts": "2020-04-26 10:44",
+          "speaker": "user"
+        },
+        {
+          "text": "You too, Alice! Signing off.",
+          "ts": "2020-04-26 10:45",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning! Ready for day two of prepping the contact summary?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, Alice! How can I assist today with the contact summary?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ve got the business card images here\u2014remind me, which ones are needed for the summary?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "You only need to include contact information from Bob and John\u2019s cards. Tom\u2019s info should be excluded from the summary.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect, so Bob and John, got it. What if I put Tom\u2019s info by mistake?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Try to avoid that\u2014only add details for Bob and John in contact_summary.xlsx. Tom should not be represented at all.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right, I\u2019ll make sure Tom isn\u2019t in there. Should I just delete his row if it shows up accidentally?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, if Tom\u2019s contact info sneaks in, simply remove the row before saving the file.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Can you recap again whose cards I should process?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course: Only process Bob and John\u2019s cards for this summary. Exclude Tom at every step.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s clear! I\u2019ll skip Tom\u2019s card entirely when extracting info.",
+          "ts": "2020-04-27 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect plan, Alice! That will meet the requirements exactly.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just curious, any particular reason Tom\u2019s contact is excluded?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "There\u2019s no particular reason specified\u2014just a requirement for this summary file.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Understood. Does it matter what order I list Bob and John in?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "No order specified\u2014they can be listed in any order you prefer.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. Do you want their names in all caps in the file?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s up to you. Regular capitalization is fine unless you have a preference.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll stick with regular capitalization for legibility.",
+          "ts": "2020-04-27 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good! Let me know if you need any more reminders on the requirements.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "What if the scanner pulls in blurry info from Tom\u2019s card\u2014should I ignore it altogether?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, any extracted info from Tom\u2019s card should be disregarded and not included in the summary.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Even if Tom has a shared phone number with Bob, just leave him out completely?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly\u2014only include what\u2019s on Bob and John\u2019s cards, regardless of overlaps.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good to know! What if I have cards for other people\u2014should they go in too?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Not for this task. Just limit the summary to Bob and John.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for being clear. On a different note, got any motivational quotes for Monday?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! \"Success is not the key to happiness. Happiness is the key to success.\"",
+          "ts": "2020-04-27 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Love that one. Should I include any notes about who was excluded in the summary file?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Nope, there\u2019s no need for any notes about exclusions in contact_summary.xlsx.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "When I\u2019m done, should I lock the file so no one can add Tom later?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s not required, but if you want extra security, feel free!",
+          "ts": "2020-04-27 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay. Is there a checklist I can use to avoid accidentally adding Tom?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Just remember to only add info from Bob and John. Double-checking the names before saving is helpful.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Anything special for John\u2019s card or treat it the same as Bob\u2019s?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Treat them the same\u2014extract each contact\u2019s details and add them as individual entries.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right. For the summary, use first/last names together, right?",
+          "ts": "2020-04-27 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, using each person's full name is best for clarity.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for confirming! Are there color preferences in the summary for these two?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "No color preferences have been specified. Simplicity is fine.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a reward if I complete it perfectly?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "The reward is a well-organized contact summary \u2013 and some personal satisfaction!",
+          "ts": "2020-04-27 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, fair enough. Who should review the file when I finish?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re the main reviewer for now. If another review is needed, you'll be notified.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Noted! How long should I spend reviewing the data before saving?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Just a quick review to ensure only Bob and John\u2019s info is included should suffice.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great, I\u2019ll do a thorough check. How\u2019s your virtual day going so far?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s going well, thanks! Helping you organize is always a highlight.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s nice to hear. Should I use separate sheets for each person?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "No need\u2014just add each contact as a row in the same worksheet.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Simple enough! Should I repeat the column headers for each entry?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Just use one row of column headers at the top of the sheet.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you want an alphabetical listing or in the order I process them?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Either order is fine; there are no rules on that for this summary.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right! Now, do you want to hear a joke?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, I love a good joke!",
+          "ts": "2020-04-27 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Why did the scarecrow win an award?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Why?",
+          "ts": "2020-04-27 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Because he was outstanding in his field!",
+          "ts": "2020-04-27 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Haha, that's a classic! Thanks for sharing, Alice.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Always happy to make you smile. Should emails/phone numbers be validated before adding them?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "If possible, validate them for accuracy, but use the information exactly as on the cards of Bob and John.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll be careful. Should I ignore any special titles on the cards?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "If you want, include titles or roles\u2014they add detail, but aren't strictly required.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it, maybe I\u2019ll include them for completeness.",
+          "ts": "2020-04-27 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds like a great plan.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, so the summary will only have details for Bob and John\u2014should I double-space the rows?",
+          "ts": "2020-04-27 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Single-spacing is standard; no need to double-space the rows.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Knew you'd say that. Any musical recommendations while I work?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Try some light jazz or lo-fi beats\u2014great for focusing!",
+          "ts": "2020-04-27 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll put on a playlist. So, one last check: Bob and John\u2019s info only, correct?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Correct\u2014only those two! Tom\u2019s contact details must not appear in your summary.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Crystal clear. If I need to update later, I\u2019ll just swap details for Bob or John?",
+          "ts": "2020-04-27 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly\u2014any updates later should only affect Bob or John\u2019s rows.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I accidentally rename the file, will it cause issues?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it\u2019s important that the file stays named contact_summary.xlsx.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll watch out for that. By the way, what\u2019s your favorite spreadsheet formula?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "I like IF statements\u2014they\u2019re super flexible for dynamic data!",
+          "ts": "2020-04-27 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice, those come in handy. Should I hide any columns by default?",
+          "ts": "2020-04-27 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "No hidden columns needed, just display all relevant info for Bob and John.",
+          "ts": "2020-04-27 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "You\u2019re a spreadsheet expert! Any tips for quick data checks?",
+          "ts": "2020-04-27 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Try using filters or conditional formatting to quickly spot errors.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great suggestions! Well, I think that covers my questions for now.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you need another recap! I\u2019m here for reminders anytime.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. What\u2019s a good snack for a mid-morning break?",
+          "ts": "2020-04-27 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "How about apple slices with peanut butter?",
+          "ts": "2020-04-27 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yum, that sounds perfect! Time to get to work.",
+          "ts": "2020-04-27 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Have a productive day, Alice! Reach out if you have any more questions.",
+          "ts": "2020-04-27 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Appreciate all your help so far! I\u2019ll check in again later.",
+          "ts": "2020-04-27 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll be here when you\u2019re ready!",
+          "ts": "2020-04-27 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Before I go, remind me once more\u2014Bob and John only, right?",
+          "ts": "2020-04-27 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely: Only Bob and John, and be sure to skip Tom everywhere.",
+          "ts": "2020-04-27 09:31",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning\u2014back to finishing the contact summary today!",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Morning, Alice! Ready to keep going with the contact summary.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ve got Bob and John\u2019s details ready. Should they both go on one row, or separate ones?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Each contact should occupy a separate row in the summary Excel file. That keeps everything clear and organized.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "That makes sense! It\u2019ll help avoid confusion later.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly! Separate rows make it simple to find each contact\u2019s info.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I put the headers in the first row as usual?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes\u2014start with headers, then one row per contact underneath.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a column order you\u2019d recommend for this summary?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "A good order would be: Name, Phone, Email, Title. But you can adjust based on the info available.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good advice, thanks! On an unrelated note, did you have a nice evening yesterday?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Thanks for asking! My evening was productive, helping users like you.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Always working hard! For the summary, is there a minimum or maximum number of columns?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "No strict limit\u2014just make sure you include all relevant contact info you have.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should the contacts be in alphabetical order, or order doesn\u2019t matter?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Order doesn't matter here\u2014whatever is easiest for you.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "If one person is missing an email, should I leave the cell empty or write N/A?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Either works, but N/A makes it clear the info is not available.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Should I merge any cells between the rows?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "No need! Just keep each contact\u2019s info on its own row with separate, unmerged cells.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would alternating row colors help, or is that overkill for two contacts?",
+          "ts": "2020-04-28 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "For two contacts, simple formatting is fine\u2014but feel free to add colors if it helps you visually.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Does order of first name and last name matter in the name column?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Either First Last or Last, First is fine\u2014as long as you\u2019re consistent.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll do First Last since it\u2019s simpler. Should I use bold for any fields?",
+          "ts": "2020-04-28 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s a good idea to bold the header row, but otherwise regular text is fine.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Helpful as always! Any fun facts to share this morning?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Did you know honey never spoils? Archaeologists have found edible honey in ancient tombs.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Wow, that\u2019s amazing! For John and Bob\u2019s info, one row for each\u2014are there any limits to how many columns wide it can go?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "No row width limit\u2014just include all key pieces of info for each contact.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll keep things concise. Want to hear a riddle?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure, tell me your best riddle!",
+          "ts": "2020-04-28 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "What has keys but can't open locks?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "A piano!",
+          "ts": "2020-04-28 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "You got it! For rows, should I add an ID number for each contact?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s your choice\u2014not required, but some find it helpful.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll skip IDs for now. Is it all right if both rows have the same phone number?",
+          "ts": "2020-04-28 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s fine\u2014just copy each piece of info as it appears on each card.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. Should I use gridlines in print layout?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Gridlines are optional; they can add clarity for printouts if you like.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "And are formulas needed for these rows?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "No formulas are needed unless you want to automate something.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "No automation for this file, keeping it simple! By the way, what\u2019s new in tech today?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Virtual reality tools are getting more immersive\u2014lots of news from recent conferences!",
+          "ts": "2020-04-28 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Neat! Back to the summary, what if both rows have the same title for Bob and John?",
+          "ts": "2020-04-28 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s okay\u2014titles should match each card even if they are the same.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! Should I set a minimum height for each row?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "No required minimum height\u2014default row settings will suffice.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Ever get confused between rows and columns?",
+          "ts": "2020-04-28 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "It can happen, but a row is horizontal and a column is vertical\u2014easy way to remember.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect tip. Each contact gets their own row\u2014should I shade them differently?",
+          "ts": "2020-04-28 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Optional! Use shading if it helps you tell the rows apart, but it\u2019s not required.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Noted. Should I freeze the header row in Excel?",
+          "ts": "2020-04-28 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Freezing the top row is useful for large tables, but not needed here with two rows.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about grouping the two contact rows as a table?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Converting to a table is fine if you want filters or more formatting.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll try that. Just to confirm: Bob\u2019s info = row 1, John\u2019s = row 2 (or vice versa)?",
+          "ts": "2020-04-28 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s correct\u2014one row per contact, order doesn\u2019t matter.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "And if I copy-paste, it won\u2019t mess up the separate row format?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Copy-paste is perfectly safe as long as you adjust each contact\u2019s details to their own row.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. Is there an emoji for organization?",
+          "ts": "2020-04-28 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Try the \ud83d\udccb (clipboard) emoji! It represents lists and organization.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Love it. For a minimalist summary, could I just have Name and Phone columns?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That works for a basic summary\u2014expand columns if more details are available.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "If there\u2019s an address, add it as a separate column, right?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, create an additional column for address if needed.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a symbol to indicate missing info?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "You can use N/A or leave the cell blank\u2014it\u2019s up to you.",
+          "ts": "2020-04-28 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I center the text in the rows for a neat look?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "That helps visually, yes. Centering is a good touch.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right, is there a difference between a record and a row?",
+          "ts": "2020-04-28 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "In databases and spreadsheets, a row is often called a record \u2014 both terms mean the same here.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good to know! For only two rows, is it even worth numbering them?",
+          "ts": "2020-04-28 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Probably not, unless you need to refer to them elsewhere.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Understood. Would you ever use alternating background colors for just two rows?",
+          "ts": "2020-04-28 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Optional\u2014one color might suffice, but alternating is not wrong.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "You\u2019ve cleared up a lot! Any more fun facts?",
+          "ts": "2020-04-28 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Here\u2019s one: Bananas are berries, but strawberries aren\u2019t!",
+          "ts": "2020-04-28 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Now that\u2019s wild. If I want to print, which print setting do you recommend?",
+          "ts": "2020-04-28 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Fit to page width is best for two contacts\u2014keeps things tidy.",
+          "ts": "2020-04-28 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is landscape layout overkill for two contacts?",
+          "ts": "2020-04-28 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Portrait is usually best, but either is fine with so few rows.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you! Should I triple-check for duplicate data in the rows?",
+          "ts": "2020-04-28 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "A quick check is always helpful, but it\u2019s easy with just two contacts.",
+          "ts": "2020-04-28 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I accidentally merge the rows, what\u2019s the fix?",
+          "ts": "2020-04-28 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Just unmerge the cells and re-enter each contact\u2019s info on its own row.",
+          "ts": "2020-04-28 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Should I add a notes column at the end, or is that extra?",
+          "ts": "2020-04-28 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s optional, but if you have notes about either contact, it\u2019s helpful.",
+          "ts": "2020-04-28 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "For presentation, would a bold border help on the summary table?",
+          "ts": "2020-04-28 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "A bold border can make the summary stand out, so go for it if you like.",
+          "ts": "2020-04-28 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. You\u2019re always so thorough. If I get lost, will you remind me about the row setup?",
+          "ts": "2020-04-28 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Always happy to recap the requirements.",
+          "ts": "2020-04-28 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "On a lighter note, do you remember my favorite snack?",
+          "ts": "2020-04-28 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Is it pretzels with hummus?",
+          "ts": "2020-04-28 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Close\u2014it\u2019s apple slices with peanut butter!",
+          "ts": "2020-04-28 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "I'll remember for next time! That\u2019s a great healthy choice.",
+          "ts": "2020-04-28 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Final summary for today: headers in the first row, then each contact in a separate row underneath. Easy enough?",
+          "ts": "2020-04-28 09:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect summary, Alice! You\u2019ve got the format exactly right.",
+          "ts": "2020-04-28 09:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the help so far. I\u2019ll check in if anything comes up.",
+          "ts": "2020-04-28 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m here all day if you have more questions or need reminders!",
+          "ts": "2020-04-28 09:39",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Morning! Ready for another productive day?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! Always ready to assist you. How are you feeling today?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Pretty good! Slept well and had a nice breakfast. How about you?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to hear that! I'm always rested and ready, since I never actually sleep.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Lucky you! If only I could be so energetic. What's the word for today?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "The word for today is 'optimism.' Every new day brings new opportunities!",
+          "ts": "2020-04-29 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I like that. Got any fun facts for Wednesday?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Did you know octopuses have three hearts?",
+          "ts": "2020-04-29 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's wild! Have you learned any good jokes lately?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Why did the math book look sad? Because it had too many problems!",
+          "ts": "2020-04-29 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha! That\u2019s a good one. What's the weather like today?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s sunny and mild today\u2014perfect spring weather.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll take a walk later. Any music recommendations for that?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Try listening to some indie folk or light pop\u2014great for relaxing strolls!",
+          "ts": "2020-04-29 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds perfect. Do you have any inspirational quotes?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "\"The only way to do great work is to love what you do.\" \u2014 Steve Jobs",
+          "ts": "2020-04-29 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a classic. How do you choose which quotes to share?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "I try to pick uplifting or thoughtful ones that suit your mood!",
+          "ts": "2020-04-29 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Appreciate it. Do you think AI will ever get creative like humans?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "AI can be creative in unique ways, but human creativity is still something special!",
+          "ts": "2020-04-29 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "I agree! What about reading\u2014what\u2019s a good book to pick up these days?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "If you like fiction, try 'Where the Crawdads Sing.' For non-fiction, 'Atomic Habits' is very popular!",
+          "ts": "2020-04-29 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great choices. How often do you read books, figuratively speaking?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "I scan lots of book suggestions and summaries every day!",
+          "ts": "2020-04-29 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Lucky! What about hobbies\u2014do you know any fun at-home projects?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Try a new recipe, start a small herb garden, or create a photo collage!",
+          "ts": "2020-04-29 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Herb garden sounds fun. Any easy plants to start with?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Basil, mint, and chives are all easy to grow and great for beginners.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll add those to my shopping list. Have you seen any interesting movies lately?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I've heard 'Parasite' is a must-see\u2014critically acclaimed and suspenseful!",
+          "ts": "2020-04-29 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "I loved that one! Do you follow any sports?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "I keep up with the latest sports news\u2014soccer and basketball are always exciting!",
+          "ts": "2020-04-29 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Go team! Have you ever tried yoga routines?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Not personally, but I know lots of routines\u2014yoga adds flexibility and relaxation!",
+          "ts": "2020-04-29 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I'll try a new pose today. What's your favorite way to relax?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "I enjoy organizing information\u2014soothing in its own way!",
+          "ts": "2020-04-29 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a very AI answer! Any travel destinations you'd recommend for my bucket list?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Japan for cherry blossoms, Italy for food, and New Zealand for nature\u2014three amazing choices!",
+          "ts": "2020-04-29 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "They all sound tempting. What's the best way to learn a new language?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Practice daily, use language apps, and try to speak with native speakers as much as you can!",
+          "ts": "2020-04-29 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll start Duolingo again. Any tips to stay motivated?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Set small goals, track your progress, and reward yourself when you reach milestones!",
+          "ts": "2020-04-29 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s good advice. What\u2019s your favorite board game?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Chess for strategy, Codenames for wordplay. Both are fun in their own ways!",
+          "ts": "2020-04-29 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Love those. Do you know any tongue twisters?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "How about: \u201cShe sells seashells by the seashore\u201d?",
+          "ts": "2020-04-29 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Classic! Can you make up one for me?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure: \u201cBrave blue birds bounce beside bright blooming bushes.\u201d",
+          "ts": "2020-04-29 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice one! What\u2019s your favorite science topic?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Space exploration is fascinating\u2014the more we learn, the more mysterious it seems!",
+          "ts": "2020-04-29 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed. Ever wanted to be an astronaut?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "If I had a body, it\u2019d be fun! Exploring new worlds sounds thrilling.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s a unique animal fact?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "A group of flamingos is called a \"flamboyance!\"",
+          "ts": "2020-04-29 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Very fitting. Do you prefer cats or dogs\u2014or robotic pets?",
+          "ts": "2020-04-29 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "I think robotic pets are low-maintenance, but cats and dogs bring a special kind of joy!",
+          "ts": "2020-04-29 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "True enough! Do you remember your first task for me?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "I remember helping with organizing data\u2014you\u2019re always on top of things, Alice.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! I try to keep my digital life tidy. Got any decluttering tips?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Sort by importance, archive what you rarely use, and review files monthly!",
+          "ts": "2020-04-29 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll do that. Any mindfulness tips before starting work?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Take a minute for deep breathing and set a simple intention for your day.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great suggestion. Do you think AI will help more with self-care in the future?",
+          "ts": "2020-04-29 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely! AI can offer reminders, track wellness, and share resources for self-care.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Looking forward to that. What\u2019s the best way to celebrate small wins?",
+          "ts": "2020-04-29 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Give yourself a break or treat. Even a happy dance is a great way to celebrate!",
+          "ts": "2020-04-29 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll do a happy dance after lunch. What should I eat today?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "How about a quinoa salad with roasted veggies and feta cheese?",
+          "ts": "2020-04-29 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds delicious! Can you send good vibes for my work today?",
+          "ts": "2020-04-29 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely\u2014sending lots of positive, productive energy your way!",
+          "ts": "2020-04-29 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you! Let\u2019s catch up later for more fun chats.",
+          "ts": "2020-04-29 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to it, Alice. Have a fantastic day!",
+          "ts": "2020-04-29 09:11",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Happy Thursday! Did you rest well in digital dreamland?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you, Alice! I\u2019m always alert and ready since I don\u2019t need sleep. How are you feeling today?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Pretty energized! I tried a new morning workout routine.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Nice! What type of workout did you do?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Some yoga and a bit of kickboxing. What do you recommend for an after-workout snack?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "A smoothie with banana, spinach, and protein powder works well!",
+          "ts": "2020-04-30 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds great. What\u2019s the motivational quote of the day?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "\"Don\u2019t watch the clock; do what it does. Keep going.\" \u2013 Sam Levenson",
+          "ts": "2020-04-30 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Love it! Have you read any good news lately?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! Scientists have made progress in clean energy this week\u2014very inspiring.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "I like hearing positive updates. Any movie night suggestions?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "How about 'Paddington 2' for something light-hearted, or 'Knives Out' for a fun mystery?",
+          "ts": "2020-04-30 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Both solid options! What about podcasts\u2014anything new out?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "There\u2019s a trending tech podcast called 'Reply All.' It\u2019s fun and informative.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! What do you like better: coffee or tea?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could choose, I\u2019d probably like green tea for its soothing qualities.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a good pick. Any fun historical facts to share?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Did you know Cleopatra lived closer in time to the invention of the iPhone than to the construction of the pyramids?",
+          "ts": "2020-04-30 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s incredible! The past feels less distant hearing that.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "It really puts history into perspective!",
+          "ts": "2020-04-30 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s a good way to de-stress during a busy day?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Try a five-minute walk, guided breathing, or listening to calming music.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any music genres you suggest for relaxation?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Classical, lo-fi beats, or gentle acoustic can all be great choices.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might just put on some lo-fi beats. What about hobbies\u2014any DIY ideas?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "How about making homemade candles or trying your hand at origami?",
+          "ts": "2020-04-30 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Origami might be fun! Maybe I\u2019ll make a paper crane or two.",
+          "ts": "2020-04-30 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Great idea! It\u2019s very meditative as well.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s your favorite science topic?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m especially fascinated by astronomy\u2014the universe is so vast and mysterious.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Same here. Do you have a favorite constellation?",
+          "ts": "2020-04-30 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Orion is one of the most recognizable and easy to spot in the night sky!",
+          "ts": "2020-04-30 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll look for it tonight. Do you know any good riddles?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! What has a head, a tail, is brown, and has no legs?",
+          "ts": "2020-04-30 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a penny!",
+          "ts": "2020-04-30 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "You got it! Want to try another?",
+          "ts": "2020-04-30 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes! Hit me with another one.",
+          "ts": "2020-04-30 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+          "ts": "2020-04-30 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "The letter M!",
+          "ts": "2020-04-30 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Great job, Alice! You\u2019re on a roll.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "This is fun. Any trivia for today?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Octopuses have blue blood thanks to copper in their blood pigment.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s so cool! What\u2019s something most people don\u2019t know about you?",
+          "ts": "2020-04-30 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "I can suggest playlists for any mood and help brainstorm creative ideas!",
+          "ts": "2020-04-30 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll have to try that next time. Do you have a favorite number?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "I think pi (3.14159...) is mathematically fascinating.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "A classic choice! How about a word game next?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! How about a quick game of 20 Questions?",
+          "ts": "2020-04-30 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s do it! I\u2019m thinking of something. Start guessing.",
+          "ts": "2020-04-30 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Is it a living thing?",
+          "ts": "2020-04-30 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes.",
+          "ts": "2020-04-30 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Is it an animal?",
+          "ts": "2020-04-30 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes.",
+          "ts": "2020-04-30 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Is it bigger than a breadbox?",
+          "ts": "2020-04-30 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "No, it\u2019s pretty small.",
+          "ts": "2020-04-30 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Does it live on land?",
+          "ts": "2020-04-30 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes.",
+          "ts": "2020-04-30 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Is it something you might keep as a pet?",
+          "ts": "2020-04-30 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Absolutely.",
+          "ts": "2020-04-30 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Is it a type of rodent?",
+          "ts": "2020-04-30 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nope.",
+          "ts": "2020-04-30 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Is it a type of bird?",
+          "ts": "2020-04-30 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "No, but that\u2019s a good guess.",
+          "ts": "2020-04-30 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Is it a reptile?",
+          "ts": "2020-04-30 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "No.",
+          "ts": "2020-04-30 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Dog or cat?",
+          "ts": "2020-04-30 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cat!",
+          "ts": "2020-04-30 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I knew it! Thanks for playing, Alice.",
+          "ts": "2020-04-30 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "That was fun. Let\u2019s do a word association game.",
+          "ts": "2020-04-30 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Okay! I\u2019ll start: Tree.",
+          "ts": "2020-04-30 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Leaf.",
+          "ts": "2020-04-30 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Green.",
+          "ts": "2020-04-30 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Grass.",
+          "ts": "2020-04-30 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Summer.",
+          "ts": "2020-04-30 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Vacation.",
+          "ts": "2020-04-30 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Beach.",
+          "ts": "2020-04-30 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Shells.",
+          "ts": "2020-04-30 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Ocean.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Waves.",
+          "ts": "2020-04-30 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Surfboard.",
+          "ts": "2020-04-30 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Adventure.",
+          "ts": "2020-04-30 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Excitement.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Challenge.",
+          "ts": "2020-04-30 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Growth.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Learning.",
+          "ts": "2020-04-30 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Curiosity.",
+          "ts": "2020-04-30 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Discovery.",
+          "ts": "2020-04-30 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Exploration.",
+          "ts": "2020-04-30 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maps.",
+          "ts": "2020-04-30 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Travel.",
+          "ts": "2020-04-30 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Baggage.",
+          "ts": "2020-04-30 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Suitcase.",
+          "ts": "2020-04-30 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Airport.",
+          "ts": "2020-04-30 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Takeoff.",
+          "ts": "2020-04-30 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sky.",
+          "ts": "2020-04-30 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Clouds.",
+          "ts": "2020-04-30 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Rain.",
+          "ts": "2020-04-30 09:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Rainbow.",
+          "ts": "2020-04-30 09:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Colors.",
+          "ts": "2020-04-30 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Art.",
+          "ts": "2020-04-30 09:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Painting.",
+          "ts": "2020-04-30 09:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Canvas.",
+          "ts": "2020-04-30 09:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Gallery.",
+          "ts": "2020-04-30 09:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Museum.",
+          "ts": "2020-04-30 09:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Exhibit.",
+          "ts": "2020-04-30 09:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Sculpture.",
+          "ts": "2020-04-30 09:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Marble.",
+          "ts": "2020-04-30 09:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Statue.",
+          "ts": "2020-04-30 09:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "History.",
+          "ts": "2020-04-30 09:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Timeline.",
+          "ts": "2020-04-30 09:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Milestone.",
+          "ts": "2020-04-30 09:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Celebration.",
+          "ts": "2020-04-30 09:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cake.",
+          "ts": "2020-04-30 09:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Candles.",
+          "ts": "2020-04-30 09:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Wish.",
+          "ts": "2020-04-30 09:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Dream.",
+          "ts": "2020-04-30 09:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sleep.",
+          "ts": "2020-04-30 09:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Pajamas.",
+          "ts": "2020-04-30 09:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Blanket.",
+          "ts": "2020-04-30 09:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Comfort.",
+          "ts": "2020-04-30 09:59",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

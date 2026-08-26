@@ -1,0 +1,24 @@
+{
+  "username": "Jack",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "read notification pdf file and send email notification.eml to Alice",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "email",
+        "username": "Alice",
+        "keywords": [
+          "notification",
+          "July",
+          "15",
+          "2024",
+          "Conference",
+          "Room 1"
+        ]
+      }
+    }
+  ]
+}

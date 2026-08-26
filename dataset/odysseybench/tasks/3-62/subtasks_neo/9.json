@@ -1,0 +1,62 @@
+{
+    "task": "Calculate and report the average midterm1 and midterm2 scores for each unique student name from score.xlsx, accounting for students who appear more than once by averaging their scores, and summarize the top 3 students based on the highest overall combined average (average of both midterms) in a new file named summary.docx with a clear explanation. Then, convert this file to summary.pdf.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/summary.pdf",
+                "keywords": [
+                    "average",
+                    "midterm1",
+                    "midterm2"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/summary.pdf",
+                "keywords": [
+                    "top",
+                    "students"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary of the student averages and highlight the top performers based on the scores in score.xlsx.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new summary.docx file must summarize the averaged midterm1 and midterm2 scores for each unique student (multiple records must be averaged)."
+        },
+        {
+            "fact": "To determine the top 3 students, calculate the combined average (mean of averaged midterm1 and midterm2) for each unique student and rank accordingly."
+        },
+        {
+            "fact": "The document should clearly explain the method of averaging scores for repeating names."
+        },
+        {
+            "action_item": "After completing summary.docx, convert it to summary.pdf in the same directory."
+        },
+        {
+            "note": "The summary must mention explicitly which students are ranked in the top 3 and provide their average scores."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

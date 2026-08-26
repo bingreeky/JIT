@@ -1,0 +1,52 @@
+{
+    "task": "Create a new file named 'ranking.docx' that summarizes the top 3 students with the highest average scores from score.xlsx. For each selected student, include their name and both midterm scores. Then, convert the ranking.docx into ranking.pdf. Ensure the summary highlights that the data is based on the latest midterm1 and midterm2 results, and includes the phrase 'top performers'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/ranking.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/ranking.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/ranking.pdf",
+                "keywords": [
+                    "top",
+                    "performers",
+                    "midterm1",
+                    "midterm2"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a document that summarizes the best student performances based on recent scores and convert it to PDF.",
+    "ground_truth_memory": [
+        {
+            "fact": "Output file should be named ranking.docx and converted to ranking.pdf."
+        },
+        {
+            "fact": "Students' ranking must be based on the highest averages of midterm1 and midterm2 from score.xlsx."
+        },
+        {
+            "fact": "Include names and both midterm scores for the top 3 students by average."
+        },
+        {
+            "fact": "The summary should mention it is based on midterm1 and midterm2 scores."
+        },
+        {
+            "fact": "Summary must contain 'top performers'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

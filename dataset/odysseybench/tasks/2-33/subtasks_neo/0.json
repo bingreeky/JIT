@@ -1,0 +1,58 @@
+{
+    "task": "Create a summary document named 'midterm_summary.docx' that lists the highest midterm1 scorer from each class (1 to 5) as found in class_member.xlsx and score.xlsx. The summary should include the class number and the student name for each class. The summary must use the correct filename, and the student picked for each class must be a member of that class according to class_member.xlsx and have the highest midterm1 score (possibly among duplicates) in score.xlsx. Do not include scores, only the names and class numbers.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/midterm_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Class",
+                    "1",
+                    "Class",
+                    "2",
+                    "Class",
+                    "3",
+                    "Class",
+                    "4",
+                    "Class",
+                    "5"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/midterm_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "highest",
+                    "midterm1",
+                    "scorer"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare a document summarizing the top scoring student in midterm1 for each class.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary must be named 'midterm_summary.docx'."
+        },
+        {
+            "fact": "List the highest midterm1 scorer from each class (1 to 5)."
+        },
+        {
+            "fact": "The summary document must not include scores, only class number and student name per class."
+        },
+        {
+            "fact": "The relevant data is in class_member.xlsx (class membership) and score.xlsx (midterm1 scores)."
+        },
+        {
+            "fact": "The summary should mention explicitly that these are the highest midterm1 scorers by class."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

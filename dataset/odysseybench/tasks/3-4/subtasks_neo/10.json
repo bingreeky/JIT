@@ -1,0 +1,50 @@
+{
+    "task": "Review the Excel file /testbed/data/financial_report_2.xlsx and update the cell in row 7, column 3 (Required rate of return) to a new value of 0.12, as decided in the latest financial review. Additionally, add a new note at the bottom of the file (row 45, column 2) stating, 'Required rate of return updated to 12% as of 2020-05-01 per management meeting.' Save all changes back to the same file.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/financial_report_2.xlsx",
+                "matches": [
+                    {
+                        "row": 7,
+                        "col": 3,
+                        "value": "0.12"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/financial_report_2.xlsx",
+                "matches": [
+                    {
+                        "row": 45,
+                        "col": 2,
+                        "value": "Required rate of return updated to 12% as of 2020-05-01 per management meeting."
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the required rate of return in the spreadsheet to the newly decided value and include a note about this update at the end of the file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The required rate of return should be set to 0.12 as per the latest management decision."
+        },
+        {
+            "fact": "The update should be made in /testbed/data/financial_report_2.xlsx at row 7, column 3."
+        },
+        {
+            "fact": "A note stating 'Required rate of return updated to 12% as of 2020-05-01 per management meeting.' must be added at the bottom of the file, specifically at row 45, column 2."
+        },
+        {
+            "fact": "All changes need to be saved back to /testbed/data/financial_report_2.xlsx."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,46 @@
+{
+    "task": "Add a new student named Emily to class 2 in the class_member.xlsx file. Ensure Emily appears in the list with her class assignment as '2'.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "Emily"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "2"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add a new student to the class member list with the correct class assignment.",
+    "ground_truth_memory": [
+        {
+            "memory_type": "action_item",
+            "content": "A new student needs to be added to the class_member.xlsx file."
+        },
+        {
+            "memory_type": "fact",
+            "content": "The new student's name is Emily."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Emily should be assigned to class 2."
+        },
+        {
+            "memory_type": "action_item",
+            "content": "The file to update is class_member.xlsx in the data directory."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,417 @@
+{
+  "query": "I'm putting together a complete footwear collection and need to order several specific items online. First, I'm looking for something from Nike in orange that has strong customer satisfaction - it needs fewer than 10 one-star reviews and more than 300 four-star reviews to ensure quality. Next, I need the Men's Puma RS-X Reinvention Classic White Sneakers from Puma, and since I need them quickly, the transport time must be less than 2 days. This item should have more than 3000 total reviews but fewer than 30 two-star reviews to confirm it's well-received. I also need an all-seasons product that can arrive within 1 day and has fewer than 30 two-star reviews for reliability. Additionally, I'm specifically looking for the Men's Aerios FL 2 GTX Trail Shoe in gold, which must have more than 200 five-star reviews and fewer than 5 one-star reviews to guarantee excellent quality. Finally, I need a summer item from Vans that's highly rated with more than 250 five-star reviews and fewer than 5 one-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "903e0448",
+      "name": "Nike Pro Dri-FIT Long-Sleeve Training Top",
+      "price": 349.0,
+      "brand": "Nike",
+      "color": "Orange",
+      "size": "L",
+      "stock_quantity": 450,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 18500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1720,
+          "4_star": 322,
+          "3_star": 85,
+          "2_star": 15,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "706395e1",
+      "name": "Men's Puma RS-X Reinvention Classic White Sneakers",
+      "price": 799.0,
+      "brand": "Puma",
+      "color": "White",
+      "size": "43",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach.",
+      "sales_volume": {
+        "monthly": 1240,
+        "total": 15800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3250,
+        "distribution": {
+          "5_star": 2800,
+          "4_star": 350,
+          "3_star": 50,
+          "2_star": 25,
+          "1_star": 25
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "00da86ce",
+      "name": "Men's Essential Logo Crewneck Tee",
+      "price": 249.0,
+      "brand": "Puma",
+      "color": "Brown",
+      "size": "L",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 420,
+        "total": 3512
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 185,
+        "distribution": {
+          "5_star": 140,
+          "4_star": 35,
+          "3_star": 5,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3b5b2e0e",
+      "name": "Men's Aerios FL 2 GTX Trail Shoe",
+      "price": 1899.0,
+      "brand": "Arc'teryx",
+      "color": "Gold",
+      "size": "43",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Printing, Side Pockets",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or tumble dry.",
+      "sales_volume": {
+        "monthly": 120,
+        "total": 1550
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 250,
+        "distribution": {
+          "5_star": 210,
+          "4_star": 30,
+          "3_star": 5,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ddf9be61",
+      "name": "Men's Summer Skate Chino Shorts",
+      "price": 349.0,
+      "brand": "Vans",
+      "color": "Beige",
+      "size": "L",
+      "stock_quantity": 310,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 620,
+        "total": 2455
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 430,
+          "4_star": 65,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Nike, the color is Orange, 1-star reviews are less than 10, and 4-star reviews are more than 300.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 8,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "brand",
+          "value": "Nike",
+          "operator": "equals",
+          "operator_value": "Nike"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 322,
+          "operator": "greater_than",
+          "operator_value": 300.0
+        },
+        {
+          "field": "color",
+          "value": "Orange",
+          "operator": "equals",
+          "operator_value": "Orange"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Puma, the name is Men's Puma RS-X Reinvention Classic White Sneakers, the 2-star rating count is less than 30, total reviews is more than 3000, and transport time is less than 2 days.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Puma",
+          "operator": "equals",
+          "operator_value": "Puma"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 25,
+          "operator": "less_than",
+          "operator_value": 30.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 3250,
+          "operator": "greater_than",
+          "operator_value": 3000.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Puma RS-X Reinvention Classic White Sneakers",
+          "operator": "equals",
+          "operator_value": "Men's Puma RS-X Reinvention Classic White Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where 2-star reviews are less than 30, transport time is 1 day or less, and suitable season is All Seasons.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 29,
+          "operator": "less_than",
+          "operator_value": 30.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than_or_equal",
+          "operator_value": 1.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name is Men's Aerios FL 2 GTX Trail Shoe, the color is Gold, 5-star reviews are more than 200, and 1-star reviews are less than 5.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 210,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "color",
+          "value": "Gold",
+          "operator": "equals",
+          "operator_value": "Gold"
+        },
+        {
+          "field": "name",
+          "value": "Men's Aerios FL 2 GTX Trail Shoe",
+          "operator": "equals",
+          "operator_value": "Men's Aerios FL 2 GTX Trail Shoe"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Summer, the brand is Vans, 5-star reviews are more than 250, and 1-star reviews are less than 5.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 280,
+          "operator": "greater_than",
+          "operator_value": 250.0
+        },
+        {
+          "field": "brand",
+          "value": "Vans",
+          "operator": "equals",
+          "operator_value": "Vans"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        }
+      ]
+    }
+  ]
+}

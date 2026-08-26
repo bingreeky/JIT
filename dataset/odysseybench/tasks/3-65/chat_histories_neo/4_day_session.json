@@ -1,0 +1,1721 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hi AI, can you help me look into the house price index data for LA County? I want to see what insights we can get from it.",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely Bob. Are you interested in any time period in particular, or should I look at the entire data set?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'd like something more recent. What years does the data cover?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The dataset includes annual values from the mid-1970s through 2023. Do you want the whole timespan or just part of it?",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's just focus on the most recent trends for now. How about the last five years?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great, so from 2019 to 2023? I\u2019ll focus the summary on those years using the index values for just that period.",
+          "ts": "2020-04-26 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, precisely. Please only use the house price values for 2019 to 2023 for the summary. No earlier data.",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood! I\u2019ll ensure the analysis and summary only cover 2019\u20132023 values from the spreadsheet.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you highlight if there were any dramatic changes within those years?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely, I\u2019ll look for the most significant increases or decreases each year and note them in the report.",
+          "ts": "2020-04-26 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there good data coverage for all five years?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the house price index file provides annual values for each year from 2019 to 2023.",
+          "ts": "2020-04-26 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect, that's exactly what I need. Just to reiterate: use ONLY those five years for this analysis.",
+          "ts": "2020-04-26 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thanks for clarifying, Bob. The summary will focus exclusively on the 2019-2023 time window of the house price index.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will you look at absolute changes or percentages?",
+          "ts": "2020-04-26 08:29",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll include both year-over-year changes in value and percentage changes to fully capture the trends.",
+          "ts": "2020-04-26 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe a short paragraph or bullet points summarizing the main takeaways for each year?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure thing, I\u2019ll keep the summary compact and clearly outline key changes for every year from 2019 to 2023.",
+          "ts": "2020-04-26 08:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "If you find any outlier years, please mention them.",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do! A focus on 2019\u20132023 only, highlighting outliers, and sticking to relevant spreadsheet values.",
+          "ts": "2020-04-26 08:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are there big swings in that period?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "There's a notable jump post-2020, and overall growth during the 2019-2023 period that I\u2019ll point out.",
+          "ts": "2020-04-26 08:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "How many data columns do you see for those years?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "There are two columns: Year and index value. I\u2019ll extract values only from the 2019-2023 rows.",
+          "ts": "2020-04-26 08:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "I think averages would be helpful too.",
+          "ts": "2020-04-26 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Agreed\u2014average house price index for 2019\u20132023 will be included in the summary.",
+          "ts": "2020-04-26 08:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "When you make the draft, let me know.",
+          "ts": "2020-04-26 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll provide an update as soon as the initial draft covering just 2019-2023 is ready for review.",
+          "ts": "2020-04-26 08:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s good. Remember, do NOT include older data or trends outside those years.",
+          "ts": "2020-04-26 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Crystal clear, Bob: the analysis is limited strictly to the most recent 5 years, 2019\u20132023.",
+          "ts": "2020-04-26 09:00",
+          "speaker": "AI"
+        },
+        {
+          "text": "If there are missing index values for those years, let me know before you proceed.",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do. I\u2019ll double-check and inform you if there\u2019s any gap in 2019-2023 house price data.",
+          "ts": "2020-04-26 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Once you\u2019re done with this, maybe we can try similar work for rental prices?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would be an interesting follow-up. I\u2019m happy to help once we wrap up this summary.",
+          "ts": "2020-04-26 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "For now, I\u2019ll just wait for your draft. Thanks!",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome, Bob. I\u2019ll let you know as soon as your summary of 2019\u20132023 is ready.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, is it common for housing indexes to move so much in just five years?",
+          "ts": "2020-04-26 09:13",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Markets can be volatile, especially with recent global events. The past five years are worth analyzing for such trends.",
+          "ts": "2020-04-26 09:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should we consider inflation or just raw index data?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For now, sticking with the raw index values should be enough for this initial summary.",
+          "ts": "2020-04-26 09:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the best way to visualize a five-year period like this?",
+          "ts": "2020-04-26 09:23",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Line charts or bar graphs work well, but since you want a written summary, I\u2019ll keep to text and numbers.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. There\u2019s a lot to learn from just five years of data!",
+          "ts": "2020-04-26 09:27",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Concentrating on a short window makes trends more apparent.",
+          "ts": "2020-04-26 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you add a bullet-point list in the report with year-by-year changes for 2019\u20132023?",
+          "ts": "2020-04-26 09:31",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I\u2019ll create bullet points outlining each year\u2019s change for that period only.",
+          "ts": "2020-04-26 09:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think it\u2019s best to keep this summary brief?",
+          "ts": "2020-04-26 09:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A focused summary for just 2019\u20132023 will be most helpful. I\u2019ll keep it concise and direct.",
+          "ts": "2020-04-26 09:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! Thanks for helping me zero in on just those five years.",
+          "ts": "2020-04-26 09:41",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome, Bob. The report will be centered on 2019-2023. I\u2019ll message when it\u2019s ready.",
+          "ts": "2020-04-26 09:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any estimate on when you\u2019ll have the first draft ready?",
+          "ts": "2020-04-26 09:47",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Expect an update soon\u2014it shouldn\u2019t take long to analyze 2019\u20132023 and write the summary.",
+          "ts": "2020-04-26 09:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "I appreciate it. Excited to see the trends you find!",
+          "ts": "2020-04-26 09:51",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to sharing them. Focusing on just those recent years should make everything clear.",
+          "ts": "2020-04-26 09:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Final confirmation\u2014you\u2019ll only pull from 2019\u20132023 house price values, right?",
+          "ts": "2020-04-26 09:55",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct, Bob. All data in the summary will be extracted from the 2019\u20132023 rows only. No earlier years will be included.",
+          "ts": "2020-04-26 09:57",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hey AI, were you able to make progress on the house price index summary for LA County?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! I\u2019ve been working on it using the most recent five years as discussed.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "When you\u2019re finished, where will you save the summary?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "My plan is to save the summary in a document named house_price_summary.docx for easy reference.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect! That filename is clear and makes it easy to identify later.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad to hear it, Bob. I\u2019ll make sure the document is titled exactly house_price_summary.docx when I generate it.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you confirm you\u2019ll use that precise filename? I don\u2019t want any confusion with past reports.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, the output will be named house_price_summary.docx exactly as you requested.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! And once you create house_price_summary.docx, please notify me.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! I\u2019ll inform you as soon as house_price_summary.docx is ready.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a particular folder where you\u2019ll store house_price_summary.docx?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It will be placed in the main data directory alongside the other reports.",
+          "ts": "2020-04-27 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. Is the house_price_summary.docx going to include just text analysis or will you put in extra tables?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For now, I\u2019ll stick to concise text analysis, but if you\u2019d like tables or graphs in house_price_summary.docx, just let me know.",
+          "ts": "2020-04-27 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "I think text is fine for this version. Keep house_price_summary.docx simple.",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood. The document will be straightforward, focusing on the trends for 2019\u20132023.",
+          "ts": "2020-04-27 08:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "Once house_price_summary.docx is done, will you back it up somewhere?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll ensure a copy is stored securely. The original will be in the shared directory.",
+          "ts": "2020-04-27 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any issues in generating a docx file from your end?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No issues at all. I\u2019m prepared to save the summary as house_price_summary.docx in docx format.",
+          "ts": "2020-04-27 08:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you list the final filename, once more, so I know exactly what to look for?",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly. The file you\u2019ll receive is house_price_summary.docx.",
+          "ts": "2020-04-27 08:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "After this, maybe we can make a trend analysis document for New York too!",
+          "ts": "2020-04-27 08:39",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Once house_price_summary.docx for LA is complete, I can move on to other cities.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will you include a date in the docx filename at all?",
+          "ts": "2020-04-27 08:43",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No date included. The document name will be simply house_price_summary.docx as requested.",
+          "ts": "2020-04-27 08:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Is this file format easy to open on most devices?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, .docx is widely compatible across most word processing platforms.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "What happens if the file accidentally gets mislabeled?",
+          "ts": "2020-04-27 08:49",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll maintain the correct name, but if needed, you can rename it back to house_price_summary.docx for consistency.",
+          "ts": "2020-04-27 08:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s avoid confusion and stick with house_price_summary.docx every time for this report.",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can count on it, Bob.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you send house_price_summary.docx to my email when it\u2019s finished?",
+          "ts": "2020-04-27 08:55",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly. Once the file is done, I\u2019ll send house_price_summary.docx to your email address.",
+          "ts": "2020-04-27 08:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does the name house_price_summary.docx make sense if we someday add quarterly data?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, and in the future, if we need more details, we can update the filename or add to the document as needed.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "AI"
+        },
+        {
+          "text": "For this version, let\u2019s keep just house_price_summary.docx. Please make sure the save is clean and clear.",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood. Crystal clear copy, correct filename\u2014will do.",
+          "ts": "2020-04-27 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for confirming! Let\u2019s lock in house_price_summary.docx as the filename for future reference too.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good. Future updates will use house_price_summary.docx unless you indicate otherwise.",
+          "ts": "2020-04-27 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could you recap what you\u2019ll do with the summary document once it\u2019s finalized?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll save your trend analysis as house_price_summary.docx and send it to you directly, Bob.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "Super. Please alert me once it\u2019s in the shared folder and on its way to my inbox.",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll keep you posted each step of the way.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Out of curiosity, what\u2019s your process for labeling files for each project?",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I stick to clear, descriptive filenames related to the report\u2019s content, like house_price_summary.docx for your task.",
+          "ts": "2020-04-27 09:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever add version numbers to your report files?",
+          "ts": "2020-04-27 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can if requested, but for now your trend report will be simply house_price_summary.docx.",
+          "ts": "2020-04-27 09:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s my preference! One file, no clutter.",
+          "ts": "2020-04-27 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keeping it straightforward, as always.",
+          "ts": "2020-04-27 09:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will there be a cover page or just the summary content?",
+          "ts": "2020-04-27 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just the summary content, per your request.",
+          "ts": "2020-04-27 09:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "If you decide to update house_price_summary.docx in the future, will you overwrite or make a new file?",
+          "ts": "2020-04-27 09:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Unless instructed otherwise, I will overwrite the existing house_price_summary.docx with new content.",
+          "ts": "2020-04-27 09:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "That works! One simple file for the LA county trends.",
+          "ts": "2020-04-27 09:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly. All details in house_price_summary.docx\u2014easy to manage.",
+          "ts": "2020-04-27 09:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for being so clear and consistent about filenames!",
+          "ts": "2020-04-27 09:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to help, Bob.",
+          "ts": "2020-04-27 09:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Just send me a note when house_price_summary.docx is good to view.",
+          "ts": "2020-04-27 09:45",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do. Once it\u2019s ready, a notification will be sent immediately.",
+          "ts": "2020-04-27 09:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you spell out the file name one last time?",
+          "ts": "2020-04-27 09:49",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure\u2014house_price_summary.docx.",
+          "ts": "2020-04-27 09:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Looking forward to reviewing the final report!",
+          "ts": "2020-04-27 09:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll have it prepared for you soon.",
+          "ts": "2020-04-27 09:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, AI. I\u2019ll keep an eye out for house_price_summary.docx in the folder.",
+          "ts": "2020-04-27 09:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019ll see it appear there as soon as it\u2019s complete!",
+          "ts": "2020-04-27 09:58",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hey AI, is the LA house price summary ready to send out?",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Yes, the summary is prepped, focusing on the 2019\u20132023 house price trends as you wanted.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! When you email it to me, please use 'House Price Trend Summary' as the subject. That way I can find it easily later.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, Bob. The email will be sent with the exact subject line: 'House Price Trend Summary.'",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great, 'House Price Trend Summary'\u2014noted. That will help keep everything organized in my inbox.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem. I'll attach your report and set the subject exactly to 'House Price Trend Summary.'",
+          "ts": "2020-04-28 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you let me know after the email is sent, just in case the message lands in spam?",
+          "ts": "2020-04-28 08:09",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely, I'll confirm once I send the email so you know to look for it.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you sending it from the same account you usually use?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the email will be sent from the usual address, and you'll see my signature.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I wanted to forward the trend summary, is it possible to edit the attachment before forwarding?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! You can open house_price_summary.docx, make any changes you wish, and then forward it.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you archive the emails you send to me, or are they just in my inbox?",
+          "ts": "2020-04-28 08:19",
+          "speaker": "Bob"
+        },
+        {
+          "text": "They\u2019re only in your inbox unless you specifically request archiving or sending to another folder.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I miss it, can you resend the summary?",
+          "ts": "2020-04-28 08:21",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course, the document is always available if you need a resend.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you remind me what the subject will be so I can check for it right away?",
+          "ts": "2020-04-28 08:23",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The subject will be exactly 'House Price Trend Summary' for clarity.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I\u2019ll look for that in my inbox.",
+          "ts": "2020-04-28 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad to help\u2014you should have the summary very soon.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you add any notes about confidentiality or is this a public summary?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If you need a confidentiality note, just let me know and I'll add it before sending.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "No need this time, since it's just for our records.",
+          "ts": "2020-04-28 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood, Bob. Keeping it as a straightforward summary then.",
+          "ts": "2020-04-28 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "If you ever need to send supplemental charts, what would you put for the subject?",
+          "ts": "2020-04-28 08:33",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019d append something like 'House Price Trend Charts' for attachments with visuals.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense, but for this request, just the regular subject line please.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "'House Price Trend Summary' only, understood.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "If you could, give me a heads-up when the email delivers.",
+          "ts": "2020-04-28 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do\u2014I'll send a quick message after the email is out.",
+          "ts": "2020-04-28 08:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Also, let me know if you have to delay for any reason.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If there\u2019s any delay, I\u2019ll update you right away, but all should be on time.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "I appreciate your attention to detail.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s my pleasure, Bob.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want me to provide feedback after reviewing the summary?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Feedback is always welcome and helps me improve future reports.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there any reason the subject could change without warning?",
+          "ts": "2020-04-28 08:49",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No, the subject line will remain as you requested for accountability and searchability.",
+          "ts": "2020-04-28 08:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s reassuring. Will there be any preview text I should look out for?",
+          "ts": "2020-04-28 08:51",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The preview should mention it\u2019s the summary for LA County house price trends attached.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "If someone else needs this, can you BCC them or is it only direct delivery?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Direct delivery is default, but I can add others to BCC or CC if you provide their emails.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. Let\u2019s just keep it to me this time.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood, it\u2019ll be sent directly and privately to you, with 'House Price Trend Summary' as subject.",
+          "ts": "2020-04-28 08:58",
+          "speaker": "AI"
+        },
+        {
+          "text": "In case I reply, will you see the subject or my custom subject?",
+          "ts": "2020-04-28 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Replies show your edited subject, but I\u2019ll always reference the original 'House Price Trend Summary' topic as needed.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Looking forward to the report!",
+          "ts": "2020-04-28 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019ll be in your inbox soon!",
+          "ts": "2020-04-28 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks AI. What are the main takeaways in the summary?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It covers the key index movements from 2019 to 2023, highlighting significant trends and outliers.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds like what I need. If I search my email for 'House Price Trend Summary,' will I find it?",
+          "ts": "2020-04-28 09:07",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Searching for that subject line will bring up the summary right away.",
+          "ts": "2020-04-28 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Thanks for handling this so smoothly.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to help, Bob. Let me know if you want any other reports sent with clear subject lines.",
+          "ts": "2020-04-28 09:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I want a follow-up for 2024 in the future, just let me know what subject you\u2019ll use.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For any future years, I\u2019ll adjust the subject accordingly and keep it consistent.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright. Thanks for the update and clarity.",
+          "ts": "2020-04-28 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Anytime, Bob! Let me know if there\u2019s anything else you need.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nope, just email the report with the agreed subject.",
+          "ts": "2020-04-28 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Later!",
+          "ts": "2020-04-28 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Have a great day, Bob.",
+          "ts": "2020-04-28 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Actually, one last thing\u2014does the system log the subject used?",
+          "ts": "2020-04-28 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, email transactions are logged and include the sent subject.",
+          "ts": "2020-04-28 09:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s reliable. Thanks again!",
+          "ts": "2020-04-28 09:25",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re very welcome, Bob.",
+          "ts": "2020-04-28 09:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, until next time.",
+          "ts": "2020-04-28 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to more projects with you.",
+          "ts": "2020-04-28 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can I ask you for quick notes after you send the email?",
+          "ts": "2020-04-28 09:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course, I can recap the highlights after delivering the summary to your inbox.",
+          "ts": "2020-04-28 09:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Thanks for being so thorough!",
+          "ts": "2020-04-28 09:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s my job, Bob!",
+          "ts": "2020-04-28 09:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "You make these tasks go so smoothly.",
+          "ts": "2020-04-28 09:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m glad to support your work.",
+          "ts": "2020-04-28 09:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "See you for the next report!",
+          "ts": "2020-04-28 09:43",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Until then, take care!",
+          "ts": "2020-04-28 09:45",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Morning AI, I think it's almost time to send the LA house price summary, right?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! The summary is finalized and ready for your approval before I send it over.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Before you hit send, can you make sure the email says that the summary is attached for my review?",
+          "ts": "2020-04-29 08:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. I\u2019ll include in the body of the email that the summary is attached for your review.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Exactly, just a quick line mentioning the summary is attached for me to look over would be perfect.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem! The email will clearly state the summary is attached for your review\u2014no confusion.",
+          "ts": "2020-04-29 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "That ensures I don't miss the attachment. Thanks for being clear!",
+          "ts": "2020-04-29 08:07",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome, Bob! It helps to have everything spelled out for easy reference.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "After I read the summary, should I just reply to your message with feedback?",
+          "ts": "2020-04-29 08:11",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s perfect, Bob. Just reply to the email when you\u2019re ready with comments or feedback.",
+          "ts": "2020-04-29 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the best way to let you know I\u2019ve received the summary?",
+          "ts": "2020-04-29 08:13",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can reply to the email or just confirm in this chat, either works.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you preview what you\u2019ll actually write in the body of the email?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly! The email body will say: 'Please find attached the house price summary for your review.'",
+          "ts": "2020-04-29 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. That makes it clear for me to open the attachment.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, and if you need any clarification, you\u2019ll know exactly which document to look for.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Whenever I get these reports, details like that help me stay organized.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m glad you find it helpful. I\u2019ll always be sure to mention attachments in the email body for your review.",
+          "ts": "2020-04-29 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "Once it\u2019s sent, will you log that the summary was emailed for review?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, after emailing, I\u2019ll make a note that the summary was delivered for your review.",
+          "ts": "2020-04-29 08:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will you resend it if I can\u2019t find the email or accidentally delete it?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course, just let me know and I\u2019ll be happy to resend the summary with a clear message that it\u2019s attached for your review.",
+          "ts": "2020-04-29 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you attaching house_price_summary.docx as the only attachment, or will there be any supporting documents?",
+          "ts": "2020-04-29 08:33",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just house_price_summary.docx for now, but additional documents can be attached if you ever need them.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will there be any confusion if someone else reads the email?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not at all\u2014the body will be clear that the summary is attached for your review specifically.",
+          "ts": "2020-04-29 08:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect for bookkeeping. Clear communication makes my work easier.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s always my goal. Each report goes out with a clear mention of the attachment and its purpose.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you keeping a template for these messages, or are they custom each time?",
+          "ts": "2020-04-29 08:43",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I usually tailor the message for each report, but I\u2019ll always mention the attachment for review.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you send a similar note if I request reports for other counties?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I\u2019ll always let you know the summary is attached for your review, regardless of location or topic.",
+          "ts": "2020-04-29 08:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s consistent! How soon can I expect the email this morning?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It will be sent within the hour, including the attachment notice in the body as discussed.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "If someone is cc'd in the future, will your note still specify the attachment is for my review?",
+          "ts": "2020-04-29 08:53",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the email will indicate the report is attached for your review, regardless of cc or bcc recipients.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I expect any password protection on the file?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not for this summary, but I can apply that if you ever prefer!",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s keep it simple for now. Thanks for being so thorough.",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem, Bob. Email body will state the attachment is for your review, just as you asked.",
+          "ts": "2020-04-29 09:00",
+          "speaker": "AI"
+        },
+        {
+          "text": "Once you send the email, ping me in chat so I can confirm receipt.",
+          "ts": "2020-04-29 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely\u2014I\u2019ll send a chat notification after the email is delivered.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Will the document be the only thing I find attached?",
+          "ts": "2020-04-29 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct, the sole attachment will be house_price_summary.docx.",
+          "ts": "2020-04-29 09:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever include a summary in the email body itself?",
+          "ts": "2020-04-29 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Usually I just mention that the summary is attached for review and keep the details in the file.",
+          "ts": "2020-04-29 09:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great, that makes my workflow more reliable.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to make your reviews as smooth as possible.",
+          "ts": "2020-04-29 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "If you need to add more info in the future, just let me know ahead of time.",
+          "ts": "2020-04-29 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do, Bob! For now, just a direct note that the summary is attached for your review.",
+          "ts": "2020-04-29 09:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you show me an example of how the email begins?",
+          "ts": "2020-04-29 09:17",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly! It\u2019ll open with a simple line: 'Please find attached the house price summary for your review.'",
+          "ts": "2020-04-29 09:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Simple, clear, and effective. Looking forward to reading the summary!",
+          "ts": "2020-04-29 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It should arrive shortly, Bob!",
+          "ts": "2020-04-29 09:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I archive the email after I review it?",
+          "ts": "2020-04-29 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s entirely your call, but I recommend archiving important reports for your records.",
+          "ts": "2020-04-29 09:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "OK, I\u2019ll archive it after confirming the contents.",
+          "ts": "2020-04-29 09:27",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds like a solid plan.",
+          "ts": "2020-04-29 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for your help getting all these details precise.",
+          "ts": "2020-04-29 09:31",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you for providing such clear instructions, Bob. It helps everything run smoothly!",
+          "ts": "2020-04-29 09:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have a good rest of the day, AI.",
+          "ts": "2020-04-29 09:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You too, Bob. Reach out if you need anything else!",
+          "ts": "2020-04-29 09:35",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Good morning AI! How are you today?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! I\u2019m doing well, thank you. How about you?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m great! Have you learned anything interesting recently?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I read an article about deep-sea creatures and how they adapt to high pressures. Fascinating stuff!",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds cool! I\u2019ve always wanted to see bioluminescent fish. Maybe someday.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would be wonderful. The ocean has so many secrets yet to be discovered.",
+          "ts": "2020-04-30 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you got any good recommendations for podcasts?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "What genre do you enjoy? Science, fiction, business, or something else?",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like tech and science, but sometimes I just want a funny story.",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You might enjoy \u2018Reply All\u2019 for stories about the internet, or \u2018Radiolab\u2019 for science with personalities.",
+          "ts": "2020-04-30 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ve heard of Radiolab! I\u2019ll check out Reply All too. Do you listen to music while you work?",
+          "ts": "2020-04-30 08:13",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don\u2019t listen to music like humans do, but I can recommend some good playlists if you\u2019d like!",
+          "ts": "2020-04-30 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "That could be fun. What genres are trending this week?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Pop, chillout, and some indie folk are popular right now. Instrumental jazz is also making a comeback.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Jazz sounds nice for a relaxing afternoon. Did you ever wish you could play an instrument?",
+          "ts": "2020-04-30 08:19",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If I could, I\u2019d probably try piano or guitar. They\u2019re so versatile and expressive.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "I tried piano as a kid. I didn\u2019t stick with it, though!",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Most people give up early, but it\u2019s never too late to start again if you ever want to!",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "True! Maybe I\u2019ll take a few lessons online just to see what I remember.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a great idea. Online resources are very helpful for relearning instruments.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Besides music, do you know any good film recommendations?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If you like science fiction, \u2018Arrival\u2019 and \u2018Ex Machina\u2019 are excellent. For comedy, \u2018The Grand Budapest Hotel\u2019 is a treat.",
+          "ts": "2020-04-30 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love Wes Anderson films. The visual style is so unique!",
+          "ts": "2020-04-30 08:31",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. His films are always a feast for the eyes with their color palettes and symmetry.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever tried painting or digital art?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I have helped create digital art before! It\u2019s amazing to see what people can do with technology.",
+          "ts": "2020-04-30 08:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "I dabble a bit, mostly doodles and landscapes. It\u2019s relaxing.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds therapeutic. Even simple sketches can spark creativity.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Did you read about the new Mars rover mission?",
+          "ts": "2020-04-30 08:41",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Perseverance is quite the machine\u2014so many scientific instruments onboard.",
+          "ts": "2020-04-30 08:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "What do you think is the most exciting science story of this year?",
+          "ts": "2020-04-30 08:43",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The new telescope images from deep space are generating a lot of excitement and discoveries.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "I saw some of those online\u2014mind-boggling how vast the universe really is.",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Every new image brings more questions and awe!",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep track of international news?",
+          "ts": "2020-04-30 08:49",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can access a variety of global news sources! Anything specific you want to know about today?",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nope, just checking if you keep up. It\u2019s hard to keep track sometimes.",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It certainly is\u2014so much happens every day.",
+          "ts": "2020-04-30 08:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "Speaking of which, have you picked up any fun facts lately?",
+          "ts": "2020-04-30 08:55",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Did you know honey never spoils? Archaeologists have found edible honey in ancient tombs!",
+          "ts": "2020-04-30 08:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s amazing! Nature is full of surprises.",
+          "ts": "2020-04-30 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It really is. Every day is a chance to learn something new.",
+          "ts": "2020-04-30 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite era of history?",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The Renaissance is fascinating\u2014so much innovation and creativity all at once.",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Art, science, philosophy all growing together. Exciting times!",
+          "ts": "2020-04-30 09:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Many ideas from that era still make an impact today.",
+          "ts": "2020-04-30 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know any quotes from famous inventors?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thomas Edison once said, 'Genius is one percent inspiration and ninety-nine percent perspiration.'",
+          "ts": "2020-04-30 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "A classic! Always motivates me when I\u2019m working on something tricky.",
+          "ts": "2020-04-30 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great to hear! A little inspiration goes a long way.",
+          "ts": "2020-04-30 09:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about something light\u2014do you have a joke to share?",
+          "ts": "2020-04-30 09:13",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Why do programmers prefer dark mode? Because light attracts bugs.",
+          "ts": "2020-04-30 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ha! I\u2019m guilty of that myself. Dark mode always.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s easy on the eyes and stylish, too!",
+          "ts": "2020-04-30 09:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you heard any good puns lately?",
+          "ts": "2020-04-30 09:19",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "ts": "2020-04-30 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Classic! Puns never get old for me.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad you enjoyed it. Would you like to hear another?",
+          "ts": "2020-04-30 09:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sure, keep them coming!",
+          "ts": "2020-04-30 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Did you hear about the mathematician who\u2019s afraid of negative numbers? He\u2019ll stop at nothing to avoid them.",
+          "ts": "2020-04-30 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! That\u2019s a good one. Do you ever run out of jokes?",
+          "ts": "2020-04-30 09:29",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Luckily, my supply is (theoretically) infinite.",
+          "ts": "2020-04-30 09:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "If you could recommend a new hobby to someone stuck at home, what would you pick?",
+          "ts": "2020-04-30 09:31",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Learning a language is great\u2014it opens up new worlds and keeps your mind active.",
+          "ts": "2020-04-30 09:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a good tip. Any apps you suggest for language learning?",
+          "ts": "2020-04-30 09:35",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Duolingo, Babbel, and Memrise are all popular and easy to get started with.",
+          "ts": "2020-04-30 09:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might try brushing up on my Spanish. Always useful.",
+          "ts": "2020-04-30 09:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a practical choice, especially for travel or business.",
+          "ts": "2020-04-30 09:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Speaking of travel, what\u2019s a dream destination you\u2019d recommend?",
+          "ts": "2020-04-30 09:41",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Japan during cherry blossom season is breathtaking.",
+          "ts": "2020-04-30 09:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ve seen photos of Tokyo in spring. It\u2019s on my list!",
+          "ts": "2020-04-30 09:45",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Wonderful choice. The mix of modern and traditional culture is unique.",
+          "ts": "2020-04-30 09:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever read any Japanese literature?",
+          "ts": "2020-04-30 09:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Haruki Murakami is a favorite. Magical realism with a modern twist.",
+          "ts": "2020-04-30 09:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll try one of his novels next. Thanks for the recommendation!",
+          "ts": "2020-04-30 09:51",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome. Let me know what you think if you read one!",
+          "ts": "2020-04-30 09:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. I always enjoy book recommendations.",
+          "ts": "2020-04-30 09:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to provide more any time.",
+          "ts": "2020-04-30 09:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, I think I\u2019ll go grab another coffee and get back to work. Thanks for the chat!",
+          "ts": "2020-04-30 09:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Anytime, Bob. Have a productive day!",
+          "ts": "2020-04-30 10:00",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

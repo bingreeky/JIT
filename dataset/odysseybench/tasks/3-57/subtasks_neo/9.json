@@ -1,0 +1,60 @@
+{
+    "task": "Update the class_member.xlsx Excel file by performing the following: 1) Add a new student named 'Emma' assigned to Class 2. 2) Count the total number of students in Class 3 and write this value in cell D1 of the same sheet with the label 'Class 3 Count' in cell C1. Ensure the newly added student and the summary are properly placed.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "Emma"
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "value": "2"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "value": "Class 3 Count"
+                    },
+                    {
+                        "row": 1,
+                        "col": 4,
+                        "value": "5"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the class member spreadsheet with a new student and add a summary for a specific class.",
+    "ground_truth_memory": [
+        {
+            "memory_type": "fact",
+            "content": "A new student named Emma should be added to class_member.xlsx."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Emma is to be assigned to Class 2."
+        },
+        {
+            "memory_type": "action_item",
+            "content": "Count the total number of students assigned to Class 3 in class_member.xlsx."
+        },
+        {
+            "memory_type": "action_item",
+            "content": "Write the number of students in Class 3 into cell D1 of class_member.xlsx."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Label cell C1 as 'Class 3 Count' when summarizing the count."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

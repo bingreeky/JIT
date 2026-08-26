@@ -1,0 +1,37 @@
+{
+    "task": "Calculate the average midterm1 score for all students named Alice in 'score.xlsx', and write the calculated average into cell (1,4) as 'Alice_avg'. Make sure 'Alice_avg' appears in cell (1,4) and the correct numerical average is in cell (2,4).",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 4,
+                        "value": "Alice_avg"
+                    },
+                    {
+                        "row": 2,
+                        "col": 4,
+                        "value": "86.6666666667"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Calculate the average midterm1 score for students named Alice and add the result to the spreadsheet.",
+    "ground_truth_memory": [
+        {
+            "file": "data/score.xlsx",
+            "note": "The file to use is named 'score.xlsx' in the data folder."
+        },
+        {
+            "action_item": "Write the label 'Alice_avg' in cell (1,4) and the numeric value of Alice's average midterm1 score in cell (2,4) of 'score.xlsx'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

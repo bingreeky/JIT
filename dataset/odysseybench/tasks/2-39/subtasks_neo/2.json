@@ -1,0 +1,113 @@
+{
+    "task": "Create a new spreadsheet named salary.xlsx with salary data for employees (Alice: 120000, Bob: 110000, Carol: 115000, Dan: 125000, Emma: 130000). Then, generate a summary report of the total and average salaries in a Word document named salary_summary.docx. The summary report should mention the total salary, average salary, and list all employee names.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/salary.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Alice"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "120000"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Bob"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "110000"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Carol"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "115000"
+                    },
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "Dan"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "125000"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "Emma"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "130000"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/salary_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/salary_summary.docx",
+                "keywords": [
+                    "total",
+                    "average",
+                    "Alice",
+                    "Bob",
+                    "Carol",
+                    "Dan",
+                    "Emma"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a salary spreadsheet for the team and produce a summary report document with total and average salary information.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new spreadsheet named salary.xlsx needs to be created."
+        },
+        {
+            "fact": "The spreadsheet should list employee names and salaries: Alice - 120000, Bob - 110000, Carol - 115000, Dan - 125000, Emma - 130000."
+        },
+        {
+            "fact": "A summary report document should be created named salary_summary.docx."
+        },
+        {
+            "fact": "The summary report must mention the total salary amount and the average salary amount."
+        },
+        {
+            "fact": "The salary_summary.docx should also list all employee names: Alice, Bob, Carol, Dan, Emma."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

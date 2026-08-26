@@ -1,0 +1,62 @@
+{
+    "task": "1. Read and extract the key points from /testbed/data/paper.pdf focusing on the attention mechanism, transformer model architecture, and main experimental results. 2. Summarize these key points into a new Word document named summary.docx. 3. Email the contents of summary.docx to professor Dan with the subject 'Transformer Summary'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary.docx",
+                "keywords": [
+                    "attention",
+                    "transformer",
+                    "encoder",
+                    "decoder",
+                    "self-attention",
+                    "multi-head",
+                    "machine translation",
+                    "BLEU",
+                    "parallelizable"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Transformer Summary",
+                    "attention",
+                    "architecture",
+                    "experiment",
+                    "BLEU",
+                    "training time"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please summarize the key points about the attention mechanism, architecture, and main results from paper.pdf, save them in a new summary.docx, and email the summary to professor Dan with an appropriate subject.",
+    "ground_truth_memory": [
+        {
+            "file_name": "summary.docx",
+            "action": "Create a summary from /testbed/data/paper.pdf highlighting key points about the attention mechanism, the overall Transformer architecture, and main experimental results."
+        },
+        {
+            "email_target": "professor Dan",
+            "action": "Send the contents of summary.docx to professor Dan via email with the subject 'Transformer Summary'."
+        },
+        {
+            "note": "The summary should explicitly address what makes attention mechanisms important, the replacement of RNNs by the transformer, and the reported improvements in BLEU scores and training speed."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

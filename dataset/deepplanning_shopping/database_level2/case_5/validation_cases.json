@@ -1,0 +1,472 @@
+{
+  "query": "I'm doing a complete wardrobe refresh and need several pieces to arrive quickly. First, I need a popular all-seasons item that ships fast, so it must have a transport time of less than 2 and a monthly sales volume over 1200 with more than 2000 total reviews. Next, I'm looking for something in white that's exceptionally well-rated, with over 1600 total reviews, more than 1300 of which are 5-star, and fewer than 10 one-star reviews. I also want a beige item from Ralph Lauren with an average score above 4.5, over 200 five-star ratings, and less than 20 three-star ratings. For footwear, I need some Green 'Canvas Sneakers' with over 500 total reviews and minimal complaints—fewer than 15 one-star and 15 two-star reviews. I also found something from Gucci in size 38; it must ship in less than 2 days, have an average score over 4.5, and more than 350 five-star ratings. Lastly, I need some all-seasons 'Training Leggings' from Under Armour that also have a transport time of less than 2 days and fewer than 20 one-star reviews. Find me some products where the total price is no less than 9915 and no more than 10349.",
+  "ground_truth_products": [
+    {
+      "product_id": "aceae063",
+      "name": "Nike Air Zoom Pegasus - Women's Running Shoes",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Blue",
+      "size": "38",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        },
+        {
+          "material": "Nylon",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1450,
+        "total": 18230
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 4150,
+        "distribution": {
+          "5_star": 3520,
+          "4_star": 510,
+          "3_star": 85,
+          "2_star": 25,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "dd7e1db1",
+      "name": "Women's 'Cloud-Feel' Performance Long-Sleeve Top",
+      "price": 289.0,
+      "brand": "Li-Ning",
+      "color": "White",
+      "size": "M",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 980,
+        "total": 8550
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1620,
+        "distribution": {
+          "5_star": 1350,
+          "4_star": 210,
+          "3_star": 45,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "bb95f272",
+      "name": "Women's Linen-Blend Drawstring Trousers",
+      "price": 899.99,
+      "brand": "Ralph Lauren",
+      "color": "Beige",
+      "size": "M",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 55
+        },
+        {
+          "material": "Cotton",
+          "percentage": 42
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Embroidery, Zipper Closure",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 258,
+        "total": 1240
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 315,
+        "distribution": {
+          "5_star": 240,
+          "4_star": 55,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "798abb6c",
+      "name": "Women's Courtright Canvas Sneakers",
+      "price": 549.9,
+      "brand": "Levi's",
+      "color": "Green",
+      "size": "38",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 2890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 358,
+          "4_star": 102,
+          "3_star": 31,
+          "2_star": 10,
+          "1_star": 11
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2239e57b",
+      "name": "Gucci Women's Princetown Linen Slippers",
+      "price": 6850.0,
+      "brand": "Gucci",
+      "color": "Khaki",
+      "size": "38",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 80
+        },
+        {
+          "material": "Cotton",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery",
+      "washing_instructions": "Spot clean with a soft, damp cloth. Do not submerge. Air dry.",
+      "sales_volume": {
+        "monthly": 180,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "0fc1af7f",
+      "name": "Women's Armour-Fit Training Leggings",
+      "price": 429.0,
+      "brand": "Under Armour",
+      "color": "Navy Blue",
+      "size": "M",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 87
+        },
+        {
+          "material": "Spandex",
+          "percentage": 13
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 1245,
+        "total": 15590
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 623,
+          "4_star": 178,
+          "3_star": 45,
+          "2_star": 27,
+          "1_star": 17
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with more than 2000 total reviews, a monthly sales volume greater than 1200, suitable for All Seasons, and a transport time of less than 2.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 2150
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1250
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is White, total reviews are more than 1600, the number of 5-star reviews is more than 1300, and the number of 1-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "color",
+          "value": "White"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1620
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 1350
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the average score is greater than 4.5, the brand is Ralph Lauren, the color is Beige, the number of 5-star ratings is more than 200, and the number of 3-star ratings is less than 20.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        },
+        {
+          "field": "color",
+          "value": "Beige"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 240
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Green, total reviews are greater than 500, the number of 1-star reviews is less than 15, the number of 2-star reviews is less than 15, and the name contains 'Canvas Sneakers'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Green"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 11
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 512
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10
+        },
+        {
+          "field": "name",
+          "value": "Women's Courtright Canvas Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the brand is Gucci, it has more than 350 5-star ratings, the size is 38, and the average score is above 4.5 stars.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Gucci"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 395
+        },
+        {
+          "field": "size",
+          "value": "38"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Under Armour, the number of 1-star reviews is less than 20, the transport time is less than 2 days, they are suitable for all seasons, and the name contains 'Training Leggings'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Under Armour"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 17
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "name",
+          "value": "Women's Armour-Fit Training Leggings"
+        }
+      ]
+    }
+  ]
+}

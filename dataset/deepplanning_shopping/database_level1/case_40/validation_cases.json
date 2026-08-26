@@ -1,0 +1,250 @@
+{
+  "query": "I'm getting my wardrobe updated and have a few specific items in mind. First, I'm looking for something in a size 39 that's highly rated, so it must have more than 150 five-star ratings and a total review count greater than 200. I also need a popular women's item in Navy Blue; to make sure it's a best-seller, I want it to have a monthly sales volume of more than 750. Finally, I'm searching for a summer piece from The North Face. It needs to be a size L in Burgundy and have a monthly sales volume of more than 500.",
+  "ground_truth_products": [
+    {
+      "product_id": "8f09e957",
+      "name": "Adidas Women's Cloudfoam Pure 2.0 Running Shoes",
+      "price": 629.0,
+      "brand": "Adidas",
+      "color": "Navy Blue",
+      "size": "39",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash, bleach or tumble dry.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 28400
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3250,
+        "distribution": {
+          "5_star": 2800,
+          "4_star": 350,
+          "3_star": 50,
+          "2_star": 30,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "c1079e0e",
+      "name": "Women's Ribbed Long-Sleeve Knit Top",
+      "price": 299.9,
+      "brand": "Zara",
+      "color": "Navy Blue",
+      "size": "M",
+      "stock_quantity": 450,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Lay flat to dry to maintain shape.",
+      "sales_volume": {
+        "monthly": 1245,
+        "total": 8760
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 355,
+        "distribution": {
+          "5_star": 255,
+          "4_star": 75,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "0ba7d469",
+      "name": "Women's Amphibious Hiking Bottoms",
+      "price": 698.0,
+      "brand": "The North Face",
+      "color": "Burgundy",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Vintage Wash",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 4150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1055,
+        "distribution": {
+          "5_star": 890,
+          "4_star": 125,
+          "3_star": 22,
+          "2_star": 10,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Good value for money",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products that have more than 150 5-star ratings, a total review count greater than 200, and are available in size 39.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 180,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 215,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        },
+        {
+          "field": "size",
+          "value": "39",
+          "operator": "equals",
+          "operator_value": "39"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Navy Blue, the monthly sales volume is more than 750, and the target demographic is Women.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Navy Blue",
+          "operator": "equals",
+          "operator_value": "Navy Blue"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 780,
+          "operator": "greater_than",
+          "operator_value": 750.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is The North Face, the color is Burgundy, the size is L, the suitable season is Summer, and the monthly sales volume is more than 500.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "The North Face",
+          "operator": "equals",
+          "operator_value": "The North Face"
+        },
+        {
+          "field": "color",
+          "value": "Burgundy",
+          "operator": "equals",
+          "operator_value": "Burgundy"
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 520,
+          "operator": "greater_than",
+          "operator_value": 500.0
+        }
+      ]
+    }
+  ]
+}

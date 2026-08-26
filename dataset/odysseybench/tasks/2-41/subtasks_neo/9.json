@@ -1,0 +1,84 @@
+{
+    "task": "Read the email titled 'June Promotion Announcement' and create corresponding calendar events for each recipient mentioned in the email. Use each recipient's first name as the calendar file name (e.g., 'calendar/Emily.ics'). The event should be scheduled for June 5, 2020 from 2:00 PM to 3:00 PM, and the event title should include 'Promotion Announcement Meeting' along with the recipient's department included in the title as specified in the email. Ensure all created event files exist and their event details are correct.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Emily.ics"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Frank.ics"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "calendar/Emily.ics",
+                "doc_type": "ics",
+                "keywords": [
+                    "Promotion",
+                    "Announcement",
+                    "Meeting",
+                    "Marketing"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "calendar/Frank.ics",
+                "doc_type": "ics",
+                "keywords": [
+                    "Promotion",
+                    "Announcement",
+                    "Meeting",
+                    "Finance"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "calendar/Emily.ics",
+                "doc_type": "ics",
+                "keywords": [
+                    "20200605T140000",
+                    "20200605T150000"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "calendar/Frank.ics",
+                "doc_type": "ics",
+                "keywords": [
+                    "20200605T140000",
+                    "20200605T150000"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create calendar events for each recipient of the June Promotion Announcement email, using their names as file names and including their department in the event title as said in the instructions.",
+    "ground_truth_memory": [
+        {
+            "fact": "There is an email titled 'June Promotion Announcement' that lists recipients: Emily (Marketing) and Frank (Finance)."
+        },
+        {
+            "action_item": "For each recipient, create a calendar event file using their first name as the filename. For example, use 'calendar/Emily.ics' for Emily."
+        },
+        {
+            "action_item": "The calendar event should be scheduled on June 5, 2020 from 2:00 PM to 3:00 PM."
+        },
+        {
+            "action_item": "The event title must be 'Promotion Announcement Meeting - [Department]' with the department filled in from the recipient's department in the email."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

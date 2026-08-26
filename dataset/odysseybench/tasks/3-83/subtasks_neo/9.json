@@ -1,0 +1,54 @@
+{
+    "task": "Summarize the number of students in each class based on the 'class_member.xlsx' file and create a new Word document named 'Class_Summary.docx' containing a brief summary for each class. Each summary should state the class number and the total number of students in that class. The document should include the class numbers that are present in the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Class_Summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/Class_Summary.docx",
+                "keywords": [
+                    "Class 1",
+                    "Class 2",
+                    "Class 3",
+                    "Class 5"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/Class_Summary.docx",
+                "keywords": [
+                    "number",
+                    "students"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the number of students in each class from the class_member.xlsx file and save the results in a Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new Word document named 'Class_Summary.docx' should be created in the data directory."
+        },
+        {
+            "fact": "The summary should include all class numbers that appear in class_member.xlsx: 1, 2, 3, 5."
+        },
+        {
+            "fact": "Each class summary in the document should state the class number and the total number of students in that class."
+        },
+        {
+            "fact": "The document should mention the words 'number' and 'students' in each summary section."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

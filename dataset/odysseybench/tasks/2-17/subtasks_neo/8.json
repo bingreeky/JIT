@@ -1,0 +1,120 @@
+{
+    "task": "For each student listed in class_member.xlsx, create an individual Word (docx) summary file named <student_name>_summary.docx. Each file should contain the student's name and class as specified in the spreadsheet. Ensure the correct names and classes are present in the respective files.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "Noah_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "Noah_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Noah",
+                    "Class",
+                    "1"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "Carol_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "Carol_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Carol",
+                    "Class",
+                    "3"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "Jack_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "Jack_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Jack",
+                    "Class",
+                    "3"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "Mia_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "Mia_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Mia",
+                    "Class",
+                    "2"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "For each student, create a Word document summary with their name and class.",
+    "ground_truth_memory": [
+        {
+            "student": "Noah",
+            "class": "1",
+            "output_file": "Noah_summary.docx",
+            "content_elements": [
+                "student's name",
+                "class as in spreadsheet"
+            ]
+        },
+        {
+            "student": "Carol",
+            "class": "3",
+            "output_file": "Carol_summary.docx",
+            "content_elements": [
+                "student's name",
+                "class as in spreadsheet"
+            ]
+        },
+        {
+            "student": "Jack",
+            "class": "3",
+            "output_file": "Jack_summary.docx",
+            "content_elements": [
+                "student's name",
+                "class as in spreadsheet"
+            ]
+        },
+        {
+            "student": "Mia",
+            "class": "2",
+            "output_file": "Mia_summary.docx",
+            "content_elements": [
+                "student's name",
+                "class as in spreadsheet"
+            ]
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

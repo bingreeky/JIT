@@ -1,0 +1,44 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "read Bob's calendar event and send email to Bob for all events in calendar, save all events in event.pdf",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/event.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "events",
+                    "lunch",
+                    "class",
+                    "nap",
+                    "dinner",
+                    "sleeping"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/event.pdf",
+                "keywords": [
+                    "lunch",
+                    "class",
+                    "nap",
+                    "dinner",
+                    "sleeping"
+                ]
+            }
+        }
+    ]
+}

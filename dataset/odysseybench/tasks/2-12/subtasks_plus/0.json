@@ -1,0 +1,16 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Scan handwritten notes from a meeting agenda, convert them to text, and add them to my calendar",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Alice.ics"
+            }
+        }
+    ],
+    "query_sentence": "Add the converted text from the handwritten notes to the calendar."
+}

@@ -1,0 +1,228 @@
+{
+  "query": "I'm putting together a new workout wardrobe and need to order several items online. First, I'm looking for the Li-Ning Women's Cool-Dry Training Top specifically, and I want to make sure it has exactly 25 two-star rating counts and 350 four-star rating counts to match my quality expectations. Next, I need something from Peacebird in size 39 that can arrive within 3 days since I need it quickly, and it's important that it has fewer than 15 one-star reviews to ensure good quality. Finally, I want to add an all-seasons item to my order that's well-stocked and popular - it needs to have more than 200 units in stock and over 400 total reviews so I know it's a reliable choice that won't go out of stock soon.",
+  "ground_truth_products": [
+    {
+      "product_id": "9fa25356",
+      "name": "Li-Ning Women's Cool-Dry Training Top",
+      "price": 360.0,
+      "brand": "Li-Ning",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 9300
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3150,
+        "distribution": {
+          "5_star": 2700,
+          "4_star": 350,
+          "3_star": 50,
+          "2_star": 25,
+          "1_star": 25
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Beijing",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "367de7c1",
+      "name": "Women's Stylish Suede Winter Ankle Boots",
+      "price": 330.0,
+      "brand": "Peacebird",
+      "color": "Orange",
+      "size": "39",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Wool",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Ribbed Cuffs, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 1280
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 325,
+        "distribution": {
+          "5_star": 250,
+          "4_star": 50,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "c04bf4c8",
+      "name": "Converse Women's All Star Silver Graphic Long-Sleeve Top",
+      "price": 436,
+      "brand": "Converse",
+      "color": "Silver",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach. Cool iron if needed, avoid print.",
+      "sales_volume": {
+        "monthly": 578,
+        "total": 3140
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 346,
+          "4_star": 49,
+          "3_star": 11,
+          "2_star": 4,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "STO Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥30 off every ¥300": 2,
+    "Cross-store: ¥60 off every ¥500": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the name is Li-Ning Women's Cool-Dry Training Top, the 2-star rating count is 25, and the 4-star rating count is 350.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 25
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 350
+        },
+        {
+          "field": "name",
+          "value": "Li-Ning Women's Cool-Dry Training Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is 3 days, the brand is Peacebird, 1-star reviews are less than 15, and size is 39.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 3
+        },
+        {
+          "field": "brand",
+          "value": "Peacebird"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 11
+        },
+        {
+          "field": "size",
+          "value": "39"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is more than 200, the suitable season is All Seasons, and the total reviews is more than 400.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 215
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 412
+        }
+      ]
+    }
+  ]
+}

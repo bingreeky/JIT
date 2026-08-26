@@ -1,0 +1,25 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Find all students who are taking CS161 and put the name and student ID of students into students.docx, save in folder CS161",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/CS161/students.docx"
+          }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+              "doc_type": "docx",
+              "file": "data/CS161/students.docx",
+              "keywords": [
+                  "Pivozu", "Cixarim", "Pegoqeju", "Xihozun", "Zejo"
+              ]
+            }
+        }
+    ]
+}

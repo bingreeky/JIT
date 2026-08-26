@@ -1,0 +1,304 @@
+{
+  "query": "I'm getting ready for an intense training trip and need to order some gear. First, I'm looking for something from the brand Vans in a size 38; I want to make sure it’s a good product, so it must have fewer than 30 two-star reviews. To go with that, I need a new 'Training Top'. It has to be highly rated, with an average score over 4.5, more than 40 four-star reviews, and a stock quantity of more than 100. Since the trip is soon, I need two other items with a transport time of less than two days. I’m looking for a size XL item from Arc'teryx with 'Alpine' in its name and more than 20 four-star reviews. Lastly, I also need a Ralph Lauren product, also in size XL with that fast shipping, but this one must have fewer than 20 three-star ratings. I'm looking for something that costs somewhere in the range of 3546 to 3561.",
+  "ground_truth_products": [
+    {
+      "product_id": "ffc6c5a2",
+      "name": "Women's Classic Old Skool Skate Shoes",
+      "price": 499.0,
+      "brand": "Vans",
+      "color": "Blue",
+      "size": "38",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Ribbed Cuffs, Printing",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not submerge in water. Air dry.",
+      "sales_volume": {
+        "monthly": 678,
+        "total": 9850
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1850,
+        "distribution": {
+          "5_star": 1572,
+          "4_star": 185,
+          "3_star": 56,
+          "2_star": 27,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Comfortable fabric",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "859e0091",
+      "name": "Anta Women's Vitality Breathable Training Top",
+      "price": 249.99,
+      "brand": "Anta",
+      "color": "Orange",
+      "size": "XL",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 580,
+        "total": 4150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 345,
+        "distribution": {
+          "5_star": 290,
+          "4_star": 45,
+          "3_star": 8,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "07fd82b3",
+      "name": "Women's Alpine Thermic Base Layer Top",
+      "price": 1899.0,
+      "brand": "Arc'teryx",
+      "color": "White",
+      "size": "XL",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 84
+        },
+        {
+          "material": "Wool",
+          "percentage": 11
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Reflective Strips, Zipper Closure",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 110,
+        "total": 850
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 180,
+          "4_star": 25,
+          "3_star": 8,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "5632c803",
+      "name": "Women's Linen-Blend Wide-Leg Trousers",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Dark Green",
+      "size": "XL",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 55
+        },
+        {
+          "material": "Viscose",
+          "percentage": 45
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Loose Fit (Oversize)",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Button-down",
+      "washing_instructions": "Hand wash recommended, or machine wash cold on gentle cycle. Do not bleach. Hang to dry. Iron on low heat.",
+      "sales_volume": {
+        "monthly": 210,
+        "total": 1850
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 290,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the size is 38, the brand is Vans, and the count of 2-star reviews is less than 30.",
+      "features": [
+        {
+          "field": "size",
+          "value": "38"
+        },
+        {
+          "field": "brand",
+          "value": "Vans"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 27
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with an average score greater than 4.5, a stock quantity of more than 100, more than 40 4-star reviews, and a name that contains 'Training Top'.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "stock_quantity",
+          "value": 112
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 45
+        },
+        {
+          "field": "name",
+          "value": "Anta Women's Vitality Breathable Training Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 4-star reviews is greater than 20, the brand is Arc'teryx, the transport time is less than 2, the size is XL, and the name contains 'Alpine'.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 25
+        },
+        {
+          "field": "brand",
+          "value": "Arc'teryx"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "size",
+          "value": "XL"
+        },
+        {
+          "field": "name",
+          "value": "Women's Alpine Thermic Base Layer Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is XL, transport time is less than 2, the brand is Ralph Lauren, and the number of 3-star ratings is less than 20.",
+      "features": [
+        {
+          "field": "size",
+          "value": "XL"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 15
+        }
+      ]
+    }
+  ]
+}

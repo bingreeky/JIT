@@ -1,0 +1,136 @@
+{
+    "task": "1. Create a new Excel file named 'scores_table.xlsx' with two columns: 'Name' and 'Score'. 2. Enter the student names and scores as listed in the image file (/testbed/data/students_scores.jpg) into the Excel file. 3. Identify the student with the highest score and schedule a calendar event titled 'Congratulate [Name] for top score' on 2020-05-03 from 2:00 PM to 2:30 PM.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/scores_table.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/scores_table.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Name"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Score"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Alice"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "100"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Bob"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "222"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Carol"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "333"
+                    },
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "David"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "250"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "Eva"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "180"
+                    },
+                    {
+                        "row": 7,
+                        "col": 1,
+                        "value": "Frank"
+                    },
+                    {
+                        "row": 7,
+                        "col": 2,
+                        "value": "275"
+                    },
+                    {
+                        "row": 8,
+                        "col": 1,
+                        "value": "Grace"
+                    },
+                    {
+                        "row": 8,
+                        "col": 2,
+                        "value": "190"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "Congratulate",
+                    "Carol",
+                    "top",
+                    "score",
+                    "DTSTART:20200503T140000",
+                    "DTEND:20200503T143000"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Process the student scores from the image, record them appropriately, and schedule a recognition for the top student.",
+    "ground_truth_memory": [
+        {
+            "fact": "Create a new Excel file named 'scores_table.xlsx'."
+        },
+        {
+            "fact": "The Excel file should have two columns: 'Name' and 'Score'."
+        },
+        {
+            "fact": "Student names and scores from the image: Alice (100), Bob (222), Carol (333), David (250), Eva (180), Frank (275), Grace (190)."
+        },
+        {
+            "action_item": "Find the student with the highest score and create a calendar event to congratulate them."
+        },
+        {
+            "action_item": "Calendar event title: Congratulate Carol for top score. Start time: 2020-05-03 2:00 PM; End time: 2020-05-03 2:30 PM."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

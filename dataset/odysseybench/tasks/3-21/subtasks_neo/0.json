@@ -1,0 +1,47 @@
+{
+    "task": "Move the file fellowship_application.pdf to a new folder named application within the data directory. Create a Word document named result.docx in the data directory that contains the keywords 'not checked' to indicate that the school policy could not be verified because the policy image text is inaccessible. Ensure the PDF remains in the application folder.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/application/fellowship_application.pdf"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/result.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/result.docx",
+                "keywords": [
+                    "not",
+                    "checked"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Take appropriate action to process the fellowship application PDF, accounting for the inability to read the school policy image, and record the result in the appropriate document.",
+    "ground_truth_memory": [
+        {
+            "fact": "Create a folder named application under data if it does not exist."
+        },
+        {
+            "fact": "Move fellowship_application.pdf to application folder in data."
+        },
+        {
+            "fact": "Create a Word document named result.docx in the data folder."
+        },
+        {
+            "fact": "Indicate in result.docx that school policy could not be checked due to inaccessible image text, using the keywords 'not checked'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

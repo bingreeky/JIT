@@ -1,0 +1,25 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "split midterm1 and midterm2 scores in score excel file into two excel files, name them as midterm1.xlsx and midterm2.xlsx",
+  "evaluation": [
+    {
+      "function": "evaluate_exact_match",
+      "args": {
+        "doc_type": "xlsx",
+        "result_file": "./data/midterm1.xlsx",
+        "expected_file": "../../../../reference/midterm1.xlsx"
+      }
+    },
+    {
+      "function": "evaluate_exact_match",
+      "args": {
+        "doc_type": "xlsx",
+        "result_file": "./data/midterm2.xlsx",
+        "expected_file": "../../../../reference/midterm2.xlsx"
+      }
+    }
+  ]
+}

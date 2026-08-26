@@ -1,0 +1,520 @@
+{
+  "query": "I'm getting gear for a last-minute trip, so I need everything with a transport time of less than 2 days. First, I need some 'Thermal Padded Trousers' and I'm looking for a pair with fewer than 15 two-star reviews and less than 40 three-star reviews. To go with them, I need some women's 'Leather Boots' from Levi's. For layering, I'm looking for a 'Canyonlands Half-Zip' suitable for Spring/Autumn that's well-liked, with more than 550 total reviews and over 450 five-star ratings. I also need a blue item from Patagonia in size 40 that has fewer than 10 one-star reviews. Lastly, I'm getting two things from Bosideng: a 'Lurex Long-Sleeve Top' in size L with an average score over 4.5 and more than 1000 total reviews, and another beige item from them that also has an average score greater than 4.5.",
+  "ground_truth_products": [
+    {
+      "product_id": "a2230664",
+      "name": "Women's High-Waist Thermal Padded Trousers",
+      "price": 789.0,
+      "brand": "Bosideng",
+      "color": "Pink",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Down",
+          "percentage": 35
+        },
+        {
+          "material": "Polyester",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Professional dry clean recommended. Hand wash cold if necessary. Do not bleach. Lay flat to dry.",
+      "sales_volume": {
+        "monthly": 550,
+        "total": 3280
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1245,
+        "distribution": {
+          "5_star": 1050,
+          "4_star": 150,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f5306fae",
+      "name": "Women's Winter Wanderer Leather Boots",
+      "price": 799.0,
+      "brand": "Levi's",
+      "color": "Brown",
+      "size": "40",
+      "stock_quantity": 180,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Wool",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Vintage Wash, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge in water. Air dry.",
+      "sales_volume": {
+        "monthly": 650,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 680,
+          "4_star": 150,
+          "3_star": 45,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "906280fb",
+      "name": "Women's All-Terrain Hiking Shoes",
+      "price": 1299.0,
+      "brand": "Patagonia",
+      "color": "Blue",
+      "size": "40",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or submerge. Air dry.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 4120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 650,
+        "distribution": {
+          "5_star": 520,
+          "4_star": 97,
+          "3_star": 20,
+          "2_star": 7,
+          "1_star": 6
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1768dbe8",
+      "name": "Women's Luxury Gold Lurex Long-Sleeve Top",
+      "price": 729.0,
+      "brand": "Bosideng",
+      "color": "Gold",
+      "size": "L",
+      "stock_quantity": 218,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Lay flat to dry to maintain shape.",
+      "sales_volume": {
+        "monthly": 340,
+        "total": 2985
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 155,
+          "3_star": 30,
+          "2_star": 12,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Stylish design",
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "38f5d1b5",
+      "name": "Women's Canyonlands Half-Zip Pullover",
+      "price": 799.5,
+      "brand": "The North Face",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 235,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 467,
+        "total": 5821
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 595,
+        "distribution": {
+          "5_star": 500,
+          "4_star": 70,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ebe25d87",
+      "name": "Women's All-Season Versatile Long-Sleeve Top",
+      "price": 389.0,
+      "brand": "Bosideng",
+      "color": "Beige",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Modal",
+          "percentage": 48
+        },
+        {
+          "material": "Cotton",
+          "percentage": 47
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 550,
+        "total": 6840
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 905,
+          "4_star": 201,
+          "3_star": 35,
+          "2_star": 6,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the name contains 'Thermal Padded Trousers', the number of 2-star reviews is less than 15, the number of 3-star reviews is less than 40, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 30,
+          "operator": "less_than",
+          "operator_value": 40.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "name",
+          "value": "Women's High-Waist Thermal Padded Trousers",
+          "operator": "contains",
+          "operator_value": "Thermal Padded Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the target demographic is Women, the brand is Levi's, and the name contains 'Leather Boots'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        },
+        {
+          "field": "name",
+          "value": "Women's Winter Wanderer Leather Boots",
+          "operator": "contains",
+          "operator_value": "Leather Boots"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is 40, the number of 1-star reviews is less than 10, the color is Blue, and the brand is Patagonia.",
+      "features": [
+        {
+          "field": "size",
+          "value": "40",
+          "operator": "equals",
+          "operator_value": "40"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 6,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "color",
+          "value": "Blue",
+          "operator": "equals",
+          "operator_value": "Blue"
+        },
+        {
+          "field": "brand",
+          "value": "Patagonia",
+          "operator": "equals",
+          "operator_value": "Patagonia"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with an average score greater than 4.5, where the brand is Bosideng, size is L, with more than 1000 total reviews, and the name contains 'Lurex Long-Sleeve Top'.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng",
+          "operator": "equals",
+          "operator_value": "Bosideng"
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1152,
+          "operator": "greater_than",
+          "operator_value": 1000.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Luxury Gold Lurex Long-Sleeve Top",
+          "operator": "contains",
+          "operator_value": "Lurex Long-Sleeve Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products suitable for Spring/Autumn, with more than 550 total reviews, more than 450 5-star ratings, a transport time less than 2, and a name that contains 'Canyonlands Half-Zip'.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 595,
+          "operator": "greater_than",
+          "operator_value": 550.0
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 500,
+          "operator": "greater_than",
+          "operator_value": 450.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Canyonlands Half-Zip Pullover",
+          "operator": "contains",
+          "operator_value": "Canyonlands Half-Zip"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Bosideng, the color is Beige, and the average score is greater than 4.5.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Beige",
+          "operator": "equals",
+          "operator_value": "Beige"
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng",
+          "operator": "equals",
+          "operator_value": "Bosideng"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        }
+      ]
+    }
+  ]
+}

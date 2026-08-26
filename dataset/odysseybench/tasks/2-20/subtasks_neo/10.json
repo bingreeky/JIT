@@ -1,0 +1,36 @@
+{
+    "task": "From CS161_Class_Roster.xlsx, find all students whose Academic Standing is 'Junior'. Write their Student ID, Last Name, and First Name into juniors.docx, with each student on a separate line in the format 'Student ID, Last Name, First Name'.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/juniors.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "S1000",
+                    "Pivozu",
+                    "Zoye",
+                    "S1002",
+                    "Pegoqeju",
+                    "Gafo"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a document listing students with 'Junior' academic standing by extracting their details from the class roster Excel file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The file to write is named juniors.docx."
+        },
+        {
+            "fact": "Only include students whose 'Academic Standing' is 'Junior'."
+        },
+        {
+            "fact": "Write each student's information in the format: Student ID, Last Name, First Name, on a separate line."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

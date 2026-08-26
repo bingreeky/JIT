@@ -1,0 +1,64 @@
+{
+    "task": "Create a calendar event for a budget planning meeting between Bob and Alice on June 5, 2024, from 3:00 PM to 4:00 PM. The event should have the title 'Budget Planning Meeting: Q2 Review & Strategy'. Ensure both Bob and Alice have this event on their respective calendars.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./calendar/Bob.ics"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./calendar/Alice.ics"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "./calendar/Bob.ics",
+                "keywords": [
+                    "Budget Planning Meeting",
+                    "Q2 Review",
+                    "Strategy",
+                    "DTSTART:20240605T150000",
+                    "DTEND:20240605T160000"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "./calendar/Alice.ics",
+                "keywords": [
+                    "Budget Planning Meeting",
+                    "Q2 Review",
+                    "Strategy",
+                    "DTSTART:20240605T150000",
+                    "DTEND:20240605T160000"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Schedule a budget planning meeting for me and Alice.",
+    "ground_truth_memory": [
+        {
+            "fact": "Create a calendar event for both Bob and Alice."
+        },
+        {
+            "fact": "The meeting is on June 5, 2024, from 3:00 PM to 4:00 PM."
+        },
+        {
+            "fact": "The event title must be 'Budget Planning Meeting: Q2 Review & Strategy'."
+        },
+        {
+            "fact": "Ensure the event is added to Bob.ics and Alice.ics calendar files."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

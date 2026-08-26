@@ -1,0 +1,301 @@
+{
+  "query": "I'm preparing for a weekend getaway and need to order several items with fast delivery. First, I need a highly-rated product that can arrive quickly—it must have an average rating above 4.5, more than 250 five-star reviews, fewer than 5 one-star reviews, and a transport time under 2 days. Next, I'm looking for Canvas Low-Top Sneakers in size 39 that are well-stocked, with inventory over 200 units to ensure availability. Then, I need something in size XL that's extremely popular and can get here even faster—it should have more than 300 five-star reviews, total sales exceeding 3000, and delivery within just 1 day. Finally, I want to grab Heritage Leather Ankle Boots that are proven bestsellers, with monthly sales over 350 and more than 600 total reviews to confirm they're a solid choice.",
+  "ground_truth_products": [
+    {
+      "product_id": "90539b1f",
+      "name": "Adidas Women's Essentials Fleece-lined Trousers",
+      "price": 779,
+      "brand": "Adidas",
+      "color": "Coffee",
+      "size": "M",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Side Pockets, Ribbed Cuffs, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 3488
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 692,
+        "distribution": {
+          "5_star": 590,
+          "4_star": 75,
+          "3_star": 18,
+          "2_star": 5,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4c4c7cc0",
+      "name": "Women's Classic Canvas Low-Top Sneakers",
+      "price": 378,
+      "brand": "Converse",
+      "color": "Olive Green",
+      "size": "39",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 90
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Vintage Wash, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3105
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 988,
+        "distribution": {
+          "5_star": 810,
+          "4_star": 150,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "1dd78d40",
+      "name": "Women's Premium Linen Short-Sleeve Top",
+      "price": 598.0,
+      "brand": "Uniqlo",
+      "color": "Blue",
+      "size": "XL",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 75
+        },
+        {
+          "material": "Cotton",
+          "percentage": 25
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Vintage Wash, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 2850,
+        "total": 15400
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1890,
+        "distribution": {
+          "5_star": 1512,
+          "4_star": 302,
+          "3_star": 57,
+          "2_star": 10,
+          "1_star": 9
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "336d786f",
+      "name": "Levi's Women's Heritage Leather Ankle Boots",
+      "price": 957.0,
+      "brand": "Levi's",
+      "color": "Brown",
+      "size": "39",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Cotton",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Vintage Wash, Side Pockets",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 358,
+        "total": 2480
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 615,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 120,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥200 off every ¥1,200": 1,
+    "Cross-store: ¥300 off every ¥1,500": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the average rating score is greater than 4.5, transport time is less than 2 days, 5-star reviews are more than 250, and 1-star reviews are less than 5.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 260
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is more than 200, the size is 39, and the name contains Canvas Low-Top Sneakers.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 215
+        },
+        {
+          "field": "size",
+          "value": "39"
+        },
+        {
+          "field": "name",
+          "value": "Women's Classic Canvas Low-Top Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the 5-star rating count is more than 300, total sales volume is more than 3000, transport time is 1 day or less, and size is XL.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 345
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 3480
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "size",
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where monthly sales volume is more than 350, total reviews is more than 600, and the product name contains Heritage Leather Ankle Boots.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 358
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 615
+        },
+        {
+          "field": "name",
+          "value": "Levi's Women's Heritage Leather Ankle Boots"
+        }
+      ]
+    }
+  ]
+}

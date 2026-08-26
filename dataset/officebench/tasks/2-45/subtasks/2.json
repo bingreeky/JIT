@@ -1,0 +1,22 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "extract today's schedule from image, send email schedules.eml containg all events in schedule to Bob",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Breakfast",
+                    "Dinner",
+                    "exercise",
+                    "schedules"
+                ]
+            }
+        }
+    ]
+}

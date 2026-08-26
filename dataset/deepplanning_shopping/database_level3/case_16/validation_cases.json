@@ -1,0 +1,230 @@
+{
+  "query": "I'm preparing for a winter city break and need to order a few essentials quickly. First, I need an overcoat that's highly rated with an average score above 4.5 and more than 400 five-star reviews. Since I'm leaving soon, the transport time must be under 2 days, and it needs to have stock quantity over 80 to ensure availability. Next, I'm looking for something from Puma with 'Suede' in the name—it should be popular with more than 500 total reviews so I know it's a trusted choice. Finally, I want to add a yellow item to brighten up my wardrobe. This one also needs an average rating above 4.5 and must have more than 25 four-star reviews to confirm its quality.",
+  "ground_truth_products": [
+    {
+      "product_id": "1173d244",
+      "name": "Men's Structured Wool-Blend Overcoat",
+      "price": 199.0,
+      "brand": "Zara",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Button-down, Ribbed Cuffs",
+      "washing_instructions": "Dry clean only. Do not bleach. Iron on low heat.",
+      "sales_volume": {
+        "monthly": 210,
+        "total": 1550
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 540,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 70,
+          "3_star": 12,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4ef7ce54",
+      "name": "Men's Suede Classic XXI Sneakers",
+      "price": 276.0,
+      "brand": "Puma",
+      "color": "Light Blue",
+      "size": "44",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 80
+        },
+        {
+          "material": "Cotton",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Patchwork, Side Pockets",
+      "washing_instructions": "Wipe with a damp cloth and mild soap. Do not submerge or machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 788,
+        "total": 4950
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1156,
+        "distribution": {
+          "5_star": 945,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 16,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "45f9ee05",
+      "name": "Men's '70s Classic Canvas High-Top Shoes",
+      "price": 126.0,
+      "brand": "Converse",
+      "color": "Yellow",
+      "size": "44",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 90
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Ribbed Cuffs, Printing",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not machine wash. Air dry.",
+      "sales_volume": {
+        "monthly": 110,
+        "total": 1580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 325,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 30,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥30 off every ¥300": 2
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the rating average score is greater than 4.5, transport time is less than 2 days, 5-star reviews are more than 400, stock quantity is greater than 80, and the product name contains 'Overcoat'.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 450
+        },
+        {
+          "field": "stock_quantity",
+          "value": 85
+        },
+        {
+          "field": "name",
+          "value": "Men's Structured Wool-Blend Overcoat"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Puma, the total reviews is more than 500, and the product name contains Suede.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Puma"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 512
+        },
+        {
+          "field": "name",
+          "value": "Puma Suede Lite Summer Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the rating average score is greater than 4.5, the color is Yellow, and the 4-star review count is greater than 25.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "color",
+          "value": "Yellow"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 30
+        }
+      ]
+    }
+  ]
+}

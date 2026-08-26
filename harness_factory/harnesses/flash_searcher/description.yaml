@@ -1,0 +1,17 @@
+description: |-
+  ## 1. Architecture Overview
+
+  Flash-Searcher is a DAG-planned ReAct harness for multi-goal tasks that can benefit from parallel decomposition. It first breaks the task into several relatively independent goals, assigns each goal one or more candidate execution paths, and then runs a ReAct-style action-observation loop that advances unresolved goals in parallel while treating paths within the same goal as sequential fallbacks.
+
+  ## 2. Key Features / Innovations
+
+  - Decomposes a task into a small DAG of parallel goals instead of a single linear checklist.
+  - Supports multiple candidate paths per goal, so the agent can switch to fallback strategies when a path is blocked or inefficient.
+  - Encourages parallel tool calls across different goals, improving throughput on tasks with independent subproblems.
+  - Periodically summarizes execution status and recommends the next active sub-paths, helping the agent stay aligned with unresolved goals.
+  - Keeps the execution loop simple: planning defines the graph structure, and ReAct execution fills in evidence step by step.
+
+  ## 3. Where These Features Are Implemented
+
+  - `planning`: `planning.py` is the core of the DAG harness. It generates the initial goal-path decomposition, decides when to replan, and updates the working directive through plan summaries that describe completion status and the next parallel sub-paths.
+  - `action`: `action.py` runs the ReAct execution loop. It reads the current plan or summary, selects tools for the active goals, supports multiple tool calls in one step, and only finishes when the combined evidence is sufficient for a final answer.

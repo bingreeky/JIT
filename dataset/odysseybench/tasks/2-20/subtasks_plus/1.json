@@ -1,0 +1,28 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Find all students from CS161_roster.csv who are CS major, and put their name and Student ID in cs_class_2024.docx. Each student should be on seperate lines, with the format `Student ID, name`.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/cs_class_2024.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "S1000",
+                    "Pivozu",
+                    "Zoye",
+                    "S1001",
+                    "Cixarim",
+                    "Sipaq",
+                    "S1005",
+                    "Yehamucu",
+                    "Tukemoy"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract CS major students' names and IDs from the CSV file and write them to the document in the specified format."
+}

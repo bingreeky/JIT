@@ -1,0 +1,34 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "extract Bob's and Tom's calendar and count the number of hours of their dinner time, save the number to excel file named events.xlsx without headers, first row is Bob, second row is Tom",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/events.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/events.xlsx",
+                "matches": [
+                    {
+                        "row": "1",
+                        "col": "2",
+                        "value": "1"
+                    },
+                    {
+                        "row": "2",
+                        "col": "2",
+                        "value": "1"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Count the dinner hours for Bob and Tom, and save them to the Excel file."
+}

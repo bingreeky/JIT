@@ -1,0 +1,308 @@
+{
+  "query": "I'm doing some online shopping to refresh my wardrobe. First, I need a women's item from Patagonia that's suitable for all seasons. I'm specifically looking for a size 40, and it should have more than 40 three-star reviews. For the changing weather, I'm also searching for something with 'Adizero RC 5' in its name that's designed for spring and autumn. I need this one fast, so the transport time must be less than 2 days, and it must have an average score above 4.5. To go with that, I need to find a women's product from Levi's in a size L. Lastly, I want to find a popular pink item; it must have a monthly sales volume of more than 500, over 700 total reviews, fewer than 10 one-star reviews, and less than 25 three-star reviews. I'm looking for something that costs somewhere in the range of 3718 to 3748.",
+  "ground_truth_products": [
+    {
+      "product_id": "aa4d8573",
+      "name": "Women's All-Season Trail Shoes",
+      "price": 1299.9,
+      "brand": "Patagonia",
+      "color": "Brown",
+      "size": "40",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or expose to high heat.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4200
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 623,
+          "4_star": 178,
+          "3_star": 45,
+          "2_star": 27,
+          "1_star": 17
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "79c8dae4",
+      "name": "Adidas Women's Adizero RC 5 Running Shoes",
+      "price": 799.0,
+      "brand": "Adidas",
+      "color": "Green",
+      "size": "40",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash, bleach, or tumble dry.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 3480
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 980,
+          "4_star": 210,
+          "3_star": 45,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a9548b8c",
+      "name": "Women's Essential Ribbed Long-Sleeve Top",
+      "price": 349.0,
+      "brand": "Levi's",
+      "color": "Red",
+      "size": "L",
+      "stock_quantity": 182,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Vintage Wash, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 315,
+        "total": 1890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2e2bb17d",
+      "name": "Women's Venture Trail Shoes",
+      "price": 1299.0,
+      "brand": "Patagonia",
+      "color": "Pink",
+      "size": "40",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Spot clean with a damp cloth and mild detergent. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 750,
+        "distribution": {
+          "5_star": 625,
+          "4_star": 95,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Patagonia, suitable for All Seasons, the number of 3-star reviews is greater than 40, the size is 40, and the target demographic is Women.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Patagonia"
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 45
+        },
+        {
+          "field": "size",
+          "value": "40"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a name containing 'Adizero RC 5', an average score above 4.5, a transport time of less than 2 days, and which are suitable for Spring/Autumn.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "name",
+          "value": "Adidas Women's Adizero RC 5 Running Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Levi's, the size is L, and the target demographic is Women.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Levi's"
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 1-star reviews is less than 10, the monthly sales volume is more than 500, the color is Pink, the number of 3-star reviews is less than 25, and the total number of reviews is over 700.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 520
+        },
+        {
+          "field": "color",
+          "value": "Pink"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 20
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 750
+        }
+      ]
+    }
+  ]
+}

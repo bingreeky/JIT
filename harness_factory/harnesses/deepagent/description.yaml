@@ -1,0 +1,19 @@
+description: |-
+  ## 1. Architecture Overview
+
+  DeepAgent is a flat tool-using harness built around a marker-based interaction protocol rather than a conventional JSON ReAct loop. At each step, the model is forced to emit exactly one action: a tool call, a tool search over the available catalog, or a thought-folding marker that compresses prior reasoning into structured memory. Instead of relying on an explicit multi-step plan, it operates with implicit planning in the reasoning trace and periodically resets context through memory folding when the trajectory becomes too long, noisy, or stuck.
+
+  ## 2. Key Features / Innovations
+
+  - Uses a marker-based action language with strict single-action turns, which reduces multi-call drift and makes execution easier to parse and control.
+  - Supports built-in tool discovery: when the model is unsure which tool to use, it can issue a tool search query and receive matched tool schemas from the current catalog.
+  - Implements thought folding as a first-class control action. Folding compresses the post-fold trajectory into three persistent memories: episodic memory for milestones, working memory for the current state, and tool memory for learned tool-use patterns.
+  - Summarizes overly long tool outputs before storing them back into the trajectory, helping the harness stay usable even when tools return verbose responses.
+  - Avoids redundant exploration by detecting duplicate tool calls and duplicate tool searches within a run.
+
+  ## 3. Where These Features Are Implemented
+
+  - `action`: `action.py` is the core of the harness. `ActionStrategy.run()` drives the marker protocol by prompting the model step by step, truncating responses at the first complete marker block, parsing exactly one `<tool_call>`, `<tool_search>`, or `<fold_thought>` action, and only treating marker-free text as a final answer fallback.
+  - `action`: marker handling is split across `_handle_tool_call()`, `_handle_tool_search()`, and `_handle_fold()`. These methods implement single-tool execution, catalog search over available tools, duplicate-call prevention, and delegation to memory folding when the model emits `<fold_thought>`.
+  - `memory`: `memory.py` contains DeepAgent's distinctive memory design. `MemoryStrategy.fold()` compresses the trajectory since the last fold into three structured memories, then resets the active context so future reasoning proceeds from `system prompt + folded memories + task + post-fold steps`.
+  - `memory`: the three memory generators are implemented in `_generate_episode_memory()`, `_generate_working_memory()`, and `_generate_tool_memory()`. Together they preserve long-horizon progress, immediate next-step state, and accumulated tool-use experience.

@@ -1,0 +1,62 @@
+{
+    "task": "Send a detailed party invitation email from Jane Doe to Bob. The email must include all essential event details from the party.pdf such as the host name (Jane Doe), event date (August 20, 2024), time (8:00 PM onwards), venue (Doe Mansion), address (456 Oak Avenue, Townsville), and a brief invitation note. The email must be sent from Jane Doe to Bob.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "party",
+                    "Jane Doe",
+                    "August 20, 2024",
+                    "8:00 PM",
+                    "Doe Mansion",
+                    "456 Oak Avenue",
+                    "Townsville"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Jane",
+                "keywords": [
+                    "party",
+                    "Jane Doe",
+                    "August 20, 2024",
+                    "8:00 PM",
+                    "Doe Mansion",
+                    "456 Oak Avenue",
+                    "Townsville"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Send an invitation email to Bob about the party based on provided information.",
+    "ground_truth_memory": [
+        {
+            "fact": "Jane Doe is the host."
+        },
+        {
+            "fact": "The party will take place on August 20, 2024."
+        },
+        {
+            "fact": "The event starts at 8:00 PM onwards."
+        },
+        {
+            "fact": "Venue is Doe Mansion."
+        },
+        {
+            "fact": "Venue address is 456 Oak Avenue, Townsville."
+        },
+        {
+            "action": "Include a welcoming note for a night of fun, music, and celebration in the email invitation."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

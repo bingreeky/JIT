@@ -1,0 +1,71 @@
+{
+    "task": "Create a new Excel sheet named 'project_plan.xlsx' and add a worksheet called 'Timeline'. In the 'Timeline' sheet, create a table with headers: Task, Start Date, End Date, and Status. Enter the following row: Task='Design Phase', Start Date='2020-05-04', End Date='2020-05-18', Status='Not Started'. Save the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_plan.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_sheet_exist",
+            "args": {
+                "file": "data/project_plan.xlsx",
+                "sheet": "Timeline"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/project_plan.xlsx",
+                "sheet": "Timeline",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Task"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Design Phase"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "2020-05-04"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "2020-05-18"
+                    },
+                    {
+                        "row": 2,
+                        "col": 4,
+                        "value": "Not Started"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a new project planning Excel file, set up a worksheet and table for tracking the timeline, and populate it with the appropriate task details.",
+    "ground_truth_memory": [
+        {
+            "memory_item": "The new Excel file must be named 'project_plan.xlsx'."
+        },
+        {
+            "memory_item": "Add a worksheet called 'Timeline' in the Excel file."
+        },
+        {
+            "memory_item": "Create columns in the 'Timeline' sheet with the headers: Task, Start Date, End Date, Status."
+        },
+        {
+            "memory_item": "Populate the table with an entry: Task='Design Phase', Start Date='2020-05-04', End Date='2020-05-18', Status='Not Started'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

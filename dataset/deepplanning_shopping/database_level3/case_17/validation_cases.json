@@ -1,0 +1,290 @@
+{
+  "query": "I'm putting together a seasonal wardrobe update and need to order several items online. First, I'm looking for something with \"Tech Top\" in the name that's perfect for spring and autumn weather. It needs to be well-reviewed with more than 800 total reviews and fewer than 30 three-star ratings to ensure quality. Next, I need an item in size 44 that's proven popular with over 100 monthly sales, more than 40 four-star reviews, and fewer than 3 one-star reviews. Then, I want another spring/autumn suitable product that can arrive quickly with transport time under 3 days, has over 100 monthly sales, and maintains excellent quality with fewer than 5 one-star ratings. Finally, I'm adding a summer item to round out my collection - it must be well-established with more than 900 total reviews to ensure it's a reliable choice for the warmer season ahead.",
+  "ground_truth_products": [
+    {
+      "product_id": "44b5147f",
+      "name": "Men's Performance Long-Sleeve Tech Top",
+      "price": 238.0,
+      "brand": "New Balance",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or use fabric softener.",
+      "sales_volume": {
+        "monthly": 278,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 667,
+          "4_star": 178,
+          "3_star": 27,
+          "2_star": 9,
+          "1_star": 9
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "215bcb6a",
+      "name": "Men's Horsebit Leather Driving Shoes",
+      "price": 329.0,
+      "brand": "Gucci",
+      "color": "Coffee",
+      "size": "44",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Patchwork",
+      "washing_instructions": "Wipe clean with a soft, dry cloth. Professional leather cleaning recommended.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1840
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 390,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6c7ceff8",
+      "name": "Men's Gamma All-Weather Pants",
+      "price": 349.0,
+      "brand": "Arc'teryx",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 120,
+        "total": 1450
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 375,
+        "distribution": {
+          "5_star": 340,
+          "4_star": 25,
+          "3_star": 8,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2e132c0d",
+      "name": "Men's Classic Denim Short-Sleeve Workshirt",
+      "price": 293.0,
+      "brand": "Levi's",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 100
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Button-down, Side Pockets",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 9245
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1105,
+        "distribution": {
+          "5_star": 901,
+          "4_star": 155,
+          "3_star": 33,
+          "2_star": 10,
+          "1_star": 6
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "True to size",
+        "Comfortable fabric",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "VIP: ¥200 off every ¥1,000": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the suitable season is Spring/Autumn, the 3-star rating distribution is less than 30, total reviews is more than 800, and the name contains Tech Top.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 27
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 890
+        },
+        {
+          "field": "name",
+          "value": "Men's Performance Long-Sleeve Tech Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is 44, 1-star reviews are less than 3, 4-star reviews are more than 40, and monthly sales volume is more than 100.",
+      "features": [
+        {
+          "field": "size",
+          "value": "44"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 45
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 115
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the 1-star rating count is less than 5, monthly sales volume is more than 100, transport time is less than 3 days, and suitable season is Spring/Autumn.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 150
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total reviews is more than 900 and the suitable season is Summer.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 912
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        }
+      ]
+    }
+  ]
+}

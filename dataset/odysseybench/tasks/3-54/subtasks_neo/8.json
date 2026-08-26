@@ -1,0 +1,44 @@
+{
+    "task": "Create a summary report in a new Word document named 'midterm2_summary.docx' that lists the student(s) who achieved the top score in midterm2, along with their score. Ensure the summary mentions both the highest score value and the name(s) of the top-scoring student(s).",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/midterm2_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/midterm2_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "midterm2",
+                    "top",
+                    "score",
+                    "Tina",
+                    "100"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary listing the top performer(s) in midterm2 including their names and score in a new Word file.",
+    "ground_truth_memory": [
+        {
+            "content": "The new report file must be named 'midterm2_summary.docx'.",
+            "relevance": "Specifies the exact file name for the report."
+        },
+        {
+            "content": "The summary should state both the highest score achieved on midterm2 and the name or names of student(s) who received it.",
+            "relevance": "Indicates the report must include both names and numeric score."
+        },
+        {
+            "content": "Information about student scores is available in /testbed/data/score.xlsx, and the inference agent should extract the highest midterm2 score and corresponding student(s) from this file.",
+            "relevance": "Guides the agent to use the correct file and column."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

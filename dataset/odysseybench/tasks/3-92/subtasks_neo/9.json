@@ -1,0 +1,52 @@
+{
+    "task": "Inform Bob about the upcoming party hosted by Jane Doe by sending him an email with party details, making sure to mention the host (Jane Doe), date (August 20, 2024), time (8:00 PM onwards), and venue (Doe Mansion, 456 Oak Avenue, Townsville). The email should include an invitation for a night of fun, music, and celebration. All key event details should be present in the message.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Jane",
+                    "Doe",
+                    "party",
+                    "August",
+                    "20",
+                    "2024",
+                    "8:00",
+                    "PM",
+                    "Doe",
+                    "Mansion",
+                    "Oak",
+                    "Avenue",
+                    "Townsville",
+                    "fun",
+                    "music",
+                    "celebration"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Send Bob an email inviting him to Jane Doe's party, including the relevant details.",
+    "ground_truth_memory": [
+        {
+            "content": "The host of the party is Jane Doe."
+        },
+        {
+            "content": "The party date is August 20, 2024."
+        },
+        {
+            "content": "The party starts at 8:00 PM onwards."
+        },
+        {
+            "content": "The party venue is Doe Mansion, 456 Oak Avenue, Townsville."
+        },
+        {
+            "content": "Mention it's a night of fun, music, and celebration in the invitation email."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

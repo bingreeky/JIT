@@ -1,0 +1,70 @@
+{
+    "task": "1. Extract the text from homework.jpg using OCR.\n2. Create a new editable Word document named 'homework.docx' and transfer the extracted text into it.\n3. Summarize the main issue described in the extracted text in the same Word document as a short summary at the end of the document.\n4. Add a calendar event on May 5, 2020, from 3:00 PM to 4:00 PM titled 'Review homework extraction and summary'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/homework.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/homework.docx",
+                "keywords": [
+                    "can't convert",
+                    "text",
+                    "does not align",
+                    "format"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/homework.docx",
+                "keywords": [
+                    "main issue",
+                    "format",
+                    "conversion"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "Review",
+                    "homework",
+                    "extraction",
+                    "summary",
+                    "20200505T150000",
+                    "20200505T160000"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract text from homework.jpg, document it, summarize the issue, and add a review event to my calendar.",
+    "ground_truth_memory": [
+        {
+            "fact": "The extracted text from homework.jpg states: 'I'm sorry, but I can't convert the text in the message into a table as it does not align with the format requested.'"
+        },
+        {
+            "action_item": "Create a new file named homework.docx where the extracted text is transferred for editing."
+        },
+        {
+            "action_item": "Summarize the main issue from the extracted text at the end of homework.docx as a short paragraph under a heading 'main issue'."
+        },
+        {
+            "action_item": "Add a calendar event on May 5, 2020, from 3:00 PM to 4:00 PM titled 'Review homework extraction and summary'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

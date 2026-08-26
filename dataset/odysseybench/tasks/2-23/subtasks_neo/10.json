@@ -1,0 +1,42 @@
+{
+    "task": "Create a Word document named invoice_summary.docx that lists the names of all PDF invoice files currently available in the /testbed/data directory (specifically Invoice.pdf and Invoice_2.pdf). The Word document should have the title 'Invoice File Summary' at the top, followed by a bulleted list with the filenames of each invoice PDF found in the directory.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/invoice_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Invoice File Summary",
+                    "Invoice.pdf",
+                    "Invoice_2.pdf"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary Word document listing all invoice PDF files found in the data directory.",
+    "ground_truth_memory": [
+        {
+            "type": "file_list",
+            "files": [
+                "Invoice.pdf",
+                "Invoice_2.pdf"
+            ],
+            "note": "These are the invoice PDF files present in the /testbed/data directory."
+        },
+        {
+            "type": "output_instruction",
+            "file": "invoice_summary.docx",
+            "note": "The summary should be written in this Word document."
+        },
+        {
+            "type": "content_instruction",
+            "title": "Invoice File Summary",
+            "note": "This should be the title at the top of the document, followed by a bulleted list with the invoice filenames."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

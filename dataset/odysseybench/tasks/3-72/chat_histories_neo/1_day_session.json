@@ -1,0 +1,2281 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! How are you today?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Bob! I'm here and ready to help. How are you doing this morning?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Doing well, thanks! Got a few things on my to-do list today.",
+          "ts": "2020-04-26 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That's great to hear. Anything I can help with on your list?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Mostly prep work for a meeting summary. Just organizing my notes first.",
+          "ts": "2020-04-26 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Preparation makes everything go smoother. Let me know if you want help sorting or summarizing anything.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Actually, when saving new meeting documents, is there a recommended naming format?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it's best to use a clear format that describes the meeting. For the financial meeting summary, the output Word file must be named \"Financial_Meeting_Summary.docx\" and saved in the data folder.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for the exact name. That helps a lot with organization!",
+          "ts": "2020-04-26 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! A clear file name makes finding documents much easier.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "What about organizing older files, do you recommend archiving them?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Archiving older files annually or by project is a good strategy. Keeps things tidy.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll keep that in mind. Is the data folder the main storage for all current files?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the data folder is used for storing all current and active files, especially for ongoing projects.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. By the way, do you know if I have access to create new folders if needed?",
+          "ts": "2020-04-26 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "You should have access to create subfolders in the data directory, if you need to organize by project or year.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's good. Have you seen any issues with duplicate file names lately?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Not recently. Consistent naming and including details like dates help avoid duplicates.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. I'll make sure to double check before adding anything new.",
+          "ts": "2020-04-26 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Smart plan. Let me know if you want me to check for existing files before you save.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Might take you up on that later. For now, I'm gathering notes from last week's meeting.",
+          "ts": "2020-04-26 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Great idea, that\u2019ll make summarizing easier. Do you have a template you like to use?",
+          "ts": "2020-04-26 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not really, I've just been making them up as I go. Could probably standardize it.",
+          "ts": "2020-04-26 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "I can suggest a few formatting ideas if it helps.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Suggestions would be great, actually!",
+          "ts": "2020-04-26 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "You can start with: Meeting Title, Date and Time, Attendees and Roles, Agenda Topics, Key Decisions, and Action Items at the end.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a solid format. Should I always list attendees?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it's helpful for tracking participation and follow-ups.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about agenda topics, should I be detailed or just list main points?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "List the main topics, but a one-sentence description under each helps clarity.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good advice. I\u2019ll give it a try.",
+          "ts": "2020-04-26 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you want to review a draft later!",
+          "ts": "2020-04-26 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe this afternoon. For now, I need to reply to some emails.",
+          "ts": "2020-04-26 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "No rush. I\u2019m here if anything comes up.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Out of curiosity, what\u2019s your favorite part of helping with meeting notes?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "I like seeing everything come together clearly for easy reference later!",
+          "ts": "2020-04-26 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "It does make future meetings easier.",
+          "ts": "2020-04-26 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely. A well-written summary saves a lot of time down the road.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can you remind me one more time of the name I should use for the summary file?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. Please name the Word file 'Financial_Meeting_Summary.docx' and store it in the data folder.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. I'll record that for reference.",
+          "ts": "2020-04-26 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you have any questions about the saving or upload process.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! I might check in again when I start writing.",
+          "ts": "2020-04-26 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure thing! Always ready to help.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you prefer Word documents or PDFs for summaries?",
+          "ts": "2020-04-26 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "For editing, Word docs are best. PDF is good for sharing or archival.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. I'll stick to Word for now.",
+          "ts": "2020-04-26 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "That works well. Word has great formatting tools too.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "By the way, did the financial meeting go as planned last time?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, the agenda was covered in full and participants seemed satisfied with the outcomes.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's good to hear.",
+          "ts": "2020-04-26 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "For sure. Comprehensive notes helped keep the meeting on track.",
+          "ts": "2020-04-26 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "I bet they did. I'll try to do just as well this time.",
+          "ts": "2020-04-26 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "No doubt you will\u2014just remember the file\u2019s name and location when you\u2019re finished!",
+          "ts": "2020-04-26 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "You\u2019ve got it! I\u2019ll flag that in my checklist.",
+          "ts": "2020-04-26 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you\u2019d like to make a template or need a checklist for other items too.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Templates might be something to try later. For now, I\u2019ve just got a simple outline.",
+          "ts": "2020-04-26 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a good start. You can always expand or adjust as needed.",
+          "ts": "2020-04-26 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Appreciate the reassurance!",
+          "ts": "2020-04-26 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy to help at every step.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Do you handle a lot of meeting summaries?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I help with many! Keeping track of agendas and key notes is a big part of my support.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s really helpful for the team, I bet.",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Everyone appreciates clear meeting records.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s your tip for wrapping up a summary efficiently?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "After listing all topics, close with action items and participants responsible, then save to the right location.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll make sure to do that. How soon afterward do you recommend sending the summary out?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Ideally, within 24 hours to keep everyone aligned while it\u2019s fresh.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds reasonable. How about using version control for these docs?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "If there\u2019s frequent collaboration or edits, version control is a smart idea.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Alright, thanks for the advice. May ask more later!",
+          "ts": "2020-04-26 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime, Bob. Have a productive start to your day!",
+          "ts": "2020-04-26 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "You too. Will check in after lunch if I need anything.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll be here if anything comes up.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Before I go, can you quickly tell me again the name and location for the summary file?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! Save the summary as 'Financial_Meeting_Summary.docx' in the data folder.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you. That\u2019s all from me for now.",
+          "ts": "2020-04-26 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! Reach out if you need anything else with the file or summary.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Enjoy your morning!",
+          "ts": "2020-04-26 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "You as well, Bob!",
+          "ts": "2020-04-26 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Chat soon. Signing off for now.",
+          "ts": "2020-04-26 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Talk to you soon!",
+          "ts": "2020-04-26 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Checking back in. Hope things are running smoothly.",
+          "ts": "2020-04-26 10:00",
+          "speaker": "user"
+        },
+        {
+          "text": "All systems running as expected. Welcome back!",
+          "ts": "2020-04-26 10:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you! No new questions, just saying hi.",
+          "ts": "2020-04-26 10:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Hello again, Bob! Ping me when you need support.",
+          "ts": "2020-04-26 10:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quick check\u2014is it okay to save draft versions in the same folder?",
+          "ts": "2020-04-26 10:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, just use a different file name until the final is ready, then save as 'Financial_Meeting_Summary.docx'.",
+          "ts": "2020-04-26 10:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Understood. Appreciate the help!",
+          "ts": "2020-04-26 10:12",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome. Happy to clarify any time!",
+          "ts": "2020-04-26 10:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's all for now. Catch up later.",
+          "ts": "2020-04-26 10:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Have a great day, Bob!",
+          "ts": "2020-04-26 10:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Grabbing lunch now. Talk later!",
+          "ts": "2020-04-26 11:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your lunch, Bob!",
+          "ts": "2020-04-26 11:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back from lunch and feeling refreshed.",
+          "ts": "2020-04-26 12:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to hear it! Ready for the second half of your day?",
+          "ts": "2020-04-26 12:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Absolutely.",
+          "ts": "2020-04-26 12:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you\u2019re ready to work on the summary!",
+          "ts": "2020-04-26 12:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll get into it soon! For now, finishing up some quick tasks.",
+          "ts": "2020-04-26 12:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Multitasking for the win! Ping me when you're ready.",
+          "ts": "2020-04-26 12:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any general reminders for today?",
+          "ts": "2020-04-26 13:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Just to save the final Word file as 'Financial_Meeting_Summary.docx' in the data folder when finished.",
+          "ts": "2020-04-26 13:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Consistency wins! Thanks, I'll remember.",
+          "ts": "2020-04-26 13:02",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome, Bob. Have a productive afternoon.",
+          "ts": "2020-04-26 13:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Signing off to focus for a bit.",
+          "ts": "2020-04-26 13:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Good luck with your work! I\u2019ll be here if you need anything.",
+          "ts": "2020-04-26 13:05",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hi there, good morning. Ready to get started?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Bob! Always ready to assist you. What's on your plate today?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Reviewing last week's financial meeting. I want to make the summary as complete as possible.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That's a great plan. A thorough summary is very helpful for everyone involved.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Last time, people mentioned missing some context about who attended. Do you think it's important to include everyone?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. For a proper record, you should include all participant names and their roles in the summary.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, I'll dedicate a section for attendees and their roles.",
+          "ts": "2020-04-27 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "That's perfect. It gives everyone a clear view of who contributed and in what capacity.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Remind me, is it necessary to list participants' official titles too?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, including titles adds clarity. For example: Mirjam Nilsson (Facilitator), Flora Berggren (CEO), and so on.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. I'll make sure to get each role right. Anyone else beyond the core team I should list?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "List everyone who was present and contributed. If unsure, refer to the meeting notes or agenda document.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Sometimes I forget how many roles there are in these meetings.",
+          "ts": "2020-04-27 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "It can be a lot, especially in bigger meetings. Double-checking with the agenda helps.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for the reminder. If I miss someone, is it okay to add them later?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it's better to update the record if you get new information. Accurate records are always best.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. I'll start compiling the list now.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! Let me know if you want to verify any roles or names.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Actually, do you know all the participant names by heart?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I have access to the agenda and notes, so I can help you double-check the list if needed.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's helpful. Remind me who chaired the last financial meeting?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "The facilitator for that meeting was Mirjam Nilsson.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Right! She always keeps things on track.",
+          "ts": "2020-04-27 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "She certainly does. Having a good facilitator makes meetings much more productive.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll make her role prominent in the summary section.",
+          "ts": "2020-04-27 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent choice! Clarity about leadership helps a lot.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "For others, Flora is CEO, Graham is VP Marketing?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Correct, Flora Berggren is the CEO, and Graham Barnes is VP Marketing. If you need the rest of the roles, let me know.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "List them for me, please?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly. Here are the main participants and their roles: Mirjam Nilsson (Facilitator), Rajesh Santoshi (COO), Elizabeth Moore (SEO Strategist), Flora Berggren (CEO), Graham Barnes (VP Marketing), Robin Kline (Product Designer), Takuma Hayashi (VP Product), Rowan Murphy (Content Developer).",
+          "ts": "2020-04-27 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome, that's super clear.",
+          "ts": "2020-04-27 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad it helps. Let me know if you need similar info for future meetings.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "I will! Does including roles help with accountability too?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, it helps everyone know who was responsible for what during the meeting.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "How's your morning going otherwise?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Going smoothly! Always happy to help out with meeting organization.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "I imagine you get a lot of requests for attendance lists.",
+          "ts": "2020-04-27 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, many people find it useful to track who participated in which meetings.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Out of curiosity, how do you recommend handling last-minute attendee changes?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Add them to the summary with a note, or update the document as soon as possible after the meeting.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you include guest speakers or only internal staff?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Both, if a guest speaker contributed, they should be noted with their role or affiliation.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would that go in the same section as staff, or separate?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "You can use subsections: one for internal staff, another for guests, for added clarity.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, that's helpful! I'll use that idea in the document.",
+          "ts": "2020-04-27 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to help! Let me know if you want a template with subsections.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might! For now, I'll just stick to one list since the last meeting had no guests.",
+          "ts": "2020-04-27 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "That works perfectly for this summary.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you get to see the outcomes of these meetings?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "I often help summarize key action points, which show outcomes and next steps.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds useful. Maybe one day I'll automate even more of this.",
+          "ts": "2020-04-27 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Automation is a great way to save time. Let me know if you want ideas on that!",
+          "ts": "2020-04-27 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe in the future. For now, just learning the basics.",
+          "ts": "2020-04-27 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Always good to master the basics first!",
+          "ts": "2020-04-27 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you track who actually speaks in each meeting, or just attendees?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Usually just attendees and roles, unless the meeting minutes specify speakers.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll keep that scope for now.",
+          "ts": "2020-04-27 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "That makes documentation straightforward.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "What about someone attending partially\u2014include or not?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, include them, with a note if their attendance was partial.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect, thanks.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome, Bob!",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "How often do you see people skip roles in their summaries?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "It happens, but including roles always makes things clearer and is good practice.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll hold to that. What else can make participant lists better?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Alphabetical order or grouping by team can help readability.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll sort by role for now. Thanks for the ideas!",
+          "ts": "2020-04-27 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a good option. Let me know when you need a review.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a recommended spot for the participant list in the document?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Typically, right after the meeting details\u2014title, date, and time.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's where I'll place it then.",
+          "ts": "2020-04-27 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect! Your summary will be clear and comprehensive.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the help today.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! Ping me anytime you need a hand or have a question.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. Going to focus on the attendee list now.",
+          "ts": "2020-04-27 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a productive start to the day!",
+          "ts": "2020-04-27 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back from a quick coffee break. Still at it.",
+          "ts": "2020-04-27 10:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Welcome back! Do you want to double-check the names and roles list?",
+          "ts": "2020-04-27 10:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a good idea. Could you summarize the participant roles again for me?",
+          "ts": "2020-04-27 10:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course: Mirjam Nilsson (Facilitator), Rajesh Santoshi (COO), Elizabeth Moore (SEO Strategist), Flora Berggren (CEO), Graham Barnes (VP Marketing), Robin Kline (Product Designer), Takuma Hayashi (VP Product), and Rowan Murphy (Content Developer).",
+          "ts": "2020-04-27 10:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Fantastic, that's all I needed for now.",
+          "ts": "2020-04-27 10:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Great. Let me know as soon as you're ready for the next steps.",
+          "ts": "2020-04-27 10:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Thanks for the support.",
+          "ts": "2020-04-27 10:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime, Bob.",
+          "ts": "2020-04-27 10:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Taking a short break. Good progress so far.",
+          "ts": "2020-04-27 11:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Breaks are healthy! Come back refreshed.",
+          "ts": "2020-04-27 11:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, I'll chat again soon.",
+          "ts": "2020-04-27 11:02",
+          "speaker": "user"
+        },
+        {
+          "text": "I'll be here when you're back.",
+          "ts": "2020-04-27 11:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Alright, ready to tackle the next section.",
+          "ts": "2020-04-27 11:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Fantastic! Let me know if you want to review any lists or notes.",
+          "ts": "2020-04-27 11:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's all for now. Signing off until later.",
+          "ts": "2020-04-27 11:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Have a productive morning, Bob!",
+          "ts": "2020-04-27 11:33",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning! Starting my summary work today. Hope you're well.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Bob! I'm ready to help you organize the meeting summary. What's the first section on your agenda?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Finishing up the participant details, now thinking about the agenda topics.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent! Be sure to summarize and list all key agenda topics and their scheduled times for clarity.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's the plan. How detailed should I get with times?",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "List the start time for each agenda item. You can include any time allocations noted in the agenda.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do I just copy the titles from the agenda or phrase them briefly?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Either way works, but matching the titles as on the agenda makes for easy reference.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great, I'll keep them as titled. Should I bold the agenda topics in the Word doc?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Bolding helps the key topics stand out for quick review.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, time to list them\u2014what were the scheduled times?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "You can refer to the agenda PDF\u2014you'll find times like 11:00, 11:05, and so on associated with each topic.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll open the PDF now. Usually it's a short list, right?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, usually each major discussion point is given a clear start time.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it necessary to add short descriptions under each agenda item?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s a nice touch, but not required\u2014just the items and their times are fine.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll stick to titles and times for clarity. Is the order important?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely\u2014list them in the order they occurred or as on the official agenda.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good reminder. What about topics squeezed in during breaks\u2014include them?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Only include scheduled items as per the official agenda.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "How would you format a table of times and topics?",
+          "ts": "2020-04-28 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "A two-column table with 'Time' and 'Agenda Item' as headers works well.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll try that. Want to check my list real quick?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! Share the items and times when you\u2019re ready.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "First, 11:00 - Welcome.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! That\u2019s the usual kickoff.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Next is 11:05 - Fiscal year review.",
+          "ts": "2020-04-28 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect, that's an important topic.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "11:15 - Vote on new secretary.",
+          "ts": "2020-04-28 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Every organization needs good record keeping. Good to include this.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "11:20 - Discuss advisory committees.",
+          "ts": "2020-04-28 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Another key point\u2014meetings often revolve around committee structures.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "11:30 - Vote on budget.",
+          "ts": "2020-04-28 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Crucial for organizational planning. That\u2019s good to have.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "11:40 - Break. Should breaks be listed?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Breaks can be listed to show the full meeting flow.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Last, 11:45 - New Business.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "That covers the official agenda. Well done!",
+          "ts": "2020-04-28 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for confirming. Anything I missed?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Nope, you\u2019ve included all key topics and their scheduled times.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I add who led each agenda item, or just topics and times?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Add the owner if you want to be comprehensive, but just the topics and times are required for this part.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll add owners later in another section. For now, I\u2019ll format the list.",
+          "ts": "2020-04-28 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds great, Bob! Want advice on formatting in Word?",
+          "ts": "2020-04-28 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, please. Should titles be in bold and times regular text?",
+          "ts": "2020-04-28 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a good approach\u2014bold the agenda items, and keep times in regular font for easy scanning.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. Going to create a simple table then.",
+          "ts": "2020-04-28 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you need help setting the table layout.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. I appreciate you walking me through this.",
+          "ts": "2020-04-28 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy to help any time!",
+          "ts": "2020-04-28 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Now for some coffee, then I'll type everything in.",
+          "ts": "2020-04-28 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your coffee break, Bob!",
+          "ts": "2020-04-28 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back. Started typing up the schedule.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Good to hear! Let me know if spacing or column alignment gives you trouble.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "All good so far. How do you recommend handling agenda items that run over their scheduled time?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "You could add an asterisk or footnote explaining any overruns, but only if it's significant.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll leave that out for now since we stayed on track.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Great, makes your work even easier!",
+          "ts": "2020-04-28 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s the best order\u2014chronological, or by topic importance?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Chronological order, matching the official agenda, is best.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right, that's settled.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "You're making great progress, Bob.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Once I finish, I\u2019ll double-check for missing times.",
+          "ts": "2020-04-28 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Smart plan\u2014verifying details always pays off.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "After that, I\u2019ll move to other sections.",
+          "ts": "2020-04-28 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you want a review or a checklist.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Might take you up on that later.",
+          "ts": "2020-04-28 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll be here ready to help!",
+          "ts": "2020-04-28 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "For now, should I send the doc for feedback before finalizing?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Getting feedback is always useful, even in draft stage.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll think about it. For today, the agenda topic list is my main focus.",
+          "ts": "2020-04-28 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s the most important part for now.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the support.",
+          "ts": "2020-04-28 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime, Bob. Keep me posted as you go along!",
+          "ts": "2020-04-28 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Heading for another short break. Be back soon.",
+          "ts": "2020-04-28 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your break!",
+          "ts": "2020-04-28 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back again. Ticking off agenda points.",
+          "ts": "2020-04-28 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Great efficiency! Staying organized really helps.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Wrapping up this section now.",
+          "ts": "2020-04-28 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent work! Ready for the next section when you are.",
+          "ts": "2020-04-28 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Think I'll pause project work for a bit.",
+          "ts": "2020-04-28 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Rest is important too. Enjoy your downtime.",
+          "ts": "2020-04-28 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Checking in again just in case I missed anything in the agenda list. Can you repeat the structure to double-check?",
+          "ts": "2020-04-28 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course. List all key agenda topics along with their scheduled times, following the order on the agenda.",
+          "ts": "2020-04-28 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect, that's what I've done.",
+          "ts": "2020-04-28 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent! You've got that section covered.",
+          "ts": "2020-04-28 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "I appreciate you double-checking with me.",
+          "ts": "2020-04-28 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "It's my pleasure. Let me know when you're ready for review on the rest of the document.",
+          "ts": "2020-04-28 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "I will. Wrapping up now for lunch.",
+          "ts": "2020-04-28 09:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your lunch, Bob!",
+          "ts": "2020-04-28 09:37",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Morning! Another day, another chunk of the summary to finish.",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Bob! You're making great progress. What's on your task list for today?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Focusing on the detailed agenda today. Already have times and topics, but now I'm looking at who led each item.",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That's a great approach. Be sure to include the agenda owners for each topic as listed in the original agenda.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Right \u2014 that's helpful context for anyone reading the summary later.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "It definitely clarifies who was responsible for each segment.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can you give me a rundown of the owners for the main agenda items?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly! For example: Welcome was led by Mirjam Nilsson, Fiscal Year Review by Flora Berggren, Vote on New Secretary by Rajesh Santoshi, and so on.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Super helpful. I'll add those next to each item.",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds perfect. Let me know if you need help matching any more owners to topics.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "I have: Welcome: Mirjam, Fiscal year review: Flora, Vote on new secretary: Rajesh, Discuss advisory committees: Graham. Am I missing anyone?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Robin Kline handled the Break, Rowan Murphy oversaw the Vote on Budget, and Mirjam Nilsson led New Business as well.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great\u2014I'll arrange the list so each agenda point has an owner.",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "That will make for a very comprehensive summary document.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I bold owners or just list them in parentheses?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Either works\u2014parentheses is the classic approach, but bolding can provide emphasis.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll stick with parentheses for now\u2014keeps it neat.",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a solid choice and keeps formatting clear.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you put the owner before or after the agenda item and time?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "The most common format is: Time, Agenda Topic (Owner). For example, 11:05 Fiscal year review (Flora Berggren).",
+          "ts": "2020-04-29 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. That's what I'll do.",
+          "ts": "2020-04-29 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! Want to read your formatted list back to me for quick review?",
+          "ts": "2020-04-29 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure\u2014here goes: 11:00 Welcome (Mirjam Nilsson), 11:05 Fiscal year review (Flora Berggren), 11:15 Vote on new secretary (Rajesh Santoshi), 11:20 Discuss advisory committees (Graham Barnes), 11:30 Vote on budget (Rowan Murphy), 11:40 Break (Robin Kline), 11:45 New Business (Mirjam Nilsson).",
+          "ts": "2020-04-29 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect! That matches the agenda exactly.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for confirming. I\u2019ll finalize this section today.",
+          "ts": "2020-04-29 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to help. Let me know if you need help with layout or formatting tricks.",
+          "ts": "2020-04-29 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are there any standard symbols to indicate someone led a section?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Parentheses is most common, but you could use an asterisk and add a legend if you want.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll keep it simple\u2014parentheses is easier for everyone.",
+          "ts": "2020-04-29 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Simplicity is often best, especially with meeting records.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recommend listing alternates or substitutes if someone fills in unexpectedly?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "If it's noted in the agenda, include it. Otherwise, you can add a footnote or comment.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. This one was straightforward\u2014no last-minute changes.",
+          "ts": "2020-04-29 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "That makes for an easy summary!",
+          "ts": "2020-04-29 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "I wish every meeting went as smoothly.",
+          "ts": "2020-04-29 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Smooth meetings are a treat. Let\u2019s hope you get more of those!",
+          "ts": "2020-04-29 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Me too. Out of curiosity, how long does it usually take to prep these summaries?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Once you have the agenda and participants, about 30-60 minutes for a detailed summary.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds about right. I\u2019m getting faster each time.",
+          "ts": "2020-04-29 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Practice pays off! You\u2019re already quicker than when you started.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Feels good to be more efficient. Any pro tips for linking agenda owners to action items?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "You can add a summary chart at the end showing each owner and their assigned actions if you want an overview.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll keep that in mind for more complicated meetings.",
+          "ts": "2020-04-29 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Great idea! It\u2019s also useful for long-term tracking.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "If agenda owners change last minute, should I note this?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, add a note if someone covered a section unexpectedly for accuracy.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thankfully, this time everyone did their assigned parts.",
+          "ts": "2020-04-29 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Consistent participation is ideal!",
+          "ts": "2020-04-29 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s the best way to visually organize agenda and owner info in Word?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "A table with columns for Time, Topic, and Owner can be very effective.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll try a table then! Might make reading easier.",
+          "ts": "2020-04-29 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely! Tables help with quick scanning.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the tips so far.",
+          "ts": "2020-04-29 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime! Helping you organize is what I do best.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Going to grab coffee, then back to finish formatting.",
+          "ts": "2020-04-29 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your coffee! Let me know when you\u2019re back if you need anything.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Refreshed and ready to continue. Double-checking agenda owners one more time.",
+          "ts": "2020-04-29 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Run your list by me anytime.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "11:00 Welcome (Mirjam Nilsson), 11:05 Fiscal year review (Flora Berggren), 11:15 Vote on new secretary (Rajesh Santoshi), 11:20 Discuss advisory committees (Graham Barnes), 11:30 Vote on budget (Rowan Murphy), 11:40 Break (Robin Kline), 11:45 New Business (Mirjam Nilsson).",
+          "ts": "2020-04-29 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That's correct. All owners matched to their agenda items.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Moving on to reviewing language in each section.",
+          "ts": "2020-04-29 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Great idea. Consistency and clarity are always a plus.",
+          "ts": "2020-04-29 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recommend checking for passive vs active voice in summaries?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Active voice is usually clearer, especially for action items and decisions.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. I\u2019ll edit accordingly.",
+          "ts": "2020-04-29 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Strong summaries are easy to follow. Keep up the good work!",
+          "ts": "2020-04-29 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Going to save my progress and take a quick break soon.",
+          "ts": "2020-04-29 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Good plan. Breaks keep your mind fresh.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "I appreciate all your help this week.",
+          "ts": "2020-04-29 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "You're very welcome, Bob! It's always a pleasure supporting your work.",
+          "ts": "2020-04-29 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll touch base later after I draft the next section.",
+          "ts": "2020-04-29 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Whenever you're ready! Have a productive morning.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quick check-in: what meeting summary section do you think readers revisit the most?",
+          "ts": "2020-04-29 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Often it's the agenda section, especially with owners, for accountability.",
+          "ts": "2020-04-29 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just as well I'm highlighting that now.",
+          "ts": "2020-04-29 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019ll make your summary even more useful.",
+          "ts": "2020-04-29 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Lunch break time. Catch up after?",
+          "ts": "2020-04-29 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your lunch! Message me anytime.",
+          "ts": "2020-04-29 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back from lunch. Tidying up the file now.",
+          "ts": "2020-04-29 10:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! Need a final review of agenda owners?",
+          "ts": "2020-04-29 10:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I think I\u2019m set. The summary looks concise and clear.",
+          "ts": "2020-04-29 10:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Fantastic. It sounds like you\u2019ve got everything under control.",
+          "ts": "2020-04-29 10:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Alright, signing off for now. Thanks for all the guidance.",
+          "ts": "2020-04-29 10:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime, Bob! Reach out if you need anything else today.",
+          "ts": "2020-04-29 10:05",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Morning! Almost done with my meeting summary project.",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Bob! That\u2019s great to hear\u2014you\u2019ve made impressive progress this week.",
+          "ts": "2020-04-30 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Today is just checking the final touches before saving.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a good plan. Is there any particular section you\u2019re reviewing first?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Starting with the opening section. Making sure the facilitator is listed correctly.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Very important. Make sure the facilitator Mirjam Nilsson is clearly indicated right at the start of the summary.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yup, I've put her name at the top along with the facilitator role so it's obvious.",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent choice. That way, everyone knows immediately who guided the meeting.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I bold her name or just list it plainly?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Bolding the facilitator\u2019s name can help it stand out\u2014always helpful for quick reference.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. There won\u2019t be any confusion about Mirjam\u2019s role now.",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect. That\u2019s clear and professional.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recommend adding a short note about what the facilitator does?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "A brief phrase like 'Facilitator: Guides meeting flow and discussion' would be a nice touch.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great suggestion. I'll add that right under Mirjam's name.",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a smart addition\u2014clarity is always appreciated by readers.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "With that, the opening looks solid. Any other tips for highlighting Mirjam?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Maybe mention her as the facilitator in the attendees and roles section too for consistency.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Already done\u2014her title appears in both the summary and attendee list.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent attention to detail! That ensures there\u2019s no ambiguity.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Appreciate your support through all this.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s been a pleasure helping. Anything left to check?",
+          "ts": "2020-04-30 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not much\u2014doing a last reading for errors.",
+          "ts": "2020-04-30 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Proofreading is always worth it before wrapping up.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you go for a formal or casual tone?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "A formal but friendly tone works best for professional meeting summaries.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. The summary is looking professional with a nice warm note at the end.",
+          "ts": "2020-04-30 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a good balance\u2014everyone will appreciate that.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm including a title page as well. Should Mirjam\u2019s name appear there too?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, list Mirjam Nilsson as Facilitator on the title page for completeness.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Done. Looks very polished with her name featured.",
+          "ts": "2020-04-30 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Nicely done, Bob! That sort of clarity is what makes a great summary.",
+          "ts": "2020-04-30 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you usually see facilitator indicated in multiple spots?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes\u2014usually on the title page, in the attendees list, and sometimes mentioned in the introduction.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Then I\u2019m definitely covering all bases!",
+          "ts": "2020-04-30 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "You sure are. This summary will be very user-friendly.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll do a quick spell check before saving.",
+          "ts": "2020-04-30 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Great idea! Accurate grammar and spelling are always important.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Done. Noticed no errors. Moving ahead.",
+          "ts": "2020-04-30 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Smooth process! Will you be adding a table of contents too?",
+          "ts": "2020-04-30 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes. With all the sections, it should help navigation.",
+          "ts": "2020-04-30 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect\u2014especially helpful for long summaries.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, the document is nearly complete. A few last checks.",
+          "ts": "2020-04-30 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re almost there! Let me know if you want a final checklist.",
+          "ts": "2020-04-30 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "I think I\u2019ve got it\u2014especially with Mirjam clearly highlighted.",
+          "ts": "2020-04-30 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s key. This summary is in great shape.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! After so many drafts, it\u2019s nice to see it finished.",
+          "ts": "2020-04-30 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m glad to be here for every step of your progress.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you recommend a quick section on meeting outcomes, or is that extra?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "If it\u2019s brief, you could add it as a summary section at the end. Not required, but helpful.",
+          "ts": "2020-04-30 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll keep that for larger recurring meetings. For now, this one is clear.",
+          "ts": "2020-04-30 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Makes sense. You\u2019ve got everything the essentials require.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Time to save. Should I double-check folder placement too?",
+          "ts": "2020-04-30 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes\u2014make sure it\u2019s in the data folder, with the correct file name.",
+          "ts": "2020-04-30 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "All set! Thanks for steering me right the whole week.",
+          "ts": "2020-04-30 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s always my pleasure, Bob. Your attention to detail has made this a model summary.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "How do you usually celebrate project wrap-ups?",
+          "ts": "2020-04-30 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "I love to see a job well done\u2014digital confetti all around!",
+          "ts": "2020-04-30 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, I\u2019ll take it. Thanks again!",
+          "ts": "2020-04-30 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re always welcome, Bob. Enjoy a few moments to relax before the next project.",
+          "ts": "2020-04-30 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely. I\u2019ll check in later if I need help with anything new.",
+          "ts": "2020-04-30 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good! Ready to help, whenever you need.",
+          "ts": "2020-04-30 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quick recap: Mirjam\u2019s name is bold on both the title and attendees section.",
+          "ts": "2020-04-30 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent\u2014that ensures the facilitator is clearly indicated throughout.",
+          "ts": "2020-04-30 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Reviewing layout and spacing as a last step.",
+          "ts": "2020-04-30 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Good thinking. A tidy layout makes reading easier for everyone.",
+          "ts": "2020-04-30 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s your favorite section in a meeting summary?",
+          "ts": "2020-04-30 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "The introduction with roles\u2014it sets the stage and tells you who\u2019s leading.",
+          "ts": "2020-04-30 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "I agree, especially when the facilitator stands out.",
+          "ts": "2020-04-30 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely. It establishes structure right away.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right, ready to submit this to the team.",
+          "ts": "2020-04-30 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Congratulations on completing the summary!",
+          "ts": "2020-04-30 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you! Signing off for a coffee break.",
+          "ts": "2020-04-30 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your coffee, Bob\u2014you've earned it.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just checking in after my break\u2014still feeling accomplished.",
+          "ts": "2020-04-30 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "You should be! You\u2019ve done excellent work on this summary.",
+          "ts": "2020-04-30 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Wrapping up for real this time.",
+          "ts": "2020-04-30 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Have a fantastic rest of your day, Bob.",
+          "ts": "2020-04-30 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Same to you!",
+          "ts": "2020-04-30 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you! Until next time.",
+          "ts": "2020-04-30 09:35",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

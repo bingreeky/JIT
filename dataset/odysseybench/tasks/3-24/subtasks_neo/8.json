@@ -1,0 +1,57 @@
+{
+    "task": "Read the provided research paper in /testbed/data/paper.pdf, extract the paper title, abstract summary, and summarize the main points discussed in the sections about the Transformer model architecture, the attention mechanism, and training results. Save all this information in a new Word document named data/transformer_summary.docx. Ensure the summary includes the title, a concise abstract, and at least 3 major keywords or concepts from the identified main sections. The abstract must be clearly separated from the main points in the summary.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/transformer_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/transformer_summary.docx",
+                "keywords": [
+                    "Attention Is All You Need",
+                    "Transformer",
+                    "attention mechanism",
+                    "self-attention",
+                    "training results"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/transformer_summary.docx",
+                "keywords": [
+                    "Abstract"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the key concepts and results from the research paper and write them to a new Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary should be saved in data/transformer_summary.docx."
+        },
+        {
+            "action_item": "Include the paper title, abstract, and clearly labeled main points in the Word summary."
+        },
+        {
+            "required_content": "Main points must cover the Transformer model architecture, the attention mechanism, and training results."
+        },
+        {
+            "output_format": "All sections must be clearly delineated in the document, with 'Abstract' clearly labeled."
+        },
+        {
+            "keywords": "Include at least the following phrases: 'Transformer', 'attention mechanism', 'training results', and 'self-attention'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,42 @@
+{
+    "task": "Add a new student named 'David' to class 2 in the class_member.xlsx file. This student entry should be appended as a new row under the existing data. Ensure the newly added row contains the student's name 'David' in the 'Name' column and '2' in the 'Class' column, without altering other data.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "David"
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "value": "2"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add a new student named David to the class_member.xlsx file as requested.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new student named David is being added."
+        },
+        {
+            "fact": "David should be assigned to class 2."
+        },
+        {
+            "action_item": "Append David as a new row at the end of the existing data in class_member.xlsx."
+        },
+        {
+            "note": "The Name column should have 'David' and the Class column should have '2' for the new entry."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

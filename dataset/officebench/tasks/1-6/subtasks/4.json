@@ -1,0 +1,45 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Update the company budget Excel file to include a new header 'Increase Percentage Per Year', increase base salaries by 5%/yr, reduce computer expenses 10%/yr, and increase entertainment expenses 10%/yr.",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/company_budget.xlsx",
+        "matches": [
+          {
+            "row": "1",
+            "col": "3",
+            "value": "Increase Percentage Per Year"
+          }
+        ]
+      }
+    },
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/company_budget.xlsx",
+        "matches": [
+          {
+            "row": "2",
+            "col": "3",
+            "value": "5"
+          },
+          {
+            "row": "3",
+            "col": "3",
+            "value": "10"
+          },
+          {
+            "row": "4",
+            "col": "3",
+            "value": "10"
+          }
+        ]
+      }
+    }
+  ]
+}

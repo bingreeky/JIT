@@ -1,0 +1,120 @@
+{
+    "task": "Create a new Excel file named project_timeline.xlsx and add a project timeline table with three tasks: 'Design', 'Development', and 'Testing'. For each task, include columns for Task Name, Start Date, End Date, and Status. Set the Start Date for 'Design' as 2020-05-04 and End Date as 2020-05-08, Status 'Not Started'; for 'Development', Start Date as 2020-05-11, End Date as 2020-05-22, Status 'Not Started'; for 'Testing', Start Date as 2020-05-25, End Date as 2020-05-29, Status 'Not Started'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_timeline.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/project_timeline.xlsx",
+                "keywords": [
+                    "Design",
+                    "Development",
+                    "Testing",
+                    "Task Name",
+                    "Start Date",
+                    "End Date",
+                    "Status"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/project_timeline.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Design"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "2020-05-04"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "2020-05-08"
+                    },
+                    {
+                        "row": 2,
+                        "col": 4,
+                        "value": "Not Started"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Development"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "2020-05-11"
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": "2020-05-22"
+                    },
+                    {
+                        "row": 3,
+                        "col": 4,
+                        "value": "Not Started"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Testing"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "2020-05-25"
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "value": "2020-05-29"
+                    },
+                    {
+                        "row": 4,
+                        "col": 4,
+                        "value": "Not Started"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a new Excel file with a project timeline including tasks and statuses.",
+    "ground_truth_memory": [
+        {
+            "memory_item": "The output Excel file should be named project_timeline.xlsx and saved in the data directory."
+        },
+        {
+            "memory_item": "The timeline table needs columns: Task Name, Start Date, End Date, and Status."
+        },
+        {
+            "memory_item": "The three tasks are: Design, Development, and Testing."
+        },
+        {
+            "memory_item": "The Design task has Start Date 2020-05-04 and End Date 2020-05-08, with Status Not Started."
+        },
+        {
+            "memory_item": "The Development task has Start Date 2020-05-11 and End Date 2020-05-22, with Status Not Started."
+        },
+        {
+            "memory_item": "The Testing task has Start Date 2020-05-25 and End Date 2020-05-29, with Status Not Started."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,51 @@
+{
+    "task": "Create a new Word document named 'invoice_summary.docx' that lists the filenames 'Invoice.pdf' and 'Invoice_2.pdf', and includes the phrase 'Checked for payment outstanding' in the summary. Ensure both filenames and the required phrase appear in the document.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/invoice_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/invoice_summary.docx",
+                "keywords": [
+                    "Invoice",
+                    ".pdf"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/invoice_summary.docx",
+                "keywords": [
+                    "Checked",
+                    "for",
+                    "payment",
+                    "outstanding"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the invoice files and note if payment has been checked.",
+    "ground_truth_memory": [
+        {
+            "fact": "A summary should be created in a new Word file named 'invoice_summary.docx'."
+        },
+        {
+            "fact": "The summary must mention both 'Invoice.pdf' and 'Invoice_2.pdf' filenames."
+        },
+        {
+            "fact": "The summary must state 'Checked for payment outstanding'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

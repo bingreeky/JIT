@@ -1,0 +1,40 @@
+{
+    "task": "Write a concise summary of the main events from the story in 'House_creak.docx' and append the summary to the end of the same document. The summary should address: the family's move to a remote Victorian Gothic house; their initial unhappiness and challenges adapting; the mysterious creaking and unsettling atmosphere; the catastrophic collapse of the house; their rescue by a neighbor; and the family's eventual recovery and return to normal life. Do NOT summarize with direct copy-paste sentences—capture these key story events in your own words. The summary must be appended to the end of the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "./data/House_creak.docx",
+                "keywords": [
+                    "summary",
+                    "family move",
+                    "Victorian Gothic house",
+                    "house collapse",
+                    "neighbor",
+                    "rescue",
+                    "recovery"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Provide a brief but complete summary of the main events in the story from the word file and add it to the end of the same document.",
+    "ground_truth_memory": [
+        {
+            "filename": "House_creak.docx"
+        },
+        {
+            "append_location": "Add the summary to the end of House_creak.docx"
+        },
+        {
+            "summary_action": "Write a new summary in your own words, do not copy sentences from the story"
+        },
+        {
+            "summary_points": "The summary should cover: the family's move to the Victorian Gothic house; difficulties adapting; the mysterious creaking; the house collapsing; being rescued by a neighbor; and the family's recovery."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

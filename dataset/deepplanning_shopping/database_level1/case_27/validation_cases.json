@@ -1,0 +1,521 @@
+{
+  "query": "I'm doing some last-minute online shopping for an upcoming trip and need everything to arrive quickly. First, I'm looking for a camel-colored item suitable for Spring/Autumn with an average score over 4.5 and a transport time of less than 5 days. Next, I need a very specific light grey product with 'HOVR Phantom 3' in its name. It must be in stock with a quantity over 150, have fewer than 5 two-star reviews, and arrive in under 2 days. I also want a popular pink item with a monthly sales volume over 800 and more than 100 four-star reviews, shipped within 5 days. From The North Face, I need an olive green product that sells well—over 700 monthly—has more than 100 four-star reviews, and can get here in less than 2 days. From New Balance, I'm looking for an item in size M with over 800 in stock, also with a transport time under 2 days. Finally, I need a brown item with a total sales volume over 9000, more than 850 total reviews but fewer than 30 three-star reviews, arriving within 5 days.",
+  "ground_truth_products": [
+    {
+      "product_id": "4f5c4b2e",
+      "name": "Women's V-Neck Long Sleeve Knit Top",
+      "price": 249.9,
+      "brand": "Li-Ning",
+      "color": "Camel",
+      "size": "S",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 50
+        },
+        {
+          "material": "Polyester",
+          "percentage": 45
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Printing",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Lay flat to dry.",
+      "sales_volume": {
+        "monthly": 1245,
+        "total": 8530
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 650,
+        "distribution": {
+          "5_star": 530,
+          "4_star": 95,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "84adb57f",
+      "name": "Women's HOVR Phantom 3 Running Shoes",
+      "price": 899.0,
+      "brand": "Under Armour",
+      "color": "Light Grey",
+      "size": "37",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 451,
+        "total": 3289
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 160,
+          "4_star": 40,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d13b3fd8",
+      "name": "Women's Essentials Logo Fleece Sweatshirt",
+      "price": 359.0,
+      "brand": "Puma",
+      "color": "Pink",
+      "size": "S",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 980,
+        "total": 15430
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 240,
+          "3_star": 45,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "75e1dc6a",
+      "name": "Women's Exploration Cargo Pants",
+      "price": 899.0,
+      "brand": "The North Face",
+      "color": "Olive Green",
+      "size": "M",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 750,
+        "total": 8900
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 912,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 120,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "939a351f",
+      "name": "Women's Essential Lifestyle Shorts",
+      "price": 329.0,
+      "brand": "New Balance",
+      "color": "Pink",
+      "size": "M",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1230,
+        "total": 7540
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 580,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 100,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "5a4008fa",
+      "name": "Women's Essential Ribbed Long-Sleeve Top",
+      "price": 189.0,
+      "brand": "Anta",
+      "color": "Brown",
+      "size": "S",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 47
+        },
+        {
+          "material": "Modal",
+          "percentage": 48
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 1580,
+        "total": 9250
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 895,
+        "distribution": {
+          "5_star": 720,
+          "4_star": 140,
+          "3_star": 25,
+          "2_star": 6,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "YTO Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 5 days, the color is Camel, the average score is greater than 4.5, and the suitable season is Spring/Autumn.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "color",
+          "value": "Camel",
+          "operator": "equals",
+          "operator_value": "Camel"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is more than 150, the number of 2-star reviews is less than 5, the transport time is less than 2, the color is Light Grey, and the name contains 'HOVR Phantom 3'.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 158,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "color",
+          "value": "Light Grey",
+          "operator": "equals",
+          "operator_value": "Light Grey"
+        },
+        {
+          "field": "name",
+          "value": "Women's HOVR Phantom 3 Running Shoes",
+          "operator": "contains",
+          "operator_value": "HOVR Phantom 3"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 5, the number of 4-star reviews is greater than 100, the color is Pink, and the monthly sales volume is more than 800.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 4,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 105,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "color",
+          "value": "Pink",
+          "operator": "equals",
+          "operator_value": "Pink"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 850,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Show me products where the brand is The North Face, the color is Olive Green, monthly sales volume is greater than 700, transport time is less than 2, and there are more than 100 4-star reviews.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 750,
+          "operator": "greater_than",
+          "operator_value": 700.0
+        },
+        {
+          "field": "color",
+          "value": "Olive Green",
+          "operator": "equals",
+          "operator_value": "Olive Green"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "The North Face",
+          "operator": "equals",
+          "operator_value": "The North Face"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 120,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the brand is New Balance, the stock quantity is more than 800, and the size is M.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "New Balance",
+          "operator": "equals",
+          "operator_value": "New Balance"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 850,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "size",
+          "value": "M",
+          "operator": "equals",
+          "operator_value": "M"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 5 days, the color is Brown, total reviews are over 850, there are fewer than 30 3-star reviews, and the total sales volume is greater than 9000.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "color",
+          "value": "Brown",
+          "operator": "equals",
+          "operator_value": "Brown"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 895,
+          "operator": "greater_than",
+          "operator_value": 850.0
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 25,
+          "operator": "less_than",
+          "operator_value": 30.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 9250,
+          "operator": "greater_than",
+          "operator_value": 9000.0
+        }
+      ]
+    }
+  ]
+}

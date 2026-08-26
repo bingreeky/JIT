@@ -1,0 +1,462 @@
+{
+  "query": "I'm getting all my gear sorted out for the cold weather. First, I'm looking for a specific women's winter item from Arc'teryx in a purple color, size XL. For layering, I also need a women's Down Vest that has an average score greater than 4.5 and less than 5 one-star reviews. To go with that, I want a very popular Thermal Base Layer from Patagonia in dark green with a total sales volume of more than 4000. I also need to find a specific Bosideng item, the 'Women's Essential Thermal Mock Neck Top', making sure it has over 180 in stock, a transport time less than 4 days, and fewer than 15 two-star reviews. Then, I need something grey that can ship fast, in under 2 days, with an average score above 4.5 and more than 1200 total reviews. Finally, I'll get one more thing from Bosideng: a highly-rated, all-seasons product with more than 650 five-star reviews and fewer than 15 two-star reviews. Find me some products where the total price is no less than 4112 and no more than 4339.",
+  "ground_truth_products": [
+    {
+      "product_id": "07c6a99b",
+      "name": "Women's Rho Heavyweight Zip Neck Top",
+      "price": 1299.0,
+      "brand": "Arc'teryx",
+      "color": "Purple",
+      "size": "XL",
+      "stock_quantity": 155,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 210,
+        "total": 1850
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "012561e3",
+      "name": "Women's Classic Suede Skate Shoes",
+      "price": 549.0,
+      "brand": "Vans",
+      "color": "Grey",
+      "size": "38",
+      "stock_quantity": 288,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not machine wash. Air dry.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 17845
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1952,
+        "distribution": {
+          "5_star": 1550,
+          "4_star": 312,
+          "3_star": 65,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2a1bc6dd",
+      "name": "Women's Essential Thermal Mock Neck Top",
+      "price": 329.9,
+      "brand": "Bosideng",
+      "color": "Orange",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold on gentle cycle, hang to dry. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 750,
+        "total": 8942
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1256,
+        "distribution": {
+          "5_star": 942,
+          "4_star": 251,
+          "3_star": 38,
+          "2_star": 13,
+          "1_star": 12
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "STO Express"
+      }
+    },
+    {
+      "product_id": "0efb9c95",
+      "name": "Women's Ultralight Stand Collar Down Vest",
+      "price": 799.0,
+      "brand": "Bosideng",
+      "color": "Light Grey",
+      "size": "XL",
+      "stock_quantity": 88,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 55
+        },
+        {
+          "material": "Down",
+          "percentage": 40
+        },
+        {
+          "material": "Polyester",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Patchwork",
+      "washing_instructions": "Hand wash cold recommended. Do not bleach. Lay flat to dry. Gently pat to restore fluffiness.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 4150
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 680,
+        "distribution": {
+          "5_star": 612,
+          "4_star": 55,
+          "3_star": 9,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "0fee933c",
+      "name": "Women's Long-Sleeve Thermal Base Layer Top",
+      "price": 599.0,
+      "brand": "Patagonia",
+      "color": "Dark Green",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold, tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4200
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 700,
+          "4_star": 150,
+          "3_star": 30,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "85c2b6cb",
+      "name": "Women's All-Season Lightweight Packable Vest",
+      "price": 599.9,
+      "brand": "Bosideng",
+      "color": "Green",
+      "size": "XL",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Printing",
+      "washing_instructions": "Hand wash recommended, or machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3280
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 690,
+          "4_star": 120,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Arc'teryx, the color is Purple, target demographic is Women, suitable season is Winter, and size is XL.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Arc'teryx"
+        },
+        {
+          "field": "color",
+          "value": "Purple"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "size",
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with more than 1200 total reviews, an average score above 4.5, a color of Grey, and a transport time of less than 2 days.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1250
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "color",
+          "value": "Grey"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Bosideng, the name is 'Women's Essential Thermal Mock Neck Top', the number of 2-star reviews is less than 15, the stock quantity is greater than 180, and the transport time is less than 4 days.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 13
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 185
+        },
+        {
+          "field": "transport_time",
+          "value": 3
+        },
+        {
+          "field": "name",
+          "value": "Women's Essential Thermal Mock Neck Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, there are less than 5 one-star reviews, the average score is greater than 4.5, and the name contains 'Down Vest'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "name",
+          "value": "Women's Elegant Stand-Collar Down Vest"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Patagonia, the color is Dark Green, total sales volume is more than 4000, and the name contains 'Thermal Base Layer'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Patagonia"
+        },
+        {
+          "field": "color",
+          "value": "Dark Green"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 4200
+        },
+        {
+          "field": "name",
+          "value": "Women's Long-Sleeve Thermal Base Layer Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is All Seasons, the brand is Bosideng, the number of 5-star reviews is greater than 650, and the number of 2-star reviews is less than 15.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 690
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}

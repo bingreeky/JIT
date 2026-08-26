@@ -1,0 +1,43 @@
+{
+    "task": "Transfer the shopping list items from shopping_list.xlsx into a new Word document named 'shopping_summary.docx'. Each item in the list, including both the 'Name' and 'amount' fields, should be included in the summary. List the item names alongside their respective amounts in the document.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/shopping_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/shopping_summary.docx",
+                "keywords": [
+                    "apple",
+                    "2",
+                    "cabbage",
+                    "onion"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the shopping list with amounts in a Word document.",
+    "ground_truth_memory": [
+        {
+            "memory_item": "The new Word document to be created is named shopping_summary.docx."
+        },
+        {
+            "memory_item": "Each item from shopping_list.xlsx, including its name and amount, must be included in the summary."
+        },
+        {
+            "memory_item": "The summary must display both the item name and amount together for each item (e.g., apple and its amount appear together)."
+        },
+        {
+            "memory_item": "The output file should be saved as shopping_summary.docx in the same directory."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

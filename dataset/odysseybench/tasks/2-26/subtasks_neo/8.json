@@ -1,0 +1,40 @@
+{
+    "task": "Extract all text from invitation_letter.pdf and place it into a new Word file named invitation_summary.docx. Ensure that important details such as the event name, conference dates, city, state, and country are present in the Word file. Make sure the document is formatted so that each critical piece of information is clearly delineated.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/invitation_summary.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "IAEM",
+                    "Annual",
+                    "Conference",
+                    "EMEX",
+                    "November",
+                    "15",
+                    "2024",
+                    "Colorado",
+                    "Springs",
+                    "USA"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract the important details from the PDF and insert them into a new Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The extracted information should be placed into a new file named invitation_summary.docx."
+        },
+        {
+            "fact": "Make sure to include the event name (IAEM 72nd Annual Conference & EMEX), dates (November 15-21, 2024), and location (Colorado Springs, Colorado, USA) in the Word file."
+        },
+        {
+            "action_item": "Ensure each critical detail appears in the final document as a separate line or paragraph."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

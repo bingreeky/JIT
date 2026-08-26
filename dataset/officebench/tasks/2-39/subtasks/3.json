@@ -1,0 +1,28 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "find all Bob's emails in this year, save them in emails.docx by ascending order",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/emails.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+              "doc_type": "docx",
+              "file": "data/emails.docx",
+              "keywords": [
+                "Project 2",
+                "meeting",
+                "rent",
+                "scholarship"
+              ]
+            }
+        }
+    ]
+}

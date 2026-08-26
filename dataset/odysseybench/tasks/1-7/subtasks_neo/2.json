@@ -1,0 +1,32 @@
+{
+    "task": "Remove all entries for Tina from the class_member.xlsx file. Tina appears multiple times in different classes, and each row containing her name must be deleted. Ensure that all records with Tina as the Name are completely removed from the table.",
+    "evaluation": [
+        {
+            "function": "evaluate_diff_contain_text",
+            "file": "./data/class_member.xlsx",
+            "args": {
+                "input_file": "../../../../cache/0/testbed/data/class_member.xlsx",
+                "output_file": "./data/class_member.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "Tina",
+                    "3",
+                    "5"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Remove every entry for Tina from the class member excel file.",
+    "ground_truth_memory": [
+        {
+            "note": "Tina appears multiple times in class_member.xlsx and all rows with the Name Tina must be completely removed."
+        },
+        {
+            "note": "The affected rows include Tina in Class 3 and Class 5. All such entries should be deleted."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

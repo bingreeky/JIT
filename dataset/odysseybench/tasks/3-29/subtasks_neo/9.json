@@ -1,0 +1,74 @@
+{
+    "task": "Compile a list of three new professional contacts in an Excel file named contacts.xlsx, with headers Name, Email, and Company. The contacts are: Alice Lee (alice.lee@globex.com, Globex Corporation), Marcus Tran (marcus.tran@initech.com, Initech), and Priya Singh (priya.singh@umbrella.com, Umbrella Inc). Then, email the content of the Excel file to Bob with the subject line 'Contacts List' and reference each contact's company in the email body. Ensure the names appear in alphabetical order by first name in both the file and the email body.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/contacts.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "emails/Bob/Contacts List.eml"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/contacts.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Alice Lee"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Marcus Tran"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Priya Singh"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Globex",
+                    "Initech",
+                    "Umbrella"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a contacts list Excel file with specified contacts and email the list to Bob.",
+    "ground_truth_memory": [
+        {
+            "fact": "Three new contacts to be compiled: Alice Lee (alice.lee@globex.com, Globex Corporation); Marcus Tran (marcus.tran@initech.com, Initech); Priya Singh (priya.singh@umbrella.com, Umbrella Inc)."
+        },
+        {
+            "fact": "Output Excel file must be named contacts.xlsx and have headers: Name, Email, Company."
+        },
+        {
+            "action_item": "Contacts should be ordered by first name alphabetically in both the Excel file AND email body."
+        },
+        {
+            "action_item": "After compiling, email the Excel file's content to Bob with subject 'Contacts List'."
+        },
+        {
+            "action_item": "Email body should mention each contact's company name."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,39 @@
+{
+    "task": "Open the file score.xlsx. Extract the scores for all students from the 'Score' column. Calculate the median score. Write the median score into a new row at the bottom of the file under the existing entries, in the 'Score' column. Label the corresponding 'Name' column cell as 'Median'.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "Median"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "81"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Calculate the median score and update the Excel file accordingly.",
+    "ground_truth_memory": [
+        {
+            "fact": "The file to update is score.xlsx."
+        },
+        {
+            "fact": "The calculated median score should be written to the first empty row below existing data."
+        },
+        {
+            "fact": "In the new row, write 'Median' in the 'Name' column and the median score in the 'Score' column."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

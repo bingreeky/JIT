@@ -1,0 +1,385 @@
+{
+  "query": "I'm doing some online shopping to refresh my wardrobe. First, I’m looking for a specific 'Women's V-Neck Silk Blend Top' in Light Grey; it should be popular, with a total sales volume over 400 and more than 10 four-star reviews. Next, I need something from Puma and I need it quickly, so the transport time must be less than 2 days. To be sure about the quality, it must have fewer than 25 three-star reviews, less than 10 two-star reviews, and a stock quantity over 300. I also need a women's 'Synchilla Fleece Pullover' from Patagonia with more than 20 three-star ratings. From Patagonia, I’m also getting a highly-rated item in size 39 with an average score above 4.5, over 300 five-star ratings, and more than 50 four-star ratings. Lastly, I'm searching for a Blue product from Columbia that has an average score greater than 4.5, a stock quantity of more than 400, and less than 10 two-star ratings. I'd like to keep my total spending between 7250 and 7292. Please help me find the products that meet my requirements.",
+  "ground_truth_products": [
+    {
+      "product_id": "fd0f90ca",
+      "name": "Women's V-Neck Silk Blend Top",
+      "price": 4580.0,
+      "brand": "Gucci",
+      "color": "Light Grey",
+      "size": "XL",
+      "stock_quantity": 75,
+      "material_composition": [
+        {
+          "material": "Silk",
+          "percentage": 70
+        },
+        {
+          "material": "Viscose",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Dry clean recommended. Hand wash cold separately, lay flat to dry. Do not bleach.",
+      "sales_volume": {
+        "monthly": 52,
+        "total": 418
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 115,
+        "distribution": {
+          "5_star": 98,
+          "4_star": 12,
+          "3_star": 5,
+          "2_star": 0,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f0b2d643",
+      "name": "Women's Fleece-Lined Tech Joggers",
+      "price": 429.9,
+      "brand": "Puma",
+      "color": "Black",
+      "size": "M",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 65
+        },
+        {
+          "material": "Cotton",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 5100
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 400,
+          "4_star": 80,
+          "3_star": 20,
+          "2_star": 8,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "9c3c1571",
+      "name": "Women's Synchilla Fleece Pullover Top",
+      "price": 899.0,
+      "brand": "Patagonia",
+      "color": "Burgundy",
+      "size": "XL",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 100
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Side Pockets, Button-down",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 410,
+        "total": 5230
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1850,
+        "distribution": {
+          "5_star": 1590,
+          "4_star": 210,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a721ab34",
+      "name": "Women's All-Season Performance Tech Top",
+      "price": 449.5,
+      "brand": "Columbia",
+      "color": "Blue",
+      "size": "XL",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 6845
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 798,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 121,
+          "3_star": 18,
+          "2_star": 5,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a2b7dc16",
+      "name": "Women's Solstice Trail Running Shoes",
+      "price": 899.0,
+      "brand": "Patagonia",
+      "color": "Green",
+      "size": "39",
+      "stock_quantity": 248,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 312,
+        "total": 1578
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 75,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with the name 'Women's V-Neck Silk Blend Top' that have a total sales volume greater than 400, are Light Grey in color, and have more than 10 4-star reviews.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 418
+        },
+        {
+          "field": "color",
+          "value": "Light Grey"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 12
+        },
+        {
+          "field": "name",
+          "value": "Women's V-Neck Silk Blend Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Puma, the number of 3-star reviews is less than 25, the number of 2-star reviews is less than 10, the stock quantity is more than 300, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 20
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 8
+        },
+        {
+          "field": "stock_quantity",
+          "value": 350
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Puma"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Patagonia, the target demographic is Women, the name contains 'Synchilla Fleece Pullover', and the number of 3-star ratings is more than 20.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 25
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "brand",
+          "value": "Patagonia"
+        },
+        {
+          "field": "name",
+          "value": "Women's Synchilla Lightweight Snap-T Fleece Pullover"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Columbia, the color is Blue, the average score is greater than 4.5, the stock quantity is more than 400, and it has less than 10 2-star ratings.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Columbia"
+        },
+        {
+          "field": "color",
+          "value": "Blue"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "stock_quantity",
+          "value": 412
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 4-star ratings is more than 50, the average score is above 4.5, the size is 39, the brand is Patagonia, and the number of 5-star ratings is more than 300.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 75
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "size",
+          "value": "39"
+        },
+        {
+          "field": "brand",
+          "value": "Patagonia"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 350
+        }
+      ]
+    }
+  ]
+}

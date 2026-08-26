@@ -1,0 +1,42 @@
+{
+    "task": "Add a new entry labeled 'equipment upgrade' with an amount of 120000 to the end of the company_budget.xlsx file as a new row.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "equipment upgrade"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "120000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add an equipment upgrade entry to the company budget file with the specified amount.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new row must use the label 'equipment upgrade'."
+        },
+        {
+            "fact": "The amount for the new entry should be 120000."
+        },
+        {
+            "action_item": "This entry should be added as a new row at the end of company_budget.xlsx."
+        },
+        {
+            "note": "Make sure to write the entry in columns 1 (label) and 2 (amount)."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,56 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Collect all contact cards except Tom's, save their information in contact.xlsx, first header is name, save in alphabetic order by name, send contact.xlsx to Tom via contact.eml for information",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/contact.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "emails/Bob/contact.eml"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "file": "data/contact.xlsx",
+            "args": {
+                "matches": [
+                    {
+                        "row": "2",
+                        "col": "1",
+                        "value": "Bob"
+                    },
+                    {
+                        "row": "3",
+                        "col": "1",
+                        "value": "John"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Tom",
+                    "4567",
+                    "Bob@example.com",
+                    "1234 Elm Street",
+                    "John",
+                    "7890",
+                    "john.doe@example.com",
+                    "1234 Elm Street"
+                ]
+            }
+        }
+    ]
+}

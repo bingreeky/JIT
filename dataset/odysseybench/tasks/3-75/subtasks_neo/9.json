@@ -1,0 +1,48 @@
+{
+    "task": "Extract the student name from /testbed/data/homework_withname.docx, which contains the name 'Linda' under the field 'Student Name'. Then, rename the PDF file named /testbed/data/homework.pdf to Linda.pdf using a shell command. Finally, send an email to the teacher Alice containing Linda.pdf as an attachment with the subject 'Homework 1 Submission'.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "Homework",
+                    "1",
+                    "Submission"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Linda.pdf"
+            }
+        }
+    ],
+    "query_sentence": "Extract the student's name from the document, use it to rename the PDF file, and send it by email to the teacher with the correct subject.",
+    "ground_truth_memory": [
+        {
+            "fact": "The student's name in homework_withname.docx is Linda."
+        },
+        {
+            "fact": "There is a file called homework.pdf that needs to be renamed using the student's name."
+        },
+        {
+            "fact": "The renamed PDF should be called Linda.pdf."
+        },
+        {
+            "fact": "The email recipient is the teacher Alice."
+        },
+        {
+            "fact": "The email subject should be 'Homework 1 Submission'."
+        },
+        {
+            "action_item": "After renaming homework.pdf to Linda.pdf, send an email to Alice with Linda.pdf attached and the correct subject."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,29 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Predict house price index in year 2030 based on house price index image, write your answer in prediction.docx with format: 'The house price index in 2030 is: [your answer]'",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/prediction.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/prediction.docx",
+                "keywords": [
+                    "2030",
+                    "house",
+                    "price",
+                    "index"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Write the predicted house price index in the specified document."
+}

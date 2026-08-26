@@ -1,0 +1,33 @@
+{
+    "task": "Convert the scanned homework image (homework.jpg) in data into an editable Word document. Save the resulting Word file as 'homework.docx' inside the 'homework' subfolder of the data directory. The document should include all the readable text from the scanned image and be editable in Word.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/homework/homework.docx"
+            }
+        }
+    ],
+    "query_sentence": "Save the editable version of the homework in the required folder.",
+    "ground_truth_memory": [
+        {
+            "fact": "The homework image is located at /testbed/data/homework.jpg."
+        },
+        {
+            "fact": "The editable version should be saved as homework.docx."
+        },
+        {
+            "action_item": "Create a folder named 'homework' under data if it does not already exist."
+        },
+        {
+            "action_item": "Save the Word file in data/homework/."
+        },
+        {
+            "fact": "The Word file should be editable and contain all OCR-recognized text from homework.jpg."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

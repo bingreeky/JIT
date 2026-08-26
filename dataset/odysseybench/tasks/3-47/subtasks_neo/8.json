@@ -1,0 +1,71 @@
+{
+    "task": "Create a summary report in summary.docx highlighting the students who scored above 90 in either midterm1 or midterm2, listing their names and the exam(s) in which they achieved this. The report should have a title 'High Achievers Summary' and include a brief note commending the students on their outstanding performance.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary.docx",
+                "keywords": [
+                    "High Achievers Summary",
+                    "commend",
+                    "Liam",
+                    "Ivy",
+                    "Alice",
+                    "Jack",
+                    "Peter",
+                    "Kate",
+                    "Sam",
+                    "Noah",
+                    "David",
+                    "Bob",
+                    "Frank",
+                    "Tina",
+                    "Rachel",
+                    "Emma",
+                    "Carol"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary.docx",
+                "keywords": [
+                    "above",
+                    "90",
+                    "midterm"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Write a report of students who performed outstandingly in the midterms.",
+    "ground_truth_memory": [
+        {
+            "note": "The output report must be named summary.docx."
+        },
+        {
+            "note": "Highlight students who scored above 90 in either midterm1 or midterm2 in the summary."
+        },
+        {
+            "note": "For each such student, mention their name, the exam(s) in which they scored above 90, and commend their performance."
+        },
+        {
+            "note": "The report must start with the title 'High Achievers Summary'."
+        },
+        {
+            "note": "A short commendatory note should be included in the report for these students."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

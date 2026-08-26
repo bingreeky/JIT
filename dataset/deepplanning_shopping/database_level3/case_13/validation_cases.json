@@ -1,0 +1,288 @@
+{
+  "query": "I'm planning a weekend getaway and need to pick up a few essentials. First, I'm looking for something from Bosideng that's perfect for Spring/Autumn weather, specifically an item with Chukka Boots in the name. Then, I need a product that can arrive super quickly—transport time must be just 1 day—and it should have exactly 35 three-star reviews. Next, I want to get something with 'Palm Sketch' in the name that's popular and well-stocked, so it needs more than 90 units in stock and over 120 total reviews. Finally, I'm after a highly-rated item from The North Face with an average rating above 4.5 and more than 450 five-star reviews to ensure top quality.",
+  "ground_truth_products": [
+    {
+      "product_id": "7e2d4442",
+      "name": "Men's Artisan Leather Chukka Boots",
+      "price": 190.0,
+      "brand": "Bosideng",
+      "color": "Burgundy",
+      "size": "43",
+      "stock_quantity": 74,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Distressed, Zipper Closure",
+      "washing_instructions": "Wipe clean with a damp cloth. Apply leather conditioner periodically. Do not submerge in water.",
+      "sales_volume": {
+        "monthly": 182,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 340,
+          "4_star": 60,
+          "3_star": 8,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Great color",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "dacf0615",
+      "name": "Vans Men's Classic Canvas Skate Shoes",
+      "price": 1168.0,
+      "brand": "Vans",
+      "color": "Black",
+      "size": "43",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Patchwork",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 580,
+        "total": 4150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 1050,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d3aeb85a",
+      "name": "Vans Men's Palm Sketch Graphic Tee",
+      "price": 177,
+      "brand": "Vans",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 95,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Do not iron on print.",
+      "sales_volume": {
+        "monthly": 110,
+        "total": 680
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 125,
+        "distribution": {
+          "5_star": 105,
+          "4_star": 15,
+          "3_star": 4,
+          "2_star": 1,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e4d2bc43",
+      "name": "Men's Summit Series Outdoor Tech Tee",
+      "price": 384.0,
+      "brand": "The North Face",
+      "color": "Yellow",
+      "size": "L",
+      "stock_quantity": 178,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 255,
+        "total": 1852
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 615,
+        "distribution": {
+          "5_star": 492,
+          "4_star": 92,
+          "3_star": 18,
+          "2_star": 6,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥120 off every ¥900": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Bosideng, the suitable season is Spring/Autumn, and the name contains Chukka Boots.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Bosideng"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "name",
+          "value": "Men's Artisan Leather Chukka Boots"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is 1 day and 3-star reviews are exactly 35.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is more than 90, the total reviews is more than 120, and the name contains 'Palm Sketch'.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 95
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 125
+        },
+        {
+          "field": "name",
+          "value": "Vans Men's Palm Sketch Graphic Tee"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is The North Face, the average rating score is greater than 4.5, and the number of 5-star reviews is greater than 450.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "brand",
+          "value": "The North Face"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 492
+        }
+      ]
+    }
+  ]
+}

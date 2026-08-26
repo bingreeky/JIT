@@ -1,0 +1,444 @@
+{
+  "query": "I have a trip coming up very soon and need to get a few things delivered fast. First, I'm looking for a product named 'Blaze Runner' in size 41. It needs to be suitable for all seasons and have fewer than 5 one-star reviews. Next, I need something from the brand Salomon in Olive Green. It has to be highly rated, with more than 250 five-star reviews and over 300 reviews in total, and a transport time of less than 2. I also need a Ralph Lauren item with 'Winter Boot' in its name that has more than 400 total reviews and a transport time of less than 2. Then, I'm searching for a men's item from Vans in the color black, with fewer than 70 three-star reviews, and a transport time of less than 2. Finally, I'm looking for something light grey and suitable for all seasons that has 'GORE-TEX' in the name, and it must also be delivered in less than 2 days.",
+  "ground_truth_products": [
+    {
+      "product_id": "5d1cce18",
+      "name": "Men's 'Blaze Runner' All-Court Shoes",
+      "price": 649.9,
+      "brand": "Li-Ning",
+      "color": "Yellow",
+      "size": "41",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 180,
+        "total": 2540
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 250,
+          "4_star": 80,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f66f7cba",
+      "name": "Men's Tech Amphib 4 Water Shoes",
+      "price": 899.0,
+      "brand": "Salomon",
+      "color": "Olive Green",
+      "size": "41",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Rinse with cool water after use, air dry. Do not expose to direct heat.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1340
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great for summer",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "5a42ac06",
+      "name": "Men's Heritage Leather Winter Boot",
+      "price": 2280.0,
+      "brand": "Ralph Lauren",
+      "color": "Brown",
+      "size": "41",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Zipper Closure, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 150,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e843261d",
+      "name": "Men's 'Off The Wall' Classic Skate Tee",
+      "price": 249.0,
+      "brand": "Vans",
+      "color": "Black",
+      "size": "XL",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 978,
+        "total": 15640
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1780,
+          "4_star": 285,
+          "3_star": 65,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b8147773",
+      "name": "Men's XT-6 GORE-TEX Trail Running Shoes",
+      "price": 1299.0,
+      "brand": "Salomon",
+      "color": "Light Grey",
+      "size": "41",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Printing",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or tumble dry.",
+      "sales_volume": {
+        "monthly": 540,
+        "total": 8950
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1800,
+          "4_star": 250,
+          "3_star": 60,
+          "2_star": 25,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with a name containing 'Blaze Runner', available in size 41, suitable for All Seasons, and with fewer than 5 1-star reviews.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "size",
+          "value": "41",
+          "operator": "equals",
+          "operator_value": "41"
+        },
+        {
+          "field": "name",
+          "value": "Men's 'Blaze Runner' All-Court Shoes",
+          "operator": "contains",
+          "operator_value": "Blaze Runner"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Salomon, there are more than 250 5-star reviews, the color is Olive Green, the transport time is less than 2, and the total number of reviews is greater than 300.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Salomon",
+          "operator": "equals",
+          "operator_value": "Salomon"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 280,
+          "operator": "greater_than",
+          "operator_value": 250.0
+        },
+        {
+          "field": "color",
+          "value": "Olive Green",
+          "operator": "equals",
+          "operator_value": "Olive Green"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 350,
+          "operator": "greater_than",
+          "operator_value": 300.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Ralph Lauren, the total number of reviews is more than 400, the transport time is less than 2, and the name contains 'Winter Boot'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Ralph Lauren",
+          "operator": "equals",
+          "operator_value": "Ralph Lauren"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 450,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Heritage Leather Winter Boot",
+          "operator": "contains",
+          "operator_value": "Winter Boot"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Men, the brand is Vans, the color is Black, the number of 3-star reviews is less than 70, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "brand",
+          "value": "Vans",
+          "operator": "equals",
+          "operator_value": "Vans"
+        },
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 65,
+          "operator": "less_than",
+          "operator_value": 70.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Light Grey, the transport time is less than 2 days, they are suitable for All Seasons, and the name contains 'GORE-TEX'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Light Grey",
+          "operator": "equals",
+          "operator_value": "Light Grey"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "name",
+          "value": "Men's XT-6 GORE-TEX Trail Running Shoes",
+          "operator": "contains",
+          "operator_value": "GORE-TEX"
+        }
+      ]
+    }
+  ]
+}

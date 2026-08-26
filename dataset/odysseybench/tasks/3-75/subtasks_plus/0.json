@@ -1,0 +1,28 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Extract the student name from docx then rename this pdf to {name}.pdf in shell, email teacher Alice with pdf file with subject homework 1 submission",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "homework",
+                    "1",
+                    "submission"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Linda.pdf"
+            }
+        }
+    ],
+    "query_sentence": "Extract the student name from the document, rename the PDF file accordingly, and email it to the teacher with the specified subject."
+}

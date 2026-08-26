@@ -1,0 +1,55 @@
+# The sandbox environment the `execute_code` tool runs generated code in.
+#
+#   conda env create -f environment-sandbox.yml
+#
+# It is deliberately SEPARATE from the `jit` env: agent-generated code should
+# not be able to import the harness, reach the model clients, or touch the
+# credentials in the parent process. The tool looks for it at
+# ~/miniconda3/envs/agent_sandbox (then ~/anaconda3/...); point anywhere else
+# with AGENT_SANDBOX_PYTHON=/path/to/python, or set `conda_python` in a
+# benchmark config.
+#
+# If it is missing entirely, `execute_code` falls back to the current
+# interpreter with a warning -- workable for a smoke test, not what you want
+# for a real run.
+#
+# Contents: the numeric / plotting / document libraries agent code reaches for
+# most often. Add to it freely; nothing here is load-bearing for the harness.
+name: agent_sandbox
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # numeric + scientific
+      - numpy
+      - scipy
+      - sympy
+      - mpmath
+      - networkx
+      - rustworkx
+      - autograd
+      # data
+      - pandas
+      - openpyxl
+      - xlsxwriter
+      - odfpy
+      - lxml
+      - beautifulsoup4
+      # plotting
+      - matplotlib
+      - pillow
+      # documents
+      - python-pptx
+      - reportlab
+      - fpdf2
+      - pymupdf
+      - pdfplumber
+      - pdfminer.six
+      - pypdfium2
+      # misc
+      - requests
+      - python-dateutil
+      - pytz
+      - termcolor

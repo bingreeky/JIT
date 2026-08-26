@@ -1,0 +1,226 @@
+{
+  "query": "I'm updating my wardrobe with some essentials and need to place an order for a few specific items. First, I'm looking for a product with 'Men's Classic Pique Polo Shirt' in the name that's really popular and well-reviewed—it needs to have monthly sales over 520 and an average rating above 4.7. Next, I need something from Zara in Olive Green, size 42, with monthly sales exceeding 150 to ensure it's a solid choice. Finally, I'm after an item targeted for men in size 42 that has proven popularity with total sales over 450, so I know it's a reliable pick. These three pieces should round out what I need perfectly.",
+  "ground_truth_products": [
+    {
+      "product_id": "e22a85a9",
+      "name": "Men's Classic Pique Polo Shirt",
+      "price": 349.0,
+      "brand": "Levi's",
+      "color": "Wine Red",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Button-down",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 521,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1255,
+        "distribution": {
+          "5_star": 1010,
+          "4_star": 195,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "c02aa53b",
+      "name": "Men's Suede Comfort Derby Shoes",
+      "price": 340.0,
+      "brand": "Zara",
+      "color": "Olive Green",
+      "size": "42",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Cotton",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing",
+      "washing_instructions": "Wipe with a soft, dry cloth. Use specialized suede cleaner for stains. Avoid water.",
+      "sales_volume": {
+        "monthly": 152,
+        "total": 988
+      },
+      "rating": {
+        "average_score": 4.68,
+        "total_reviews": 185,
+        "distribution": {
+          "5_star": 145,
+          "4_star": 28,
+          "3_star": 7,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1d333c13",
+      "name": "Men's Silver Metallic Urban Sneaker",
+      "price": 353.0,
+      "brand": "Zara",
+      "color": "Silver",
+      "size": "42",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Cotton",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Printing, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 1950
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 80,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Great color",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥120 off every ¥900": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the name contains 'Men's Classic Pique Polo Shirt', the monthly sales volume is more than 520, and the average rating score is greater than 4.7.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 521
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "name",
+          "value": "Men's Classic Pique Polo Shirt"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Olive Green, the size is 42, the monthly sales volume is more than 150, and the brand is Zara.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Olive Green"
+        },
+        {
+          "field": "size",
+          "value": "42"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 152
+        },
+        {
+          "field": "brand",
+          "value": "Zara"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total sales volume is more than 450, the size is 42, and the target demographic is Men.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 480
+        },
+        {
+          "field": "size",
+          "value": "42"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        }
+      ]
+    }
+  ]
+}

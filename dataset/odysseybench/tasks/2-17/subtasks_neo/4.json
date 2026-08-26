@@ -1,0 +1,72 @@
+{
+    "task": "Add a new student named 'Emma' to class 2 in the 'class_member.xlsx' file by appending a new row with the correct details. Additionally, update the file to include a new column called 'Email', and add Emma's email as 'emma.student@email.com' in her row. Leave the 'Email' column blank for other students.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "Emma"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "2"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "value": "Email"
+                    },
+                    {
+                        "row": 6,
+                        "col": 3,
+                        "value": "emma.student@email.com"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": ""
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": ""
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "value": ""
+                    },
+                    {
+                        "row": 5,
+                        "col": 3,
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the class member excel file by adding a new student and additional info as needed.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new student named Emma needs to be added to class 2 in the class_member.xlsx file."
+        },
+        {
+            "fact": "A new column labeled 'Email' should be created in the file."
+        },
+        {
+            "fact": "Emma's email address is emma.student@email.com and should be inserted in her row under 'Email'."
+        },
+        {
+            "action_item": "All existing students should have their 'Email' column left blank for now."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

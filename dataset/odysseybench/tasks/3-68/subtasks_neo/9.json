@@ -1,0 +1,78 @@
+{
+    "task": "You are to prepare an invoice summary report based on information from two invoices, Invoice.pdf and Invoice_2.pdf, located in /testbed/data. For each invoice, include the invoice number, issue date, recipient company name, and the total amount due. Save the summary in a new Word document named invoice_summary.docx with a table listing this information for both invoices. Ensure the details match the provided meeting notes: Invoice.pdf is invoice INV-2023-101 dated 2020-04-29 to Acme Industries for a total of $14,950.00; Invoice_2.pdf is invoice INV-2023-102 dated 2020-04-30 to Beta Solutions for a total of $22,430.50. The table in the Word file must have columns: Invoice Number, Date, Recipient, Total Amount. Save the file as invoice_summary.docx.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/invoice_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/invoice_summary.docx",
+                "keywords": [
+                    "INV-2023-101",
+                    "2020-04-29",
+                    "Acme Industries",
+                    "14,950.00",
+                    "INV-2023-102",
+                    "2020-04-30",
+                    "Beta Solutions",
+                    "22,430.50"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/invoice_summary.docx",
+                "keywords": [
+                    "Invoice Number",
+                    "Date",
+                    "Recipient",
+                    "Total Amount"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the essential details from Invoice.pdf and Invoice_2.pdf in /testbed/data into a Word report.",
+    "ground_truth_memory": [
+        {
+            "fact": "Invoice.pdf corresponds to invoice number INV-2023-101."
+        },
+        {
+            "fact": "Invoice_2.pdf corresponds to invoice number INV-2023-102."
+        },
+        {
+            "fact": "The issue date for INV-2023-101 is 2020-04-29."
+        },
+        {
+            "fact": "The recipient company for INV-2023-101 is Acme Industries."
+        },
+        {
+            "fact": "The total amount for INV-2023-101 is $14,950.00."
+        },
+        {
+            "fact": "The issue date for INV-2023-102 is 2020-04-30."
+        },
+        {
+            "fact": "The recipient company for INV-2023-102 is Beta Solutions."
+        },
+        {
+            "fact": "The total amount for INV-2023-102 is $22,430.50."
+        },
+        {
+            "action_item": "Summarize both invoices in a table with columns: Invoice Number, Date, Recipient, Total Amount."
+        },
+        {
+            "action_item": "Create and save the summary as invoice_summary.docx in /testbed/data."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,66 @@
+{
+    "task": "1. Add a new row at the bottom of /testbed/data/score.xlsx with Name as 'Lucas', midterm1 score as 88, and midterm2 score as 92. 2. Correct the midterm2 score for 'Noah' in row 10 to 96 instead of the existing value.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "/testbed/data/score.xlsx",
+                "matches": [
+                    {
+                        "row": "22",
+                        "col": "1",
+                        "value": "Lucas"
+                    },
+                    {
+                        "row": "22",
+                        "col": "2",
+                        "value": "88"
+                    },
+                    {
+                        "row": "22",
+                        "col": "3",
+                        "value": "92"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "/testbed/data/score.xlsx",
+                "matches": [
+                    {
+                        "row": "10",
+                        "col": "3",
+                        "value": "96"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the score spreadsheet by adding a new student and correct one of the existing scores as needed.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new student named Lucas needs to be added to the end of score.xlsx."
+        },
+        {
+            "fact": "Lucas's midterm1 score is 88."
+        },
+        {
+            "fact": "Lucas's midterm2 score is 92."
+        },
+        {
+            "fact": "Noah's midterm2 score needs to be corrected to 96 in the spreadsheet."
+        },
+        {
+            "action_item": "When adding the new row, append Lucas after the current last row."
+        },
+        {
+            "action_item": "When updating Noah's score, ensure you change the correct row by cross-referencing his name in the Name column."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

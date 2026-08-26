@@ -1,0 +1,621 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hey AI, good morning!",
+          "ts": "2020-04-26 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! Hope you're having a nice start to your day.",
+          "ts": "2020-04-26 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! I just made coffee and I'm getting settled in.",
+          "ts": "2020-04-26 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Coffee always helps. Do you take it with milk or just black?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Usually with some oat milk. What about you?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "I don't drink coffee but I'd recommend a touch of cinnamon if you ever want to mix it up!",
+          "ts": "2020-04-26 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Interesting! I might try that next time.",
+          "ts": "2020-04-26 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Do let me know what you think! Are you planning anything special today?",
+          "ts": "2020-04-26 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just a regular workday. I have some files to organize later.",
+          "ts": "2020-04-26 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "If you need suggestions for organizing, just let me know!",
+          "ts": "2020-04-26 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "I found that the two images are students_ids.jpg and students_scores.jpg in my directory.",
+          "ts": "2020-04-26 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Good to have that clarified. Let me know if you need any help referencing or managing those images.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure, thanks! By the way, do you have any movie recommendations?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Do you like sci-fi or dramas? I could recommend some based on your preference.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "More into sci-fi. Anything new and exciting?",
+          "ts": "2020-04-26 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "\"Arrival\" and \"Dune\" are pretty popular sci-fi movies. Have you watched those?",
+          "ts": "2020-04-26 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "\"Arrival\" was great! Haven't seen \"Dune\" yet though.",
+          "ts": "2020-04-26 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "\"Dune\" has a strong storyline and visuals. Worth checking out if you like epic sci-fi.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll add it to my watchlist. Do you help schedule movie nights too?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! If you set a date and time, I can help you put it on your calendar.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe next weekend. I have to finish organizing my files first.",
+          "ts": "2020-04-26 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a plan! Want any tips for staying motivated while organizing?",
+          "ts": "2020-04-26 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure, why not. Always good to hear some tips.",
+          "ts": "2020-04-26 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Try setting a timer and rewarding yourself for every 30 minutes of work. It helps break the task into chunks!",
+          "ts": "2020-04-26 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a great idea. I'll give that a try today, thank you!",
+          "ts": "2020-04-26 08:24",
+          "speaker": "user"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Morning, AI! It's a nice sunny day here.",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! Glad you got some sun. Any plans to be outside today?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe just a walk later after work. Right now, more time on the computer as usual.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "A walk sounds lovely. Let me know if you need reminders to stretch while working.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! By the way, I need to create a new Excel file named image_metadata.xlsx for organizing image metadata.",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted! Let me know if you'd like any help outlining the spreadsheet or organizing the information inside.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure, I'll think about how to format it. What column headers do you suggest for an image metadata sheet?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Typical headers include 'File Name', 'Description', 'Date Added', and 'Tags'. Would you like to include all of those?",
+          "ts": "2020-04-27 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I think I'll keep it simple with just name and description for now.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "That works well for a quick catalog. Let me know if you want to expand it later.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "I often overcomplicate things by adding too many columns. Simpler is sometimes better.",
+          "ts": "2020-04-27 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Starting simple makes future updates easier too.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are you able to help with Excel formulas, if needed?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Just let me know what you need. I can assist with sums, averages, lookups, and more.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great, that's really helpful. What about making tables look nice?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "You can use formatting options like bold headers, borders, and alternating row colors to enhance readability.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll give that a try. Maybe I'll color code some rows.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Color coding can help identify categories or highlight important info at a glance.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you heard of anyone using emojis in Excel sheets?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! Some people use emojis for visual cues, like check marks or warning signs, to quickly spot status or notes.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s clever. I might try that! I just want the spreadsheet to be easy to read.",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Clean and clear is always best. Let me know when you're ready to fill in the details for your images.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, will do. For now, just getting ready before my first meeting of the day.",
+          "ts": "2020-04-27 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Good luck with your meeting! Ping me anytime if you need support before or after.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, I'll be back after. Have a good morning!",
+          "ts": "2020-04-27 08:24",
+          "speaker": "user"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning, AI. I had a late night but I'm up and ready.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad you're awake, Alice! Anything in particular you want to accomplish today?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just a few tasks, mostly routine. I'll start by adding a row for students_ids.jpg in the spreadsheet with the note 'Contains student ID photos'.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds like a clear step for your image metadata sheet. Let me know if you'd like me to check your entry later.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure thing! After that, I'll see what else is on my list.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "You seem organized today despite the late night. How\u2019s your energy level?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might need another coffee soon, but I\u2019ll manage.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Caffeine to the rescue! Do you have a favorite coffee mug?",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes! It's got a funny cat on it. Always puts me in a good mood.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s adorable. A cheerful mug can make mornings much better.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any fun facts about cats?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Did you know cats have five toes on their front paws but only four on the back?",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "I didn\u2019t! That\u2019s neat. I\u2019ll share that with my friend who loves cats.",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Cat trivia always comes in handy in a conversation.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I should add a fun fact section to my notes somewhere.",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "That would make your notes more interesting. If you want, I can help brainstorm trivia!",
+          "ts": "2020-04-28 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll think about that. Might make meetings more fun, too.",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Icebreakers like that can lighten the mood.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's the best way to stay alert during long video calls?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Try taking notes by hand or standing up if possible. Changing your posture helps!",
+          "ts": "2020-04-28 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great tips. I might try standing for my next one.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know how it goes. I\u2019m here for any other productivity hacks you need.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, AI! Always helpful.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "user"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Hi AI! Quick update\u2014I'm going to add a row for students_scores.jpg in my spreadsheet with the note 'Contains student score sheets'.",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "That's perfect, Alice. Your image metadata spreadsheet is coming together well!",
+          "ts": "2020-04-29 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! I think it'll be easy to look up files with these notes.",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Clear notes always make file management smoother.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "By the way, do you have any tips for naming new files?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Try to keep names descriptive but concise. Dates or keywords related to the content help too!",
+          "ts": "2020-04-29 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. I'll use that approach for future images.",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you want any help developing a naming convention.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Did you ever help someone organize audio files?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, people often tag audio files by artist, album, or date. Similar strategies work for most digital media.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "That makes sense. My music folder is a mess! Maybe I'll tackle it next.",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Sorting by genre or playlist can make big libraries much easier to navigate.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll try playlists. On another note, do you know good apps for learning new languages?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Duolingo, Memrise, and Babbel are popular choices. They use interactive lessons and practice exercises.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "I've heard of Duolingo\u2014I'll check out the others too.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy to help. If you choose a language, I can suggest study routines too.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I'll start with Italian. I've always wanted to visit Italy.",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "That's wonderful! Knowing some basics will make your trip even better.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any Italian words?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! 'Ciao' means hello or goodbye, and 'grazie' means thank you.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect! I'll practice those today. Thanks for the help, as always.",
+          "ts": "2020-04-29 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Prego! (That means 'you're welcome.') Let me know if you want more Italian phrases.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll let you know. Time for more file organizing!",
+          "ts": "2020-04-29 08:22",
+          "speaker": "user"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Good morning, AI! How\u2019s your day so far?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! My day only just started, but I\u2019m here and ready to help.",
+          "ts": "2020-04-30 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Did you know it\u2019s my favorite month? I love April.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "April is lovely\u2014spring blooms, warmer weather, and longer days.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite season?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could choose, I\u2019d say autumn for the colors and crisp air. Do you like autumn too?",
+          "ts": "2020-04-30 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I do, but spring is still number one for me.",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Understandable. Spring feels full of possibilities.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you ever seen a cherry blossom tree in bloom? They\u2019re amazing.",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Photos look beautiful! Must be breathtaking in real life.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any fun facts about cherry blossoms?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "They symbolize renewal and the fleeting nature of beauty in Japanese culture.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s poetic. I love learning cultural meanings of flowers.",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Flowers are rich in symbolism across many cultures. Roses, for instance, are often linked to love and passion.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "True! Speaking of flowers, have you ever helped someone plan a garden?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! I can recommend layouts, plant types, and even gardening apps.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll make a balcony garden this year. Herbs or flowers\u2014what do you think?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Herbs are practical and easy to grow, but mixing in some flowers adds color and joy!",
+          "ts": "2020-04-30 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds nice. Any favorite herbs for beginners?",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Basil, mint, and parsley are easy and useful in cooking.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great suggestions! I\u2019ll pick up some seeds this weekend.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy planting! Gardening is relaxing and rewarding.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I hope so. Have a wonderful day, AI!",
+          "ts": "2020-04-30 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "You too, Alice! I\u2019m here whenever you need a hand or a fun tip.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

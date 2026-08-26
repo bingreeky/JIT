@@ -1,0 +1,36 @@
+{
+    "task": "Retrieve the 'ACADEMIC INTEGRITY FOR RESEARCH' section from academic_integrity.docx and insert it at the beginning of the empty project_report.docx file. Ensure the inserted content includes at least the title and key principles (purpose of study, participant selection, risk and benefit balance, protecting anonymity).",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "./data/project_report.docx",
+                "keywords": [
+                    "ACADEMIC INTEGRITY FOR RESEARCH",
+                    "purpose of the study",
+                    "participants for the study",
+                    "risks",
+                    "benefits",
+                    "protect the anonymity"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Insert the academic integrity guidelines into the project report document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The academic integrity section is in academic_integrity.docx under the heading 'ACADEMIC INTEGRITY FOR RESEARCH (if applicable)'."
+        },
+        {
+            "fact": "The project_report.docx file is currently empty and should have the academic integrity section inserted at its beginning."
+        },
+        {
+            "action_item": "When copying content, ensure the main title 'ACADEMIC INTEGRITY FOR RESEARCH' and principles related to purpose of study, participant selection, risks/benefits, and protecting anonymity are included."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

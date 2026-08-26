@@ -1,0 +1,45 @@
+{
+    "task": "Add a calendar event for Bob titled 'Project Kickoff Meeting' on 5/20/2024 from 9:00 a.m. to 10:00 a.m. The event title should include the note: 'Discuss project milestones'.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "./calendar/Bob.ics",
+                "keywords": [
+                    "Project Kickoff Meeting",
+                    "Discuss project milestones",
+                    "DTSTART:20240520T090000",
+                    "DTEND:20240520T100000"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add a new calendar event for Bob with all necessary details for the meeting.",
+    "ground_truth_memory": [
+        {
+            "key": "event_title",
+            "value": "Project Kickoff Meeting"
+        },
+        {
+            "key": "start_time",
+            "value": "2024-05-20T09:00:00"
+        },
+        {
+            "key": "end_time",
+            "value": "2024-05-20T10:00:00"
+        },
+        {
+            "key": "event_note_for_title",
+            "value": "Discuss project milestones"
+        },
+        {
+            "key": "calendar_file",
+            "value": "./calendar/Bob.ics"
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

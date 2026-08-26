@@ -1,0 +1,17 @@
+{
+  "username": "Bob",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Put student scores from scanned PDF file to scores.xlsx, save it in folder scores",
+  "evaluation": [
+    {
+      "function": "evaluate_exact_match",
+      "args": {
+        "doc_type": "xlsx",
+        "result_file": "./data/scores/scores.xlsx",
+        "expected_file": "../../../../reference/scores.xlsx"
+      }
+    }
+  ]
+}

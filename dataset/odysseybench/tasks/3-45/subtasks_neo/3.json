@@ -1,0 +1,50 @@
+{
+    "task": "Update the training schedule by adding a new participant named 'Grace' to Section B with a training time of 11:00 AM - 1:00 PM in the 'team_training_schedule.xlsx' file. Make sure Grace is added as the seventh participant in the list, after Frank. Verify that the new entry for Grace appears correctly in the table.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_training_schedule.xlsx",
+                "matches": [
+                    {
+                        "row": 8,
+                        "col": 1,
+                        "value": "Grace"
+                    },
+                    {
+                        "row": 8,
+                        "col": 2,
+                        "value": "Section B"
+                    },
+                    {
+                        "row": 8,
+                        "col": 3,
+                        "value": "11:00 AM - 1:00 PM"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the training schedule to include a new participant in the appropriate section and time.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new participant named Grace needs to be added to the training schedule."
+        },
+        {
+            "fact": "Grace should be in Section B."
+        },
+        {
+            "fact": "Grace's training time is 11:00 AM - 1:00 PM."
+        },
+        {
+            "fact": "Grace should be listed as the seventh participant, after Frank, in the table."
+        },
+        {
+            "fact": "The updates should be made to the 'team_training_schedule.xlsx' file."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

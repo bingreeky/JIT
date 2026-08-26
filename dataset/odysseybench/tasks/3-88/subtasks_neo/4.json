@@ -1,0 +1,34 @@
+{
+    "task": "Create a bar chart visualizing the total sales revenue for each product line from the January data in 'sales_report.pdf' and save the visualization as 'product_line_revenue.png'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/product_line_revenue.png"
+            }
+        }
+    ],
+    "query_sentence": "Generate a bar chart to show the total sales revenue by product line for January sales and save the image.",
+    "ground_truth_memory": [
+        {
+            "fact": "The report sales_report.pdf contains January sales data across various product lines.",
+            "type": "file_fact"
+        },
+        {
+            "fact": "The required output file is named product_line_revenue.png.",
+            "type": "action_item"
+        },
+        {
+            "fact": "The bar chart should visualize total sales revenue for each product line from the January section.",
+            "type": "action_item"
+        },
+        {
+            "fact": "The relevant columns in the sales data are 'Sales Revenue ($)' and 'Product Line'.",
+            "type": "file_fact"
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

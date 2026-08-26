@@ -1,0 +1,62 @@
+{
+    "task": "Identify all records in car_trading.xlsx where Bob appears as either the buyer or the seller. Summarize these trade records, including car model, date, role (buyer/seller), counterparty, and price, in a new Word document named 'bob_trades.docx'. Then, convert this docx file to a PDF file named 'bob_trades.pdf'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/bob_trades.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/bob_trades.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/bob_trades.docx",
+                "keywords": [
+                    "Toyota",
+                    "Camry",
+                    "BMWXS",
+                    "MS0i"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/bob_trades.docx",
+                "keywords": [
+                    "2024",
+                    "buyer",
+                    "seller",
+                    "Price"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize all trades involving Bob from the car trading records and include key details in a document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary should include all trades where Bob appears as buyer or seller in car_trading.xlsx."
+        },
+        {
+            "fact": "Summarize car model, date, Bob's role, counterparty name, and price."
+        },
+        {
+            "fact": "Save the summary in a file named 'bob_trades.docx'."
+        },
+        {
+            "fact": "Convert 'bob_trades.docx' to PDF and name it 'bob_trades.pdf'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

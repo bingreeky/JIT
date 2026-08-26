@@ -1,0 +1,44 @@
+{
+    "task": "Review the financial_report_2.xlsx Excel file and summarize the key financial evaluation metrics (Net present value, Internal rate of return, Payback period) into a new Word document named financial_summary.docx placed in the data folder. In addition to the metrics, include mention of the company name 'Quadrex Hardware' and 'Required rate of return' in the summary.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/financial_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/financial_summary.docx",
+                "keywords": [
+                    "Net present value",
+                    "Internal rate of return",
+                    "Payback period",
+                    "Quadrex Hardware",
+                    "Required rate of return"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the key financial evaluation metrics from the provided Excel file into a Word document.",
+    "ground_truth_memory": [
+        {
+            "item": "The output file must be named financial_summary.docx and saved in the data folder."
+        },
+        {
+            "item": "The summary must cover Net present value, Internal rate of return, and Payback period for the project evaluation."
+        },
+        {
+            "item": "Mention 'Quadrex Hardware' in the summary as the company name."
+        },
+        {
+            "item": "Include the required rate of return as a key metric in the summary."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

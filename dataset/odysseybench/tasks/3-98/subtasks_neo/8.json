@@ -1,0 +1,95 @@
+{
+    "task": "Create a new Excel file named 'team_roster.xlsx' that contains a table with columns 'Name', 'Role', and 'Extension'. Add three rows with the following data: (1) Name: Alice, Role: Manager, Extension: 1001; (2) Name: Bob, Role: Engineer, Extension: 1002; (3) Name: Carol, Role: Analyst, Extension: 1003.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/team_roster.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_roster.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Name"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Role"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "value": "Extension"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Alice"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "Manager"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "1001"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Bob"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "Engineer"
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": "1002"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Carol"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "Analyst"
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "value": "1003"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create an Excel file for the team roster based on the provided information.",
+    "ground_truth_memory": [
+        {
+            "info": "The Excel file to be created must be named 'team_roster.xlsx' and saved in the 'data' folder."
+        },
+        {
+            "info": "The roster table must have three columns: 'Name', 'Role', and 'Extension'."
+        },
+        {
+            "info": "Add three rows: Alice (Manager, 1001), Bob (Engineer, 1002), Carol (Analyst, 1003)."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,46 @@
+{
+    "task": "Create a new Word document named 'meeting_notes.docx'. Summarize the main outcomes from Monday's weekly team meeting, ensuring to include key topics discussed: project timeline updates, budget allocation, and new team member introductions. Ensure the summary contains at least one keyword related to each topic. Save the document.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/meeting_notes.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/meeting_notes.docx",
+                "keywords": [
+                    "project",
+                    "timeline",
+                    "budget",
+                    "allocation",
+                    "team",
+                    "member",
+                    "introduction"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Write a summary of the main outcomes from the recent Monday team meeting in a new Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The file should be named 'meeting_notes.docx' and created in the data directory."
+        },
+        {
+            "fact": "The summary must cover three main topics: project timeline updates, budget allocation, new team member introductions."
+        },
+        {
+            "fact": "Each topic should be referenced with at least one relevant keyword in the summary."
+        },
+        {
+            "fact": "The document should be saved after editing."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

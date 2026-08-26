@@ -1,0 +1,47 @@
+{
+    "task": "Summarize Bill's average letter grade for each academic term (Winter 2022, Spring 2022, Fall 2022, Winter 2023, Spring 2023) based on the data in Bill_course_lists.xlsx, and write a concise summary paragraph for each term into the file Bill_term_summaries.docx. Each paragraph should specify the term, year, and the computed average grade for that term. Make sure each paragraph is separated and the term name/year is clearly indicated at the start of each paragraph.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/Bill_term_summaries.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Winter",
+                    "2022",
+                    "average grade",
+                    "Spring",
+                    "2022",
+                    "Fall",
+                    "2022",
+                    "Winter",
+                    "2023",
+                    "Spring",
+                    "2023"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize Bill's academic performance per term and year in a summary document, including average grades for each period.",
+    "ground_truth_memory": [
+        {
+            "fact": "Output should be written into the file Bill_term_summaries.docx."
+        },
+        {
+            "fact": "A summary paragraph for each term/year must be included, i.e., Winter 2022, Spring 2022, Fall 2022, Winter 2023, Spring 2023."
+        },
+        {
+            "fact": "Each summary paragraph must start with the term and year and present that term's average letter grade as computed from Bill_course_lists.xlsx."
+        },
+        {
+            "fact": "Each term's summary must be presented as a separate paragraph."
+        },
+        {
+            "fact": "The docx filename (Bill_term_summaries.docx) must exactly match the required output."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

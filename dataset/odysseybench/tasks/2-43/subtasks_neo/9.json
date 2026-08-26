@@ -1,0 +1,50 @@
+{
+    "task": "Create a summary report in a new Word document named 'revenue_summary.docx' that includes: (1) the total revenue for all years from 2004 to 2023 based on the company_revenues.xlsx file, (2) the year with the highest revenue, and (3) the year with the lowest revenue. Make sure to mention both the revenue amounts and the corresponding years for the highest and lowest revenues directly in the report. The summary should be concise and focus only on these three aspects.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "word",
+                "file": "revenue_summary.docx",
+                "keywords": [
+                    "total revenue",
+                    "highest revenue",
+                    "lowest revenue",
+                    "2004",
+                    "2023"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "word",
+                "file": "revenue_summary.docx",
+                "keywords": [
+                    "summary report",
+                    "revenue",
+                    "year"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a summary report on the company's revenues in a Word document, focusing on key yearly figures.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary report should be created in a new Word document named revenue_summary.docx."
+        },
+        {
+            "fact": "Calculate and include the total revenue from all years (2004–2023) provided in company_revenues.xlsx."
+        },
+        {
+            "fact": "Identify and write the year with the highest revenue and its amount, and the year with the lowest revenue and its amount, directly in the summary."
+        },
+        {
+            "fact": "The report should be concise, only covering total revenue, and the highest and lowest annual revenues with their respective years and values."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

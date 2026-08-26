@@ -1,0 +1,27 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Write a statement in reward.docx to the student who got the highest score on midterm1, email this to student's parents (the name of the email file is student_name.eml). Student's parents' email have the form student_name@mail.com.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/reward.docx"
+          }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tina",
+                "keywords": [
+                    "midterm1",
+                    "highest",
+                    "score"
+                ]
+            }
+        }
+    ]
+}

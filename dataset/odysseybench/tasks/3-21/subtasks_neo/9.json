@@ -1,0 +1,60 @@
+{
+    "task": "1. Review the fellowship_application.pdf in /testbed/data to determine if it meets the requirements outlined in the school_policy.jpg, specifically checking for the presence of all mandatory items: Applicant's Name, Applicant's Email Address, Statement of Purpose, Two References, Materials Submitted before Deadline, and Deadline. 2. Identify if any required elements are missing from the application. 3. Write a concise evaluation summary in result.docx indicating which required items are present or missing (especially the missing second reference and deadline details). 4. Clearly note in result.docx that the application is incomplete due to missing the second reference and deadline information.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/result.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/result.docx",
+                "keywords": [
+                    "missing",
+                    "reference",
+                    "deadline",
+                    "incomplete"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/result.docx",
+                "keywords": [
+                    "present",
+                    "name",
+                    "email",
+                    "statement",
+                    "purpose"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Evaluate the fellowship application against the school policy, summarize which required elements are present or missing in a Word document, and state whether the application is incomplete.",
+    "ground_truth_memory": [
+        {
+            "fact": "The result summary must be saved in a file named result.docx in the data directory."
+        },
+        {
+            "fact": "The policy requires the following elements: Applicant's Name, Applicant's Email Address, Statement of Purpose, Two References, Materials Submitted before Deadline, and Deadline."
+        },
+        {
+            "fact": "Fellowship_application.pdf contains only one reference and does not state a submission deadline, so these must be marked as missing."
+        },
+        {
+            "action_item": "The result.docx summary must clearly mention which required elements are present (name, email, statement of purpose) and which are missing (one reference missing, deadline missing)."
+        },
+        {
+            "action_item": "Explicitly state in result.docx that the application is incomplete due to missing items."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

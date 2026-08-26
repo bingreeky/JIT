@@ -1,0 +1,50 @@
+{
+    "task": "Extract contact information from the business card images (Bob_card.png, John_card.jpg, Tom_card.png) in '/testbed/data' using OCR. Populate an Excel sheet called 'team_contacts.xlsx' with their information. However, exclude Tom's contact from the Excel sheet. Additionally, add a company column with the value 'Acme Corp' for all included contacts. Make sure to list Bob and John's contacts, each with name, phone, email, and company columns.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/team_contacts.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "Bob",
+                    "John",
+                    "Acme",
+                    "Corp"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "file": "data/team_contacts.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "Tom"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract contact details from the provided business card images and fill an Excel file with the required data, making sure to account for any necessary exclusions or format adjustments.",
+    "ground_truth_memory": [
+        {
+            "fact": "The business card images are named Bob_card.png, John_card.jpg, and Tom_card.png."
+        },
+        {
+            "action_item": "Tom's contact details should not be included in the Excel output."
+        },
+        {
+            "action_item": "The output Excel file should be named 'team_contacts.xlsx'."
+        },
+        {
+            "action_item": "A company column with the value 'Acme Corp' for each included contact must be filled."
+        },
+        {
+            "action_item": "Each included contact (Bob and John) should have columns for name, phone, email, and company."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

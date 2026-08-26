@@ -1,0 +1,256 @@
+{
+  "query": "I'm doing some urgent online shopping to update my wardrobe and need everything to arrive quickly. First, I'm looking for a popular item from Levi's that has a monthly sales volume of more than 450. Since I'm in a hurry, the transport time must be less than 2 days. To go with that, I also need something from Nike in a size 42 that's suitable for all seasons. It must be well-regarded, with more than 800 four-star ratings, and also needs to have a transport time of less than 2 days. Finally, I'm searching for a silver item in size XXL. I want to make sure it's available and has been a steady seller, so it must have a stock quantity of over 100 and a total sales volume of more than 550.",
+  "ground_truth_products": [
+    {
+      "product_id": "1cf3564f",
+      "name": "Women's Classic Canvas Low-Top Sneakers",
+      "price": 429.0,
+      "brand": "Levi's",
+      "color": "Beige",
+      "size": "42",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 90
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Vintage Wash, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 6730
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1592,
+        "distribution": {
+          "5_star": 1250,
+          "4_star": 280,
+          "3_star": 45,
+          "2_star": 12,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "True to size",
+        "Comfortable fabric",
+        "Stylish design",
+        "Good value for money",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "75fe26e9",
+      "name": "Women's Court Legacy Next Nature Shoes",
+      "price": 549.0,
+      "brand": "Nike",
+      "color": "White",
+      "size": "42",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 80
+        },
+        {
+          "material": "Nylon",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Air dry. Do not place in washing machine or dryer.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 22430
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 6854,
+        "distribution": {
+          "5_star": 5820,
+          "4_star": 815,
+          "3_star": 125,
+          "2_star": 64,
+          "1_star": 30
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "bc7d6aa3",
+      "name": "Women's Apex Bionic Softshell Top",
+      "price": 899.0,
+      "brand": "The North Face",
+      "color": "Silver",
+      "size": "XXL",
+      "stock_quantity": 120,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 94
+        },
+        {
+          "material": "Spandex",
+          "percentage": 6
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener or bleach.",
+      "sales_volume": {
+        "monthly": 45,
+        "total": 580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 180,
+          "4_star": 25,
+          "3_star": 7,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the monthly sales volume is more than 450, the transport time is less than 2, and the brand is Levi's.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 488,
+          "operator": "greater_than",
+          "operator_value": 450.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Nike, has more than 800 4-star ratings, the transport time is less than 2, is suitable for All Seasons, and the size is 42.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Nike",
+          "operator": "equals",
+          "operator_value": "Nike"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 815,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "size",
+          "value": "42",
+          "operator": "equals",
+          "operator_value": "42"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Silver, stock quantity is more than 100, total sales volume is more than 550, and the size is XXL.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Silver",
+          "operator": "equals",
+          "operator_value": "Silver"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 120,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 580,
+          "operator": "greater_than",
+          "operator_value": 550.0
+        },
+        {
+          "field": "size",
+          "value": "XXL",
+          "operator": "equals",
+          "operator_value": "XXL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+    "task": "Extract the meeting details from the meeting_notification.jpg image and write a concise summary as a PDF file named meeting_summary.pdf in the root data folder. The summary must include: meeting date, time, location, purpose (Project Update), main agenda points (task assignments and Q&A session), and reference the Project Team.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/meeting_summary.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/meeting_summary.pdf",
+                "keywords": [
+                    "Project Team",
+                    "June 20",
+                    "2024",
+                    "10:00 AM",
+                    "11:00 AM",
+                    "Conference Room A",
+                    "Project Update",
+                    "task assignments",
+                    "Q&A session"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the key meeting details from the notification image into a PDF file in the specified location.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary should reference the Project Team as the meeting's audience."
+        },
+        {
+            "fact": "The date for the meeting summary is June 20, 2024."
+        },
+        {
+            "fact": "The meeting time should be included: 10:00 AM - 11:00 AM."
+        },
+        {
+            "fact": "Conference Room A is the location and should be part of the summary."
+        },
+        {
+            "fact": "The meeting's purpose is 'Project Update', which must be stated."
+        },
+        {
+            "fact": "The agenda includes: task assignments and a Q&A session."
+        },
+        {
+            "action_item": "Create a PDF file named meeting_summary.pdf in the root data folder and include all the above details."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

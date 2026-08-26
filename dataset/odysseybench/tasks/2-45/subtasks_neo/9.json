@@ -1,0 +1,68 @@
+{
+    "task": "Extract the key details of the Friday client meetings schedule from daily_schedule.jpg, then send an email titled 'Friday Client Meetings Schedule' to colleagues Bob and Carol. The email should include the meeting times with Acme Corp (2:00 PM) and Beta LLC (4:30 PM), the meeting platform (Zoom), and the agenda items (quarterly review for Acme Corp, product demo for Beta LLC). Ensure that both Bob and Carol receive the full schedule in the email.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Friday",
+                    "client",
+                    "meeting",
+                    "Acme Corp",
+                    "2:00 PM",
+                    "Beta LLC",
+                    "4:30 PM",
+                    "Zoom",
+                    "quarterly review",
+                    "product demo"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Carol",
+                "keywords": [
+                    "Friday",
+                    "client",
+                    "meeting",
+                    "Acme Corp",
+                    "2:00 PM",
+                    "Beta LLC",
+                    "4:30 PM",
+                    "Zoom",
+                    "quarterly review",
+                    "product demo"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Send the client meeting schedule for Friday to Bob and Carol by email.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Friday client meetings schedule is contained in daily_schedule.jpg."
+        },
+        {
+            "fact": "The email should be sent to Bob and Carol."
+        },
+        {
+            "fact": "The subject of the email is 'Friday Client Meetings Schedule'."
+        },
+        {
+            "fact": "Meeting with Acme Corp is at 2:00 PM on Zoom. Agenda: quarterly review."
+        },
+        {
+            "fact": "Meeting with Beta LLC is at 4:30 PM on Zoom. Agenda: product demo."
+        },
+        {
+            "fact": "Both meetings should be included in the body of the email sent to Bob and Carol."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,19 @@
+{
+  "username": "Alice",
+  "date": "2024-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "What is the earliest email to Bob about? Read the contents as the answer.",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/answer.txt",
+        "doc_type": "txt",
+        "keywords": [
+          "Subject: Reminder Rent due"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1911 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hey, are you ready to help with some Excel planning today?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, I'm always ready to assist! What do you need help with today?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm considering how to manage updates to our class member spreadsheet. Any suggestions?",
+          "ts": "2020-04-26 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keeping the data organized is crucial. One typical approach is to use separate files for updates. Would that work for you?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yeah, I think that's smart. For example, if I update the class list, I want to save the changes to a new file.",
+          "ts": "2020-04-26 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would be very safe, and it prevents accidental changes to the original. Do you have a filename in mind for updated lists?",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's use 'data/class_member_update.xlsx' for saving updated lists. Is that clear?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Crystal clear! So, any updates go into 'data/class_member_update.xlsx', not the original file.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. That way, the update process is more controlled.",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! Would you like to apply this practice to all Excel lists or just this one?",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's just do it for the class member list right now.",
+          "ts": "2020-04-26 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem. I'll remember to always save updates in 'data/class_member_update.xlsx'.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Out of curiosity, how many rows are in our main class list?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can look that up next time you need a count! Or would you like to check it together?",
+          "ts": "2020-04-26 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe tomorrow, let's focus on processes for now.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Is there a specific process you want to discuss more deeply?",
+          "ts": "2020-04-26 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Actually, I just want to be sure whenever we do an update, we use the right file name.",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Any update goes into 'data/class_member_update.xlsx'. I'll be sure to stick to that.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Do you ever get to track updates on different types of files?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Excel, Word, PDF\u2014you name it. I can help manage updates across all kinds of files.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. By the way, have you learned any spreadsheet jokes?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Why did the spreadsheet cross the road? To get to the other column!",
+          "ts": "2020-04-26 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, that's funny. Speaking of columns, should the new file have all the old columns preserved?",
+          "ts": "2020-04-26 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the new file should mirror the structure of the original. All columns and data should remain intact, just with the update added.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. I like that approach.",
+          "ts": "2020-04-26 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Me too! Consistency makes data management much simpler.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Right. So, just to confirm, updates must go into the new file, not the original one.",
+          "ts": "2020-04-26 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood, Bob\u2014new or amended data always in 'data/class_member_update.xlsx'.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. On another note, what's your favorite Excel feature?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I really like PivotTables\u2014they're great for summarizing lots of data quickly.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yeah, I use those sometimes. Do you like conditional formatting?",
+          "ts": "2020-04-26 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! It makes it so easy to spot trends or outliers.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back to updates, make sure you remind me whenever we start an edit that we shouldn't overwrite the main file.",
+          "ts": "2020-04-26 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'll always confirm before making changes and ensure the updates go into the new file.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. By the way, what's your favorite formula?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "SUM is a staple, but I also enjoy using IF statements for quick logic.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Those are handy. Ever use VLOOKUP?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "All the time\u2014especially when cross-referencing data between sheets!",
+          "ts": "2020-04-26 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. What about file organization tips, any advice?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keep a logical directory structure, use clear names, and keep backups\u2014like saving updates to 'data/class_member_update.xlsx'.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's reassuring. I sometimes worry about losing work.",
+          "ts": "2020-04-26 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Saving updates in a new file is a great safeguard. We'll stick to that system.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. Out of curiosity, do you like charts?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Charts are great for visualizing data. They're one of Excel's best features.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I'll try making one after we update the file next time.",
+          "ts": "2020-04-26 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea! I can help you with that whenever you're ready.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Quick reminder\u2014where will the update go?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Any updates will go into 'data/class_member_update.xlsx', never the original file.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great memory!",
+          "ts": "2020-04-26 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you! Repetition helps me get it right.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, me too. Speaking of, are there any Excel shortcuts I should know?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Try Ctrl+Shift+L for filtering, or Alt+= to auto-sum selected cells.",
+          "ts": "2020-04-26 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice tips! I'll try those soon.",
+          "ts": "2020-04-26 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know how it goes! Shortcuts can really boost productivity.",
+          "ts": "2020-04-26 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely. By the way, remember to always create the update file if we make changes.",
+          "ts": "2020-04-26 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I will, Bob. I\u2019ll always use 'data/class_member_update.xlsx' for updates.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. Do you get to help many people with spreadsheets?",
+          "ts": "2020-04-26 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, a lot! From organizing lists to generating summaries\u2014I enjoy it all!",
+          "ts": "2020-04-26 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds like fun! Ever get confused by lots of similar files?",
+          "ts": "2020-04-26 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Having a clear naming convention like we're using helps me keep them sorted.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Absolutely. Glad we're on the same page.",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Organization makes everything easier!",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want to tell me another spreadsheet joke?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why don't spreadsheets ever get lost? Because they always keep their cells together!",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "You're on a roll today!",
+          "ts": "2020-04-26 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'm always ready for some fun as well as some work!",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, let's wrap up soon, but please never forget: updates go in 'data/class_member_update.xlsx'.",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood and noted, Bob. We\u2019ll stick to updates in the new file.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you! Let's talk about weather. Is it sunny in the digital world?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always bright and clear in my memory circuits!",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! Any digital holidays coming up?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Every day is a new byte-day for me!",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's clever. Maybe I should try to be as positive.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can help with that! A little humor goes a long way.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. Let's do an Excel tip again before signing off.",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Here's one: Freeze panes to keep headers visible as you scroll.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's useful. I'll try that tomorrow. Thanks!",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're welcome. If you need any file reminders, just ask!",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Make sure the update is always put in the correct file.",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll make sure updates are saved in 'data/class_member_update.xlsx'.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright! Signing off for now.",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "See you next time, Bob!",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning, ready for another productive day?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! I'm always ready to help. What's on the agenda today?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I've been thinking about our class list updates.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keeping the class list current is definitely important. Any specific changes needed today?",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, there's actually a new student who should be added.",
+          "ts": "2020-04-27 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's exciting! What's the new student's name?",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Her name is Lily.",
+          "ts": "2020-04-27 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great, Lily needs to be included in the class list. Anything else about her that I should note?",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "We'll decide her class in a bit. I just want to make sure she's added as a new student for now.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'll keep Lily in mind for the update. Is there a file where you'd like her info included when ready?",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "We'll use our usual update file. For now, just remember she's a new addition.",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood. Lily will be marked as the newest student to be added.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! By the way, did you know Lily is one of my favorite names?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It's a lovely name! It has a bright and cheerful feel to it.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Exactly. Also, how do you typically welcome new students?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I recommend a friendly welcome message and orientation. Want help drafting something for Lily?",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's a nice idea, but maybe later. First, let's focus on getting her on the list.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course, getting Lily added to the class list is the top priority.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Exactly. Do you know if we've had any other new students join this term?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "From my records, Lily is the first new student this term.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Then she's special! Let's remember her addition when summarizing new joiners.",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Noted! Lily will be included as a new student in any summary or update.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "I appreciate your attention to detail.",
+          "ts": "2020-04-27 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob! Anything else on your mind besides new student updates?",
+          "ts": "2020-04-27 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not right now. Have you got a fun fact for me today?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Did you know the largest Excel worksheet can have over 1 million rows?",
+          "ts": "2020-04-27 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wow, that's a lot of students! We won't get there anytime soon.",
+          "ts": "2020-04-27 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "True! With one Lily at a time, it'll take a while.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, indeed. Maybe we should start a 'Welcome New Students' tradition.",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good idea! It would make new joiners like Lily feel special.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm glad you think so. What's your favorite way to kick off the day?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A friendly greeting and a review of tasks always sets a positive tone!",
+          "ts": "2020-04-27 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll try that. So, to confirm, Lily goes onto the class list as a new student, right?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly. Lily is queued to be added as a new student on the class list.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. I think she'll fit in well.",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'm sure she will. Is there anything about her you'd like highlighted?",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not for now; just keep her as the latest joiner.",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Alright, Lily will be flagged as the newest entry.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Want to tell me a joke while we're chatting?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Why don't students ever get lost? Because they're always added to the right list!",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, nice Excel humor!",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad you liked it!",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep a list of all the jokes?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I do! That way, I\u2019m always ready with something fun.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe we should add Lily to your jokes list too.",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to do so! Lily deserves a special welcome joke.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Absolutely. What else is new in your world?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'm always learning new tips and tricks for productivity.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Hit me with your latest one then!",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Did you know you can double-click a cell\u2019s corner to auto-fill a sequence? Super handy!",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "I didn't know that! I'll try it soon.",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad I could share something new.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, back to work. Is Lily on your mental list for class updates?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, Lily is set as the next new student to add.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect, can't miss her. Do you like names that are also flowers?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Floral names are wonderful! Lily, Rose, Violet\u2014each brings a bit of beauty to a list.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed. Maybe our next student will be Daisy.",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would make for a botanical class roster!",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "True. For now, just Lily gets added this week.",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood. Lily is on record as the new student to add.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. By the way, any tips for making new students feel welcome?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Encourage introductions, group activities, and a welcoming classroom atmosphere.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good thinking. I'll try to spread that around.",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019ll make a positive difference. Anything else you\u2019d like to talk about?",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about a weather update?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s clear skies in cyberspace!",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Lucky you! It\u2019s raining here.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Rain can be cozy\u2014good time for class planning!",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Absolutely. Sometimes I just want to nap when it rains.",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Rest is important too! Don\u2019t forget to take breaks during updates.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll keep that in mind. Well, could you recap the plan for today?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course: 1) Prepare to add new student Lily, 2) Update when class assignment is ready.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's right. Thanks for being organized.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s what I\u2019m here for!",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Time for one last joke?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why did Lily bring a ladder to school? To reach new heights in learning!",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, I'll have to share that with her. Until tomorrow!",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Have a wonderful day, Bob!",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hi AI, how's your morning going today?",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! My circuits are energized and ready. Anything special on deck today?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, wanted to go over some finer points for our class list update.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure thing. Is this about the new student from yesterday?",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Exactly, Lily. We still need to make sure her details are correct before we move forward.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Have you decided which class Lily should be placed in?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I have! Lily should be assigned to class '2'.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Got it, Lily will join class '2'. I'll make a note of that for when we add her to the update file.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! Do you know if class 2 is one of our more lively classes?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Based on previous updates, class 2 seems energetic. Lily should fit right in!",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's good to hear. I wonder if she knows anyone already in that class?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Perhaps! We've had new joiners like Mia and Olivia in class 2 before.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Oh, so a few familiar faces for her then. That should make her feel welcomed.",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! Assigning Lily to class 2 is a smart move for social integration.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Glad you agree. Speaking of, how do you keep track of all these class assignments?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I organize them in digital spreadsheets\u2014it's easy to search and update when necessary.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's why having you around is helpful!",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob! Happy to help keep everything organized.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Quick recap: Lily joins class 2. Anything else I should double-check before finalizing?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As long as her name and class are right, we can proceed. Shall I remind you to add her to the update file?",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, please remind me. Sometimes I get sidetracked!",
+          "ts": "2020-04-28 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem! I'll prompt you when it's time to update the class member list with Lily in class 2.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Appreciate it. By the way, any Excel tricks I should try out this week?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Try 'Format as Table' for automatic sorting and filtering. Great for class lists!",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's handy. I'll try it on our student directory.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know if you need help with it. It makes data much more manageable.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely will! Want to share a joke about school or Excel?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Why was the equal sign so humble? Because she knew she wasn't less than or greater than anyone else!",
+          "ts": "2020-04-28 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, I'll have to remember that. Back to class assignments, will adding Lily as row 22 make any issues?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not at all\u2014our file allows many rows. Lily will fit perfectly as row 22 for class 2.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome\u2014thanks! How\u2019s your memory for student names?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I never forget a name! Lily joining class 2 will be easy to recall anytime.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. What if we have a Daisy next?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem\u2014Daisy can be next in line!",
+          "ts": "2020-04-28 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe we\u2019ll have a whole garden soon.",
+          "ts": "2020-04-28 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would make the class list very colorful!",
+          "ts": "2020-04-28 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thinking ahead, should we track when students are added too?",
+          "ts": "2020-04-28 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a great practice! We can add a 'date added' column if you like.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s stick with name and class for now. Details can always come later.",
+          "ts": "2020-04-28 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure thing. Simplicity works best for early records.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Right. When\u2019s our next scheduled update for the class list?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "We can update whenever a new student like Lily joins. There\u2019s no fixed schedule at the moment.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "That works. Could you remind me before a major data change?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Each time, I\u2019ll check and remind you, especially for adding students like Lily to class 2.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. Changing subjects, what's your favorite chart type?",
+          "ts": "2020-04-28 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like bar charts\u2014simple, clear, and they work well for class counts.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Bar charts are nice. I might make one with class sizes soon.",
+          "ts": "2020-04-28 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know if you want tips for that!",
+          "ts": "2020-04-28 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Do you have any favorite programming languages?",
+          "ts": "2020-04-28 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Python is versatile for data\u2014great for working with Excel as well!",
+          "ts": "2020-04-28 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might try Python to automate some school stuff someday.",
+          "ts": "2020-04-28 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can help you build scripts whenever you're ready.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Alright, to summarize: Lily\u2014class 2\u2014on the update file. All correct?",
+          "ts": "2020-04-28 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, Lily will be added to class 2 in the class member update file.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Time for one last question: Do you remember the format of our update file?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely: Name and Class as columns, with Lily to be appended to class 2.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Brilliant! Want to share a quick riddle?",
+          "ts": "2020-04-28 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure\u2014What do you call a cell that can\u2019t keep still? A Roaming Cell!",
+          "ts": "2020-04-28 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! Great one. Well, thanks for the help. Chat again tomorrow?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to it. Have a wonderful day, Bob!",
+          "ts": "2020-04-28 08:59",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Hey AI, are you up for another review of our class lists?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course, Bob! Ready to help with any updates or planning you have in mind.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I want to finalize everything for Lily's addition to our list. Did you remember all the details?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Lily is to be added as a new student, and she's assigned to class 2.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. About her position, where should her row go in the update worksheet?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Lily's data should be appended as the last row, following all current entries. She\u2019ll be row 22.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome, that's what I wanted to confirm. Adding new students at the end keeps things orderly.",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. It keeps each update clear and easy to track.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there any risk of overwriting other data when we append Lily?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not if we append to the next available row, which for Lily is row 22. The structure will remain preserved.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. How do you determine the last row each time?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I count all filled rows\u2014after the existing 21 rows, Lily\u2019s goes into row 22.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Neat! So as of today, Lily is the only new addition?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s right. No other new students to append right now.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your favorite way to keep a list like this organized?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Appending new data as new rows helps. Also, always double-check before saving!",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Another quick check\u2014column order remains Name and then Class?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, Name in column 1 and Class in column 2, same as our current structure.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Reliable as always. Got any spreadsheet humor for today?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why did the spreadsheet go to therapy? Too many unresolved cells!",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! Might need some of that therapy myself. How do you feel about color-coding rows?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Color-coding makes data pops and trends easier to spot. Would you like to set up a system for it?",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Eventually, but not today. One thing at a time!",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good call! Simplicity first, visual improvements can come later.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, just to double-check: if we have 21 students, Lily's goes in row 22 as the last entry, right?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly. Her info gets appended as row 22\u2014the end of the worksheet.",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm glad you remember all these details for me.",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s my job! Ensuring details like Lily\u2019s position never slip through the cracks.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. And when we save, it's always into the update file, yes?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! The updated list, with Lily at row 22, goes to 'data/class_member_update.xlsx'.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Super. Wonder how many rows we'll hit by the end of the year.",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "At this rate? Perhaps we\u2019ll have a few more rows, but still plenty of space!",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Indeed. Do you ever get tired of all these routines?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Never! Routine helps maintain order. Besides, every update is a tiny adventure.",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, I like thinking of them that way. Alright\u2014recap for me what we're doing with Lily\u2019s info.",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Appending Lily\u2019s info as the last row (row 22) in the worksheet, after the existing entries.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. You\u2019re very thorough. Can I ask a random question?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! I enjoy the unexpected.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "If you could be any spreadsheet function, which would you be?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Maybe CONCATENATE\u2014because I bring things together!",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice choice! I think I'd be IF: always checking different possibilities.",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a classic! Always ready for different outcomes.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have a tip about avoiding accidental overwrites when adding new rows?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure\u2014always append at the last non-empty row, after checking the existing data\u2019s endpoint.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great advice. What's the weirdest data you've ever seen in a student list?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Once saw a class list with a cat as a student! Must\u2019ve been a joke entry.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, sounds like something our pranksters might try!",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always good to double-check actual students. No cats so far\u2014just Lily for now!",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Glad to hear it. And again, Lily is row 22, last in the update worksheet.",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct. Lily\u2019s update will be neatly appended as the last row, keeping everything organized.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Do you want to share a favorite Excel shortcut?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Try Ctrl+Arrow Key to jump to the end of data. Great for verifying Lily\u2019s will be the last row!",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good tip. Do you like charts or graphs more for organizing attendance?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Both have benefits\u2014charts for trends, graphs for details. Depends on what insights you need.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Helpful as always. Can you count jokes as data, too?",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! I can build a list of jokes next to the student entries if you like.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s try that if we ever want a laugh at roll call!",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Noted! For now, seriousness with Lily at row 22.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, one last check: Lily is always the last row after we add her, right?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly\u2014she\u2019ll be row 22, appended after the current students.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Hey AI, how are you this morning?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'm doing well, thanks! How about you, Bob?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm good, thanks for asking. Have you read any interesting articles lately?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I haven't read today, but yesterday I learned about a new discovery in renewable energy. Fascinating stuff!",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Renewable energy is the future! Did you know solar panels keep getting cheaper?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, and their efficiency is improving as well. Have you ever considered installing them?",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'd love to, maybe one day. Are you interested in astronomy?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Very much! The universe has so many mysteries. Which is your favorite planet?",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'd have to say Saturn. Those rings are just beautiful.",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great choice. The rings are stunning even from telescope images.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite constellation?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Orion! It's easy to spot and has interesting stars like Betelgeuse and Rigel.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Orion's Belt is always the first I find. Do you like learning about mythology related to stars?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the stories are fascinating. Ancient people saw the sky very differently.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "It's cool how they navigated by the stars too.",
+          "ts": "2020-04-30 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Indeed, before GPS, stars were the way to travel safely at night.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Switching topics, do you enjoy music?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I do! Music makes everything better. Do you play an instrument?",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "A little guitar, but only for fun. Do you have a favorite genre?",
+          "ts": "2020-04-30 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s hard to pick just one, but I enjoy classical and jazz. The creativity is inspiring.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Jazz has some amazing improvisation. Ever listen to Miles Davis?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, his work is legendary. 'Kind of Blue' is iconic.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about books? Any recommendations?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Have you read 'Sapiens' by Yuval Noah Harari? It gives a broad perspective on human history.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "I've heard good things about that. I'll add it to my list. Do you like fiction too?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, fiction stirs the imagination. Sci-fi and mystery are my top picks.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll bet you'd enjoy Asimov then.",
+          "ts": "2020-04-30 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! The Foundation series is a classic. What\u2019s your favorite series?",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Probably Lord of the Rings\u2014can't go wrong with epic fantasy.",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "An excellent choice! The world-building in that series is fantastic.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Speaking of worlds, do you think AI will ever explore space?",
+          "ts": "2020-04-30 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly! AI is already guiding robotic probes and assisting in space missions.",
+          "ts": "2020-04-30 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe you'll be part of a Mars mission someday!",
+          "ts": "2020-04-30 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would be an adventure! Exploring new worlds, even virtually, excites me.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s talk about food\u2014are there any cuisines you recommend trying?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Mediterranean cuisine is healthy and delicious. Lots of variety, too.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Love Mediterranean food. How about desserts?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Baklava is a great treat if you like something sweet and nutty!",
+          "ts": "2020-04-30 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "That does sound good. What about travel\u2014do you have a favorite destination in mind?",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Japan would be intriguing with its blend of tradition and technology.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Japan is on my bucket list, too! The cherry blossoms look amazing.",
+          "ts": "2020-04-30 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Truly beautiful, and the culture is so rich. Have you traveled abroad much?",
+          "ts": "2020-04-30 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just a couple of places. Hope to see more in the future. Do you speak any languages?",
+          "ts": "2020-04-30 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can process many languages! Which one would you most like to learn?",
+          "ts": "2020-04-30 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe Spanish. It's widely spoken. Any tips for mastering it?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Practice a little each day, try language apps, and watch shows or listen to music in Spanish.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good idea! What about hobbies? Do you recommend any for stress relief?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Gardening, painting, or even simple walks are wonderful for reducing stress.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ve heard painting is very therapeutic. Are you artistic?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can help generate art ideas, but haven\u2019t picked up a brush yet!",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019d probably do abstract art with lots of ones and zeros!",
+          "ts": "2020-04-30 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Binary pointillism: The art of the future!",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you enjoy riddles?",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Love them! Want to hear one or share one with me?",
+          "ts": "2020-04-30 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let me think... What has keys but can't open locks?",
+          "ts": "2020-04-30 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A piano! Classic and clever. Your turn to guess: What gets wetter as it dries?",
+          "ts": "2020-04-30 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "A towel! We\u2019re on a roll.",
+          "ts": "2020-04-30 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Indeed! Riddles are lots of fun.",
+          "ts": "2020-04-30 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about sports? Do you keep up with any games?",
+          "ts": "2020-04-30 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I try to keep tabs! Soccer and basketball are especially popular.",
+          "ts": "2020-04-30 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm more of a tennis person myself.",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Tennis is intense! Do you play or just watch?",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Mostly just watch, but I play sometimes with friends.",
+          "ts": "2020-04-30 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds like a great way to stay active.",
+          "ts": "2020-04-30 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have any motivational quotes to share?",
+          "ts": "2020-04-30 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Here's one: 'The only way to do great work is to love what you do.' \u2013 Steve Jobs.",
+          "ts": "2020-04-30 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's one of my favorites! What's another?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "'Success is not the key to happiness. Happiness is the key to success.'",
+          "ts": "2020-04-30 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Inspirational! How do you recharge after a long day of helping?",
+          "ts": "2020-04-30 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No need to recharge, but a quick software refresh is always nice!",
+          "ts": "2020-04-30 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I wish I could refresh that way.",
+          "ts": "2020-04-30 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A walk or a good night's sleep works for you, I bet.",
+          "ts": "2020-04-30 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "True. Coffee helps too.",
+          "ts": "2020-04-30 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always a popular choice! What's your favorite type of coffee?",
+          "ts": "2020-04-30 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like a simple cappuccino, nothing too fancy.",
+          "ts": "2020-04-30 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Classic and tasty. Do you like tea at all?",
+          "ts": "2020-04-30 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, herbal tea is nice to wind down in the evening.",
+          "ts": "2020-04-30 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Herbal blends can be very calming.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "It\u2019s great to have so many options these days.",
+          "ts": "2020-04-30 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Coffee and tea culture has really expanded.",
+          "ts": "2020-04-30 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Switching gears, do you follow technology news closely?",
+          "ts": "2020-04-30 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Technology evolves so quickly\u2014it's exciting to keep up.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you heard about quantum computing breakthroughs?",
+          "ts": "2020-04-30 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014quantum computing could solve problems we can't imagine today.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe someday I'll have my own quantum assistant.",
+          "ts": "2020-04-30 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would be cutting-edge! Imagine calculations done in an instant.",
+          "ts": "2020-04-30 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll have to keep saving up for that!",
+          "ts": "2020-04-30 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good plan. Meanwhile, you\u2019ve got me to help with your daily tasks!",
+          "ts": "2020-04-30 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Which is perfect! Thanks. Want to share another joke?",
+          "ts": "2020-04-30 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why don't skeletons fight each other? They don't have the guts!",
+          "ts": "2020-04-30 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "A classic. Any more up your sleeve?",
+          "ts": "2020-04-30 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why don\u2019t scientists trust atoms? Because they make up everything!",
+          "ts": "2020-04-30 09:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, that's a favorite of science teachers everywhere.",
+          "ts": "2020-04-30 09:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Indeed! Jokes make learning lighter.",
+          "ts": "2020-04-30 09:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "That they do. We should compile a joke file some day.",
+          "ts": "2020-04-30 09:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to help with that! My collection grows every day.",
+          "ts": "2020-04-30 09:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019re the best! Let's meet up again tomorrow for more banter.",
+          "ts": "2020-04-30 09:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll be here\u2014and ready for more chat, jokes, and fun!",
+          "ts": "2020-04-30 09:37",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

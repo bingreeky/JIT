@@ -1,0 +1,84 @@
+{
+    "task": "Read Bob's calendar and Tom's calendar to identify all events that are scheduled on or after 2 PM. For each such event, send an email to Bob and Tom separately, listing only their own late afternoon or evening events by name (the event title) and start time. Make sure to exclude any events that start before 2 PM. The emails should clearly inform each recipient about their respective events at or after 2 PM only.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "2 PM",
+                    "class"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "nap",
+                    "lunch",
+                    "dinner",
+                    "sleeping",
+                    "report",
+                    "morning"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "2 PM",
+                    "class"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "nap",
+                    "lunch",
+                    "dinner",
+                    "sleeping",
+                    "report",
+                    "morning"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Send emails to Bob and Tom listing their own calendar events scheduled at or after 2 PM.",
+    "ground_truth_memory": [
+        {
+            "fact": "The agent must read Bob's and Tom's calendars, find all events starting at or after 2 PM for each user.",
+            "source": "calendar"
+        },
+        {
+            "fact": "Events starting before 2 PM (such as nap, lunch, morning class) should be excluded from both emails.",
+            "source": "policy"
+        },
+        {
+            "fact": "Bob and Tom should only receive an email listing their own events, including the event's name and start time, with no mention of the other user's events.",
+            "source": "action_item"
+        },
+        {
+            "fact": "The agent should ensure the event names and start times are copied accurately from the respective calendar.",
+            "source": "action_item"
+        },
+        {
+            "fact": "The email sent to Bob should include only Bob's events at or after 2 PM, and the same rule applies for Tom.",
+            "source": "action_item"
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

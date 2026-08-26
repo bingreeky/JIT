@@ -1,0 +1,82 @@
+{
+    "task": "Count the number of unique student names for each class in class_member.xlsx and append the result as new rows at the bottom of the file. Each new row should have the corresponding class number as the header in the first column and the unique student count in the second column.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "1"
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "value": "4"
+                    },
+                    {
+                        "row": 23,
+                        "col": 1,
+                        "value": "2"
+                    },
+                    {
+                        "row": 23,
+                        "col": 2,
+                        "value": "2"
+                    },
+                    {
+                        "row": 24,
+                        "col": 1,
+                        "value": "3"
+                    },
+                    {
+                        "row": 24,
+                        "col": 2,
+                        "value": "4"
+                    },
+                    {
+                        "row": 25,
+                        "col": 1,
+                        "value": "4"
+                    },
+                    {
+                        "row": 25,
+                        "col": 2,
+                        "value": "1"
+                    },
+                    {
+                        "row": 26,
+                        "col": 1,
+                        "value": "5"
+                    },
+                    {
+                        "row": 26,
+                        "col": 2,
+                        "value": "3"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Count the number of unique students in every class and write these values as labeled rows at the bottom of the class_member excel file.",
+    "ground_truth_memory": [
+        {
+            "info": "Add one summary row for each class found in class_member.xlsx."
+        },
+        {
+            "info": "The first column of each summary row should be the class number (e.g., '1', '2', '3', etc.)."
+        },
+        {
+            "info": "The second column of each summary row should be the number of unique student names in that class."
+        },
+        {
+            "info": "Append the summary rows immediately after the last existing data row."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

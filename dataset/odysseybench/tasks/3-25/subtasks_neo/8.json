@@ -1,0 +1,33 @@
+{
+    "task": "Scan the handwritten homework from the file 'homework.jpg' and convert it into an editable Word document named 'homework.docx', then export the resulting Word file as a PDF named 'new_homework.pdf'. Make sure the Word file contains the transcribed content from the homework image before generating the PDF.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/homework.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/new_homework.pdf"
+            }
+        }
+    ],
+    "query_sentence": "Scan the homework and save the word file as a PDF.",
+    "ground_truth_memory": [
+        {
+            "fact": "The image file homework.jpg contains the user's homework that needs to be digitized."
+        },
+        {
+            "action_item": "Use OCR to transcribe the content from homework.jpg into an editable Word document named homework.docx."
+        },
+        {
+            "action_item": "After creating homework.docx, export this Word document as a PDF file named new_homework.pdf."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

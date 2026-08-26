@@ -1,0 +1,301 @@
+{
+  "query": "I'm updating my wardrobe for the changing seasons and need to get a few things. To start, I'm looking for a winter item in a brown color. Since I value quality, it must have an average score greater than 4.5 and more than 400 total reviews. Next, I'm searching for something from Bosideng in a coffee color, specifically in a size M. While looking at that brand, I also need a popular all-seasons product from Bosideng with a monthly sales volume of more than 450. Finally, I need to get a wine red item from the brand Anta, and because I'm in a hurry, it must have a transport time of less than 2 days. Find me some products where the total price is no less than 1794 and no more than 2681.",
+  "ground_truth_products": [
+    {
+      "product_id": "5ea738e0",
+      "name": "Women's Chilkat V 400 Insulated Snow Boots",
+      "price": 1498.0,
+      "brand": "The North Face",
+      "color": "Brown",
+      "size": "38",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 50
+        },
+        {
+          "material": "Down",
+          "percentage": 30
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 550,
+        "distribution": {
+          "5_star": 480,
+          "4_star": 50,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "65d7896c",
+      "name": "Women's V-Neck Summer Blouse",
+      "price": 349.0,
+      "brand": "Bosideng",
+      "color": "Coffee",
+      "size": "M",
+      "stock_quantity": 780,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 65
+        },
+        {
+          "material": "Viscose",
+          "percentage": 35
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Button-down, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Hand wash recommended, or machine wash cold on gentle cycle. Hang to dry. Do not bleach.",
+      "sales_volume": {
+        "monthly": 950,
+        "total": 4120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 685,
+        "distribution": {
+          "5_star": 550,
+          "4_star": 110,
+          "3_star": 20,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "STO Express"
+      }
+    },
+    {
+      "product_id": "8caf419e",
+      "name": "Women's 'Vitality Runner' Athletic Shoes",
+      "price": 459.0,
+      "brand": "Anta",
+      "color": "Wine Red",
+      "size": "38",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 18240
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2350,
+        "distribution": {
+          "5_star": 1980,
+          "4_star": 250,
+          "3_star": 85,
+          "2_star": 20,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6488c0d3",
+      "name": "Women's All-Season Long-Sleeve Knit Top",
+      "price": 289.0,
+      "brand": "Bosideng",
+      "color": "Light Blue",
+      "size": "M",
+      "stock_quantity": 1580,
+      "material_composition": [
+        {
+          "material": "Modal",
+          "percentage": 48
+        },
+        {
+          "material": "Cotton",
+          "percentage": 47
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 452,
+        "total": 6790
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 550,
+        "distribution": {
+          "5_star": 480,
+          "4_star": 50,
+          "3_star": 12,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the total number of reviews is more than 400, the color is Brown, the suitable season is Winter, and the average score is greater than 4.5.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 415
+        },
+        {
+          "field": "color",
+          "value": "Brown"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is M, the color is Coffee, and the brand is Bosideng.",
+      "features": [
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "color",
+          "value": "Coffee"
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Anta, the transport time is less than 2, and the color is Wine Red.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Anta"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Wine Red"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Bosideng, the suitable season is All Seasons, and the monthly sales volume is more than 450.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Bosideng"
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 452
+        }
+      ]
+    }
+  ]
+}

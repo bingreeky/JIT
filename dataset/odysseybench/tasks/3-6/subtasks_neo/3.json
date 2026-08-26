@@ -1,0 +1,97 @@
+{
+    "task": "Update the team_training_schedule.xlsx file by adding a new section for 'Section D' with three new members (Mona, Nick, and Olivia), each assigned to the time slot 4:00 PM - 6:00 PM. After updating the Excel file, schedule a calendar event for a Section D training session on next Friday (2020-05-08) from 4:00 PM to 6:00 PM with the event title 'Section D Team Training: Mona, Nick, Olivia'. Make sure the calendar event is added to Alice's calendar file (calendar/Alice.ics).",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_training_schedule.xlsx",
+                "matches": [
+                    {
+                        "row": 14,
+                        "col": 1,
+                        "value": "Mona"
+                    },
+                    {
+                        "row": 14,
+                        "col": 2,
+                        "value": "Section D"
+                    },
+                    {
+                        "row": 14,
+                        "col": 3,
+                        "value": "4:00 PM - 6:00 PM"
+                    },
+                    {
+                        "row": 15,
+                        "col": 1,
+                        "value": "Nick"
+                    },
+                    {
+                        "row": 15,
+                        "col": 2,
+                        "value": "Section D"
+                    },
+                    {
+                        "row": 15,
+                        "col": 3,
+                        "value": "4:00 PM - 6:00 PM"
+                    },
+                    {
+                        "row": 16,
+                        "col": 1,
+                        "value": "Olivia"
+                    },
+                    {
+                        "row": 16,
+                        "col": 2,
+                        "value": "Section D"
+                    },
+                    {
+                        "row": 16,
+                        "col": 3,
+                        "value": "4:00 PM - 6:00 PM"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Alice.ics"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Alice.ics",
+                "keywords": [
+                    "Section",
+                    "D",
+                    "training",
+                    "Mona",
+                    "Nick",
+                    "Olivia",
+                    "DTSTART:20200508T160000",
+                    "DTEND:20200508T180000"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the team training schedule for new members and arrange the corresponding calendar event.",
+    "ground_truth_memory": [
+        {
+            "fact": "Three new members, Mona, Nick, and Olivia, need to be added to 'Section D' in team_training_schedule.xlsx with the time slot 4:00 PM - 6:00 PM."
+        },
+        {
+            "fact": "Next Friday is 2020-05-08."
+        },
+        {
+            "action_item": "A calendar event for 'Section D Team Training: Mona, Nick, Olivia' needs to be created for 2020-05-08 from 4:00 PM to 6:00 PM in calendar/Alice.ics."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

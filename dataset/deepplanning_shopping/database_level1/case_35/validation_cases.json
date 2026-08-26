@@ -1,0 +1,358 @@
+{
+  "query": "I'm doing a major wardrobe refresh for the upcoming year and need a few specific things. First, for an event happening soon, I need an item from Gucci in Brown, size 43. Since it's urgent, the transport time must be less than 2 days, and it needs to have more than 5 four-star reviews. Next, getting ready for the cold, I'm looking for some 'Winter Boots' from Peacebird in the color Khaki, with more than 100 total reviews. For the milder Spring and Autumn seasons, I want a popular product from Adidas with an average score over 4.5, a monthly sales volume of more than 1000, and fewer than 20 one-star reviews. Lastly, I need another popular item in Navy Blue with a monthly sales volume over 800 and more than 90 four-star reviews; this one also needs a transport time of less than 2 days.",
+  "ground_truth_products": [
+    {
+      "product_id": "2514bbbe",
+      "name": "Men's Fur-Lined Leather Winter Boots",
+      "price": 8900.0,
+      "brand": "Gucci",
+      "color": "Brown",
+      "size": "43",
+      "stock_quantity": 35,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 50
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Wool",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Embroidery",
+      "washing_instructions": "Professional cleaning recommended. Do not machine wash or tumble dry.",
+      "sales_volume": {
+        "monthly": 40,
+        "total": 250
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 85,
+        "distribution": {
+          "5_star": 72,
+          "4_star": 10,
+          "3_star": 2,
+          "2_star": 1,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ffa789ca",
+      "name": "Men's Urban Terrain Winter Boots",
+      "price": 729.0,
+      "brand": "Peacebird",
+      "color": "Khaki",
+      "size": "43",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Ribbed Cuffs, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 85,
+        "total": 450
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 112,
+        "distribution": {
+          "5_star": 78,
+          "4_star": 22,
+          "3_star": 6,
+          "2_star": 4,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "59145c1b",
+      "name": "Men's Essential Fleece Track Pants",
+      "price": 429.99,
+      "brand": "Adidas",
+      "color": "Purple",
+      "size": "L",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron design.",
+      "sales_volume": {
+        "monthly": 1200,
+        "total": 8500
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 595,
+          "4_star": 170,
+          "3_star": 43,
+          "2_star": 25,
+          "1_star": 17
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "872691cd",
+      "name": "Men's Active Long-Sleeve Performance Top",
+      "price": 349.9,
+      "brand": "Puma",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 420,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 21340
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 945,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Gucci, the color is Brown, the size is 43, there are more than 5 4-star reviews, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Gucci",
+          "operator": "equals",
+          "operator_value": "Gucci"
+        },
+        {
+          "field": "color",
+          "value": "Brown",
+          "operator": "equals",
+          "operator_value": "Brown"
+        },
+        {
+          "field": "size",
+          "value": "43",
+          "operator": "equals",
+          "operator_value": "43"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 10,
+          "operator": "greater_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Winter, the brand is Peacebird, the color is Khaki, the total reviews is more than 100, and the name contains 'Winter Boots'.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "brand",
+          "value": "Peacebird",
+          "operator": "equals",
+          "operator_value": "Peacebird"
+        },
+        {
+          "field": "color",
+          "value": "Khaki",
+          "operator": "equals",
+          "operator_value": "Khaki"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 112,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Urban Terrain Winter Boots",
+          "operator": "contains",
+          "operator_value": "Winter Boots"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Adidas, the average score is greater than 4.5, the number of 1-star reviews is less than 20, the monthly sales volume is more than 1000, and the suitable season is Spring/Autumn.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 17,
+          "operator": "less_than",
+          "operator_value": 20.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "brand",
+          "value": "Adidas",
+          "operator": "equals",
+          "operator_value": "Adidas"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1200,
+          "operator": "greater_than",
+          "operator_value": 1000.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a transport time less than 2, a monthly sales volume greater than 800, where the color is Navy Blue, and with more than 90 4-star reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 850,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "color",
+          "value": "Navy Blue",
+          "operator": "equals",
+          "operator_value": "Navy Blue"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 100,
+          "operator": "greater_than",
+          "operator_value": 90.0
+        }
+      ]
+    }
+  ]
+}

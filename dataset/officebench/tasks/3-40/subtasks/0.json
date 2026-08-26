@@ -1,0 +1,66 @@
+{
+  "username": "Bob",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Collect car trading records and organize them into car_records.xlsx, schedule a meeting meeting.ics between the first case buyer and seller at 6/1/2024 1:00 p.m",
+  "evaluation": [
+    {
+      "function": "evaluate_file_exist",
+      "args": {
+        "file": "./calendar/Bob.ics"
+      }
+    },
+    {
+      "function": "evaluate_file_exist",
+      "args": {
+        "file": "./calendar/Alice.ics"
+      }
+    },
+    {
+      "function": "evaluate_file_exist",
+      "args": {
+        "file": "./data/car_records.xlsx"
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "xlsx",
+        "file": "./data/car_records.xlsx",
+        "keywords": [
+          "Toyota Camry",
+          "Alice",
+          "Bob",
+          "Honda Civic",
+          "Charlie",
+          "David",
+          "BMW X5 M50i",
+          "Dealer",
+          "Porsche Cayenne Turbo",
+          "Jimmy"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./calendar/Bob.ics",
+        "keywords": [
+          "DTSTART:20240601T130000Z"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./calendar/Alice.ics",
+        "keywords": [
+          "DTSTART:20240601T130000Z"
+        ]
+      }
+    }
+  ]
+}

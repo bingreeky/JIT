@@ -1,0 +1,41 @@
+{
+    "task": "Summarize the number of courses Bill has taken in each term and year based on the data in Bill_course_lists.xlsx. Create a new Word document called 'Bill_course_summary.docx' and list, for each unique term and year combination, how many courses Bill took in that term (e.g., 'Winter 2022: 3 courses'). Each summary entry should be on a separate line.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/Bill_course_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Winter 2022",
+                    "3 courses",
+                    "Spring 2022",
+                    "3 courses",
+                    "Fall 2022",
+                    "3 courses",
+                    "Winter 2023",
+                    "3 courses",
+                    "Spring 2023",
+                    "3 courses"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the number of courses Bill took for each term and year, and create a Word document with these summaries.",
+    "ground_truth_memory": [
+        {
+            "filename": "Bill_course_summary.docx",
+            "doc_type": "docx"
+        },
+        {
+            "instruction": "For each unique term and year in the Excel file, count the number of courses Bill took."
+        },
+        {
+            "output_format": "Each line in the summary should have the format '<Term> <Year>: <number> courses'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

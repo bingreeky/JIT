@@ -1,0 +1,89 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "read score for midterm1 and midterm2, which students made progress? find out these students and email them with the score and the email title is congratulations",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Ivy",
+                "keywords": [
+                    "congratulation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Jack",
+                "keywords": [
+                    "congratulation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Peter",
+                "keywords": [
+                    "congratulation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Kate",
+                "keywords": [
+                    "congratulation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Noah",
+                "keywords": [
+                    "congratulation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Liam",
+                "keywords": [
+                    "congratulation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "congratulation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "congratulation"
+                ]
+            }
+        }
+    ]
+}

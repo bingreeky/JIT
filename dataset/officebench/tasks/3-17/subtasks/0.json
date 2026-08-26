@@ -1,0 +1,26 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "read pdf google form file, make an image post welcome.jpg, email corresponding person with welcome image in welcome.eml",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/welcome.jpg"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "welcome",
+                    "event"
+                ]
+            }
+        }
+    ]
+}

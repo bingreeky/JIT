@@ -1,0 +1,53 @@
+{
+    "task": "Generate a summary report of all car trading activities for the past month (April 2024) from car_trading.xlsx. List each sale for April 2024 including the date, car model, buyer, seller, and price. Include a total transaction value for April 2024 at the bottom. Save the resulting summary in a new Word document named april_car_sales_report.docx, and highlight the car model names in bold. Then convert the docx report to april_car_sales_report.pdf.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/april_car_sales_report.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/april_car_sales_report.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/april_car_sales_report.docx",
+                "keywords": [
+                    "2024",
+                    "BMWXS MS0i",
+                    "Benz GLE 53 AMG",
+                    "Porsche Cayenne Turbo",
+                    "Total"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary report of car sales for the past month using the car trading Excel file. The report should list sales details and provide a total, saved in a Word doc and also as a PDF.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary should only include transactions from April 2024."
+        },
+        {
+            "action_item": "The report must be saved as april_car_sales_report.docx."
+        },
+        {
+            "action_item": "Highlight car model names in bold in the Word document."
+        },
+        {
+            "action_item": "Add a row at the end showing the total transaction value for April 2024."
+        },
+        {
+            "action_item": "After the docx is created, convert it to april_car_sales_report.pdf."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

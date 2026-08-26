@@ -1,0 +1,37 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Check if the submitted fellowship application PDF material satisfies the school policy, write yes or no in result.docx, and schedule a meeting with officer at 1:00 p.m 5/31/2024, save in meeting.ics",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/result.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "meeting",
+                    "officer",
+                    "DTSTART:20240531T130000Z"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/result.docx",
+                "keywords": [
+                    "no"
+                ]
+            }
+        }
+    ]
+}

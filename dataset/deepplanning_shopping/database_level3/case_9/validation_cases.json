@@ -1,0 +1,246 @@
+{
+  "query": "I'm planning a weekend hiking trip and need to pick up some essential gear with next-day delivery. First, I'm looking for a New Balance product with \"Tech Fleece Jogger\" in the name that has fewer than 10 one-star reviews, arrives within 1 day, and has total sales over 6000 to ensure it's reliable. Next, I need something called \"Performance Tech Training Bottoms\" in Black, with exactly 45 three-star ratings, more than 5000 total sales, and same-day delivery available. Finally, I want to get an item with \"Men's Titan Pass Convertible Hiking Pants\" in the name that's suitable for all seasons. It must have more than 100 four-star reviews, fewer than 15 two-star reviews, and can be delivered within 1 day so I have everything ready before I leave.",
+  "ground_truth_products": [
+    {
+      "product_id": "f0d6e45d",
+      "name": "Men's Tech Fleece Jogger Pants",
+      "price": 972.0,
+      "brand": "New Balance",
+      "color": "Light Grey",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 6840
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1380,
+        "distribution": {
+          "5_star": 1120,
+          "4_star": 215,
+          "3_star": 25,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "53bc32c9",
+      "name": "Men's Performance Tech Training Bottoms",
+      "price": 206.0,
+      "brand": "New Balance",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not iron on prints.",
+      "sales_volume": {
+        "monthly": 415,
+        "total": 5280
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1550,
+        "distribution": {
+          "5_star": 1280,
+          "4_star": 210,
+          "3_star": 45,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e9452286",
+      "name": "Men's Titan Pass Convertible Hiking Pants",
+      "price": 241.0,
+      "brand": "New Balance",
+      "color": "Khaki",
+      "size": "L",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips, Patchwork",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 105,
+          "3_star": 20,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Comfortable fabric",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Same-brand: ¥60 off every ¥400": 1,
+    "Same-brand: ¥180 off every ¥1,000": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is New Balance, the name contains Tech Fleece Jogger, 1-star reviews are less than 10, transport time is 1 day or less, and total sales volume is more than 6000.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "New Balance"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 8
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 6840
+        },
+        {
+          "field": "name",
+          "value": "Men's Tech Fleece Jogger Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is 1 day, the 3-star rating count is 45, the total sales volume is more than 5000, the color is Black, and the product name contains Performance Tech Training Bottoms.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 45
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 5280
+        },
+        {
+          "field": "color",
+          "value": "Black"
+        },
+        {
+          "field": "name",
+          "value": "Men's Performance Tech Training Bottoms"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains 'Men's Titan Pass Convertible Hiking Pants', suitable season is All Seasons, 4-star reviews are more than 100, 2-star reviews are less than 15, and transport time is 1 day or less.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 105
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10
+        },
+        {
+          "field": "name",
+          "value": "Men's Titan Pass Convertible Hiking Pants"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+    "task": "Add a new salary component called 'commission' with the amount 25000 in the next available row of the salary.xlsx file. Make sure that the entry goes under the Name column with 'commission' and under amount with '25000'. Do not modify the existing values for base, stock, or bonus.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "commission"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "25000"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "base"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "200000"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "stock"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "100000"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "bonus"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "100000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please add a new salary component to the salary.xlsx file and update it according to recent discussions.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new salary component needs to be added to salary.xlsx."
+        },
+        {
+            "fact": "The new component's name is 'commission'."
+        },
+        {
+            "fact": "The amount for commission should be 25000."
+        },
+        {
+            "fact": "This should be added in the next available row under Name and amount columns respectively."
+        },
+        {
+            "fact": "Do not change the entries for base, stock, or bonus."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

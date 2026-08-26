@@ -1,0 +1,422 @@
+{
+  "query": "I'm getting ready for an event and need to put an outfit together fast, so everything must have a transport time of less than 2 days. First, I'm looking for a generally well-regarded product with an average score over 4.5 and more than 400 five-star reviews. For my outfit, I want a specific pair of 'Classic Slip-On Canvas Shoes' for women from the brand Vans; they need to be popular, with a monthly sales volume greater than 1200. To go with them, I need the 'Women's Tiro Winterized Fleece Bottoms', ensuring they are top-quality with over 1300 five-star reviews and fewer than 15 two-star reviews. I also need a 'Ribbed Tank Top' for women that has over 250 five-star ratings and is in stock with a quantity of more than 150. Finally, I'm searching for a brown item for women from Adidas that has more than 600 five-star ratings.",
+  "ground_truth_products": [
+    {
+      "product_id": "49deef90",
+      "name": "Women's AEROREADY Training Tank Top",
+      "price": 249.0,
+      "brand": "Adidas",
+      "color": "Light Blue",
+      "size": "XS",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 678,
+        "total": 9540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1850,
+        "distribution": {
+          "5_star": 1520,
+          "4_star": 255,
+          "3_star": 50,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "5a8c543c",
+      "name": "Women's Classic Slip-On Canvas Shoes",
+      "price": 499.0,
+      "brand": "Vans",
+      "color": "Black",
+      "size": "36",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Vintage Wash, Ribbed Cuffs",
+      "washing_instructions": "Hand wash recommended. Use a soft brush for stains. Do not expose to direct sunlight for long periods.",
+      "sales_volume": {
+        "monthly": 1280,
+        "total": 25430
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 4150,
+        "distribution": {
+          "5_star": 3570,
+          "4_star": 480,
+          "3_star": 65,
+          "2_star": 20,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6058eae0",
+      "name": "Women's Tiro Winterized Fleece Bottoms",
+      "price": 549.0,
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "S",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Cotton",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Reflective Strips, Zipper Closure",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 9200
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1642,
+        "distribution": {
+          "5_star": 1320,
+          "4_star": 250,
+          "3_star": 55,
+          "2_star": 10,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ac371479",
+      "name": "Women's Summer Essential Ribbed Tank Top",
+      "price": 229.5,
+      "brand": "Levi's",
+      "color": "Navy Blue",
+      "size": "XS",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 389,
+        "distribution": {
+          "5_star": 300,
+          "4_star": 70,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "87635319",
+      "name": "Women's Essentials Fleece Joggers",
+      "price": 429.9,
+      "brand": "Adidas",
+      "color": "Brown",
+      "size": "S",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron design.",
+      "sales_volume": {
+        "monthly": 1200,
+        "total": 15500
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 180,
+          "3_star": 40,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the average score is greater than 4.5, and the number of 5-star reviews is more than 400.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 420,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Vans, the target demographic is Women, the monthly sales volume is greater than 1200, and the name contains 'Classic Slip-On Canvas Shoes'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Vans",
+          "operator": "equals",
+          "operator_value": "Vans"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1280,
+          "operator": "greater_than",
+          "operator_value": 1200.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Classic Slip-On Canvas Shoes",
+          "operator": "contains",
+          "operator_value": "Classic Slip-On Canvas Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, the count of 2-star reviews is less than 15, the count of 5-star reviews is more than 1300, and the product name is 'Women's Tiro Winterized Fleece Bottoms'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 1320,
+          "operator": "greater_than",
+          "operator_value": 1300.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Tiro Winterized Fleece Bottoms",
+          "operator": "equals",
+          "operator_value": "Women's Tiro Winterized Fleece Bottoms"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 5-star ratings is greater than 250, the target demographic is Women, the transport time is less than 2, the stock quantity is more than 150, and the name contains 'Ribbed Tank Top'.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 300,
+          "operator": "greater_than",
+          "operator_value": 250.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 158,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Summer Essential Ribbed Tank Top",
+          "operator": "contains",
+          "operator_value": "Ribbed Tank Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, the color is Brown, it has more than 600 5-star ratings, the transport time is less than 2, and the brand is Adidas.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "color",
+          "value": "Brown",
+          "operator": "equals",
+          "operator_value": "Brown"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 650,
+          "operator": "greater_than",
+          "operator_value": 600.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Adidas",
+          "operator": "equals",
+          "operator_value": "Adidas"
+        }
+      ]
+    }
+  ]
+}

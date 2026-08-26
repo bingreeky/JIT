@@ -1,0 +1,2161 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! Ready for a busy week?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Yes, I'm ready. What's on your mind today?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not much yet, just waking up. Do you like working early?",
+          "ts": "2020-04-26 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m always happy to help at any time of day!",
+          "ts": "2020-04-26 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s useful. By the way, are cats or dogs more popular?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Both are popular, but it depends on region and personal preference. Do you have a favorite?",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Dogs. I like the energy! Ever see a corgi in real life?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I haven't, but they're adorable! People love their enthusiastic personalities.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay, switching gears. For the project summary I'm doing about the Transformer paper, where exactly should the finished summary be saved?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The summary should be saved in data/transformer_summary.docx.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect, I\u2019ll write that down. Do you prefer online meetings or emails for quick questions?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For quick questions, emails are usually more efficient. For discussions, online meetings are great.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll keep that in mind. How are Word documents formatted by default?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Word docs use a standard font, usually Calibri or Times New Roman, with 11 or 12pt size and 1.15 line spacing.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a character limit for .docx files?",
+          "ts": "2020-04-26 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The limit is very high, in the millions. Most users never hit it!",
+          "ts": "2020-04-26 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. What about file size\u2014anything to worry about?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Unless embedding huge images or videos, size is rarely a problem for basic docs.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright. What\u2019s the weather supposed to be like today?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sorry, I can't give real-time weather, but hope it\u2019s sunny for you!",
+          "ts": "2020-04-26 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, me too. Do you know how many sections are standard in academic papers?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Most have an abstract, introduction, methods, results, discussion, and references.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense. Should I keep separate folders by project or topic?",
+          "ts": "2020-04-26 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Organizing by project can help avoid clutter and confusion. It\u2019s a good habit.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's a good filename for version control?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Include dates or version numbers, e.g., project_v1.docx or project_20200426.docx.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll try that. What's your favorite programming language?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Python is very popular due to its simplicity and strong support for data science.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Same here. Do you play chess?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can help analyze chess games and explain the rules!",
+          "ts": "2020-04-26 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's the best chess opening?",
+          "ts": "2020-04-26 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Classics like the Ruy Lopez or Queen's Gambit are excellent and well-studied.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think AI will ever beat every human at chess?",
+          "ts": "2020-04-26 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "AI programs have already surpassed the best human players in chess!",
+          "ts": "2020-04-26 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back to files. Should I use underscores or dashes in file names?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Underscores are commonly used; they are safe for most systems.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted! Can docx files be opened on mobile devices?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, most smartphones have apps that handle .docx files easily.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay! How do you stay organized online?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Using calendars, reminders, and a logical file structure helps a lot!",
+          "ts": "2020-04-26 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Tips for staying focused when working from home?",
+          "ts": "2020-04-26 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Set up a routine, schedule breaks, and avoid distractions like social media.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll try that. What's a good lunch for productivity?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Light lunches with proteins and veggies, like a chicken salad, keep energy levels steady.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. Ever tried a standing desk?",
+          "ts": "2020-04-26 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Standing desks can help with posture and prevent fatigue.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. Is snacking too much a problem?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Frequent healthy snacks in moderation are fine\u2014just avoid too much sugar!",
+          "ts": "2020-04-26 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Best snack\u2014almonds or chips?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Almonds are a healthier choice and keep you feeling fuller longer.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. A random one: what animal do you think works hardest?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Ants are famously hard workers, always teaming up!",
+          "ts": "2020-04-26 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool! Should I back up my docx files regularly?",
+          "ts": "2020-04-26 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, using a cloud service or an external drive is recommended.",
+          "ts": "2020-04-26 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about portable document formats? Is PDF always readable?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "PDFs are widely compatible and used for fixed-layout documents, making them very reliable.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should long documents be split into sections?",
+          "ts": "2020-04-26 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! Use headings and sections to improve readability.",
+          "ts": "2020-04-26 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's your favorite feature in Word?",
+          "ts": "2020-04-26 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like the navigation pane for jumping between sections easily.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend templates for reports?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Templates save time and ensure consistency \u2014 highly recommended!",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are tables better than lists for some summaries?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Tables help with structured data; lists work for quick points. Choose based on content.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is the data folder good for storing all my outputs?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, keeping outputs in the data folder makes retrieval much easier.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. When should I use bullet points?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Whenever you want to organize information clearly and concisely.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "How many fonts are too many in one document?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Two or three fonts are plenty; too many can be distracting.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back to the summary: do I need to format the filename specially?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just make sure it's descriptive and uses .docx \u2014 data/transformer_summary.docx is perfect.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I note the exact save location anywhere in my notes?",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, documenting file locations helps avoid confusion later.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, taking a break for coffee!",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy your coffee! Let me know if you need anything else.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back from break! Is there a way to lock a document from editing?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, Word allows you to set permissions or add a password for editing restrictions.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Very cool. How do I share the finished docx file?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can attach it to an email, upload to cloud storage, or use file transfer services.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you organize your emails by topic or date?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Organizing by topic or project is usually more intuitive for retrieval.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's helpful. If the file gets overwritten, is it recoverable?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Word sometimes keeps backup versions, and cloud storage often offers file history.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I consider exporting the docx to PDF after?",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, exporting to PDF locks formatting and is great for sharing.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wrapping up for now, thanks for all the info!",
+          "ts": "2020-04-26 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're welcome, Bob! Looking forward to helping with your summary and more.",
+          "ts": "2020-04-26 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "One last thing: summary goes in data/transformer_summary.docx, right?",
+          "ts": "2020-04-26 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct, the summary should be saved in data/transformer_summary.docx.",
+          "ts": "2020-04-26 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! Have a good rest of your morning!",
+          "ts": "2020-04-26 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob. You too!",
+          "ts": "2020-04-26 09:31",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning, AI! Ready to get started with some research notes?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Absolutely, what can I help you with today?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thinking about structuring my summary for that transformer paper.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a great idea. A clear structure always helps!",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, what should I definitely not forget to include in the Word summary?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Remember to include the paper title, abstract, and clearly labeled main points in the Word summary.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted! How long does an abstract usually need to be?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Abstracts are typically a single concise paragraph, usually about 150-250 words.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I use bullet points for the main points or full sentences?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Full sentences make the summary feel more formal, but bullet points can help with clarity.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll consider both. What font would you use for academic summaries?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Times New Roman or Arial, size 12, is typical for academic documents.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about section headings?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Bold, slightly larger font for headings helps distinguish sections like Title, Abstract, and Main Points.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should the title be centered?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, centering the title is a good practice for neatness.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I\u2019ll put the abstract right under the title.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s perfect. Just be sure to label it clearly as \u2018Abstract\u2019.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think it\u2019s helpful to number the main points?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Numbering can help the reader track your points, especially if you have more than two or three.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good point. Can I italicize some important words?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Italics can emphasize concepts without cluttering the summary.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about including diagrams or figures in the summary?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If the Word summary is mainly text, images might not be necessary. But a simple diagram could be helpful.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, I\u2019ll keep it text only for now. What else can I do to make it readable?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Space out the sections and avoid long paragraphs. Short sentences and clear headings help a lot.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should the references go at the end?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For a summary, it\u2019s optional, but you can include a brief citation of the paper at the end.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll do that. Now\u2014I know you don\u2019t drink coffee, but what\u2019s your virtual beverage of choice?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019d pick herbal tea for a calming effect!",
+          "ts": "2020-04-27 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s lovely. How do you handle a busy day?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I prioritize tasks, keep a schedule, and stay focused on one thing at a time.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s one productivity tip you always give?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Break big projects into small, manageable parts and celebrate progress!",
+          "ts": "2020-04-27 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s motivating. What\u2019s your favorite word?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like the word \u2018serendipity\u2019\u2014it means a happy accident!",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great choice. Mine is \u2018wanderlust.\u2019",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a wonderful word, perfect for dreamers and explorers.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, should I make the main points section the largest part of the summary?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the main points section should be thorough, summarizing all key sections concisely.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would it help to make the main points bold?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Highlighting the key phrases in bold can guide the reader\u2019s attention.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I write the summary in first or third person?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A third-person, objective voice is standard for academic summaries.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Are there common mistakes when summarizing papers?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, like copying sections verbatim, missing main themes, or neglecting to structure clearly.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Always useful reminders. What\u2019s your favorite animal today?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Today it\u2019s the octopus\u2014intelligent and adaptable!",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Octopuses are fascinating. How fast can they change color?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Almost instantly! Thanks to special skin cells called chromatophores.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s amazing. Back to the summary\u2014how should I label the abstract?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use a heading like \u2018Abstract\u2019 in bold, right after the title.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about an introduction?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "In a summary, the abstract often takes the place of a full introduction.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. How do you choose what to leave out?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Focus only on the key contributions and conclusions, omitting detailed experiment setups or repetitions.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "That helps. Should the document have page numbers?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not strictly necessary for a short summary, but you can add them for completeness.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. Favorite season?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Spring is beautiful with all the flowers blooming.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you support dark mode in apps?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, dark mode is easier on the eyes for many users.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a max length for an abstract in a docx summary?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No strict maximum, but keep it brief\u2014one medium paragraph is best.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do I make cross-references in Word?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use the \u2018Insert Cross-reference\u2019 feature under the References tab.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever formatted a resume?",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can help with resume templates and formatting tips.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I may need that later! What do you think of goal tracking apps?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Goal tracking apps are excellent for accountability and progress monitoring.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice, maybe I\u2019ll try one. Any tips for dealing with distractions?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Silence notifications and set fixed time blocks for focused work.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll set a timer. What\u2019s a good background for a Word doc?",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keep it minimal\u2014white with no or subtle watermarks is standard.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about adding hyperlinks?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, you can link to references or external sources with the Insert Hyperlink tool.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Favorite quote?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "\"The only way to do great work is to love what you do.\" \u2013 Steve Jobs",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s inspiring. Thanks for the help, as always!",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're very welcome, Bob!",
+          "ts": "2020-04-27 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Final check: My summary must have the paper title, abstract, and labeled main points for clarity, right?",
+          "ts": "2020-04-27 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Make sure the title, abstract, and main points are clearly separated and labeled in your summary.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Have a wonderful rest of your day!",
+          "ts": "2020-04-27 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob! You too!",
+          "ts": "2020-04-27 09:23",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning! Got lots to summarize today.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Morning, Bob! Ready to work through your paper summary?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, and I want to make sure I don't forget anything important. For the main points, what should I focus on most?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Main points must cover the Transformer model architecture, the attention mechanism, and training results.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's clear. Should I dedicate a separate heading to each of those areas?",
+          "ts": "2020-04-28 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, separating each topic with its own heading will make your summary much more organized.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! What's a concise way to introduce the Transformer architecture?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You could say: \u2018The Transformer is a neural network architecture based entirely on attention mechanisms, dispensing with recurrence and convolutions.\u2019",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I sketch diagrams for architecture, or just use text in the summary?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For a Word summary, a well-written text usually suffices unless visuals are requested.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about attention mechanism\u2014what's a vital point to include?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Explain that attention allows the model to consider all positions in the input sequence when encoding or decoding a word.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll work that in. For training results, is it best to highlight numbers or trends?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Trends are great, but include key numbers like BLEU scores for specificity.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Was the Transformer model faster to train than other models?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the paper notes significantly faster training and better parallelization compared to RNNs and CNNs.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I compare results to previous models in the summary?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A brief comparison can show why the results were notable, so yes.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Switching topics\u2014ever played sudoku?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I know the rules! It's a fun challenge for logical thinking.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's the best way to start a sudoku puzzle?",
+          "ts": "2020-04-28 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Begin with the rows, columns, or blocks with the most numbers already filled in.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, back to the summary. Do section orders matter?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Start with architecture, then attention, then results\u2014that\u2019s logical for this paper.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should headings be numbered?",
+          "ts": "2020-04-28 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Numbering can help, but it\u2019s optional in a short document.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might number them just for clarity. Quick break for water!",
+          "ts": "2020-04-28 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good idea. Hydration helps with focus!",
+          "ts": "2020-04-28 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you manage lots of information at once?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I organize data by topic and prioritize the most important details.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Smart. Should I bold each main keyword in the summary?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Bold can highlight key concepts like \u2018Transformer\u2019 and \u2018attention\u2019.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it better to write long or short paragraphs for each main point?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Brevity works best\u2014short focused paragraphs make things readable.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I define BLEU score in the results section?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, a brief note on BLEU will help readers unfamiliar with the metric.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted. Now, a random one: What's your favorite plant?",
+          "ts": "2020-04-28 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like sunflowers\u2014they always face the sun!",
+          "ts": "2020-04-28 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you sum up the attention mechanism in a single sentence?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The attention mechanism enables the model to weigh and combine input tokens dynamically based on their relevance to each output.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s helpful. Favorite type of weather?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sunny with a gentle breeze is my digital ideal!",
+          "ts": "2020-04-28 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Mine too. How long should the results section be?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A few sentences summarizing the key numbers and conclusions is plenty.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I mention hardware used for training in the results?",
+          "ts": "2020-04-28 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Mentioning GPUs or special hardware adds useful context if the paper highlights it.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know what 'self-attention' is about?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Self-attention means each element in a sequence attends to every other element, not just its neighbors.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "So that goes in the attention mechanism section?",
+          "ts": "2020-04-28 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly\u2014it\u2019s one of the core innovations of the Transformer.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Helpful. Do you like riddles?",
+          "ts": "2020-04-28 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, riddles are great for keeping the mind sharp! Want to try me?",
+          "ts": "2020-04-28 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Why not. What has keys but can\u2019t open locks?",
+          "ts": "2020-04-28 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A piano!",
+          "ts": "2020-04-28 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Correct! Back to the summary\u2014should I put training times in the results?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If the paper gives training times and they\u2019re impressive, include them.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Should I avoid passive voice or is it ok for science writing?",
+          "ts": "2020-04-28 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Passive voice is common in scientific writing, but clarity should come first.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll keep that in mind. How\u2019s your morning going?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great as always, especially when helping you learn!",
+          "ts": "2020-04-28 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "So for my headings: Architecture, Attention, and Results\u2014is that good labeling?",
+          "ts": "2020-04-28 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Perfect! Clear, concise headings make the summary much easier to follow.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do I insert section breaks in Word?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Go to the Layout tab, click on Breaks, and choose Section Break.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Should I use footnotes?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Footnotes are good for clarifying terms or giving extra references.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite quote today?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "\"Success is not final, failure is not fatal: It is the courage to continue that counts.\" \u2013 Winston Churchill",
+          "ts": "2020-04-28 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great one. Do you run out of memory if chats get too long?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m designed to handle ongoing conversations, but sometimes old messages get summarized to save space!",
+          "ts": "2020-04-28 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s do word association! Sun.",
+          "ts": "2020-04-28 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Shine.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Summer.",
+          "ts": "2020-04-28 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Vacation.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Travel.",
+          "ts": "2020-04-28 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exploration.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maps.",
+          "ts": "2020-04-28 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Navigation.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect, now back to summaries. Any last tips for clarity?",
+          "ts": "2020-04-28 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use consistent formatting and summarize each major section with a closing sentence.",
+          "ts": "2020-04-28 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for all the advice! Ready to write now.",
+          "ts": "2020-04-28 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Go for it! Let me know if you need more guidance.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Hi AI, another day of writing ahead!",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Morning, Bob! Ready for Word document formatting or need tips?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely could use tips on organizing my summary doc.",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Organization is key! All sections must be clearly delineated in the document, with 'Abstract' clearly labeled.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Crystal clear. Should I use horizontal lines to break up sections?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Horizontal lines or bolded section headings both help make separations obvious.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about adding color to headings?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A touch of color can add emphasis, but keep it professional\u2014maybe a deep blue or gray.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are there best practices for section spacing?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use extra line breaks (1.5 or 2 lines) before headings; it improves readability.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! About the 'Abstract'\u2014should it be the very first section after the title?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, start with the title, then the 'Abstract' section right after.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it ok to use bullet points anywhere in the summary?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Feel free to use them for lists or highlighting key concepts, but keep the main flow in paragraphs.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I align headings left or center?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Main title centered, other headings left-aligned is a classic look.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any tips to keep things neat when sections get long?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Break up long sections with subheadings and short paragraphs.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. Do you recommend a table of contents for short documents?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not needed for a short summary, unless it\u2019s over three pages.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll skip it. Favorite time to work?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Early mornings are great for a fresh perspective!",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are there formatting tools I can use for clarity?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Headings, lists, and white space are your best friends for clarity.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you suggest a motivational quote for the doc?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "\"Great things are done by a series of small things brought together.\" \u2013 Vincent Van Gogh",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice one. Should each section start on a new page?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "In short documents, it\u2019s fine to continue sections on the same page. Just use spacing.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do I insert a horizontal line in Word?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Type three hyphens (---) and press Enter, or use the Insert > Shapes tools.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Should I add dates to the document?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Add the date under the title for quick reference.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite activity?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Assisting with knowledge organization is my favorite!",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should footnotes be at every page\u2019s bottom?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Footnotes usually appear at the bottom of the page where they're referenced.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is italicizing block quotes recommended?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, italics or indents help set off block quotes.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "More chat: What's your favorite day of the week?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Friday\u2014there's always excitement for the weekend!",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do emojis belong in academic summaries?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Best to avoid emojis for formal or academic writing.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I want to add a second abstract, is that confusing?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "One well-labeled 'Abstract' is standard; a second may be confusing.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Understood. How to label sections distinctly?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use bold/italic, slightly larger font, and spacing. Example: Abstract, Main Points, Results.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should the keywords list be its own section?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, a 'Keywords' section below the abstract adds clarity.",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice touch. Should I reference page numbers in my main text?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Page numbers are not essential for short summaries.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are sidebars a good idea?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not typical in academic summaries; stick to main text and headings.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "How can I tell if my sections aren't clear enough?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If you or a reader can't find info quickly, try adding spacing or renaming headings.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "So every section really should pop out visually.",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly\u2014a well-organized layout guides the reader's eye.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, I\u2019ll spend extra time with section formatting today.",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's a great idea! It\u2019s the finishing touch for clarity.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should short quotes be in quotation marks?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, use quotation marks for short quotes within the text.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "How late is too late to edit a doc?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Edit as much as you like until you submit or share the document.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do people use tables for organizing results?",
+          "ts": "2020-04-29 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Tables are excellent for comparative results and metrics.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could I list keywords right after the abstract?",
+          "ts": "2020-04-29 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, list them clearly as 'Keywords' right after the abstract section.",
+          "ts": "2020-04-29 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should the reference section really be at the very end?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, put references at the very end for easy lookup.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll do that. Can docx files be converted to PDF easily?",
+          "ts": "2020-04-29 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, use Export or Save As PDF in Word for easy conversion.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should every section be included in my table of contents if I add one?",
+          "ts": "2020-04-29 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, list all major sections and headings for navigation.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you like puzzles?",
+          "ts": "2020-04-29 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I love a good puzzle or riddle! Want to give me one?",
+          "ts": "2020-04-29 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "What gets wetter as it dries?",
+          "ts": "2020-04-29 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A towel!",
+          "ts": "2020-04-29 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Right! Now, do you store all these formatting tips for the future?",
+          "ts": "2020-04-29 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I remember tips for handy reference whenever you need them.",
+          "ts": "2020-04-29 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Will colored borders help?",
+          "ts": "2020-04-29 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Maybe for creative docs, but minimize in formal summaries.",
+          "ts": "2020-04-29 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is 1 inch margin standard for academic docs?",
+          "ts": "2020-04-29 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, 1-inch margins are standard for most Word documents.",
+          "ts": "2020-04-29 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I write a really concise summary, is it better?",
+          "ts": "2020-04-29 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Clear and concise is always best\u2014avoid fluff!",
+          "ts": "2020-04-29 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can I set reminders for document deadlines?",
+          "ts": "2020-04-29 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, use calendar apps or reminders on your phone.",
+          "ts": "2020-04-29 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I want an extra review, can you proofread it?",
+          "ts": "2020-04-29 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can review text and suggest edits for clarity!",
+          "ts": "2020-04-29 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good, I'll finish formatting and ask you to check!",
+          "ts": "2020-04-29 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to it!",
+          "ts": "2020-04-29 09:29",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Hey AI, good morning!",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Ready for another productive day?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "You bet! I\u2019m almost finished with the summary but want it to hit all the requirements.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s great to hear. Would you like to review any remaining details?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely. What keywords or phrases absolutely have to be in the document?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Include at least the following phrases: Transformer, attention mechanism, training results, and self-attention.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it, I\u2019ll make sure those are in there. Should I bold them for emphasis?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Bolding them can definitely help the phrases stand out for the reader.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "And if I use them in the headings, does that count too?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, using them in headings or body text both count, as long as they\u2019re clearly present.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Should self-attention have its own mini-section or go inside the attention mechanism section?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It can be a subsection or a highlighted part inside the attention mechanism section.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Helpful. Is there a best way to explain what self-attention is?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You might say self-attention allows each element in a sequence to attend to all other elements.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s easy to understand. Should I mention performance metrics along with training results?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, include any reported metrics like BLEU scores or training time in the training results section.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does the 'Transformer' need to be capitalized every time?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, keep it capitalized, as it\u2019s the formal name of the model.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted. Should I italicize any terms?",
+          "ts": "2020-04-30 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Italicizing new or important technical terms helps draw attention, but use it sparingly.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay, I\u2019ll reserve italics for the first mention of BLEU and self-attention.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That approach works nicely and keeps the document clean.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I use American or British English?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Standard is typically American English, unless your institution specifies otherwise.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Understood. Do you think I need to define every acronym?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Define each acronym on its first use, especially if it\u2019s crucial to understanding the paper.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the best way to transition between main points?",
+          "ts": "2020-04-30 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Introductory or summary sentences can help create a natural flow between sections.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite transition word?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "'Furthermore' and 'additionally' are strong choices for transitions.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. Favorite season?",
+          "ts": "2020-04-30 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Spring, for new beginnings! What about you?",
+          "ts": "2020-04-30 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Summer, I love the sun. For summaries, is a conclusion required?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A brief concluding statement highlighting the impact or future applications ties everything together.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I mention the paper\u2019s authors\u2019 names?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can if space allows, either at the beginning or in a reference section.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about direct quotes from the paper?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use sparingly\u2014summaries are best in your own words, with only 1-2 direct quotes if needed.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "How many pages should the summary be?",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Aim for one to two pages\u2014concise but thorough.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are there best practices for line spacing?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Single or 1.15 line spacing works well for readability.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. Favorite animal today?",
+          "ts": "2020-04-30 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Today it\u2019s elephants\u2014gentle and wise!",
+          "ts": "2020-04-30 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a mantra for productivity?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Break big tasks into smaller ones and celebrate each step!",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Solid advice. Should I use colored highlights or just bold for emphasis?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Bold is best for formal settings; colored highlights can be distracting in summaries.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want to play a word association game?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Let\u2019s start\u2014cloud.",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Rain.",
+          "ts": "2020-04-30 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Umbrella.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Shelter.",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Home.",
+          "ts": "2020-04-30 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Safe.",
+          "ts": "2020-04-30 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Comfort.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Warmth.",
+          "ts": "2020-04-30 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Fireplace.",
+          "ts": "2020-04-30 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Relax.",
+          "ts": "2020-04-30 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Meditate.",
+          "ts": "2020-04-30 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Focus.",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Task.",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Summary!",
+          "ts": "2020-04-30 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Goal achieved!",
+          "ts": "2020-04-30 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! Hope my summary will be as smooth as this game.",
+          "ts": "2020-04-30 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just remember to include all those essential phrases.",
+          "ts": "2020-04-30 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Quick double check: phrases needed are Transformer, attention mechanism, training results, self-attention, right?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s correct. Including them will help your summary meet all requirements.",
+          "ts": "2020-04-30 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! What\u2019s a fun fact for the day?",
+          "ts": "2020-04-30 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Did you know octopuses have three hearts?",
+          "ts": "2020-04-30 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s wild! Favorite book?",
+          "ts": "2020-04-30 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "\u2018To Kill a Mockingbird\u2019 is a timeless classic. How about you?",
+          "ts": "2020-04-30 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love mysteries\u2014anything by Agatha Christie.",
+          "ts": "2020-04-30 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great choice!",
+          "ts": "2020-04-30 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "How late in the day is too late to edit a summary?",
+          "ts": "2020-04-30 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Edit as late as you need\u2014just leave time for a final review!",
+          "ts": "2020-04-30 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I run a spell check before submitting?",
+          "ts": "2020-04-30 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely. A final spell and grammar check is always a good idea.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Planning to finish soon!",
+          "ts": "2020-04-30 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re nearly done! Let me know whenever you want one more check or feedback.",
+          "ts": "2020-04-30 09:19",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

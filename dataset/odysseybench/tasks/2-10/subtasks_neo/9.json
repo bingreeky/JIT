@@ -1,0 +1,48 @@
+{
+    "task": "Create an Excel file named image_metadata.xlsx and record the metadata for two images: 'students_ids.jpg' and 'students_scores.jpg'. For each image, add a new row to the spreadsheet, with the first column containing the file name, and the second column with a brief note: for 'students_ids.jpg', note 'Contains student ID photos'; for 'students_scores.jpg', note 'Contains student score sheets'.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/image_metadata.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "students_ids.jpg",
+                    "Contains student ID photos",
+                    "students_scores.jpg",
+                    "Contains student score sheets"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "file": "data/image_metadata.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "profile_photos.jpg",
+                    "homework.pdf"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Organize the provided images by recording their file names and brief descriptions in an Excel spreadsheet.",
+    "ground_truth_memory": [
+        {
+            "fact": "The two images are 'students_ids.jpg' and 'students_scores.jpg'."
+        },
+        {
+            "fact": "Create a new Excel file named 'image_metadata.xlsx' for organizing image metadata."
+        },
+        {
+            "fact": "Add a row for 'students_ids.jpg' with note 'Contains student ID photos'."
+        },
+        {
+            "fact": "Add a row for 'students_scores.jpg' with note 'Contains student score sheets'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

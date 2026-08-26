@@ -1,0 +1,15 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Write a statement in docx file to the student with the highest score in the class, use the student's name as filename",
+  "evaluation": [
+    {
+      "function": "evaluate_file_exist",
+      "args": {
+        "file": "data/Rachel.docx"
+      }
+    }
+  ]
+}

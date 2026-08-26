@@ -1,0 +1,429 @@
+{
+  "query": "I'm doing a major wardrobe overhaul online and have a very specific list. First, I need a popular silver item for men from Nike that has a total sales volume of over 18,000. Next, for the transitional seasons, I'm looking for a navy blue product for spring/autumn from Under Armour, and it must have fewer than 20 one-star reviews. To go with that, I need some grey 'Casual Trousers' that are well-liked, with a sales volume over 11,000, more than 1,800 five-star ratings, and fewer than 15 one-star and 20 two-star ratings. I also need a highly-rated product from Uniqlo that can ship quickly, with a transport time of less than 2 days, an average score above 4.5, and more than 6,800 five-star reviews. Lastly, I'm searching for a pair of brown 'Suede Winter Ankle Boots' from Zara, which also must have a transport time of less than 2 days.",
+  "ground_truth_products": [
+    {
+      "product_id": "fcfda826",
+      "name": "Nike Pro Dri-FIT Men's Long-Sleeve Tech Top",
+      "price": 429.0,
+      "brand": "Nike",
+      "color": "Silver",
+      "size": "XL",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Do not use fabric softeners. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1580,
+        "total": 18960
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1820,
+          "4_star": 245,
+          "3_star": 65,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "54c328ba",
+      "name": "Men's UA Tech Training Pants",
+      "price": 449.0,
+      "brand": "Under Armour",
+      "color": "Navy Blue",
+      "size": "XL",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 1280,
+        "total": 15500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1800,
+          "4_star": 250,
+          "3_star": 60,
+          "2_star": 25,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "914752f4",
+      "name": "Men's All-Season Casual Trousers",
+      "price": 389.0,
+      "brand": "Peacebird",
+      "color": "Grey",
+      "size": "XL",
+      "stock_quantity": 482,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low or hang dry.",
+      "sales_volume": {
+        "monthly": 920,
+        "total": 11540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2345,
+        "distribution": {
+          "5_star": 1850,
+          "4_star": 410,
+          "3_star": 60,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "3bde218d",
+      "name": "Men's Supima Cotton Crew Neck T-Shirt",
+      "price": 99.0,
+      "brand": "Uniqlo",
+      "color": "Brown",
+      "size": "XL",
+      "stock_quantity": 1850,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 4530,
+        "total": 78950
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 8120,
+        "distribution": {
+          "5_star": 6820,
+          "4_star": 1100,
+          "3_star": 150,
+          "2_star": 30,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b63c81f2",
+      "name": "Men's Suede Winter Ankle Boots",
+      "price": 649.9,
+      "brand": "Zara",
+      "color": "Brown",
+      "size": "43",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 80
+        },
+        {
+          "material": "Wool",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a soft, dry cloth. Do not machine wash. Use professional suede cleaner for stains.",
+      "sales_volume": {
+        "monthly": 230,
+        "total": 1540
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 310,
+          "4_star": 95,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "True to size",
+        "Excellent quality",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Nike, the total sales volume is more than 18000, the target demographic is Men, and the color is Silver.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Nike",
+          "operator": "equals",
+          "operator_value": "Nike"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 18960,
+          "operator": "greater_than",
+          "operator_value": 18000.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "color",
+          "value": "Silver",
+          "operator": "equals",
+          "operator_value": "Silver"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Under Armour, the color is Navy Blue, the suitable season is Spring/Autumn, and the number of 1-star reviews is less than 20.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Navy Blue",
+          "operator": "equals",
+          "operator_value": "Navy Blue"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 15,
+          "operator": "less_than",
+          "operator_value": 20.0
+        },
+        {
+          "field": "brand",
+          "value": "Under Armour",
+          "operator": "equals",
+          "operator_value": "Under Armour"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Grey, the number of 2-star ratings is less than 20, the number of 1-star ratings is less than 15, the number of 5-star ratings is more than 1800, the total sales volume is greater than 11000, and the name contains 'Casual Trousers'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Grey",
+          "operator": "equals",
+          "operator_value": "Grey"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 15,
+          "operator": "less_than",
+          "operator_value": 20.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 10,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 1850,
+          "operator": "greater_than",
+          "operator_value": 1800.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 11540,
+          "operator": "greater_than",
+          "operator_value": 11000.0
+        },
+        {
+          "field": "name",
+          "value": "Men's All-Season Casual Trousers",
+          "operator": "contains",
+          "operator_value": "Casual Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "I am looking for a product from the brand Uniqlo, with an average score greater than 4.5, more than 6800 5-star reviews, and a transport time of less than 2 days.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Uniqlo",
+          "operator": "equals",
+          "operator_value": "Uniqlo"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 6820,
+          "operator": "greater_than",
+          "operator_value": 6800.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Zara, the transport time is less than 2, the color is brown, and the name contains 'Suede Winter Ankle Boots'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Zara",
+          "operator": "equals",
+          "operator_value": "Zara"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "color",
+          "value": "Brown",
+          "operator": "equals",
+          "operator_value": "Brown"
+        },
+        {
+          "field": "name",
+          "value": "Men's Suede Winter Ankle Boots",
+          "operator": "contains",
+          "operator_value": "Suede Winter Ankle Boots"
+        }
+      ]
+    }
+  ]
+}

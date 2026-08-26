@@ -1,0 +1,17 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "sort students score descently by midterm1, save as a new excel file as sorted_score.xlsx",
+  "evaluation": [
+    {
+      "function": "evaluate_exact_match",
+      "args": {
+        "doc_type": "xlsx",
+        "result_file": "./data/sorted_score.xlsx",
+        "expected_file": "../../../../reference/sorted_score.xlsx"
+      }
+    }
+  ]
+}

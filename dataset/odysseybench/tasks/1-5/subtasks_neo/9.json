@@ -1,0 +1,52 @@
+{
+    "task": "Add a new row to salary.xlsx to reflect the total yearly compensation. The new row should have the label 'total compensation' in the first column and the sum of all three components (base, stock, bonus) in the second column. Add another new row to reflect the 'monthly compensation' by dividing the total compensation by 12 and putting the result in the second column, rounded down with no decimal.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "total compensation"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "400000"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "monthly compensation"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "33333"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the salary file to include the total and monthly compensation.",
+    "ground_truth_memory": [
+        {
+            "item": "The component names in the salary.xlsx file are 'base', 'stock', and 'bonus'."
+        },
+        {
+            "item": "The total compensation row should be labeled exactly as 'total compensation' and placed in the first empty row after the existing entries."
+        },
+        {
+            "item": "The monthly compensation should be labeled exactly as 'monthly compensation' and placed as the last row in the file."
+        },
+        {
+            "item": "Monthly compensation should be calculated by dividing the total compensation by 12 and rounding down to the nearest whole number with no decimal."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

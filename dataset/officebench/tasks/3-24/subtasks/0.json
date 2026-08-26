@@ -1,0 +1,47 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Extract key points from PDF research papers, summarize them in abstract.docx, and save it for reference, schedule a meeting saved in meeting.ics with professor Dan at 5/31/2024 at 11:00 a.m to talk about paper",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/abstract.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Bob.ics"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+              "doc_type": "ics",
+              "file": "calendar/Bob.ics",
+              "keywords": [
+                  "meeting",
+                  "Dan",
+                  "DTSTART:20240531T110000Z",
+                  "paper"
+              ]
+            }
+          },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/abstract.docx",
+                "keywords": [
+                    "attention",
+                    "transformer",
+                    "encoder",
+                    "decoder"
+                ]
+            }
+        }
+    ]
+}

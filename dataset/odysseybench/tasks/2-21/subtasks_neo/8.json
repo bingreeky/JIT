@@ -1,0 +1,48 @@
+{
+    "task": "Extract all of Bill's course names from the Excel file Bill_course_lists.xlsx and add them into the Word document /testbed/data/classes_taken.docx, placing each course on a separate line. Ensure that the output Word file contains every course as listed in the Excel, clearly separated by line.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/classes_taken.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "CS 101",
+                    "MATH 150",
+                    "PHYS 101",
+                    "CS 102",
+                    "MATH 151",
+                    "PHYS 102",
+                    "CS 103",
+                    "MATH 152",
+                    "PHYS 103",
+                    "CS 104",
+                    "MATH 250",
+                    "PHYS 104",
+                    "CS 105",
+                    "MATH 251",
+                    "PHYS 105"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Input Bill's courses from the Excel file into the Word document, putting one course per line.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Excel file containing Bill's courses is Bill_course_lists.xlsx."
+        },
+        {
+            "fact": "The output file for the course list should be /testbed/data/classes_taken.docx."
+        },
+        {
+            "fact": "Each course should be placed on a new line in the Word file."
+        },
+        {
+            "action_item": "Transfer each course name from the Excel sheet to the Word document, one course per line, including all courses available in the Excel file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

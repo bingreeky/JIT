@@ -1,0 +1,312 @@
+{
+  "query": "I'm getting my wardrobe ready for the new season and need to order a few things. First, I'm looking for a special item for women from the brand Gucci; to ensure it's in stock and well-regarded, I need it to have a stock quantity greater than 40, a transport time of less than 5 days, and fewer than 5 one-star reviews. Next, I need a popular beige item from Uniqlo that's suitable for spring/autumn, has a monthly sales volume over 1400, and can arrive in less than 3 days. I’m also searching specifically for a beige 'Pleated Midi Skirt' with an average score greater than 4.5 and less than one 1-star rating, and it must ship in less than 2 days. Finally, I'm also looking for a popular silver product from Uniqlo that has more than 650 total reviews and a monthly sales volume over 1800. Please help me find options that fall within a budget of 19222 to 19507.",
+  "ground_truth_products": [
+    {
+      "product_id": "07c26bf5",
+      "name": "Women's High-Waist Wool Trousers",
+      "price": 8900.0,
+      "brand": "Gucci",
+      "color": "Navy Blue",
+      "size": "M",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure,Side Pockets,Button-down",
+      "washing_instructions": "Dry clean only. Do not bleach. Cool iron.",
+      "sales_volume": {
+        "monthly": 110,
+        "total": 1350
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 180,
+          "4_star": 25,
+          "3_star": 7,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "7e557db4",
+      "name": "Women's Comfort Canvas Slip-On Sneakers",
+      "price": 249.0,
+      "brand": "Uniqlo",
+      "color": "Beige",
+      "size": "38",
+      "stock_quantity": 788,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Patchwork",
+      "washing_instructions": "Spot clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1450,
+        "total": 21800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3120,
+        "distribution": {
+          "5_star": 2652,
+          "4_star": 343,
+          "3_star": 94,
+          "2_star": 20,
+          "1_star": 11
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "18ba1dde",
+      "name": "Gucci Interlocking G Pleated Midi Skirt",
+      "price": 9800.0,
+      "brand": "Gucci",
+      "color": "Beige",
+      "size": "M",
+      "stock_quantity": 15,
+      "material_composition": [
+        {
+          "material": "Silk",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Zipper Closure, Side Pockets",
+      "washing_instructions": "Dry clean only. Do not tumble dry. Cool iron on reverse.",
+      "sales_volume": {
+        "monthly": 12,
+        "total": 85
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 25,
+        "distribution": {
+          "5_star": 21,
+          "4_star": 3,
+          "3_star": 1,
+          "2_star": 0,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f94e64cd",
+      "name": "Women's CloudFeel Knit Slip-On Shoes",
+      "price": 299.0,
+      "brand": "Uniqlo",
+      "color": "Silver",
+      "size": "38",
+      "stock_quantity": 485,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Spot clean with a damp cloth. Air dry. Do not machine wash, bleach or tumble dry.",
+      "sales_volume": {
+        "monthly": 1840,
+        "total": 9235
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 672,
+        "distribution": {
+          "5_star": 558,
+          "4_star": 95,
+          "3_star": 12,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the number of 1-star reviews is less than 5, the target demographic is Women, the brand is Gucci, the transport time is less than 5, and the stock quantity is greater than 40.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 1
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "brand",
+          "value": "Gucci"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "stock_quantity",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Beige, the brand is Uniqlo, the suitable season is Spring/Autumn, the monthly sales volume is more than 1400, and the transport time is less than 3.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Beige"
+        },
+        {
+          "field": "brand",
+          "value": "Uniqlo"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1450
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with an average score greater than 4.5, a transport time less than 2 days, where the color is Beige, the number of 1-star ratings is less than 1, and the name contains 'Pleated Midi Skirt'.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Beige"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 0
+        },
+        {
+          "field": "name",
+          "value": "Gucci Interlocking G Pleated Midi Skirt"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Uniqlo, the color is Silver, total reviews are greater than 650, and monthly sales volume is more than 1800.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Uniqlo"
+        },
+        {
+          "field": "color",
+          "value": "Silver"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 672
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1840
+        }
+      ]
+    }
+  ]
+}

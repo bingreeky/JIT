@@ -1,0 +1,43 @@
+{
+    "task": "Extract and summarize the content from both notification_image.jpg and power_failure_notification.jpg, then combine these summaries into a single PDF file named summarized_notifications.pdf. The PDF should concisely include the main points from both images, with each summary labeled (e.g., 'General Notification', 'Power Failure Notification').",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summarized_notifications.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/summarized_notifications.pdf",
+                "doc_type": "pdf",
+                "keywords": [
+                    "General",
+                    "Notification",
+                    "Power",
+                    "Failure"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract and summarize the contents of two notification images and save them together in a single PDF file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output PDF file should be named summarized_notifications.pdf."
+        },
+        {
+            "fact": "Summary of content from notification_image.jpg should be labeled as 'General Notification' in the PDF."
+        },
+        {
+            "fact": "Summary of content from power_failure_notification.jpg should be labeled as 'Power Failure Notification' in the PDF."
+        },
+        {
+            "action_item": "Each summary in the PDF should concisely cover the main points from each notification image."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

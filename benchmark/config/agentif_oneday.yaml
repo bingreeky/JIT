@@ -1,0 +1,50 @@
+# AgentIF-OneDay -- long-horizon instruction following with attachments.
+#
+# All 104 cases run. The runner exports AGENTIF_JUDGE_TEXT_ONLY=1 (see
+# benchmark/registry.py) so the judge payload carries no HTML-render
+# screenshots, which a text-only judge endpoint would reject.
+#
+# NOTE ON MODEL ROLES
+#
+#   model:            the EXECUTION model -- runs the harness's agent loop.
+#   benchmark.judge:  the JUDGE model     -- grades the produced artifacts.
+#   (the META model, which writes the harness, is NOT configured here: it is
+#    injected by the runner via --meta-model / --meta-base so the three can
+#    never be confused -- in particular so the meta model's 64k max_tokens
+#    never leaks into the execution model.)
+#
+# All three speak the OpenAI chat-completions protocol. ${VAR:-default}
+# placeholders resolve from the environment; see .env.example.
+
+harness: plan_and_execute
+
+model:
+  model_id: "${EXEC_MODEL:-deepseek-v4-flash}"
+  api_base: "${OPENAI_API_BASE}"
+  api_key: "${OPENAI_API_KEY}"
+  max_tokens: 32000
+  temperature: 0
+
+tools:
+  - web_search
+  - crawl_page
+  - execute_code
+  - inspect_file_as_text
+  - inspect_file_as_image
+  - final_answer
+
+execution:
+  max_steps: 40
+  concurrency: 1
+  enable_skills: true
+
+prompts_type: default
+
+benchmark:
+  name: agentif_oneday
+  dataset_path: ./dataset/agentif_oneday/
+  output_path: ./outputs/agentif_oneday_results.jsonl
+  judge:
+    model_id: "${JUDGE_MODEL:-deepseek-v4-flash}"
+    api_base: "${JUDGE_API_BASE:-${OPENAI_API_BASE}}"
+    api_key: "${JUDGE_API_KEY:-${OPENAI_API_KEY}}"

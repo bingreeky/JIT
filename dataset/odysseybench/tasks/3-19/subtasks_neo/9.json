@@ -1,0 +1,63 @@
+{
+    "task": "Review the fellowship application PDF submitted by Alice Johnson and verify whether the statement of purpose aligns with the school's policy as found in school_policy.jpg. Summarize the assessment in a new document named alice_application_review.docx, mentioning at least two strengths or weaknesses from the applicant's statement, and clearly state if it meets the policy or not.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/alice_application_review.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/alice_application_review.docx",
+                "keywords": [
+                    "Alice",
+                    "Johnson"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/alice_application_review.docx",
+                "keywords": [
+                    "meets",
+                    "policy"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/alice_application_review.docx",
+                "keywords": [
+                    "strength",
+                    "statement"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Assess Alice Johnson's fellowship application against the school policy and write a summary review document stating if she meets the policy, highlighting at least two key points.",
+    "ground_truth_memory": [
+        {
+            "fact": "The applicant's name is Alice Johnson and her application is contained in fellowship_application.pdf."
+        },
+        {
+            "fact": "The school policy for fellowship is described in school_policy.jpg."
+        },
+        {
+            "action_item": "The review for Alice Johnson's application should be saved to alice_application_review.docx."
+        },
+        {
+            "action_item": "The review should mention 'Alice Johnson', at least two strengths or weaknesses from the statement of purpose, and clearly specify if the application meets the policy, using the words 'meets policy' if appropriate."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

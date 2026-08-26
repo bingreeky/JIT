@@ -1,0 +1,28 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "calculate total cost listed in budget excel file, append a row with header 'Total' after the bottom of the file",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": "5",
+                        "col": "1",
+                        "value": "Total"
+                    },
+                    {
+                        "row": "5",
+                        "col": "2",
+                        "value": "2051000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Calculate the total cost and append a row with the header 'Total' and the calculated amount at the bottom of the budget excel file."
+}

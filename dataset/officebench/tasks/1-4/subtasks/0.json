@@ -1,0 +1,22 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "change Bob's midterm1 score 100 to score.xlsx excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/score.xlsx",
+        "matches": [
+          {
+            "row": "12",
+            "col": "2",
+            "value": "100"
+          }
+        ]
+      }
+    }
+  ]
+}

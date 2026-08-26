@@ -1,0 +1,43 @@
+{
+    "task": "1. Generate a brief summary report on recent trends based on the last 5 years (2019-2023) of the House Price Index data for Los Angeles County, using /testbed/data/house_price_index.xlsx as input. 2. Save this summary in a new file called house_price_summary.docx. 3. Email Bob the summary report with the subject 'House Price Trend Summary' and mention in the email body that the report is attached for his review.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/house_price_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "House",
+                    "Price",
+                    "Trend",
+                    "Summary"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the recent house price index trends for Los Angeles County and share the findings with Bob.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary must focus on the years 2019-2023 using the house price values from the spreadsheet."
+        },
+        {
+            "fact": "The output document must be named house_price_summary.docx."
+        },
+        {
+            "fact": "The email sent to Bob must have the subject 'House Price Trend Summary'."
+        },
+        {
+            "fact": "The body of the email should say the summary is attached for his review."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

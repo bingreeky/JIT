@@ -1,0 +1,39 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Collect all contact cards, save their information in contact.xlsx, save in alphabetic order by name, first header is name, save in folder named contacts",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/contacts/contact.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/contacts/contact.xlsx",
+                "matches": [
+                    {
+                        "row": "2",
+                        "col": "1",
+                        "value": "Bob"
+                    },
+                    {
+                        "row": "3",
+                        "col": "1",
+                        "value": "John"
+                    },
+                    {
+                        "row": "4",
+                        "col": "1",
+                        "value": "Tom"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Save the contact information in a file named contact.xlsx in alphabetical order by name, with the first header as name, and store it in a folder named contacts."
+}

@@ -1,0 +1,440 @@
+{
+  "query": "I'm doing a big wardrobe update for the year. First, for winter, I’m looking for a specific ‘Sherpa Lined Hoodie’ in Burgundy, size XL. It needs to have more than 150 four-star reviews and a transport time of less than 2. For the summer, I'm also getting a women's item with 'V-Neck' in the name that has a transport time of less than 5 days. For footwear, I need something from Puma in size '39' and Black, with less than 5 one-star reviews. I'm also getting a popular black item for women from The North Face that has a monthly sales volume over 400 and more than 100 four-star reviews. Finally, I'm looking for a high-quality size XL product from Columbia with an average score greater than 4.5 and fewer than 50 three-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "e72a39e5",
+      "name": "Vans Women's 'Off The Wall' Sherpa Lined Hoodie",
+      "price": 549.9,
+      "brand": "Vans",
+      "color": "Burgundy",
+      "size": "XL",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or iron on print.",
+      "sales_volume": {
+        "monthly": 458,
+        "total": 3120
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 602,
+          "4_star": 178,
+          "3_star": 41,
+          "2_star": 16,
+          "1_star": 13
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "39c4c7a0",
+      "name": "Women's V-Neck Casual Blouse",
+      "price": 189.9,
+      "brand": "Peacebird",
+      "color": "Purple",
+      "size": "XL",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 85
+        },
+        {
+          "material": "Linen",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Button-down",
+      "washing_instructions": "Hand wash recommended, or machine wash cold on gentle cycle. Hang to dry.",
+      "sales_volume": {
+        "monthly": 730,
+        "total": 4521
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 458,
+        "distribution": {
+          "5_star": 310,
+          "4_star": 120,
+          "3_star": 18,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "44294ad3",
+      "name": "Puma Women's FrostGuard Winter Sneakers",
+      "price": 799.0,
+      "brand": "Puma",
+      "color": "Black",
+      "size": "39",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Printing, Ribbed Cuffs, Zipper Closure",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 550,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 310,
+        "distribution": {
+          "5_star": 220,
+          "4_star": 75,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f4276427",
+      "name": "Women's Vectiv Escape All-Terrain Shoes",
+      "price": 1298.0,
+      "brand": "The North Face",
+      "color": "Black",
+      "size": "39",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 8900
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 912,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 120,
+          "3_star": 30,
+          "2_star": 7,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e94be24b",
+      "name": "Women's SwiftDry V-Neck Trail Tee",
+      "price": 289.0,
+      "brand": "Columbia",
+      "color": "Wine Red",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or use fabric softener.",
+      "sales_volume": {
+        "monthly": 451,
+        "total": 2188
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 312,
+        "distribution": {
+          "5_star": 245,
+          "4_star": 50,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Burgundy, the transport time is less than 2, there are more than 150 4-star reviews, the size is XL, the suitable season is Winter, and the name contains 'Sherpa Lined Hoodie'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Burgundy",
+          "operator": "equals",
+          "operator_value": "Burgundy"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 178,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "size",
+          "value": "XL",
+          "operator": "equals",
+          "operator_value": "XL"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "name",
+          "value": "Vans Women's 'Off The Wall' Sherpa Lined Hoodie",
+          "operator": "contains",
+          "operator_value": "Sherpa Lined Hoodie"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products for Women that are suitable for Summer, have a transport time less than 5 days, and the name contains 'V-Neck'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "transport_time",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "name",
+          "value": "Women's Vintage Wash V-Neck Summer Top",
+          "operator": "contains",
+          "operator_value": "V-Neck"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is '39', the brand is 'Puma', the color is 'Black', and there are less than 5 one-star reviews.",
+      "features": [
+        {
+          "field": "size",
+          "value": "39",
+          "operator": "equals",
+          "operator_value": "39"
+        },
+        {
+          "field": "brand",
+          "value": "Puma",
+          "operator": "equals",
+          "operator_value": "Puma"
+        },
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is The North Face, the color is Black, the target demographic is Women, the number of 4-star reviews is greater than 100, and the monthly sales volume is more than 400.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 120,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "brand",
+          "value": "The North Face",
+          "operator": "equals",
+          "operator_value": "The North Face"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 450,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Columbia, the size is XL, the average score is greater than 4.5, and the number of 3-star reviews is less than 50.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Columbia",
+          "operator": "equals",
+          "operator_value": "Columbia"
+        },
+        {
+          "field": "size",
+          "value": "XL",
+          "operator": "equals",
+          "operator_value": "XL"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 40,
+          "operator": "less_than",
+          "operator_value": 50.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "query": "I'm preparing for a multi-season outdoor adventure and need to pick up several items online. First, I'm looking for a popular product with strong customer approval—it must have monthly sales exceeding 400 and more than 700 five-star reviews. Next, I need something specifically called Men's XT-Quest All-Terrain Bottoms in size L, and I'm particular about it having exactly 11 three-star ratings in its distribution. Then, I'm searching for an all-seasons item with the name Trail Explorer that has accumulated more than 400 total reviews to ensure it's well-tested. Finally, I need a winter product called Men's UA HOVR™ Phantom Winter Running Shoes with over 250 total reviews, but I'm being very selective about quality—it must have fewer than 2 one-star ratings and fewer than 3 two-star ratings to ensure minimal negative feedback.",
+  "ground_truth_products": [
+    {
+      "product_id": "f6ef52d7",
+      "name": "Men's National Pride Series Tech Sweatpants",
+      "price": 218.0,
+      "brand": "Li-Ning",
+      "color": "Grey",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Embroidery, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 12400
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 1000,
+          "4_star": 100,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a59cc66d",
+      "name": "Men's XT-Quest All-Terrain Bottoms",
+      "price": 305.0,
+      "brand": "Salomon",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Patchwork",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 3540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 680,
+        "distribution": {
+          "5_star": 590,
+          "4_star": 72,
+          "3_star": 11,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1358df77",
+      "name": "Men's Trail Explorer Convertible Pants",
+      "price": 245.0,
+      "brand": "Columbia",
+      "color": "Light Grey",
+      "size": "L",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener. Do not iron.",
+      "sales_volume": {
+        "monthly": 85,
+        "total": 1530
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "db50f2ed",
+      "name": "Men's UA HOVR™ Phantom Winter Running Shoes",
+      "price": 143.0,
+      "brand": "Under Armour",
+      "color": "Beige",
+      "size": "44",
+      "stock_quantity": 182,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 80
+        },
+        {
+          "material": "Nylon",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or submerge. Air dry.",
+      "sales_volume": {
+        "monthly": 310,
+        "total": 2455
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 251,
+        "distribution": {
+          "5_star": 205,
+          "4_star": 35,
+          "3_star": 8,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥120 off every ¥900": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the monthly sales volume is more than 400 and the number of 5-star reviews is more than 700.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 450
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 710
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains 'Men's XT-Quest All-Terrain Bottoms', the size is L, and the 3-star rating distribution is 11.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 11
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "name",
+          "value": "Men's XT-Quest All-Terrain Bottoms"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is All Seasons, the total reviews is more than 400, and the name contains Trail Explorer.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 450
+        },
+        {
+          "field": "name",
+          "value": "Men's Trail Explorer Convertible Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Winter, the product name contains Men's UA HOVR™ Phantom Winter Running Shoes, total reviews is more than 250, 1-star ratings is less than 2, and 2-star ratings is less than 3.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 1
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 251
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 2
+        },
+        {
+          "field": "name",
+          "value": "Men's UA HOVR™ Phantom Winter Running Shoes"
+        }
+      ]
+    }
+  ]
+}

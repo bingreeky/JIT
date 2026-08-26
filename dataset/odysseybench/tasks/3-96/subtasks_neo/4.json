@@ -1,0 +1,65 @@
+{
+    "task": "1. Calculate the average company revenue over the years 2010 to 2020 from the data in /testbed/data/company_revenues.xlsx. 2. Write a summary that includes the average revenue, the highest revenue, and the lowest revenue for the period 2010-2020 in a new file named revenue_summary.docx. 3. Send an email to Alice with subject 'Revenue Summary 2010-2020' that includes the calculated average, highest, and lowest revenues for these years in the email body.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/revenue_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "emails/Alice/Revenue Summary 2010-2020.eml"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/revenue_summary.docx",
+                "keywords": [
+                    "average",
+                    "revenue",
+                    "2010",
+                    "2020"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "average",
+                    "revenue",
+                    "2010",
+                    "2020"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the company revenue from 2010 to 2020 and email the key stats to Alice.",
+    "ground_truth_memory": [
+        {
+            "fact": "The target years for analysis are 2010 to 2020 inclusive."
+        },
+        {
+            "fact": "Average revenue, highest revenue, and lowest revenue for 2010-2020 period must be included in the summary."
+        },
+        {
+            "fact": "The output summary file name must be revenue_summary.docx."
+        },
+        {
+            "fact": "The recipient for the summary email is Alice with the subject 'Revenue Summary 2010-2020'."
+        },
+        {
+            "fact": "The summary in the DOCX and email should clearly state the years analyzed (2010-2020) and the calculated values."
+        }
+    ],
+    "username": "Jack",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

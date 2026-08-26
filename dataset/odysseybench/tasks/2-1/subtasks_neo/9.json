@@ -1,0 +1,49 @@
+{
+    "task": "Extract and summarize the main points from all four office notification images (combined_notifications.jpg, meeting_notification.jpg, notification_image.jpg, and power_failure_notification.jpg), and create a single PDF file named office_notifications_summary.pdf. Ensure that the summary includes separate sections for each notification, with clear headings derived from the original file names.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/office_notifications_summary.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/office_notifications_summary.pdf",
+                "doc_type": "pdf",
+                "keywords": [
+                    "combined",
+                    "notification",
+                    "meeting",
+                    "power",
+                    "failure",
+                    "summary",
+                    "section"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the main points from all notification images and create a unified PDF summary.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary PDF should be named office_notifications_summary.pdf."
+        },
+        {
+            "fact": "Create separate sections in the PDF, one for each notification image file."
+        },
+        {
+            "fact": "Each section should have a heading that includes the original file name or its descriptive topic."
+        },
+        {
+            "fact": "The four notification images are combined_notifications.jpg, meeting_notification.jpg, notification_image.jpg, and power_failure_notification.jpg."
+        },
+        {
+            "fact": "The summary should capture plausible office notification context, even if OCR text is unavailable, such as meetings and power failure notices."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

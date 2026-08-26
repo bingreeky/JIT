@@ -1,0 +1,59 @@
+{
+    "task": "Analyze the car trading records in car_trading.xlsx to find the total sales amount (sum of all prices) where Bob is the seller, and summarize your finding in a new Word document named bob_car_sales_summary.docx. The summary should clearly state the total sales amount for Bob as a seller and mention the models sold by Bob. Ensure the summary includes at least the car models' names and the calculated total sales. Afterward, send an email to Alice with the subject 'Bob Car Sales Summary' and in the email body, refer to the attached document summarizing Bob's sales as a seller.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/bob_car_sales_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/bob_car_sales_summary.docx",
+                "keywords": [
+                    "Bob",
+                    "total",
+                    "Toyota",
+                    "Camry"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "Bob",
+                    "Car",
+                    "Sales",
+                    "Summary"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize Bob's car sales as a seller from the trading records and notify Alice with the summary document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The car trading records are stored in car_trading.xlsx under the sheet with headers: Date, Car Model, Buyer, Seller, Price."
+        },
+        {
+            "fact": "Bob is the seller on at least one record; identify and summarize all such sales."
+        },
+        {
+            "fact": "Create a Word document named bob_car_sales_summary.docx in data folder to store the summary."
+        },
+        {
+            "fact": "The summary should mention both the total sales amount for Bob as seller and the car models he sold."
+        },
+        {
+            "fact": "After preparing the summary document, send an email to Alice, with subject 'Bob Car Sales Summary', referring to the document."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,19 @@
+{
+  "username": "Alice",
+  "date": "2022-11-01",
+  "weekday": "Tuesday",
+  "time": "10:00 AM",
+  "task": "Check my emails, what is my score of project2?",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/answer.txt",
+        "doc_type": "txt",
+        "keywords": [
+          "93"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+    "task": "Calculate the average company revenue for the years 2010 to 2019 from '/testbed/data/company_revenues.xlsx' and generate a summary word document named 'revenue_summary_2010_2019.docx' with the following contents: a title 'Revenue Summary (2010-2019)', a paragraph reporting the calculated average revenue for this period, and a clear mention of the years included in the calculation. Do not include any other years' data. Ensure the document is newly created, not appended to any existing document.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "revenue_summary_2010_2019.docx",
+                "keywords": [
+                    "Revenue",
+                    "Summary",
+                    "2010",
+                    "2019",
+                    "average",
+                    "2010-2019"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "revenue_summary_2010_2019.docx",
+                "keywords": [
+                    "3098049",
+                    "1463500",
+                    "3907271"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Produce a summary document with the average revenue for the years 2010 to 2019.",
+    "ground_truth_memory": [
+        {
+            "note": "The summary must only cover years 2010 to 2019."
+        },
+        {
+            "note": "The output file name for the summary must be 'revenue_summary_2010_2019.docx'."
+        },
+        {
+            "note": "The title of the document should be 'Revenue Summary (2010-2019)'."
+        },
+        {
+            "note": "The document should mention the years used in the calculation."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

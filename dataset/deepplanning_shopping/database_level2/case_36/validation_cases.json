@@ -1,0 +1,474 @@
+{
+  "query": "I'm doing a big wardrobe update and need everything to arrive quickly. First, I’m looking for a navy blue item from Uniqlo with a transport time of less than 3 days. I also need a popular olive green product that can be delivered in under 3 days; it must have a total sales volume over 12,500 and fewer than 20 one-star or two-star reviews. Next, I'm searching for something blue from Bosideng with 'Urban Explorer' in the name, fewer than 5 one-star reviews, and a delivery time under 3 days. Then, I need a popular navy blue item for summer with monthly sales over 800, arriving in less than 2 days. I’m also looking for a very specific 'Men's Performance Logo Tee' in silver, size XL, with more than 50 three-star reviews and a stock quantity over 150. Finally, I'm getting a men's item from Converse that has sold over 9,500 units, with more than 10 three-star reviews but fewer than 5 one-star reviews. Find me some products where the total price is no less than 2585 and no more than 2601.",
+  "ground_truth_products": [
+    {
+      "product_id": "c375b0f8",
+      "name": "Men's Smart Ankle Pants",
+      "price": 349.0,
+      "brand": "Uniqlo",
+      "color": "Navy Blue",
+      "size": "XL",
+      "stock_quantity": 875,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 68
+        },
+        {
+          "material": "Viscose",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets,Zipper Closure,Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not tumble dry. Use a press cloth for ironing.",
+      "sales_volume": {
+        "monthly": 2350,
+        "total": 28760
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 7850,
+        "distribution": {
+          "5_star": 6500,
+          "4_star": 1100,
+          "3_star": 150,
+          "2_star": 60,
+          "1_star": 40
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "90931401",
+      "name": "Men's Urban Explorer Cargo Trousers",
+      "price": 429.5,
+      "brand": "Bosideng",
+      "color": "Olive Green",
+      "size": "XL",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 22
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 12540
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1105,
+        "distribution": {
+          "5_star": 780,
+          "4_star": 250,
+          "3_star": 45,
+          "2_star": 15,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "7d91dc5b",
+      "name": "Men's Urban Explorer Casual Sneakers",
+      "price": 589.5,
+      "brand": "Bosideng",
+      "color": "Blue",
+      "size": "43",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Cotton",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 258,
+        "total": 1340
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 310,
+          "4_star": 85,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "1e173d93",
+      "name": "Men's Classic Pique Polo Shirt",
+      "price": 429.0,
+      "brand": "Levi's",
+      "color": "Navy Blue",
+      "size": "XL",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Button-down, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 1285,
+        "total": 15540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1805,
+          "4_star": 252,
+          "3_star": 68,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "fcd80d80",
+      "name": "Men's Performance Logo Tee",
+      "price": 249.0,
+      "brand": "Puma",
+      "color": "Silver",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not iron on print.",
+      "sales_volume": {
+        "monthly": 550,
+        "total": 6240
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 980,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 150,
+          "3_star": 60,
+          "2_star": 10,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "fc833f15",
+      "name": "Men's Vulcanized Canvas Skate Shoes",
+      "price": 549.0,
+      "brand": "Converse",
+      "color": "Orange",
+      "size": "43",
+      "stock_quantity": 380,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Polyester",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Patchwork, Printing, Vintage Wash, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Air dry away from direct sunlight. Do not machine wash or bleach.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 9800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 620,
+        "distribution": {
+          "5_star": 510,
+          "4_star": 90,
+          "3_star": 12,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Stylish design",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Uniqlo, the transport time is less than 3, and the color is Navy Blue.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Uniqlo"
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "color",
+          "value": "Navy Blue"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Olive Green, total sales volume is more than 12500, transport time is less than 3, the number of 1-star reviews is less than 20, and the number of 2-star reviews is less than 20.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 15
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 15
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 12540
+        },
+        {
+          "field": "color",
+          "value": "Olive Green"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Bosideng, the color is Blue, the name contains 'Urban Explorer', the number of 1-star reviews is less than 5, and the transport time is less than 3 days.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Bosideng"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "color",
+          "value": "Blue"
+        },
+        {
+          "field": "name",
+          "value": "Men's Urban Explorer Casual Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Navy Blue, the suitable season is Summer, monthly sales volume is more than 800, and transport time is less than 2.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Navy Blue"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 850
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products named 'Men's Performance Logo Tee' with a stock quantity greater than 150, in the color Silver, size XL, and with more than 50 3-star reviews.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 185
+        },
+        {
+          "field": "color",
+          "value": "Silver"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 60
+        },
+        {
+          "field": "size",
+          "value": "XL"
+        },
+        {
+          "field": "name",
+          "value": "Men's Performance Logo Tee"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 3-star reviews is greater than 10, total sales volume is more than 9500, the brand is Converse, the number of 1-star reviews is less than 5, and the target demographic is Men.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 12
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 9800
+        },
+        {
+          "field": "brand",
+          "value": "Converse"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 3
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        }
+      ]
+    }
+  ]
+}

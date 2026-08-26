@@ -1,0 +1,20 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "What is the maximum prices of the cars sold in March, send it via email to the buyer Tom",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "Ford Mustang",
+                    "20000"
+                ]
+            }
+        }
+    ]
+}

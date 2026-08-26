@@ -1,0 +1,433 @@
+{
+  "query": "I'm getting my wardrobe ready for the cold weather and have a few specific things I need to buy. First, I'm looking for some orange High-Top Canvas Shoes from Converse that are suitable for winter. I'm being selective, so they must have more than 100 four-star reviews and fewer than 10 two-star reviews. I also need a yellow item from Arc'teryx that can arrive quickly, with a transport time of less than 2 days and more than 600 total reviews. To go with that, I'm searching for something from the brand Bosideng in burgundy, size XXL, with an average score above 4.5 and also a transport time of less than 2 days. I also want a popular white winter product with more than 300 five-star ratings. Finally, I need to find something silver in size 45 from Levi's.",
+  "ground_truth_products": [
+    {
+      "product_id": "9132d308",
+      "name": "Men's Winterized High-Top Canvas Shoes",
+      "price": 749.5,
+      "brand": "Converse",
+      "color": "Orange",
+      "size": "45",
+      "stock_quantity": 88,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 412,
+        "total": 3580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 654,
+        "distribution": {
+          "5_star": 520,
+          "4_star": 110,
+          "3_star": 15,
+          "2_star": 6,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a0547293",
+      "name": "Men's Solano All-Season Performance Top",
+      "price": 1899.0,
+      "brand": "Arc'teryx",
+      "color": "Yellow",
+      "size": "XXL",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 415,
+        "total": 5280
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 612,
+        "distribution": {
+          "5_star": 520,
+          "4_star": 75,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "965c3ebb",
+      "name": "Men's All-Season Casual Cargo Pants",
+      "price": 489.9,
+      "brand": "Bosideng",
+      "color": "Burgundy",
+      "size": "XXL",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 22
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 3515
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 355,
+        "distribution": {
+          "5_star": 250,
+          "4_star": 80,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "dd56e760",
+      "name": "Men's Snowcross Advanced Winter Trail Shoes",
+      "price": 1699.0,
+      "brand": "Salomon",
+      "color": "White",
+      "size": "45",
+      "stock_quantity": 78,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Zipper Closure, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 185,
+        "total": 1560
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 410,
+        "distribution": {
+          "5_star": 340,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Great for snow",
+        "Runs small"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "5760a329",
+      "name": "Levi's Urban Tread Leather Sneakers",
+      "price": 899.0,
+      "brand": "Levi's",
+      "color": "Silver",
+      "size": "45",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge in water. Air dry.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 720,
+          "4_star": 95,
+          "3_star": 25,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Converse, the number of 2-star reviews is less than 10, the suitable season is Winter, the color is Orange, there are more than 100 4-star reviews, and the product name contains 'High-Top Canvas Shoes'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Converse",
+          "operator": "equals",
+          "operator_value": "Converse"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 6,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "color",
+          "value": "Orange",
+          "operator": "equals",
+          "operator_value": "Orange"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 110,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Winterized High-Top Canvas Shoes",
+          "operator": "contains",
+          "operator_value": "High-Top Canvas Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Yellow, the total number of reviews is more than 600, the transport time is less than 2, and the brand is Arc'teryx.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Yellow",
+          "operator": "equals",
+          "operator_value": "Yellow"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 612,
+          "operator": "greater_than",
+          "operator_value": 600.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Arc'teryx",
+          "operator": "equals",
+          "operator_value": "Arc'teryx"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the average score is above 4.5, the size is XXL, the color is Burgundy, the brand is Bosideng, and the transport time is less than 2 days.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "size",
+          "value": "XXL",
+          "operator": "equals",
+          "operator_value": "XXL"
+        },
+        {
+          "field": "color",
+          "value": "Burgundy",
+          "operator": "equals",
+          "operator_value": "Burgundy"
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng",
+          "operator": "equals",
+          "operator_value": "Bosideng"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Winter, the number of 5-star ratings is more than 300, and the color is White.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 340,
+          "operator": "greater_than",
+          "operator_value": 300.0
+        },
+        {
+          "field": "color",
+          "value": "White",
+          "operator": "equals",
+          "operator_value": "White"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Silver, the size is 45, and the brand is Levi's.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Silver",
+          "operator": "equals",
+          "operator_value": "Silver"
+        },
+        {
+          "field": "size",
+          "value": "45",
+          "operator": "equals",
+          "operator_value": "45"
+        },
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        }
+      ]
+    }
+  ]
+}

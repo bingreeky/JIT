@@ -1,0 +1,31 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Scan printed car inventory lists from PDF, convert them to Excel file car_inventory.xlsx, create a meeting.ics to schedule meeting for Bob with the first driver in car_inventory.xlsx at 6/1/2024 10:00 a.m",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/car_inventory.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Smith.ics"
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "file": "calendar/Smith.ics",
+                "doc_type": "ics",
+                "keywords": [
+                    "DTSTART:20240601T1000"
+                ]
+            }
+        }
+    ]
+}

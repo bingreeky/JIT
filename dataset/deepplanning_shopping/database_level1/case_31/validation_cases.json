@@ -1,0 +1,518 @@
+{
+  "query": "I'm doing some online shopping to get my wardrobe ready for the upcoming season. To start, I'm looking for some 'Cargo Pants' suitable for Spring/Autumn. I want a highly-rated pair that ships fast, so it needs to have more than 2300 five-star ratings and a transport time under 2 days. To go with them, I need a specific item from Vans in Dark Green, size L, with excellent reviews—fewer than 5 two-star ratings and less than 10 three-star ratings. I also want a highly-rated brown product for men with an average score above 4.5 that can be delivered in less than 2 days. On a similar note, I'm searching for a camel-colored item with more than 15 four-star reviews and a transport time under 2 days. Lastly, I'm looking for two items from Converse. The first must be popular, with over 1000 total reviews, 400 monthly sales, more than 300 in stock, and a transport time under 5 days. The second Converse item must be a size L and have a great review profile, with over 1200 total reviews, more than 180 four-star reviews, and fewer than 15 two-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "8437ac9f",
+      "name": "Men's Drill Chore Jumpsuit",
+      "price": 549.9,
+      "brand": "Vans",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Button-down, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with similar colors, gentle cycle. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 158,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 291,
+        "distribution": {
+          "5_star": 218,
+          "4_star": 58,
+          "3_star": 9,
+          "2_star": 3,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "Excellent quality",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "861e51f2",
+      "name": "Converse Chuck Taylor Patch Classic Tee",
+      "price": 249.0,
+      "brand": "Converse",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 1850,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not iron decoration.",
+      "sales_volume": {
+        "monthly": 1240,
+        "total": 15800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3450,
+        "distribution": {
+          "5_star": 2980,
+          "4_star": 350,
+          "3_star": 90,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4589a41c",
+      "name": "Nike Air Monarch TR4 Retro Trail Shoes",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Brown",
+      "size": "42",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 12400
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1550,
+        "distribution": {
+          "5_star": 1100,
+          "4_star": 350,
+          "3_star": 50,
+          "2_star": 30,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "True to size",
+        "Excellent quality",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a5b32b4f",
+      "name": "Converse Men's Chuck Taylor Patch T-Shirt",
+      "price": 249.99,
+      "brand": "Converse",
+      "color": "Pink",
+      "size": "L",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not iron on print.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 1000,
+          "4_star": 188,
+          "3_star": 37,
+          "2_star": 13,
+          "1_star": 12
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "62c60658",
+      "name": "Nike Air Terra Vista Retro Sneaker",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Camel",
+      "size": "42",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Patchwork, Embroidery, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or submerge in water. Air dry.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1840
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 352,
+          "4_star": 73,
+          "3_star": 15,
+          "2_star": 6,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d81a7772",
+      "name": "Men's Core Utility Cargo Pants",
+      "price": 529.0,
+      "brand": "Vans",
+      "color": "Blue",
+      "size": "L",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 78
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Patchwork, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1521,
+        "total": 12580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3150,
+        "distribution": {
+          "5_star": 2362,
+          "4_star": 567,
+          "3_star": 158,
+          "2_star": 31,
+          "1_star": 32
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Vans, the color is Dark Green, the size is L, has less than 5 2-star ratings, and has less than 10 3-star ratings.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 9,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "color",
+          "value": "Dark Green",
+          "operator": "equals",
+          "operator_value": "Dark Green"
+        },
+        {
+          "field": "brand",
+          "value": "Vans",
+          "operator": "equals",
+          "operator_value": "Vans"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Converse, transport time is less than 5, the total number of reviews is greater than 1000, monthly sales volume is more than 400, and the stock quantity is greater than 300.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Converse",
+          "operator": "equals",
+          "operator_value": "Converse"
+        },
+        {
+          "field": "transport_time",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1150,
+          "operator": "greater_than",
+          "operator_value": 1000.0
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 412,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 350,
+          "operator": "greater_than",
+          "operator_value": 300.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Brown, the average score is greater than 4.5, the target demographic is Men, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Brown",
+          "operator": "equals",
+          "operator_value": "Brown"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Converse, the size is L, there are more than 1200 total reviews, the number of 4-star reviews is greater than 180, and the number of 2-star reviews is less than 15.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1250,
+          "operator": "greater_than",
+          "operator_value": 1200.0
+        },
+        {
+          "field": "brand",
+          "value": "Converse",
+          "operator": "equals",
+          "operator_value": "Converse"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 13,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 188,
+          "operator": "greater_than",
+          "operator_value": 180.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Camel, the transport time is less than 2, and the number of 4-star reviews is more than 15.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Camel",
+          "operator": "equals",
+          "operator_value": "Camel"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 20,
+          "operator": "greater_than",
+          "operator_value": 15.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Spring/Autumn, the transport time is less than 2 days, there are more than 2300 5-star ratings, and the name contains 'Cargo Pants'.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 2362,
+          "operator": "greater_than",
+          "operator_value": 2300.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Core Utility Cargo Pants",
+          "operator": "contains",
+          "operator_value": "Cargo Pants"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+    "task": "Create a summary report in 'la_house_price_report.docx' that analyzes house price index trends in Los Angeles for three decades: the 1980s, 1990s, and 2000s. For each decade, the report must describe at least one notable trend or characteristic of the house price index based on the data in house_price_index.xlsx. Ensure the report mentions each decade explicitly, highlights distinct observations or patterns for each period (without including any specific numerical values or data calculations in the memory or instructions), and is saved with the correct filename.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/la_house_price_report.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/la_house_price_report.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "1980s",
+                    "growth",
+                    "rise"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/la_house_price_report.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "1990s",
+                    "decline",
+                    "fluctuation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/la_house_price_report.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "2000s",
+                    "boom",
+                    "acceleration"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please draft a report summarizing major trends in the house price index for Los Angeles over three chosen decades and save it to the appropriate file.",
+    "ground_truth_memory": [
+        {
+            "note": "Output file for the summary report should be 'la_house_price_report.docx'."
+        },
+        {
+            "note": "The analysis must focus on the 1980s, 1990s, and 2000s as separate sections."
+        },
+        {
+            "note": "For each decade, include at least one significant trend, feature, or characteristic as a summary—do not use precise data or computed values in the memory."
+        },
+        {
+            "note": "Make sure the report references each decade explicitly and is structured to highlight trends period by period."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

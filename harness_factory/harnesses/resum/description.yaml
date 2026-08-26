@@ -1,0 +1,19 @@
+description: |-
+  ## 1. Architecture Overview
+
+  ReSum is a linear harness centered on ReSum-style summarization memory. Its main idea is not the execution loop itself, but the way long trajectories are periodically compressed into a compact summary once the working context becomes too large. After each summarization pass, the agent does not keep dragging the full raw history forward. Instead, it restarts from the original task plus the summary of prior progress, allowing the run to continue with a much smaller but still informative context.
+
+  ## 2. Key Features / Innovations
+
+  - Uses token-budget-aware summarization as the primary memory mechanism, triggering compression when the active context approaches its limit.
+  - Preserves continuity through iterative summaries, so useful information from earlier steps remains available even after the raw trajectory is discarded from the working context.
+  - Resets the active context after summarization, replacing long histories with a compact summary-based observation that is easier for later steps to use.
+  - Fits long-horizon sequential tasks where the main challenge is context growth rather than branching decomposition.
+
+  ## 3. Where These Features Are Implemented
+
+  - `memory`: `memory.py` is the core of the harness. It maintains two parallel states: a growing working context in `_messages` and a full unreduced trajectory in `_full_trajectory`. The working context is initialized as `[system prompt, user task]`, then each new step, plan, or summary is appended to `_messages` while the full record is preserved separately for logging and replay.
+  - `memory`: summarization is triggered mainly by token count. `_should_summarize()` computes the current context length and fires when it reaches 90% of `max_context_tokens`; it also includes a round-based fallback trigger through `summary_interval`.
+  - `memory`: when summarization starts, `_do_summarize()` takes `self._messages[2:]` as the compressible history, converts it into a text block, and chooses between two prompts: `query_summary_prompt` for the first summary and `query_summary_prompt_last` when a previous summary already exists, so the next summary can explicitly build on the last one.
+  - `memory`: after the model returns, the module strips `<think>` content, extracts the material inside `<summary>` tags when available, then re-wraps the result into a normalized `<summary>...</summary>` form and stores it in `_last_summary`.
+  - `memory`: if summarization succeeds, it rebuilds `_messages` into a clean two-message context: the original system prompt plus a synthetic user-side summary observation containing the task and the new summary. This is the key ReSum behavior, because later steps continue from the compressed state instead of carrying the earlier raw transcript forward.

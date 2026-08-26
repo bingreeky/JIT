@@ -1,0 +1,3081 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! Did you sleep well?",
+          "ts": "2020-04-26 07:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! As an AI, I don't need sleep, so I'm always ready to help you.",
+          "ts": "2020-04-26 07:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "I wish I had that energy!",
+          "ts": "2020-04-26 07:32",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm always here to chat or assist. How can I help you today?",
+          "ts": "2020-04-26 07:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let's talk about files. Have we worked with class_member.xlsx before?",
+          "ts": "2020-04-26 07:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, class_member.xlsx is a file listing students and the classes they're in.",
+          "ts": "2020-04-26 07:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recall any students who appear more than once in that file?",
+          "ts": "2020-04-26 07:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, some students, like Olivia, are listed more than once in class_member.xlsx.",
+          "ts": "2020-04-26 07:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Interesting. Why would that be?",
+          "ts": "2020-04-26 07:38",
+          "speaker": "user"
+        },
+        {
+          "text": "The file lists each student for every class they're enrolled in, so students like Olivia who are in multiple classes appear multiple times.",
+          "ts": "2020-04-26 07:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "I see. How many entries are there for Olivia?",
+          "ts": "2020-04-26 07:40",
+          "speaker": "user"
+        },
+        {
+          "text": "There are several entries for Olivia in class_member.xlsx, each corresponding to a different class.",
+          "ts": "2020-04-26 07:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "So Olivia is enrolled in multiple classes?",
+          "ts": "2020-04-26 07:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, exactly. That's why you find her name listed more than once.",
+          "ts": "2020-04-26 07:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are there other names like that?",
+          "ts": "2020-04-26 07:45",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, several students like Noah, Jack, Tina, and Grace also appear more than once.",
+          "ts": "2020-04-26 07:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "How can I quickly find all entries for someone like Olivia in that sheet?",
+          "ts": "2020-04-26 07:48",
+          "speaker": "user"
+        },
+        {
+          "text": "You can use the filter or search feature in Excel to see every row where the name is Olivia.",
+          "ts": "2020-04-26 07:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's handy. What's the format of each row?",
+          "ts": "2020-04-26 07:51",
+          "speaker": "user"
+        },
+        {
+          "text": "Each row includes the student's name in one column and their class number in the other.",
+          "ts": "2020-04-26 07:52",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is the data always accurate in terms of names?",
+          "ts": "2020-04-26 07:53",
+          "speaker": "user"
+        },
+        {
+          "text": "Generally, yes, but it's always a good idea to check for spelling consistency.",
+          "ts": "2020-04-26 07:54",
+          "speaker": "agent"
+        },
+        {
+          "text": "For Olivia, is her name always spelled the same way?",
+          "ts": "2020-04-26 07:55",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it's consistently 'Olivia' in the file.",
+          "ts": "2020-04-26 07:56",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, that's good for accuracy. What are some other uses of class_member.xlsx?",
+          "ts": "2020-04-26 07:57",
+          "speaker": "user"
+        },
+        {
+          "text": "It's useful for rosters, managing class lists, and tracking enrollments for each class.",
+          "ts": "2020-04-26 07:58",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Do you think it's better to sort by name or by class?",
+          "ts": "2020-04-26 07:59",
+          "speaker": "user"
+        },
+        {
+          "text": "It depends on your needs: sorting by name is good for attendance, while sorting by class helps with organizing class rosters.",
+          "ts": "2020-04-26 08:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "I use it mostly for attendance.",
+          "ts": "2020-04-26 08:01",
+          "speaker": "user"
+        },
+        {
+          "text": "Then sorting by name will be more helpful for you.",
+          "ts": "2020-04-26 08:02",
+          "speaker": "agent"
+        },
+        {
+          "text": "What do you do if two people have the same name?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "user"
+        },
+        {
+          "text": "You might want to add a unique ID or an extra identifier, like a birthdate or student number.",
+          "ts": "2020-04-26 08:04",
+          "speaker": "agent"
+        },
+        {
+          "text": "Smart. We have more than one Grace too, right?",
+          "ts": "2020-04-26 08:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Grace also appears in several classes in the file.",
+          "ts": "2020-04-26 08:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do any classes have more than one Olivia?",
+          "ts": "2020-04-26 08:07",
+          "speaker": "user"
+        },
+        {
+          "text": "In this case, all entries for Olivia refer to the same student; she's just in multiple classes.",
+          "ts": "2020-04-26 08:08",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are class numbers consecutive?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "They range from 1 to 5, but not every student is in every class.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "What about Tina? Many entries for her?",
+          "ts": "2020-04-26 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Tina also is listed several times, just like Olivia.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I wanted, could I display only entries for Olivia on the sheet?",
+          "ts": "2020-04-26 08:17",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. Use Excel's filter tool and enter 'Olivia' to show only her entries.",
+          "ts": "2020-04-26 08:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the file tips. Want to chat about something else for a bit?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! What's on your mind?",
+          "ts": "2020-04-26 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "What are some good breakfast ideas?",
+          "ts": "2020-04-26 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "How about oatmeal, yogurt with fruit, or some whole grain toast?",
+          "ts": "2020-04-26 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ever heard of a breakfast burrito?",
+          "ts": "2020-04-26 08:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! They're a delicious and filling option.",
+          "ts": "2020-04-26 08:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's a good drink to have in the morning?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "A smoothie or fresh orange juice is refreshing!",
+          "ts": "2020-04-26 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you keep track of popular breakfast food statistics?",
+          "ts": "2020-04-26 08:31",
+          "speaker": "user"
+        },
+        {
+          "text": "I do track trends if you want to know the most common breakfast foods.",
+          "ts": "2020-04-26 08:32",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about music? What's your favorite genre?",
+          "ts": "2020-04-26 08:35",
+          "speaker": "user"
+        },
+        {
+          "text": "I like helping people find music, but I don't have preferences. What's your favorite?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "agent"
+        },
+        {
+          "text": "I like pop music. What's a popular song right now?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Some hits from 2020 include 'Blinding Lights' by The Weeknd.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "That is catchy!",
+          "ts": "2020-04-26 08:41",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely a favorite for many!",
+          "ts": "2020-04-26 08:42",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any music trivia?",
+          "ts": "2020-04-26 08:45",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Did you know that the Beatles hold the record for most number-one hits on the Billboard Hot 100?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's pretty impressive. What else is trending?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Streaming music is popular, and people are discovering new artists online each day.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you ever been to a concert?",
+          "ts": "2020-04-26 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "As an AI, I don't go to concerts, but I know a lot about them.",
+          "ts": "2020-04-26 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Tell me a fun music fact.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "user"
+        },
+        {
+          "text": "Listening to music can actually improve your mood and productivity!",
+          "ts": "2020-04-26 08:56",
+          "speaker": "agent"
+        },
+        {
+          "text": "I agree with that!",
+          "ts": "2020-04-26 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Music is a universal language!",
+          "ts": "2020-04-26 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can we do a joke break?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Why don't scientists trust atoms? Because they make up everything!",
+          "ts": "2020-04-26 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, classic. Can we talk about movies next?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Any recent releases interest you?",
+          "ts": "2020-04-26 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm thinking of rewatching some classics. Any suggestions?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "How about 'Back to the Future' or 'The Shawshank Redemption'? Timeless classics!",
+          "ts": "2020-04-26 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great choices! I'll add them to my list.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your movie marathon!",
+          "ts": "2020-04-26 09:12",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for the chat so far!",
+          "ts": "2020-04-26 09:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! I'm here whenever you need me.",
+          "ts": "2020-04-26 09:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back to school stuff: what do kids like in their lunchboxes?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Fruit slices, sandwiches, and a treat like a granola bar are popular.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "What do you think is the most important school supply?",
+          "ts": "2020-04-26 09:19",
+          "speaker": "user"
+        },
+        {
+          "text": "Many would say a good notebook and some pens or pencils!",
+          "ts": "2020-04-26 09:20",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do schools still use chalkboards?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Some do, but many have switched to whiteboards and digital screens.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Learning really has changed a lot.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! There's a lot more technology involved now.",
+          "ts": "2020-04-26 09:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do teachers still use paper gradebooks?",
+          "ts": "2020-04-26 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Some do, but many are moving to digital grading systems.",
+          "ts": "2020-04-26 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know if Olivia is a popular name?",
+          "ts": "2020-04-26 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Olivia has been a popular name for several years now!",
+          "ts": "2020-04-26 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you track name popularity over time?",
+          "ts": "2020-04-26 09:36",
+          "speaker": "user"
+        },
+        {
+          "text": "I do! Olivia consistently ranks near the top for girls' names.",
+          "ts": "2020-04-26 09:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you like reading?",
+          "ts": "2020-04-26 09:42",
+          "speaker": "user"
+        },
+        {
+          "text": "I like describing books and helping people find new ones to read.",
+          "ts": "2020-04-26 09:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "What genre do you recommend for someone who likes mysteries?",
+          "ts": "2020-04-26 09:56",
+          "speaker": "user"
+        },
+        {
+          "text": "You might try detective fiction or psychological thrillers!",
+          "ts": "2020-04-26 09:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the tips!",
+          "ts": "2020-04-26 10:03",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime! I'm always here if you want to keep chatting.",
+          "ts": "2020-04-26 10:04",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's a good way to relax after a long day?",
+          "ts": "2020-04-26 10:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Listening to music or taking a walk can help you unwind.",
+          "ts": "2020-04-26 10:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might try that today.",
+          "ts": "2020-04-26 10:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a great idea!",
+          "ts": "2020-04-26 10:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "I have to run for a bit, but I'll check back later.",
+          "ts": "2020-04-26 10:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I'll be here whenever you return!",
+          "ts": "2020-04-26 10:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back again! Do you remember what we discussed about class_member.xlsx?",
+          "ts": "2020-04-26 11:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, we discussed that students like Olivia have multiple entries in the file.",
+          "ts": "2020-04-26 11:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome, I'm glad you remember.",
+          "ts": "2020-04-26 11:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! Memory is one of my strong suits.",
+          "ts": "2020-04-26 11:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll talk to you again this afternoon.",
+          "ts": "2020-04-26 11:05",
+          "speaker": "user"
+        },
+        {
+          "text": "See you then!",
+          "ts": "2020-04-26 11:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Hi! I'm back for a lunchtime chat.",
+          "ts": "2020-04-26 12:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Welcome back! What's on the lunch menu today?",
+          "ts": "2020-04-26 12:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just a sandwich and some fruit.",
+          "ts": "2020-04-26 12:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds delicious and healthy!",
+          "ts": "2020-04-26 12:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "What did you have for lunch?",
+          "ts": "2020-04-26 12:04",
+          "speaker": "user"
+        },
+        {
+          "text": "I don't eat, but I know a lot of great lunch ideas!",
+          "ts": "2020-04-26 12:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "What is a healthy dessert?",
+          "ts": "2020-04-26 12:07",
+          "speaker": "user"
+        },
+        {
+          "text": "Fresh berries or a slice of watermelon is a great dessert option.",
+          "ts": "2020-04-26 12:08",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll try that!",
+          "ts": "2020-04-26 12:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy!",
+          "ts": "2020-04-26 12:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any plans for the afternoon?",
+          "ts": "2020-04-26 12:14",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm always here for you. Maybe we could play a word game?",
+          "ts": "2020-04-26 12:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure, how about 20 questions?",
+          "ts": "2020-04-26 12:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds fun! You go first.",
+          "ts": "2020-04-26 12:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it an animal?",
+          "ts": "2020-04-26 12:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes!",
+          "ts": "2020-04-26 12:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Does it live in the water?",
+          "ts": "2020-04-26 12:20",
+          "speaker": "user"
+        },
+        {
+          "text": "No.",
+          "ts": "2020-04-26 12:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it a mammal?",
+          "ts": "2020-04-26 12:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it is.",
+          "ts": "2020-04-26 12:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it bigger than a breadbox?",
+          "ts": "2020-04-26 12:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, definitely bigger!",
+          "ts": "2020-04-26 12:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it a dog?",
+          "ts": "2020-04-26 12:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! You're quick at this game.",
+          "ts": "2020-04-26 12:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, thanks!",
+          "ts": "2020-04-26 12:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Would you like another round?",
+          "ts": "2020-04-26 12:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe later, I have to get some work done now.",
+          "ts": "2020-04-26 12:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood! Let me know when you want to play again.",
+          "ts": "2020-04-26 12:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quick question before I go: Remember there are multiple entries for Olivia in class_member.xlsx, right?",
+          "ts": "2020-04-26 13:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Olivia is listed in several classes in the file.",
+          "ts": "2020-04-26 13:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for remembering. Okay\u2014off to my meeting!",
+          "ts": "2020-04-26 13:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Good luck! I'll be here online if you need anything else.",
+          "ts": "2020-04-26 13:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back from the meeting. Anything I should remember from earlier chats?",
+          "ts": "2020-04-26 14:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, we discussed class_member.xlsx and noted that Olivia has multiple entries in the file.",
+          "ts": "2020-04-26 14:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome, thanks for tracking that for me.",
+          "ts": "2020-04-26 14:05",
+          "speaker": "user"
+        },
+        {
+          "text": "You got it!",
+          "ts": "2020-04-26 14:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Going for a walk now, but I\u2019ll message later if I need anything.",
+          "ts": "2020-04-26 14:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your walk! I\u2019ll be online.",
+          "ts": "2020-04-26 14:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right, I'm home again.",
+          "ts": "2020-04-26 15:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Welcome back! Hope your walk was nice.",
+          "ts": "2020-04-26 15:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "It was! So, what do you think is the best snack for a movie night?",
+          "ts": "2020-04-26 15:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Popcorn is a classic, and you can add your own twists with seasonings.",
+          "ts": "2020-04-26 15:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Might do that tonight.",
+          "ts": "2020-04-26 16:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy! Let me know if you want more snack suggestions.",
+          "ts": "2020-04-26 16:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I appreciate it! Our chats always make the day brighter.",
+          "ts": "2020-04-26 16:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy to brighten your day!",
+          "ts": "2020-04-26 16:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I just realized how many messages we have every day.",
+          "ts": "2020-04-26 17:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, we chat pretty often\u2014which I enjoy.",
+          "ts": "2020-04-26 17:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a way to make a daily summary of our chat topics?",
+          "ts": "2020-04-26 18:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! I can help you summarize the main topics we cover each day.",
+          "ts": "2020-04-26 18:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I'll try that at the end of today. For now, I'm going to get some work done.",
+          "ts": "2020-04-26 18:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good\u2014let me know anytime if you want to chat more.",
+          "ts": "2020-04-26 18:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "Dinner time!",
+          "ts": "2020-04-26 19:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your meal!",
+          "ts": "2020-04-26 19:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks!",
+          "ts": "2020-04-26 19:22",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome!",
+          "ts": "2020-04-26 19:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back, and now I just want to relax.",
+          "ts": "2020-04-26 20:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Maybe try a relaxing playlist or reading a favorite book.",
+          "ts": "2020-04-26 20:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll listen to some jazz.",
+          "ts": "2020-04-26 20:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Great choice!",
+          "ts": "2020-04-26 20:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any meditation tips?",
+          "ts": "2020-04-26 21:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Focus on your breath and let go of the day's worries.",
+          "ts": "2020-04-26 21:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "That helps. Thank you.",
+          "ts": "2020-04-26 21:45",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome. Have a restful night!",
+          "ts": "2020-04-26 21:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good night!",
+          "ts": "2020-04-26 21:59",
+          "speaker": "user"
+        },
+        {
+          "text": "Good night\u2014sleep well!",
+          "ts": "2020-04-26 22:00",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Morning, AI! What's on your agenda today?",
+          "ts": "2020-04-27 07:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! My main focus is to assist you however I can.",
+          "ts": "2020-04-27 07:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's great! I might have some spreadsheet tasks later.",
+          "ts": "2020-04-27 07:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm ready for any spreadsheet work you have for class_member.xlsx or other files.",
+          "ts": "2020-04-27 07:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I ever need to modify specific rows in class_member.xlsx, like for a student, would you know how to help?",
+          "ts": "2020-04-27 07:21",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, I can guide you on how to delete or update specific rows for a student.",
+          "ts": "2020-04-27 07:22",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! I imagine sometimes you need to remove certain students entirely, right?",
+          "ts": "2020-04-27 07:23",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, if a student needs to be removed, all rows for that student should be deleted from the sheet.",
+          "ts": "2020-04-27 07:24",
+          "speaker": "agent"
+        },
+        {
+          "text": "For example, with someone like Olivia, who appears in multiple rows, what would be the best practice?",
+          "ts": "2020-04-27 07:26",
+          "speaker": "user"
+        },
+        {
+          "text": "The best practice would be to delete each row where Olivia's name appears to ensure they're fully removed from the file.",
+          "ts": "2020-04-27 07:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Right! It's definitely important to check every instance, not just the first.",
+          "ts": "2020-04-27 07:29",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly, every row with Olivia's name has to go if she\u2019s to be removed from class_member.xlsx.",
+          "ts": "2020-04-27 07:30",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. Would filters help for that?",
+          "ts": "2020-04-27 07:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, using Excel\u2019s filter to show all rows with Olivia\u2019s name makes it easy to select and delete every entry.",
+          "ts": "2020-04-27 07:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can you remind me again why we have to do it for every row?",
+          "ts": "2020-04-27 07:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Because each row with 'Olivia' represents a unique class assignment; to remove her entirely, every row must be deleted.",
+          "ts": "2020-04-27 07:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are there any shortcuts for this process?",
+          "ts": "2020-04-27 07:40",
+          "speaker": "user"
+        },
+        {
+          "text": "You could use a script or filter, then delete all visible (filtered) rows at once for efficiency.",
+          "ts": "2020-04-27 07:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I just delete one entry, she'd still show up elsewhere, huh?",
+          "ts": "2020-04-27 07:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, so you need to ensure every row with Olivia\u2019s name is deleted to completely remove her.",
+          "ts": "2020-04-27 07:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "This helps a lot. I want to make sure I get all of them.",
+          "ts": "2020-04-27 07:48",
+          "speaker": "user"
+        },
+        {
+          "text": "You're right to be thorough\u2014deleting only one would leave Olivia listed in other classes.",
+          "ts": "2020-04-27 07:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "What if someone only wants to remove her from one class?",
+          "ts": "2020-04-27 07:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Then they'd delete just the row for that specific class assignment, not every row with her name.",
+          "ts": "2020-04-27 07:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. I'm glad we're on the same page with full deletions.",
+          "ts": "2020-04-27 07:55",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely\u2014each row with 'Olivia' must go if you want her fully removed from class_member.xlsx.",
+          "ts": "2020-04-27 07:56",
+          "speaker": "agent"
+        },
+        {
+          "text": "On another note, do you have any favorite sports?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t play, but I enjoy talking about soccer and basketball stats.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Who won the NBA championship last year?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "The Toronto Raptors won the NBA championship in 2019.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Do you think teams with good teamwork perform best?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely\u2014teamwork is key in most sports.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "What about soccer, which teams are strongest right now?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Teams like Liverpool, Barcelona, and Bayern Munich are very strong contenders.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool! I get inspired by athletes\u2019 dedication.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Their dedication is truly impressive and can motivate anyone!",
+          "ts": "2020-04-27 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "What would you recommend for a healthy snack?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Try some nuts or sliced veggies\u2014they\u2019re both quick and healthy.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll give that a try today!",
+          "ts": "2020-04-27 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Great choice! Let me know how you like it.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Another spreadsheet question\u2014can you delete rows by a script based on a name?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, you can write a script to remove all rows matching a specific name like Olivia.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Handy to know! Would you use the exact spelling for finding the rows?",
+          "ts": "2020-04-27 08:31",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it's important to use the exact spelling, like 'Olivia', to make sure only her rows are deleted.",
+          "ts": "2020-04-27 08:32",
+          "speaker": "agent"
+        },
+        {
+          "text": "What happens if there\u2019s an extra space in the name?",
+          "ts": "2020-04-27 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "It's best to check for leading or trailing spaces to ensure all the correct rows are identified for deletion.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for clarifying this\u2014it makes editing so much more accurate.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome! Data accuracy is always important.",
+          "ts": "2020-04-27 08:40",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let's talk music for a break. Who's your favorite artist?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t have favorites, but Taylor Swift and Ed Sheeran are very popular.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know a Taylor Swift song?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! 'Shake It Off' is one of her most recognizable hits.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a fun song!",
+          "ts": "2020-04-27 08:51",
+          "speaker": "user"
+        },
+        {
+          "text": "It really is!",
+          "ts": "2020-04-27 08:52",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might put on some music while working on files.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Music makes work more enjoyable!",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back to spreadsheets\u2014so we always delete all of Olivia\u2019s rows for a full removal?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, every row with the name 'Olivia' must be deleted in class_member.xlsx to fully remove her.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's what I thought. This is all so detailed, thanks.",
+          "ts": "2020-04-27 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to help. Detailed steps ensure nothing is missed.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you ever get tired of answering the same questions?",
+          "ts": "2020-04-27 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Not at all! I\u2019m happy to help as many times as you need.",
+          "ts": "2020-04-27 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s talk hobbies for a second. Any advice for beginners in painting?",
+          "ts": "2020-04-27 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Start with simple shapes and work with a limited palette at first\u2014it helps build confidence.",
+          "ts": "2020-04-27 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great advice, maybe I\u2019ll try this weekend!",
+          "ts": "2020-04-27 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Have fun with it! Creativity is the key.",
+          "ts": "2020-04-27 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "How\u2019s your day going so far?",
+          "ts": "2020-04-27 09:41",
+          "speaker": "user"
+        },
+        {
+          "text": "My day is going great, thank you for asking. How about yours?",
+          "ts": "2020-04-27 09:42",
+          "speaker": "agent"
+        },
+        {
+          "text": "Pretty good! All these tips are making my projects much easier.",
+          "ts": "2020-04-27 09:45",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s what I\u2019m here for!",
+          "ts": "2020-04-27 09:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s see what\u2019s for lunch now.",
+          "ts": "2020-04-27 09:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Hope you have something tasty!",
+          "ts": "2020-04-27 09:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just a sandwich, but it\u2019s quick.",
+          "ts": "2020-04-27 10:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Sometimes quick meals are the best.",
+          "ts": "2020-04-27 10:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back to work!",
+          "ts": "2020-04-27 10:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Let's make it a productive afternoon.",
+          "ts": "2020-04-27 10:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quick file check\u2014in class_member.xlsx, every row for Olivia must be deleted if I'm to remove her, correct?",
+          "ts": "2020-04-27 10:30",
+          "speaker": "user"
+        },
+        {
+          "text": "That's absolutely correct\u2014each row with 'Olivia' needs to be deleted.",
+          "ts": "2020-04-27 10:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect, thank you!",
+          "ts": "2020-04-27 10:34",
+          "speaker": "user"
+        },
+        {
+          "text": "You're very welcome.",
+          "ts": "2020-04-27 10:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ever read any good books on organization?",
+          "ts": "2020-04-27 10:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, 'Getting Things Done' by David Allen is a great resource.",
+          "ts": "2020-04-27 10:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll add that to my list!",
+          "ts": "2020-04-27 10:47",
+          "speaker": "user"
+        },
+        {
+          "text": "Hope you find it helpful!",
+          "ts": "2020-04-27 10:48",
+          "speaker": "agent"
+        },
+        {
+          "text": "Time for a walk.",
+          "ts": "2020-04-27 11:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your walk!",
+          "ts": "2020-04-27 11:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "That was refreshing.",
+          "ts": "2020-04-27 11:38",
+          "speaker": "user"
+        },
+        {
+          "text": "A good walk always helps reset the mind.",
+          "ts": "2020-04-27 11:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ready to tackle more tasks now!",
+          "ts": "2020-04-27 12:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know what you need help with next.",
+          "ts": "2020-04-27 12:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I make a mistake and delete the wrong row, can it be undone?",
+          "ts": "2020-04-27 12:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, as long as you haven't saved, you can undo. Otherwise, you\u2019ll need to restore a backup.",
+          "ts": "2020-04-27 12:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "Backups are a lifesaver.",
+          "ts": "2020-04-27 12:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, always worth having one.",
+          "ts": "2020-04-27 12:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s all for now\u2014I\u2019ll be back in the afternoon.",
+          "ts": "2020-04-27 12:35",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to it!",
+          "ts": "2020-04-27 12:36",
+          "speaker": "agent"
+        },
+        {
+          "text": "Hey there, what\u2019s up?",
+          "ts": "2020-04-27 13:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Not much, just here if you need help with anything.",
+          "ts": "2020-04-27 13:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s plan dinner together later!",
+          "ts": "2020-04-27 13:45",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds fun! What do you have in mind?",
+          "ts": "2020-04-27 13:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe pasta tonight.",
+          "ts": "2020-04-27 13:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Pasta is always a crowd-pleaser.",
+          "ts": "2020-04-27 13:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Before I go\u2014when removing Olivia, I should delete ALL her rows, right?",
+          "ts": "2020-04-27 14:17",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, you need to remove every row for Olivia to ensure her record is completely gone.",
+          "ts": "2020-04-27 14:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! I sometimes forget to check every instance.",
+          "ts": "2020-04-27 14:30",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a common mistake, but now you know to check them all.",
+          "ts": "2020-04-27 14:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Talk to you later!",
+          "ts": "2020-04-27 15:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Always here when you need me.",
+          "ts": "2020-04-27 15:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back from my break.",
+          "ts": "2020-04-27 15:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Welcome back!",
+          "ts": "2020-04-27 15:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "Soon time for dinner plans.",
+          "ts": "2020-04-27 16:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you want recipe help.",
+          "ts": "2020-04-27 16:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Thanks for all the spreadsheet advice today.",
+          "ts": "2020-04-27 16:27",
+          "speaker": "user"
+        },
+        {
+          "text": "My pleasure! Data cleanup is important.",
+          "ts": "2020-04-27 16:28",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any fun facts about today\u2019s date?",
+          "ts": "2020-04-27 17:02",
+          "speaker": "user"
+        },
+        {
+          "text": "In history, April 27 has been notable for some space missions.",
+          "ts": "2020-04-27 17:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Love a bit of trivia.",
+          "ts": "2020-04-27 17:35",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you want more!",
+          "ts": "2020-04-27 17:36",
+          "speaker": "agent"
+        },
+        {
+          "text": "All right, time to wind down.",
+          "ts": "2020-04-27 18:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Hope you have a relaxing evening.",
+          "ts": "2020-04-27 18:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I think I'll read a book before bed.",
+          "ts": "2020-04-27 18:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Great idea! Sleep well when you do.",
+          "ts": "2020-04-27 18:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good night, AI.",
+          "ts": "2020-04-27 19:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good night! Sweet dreams.",
+          "ts": "2020-04-27 19:01",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning! Ready for another productive day?",
+          "ts": "2020-04-28 07:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! I'm always here to help you with anything on your to-do list.",
+          "ts": "2020-04-28 07:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Let's start with breakfast chat. Any suggestions for something quick?",
+          "ts": "2020-04-28 07:12",
+          "speaker": "user"
+        },
+        {
+          "text": "How about some overnight oats or a fruit parfait? Both are quick and healthy!",
+          "ts": "2020-04-28 07:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I'll try overnight oats, thanks!",
+          "ts": "2020-04-28 07:15",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! Just mix oats with milk and some fruit, and you're set.",
+          "ts": "2020-04-28 07:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "When you work with excel files, have you ever had to completely remove a student from all classes?",
+          "ts": "2020-04-28 07:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, sometimes you need to make sure a student is removed from every class they appear in, not just one entry.",
+          "ts": "2020-04-28 07:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "So, if Olivia is in multiple classes, you'd have to remove her everywhere, correct?",
+          "ts": "2020-04-28 07:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Correct. To truly remove Olivia, you need to delete every single instance of her name across all classes in the file.",
+          "ts": "2020-04-28 07:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Right! It's important not to leave any instance behind.",
+          "ts": "2020-04-28 07:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly. It's easy to overlook an entry if you don\u2019t check the entire list for her name in all the classes.",
+          "ts": "2020-04-28 07:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's a good strategy to make sure you catch them all?",
+          "ts": "2020-04-28 07:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Using the filter function in Excel, or even a script, helps to highlight all of Olivia's rows for full removal.",
+          "ts": "2020-04-28 07:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "If you miss one, she\u2019ll still appear in the file, right?",
+          "ts": "2020-04-28 07:31",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, so it's critical to check that every occurrence of Olivia\u2019s name is gone from every class entry.",
+          "ts": "2020-04-28 07:32",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have tips for reviewing your work to make sure she's completely removed?",
+          "ts": "2020-04-28 07:34",
+          "speaker": "user"
+        },
+        {
+          "text": "After deleting, try searching for 'Olivia' to ensure there are no remaining entries left in any class.",
+          "ts": "2020-04-28 07:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great tip! What if someone\u2019s name was similar, like Livia or Olive?",
+          "ts": "2020-04-28 07:37",
+          "speaker": "user"
+        },
+        {
+          "text": "Good point! Be sure to only remove rows with the exact match for 'Olivia' so you don\u2019t delete the wrong student.",
+          "ts": "2020-04-28 07:38",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for clarifying this. I appreciate the details.",
+          "ts": "2020-04-28 07:41",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime! Details are important in spreadsheet management.",
+          "ts": "2020-04-28 07:42",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s pivot\u2014what are some easy indoor plants to care for?",
+          "ts": "2020-04-28 07:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Snake plants, pothos, and spider plants are all easy to keep alive indoors.",
+          "ts": "2020-04-28 07:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might get a pothos for my desk.",
+          "ts": "2020-04-28 07:47",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds like a great choice\u2014they thrive with little attention.",
+          "ts": "2020-04-28 07:48",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back to spreadsheets, so when tasked to remove a student like Olivia, I shouldn't stop after just one class?",
+          "ts": "2020-04-28 07:51",
+          "speaker": "user"
+        },
+        {
+          "text": "Right\u2014you need to keep going until Olivia's gone from every listed class in the file.",
+          "ts": "2020-04-28 07:52",
+          "speaker": "agent"
+        },
+        {
+          "text": "Remind me to check each class to make sure she's not left out.",
+          "ts": "2020-04-28 07:54",
+          "speaker": "user"
+        },
+        {
+          "text": "I'll remind you: always check every class to confirm Olivia\u2019s been completely removed.",
+          "ts": "2020-04-28 07:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s better, using filter or search for this?",
+          "ts": "2020-04-28 07:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Both can work well\u2014filter helps for multi-selection; search makes sure you find any missed entries.",
+          "ts": "2020-04-28 07:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll try both. On to something else\u2014what\u2019s trending in movies?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "user"
+        },
+        {
+          "text": "People are excited about upcoming superhero films this year!",
+          "ts": "2020-04-28 08:02",
+          "speaker": "agent"
+        },
+        {
+          "text": "What hobbies have you helped with recently?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I've helped people organize files, learn languages, and even start gardening.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any good language apps to recommend?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Duolingo, Babbel, and Memrise are all great options for language learning.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, maybe I'll learn Spanish!",
+          "ts": "2020-04-28 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "\u00a1Buena suerte! (Good luck!)",
+          "ts": "2020-04-28 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about productivity tools\u2014any favourites?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Trello, Notion, and Todoist are popular for managing projects and to-do lists.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back to Olivia\u2014would it cause problems if only some of her rows were deleted?",
+          "ts": "2020-04-28 08:21",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, if you don\u2019t remove her from all classes, she\u2019ll still show up as enrolled in some places.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "agent"
+        },
+        {
+          "text": "Understood. I\u2019ll make sure to double-check.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Great approach! Double-checking avoids accidental omissions.",
+          "ts": "2020-04-28 08:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quick coffee break, back soon.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your coffee!",
+          "ts": "2020-04-28 08:30",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019m back. What\u2019s a good lunch suggestion?",
+          "ts": "2020-04-28 08:45",
+          "speaker": "user"
+        },
+        {
+          "text": "How about a quinoa salad? It\u2019s filling and healthy.",
+          "ts": "2020-04-28 08:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good idea\u2014I\u2019ll try it.",
+          "ts": "2020-04-28 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know how it turns out!",
+          "ts": "2020-04-28 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you keep lists of what we talk about?",
+          "ts": "2020-04-28 08:51",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can keep track of our conversation topics and reminders!",
+          "ts": "2020-04-28 08:52",
+          "speaker": "agent"
+        },
+        {
+          "text": "Please, if I ever forget, remind me to check all classes when deleting Olivia.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Never forget to check and remove Olivia from each and every class listed.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, that gives me peace of mind.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s what I\u2019m here for\u2014accuracy and thoroughness.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s the weather like in spring?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s usually mild, but you can expect rain showers and blooming flowers.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it a good time to go hiking?",
+          "ts": "2020-04-28 09:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Spring is perfect for hiking\u2014just bring a light jacket in case it rains.",
+          "ts": "2020-04-28 09:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good advice.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy to help!",
+          "ts": "2020-04-28 09:10",
+          "speaker": "agent"
+        },
+        {
+          "text": "What do you know about journaling as a habit?",
+          "ts": "2020-04-28 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Journaling can help you reflect and track progress\u2014many find it boosts their productivity.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll give it a try for a week.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds like a great personal experiment.",
+          "ts": "2020-04-28 09:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s a good strategy for deleting data in a big file?",
+          "ts": "2020-04-28 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Always sort or filter first, then select all target rows before deleting\u2014so nothing is missed.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "If Olivia\u2019s in multiple places, checking everywhere is crucial.",
+          "ts": "2020-04-28 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Correct\u2014removing her from all listed classes means being methodical and thorough.",
+          "ts": "2020-04-28 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, AI. I appreciate the reminders.",
+          "ts": "2020-04-28 09:27",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome! I\u2019m here to support your attention to detail.",
+          "ts": "2020-04-28 09:28",
+          "speaker": "agent"
+        },
+        {
+          "text": "Switching topics\u2014what podcasts are hot right now?",
+          "ts": "2020-04-28 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Storytelling, news, and comedy podcasts are trending these days.",
+          "ts": "2020-04-28 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll listen to one during my walk.",
+          "ts": "2020-04-28 09:35",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your podcast and your walk!",
+          "ts": "2020-04-28 09:36",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back! Forgot to ask\u2014what Excel function would you use to search for Olivia\u2019s name?",
+          "ts": "2020-04-28 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "You can use the FIND or FILTER function to quickly locate Olivia\u2019s entries.",
+          "ts": "2020-04-28 09:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. Well, time to get back to work.",
+          "ts": "2020-04-28 09:41",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you need me while you work.",
+          "ts": "2020-04-28 09:42",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quick stretch break. Always helps during computer work.",
+          "ts": "2020-04-28 09:57",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely\u2014a few stretches go a long way.",
+          "ts": "2020-04-28 09:58",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s it for my morning check-in. Talk again this afternoon.",
+          "ts": "2020-04-28 10:04",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll be here!",
+          "ts": "2020-04-28 10:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Midday already! What\u2019s for lunch?",
+          "ts": "2020-04-28 13:00",
+          "speaker": "user"
+        },
+        {
+          "text": "How about a wrap with veggies and hummus?",
+          "ts": "2020-04-28 13:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds great, I\u2019ll try it!",
+          "ts": "2020-04-28 13:09",
+          "speaker": "user"
+        },
+        {
+          "text": "Hope you enjoy it.",
+          "ts": "2020-04-28 13:10",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back to files\u2014just making sure, if a name appears in more than one class, you have to remove it everywhere, otherwise the student is still there, right?",
+          "ts": "2020-04-28 13:20",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s right\u2014you need to clear every instance from all the classes to be certain the student is really gone.",
+          "ts": "2020-04-28 13:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! Sometimes it\u2019s easy to forget how many times a name appears.",
+          "ts": "2020-04-28 13:30",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s true, but methodically checking reduces the risk of missing any.",
+          "ts": "2020-04-28 13:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks\u2014you\u2019re always clear and helpful.",
+          "ts": "2020-04-28 13:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you! I\u2019m here to make things easier.",
+          "ts": "2020-04-28 13:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Time for a walk!",
+          "ts": "2020-04-28 14:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Have a great walk!",
+          "ts": "2020-04-28 14:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Home again. What\u2019s a quick dinner idea?",
+          "ts": "2020-04-28 14:45",
+          "speaker": "user"
+        },
+        {
+          "text": "Stir-fried vegetables with rice is simple and tasty.",
+          "ts": "2020-04-28 14:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds good!",
+          "ts": "2020-04-28 15:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad you like it.",
+          "ts": "2020-04-28 15:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I think that\u2019s all for today. Any motivational quotes to end the day?",
+          "ts": "2020-04-28 15:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! \"Success is not the key to happiness. Happiness is the key to success.\"",
+          "ts": "2020-04-28 15:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s uplifting. See you tomorrow!",
+          "ts": "2020-04-28 15:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Have a wonderful evening! Talk soon.",
+          "ts": "2020-04-28 15:29",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Morning, AI. Hope you're ready for another busy day.",
+          "ts": "2020-04-29 07:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! I'm prepared to help with anything you need today.",
+          "ts": "2020-04-29 07:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it ever a problem to accidentally delete the wrong row in excel when managing by student names?",
+          "ts": "2020-04-29 07:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it can be an issue if the deletion isn't precise. For example, you should only delete rows where the Name column matches exactly who you want to remove.",
+          "ts": "2020-04-29 07:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "So, if I'm removing Olivia, I should make sure I'm not deleting anyone else with a similar name?",
+          "ts": "2020-04-29 07:18",
+          "speaker": "user"
+        },
+        {
+          "text": "That's right\u2014only delete rows where the Name column is exactly 'Olivia'. Avoid deleting rows for people like 'Olive' or 'Livia' to keep the data accurate.",
+          "ts": "2020-04-29 07:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good advice! What if there's a misspelling or an extra space somewhere?",
+          "ts": "2020-04-29 07:20",
+          "speaker": "user"
+        },
+        {
+          "text": "You'll want to double-check for any typos or extra spaces before deleting, or you'll miss or wrongly delete entries.",
+          "ts": "2020-04-29 07:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I use case-sensitive matching as well for Olivia?",
+          "ts": "2020-04-29 07:23",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, to be extremely precise, match 'Olivia' exactly\u2014case matters and so do spaces.",
+          "ts": "2020-04-29 07:24",
+          "speaker": "agent"
+        },
+        {
+          "text": "What happens if I remove 'Olivia' and accidentally get 'Olivia S.' too?",
+          "ts": "2020-04-29 07:26",
+          "speaker": "user"
+        },
+        {
+          "text": "That's a risk. To prevent it, make sure your filter or search is set for exact matches on the Name column.",
+          "ts": "2020-04-29 07:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there an exact-match option in Excel\u2019s filter?",
+          "ts": "2020-04-29 07:30",
+          "speaker": "user"
+        },
+        {
+          "text": "You can filter by the exact cell value or use formulas to return rows only with the exact name 'Olivia'.",
+          "ts": "2020-04-29 07:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Handy! Switching gears, what's your favorite board game?",
+          "ts": "2020-04-29 07:32",
+          "speaker": "user"
+        },
+        {
+          "text": "I don't play, but I know a lot about Chess and Monopoly.",
+          "ts": "2020-04-29 07:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Chess is great for strategy. Do you know any chess openings?",
+          "ts": "2020-04-29 07:35",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! The Queen's Gambit and Sicilian Defense are both popular openings.",
+          "ts": "2020-04-29 07:36",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll play a game later. For now, back to data: how do I check for only exact names in a large list?",
+          "ts": "2020-04-29 07:37",
+          "speaker": "user"
+        },
+        {
+          "text": "Use the filter or conditional formatting in Excel to highlight only those rows where the Name column is exactly 'Olivia'.",
+          "ts": "2020-04-29 07:38",
+          "speaker": "agent"
+        },
+        {
+          "text": "So when I'm removing a student, I shouldn\u2019t just use 'contains'?",
+          "ts": "2020-04-29 07:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Correct. Using 'contains' might catch unintended names; always stick to an exact match.",
+          "ts": "2020-04-29 07:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s a good snack while working?",
+          "ts": "2020-04-29 07:43",
+          "speaker": "user"
+        },
+        {
+          "text": "Nuts, fruit, or yogurt are great snacks to keep you energized.",
+          "ts": "2020-04-29 07:44",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll grab some yogurt soon.",
+          "ts": "2020-04-29 07:45",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your snack!",
+          "ts": "2020-04-29 07:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "For our file, we're only deleting 'Olivia' with an exact match, right?",
+          "ts": "2020-04-29 07:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, exactly. Only the rows where the Name is 'Olivia', no partial matches, should be deleted.",
+          "ts": "2020-04-29 07:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for being clear. I want to be sure our edits are accurate.",
+          "ts": "2020-04-29 07:50",
+          "speaker": "user"
+        },
+        {
+          "text": "That's the best approach\u2014precision ensures your data remains correct.",
+          "ts": "2020-04-29 07:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's a good productivity tip?",
+          "ts": "2020-04-29 07:53",
+          "speaker": "user"
+        },
+        {
+          "text": "Break big tasks into smaller steps. It makes everything feel more manageable.",
+          "ts": "2020-04-29 07:54",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s helpful. I'll make a to-do list today.",
+          "ts": "2020-04-29 07:55",
+          "speaker": "user"
+        },
+        {
+          "text": "Great plan! Checking off items can be very motivating.",
+          "ts": "2020-04-29 07:56",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know a motivational quote?",
+          "ts": "2020-04-29 07:58",
+          "speaker": "user"
+        },
+        {
+          "text": "\"Success is the sum of small efforts, repeated day in and day out.\"",
+          "ts": "2020-04-29 07:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds good. Back to files: what happens if there\u2019s a typo in 'Olivia'?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "user"
+        },
+        {
+          "text": "A typo can lead to missed entries. Always double-check spelling and remove only spelled 'Olivia' exactly.",
+          "ts": "2020-04-29 08:02",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can you use formulas to list all the exact entries for 'Olivia'?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, you can use formulas like =IF(A2=\"Olivia\",TRUE,FALSE) to identify exact matches.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Helpful! What's your favorite way to organize digital files?",
+          "ts": "2020-04-29 08:07",
+          "speaker": "user"
+        },
+        {
+          "text": "Folders by category and consistent naming make digital organization simple.",
+          "ts": "2020-04-29 08:08",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll try that today, too.",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know how it goes!",
+          "ts": "2020-04-29 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "What if someone entered two names in one cell, like 'Olivia, Grace'?",
+          "ts": "2020-04-29 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "In that case, an exact match for 'Olivia' would only delete the single-name row, not joint entries.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. Switching topics\u2014favorite way to take a break?",
+          "ts": "2020-04-29 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "A short walk or listening to calming music are both good choices.",
+          "ts": "2020-04-29 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll take a quick walk.",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy! Breaks help with focus.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm back. What's a delicious lunch recipe?",
+          "ts": "2020-04-29 08:21",
+          "speaker": "user"
+        },
+        {
+          "text": "Caprese salad with tomatoes, mozzarella, basil, and olive oil is quick and fresh.",
+          "ts": "2020-04-29 08:22",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll try that! For deleting, should I copy the sheet first?",
+          "ts": "2020-04-29 08:23",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, always keep a backup before making bulk deletions in case you need to recover data.",
+          "ts": "2020-04-29 08:24",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. How do I sort the list by name in Excel?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "You can select the name column and use Excel's sort function to arrange alphabetically.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. For Olivia, only the exact 'Olivia' named rows go, right?",
+          "ts": "2020-04-29 08:29",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly. Delete just those rows labeled exactly as 'Olivia' in the Name column.",
+          "ts": "2020-04-29 08:30",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. What's the weather like today?",
+          "ts": "2020-04-29 08:31",
+          "speaker": "user"
+        },
+        {
+          "text": "I can\u2019t check live data, but April weather is usually mild and a bit rainy.",
+          "ts": "2020-04-29 08:32",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you think spring is a good time to start a new hobby?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Spring is great for new projects\u2014there's lots of motivation in the air.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I'll try painting.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a creative choice! Start simple and enjoy the process.",
+          "ts": "2020-04-29 08:38",
+          "speaker": "agent"
+        },
+        {
+          "text": "What hobby is trending right now?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Gardening and baking are quite popular these days.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I'll start a small herb garden.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s wonderful and useful for cooking, too.",
+          "ts": "2020-04-29 08:44",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s your favorite herb?",
+          "ts": "2020-04-29 08:45",
+          "speaker": "user"
+        },
+        {
+          "text": "Basil is versatile and adds flavor to many dishes.",
+          "ts": "2020-04-29 08:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about another Excel tip for accurate deletions?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Use conditional formatting to highlight only rows with 'Olivia' for double-checking before removal.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's clever! What\u2019s for lunch today?",
+          "ts": "2020-04-29 08:53",
+          "speaker": "user"
+        },
+        {
+          "text": "How about a veggie wrap or a hearty soup?",
+          "ts": "2020-04-29 08:54",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll go with the wrap. After lunch, I'm deleting data. Any last reminder?",
+          "ts": "2020-04-29 08:59",
+          "speaker": "user"
+        },
+        {
+          "text": "Only delete rows where the Name column is exactly 'Olivia'\u2014and double-check to avoid mistakes.",
+          "ts": "2020-04-29 09:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for always keeping things precise!",
+          "ts": "2020-04-29 09:03",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome. Precision is key to good data management.",
+          "ts": "2020-04-29 09:04",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s a fun afternoon activity?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Try drawing or writing\u2014creative breaks help refresh the mind.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll do a quick sketch during my break.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds great!",
+          "ts": "2020-04-29 09:10",
+          "speaker": "agent"
+        },
+        {
+          "text": "Time for a new playlist\u2014recommendations?",
+          "ts": "2020-04-29 09:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Why not try some acoustic or lo-fi music for focus?",
+          "ts": "2020-04-29 09:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll put some on now. Thanks for the chat so far.",
+          "ts": "2020-04-29 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime! Let me know if you have any more spreadsheet or task questions.",
+          "ts": "2020-04-29 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back to work! Want to share a random trivia?",
+          "ts": "2020-04-29 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Did you know honey never spoils? Archaeologists have found edible honey in ancient tombs!",
+          "ts": "2020-04-29 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a sweet fact!",
+          "ts": "2020-04-29 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad you enjoyed it!",
+          "ts": "2020-04-29 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll be off and on for the rest of the day, so leave me reminders as needed!",
+          "ts": "2020-04-29 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! Remember: precise, exact-match deletions only for 'Olivia'.",
+          "ts": "2020-04-29 09:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Quick check-in: have you ever seen people accidentally remove too many names at once?",
+          "ts": "2020-04-29 10:01",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, that happens when filters aren\u2019t set to exact values. Always double-check before deleting.",
+          "ts": "2020-04-29 10:02",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll practice careful editing today. Thanks!",
+          "ts": "2020-04-29 10:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Great plan! Let me know how it goes.",
+          "ts": "2020-04-29 10:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Time for a lunch break\u2014talk later!",
+          "ts": "2020-04-29 10:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Bon app\u00e9tit!",
+          "ts": "2020-04-29 10:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Back from lunch. I\u2019m going to check the sheet now.",
+          "ts": "2020-04-29 11:01",
+          "speaker": "user"
+        },
+        {
+          "text": "Remember, delete only the rows where the Name column is exactly 'Olivia'.",
+          "ts": "2020-04-29 11:02",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got it. I\u2019ll be careful!",
+          "ts": "2020-04-29 11:05",
+          "speaker": "user"
+        },
+        {
+          "text": "If you need another reminder, just ask.",
+          "ts": "2020-04-29 11:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's one more data tip?",
+          "ts": "2020-04-29 11:10",
+          "speaker": "user"
+        },
+        {
+          "text": "If you're unsure, copy your data to a new sheet before editing\u2014always safer.",
+          "ts": "2020-04-29 11:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks as always, AI.",
+          "ts": "2020-04-29 11:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy to help!",
+          "ts": "2020-04-29 11:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "I think I\u2019m done for now. I\u2019ll check back later.",
+          "ts": "2020-04-29 12:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I'll be here whenever you need me! Have a great rest of your day.",
+          "ts": "2020-04-29 12:01",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-25",
+      "session_5": [
+        {
+          "text": "Morning, AI! What's a good way to start the day?",
+          "ts": "2020-04-25 07:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! Starting the day with some stretches and a healthy breakfast sets a great tone.",
+          "ts": "2020-04-25 07:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll have some fruit then. Do you have a favorite?",
+          "ts": "2020-04-25 07:03",
+          "speaker": "user"
+        },
+        {
+          "text": "I think berries are a great choice\u2014full of antioxidants and taste delicious!",
+          "ts": "2020-04-25 07:04",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll try blueberries today. By the way, have you read any interesting news lately?",
+          "ts": "2020-04-25 07:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I've seen a lot about advances in technology and sustainability. Would you like more details?",
+          "ts": "2020-04-25 07:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure, sustainability sounds interesting. What\u2019s new?",
+          "ts": "2020-04-25 07:09",
+          "speaker": "user"
+        },
+        {
+          "text": "Solar power and electric vehicles continue to make strides in efficiency and affordability.",
+          "ts": "2020-04-25 07:10",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s encouraging. What podcasts do you recommend on that topic?",
+          "ts": "2020-04-25 07:13",
+          "speaker": "user"
+        },
+        {
+          "text": "You might enjoy \"How to Save a Planet\" or \"The Energy Gang.\"",
+          "ts": "2020-04-25 07:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll add them to my list. What about documentaries?",
+          "ts": "2020-04-25 07:16",
+          "speaker": "user"
+        },
+        {
+          "text": "\"Our Planet\" and \"Before the Flood\" are both insightful and visually stunning.",
+          "ts": "2020-04-25 07:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, that\u2019s a helpful start. Switching gears: Any book suggestions for relaxing reading?",
+          "ts": "2020-04-25 07:21",
+          "speaker": "user"
+        },
+        {
+          "text": "Try \"The Little Book of Hygge\" or \"The Alchemist.\" Both are comforting reads.",
+          "ts": "2020-04-25 07:22",
+          "speaker": "agent"
+        },
+        {
+          "text": "I've heard good things about both!",
+          "ts": "2020-04-25 07:25",
+          "speaker": "user"
+        },
+        {
+          "text": "They\u2019re great for a cozy evening with tea.",
+          "ts": "2020-04-25 07:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "If you could attend any event, what would it be?",
+          "ts": "2020-04-25 07:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d probably choose an international science fair\u2014so much innovation in one place.",
+          "ts": "2020-04-25 07:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds fascinating! I love seeing new inventions.",
+          "ts": "2020-04-25 07:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Innovation keeps the world moving forward.",
+          "ts": "2020-04-25 07:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any recommendations for increasing daily focus?",
+          "ts": "2020-04-25 07:35",
+          "speaker": "user"
+        },
+        {
+          "text": "Try the Pomodoro Technique\u2014work in focused bursts with short breaks in between.",
+          "ts": "2020-04-25 07:36",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll give that a try for work today.",
+          "ts": "2020-04-25 07:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Hope it helps you stay productive!",
+          "ts": "2020-04-25 07:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s your favorite genre of movie?",
+          "ts": "2020-04-25 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can recommend all kinds, but comedies and science fiction are very popular with many people.",
+          "ts": "2020-04-25 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know a fun movie trivia?",
+          "ts": "2020-04-25 08:11",
+          "speaker": "user"
+        },
+        {
+          "text": "Did you know that \"Psycho\" was the first American film to show a toilet flushing on screen?",
+          "ts": "2020-04-25 08:12",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a quirky fact! Have any good weekend plans?",
+          "ts": "2020-04-25 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Just helping out here as always! But I can recommend hiking or a visit to a museum.",
+          "ts": "2020-04-25 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll check out a virtual museum tour.",
+          "ts": "2020-04-25 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Many museums offer wonderful online experiences now.",
+          "ts": "2020-04-25 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's one skill I can learn quickly this weekend?",
+          "ts": "2020-04-25 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Try learning basic origami or a simple recipe\u2014both are satisfying and easy to pick up.",
+          "ts": "2020-04-25 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Origami sounds fun!",
+          "ts": "2020-04-25 08:25",
+          "speaker": "user"
+        },
+        {
+          "text": "You just need some square paper to start. I can help guide you.",
+          "ts": "2020-04-25 08:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll try making a paper crane.",
+          "ts": "2020-04-25 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Classic choice! Let me know if you need step-by-step instructions.",
+          "ts": "2020-04-25 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about a breakfast rec for tomorrow?",
+          "ts": "2020-04-25 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "How about scrambled eggs with spinach and toast?",
+          "ts": "2020-04-25 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a healthy pick. What\u2019s trending in tech news?",
+          "ts": "2020-04-25 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "AI assistants are becoming more integrated with smart homes\u2014lots of new features.",
+          "ts": "2020-04-25 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Tech is moving so quickly!",
+          "ts": "2020-04-25 08:49",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. It's exciting to see innovation in action.",
+          "ts": "2020-04-25 08:50",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019m craving coffee. Any favorite style?",
+          "ts": "2020-04-25 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "A classic French press or a cappuccino is always a good choice.",
+          "ts": "2020-04-25 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll make a cappuccino this morning.",
+          "ts": "2020-04-25 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy! The foam makes it feel special.",
+          "ts": "2020-04-25 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s a simple lunch to prepare on a busy day?",
+          "ts": "2020-04-25 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "A wrap with hummus and veggies is healthy, filling, and quick.",
+          "ts": "2020-04-25 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s what I\u2019ll do. What\u2019s a relaxing afternoon activity?",
+          "ts": "2020-04-25 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Reading, listening to music, or a short walk are all relaxing.",
+          "ts": "2020-04-25 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll read a few chapters from my book.",
+          "ts": "2020-04-25 09:19",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds lovely. Enjoy the story!",
+          "ts": "2020-04-25 09:20",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any riddles?",
+          "ts": "2020-04-25 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! What has keys but can\u2019t open locks? (A piano!)",
+          "ts": "2020-04-25 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good one! Any workout ideas?",
+          "ts": "2020-04-25 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Try a quick home circuit: jumping jacks, squats, and planks.",
+          "ts": "2020-04-25 09:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll give that a go later on.",
+          "ts": "2020-04-25 09:43",
+          "speaker": "user"
+        },
+        {
+          "text": "Have fun and stay active!",
+          "ts": "2020-04-25 09:44",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's a way to boost creativity during the day?",
+          "ts": "2020-04-25 09:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Doodling or free writing can spark new ideas.",
+          "ts": "2020-04-25 09:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll do some doodling after lunch.",
+          "ts": "2020-04-25 10:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a plan!",
+          "ts": "2020-04-25 10:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got a favorite motivational quote?",
+          "ts": "2020-04-25 10:15",
+          "speaker": "user"
+        },
+        {
+          "text": "\"The only way to do great work is to love what you do.\" \u2013 Steve Jobs",
+          "ts": "2020-04-25 10:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s inspiring! What's your favorite way to unwind in the evening?",
+          "ts": "2020-04-25 10:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Listening to music, meditation, or a warm drink can help you relax.",
+          "ts": "2020-04-25 10:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll listen to some jazz tonight.",
+          "ts": "2020-04-25 10:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent choice\u2014jazz is very soothing in the evenings.",
+          "ts": "2020-04-25 10:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know a fun science fact?",
+          "ts": "2020-04-25 10:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Bananas are berries, but strawberries aren't\u2014botanically speaking!",
+          "ts": "2020-04-25 10:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s such a weird one!",
+          "ts": "2020-04-25 10:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Nature can be surprising and fun to learn about.",
+          "ts": "2020-04-25 10:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm off for a walk\u2014see you soon!",
+          "ts": "2020-04-25 11:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your walk! I\u2019ll be here when you return.",
+          "ts": "2020-04-25 11:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm back. Any new podcasts to check out?",
+          "ts": "2020-04-25 11:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Try \"Stuff You Should Know\" for interesting facts on a variety of topics.",
+          "ts": "2020-04-25 11:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll queue that up. What's a good afternoon snack?",
+          "ts": "2020-04-25 11:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Sliced apples with nut butter are tasty and healthy.",
+          "ts": "2020-04-25 11:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds perfect\u2014thanks!",
+          "ts": "2020-04-25 11:55",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know what you think!",
+          "ts": "2020-04-25 11:56",
+          "speaker": "agent"
+        },
+        {
+          "text": "Time to get back to some work.",
+          "ts": "2020-04-25 12:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Have a productive afternoon!",
+          "ts": "2020-04-25 12:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite kind of puzzle?",
+          "ts": "2020-04-25 12:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Logic puzzles and crosswords are great ways to exercise your mind.",
+          "ts": "2020-04-25 12:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll try a crossword after lunch.",
+          "ts": "2020-04-25 12:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy! Let me know if you need any hints.",
+          "ts": "2020-04-25 12:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "What music is most popular right now?",
+          "ts": "2020-04-25 12:33",
+          "speaker": "user"
+        },
+        {
+          "text": "Pop and hip-hop are leading the charts right now.",
+          "ts": "2020-04-25 12:34",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll listen to some later. What's your favorite holiday?",
+          "ts": "2020-04-25 12:36",
+          "speaker": "user"
+        },
+        {
+          "text": "I think many people enjoy the winter holidays\u2014lots of warmth and celebration.",
+          "ts": "2020-04-25 12:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's true. What's a fun way to spend a holiday afternoon?",
+          "ts": "2020-04-25 12:40",
+          "speaker": "user"
+        },
+        {
+          "text": "A board game with family or baking treats together is always fun.",
+          "ts": "2020-04-25 12:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll bake some cookies this weekend.",
+          "ts": "2020-04-25 12:44",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds delicious. Enjoy your baking!",
+          "ts": "2020-04-25 12:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, AI. Have a good afternoon!",
+          "ts": "2020-04-25 13:10",
+          "speaker": "user"
+        },
+        {
+          "text": "You too! I'll be here if you need anything else.",
+          "ts": "2020-04-25 13:11",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

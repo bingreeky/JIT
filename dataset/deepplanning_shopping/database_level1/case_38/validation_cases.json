@@ -1,0 +1,423 @@
+{
+  "query": "I'm doing a major wardrobe update and have some very specific things I'm looking for. First, I need to find a product with 'RS-X' in its name that can be delivered in less than 2 days. It has to be popular, with a total sales volume over 4800, more than 40 four-star ratings, and an average score above 4.5. Next, I'm looking for a purple item from Zara in a size L, and it must have more than 400 total reviews, including over 90 four-star ratings. I also want a highly-rated Nike product with 'Air Glide Pro' in its name, specifically one with an average score over 4.5 and more than 1500 five-star ratings. Then, I need a popular men's item from Puma with a sales volume over 6500 that can also ship in less than 2 days. Lastly, I'm getting an item from The North Face in size L that has more than 20 three-star ratings.",
+  "ground_truth_products": [
+    {
+      "product_id": "df130abb",
+      "name": "Puma RS-X Reinvention Men's Running Shoes",
+      "price": 699.0,
+      "brand": "Puma",
+      "color": "Light Grey",
+      "size": "44",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 552,
+        "total": 4821
+      },
+      "rating": {
+        "average_score": 4.66,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 160,
+          "4_star": 45,
+          "3_star": 5,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b0426dfe",
+      "name": "Men's Winter Corduroy Casual Trousers",
+      "price": 499.0,
+      "brand": "Zara",
+      "color": "Purple",
+      "size": "L",
+      "stock_quantity": 88,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 13
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash, Button-down",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Iron on low heat.",
+      "sales_volume": {
+        "monthly": 680,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 290,
+          "4_star": 95,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "bdd4e0da",
+      "name": "Nike Air Glide Pro Running Shoes",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "White",
+      "size": "44",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 18750
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1800,
+          "4_star": 250,
+          "3_star": 60,
+          "2_star": 25,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a3c4ebf5",
+      "name": "Men's Performance Logo Tee",
+      "price": 229.0,
+      "brand": "Puma",
+      "color": "Yellow",
+      "size": "L",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not iron on print.",
+      "sales_volume": {
+        "monthly": 1245,
+        "total": 15300
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 680,
+        "distribution": {
+          "5_star": 550,
+          "4_star": 110,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4e0191fd",
+      "name": "Men's Horizon Breeze Tech Tee",
+      "price": 389.0,
+      "brand": "The North Face",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 450,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 1258,
+        "total": 15840
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1600,
+          "4_star": 450,
+          "3_star": 80,
+          "2_star": 15,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the total sales volume is more than 4800, the number of 4-star ratings is greater than 40, the average score is greater than 4.5, the transport time is less than 2, and the name contains 'RS-X'.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 4821,
+          "operator": "greater_than",
+          "operator_value": 4800.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 45,
+          "operator": "greater_than",
+          "operator_value": 40.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.66,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "name",
+          "value": "Puma RS-X Reinvention Men's Running Shoes",
+          "operator": "contains",
+          "operator_value": "RS-X"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Zara, the color is Purple, the size is L, the total number of reviews is more than 400, and there are over 90 4-star ratings.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Purple",
+          "operator": "equals",
+          "operator_value": "Purple"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 95,
+          "operator": "greater_than",
+          "operator_value": 90.0
+        },
+        {
+          "field": "brand",
+          "value": "Zara",
+          "operator": "equals",
+          "operator_value": "Zara"
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 412,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Nike, the average score is greater than 4.5, the number of 5-star ratings is more than 1500, and the name contains 'Air Glide Pro'.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 1800,
+          "operator": "greater_than",
+          "operator_value": 1500.0
+        },
+        {
+          "field": "brand",
+          "value": "Nike",
+          "operator": "equals",
+          "operator_value": "Nike"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "name",
+          "value": "Nike Air Glide Pro Running Shoes",
+          "operator": "contains",
+          "operator_value": "Air Glide Pro"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Puma, transport time is less than 2, the target demographic is Men, and total sales volume is more than 6500.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Puma",
+          "operator": "equals",
+          "operator_value": "Puma"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 6890,
+          "operator": "greater_than",
+          "operator_value": 6500.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is The North Face, the size is L, and the number of 3-star ratings is greater than 20.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "The North Face",
+          "operator": "equals",
+          "operator_value": "The North Face"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 25,
+          "operator": "greater_than",
+          "operator_value": 20.0
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        }
+      ]
+    }
+  ]
+}

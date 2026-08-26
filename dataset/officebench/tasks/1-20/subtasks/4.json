@@ -1,0 +1,19 @@
+{
+  "username": "Alice",
+  "date": "2024-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "In which season does Bob receive most emails?",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/answer.txt",
+        "doc_type": "txt",
+        "keywords": [
+          "spring"
+        ]
+      }
+    }
+  ]
+}

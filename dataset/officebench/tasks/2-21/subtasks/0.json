@@ -1,0 +1,33 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Extract Bill's previous courses from Bill_course_list.xlsx, and put the course in classes_taken.docx. Each course should be on a seperate line.",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/classes_taken.docx",
+        "doc_type": "docx",
+        "keywords": [
+          "CS 101",
+          "MATH 150",
+          "PHYS 101",
+          "CS 102",
+          "MATH 151",
+          "PHYS 102",
+          "CS 103",
+          "MATH 152",
+          "PHYS 103",
+          "CS 104",
+          "MATH 250",
+          "PHYS 104",
+          "CS 105",
+          "MATH 251",
+          "PHYS 105"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "extract students and their IDs, collect in excel file SIDs.xlsx with headers Names and IDs, save in folder IDs",
+    "evaluation": [
+        {
+            "function": "evaluate_exact_match",
+            "args": {
+                "doc_type": "xlsx",
+                "result_file": "./data/IDs/SIDs.xlsx",
+                "expected_file": "../../../../reference/sids.xlsx"
+            }
+        }
+    ],
+    "query_sentence": "Create an Excel file with headers Names and IDs and save it in the specified folder."
+}

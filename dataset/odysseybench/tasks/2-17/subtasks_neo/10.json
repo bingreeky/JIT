@@ -1,0 +1,51 @@
+{
+    "task": "Add a new student named 'Liam' to class 2 in the /testbed/data/class_member.xlsx file by inserting a new row at row 5 with 'Liam' in column 1 (Name) and '2' in column 2 (Class). Ensure all existing data remains unchanged and no rows are overwritten.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "Liam"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "2"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please add a new student to the class_member file.",
+    "ground_truth_memory": [
+        {
+            "file_path": "/testbed/data/class_member.xlsx"
+        },
+        {
+            "new_student_name": "Liam"
+        },
+        {
+            "new_student_class": "2"
+        },
+        {
+            "insert_row": 5
+        },
+        {
+            "name_column_index": 1
+        },
+        {
+            "class_column_index": 2
+        },
+        {
+            "action_item": "Insert Liam as a new row at row 5 with correct values in each column."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

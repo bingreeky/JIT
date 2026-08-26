@@ -1,0 +1,56 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "all students attend class today, record it under new header 'Attendance' in class member excel file with value 'Y'",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/class_member.xlsx",
+        "matches": [
+          {
+            "row": "1",
+            "col": "2",
+            "value": "Attendance"
+          }
+        ]
+      }
+    },
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/class_member.xlsx",
+        "matches": [
+          {
+            "row": "2",
+            "col": "2",
+            "value": "Y"
+          },
+          {
+            "row": "3",
+            "col": "2",
+            "value": "Y"
+          },
+          {
+            "row": "4",
+            "col": "2",
+            "value": "Y"
+          },
+          {
+            "row": "5",
+            "col": "2",
+            "value": "Y"
+          },
+          {
+            "row": "6",
+            "col": "2",
+            "value": "Y"
+          }
+        ]
+      }
+    }
+  ]
+
+}

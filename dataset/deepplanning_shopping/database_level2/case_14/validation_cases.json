@@ -1,0 +1,238 @@
+{
+  "query": "I'm getting my wardrobe ready for the season and need a few things for myself. First, I'm searching for a popular women's summer item in a size M; it has to be a bestseller with a total sales volume over 4000 and more than 100 four-star ratings. Then, I’m also looking for a high-quality women’s product in Khaki. To make sure it’s well-received, I want it to have more than 150 four-star reviews but fewer than 10 one-star reviews and fewer than 10 two-star reviews. Finally, I specifically need 'Straight-Leg Trousers' from the brand Peacebird in size M. Since I need them soon, the transport time must be less than 5 days, and I only want to see options with fewer than 15 three-star ratings. My budget is between 1056 and 1458.",
+  "ground_truth_products": [
+    {
+      "product_id": "c775eb4f",
+      "name": "Women's Classic Denim Summer Blouse",
+      "price": 429.0,
+      "brand": "Levi's",
+      "color": "Light Blue",
+      "size": "M",
+      "stock_quantity": 742,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Vintage Wash, Button-down, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 21300
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3215,
+        "distribution": {
+          "5_star": 2604,
+          "4_star": 514,
+          "3_star": 80,
+          "2_star": 10,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "bbfb54eb",
+      "name": "Women's Casual Canvas Shorts",
+      "price": 329.5,
+      "brand": "Vans",
+      "color": "Khaki",
+      "size": "M",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Printing",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 3850
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 754,
+        "distribution": {
+          "5_star": 560,
+          "4_star": 155,
+          "3_star": 28,
+          "2_star": 6,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f22d9127",
+      "name": "Women's Summer Casual Straight-Leg Trousers",
+      "price": 329.0,
+      "brand": "Peacebird",
+      "color": "Brown",
+      "size": "M",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 70
+        },
+        {
+          "material": "Viscose",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Non-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Button-down, Vintage Wash",
+      "washing_instructions": "Hand wash recommended or machine wash cold on gentle cycle. Do not bleach. Hang to dry.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 1890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 312,
+        "distribution": {
+          "5_star": 240,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products for Women suitable for Summer, where the size is M, the total sales volume is over 4000, and the number of 4-star ratings is more than 100.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 120
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 4200
+        },
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 2-star reviews is less than 10, the number of 4-star reviews is greater than 150, the color is Khaki, the target demographic is Women, and the number of 1-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 6
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 155
+        },
+        {
+          "field": "color",
+          "value": "Khaki"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Peacebird, the size is M, transport time is less than 5, there are fewer than 15 3-star ratings, and the product name contains 'Straight-Leg Trousers'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 4
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10
+        },
+        {
+          "field": "brand",
+          "value": "Peacebird"
+        },
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "name",
+          "value": "Women's Summer Casual Straight-Leg Trousers"
+        }
+      ]
+    }
+  ]
+}

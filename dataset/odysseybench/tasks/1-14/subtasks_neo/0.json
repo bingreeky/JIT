@@ -1,0 +1,42 @@
+{
+    "task": "Add a new row to the file 'salary.xlsx' with Name: relocation and amount: 15000. Ensure the values are properly added to the first empty row following the existing entries.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "relocation"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "15000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the salary spreadsheet with the latest required information.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new row needs to be added to 'salary.xlsx'.",
+            "details": "The first empty row after existing entries should be used."
+        },
+        {
+            "fact": "The new row should contain Name: relocation and amount: 15000.",
+            "details": "Add 'relocation' in column 1 (Name), and '15000' in column 2 (amount)."
+        },
+        {
+            "fact": "The output file to modify is 'salary.xlsx'.",
+            "details": "Do not create a new file; modify the existing file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

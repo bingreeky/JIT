@@ -1,0 +1,47 @@
+{
+    "task": "Create a new folder named 'Bob' inside /testbed/data. In that folder, create a file called summary.docx that contains content mentioning the keywords 'project' and 'deadline'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Bob/summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/Bob/summary.docx",
+                "keywords": [
+                    "project"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/Bob/summary.docx",
+                "keywords": [
+                    "deadline"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please complete the organization tasks for Bob by preparing a required summary document.",
+    "ground_truth_memory": [
+        {
+            "info": "A new folder named 'Bob' needs to be created inside /testbed/data."
+        },
+        {
+            "info": "A file named summary.docx must be placed inside the /testbed/data/Bob folder."
+        },
+        {
+            "info": "The summary.docx must mention the keywords 'project' and 'deadline'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

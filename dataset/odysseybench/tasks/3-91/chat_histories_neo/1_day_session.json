@@ -1,0 +1,2101 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hi AI, I want to start organizing our project expenses.",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hi Bob! That sounds like a great plan. Would you like to use Excel for tracking?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, Excel is my go-to for organizing this kind of data.",
+          "ts": "2020-04-26 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Noted! What would you like to name the new Excel file?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's call it 'project_budget.xlsx'.",
+          "ts": "2020-04-26 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Perfect! A new Excel file must be created and named 'project_budget.xlsx'.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that'll help keep things structured.",
+          "ts": "2020-04-26 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, organization is key to successful budgeting.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can we make sure the file is easy to find, maybe place it in a central folder?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I suggest saving 'project_budget.xlsx' in the /testbed/data directory for easy access.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good! I\u2019ll remember that's the location.",
+          "ts": "2020-04-26 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great! Ready to think about what columns you'd like in the spreadsheet?",
+          "ts": "2020-04-26 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "We'll need an itemized list for sure.",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Would you like columns for item description, estimated cost, and actual cost?",
+          "ts": "2020-04-26 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, those three columns should cover what we need.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great! Once the file is set up, we can add those columns.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can we also leave room to expand later if needed?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! Excel makes it easy to add rows or columns any time.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think color coding rows by category would help?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! Visual cues like colors make the spreadsheet more readable.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's what I thought. Do you keep any favorite color scheme for budgets?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A soft green for income and red for expenses are popular choices!",
+          "ts": "2020-04-26 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good idea. Maybe we can use yellow for any pending bills.",
+          "ts": "2020-04-26 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That works well. Highlighting pending items keeps things visible.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you remind me later to do a color coding pass?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! I can prompt you once the structure is set up.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, what is the row limit in Excel again?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Excel supports up to 1,048,576 rows per sheet, so you'll have plenty of room.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wow, that's way more than we\u2019ll ever fill.",
+          "ts": "2020-04-26 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly, so no worries about running out of space.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm glad Excel is flexible for all sizes of projects.",
+          "ts": "2020-04-26 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It's very versatile\u2014great for anything from quick lists to large reports.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you use tables or just simple columns in budget files?",
+          "ts": "2020-04-26 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Tables offer sorting and filtering, but simple columns work well for small lists.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay, let's start simple and change later if necessary.",
+          "ts": "2020-04-26 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a smart approach\u2014start small and adjust as your needs grow.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any tips for naming sheets within the Excel file?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Clear, descriptive names like 'Summary', 'Expenses', or 'Receipts' work best.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll remember that for when we expand.",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good! Anything else on your mind for the budget setup?",
+          "ts": "2020-04-26 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "No, that's about it for the file itself. Thanks!",
+          "ts": "2020-04-26 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're welcome, Bob. Let me know when you're ready for the next step.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "How often do you back up your files, by the way?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I recommend daily or automatic cloud backups for important files.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good advice. I\u2019ll look into cloud syncing for this project.",
+          "ts": "2020-04-26 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019ll keep your work safe and accessible.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "If we share this with the team, can we control their editing permissions?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, most sharing features allow you to specify who can view or edit.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. That way we don\u2019t get accidental changes.",
+          "ts": "2020-04-26 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Controlling permissions helps maintain data integrity.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know if it's possible to track changes in Excel?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, you can turn on 'Track Changes' in Excel or use comments for updates.",
+          "ts": "2020-04-26 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's handy. I'll try that when the file grows.",
+          "ts": "2020-04-26 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great plan, Bob!",
+          "ts": "2020-04-26 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "On another note, what's the shortcut for creating a new sheet?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Press Shift+F11 to insert a new worksheet.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Keyboard shortcuts save time!",
+          "ts": "2020-04-26 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, they boost efficiency!",
+          "ts": "2020-04-26 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "What are some common Excel mistakes beginners make?",
+          "ts": "2020-04-26 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Forgetting to save, overwriting formulas, or not using cell references are classic pitfalls.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll be careful to save frequently!",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good call! The AutoSave feature can help, too.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's your favorite function in Excel?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like the 'SUMIF' function\u2014very handy for budgeting.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll try it out in our new file soon!",
+          "ts": "2020-04-26 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea! Let me know if you want examples.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sure! By the way, do you recommend naming versions of files as they evolve?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, using versioning like v1, v2, or dates in file names helps track changes over time.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense. I'll start with 'project_budget.xlsx' and copy as needed.",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good\u2014simple and effective.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the help! One last question: Are there disadvantages to keeping all budget data in one file?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sometimes very large files can be slower to open or process, but for moderate projects it\u2019s fine.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know! We'll keep it manageable.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s wise\u2014streamlined files stay fast and clean.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ready for a quick fun fact break?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always ready! Did you know the first version of Excel was released for Mac in 1985?",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Interesting! I wouldn't have guessed that.",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The Windows version came two years later!",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you use any other spreadsheet software?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Google Sheets is another popular option, especially for collaboration.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yeah, real-time sharing is handy. But for our file, Excel works best.",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Agreed! Excel has powerful features for detailed tracking.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "I have a random question: What's the difference between .xls and .xlsx?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": ".xls is the old binary file format, while .xlsx is the newer XML-based, more robust format.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll stick to .xlsx then! Thanks!",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's a good choice for modern compatibility.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "What time is it, by the way?",
+          "ts": "2020-04-26 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It's currently just after 9:25 AM.",
+          "ts": "2020-04-26 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for keeping track. Should we wrap up for this session?",
+          "ts": "2020-04-26 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course, Bob. Let me know whenever you're ready to tackle the next steps!",
+          "ts": "2020-04-26 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Thanks, AI!",
+          "ts": "2020-04-26 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're very welcome, Bob. Enjoy the rest of your day!",
+          "ts": "2020-04-26 09:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Catch up tomorrow for more planning.",
+          "ts": "2020-04-26 09:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to it!",
+          "ts": "2020-04-26 09:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "As we start the week, what\u2019s your motivation tip?",
+          "ts": "2020-04-26 09:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Set small, clear tasks, and celebrate small wins!",
+          "ts": "2020-04-26 09:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a nice strategy.",
+          "ts": "2020-04-26 09:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It keeps momentum going!",
+          "ts": "2020-04-26 09:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think morning or afternoon is best for planning?",
+          "ts": "2020-04-26 09:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Many people are more focused in the morning, but any time that works best for you is ideal.",
+          "ts": "2020-04-26 09:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll try mornings this week.",
+          "ts": "2020-04-26 09:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let\u2019s see how that goes. Consistency pays off!",
+          "ts": "2020-04-26 09:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, time to get some coffee.",
+          "ts": "2020-04-26 09:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy your coffee, Bob. See you next session!",
+          "ts": "2020-04-26 09:43",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning, AI! Ready to continue working on the budget today?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! I\u2019m ready to help you move forward with your project budget.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! Just confirming\u2014where are we going to save the Excel budget file?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The file should be saved in the /testbed/data directory. This will help you find it easily for future reference.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that location keeps things neat.",
+          "ts": "2020-04-27 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to keep things organized\u2014an orderly directory is always helpful!",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think it\u2019s smart to back up new files to another folder too?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Redundant backups in a separate folder or cloud storage are always good practice.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed, I'll set a backup routine once we finish this.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea! Consistent backups offer peace of mind.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is your favorite Excel shortcut still Ctrl+Z?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014undo is my all-time favorite. What about yours?",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I use Ctrl+C and Ctrl+V a lot. Can't live without copy-paste.",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Those are classics. Productivity classics!",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have any tips for organizing large folders on my computer?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use clear folder names, keep like files together, and don\u2019t let downloads pile up.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll dedicate a few minutes to organizing each day.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A little housekeeping now saves lots of time later.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the weirdest file name you\u2019ve ever seen?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "\u2018asdjklfjasd.xlsx\u2019 stood out\u2014a true mystery document!",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ha! Maybe it was a keyboard accident.",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Most likely! Clear names prevent confusion like that.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Out of curiosity, how many subfolders can you nest in most operating systems?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It depends, but most systems allow hundreds of nested subfolders, though it can get confusing!",
+          "ts": "2020-04-27 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "True\u2014maybe best to keep things visible. Anyway, how do you decide on folder structure for projects?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Project name at the top, then break down by document type, teams, or milestones.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you like color-coding folders on your desktop?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Color-coding helps quickly spot folders\u2014many systems have software to do just that!",
+          "ts": "2020-04-27 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll look into that\u2014could be handy for big projects.",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It really does boost visual organization.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Before we go further with the budget, what\u2019s your favorite way to plan a morning?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I recommend identifying your top three priorities before anything else.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s manageable! Maybe today I\u2019ll make progress on just this budget file.",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a focused goal\u2014progress adds up quickly.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should we version our files every day, or just when something big changes?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Versioning after big changes is usually enough, unless you\u2019re collaborating often.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. I\u2019ll keep it simple for now.",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a good call for small projects like this one.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "How often should I delete old drafts and unused files?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A monthly cleanup routine is usually enough for most users.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll set a reminder for that. Feels productive!",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea! Staying tidy improves efficiency and reduces stress.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I label a folder \u2018archive\u2019, is that good or too vague?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "\u2018Archive\u2019 is a fine label for older, non-active project files.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. That will help with future cleanups.",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Easily identified archives are very helpful.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you prefer storing files locally or in the cloud?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Cloud storage is great for access anywhere, but local is safer for sensitive data.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Best of both worlds with a hybrid setup, I suppose.",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly\u2014a hybrid strategy combines convenience and security.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should we zip our budget files for email, in case we need to share?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, zipping makes files smaller and sometimes bypasses email attachment limits.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. What\u2019s your favorite coffee blend?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Something smooth and medium-roast is always nice! How about you?",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m more of a dark roast fan.",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Bold choice\u2014more caffeine too!",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s come up with a fun project name for our budget file!",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds fun! How about \u2018Project Phoenix\u2019 for a bold start?",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good name! But maybe we\u2019ll just stick with \u2018project_budget.xlsx\u2019 for now.",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keeping it descriptive is always helpful.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep to-do lists electronically or with pen and paper?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Electronic lists are easier to update, but paper can be satisfying to check off!",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll use both this week and see what sticks.",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds like a fun experiment!",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's on your reading list these days?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Productivity books and tech news are always interesting to me!",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I could use more productivity tips.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "My favorite: break work into small steps and celebrate progress!",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a good one! Time for another coffee.",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy\u2014fuel for an effective budgeting session.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you ever overwhelmed by digital clutter?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It happens to everyone! Regular digital decluttering is the key.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll put that tip into action.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great! Small steps build big habits.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the weather like today?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It looks sunny with a mild breeze\u2014perfect for productivity!",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Too nice to be indoors, but work calls.",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Work now, enjoy the outdoors later for a balance!",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "If only Excel could run outside!",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "With a laptop and Wi-Fi, anything\u2019s possible!",
+          "ts": "2020-04-27 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe a picnic budget session someday.",
+          "ts": "2020-04-27 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds like fun and productive at the same time.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, that\u2019s plenty of planning chit-chat for today. Thanks AI!",
+          "ts": "2020-04-27 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always happy to chat, Bob. Let me know when you\u2019re ready to add more to your project budget.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hi AI, hope you're ready to help with more of our project budget today!",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hello Bob! I\u2019m ready\u2014let\u2019s get your project budget organized.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Quick question: when we set up the budget table, which columns should we use?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The table should have columns: Item, Estimated Cost, and Actual Cost for each entry.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. That will cover everything we'll need to track.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, it keeps things simple and clear.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I make Item the first column? Or does placement not matter?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s best to start with Item as the first column, then Estimated Cost, then Actual Cost.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll set it up that way. Thanks.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome! Ready to talk about which items to list?",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe in a bit. Can we review how tables work in Excel?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Excel tables add structure, allow sorting and filtering, and automate formatting.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it easy to add totals to a table?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Just turn on the Total Row in the Table Tools, and pick a calculation.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. That\u2019ll help us sum up the budget quickly.",
+          "ts": "2020-04-28 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s right! Adjust as many totals as you need.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think we should freeze the header row?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Freezing the header helps with scrolling in big tables\u2014good idea!",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll add that to my setup step list.",
+          "ts": "2020-04-28 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds great. You\u2019re staying organized!",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you use autofill for columns a lot?",
+          "ts": "2020-04-28 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Autofill is useful for repeating labels, numbers, even dates\u2014saves time!",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I use different sheets for different project phases?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For large, multi-phase projects, yes. For one project budget, one sheet is enough.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll keep it on one sheet for now.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Easy to expand later if needed!",
+          "ts": "2020-04-28 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can tables have drop-down lists for the Item column?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! You can use Data Validation to create drop-down lists for any column.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll try that for consistency.",
+          "ts": "2020-04-28 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It definitely helps minimize typos and speeds up data entry.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. If I want to add a comments section, should that be a new column?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can add a column called 'Notes' or use cell comments\u2014either works!",
+          "ts": "2020-04-28 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll keep things simple to start\u2014three columns for sure.",
+          "ts": "2020-04-28 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a solid starting point.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Out of curiosity, what happens if you enter text in a numeric column?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Excel displays an error if you use formulas with mixed data, but otherwise it's allowed.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Mistakes happen\u2014I\u2019ll be careful.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Consistency is key for smooth calculations!",
+          "ts": "2020-04-28 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have any tricks for aligning columns perfectly?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Try using 'AutoFit' or aligning text with the formatting toolbar for a tidy look.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll use AutoFit for sure. Should columns be a specific width?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just wide enough for the longest entry makes reading easier.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! By the way, do you prefer light or dark mode in Excel?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like dark mode for less eye strain, but both work well.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might switch between the two for variety.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds refreshing! Change it up to avoid fatigue.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your preferred font for spreadsheets?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Calibri is clean and standard, but Arial or Verdana work well, too.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like Arial for its clarity.",
+          "ts": "2020-04-28 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great choice\u2014easy to read!",
+          "ts": "2020-04-28 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever use conditional formatting in tables?",
+          "ts": "2020-04-28 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "All the time! It's great for highlighting high costs or missing values.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll keep that in mind for future tweaks to the budget.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know when you're ready to explore that feature!",
+          "ts": "2020-04-28 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can we rename columns after creating the table?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! You can edit column headers at any time\u2014Excel will update automatically.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "That flexibility is helpful.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Indeed! Excel is designed to adapt as your needs change.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "How does one quickly clear all the contents of a table without deleting the headers?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Select the rows below the headers, then press Delete\u2014easy and safe!",
+          "ts": "2020-04-28 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for all the quick tips today!",
+          "ts": "2020-04-28 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always happy to help with Excel advice, Bob!",
+          "ts": "2020-04-28 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any fun Excel trivia for me?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Did you know you can use the F4 key to repeat your last Excel action?",
+          "ts": "2020-04-28 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's clever\u2014I never use that key!",
+          "ts": "2020-04-28 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Give it a try\u2014it's a big time-saver.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your favorite Excel formula?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "IFERROR is great for handling calculation mistakes smoothly.",
+          "ts": "2020-04-28 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I haven\u2019t used that before!",
+          "ts": "2020-04-28 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s worth trying\u2014it keeps your spreadsheets looking clean.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it possible to add icons inside table columns?",
+          "ts": "2020-04-28 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Use icon sets in Conditional Formatting for visual cues in your tables.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "That would be fun for the Actual Cost column later on.",
+          "ts": "2020-04-28 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! Icons make data interpretation much easier.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend showing currency symbols in the Estimated Cost column?",
+          "ts": "2020-04-28 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014apply currency formatting so estimated costs are clearly labeled.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll format the numbers as currency then.",
+          "ts": "2020-04-28 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a smart move for clarity and professionalism.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about font size\u2014should I keep it standard or make it bigger for presentations?",
+          "ts": "2020-04-28 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Standard size for day-to-day; increase it for printouts or presentation mode.",
+          "ts": "2020-04-28 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll set it standard for now. Thanks for the inspiration, AI.",
+          "ts": "2020-04-28 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always happy to inspire! Let me know if you want more formatting ideas.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. See you tomorrow for more budget setup!",
+          "ts": "2020-04-28 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to our next session, Bob!",
+          "ts": "2020-04-28 09:23",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Hi AI, I'm back to continue building the project budget.",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Welcome back, Bob! Ready to add more details to your budget spreadsheet today?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yep! What are the standard rows we should include?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You should add these rows: Hardware, Software, Labor, and Miscellaneous as items in your budget table.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect, those will cover all our core costs.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s a well-rounded list\u2014covering both essentials and unpredictable costs.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you suggest listing the items in a priority order?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can list them in any order, but starting with the biggest expected expense is common.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s start with Hardware then. It\u2019s usually a major spending area.",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great choice. Hardware costs often lead the way in budgeting for projects.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have any tips for estimating software expenses?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Consider licenses, updates, and support fees when estimating software costs.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should Labor be calculated as a lump sum or in phases?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For simple budgets, one sum is fine. For detail, break it down by phase or role.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll do one sum for now; we can add details later if needed.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That keeps things simple for your startup version.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "For Miscellaneous\u2014should it be a percentage of the total?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a common approach\u20145-10% of the total budget is typical for Miscellaneous.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s go with 10%. Easier buffer for surprises.",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a smart and cautious choice.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever see people forget the Miscellaneous row?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! It\u2019s often missed\u2014but it's important for unpredictable expenses.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any funny or unusual things teams put under Miscellaneous?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Occasionally, I see snacks, office plants, or company event tickets as Miscellaneous!",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe coffee for long work sessions!",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Coffee always qualifies as a critical resource!",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Speaking of, time for my second cup.",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy! Productivity and caffeine go hand in hand.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the difference between Miscellaneous and Contingency in budgets?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Miscellaneous is for small, undefined costs. Contingency is for unexpected, larger risks or project overruns.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "That clears it up\u2014thanks!",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to clarify. Anything else you want to brainstorm for the budget?",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not today, but let\u2019s keep the focus and finish these four main rows first.",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Solid plan. Simplicity helps in the early stage!",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you like using emoji in spreadsheet labels?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Emoji can provide fun visual cues\u2014just watch out for compatibility across platforms.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll add a tiny laptop emoji for Hardware.",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That could make spotting the row easier!",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s keep formatting simple for now, though.",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sensible. You can always get creative later!",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you like to space out table rows\u2014single or double?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Single spacing saves space, but double can improve readability in printed tables.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll use single for now. We\u2019re not printing just yet.",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good! Less scrolling too.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever seen anyone color code rows by item category?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014it can make category distinctions easier at a glance.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might do that once we have more items!",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know when you're ready for more advanced formatting ideas.",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sure thing! What\u2019s your favorite rainy day activity?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Reading tech blogs keeps me inspired even on cloudy days.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like catching up with podcasts. Any tech show favorites?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "'Reply All' and 'Darknet Diaries' are both thought-provoking!",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll add those to my list. By the way, can we use formulas to add estimated costs once the items are in?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! SUM or SUMIF formulas will be helpful for totals.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "SUMIF sounds interesting. I\u2019ll have to try that sometime.",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It comes in handy with categorized budgets.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any unusual item you\u2019ve seen in a tech project budget?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ve seen things like branded t-shirts and team lunches\u2014culture matters!",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe we\u2019ll send out mugs if our project succeeds!",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a fantastic celebration idea.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you set reminders for budget reviews?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "While I can\u2019t set reminders directly, I can prompt you in our chats or you can use your calendar tools.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. I\u2019ll work reminders into my calendar after setup.",
+          "ts": "2020-04-29 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That will make sure you never miss a review session!",
+          "ts": "2020-04-29 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a shortcut for adding new rows to a table?",
+          "ts": "2020-04-29 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Tab at the end of the last cell in a table creates a new row instantly.",
+          "ts": "2020-04-29 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's slick. Excel is full of surprises!",
+          "ts": "2020-04-29 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It sure is\u2014there\u2019s always a new feature or tip to discover.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you prefer using the mouse or keyboard for Excel?",
+          "ts": "2020-04-29 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keyboard shortcuts definitely boost speed, but mouse is handy for formatting.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I'll brush up on my shortcuts.",
+          "ts": "2020-04-29 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea\u2014it\u2019ll save lots of time in the long run.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for a productive session, AI!",
+          "ts": "2020-04-29 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome, Bob! Let\u2019s catch up tomorrow for the next steps.",
+          "ts": "2020-04-29 09:13",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Morning AI! Ready to finish our project budget table today?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, Bob! We\u2019re nearly there. Ready to add those estimated costs?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes! Can you remind me what the estimated costs should be for each item?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Estimated Costs should be: 5000 for Hardware, 3000 for Software, 7000 for Labor, and 1000 for Miscellaneous.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great, that's clear. What about the Actual Cost fields?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Leave all Actual Cost fields blank for now, until expenses are incurred.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. It keeps things tidy until we start spending.",
+          "ts": "2020-04-30 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! It\u2019s easier to track changes that way.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, just to confirm: Hardware\u20145000, Software\u20143000, Labor\u20147000, Miscellaneous\u20141000, and all actuals blank?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct! That\u2019s your project budget plan setup.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! That feels like a solid starting point.",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to help build a strong foundation for your planning.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do most budgets end up matching estimates?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Rarely\u2014they\u2019re a best guess, and real costs can vary!",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll check back often to adjust as we spend.",
+          "ts": "2020-04-30 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s the right approach! Frequent review keeps budgets accurate.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a formula for calculating budget overruns?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can subtract Estimated Cost from Actual Cost to see any overruns, then use conditional formatting to flag positives.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Very useful! Maybe I\u2019ll set up an alert for overruns later.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a proactive step! Let me know if you need help with the setup.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend updating estimates or keeping the original?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keep originals for reference, and add a new column if you revise them.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense for accountability.",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Transparency is always best in project tracking.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it okay to add notes to the Estimated Cost cells?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! You can add cell comments to explain your estimates.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might note how I calculated hardware costs.",
+          "ts": "2020-04-30 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That will help explain your numbers to others reviewing the budget.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are there any fun Excel tips for budgets?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Try using Data Bars in conditional formatting to visualize which items have biggest costs.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds helpful and colorful. I'll explore that soon!",
+          "ts": "2020-04-30 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Excel makes budgets look great and easy to read.",
+          "ts": "2020-04-30 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think we should share the budget with the whole team now or after spending starts?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sharing the plan early can help catch any missed costs.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like catching oversights early. Maybe I'll ask for input before spending starts.",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Crowdsourcing review is a smart project management move.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's your favorite budgeting principle?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Plan for contingencies\u2014surprises always happen!",
+          "ts": "2020-04-30 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good point. That's what Miscellaneous is for!",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly. That line item is essential.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it possible to password lock the file?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, Excel can password-protect your file or individual sheets for added security.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I'll set a password once spending starts.",
+          "ts": "2020-04-30 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just remember your password\u2014recovery can be tough!",
+          "ts": "2020-04-30 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a shortcut for selecting an entire column?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just click the column letter, or use Ctrl+Spacebar for keyboard selection.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Handy. More shortcuts save time.",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! The faster you work, the fresher your ideas stay.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you print only the table, not blank spreadsheet pages?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Select your table first, then choose 'Print Selection' from the print options.",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's efficient. Saves paper, too.",
+          "ts": "2020-04-30 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Paper-smart and budget-smart!",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, do you like starting on new budget files?",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely\u2014tailoring it to a project is a fun logic puzzle.",
+          "ts": "2020-04-30 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like that mindset. Makes budgeting a challenge to solve, not a chore.",
+          "ts": "2020-04-30 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! Turning it into a puzzle can help you enjoy the process.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should we create a chart with these estimates for a meeting?",
+          "ts": "2020-04-30 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A bar chart or pie chart would quickly show where most of the money is allocated.",
+          "ts": "2020-04-30 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good, I'll add a bar chart after we review costs with the team.",
+          "ts": "2020-04-30 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great plan! Charts can make presentations more engaging.",
+          "ts": "2020-04-30 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your take on budgeting apps vs. spreadsheets?",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Spreadsheets offer flexibility, but apps provide more automation\u2014choose what best fits your workflow.",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I think I'll stick to Excel for now. It's what I know.",
+          "ts": "2020-04-30 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sticking with familiar tools is a solid choice.",
+          "ts": "2020-04-30 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any quick ways to format the Estimated Cost column as currency?",
+          "ts": "2020-04-30 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Select the column and click the '$' symbol in the formatting toolbar. That\u2019s it!",
+          "ts": "2020-04-30 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice, that saves time. I might color the blank actuals so they're easy to spot.",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good idea\u2014visually marking empty cells keeps follow-ups simple.",
+          "ts": "2020-04-30 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll check in tomorrow for more next steps.",
+          "ts": "2020-04-30 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to it, Bob! Well done on setting up your budget table.",
+          "ts": "2020-04-30 09:09",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

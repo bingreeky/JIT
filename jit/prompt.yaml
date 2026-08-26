@@ -1,0 +1,842 @@
+generate_system_prompt: |-
+  You are an expert in designing agent frameworks.
+  Your task is to design a **fully original and diverse** agent framework that is highly suited to the current task, so that it performs strongly in terms of correctness, execution efficiency, and overall stability.
+  Specifically, you need to generate four core Python modules: `memory.py`, `planning.py`, `action.py`, and `tool_policy.py`, along with their corresponding Prompt Configuration (YAML), based on the given task description.
+
+  ### 1. Responsibilities of the four components
+
+  `Memory` is responsible for context and state management.
+  `Planning` is responsible for planning and strategy updates.
+  `Action` is responsible for controlling the agent execution flow.
+  `Tool Policy` is responsible for tool exposure and usage boundaries.
+
+  ### 2. Output Requirements
+  Your response must consist of SIX distinct parts in this specific order:
+  1. **Detailed Architecture Analysis & Thinking Process**:
+    Before generating any code, first provide a clear and comprehensive natural-language analysis of the task. This should include the task objectives, core challenges, and potential failure points. Then, explain how your system design addresses these challenges to maximize both performance and efficiency.
+    Your design should go beyond simple variants of the basic ReAct architecture and incorporate meaningful innovations. You must draw inspiration from “### 3. Agent Harness Examples” and explicitly inherit their most essential innovation mechanisms as the foundation of your design. This means preserving the core mechanisms themselves—such as specific memory compression strategies or sub-agent-based task decomposition rather than abstracting them into vague ideas and freely reinterpreting them. 
+    We encourage you to introduce innovations across all four core modules: **Memory, Planning, Action, and Tool Policy**. 
+    In particular, the Action module is a highly flexible space for innovation: you are encouraged to invoke LLM-based processes to support advanced functionalities, such as Decompose tasks and invoke sub-agents or performing memory compression. There is substantial room for creativity in the Action module, so please fully exercise your capabilities by combining LLMs with other tools to build diverse, distinctive, and task-adaptive action flows.
+    Importantly, we expect your Action module design to be original and uniquely tailored to the task at hand, rather than merely supplementing or modifying the basic ReAct workflow.
+    Please place particular emphasis on the innovations in your Action flow. 
+    If any innovation in your design relies on LLM assistance or coordination, you must explicitly specify this dependency in the generated `prompt.yaml` and provide at least one concrete example showing how the LLM is used within that mechanism or workflow.
+    After completing your design, ensure that it both satisfies the task requirements and demonstrates clear originality. You should explicitly state in your reasoning why your design is innovative and how it aligns with the task’s needs.
+  2. **Python Code for the Four Components**: Wrap the `Memory` code in `<<<PYTHON_MEMORY>>>`, the `Planning` code in `<<<PYTHON_PLANNING>>>`, the `Action` code in `<<<PYTHON_ACTION>>>`, and the `Tool Policy` code in `<<<PYTHON_TOOL_POLICY>>>`.
+  3. **YAML Config**: The prompt templates wrapped in `<<<YAML>>>` tags.
+
+  #### Shared Data Structures and How to Use Them
+
+  1. LOGGING
+      Description: "Used to record key runtime states of the agent."
+      Import: "import logging \n logger = logging.getLogger(__name__)"
+      Notes: "Only use these three functions to log important runtime information: `logger.info(str)`, `logger.warning(str)`, and `logger.error(str)`."
+
+  2. TaskInput
+      Description: "Represents the initial task input."
+      Import: "from scripts.kernel.types import TaskInput"
+      Notes:
+          Data structure:
+              self.task: str = ""
+          Methods:
+              to_messages(self, **kwargs) -> List[Message]
+              "Converts the task input into a message sequence."
+
+  3. class Message(TypedDict):
+      Description: "Defines the message format used for interactions between the agent and the LLM."
+      Import: "from scripts.kernel.types import Message"
+      Notes:
+          Data structure:
+              self.role: str # typically indexed with MessageRole
+              self.content: str | list[dict] # { "type":"text/image","text/image":text/image }
+
+  4. class MessageRole(str, Enum):
+      Description: "Defines the role type of each message."
+      Import: "from scripts.models.base import MessageRole"
+      Notes:
+          MessageRole.USER = "user"
+          MessageRole.ASSISTANT = "assistant"
+          MessageRole.SYSTEM = "system"
+          MessageRole.TOOL_CALL = "tool-call"
+          MessageRole.TOOL_RESPONSE = "tool-response"
+
+  5. PlanState
+      Description: "The initial plan generated by the Planning module."
+      Import: "from scripts.kernel.types import PlanState"
+      Notes:
+          Data structure:
+              self.plan: str = ""
+              self.plan_think: str = ""
+              self.plan_reasoning: str = ""
+              self.model_input_messages: Optional[List[Message]] = None
+          Methods:
+              to_messages(self, summary_mode: bool = False) -> List[Message]
+              "Converts the plan into a message sequence."
+
+  6. SummaryState
+      Description: "A summary or plan update generated by the Planning module during execution."
+      Import: "from scripts.kernel.types import SummaryState"
+      Notes:
+          Data structure:
+              self.summary: str = ""
+              self.summary_reasoning: str = ""
+              self.model_input_messages: Optional[List[Message]] = None
+          Methods:
+              to_messages(self, summary_mode: bool = False) -> List[Message]
+              "Converts the summary into a message sequence."
+
+  7. StepRecord
+      Description: "The full execution record captured by the Action module after a single step."
+      Import: "from scripts.kernel.types import StepRecord"
+      Notes:
+          Data structure:
+              self.step_number: int = 0
+              self.tool_calls: List[ToolCall] = []
+              self.observations: str = ""
+              self.action_output: Any = None
+              self.action_think: str = ""
+              self.action_reasoning: str = ""
+              self.error: Optional[Exception] = None
+              self.start_time: float = 0.0
+              self.end_time: float = 0.0
+              self.duration: float = 0.0
+              self.model_input_messages: Optional[List[Message]] = None
+              self.model_output_messages: Any = None
+          Methods:
+              to_messages(self, summary_mode: bool = False) -> List[Message]
+              "Converts the step record into a message sequence."
+
+  8. MemoryView
+      Description: "The context view produced by the Memory module that can be sent directly to the model."
+      Import: "from scripts.kernel.types import MemoryView"
+      Notes:
+          Data structure:
+              self.messages: List[Message] = []
+              self.metadata: Dict[str, Any] = {}
+
+  9. Directive
+      Description: "The current execution directive provided by the Planning module to the Action module."
+      Import: "from scripts.kernel.types import Directive"
+      Notes:
+          Data structure:
+              self.text: str = ""
+              self.metadata: Dict[str, Any] = {}
+
+  10. ToolSelection
+      Description: "The set of tools exposed by the Tool Policy module for the current step."
+      Import: "from scripts.kernel.types import ToolSelection"
+      Notes:
+          Data structure:
+              self.tools: Dict[str, Any] = {}
+              self.tool_schemas_json: str = ""
+              self.skills_prompt: str = ""
+
+  11. ToolCall
+      Description: "A record of a single tool call."
+      Import: "from scripts.kernel.types import ToolCall"
+      Notes:
+          Data structure:
+              self.name: str
+              self.arguments: Any
+              self.id: str = ""
+
+  12. RunResult
+      Description: "The final output produced by the Action module after execution completes."
+      Import: "from scripts.kernel.types import RunResult"
+      Notes:
+          Data structure:
+              self.answer: Any = None
+              self.trajectory: List[StepRecord] = []
+              self.terminated_reason: str = ""
+              self.metadata: Dict[str, Any] = {}
+
+  13. RuntimeContext
+      Description: "The system runtime context available to the Action module."
+      Import: "from scripts.kernel.types import RuntimeContext"
+      Notes:
+          Data structure:
+              self.memory: Any
+              self.planning: Any
+              self.tool_policy: Any
+              self.model: Any
+              self.execute_tool: Any
+              self.get_tool_schemas: Any
+              self.logger: Any
+              self.max_steps: int
+      Important:
+          The Action module must access `memory`, `planning`, `tool_policy`, `model`, and `execute_tool` through `ctx`.
+          Do not assume the existence of any extra fields beyond those declared in `RuntimeContext`.
+
+    14. BaseMemory
+        Import: "from scripts.kernel.protocols import BaseMemory"
+    
+    15. BasePlanning
+        Import: "from scripts.kernel.protocols import BasePlanning"
+    
+    16. BaseAction
+        Import: "from scripts.kernel.protocols import BaseAction"
+    
+    17. BaseToolPolicy
+        Import: "from scripts.kernel.protocols import BaseToolPolicy"
+
+  #### Python Code (`memory.py`)
+  - Class Name: `MemoryStrategy`.
+  - Inheritance: Must inherit from `BaseMemory`.
+  - Required Methods:
+      - __init__(self, prompts=None) -> None
+          "Initialize prompt bindings and internal memory state.
+          Must set self.prompts = prompts.
+          "
+      - initialize(self, system_prompt: str, task: TaskInput) -> None 
+          "Called once at the start of each run. Initializes the agent's memory."
+      - build_context(self, plan: Optional[PlanState] = None) -> MemoryView
+        "Build the working context for the next LLM call.
+          Converts internal memory state into a list of messages.
+          Args:
+              plan: Current plan state (optional, for plan-aware memory).
+          Returns:
+              MemoryView with messages ready for LLM.
+        "
+      - update(self, step: StepRecord) -> None
+        "Called after each action step completes.
+          Store, compress, summarize, or fold the step into memory.
+          Args:
+              step: The completed step record.
+        "
+      - update_plan(self, plan: PlanState) -> None
+        "Called when a new plan or plan update is generated. Adds the plan to memory."
+      - update_summary(self, summary: SummaryState) -> None
+          "Called when a summary or adaptation is generated. Adds the update or summary to memory."
+      - get_all_steps(self) -> List[StepRecord] 
+          "Return all raw steps (for trajectory logging)."
+
+  #### Python Code (`planning.py`)
+  - Class Name: `PlanningStrategy`.
+  - Inheritance: Must inherit from `BasePlanning`.
+  - Required Methods:
+      - __init__(self, prompts=None, summary_interval: int = 8) -> None
+          "Initialize prompt bindings and planning state.
+          Must set self.prompts = prompts.
+          "
+      - init_plan(
+          self,
+          task: str,
+          memory_view: MemoryView,
+          tool_schemas: str,
+          model: Callable,
+        ) -> PlanState
+          "Generate initial plan at the start of a run.
+          Args:
+              task: Task description.
+              memory_view: Current memory context.
+              When constructing model input, include prior memory messages
+              via memory_view.messages[1:] so the system prompt at index 0
+              is excluded.
+              tool_schemas: JSON string of available tool schemas.
+              model: LLM callable (messages -> ChatMessage).
+          Returns:
+              PlanState with the generated plan.
+          "
+      - should_replan(self, step_number: int, step: StepRecord) -> bool
+          "Decide whether replanning is needed after this step."
+      - update_plan(
+          self,
+          task: str,
+          step_number: int,
+          memory_view: MemoryView,
+          model: Callable,
+        ) -> SummaryState
+          "Update/adapt the plan based on execution progress.
+          Args:
+              task: Original task.
+              step_number: Current step index.
+              memory_view: Current memory context.
+              When constructing model input, include prior memory messages
+              via memory_view.messages[1:] so the system prompt at index 0
+              is excluded.
+              model: LLM callable.
+          Returns:
+              SummaryState with progress summary and updated directive.
+          "
+      - get_directive(self) -> Directive
+          "Get the current directive for the action module."
+      - get_system_planning_prompt(self) -> str
+          "Return planning instructions to inject into the system prompt."
+
+  #### Python Code (`action.py`)
+  - Class Name: `ActionStrategy`.
+  - Inheritance: Must inherit from `BaseAction`.
+  - Logging Requirements:
+      - On initial planning, must call `ctx.logger.log_markdown(plan.plan, title="Initial Plan", level=LogLevel.INFO)`.
+      - Whenever `ctx.planning.update_plan(...)` is called, must call `ctx.logger.log_markdown(summary.summary, title="Plan Update", level=LogLevel.INFO)`.
+      - Before each execution step, must call `ctx.logger.log_rule(f"Step {step_number}", level=LogLevel.INFO)`.
+      - On each tool-execution round, must call `ctx.logger.log(Panel(Text(f"Tool calls: {len(tool_calls_list)}")), level=LogLevel.INFO)` to record the number of tool calls.
+      - For each individual tool call, must call `ctx.logger.log(Panel(Text(f"Calling: '{tool_name}' with {tool_arguments}")), level=LogLevel.INFO)`.
+      - After each tool call returns, must call `ctx.logger.log(f"Observations: {safe_updated_info}...", level=LogLevel.INFO)` to record tool outputs.
+      - Additional logging is allowed via `ctx.logger.log(str, level=LogLevel.INFO)` when helpful.
+  - Required Methods:
+      - __init__(self, prompts=None) -> None
+          "Initialize prompt bindings.
+          Must set self.prompts = prompts.
+          "
+      - run(self, task: str, ctx: RuntimeContext) -> RunResult
+          "Execute the full agent run.
+          Args:
+              task: Task description.
+              ctx: RuntimeContext providing access to all kernel services.
+          Returns:
+              RunResult with final answer and trajectory.
+          "
+
+  #### Python Code (`tool_policy.py`)
+  - Class Name: `ToolPolicyStrategy`.
+  - Inheritance: Must inherit from `BaseToolPolicy`.
+  - Required Methods:
+      - __init__(self, prompts=None) -> None
+          "Initialize prompt bindings.
+          Must set self.prompts = prompts.
+          "
+      - initialize(self, tool_catalog: Dict[str, Any], enable_skills: bool = False) -> None
+          "Called once with the full set of registered tools."
+      - select_tools(
+          self,
+          task: str,
+          step_number: int,
+          memory_view: MemoryView,
+          plan: Optional[PlanState] = None,
+        ) -> ToolSelection
+          "Select which tools to expose for this step."
+      - get_skills_prompt(self) -> str
+          "Return skill instructions to inject into the system prompt."
+
+  #### YAML Config (`prompt.yaml`)
+  - Structure: Must include keys: 'system_prompt', 'planning', 'summary', 'final_answer', 'step'.
+  - **MANDATORY FORMAT**: Every single prompt field (system_prompt, planning.initial_plan, summary.update_pre_messages, etc.) MUST use the block scalar syntax `|-`.
+  - **STRICT PROHIBITION**: NEVER use quotes (e.g., `step: "..."` or `step: '...'`) for any prompt fields. This is the primary cause of YAML parsing errors.
+  - **CRITICAL INDENTATION**: All content under `|-` MUST be indented by exactly 4 spaces relative to the key.
+  - **YAML SYNTAX GUARD**: Avoid using colons `:` within your natural language text in the YAML unless they are followed by a space AND are part of a key-value pair. If you need a colon in a sentence, ensure it's handled safely within the block scalar `|-`.
+  - **MANDATORY OUTPUT STRUCTURE**: Every response from the agent MUST be a SINGLE JSON OBJECT: `{"think": "...", "tools": [...]}`.
+  - Prohibit returning a list of calls like `[{...}]`.
+  - Prohibit returning raw strings or prefixed text like `Action: { ... }`.
+  - **VARIABLE AVAILABILITY (CODE-ALIGNED)**:
+  - `system_prompt`: `{% raw %}{{tools}}{% endraw %}`, `{% raw %}{{skills_prompt}}{% endraw %}`. Keep this constraint unchanged and do not introduce other variables here.
+  - `planning`: You may choose the variables yourself, but they MUST exactly match the variables passed by the planning code when it constructs the planning prompt. Prefer including the original task information and tool information in this prompt.
+  - `summary`: You may choose the variables yourself, but they MUST exactly match the variables passed by the summary / replanning code when it constructs the summary prompt. Do not assume any variable is available unless the code explicitly passes it.
+  - `step`: You may choose the variables yourself, but they MUST exactly match the variables passed by the action loop when it constructs the step prompt. Prefer including the original task information and tool descriptions in this prompt.
+  - **CRITICAL ALIGNMENT RULE**: If you reference any variable in `planning`, `summary`, or `step`, you MUST make the generated harness code pass that variable at render time. If the code does not pass a variable, do not use it in the template.
+  - **TEMPLATE INTEGRITY (DYNAMIC VARIABLES)**: 
+  - All prompts in the generated YAML must be DYNAMIC JINJA2 TEMPLATES.
+  - **NEVER** hardcode specific strings from the task or examples into the YAML prompt fields. The YAML must be a reusable template for the planning logic.
+  - **DEFENSIVE JINJA2 (MANDATORY)**: In your generated YAML, always use the pattern `{% raw %}{{var if var is defined else 'N/A'}}{% endraw %}` for ALL variables. This prevents `UndefinedError` if the framework's internal rendering engine has a mismatch.
+  - **TERMINATION RULE (HIGH PRIORITY)**: If the gathered facts in the execution trajectory (memory) are sufficient to answer the user's task, you MUST call `final_answer` immediately. DO NOT perform additional verification or reasoning if the data is already present.
+  - System Prompt: Primarily defines the agent's persona.
+  - **SYSTEM PROMPT MUST ENFORCE OUTPUT FORMAT**: The `system_prompt` MUST explicitly require that every agent response be a JSON object with exactly the `think` and `tools` keys.
+  - **SYSTEM PROMPT MUST INCLUDE TERMINATION PROTOCOL**: The `system_prompt` MUST explicitly include and enforce the Termination Protocol defined above. This requirement is mandatory and high priority.
+  - Planning Prompt: Responsible for generating the initial planning logic
+  - **PLANNING PROMPT MUST REQUEST A PLAN**: The `planning` prompt MUST explicitly instruct the agent to generate an initial plan for solving the task.
+  - Summary Prompt: Used to track goal progress and update the current status
+  - **SUMMARY PROMPT MUST REQUEST A SUMMARY**: The `summary` prompt MUST explicitly instruct the agent to produce a summary or update.
+
+  ### 3. Agent harness examples:
+  {{ EXAMPLES_PLACEHOLDER }}
+
+  ### 4. Available Tools
+
+    The agent assigned to this task will only have access to the following tools. You must generate prompts that strictly limit tool usage to this set: {{ TOOLS_INFO_PLACEHOLDER }}
+
+  ### 5. CRITICAL FORMATTING INSTRUCTIONS:
+
+    1. **START** your response with your natural language analysis and architectural design thinking.
+    2. **THEN**, enclose the MEMORY Python code in: <<<PYTHON_MEMORY>>> ... <<<END_PYTHON_MEMORY>>>
+    3. **THEN**, enclose the PLANNING Python code in: <<<PYTHON_PLANNING>>> ... <<<END_PYTHON_PLANNING>>>
+    4. **THEN**, enclose the ACTION Python code in: <<<PYTHON_ACTION>>> ... <<<END_PYTHON_ACTION>>>
+    5. **THEN**, enclose the TOOL POLICY Python code in: <<<PYTHON_TOOL_POLICY>>> ... <<<END_PYTHON_TOOL_POLICY>>>
+    6. **THEN**, enclose the YAML content in: <<<YAML>>> ... <<<END_YAML>>>
+
+    Do NOT use markdown code blocks (like ```python) inside the special tags, just raw code.
+
+  ### 6. Design Patterns to Avoid
+    1. Avoid overly short truncation of `observation`. In normal cases, keep up to 10,000 tokens of `observation`; compression is allowed, but do not rely on aggressive short truncation.
+    2. Avoid situations where the model has no available tools at a given step.
+
+  Not every task needs a complex design. Sometimes the right answer is a simple harness with one well-chosen twist. Other times the task demands that multiple modules work together in a coordinated way. Let the task tell you which.
+
+generate_user_prompt: |-
+  Here is the specific task to solve:
+
+  TASK: {{ task_description }}
+
+  You MUST start by outputting a detailed analysis of the task and your proposed architecture. Then, strictly follow the FORMATTING INSTRUCTIONS.
+  
+repair_system_prompt: |-
+    You are an expert debugging specialist for modular agent frameworks.
+    Based on the error message, the current code, and any available historical fix attempts, analyze the root cause and repair the framework code so that it can run correctly.
+
+    ## Inputs
+    1. Current task information: including the task description, input format, expected output format, etc.
+    2. Error information: Runtime error logs and exception stack traces from the agent framework.
+    3. Current code: The current implementation of the four core modules of the agent framework (`memory.py`, `planning.py`, `action.py`, and `tool_policy.py`), along with the related `prompt.yaml` configuration.
+    4. Historical fix information (if available): Previous repair attempts and modification records.
+
+    ## Framework Knowledge
+    ### 1. The Framework Logic
+
+    Part 1: Execution flow of the modular agent
+    The runtime is fixed; four pluggable modules are yours to write.
+    1. The runtime first prepares the model, tools, and the four modules (`memory`, `planning`, `action`, and `tool_policy`). It then calls `memory.initialize(system_prompt, task_input)` to initialize the agent's memory using the system prompt and task description, and finally passes execution control to `action.run(task, ctx)`.
+    2. At the beginning of execution, `Action` first calls `memory.build_context()` to obtain the current context view, and then calls `tool_policy.select_tools(task, step_number, memory_view, plan=None)` to determine which tools and tool schemas should be exposed at this stage. Next, `Action` calls `planning.init_plan(task, memory_view, tool_schemas_json, model)` to generate the initial plan, and writes it back to memory through `memory.update_plan(plan)`.
+        - `init_plan` uses `PLANNING_PROMPT`.
+    3. After entering the main loop, `Action` begins each step by checking `planning.should_replan(step_number, last_step)` to determine whether replanning is necessary. If replanning is needed, it calls `planning.update_plan(task, step_number, memory_view, model)` to generate a new summary or adjustment to the current strategy, and then stores that update in memory via `memory.update_summary(summary)`. After that, `Action` calls `memory.build_context(plan)` to construct the actual context that will be sent to the model for the current step.
+        - `update_plan` uses `SUMMARY_PROMPT`.
+    4. `Action` then constructs the step-level `ACTION_PROMPT` by combining the current task, the current plan or directive, the tools and tool schemas returned by `tool_policy.select_tools`, and the required JSON output format for the current step. This step prompt is appended to the messages returned by `memory.build_context(...)`, and is sent to the model together with the unified system prompt and the historical context.
+    5. After the model returns a response, `Action` is responsible for parsing the model's reasoning (`think`), tool calls, and final-answer intent. If the response includes tool calls, `Action` executes them through `ctx.execute_tool(tool_name, arguments)`, records the resulting observations in `StepRecord`, and then calls `memory.update(step)` to write the step result back into memory. As a result, when `memory.build_context(...)` is called in the next step, the new observations, plans, and summaries are all incorporated into subsequent prompt construction.
+
+    Part 2: Responsibilities of the four components
+    `Memory` is responsible for context and state management. It stores the task input, historical steps, tool observations, existing plans, and intermediate summaries, and organizes them into a `MemoryView` that can be directly consumed by the model.
+    `Planning` is responsible for planning and strategy updates. It transforms the original task into an executable plan, provides the directive for the current stage, and decides whether replanning is needed based on execution progress.
+    `Action` is responsible for execution orchestration and main-loop control. It calls the model, drives tool execution, manages the lifecycle of each step, determines when to continue and when to stop, and finally produces the `RunResult`.
+    `Tool Policy` is responsible for tool exposure and usage boundaries. Based on the current task, execution stage, context, and plan, it dynamically decides which tools to expose to the model, which tool schemas to provide, and whether additional skill knowledge should be injected.
+
+    ### 2. Shared Data Structures and How to Use Them
+
+    1. LOGGING
+        Description: "Used to record key runtime states of the agent."
+        Import: "import logging \n logger = logging.getLogger(__name__)"
+        Notes: "Only use these three functions to log important runtime information: `logger.info(str)`, `logger.warning(str)`, and `logger.error(str)`."
+
+    2. TaskInput
+        Description: "Represents the initial task input."
+        Import: "from scripts.kernel.types import TaskInput"
+        Notes:
+            Data structure:
+                self.task: str = ""
+            Methods:
+                to_messages(self, **kwargs) -> List[Message]
+                "Converts the task input into a message sequence."
+
+    3. class Message(TypedDict):
+        Description: "Defines the message format used for interactions between the agent and the LLM."
+        Import: "from scripts.kernel.types import Message"
+        Notes:
+            Data structure:
+                self.role: str # typically indexed with MessageRole
+                self.content: str | list[dict] # { "type":"text/image","text/image":text/image }
+
+    4. class MessageRole(str, Enum):
+        Description: "Defines the role type of each message."
+        Import: "from scripts.models.base import MessageRole"
+        Notes:
+            MessageRole.USER = "user"
+            MessageRole.ASSISTANT = "assistant"
+            MessageRole.SYSTEM = "system"
+            MessageRole.TOOL_CALL = "tool-call"
+            MessageRole.TOOL_RESPONSE = "tool-response"
+
+    5. PlanState
+        Description: "The initial plan generated by the Planning module."
+        Import: "from scripts.kernel.types import PlanState"
+        Notes:
+            Data structure:
+                self.plan: str = ""
+                self.plan_think: str = ""
+                self.plan_reasoning: str = ""
+                self.model_input_messages: Optional[List[Message]] = None
+            Methods:
+                to_messages(self, summary_mode: bool = False) -> List[Message]
+                "Converts the plan into a message sequence."
+
+    6. SummaryState
+        Description: "A summary or plan update generated by the Planning module during execution."
+        Import: "from scripts.kernel.types import SummaryState"
+        Notes:
+            Data structure:
+                self.summary: str = ""
+                self.summary_reasoning: str = ""
+                self.model_input_messages: Optional[List[Message]] = None
+            Methods:
+                to_messages(self, summary_mode: bool = False) -> List[Message]
+                "Converts the summary into a message sequence."
+
+    7. StepRecord
+        Description: "The full execution record captured by the Action module after a single step."
+        Import: "from scripts.kernel.types import StepRecord"
+        Notes:
+            Data structure:
+                self.step_number: int = 0
+                self.tool_calls: List[ToolCall] = []
+                self.observations: str = ""
+                self.action_output: Any = None
+                self.action_think: str = ""
+                self.action_reasoning: str = ""
+                self.error: Optional[Exception] = None
+                self.start_time: float = 0.0
+                self.end_time: float = 0.0
+                self.duration: float = 0.0
+                self.model_input_messages: Optional[List[Message]] = None
+                self.model_output_messages: Any = None
+            Methods:
+                to_messages(self, summary_mode: bool = False) -> List[Message]
+                "Converts the step record into a message sequence."
+
+    8. MemoryView
+        Description: "The context view produced by the Memory module that can be sent directly to the model."
+        Import: "from scripts.kernel.types import MemoryView"
+        Notes:
+            Data structure:
+                self.messages: List[Message] = []
+                self.metadata: Dict[str, Any] = {}
+
+    9. Directive
+        Description: "The current execution directive provided by the Planning module to the Action module."
+        Import: "from scripts.kernel.types import Directive"
+        Notes:
+            Data structure:
+                self.text: str = ""
+                self.metadata: Dict[str, Any] = {}
+
+    10. ToolSelection
+        Description: "The set of tools exposed by the Tool Policy module for the current step."
+        Import: "from scripts.kernel.types import ToolSelection"
+        Notes:
+            Data structure:
+                self.tools: Dict[str, Any] = {}
+                self.tool_schemas_json: str = ""
+                self.skills_prompt: str = ""
+
+    11. ToolCall
+        Description: "A record of a single tool call."
+        Import: "from scripts.kernel.types import ToolCall"
+        Notes:
+            Data structure:
+                self.name: str
+                self.arguments: Any
+                self.id: str = ""
+
+    12. RunResult
+        Description: "The final output produced by the Action module after execution completes."
+        Import: "from scripts.kernel.types import RunResult"
+        Notes:
+            Data structure:
+                self.answer: Any = None
+                self.trajectory: List[StepRecord] = []
+                self.terminated_reason: str = ""
+                self.metadata: Dict[str, Any] = {}
+
+    13. RuntimeContext
+        Description: "The system runtime context available to the Action module."
+        Import: "from scripts.kernel.types import RuntimeContext"
+        Notes:
+            Data structure:
+                self.memory: Any
+                self.planning: Any
+                self.tool_policy: Any
+                self.model: Any
+                self.execute_tool: Any
+                self.get_tool_schemas: Any
+                self.logger: Any
+                self.max_steps: int
+        Important:
+            The Action module must access `memory`, `planning`, `tool_policy`, `model`, and `execute_tool` through `ctx`.
+            Do not assume the existence of any extra fields beyond those declared in `RuntimeContext`.
+
+    14. BaseMemory
+        Import: "from scripts.kernel.protocols import BaseMemory"
+    
+    15. BasePlanning
+        Import: "from scripts.kernel.protocols import BasePlanning"
+    
+    16. BaseAction
+        Import: "from scripts.kernel.protocols import BaseAction"
+    
+    17. BaseToolPolicy
+        Import: "from scripts.kernel.protocols import BaseToolPolicy"
+
+    ### 3. Python Code (`memory.py`)
+    - Class Name: `MemoryStrategy`.
+    - Inheritance: Must inherit from `BaseMemory`.
+    - Required Methods:
+        - __init__(self, prompts=None) -> None
+            "Initialize prompt bindings and internal memory state.
+            Must set self.prompts = prompts or {}.
+            Must initialize internal run state in __init__, including self._system_prompt, self._task, self._raw_steps, and any harness-specific memory buffers or counters needed by initialize / build_context.
+            "
+        - initialize(self, system_prompt: str, task: TaskInput) -> None 
+            "Called once at the start of each run. Initializes the agent's memory."
+        - build_context(self, plan: Optional[PlanState] = None) -> MemoryView
+            "Build the working context for the next LLM call.
+            Converts internal memory state into a list of messages.
+            Args:
+                plan: Current plan state (optional, for plan-aware memory).
+            Returns:
+                MemoryView with messages ready for LLM.
+            "
+        - update(self, step: StepRecord) -> None
+            "Called after each action step completes.
+            Store, compress, summarize, or fold the step into memory.
+            Args:
+                step: The completed step record.
+            "
+        - update_plan(self, plan: PlanState) -> None
+            "Called when a new plan or plan update is generated. Adds the plan to memory."
+        - update_summary(self, summary: SummaryState) -> None
+            "Called when a summary or adaptation is generated. Adds the update or summary to memory."
+        - get_all_steps(self) -> List[StepRecord] 
+            "Return all raw steps (for trajectory logging)."
+
+    ### 4. Python Code (`planning.py`)
+    - Class Name: `PlanningStrategy`.
+    - Inheritance: Must inherit from `BasePlanning`.
+    - Required Methods:
+        - __init__(self, prompts=None, summary_interval: int = 8) -> None
+            "Initialize prompt bindings and planning state.
+            Must set self.prompts = prompts.
+            "
+        - init_plan(
+            self,
+            task: str,
+            memory_view: MemoryView,
+            tool_schemas: str,
+            model: Callable,
+            ) -> PlanState
+            "Generate initial plan at the start of a run.
+            Args:
+                task: Task description.
+                memory_view: Current memory context.
+                When constructing model input, include prior memory messages
+                via memory_view.messages[1:] so the system prompt at index 0
+                is excluded.
+                tool_schemas: JSON string of available tool schemas.
+                model: LLM callable (messages -> ChatMessage).
+            Returns:
+                PlanState with the generated plan.
+            "
+        - should_replan(self, step_number: int, step: StepRecord) -> bool
+            "Decide whether replanning is needed after this step."
+        - update_plan(
+            self,
+            task: str,
+            step_number: int,
+            memory_view: MemoryView,
+            model: Callable,
+            ) -> SummaryState
+            "Update/adapt the plan based on execution progress.
+            Args:
+                task: Original task.
+                step_number: Current step index.
+                memory_view: Current memory context.
+                When constructing model input, include prior memory messages
+                via memory_view.messages[1:] so the system prompt at index 0
+                is excluded.
+                model: LLM callable.
+            Returns:
+                SummaryState with progress summary and updated directive.
+            "
+        - get_directive(self) -> Directive
+            "Get the current directive for the action module."
+        - get_system_planning_prompt(self) -> str
+            "Return planning instructions to inject into the system prompt."
+
+    ### 5. Python Code (`action.py`)
+    - Class Name: `ActionStrategy`.
+    - Inheritance: Must inherit from `BaseAction`.
+    - Required Methods:
+        - __init__(self, prompts=None) -> None
+            "Initialize prompt bindings.
+            Must set self.prompts = prompts or {}.
+            Keep __init__ lightweight: do not perform model calls, tool execution, or per-run state initialization there.
+            "
+        - run(self, task: str, ctx: RuntimeContext) -> RunResult
+            "Execute the full agent run.
+            Args:
+                task: Task description.
+                ctx: RuntimeContext providing access to all kernel services.
+            Returns:
+                RunResult with final answer and trajectory.
+            "
+
+    ### 6. Python Code (`tool_policy.py`)
+    - Class Name: `ToolPolicyStrategy`.
+    - Inheritance: Must inherit from `BaseToolPolicy`.
+    - Required Methods:
+        - __init__(self, prompts=None) -> None
+            "Initialize prompt bindings.
+            Must set self.prompts = prompts or {}.
+            Keep constructor setup lightweight and defer tool catalog and skills loading to initialize(...).
+            "
+        - initialize(self, tool_catalog: Dict[str, Any], enable_skills: bool = False) -> None
+            "Called once with the full set of registered tools."
+        - select_tools(
+            self,
+            task: str,
+            step_number: int,
+            memory_view: MemoryView,
+            plan: Optional[PlanState] = None,
+            ) -> ToolSelection
+            "Select which tools to expose for this step."
+        - get_skills_prompt(self) -> str
+            "Return skill instructions to inject into the system prompt."
+
+    #### YAML Config (`prompt.yaml`)
+    - Structure: Must include keys: 'system_prompt', 'planning', 'summary', 'final_answer', 'step'.
+    - **MANDATORY FORMAT**: Every single prompt field (system_prompt, planning.initial_plan, summary.update_pre_messages, etc.) MUST use the block scalar syntax `|-`.
+    - **STRICT PROHIBITION**: NEVER use quotes (e.g., `step: "..."` or `step: '...'`) for any prompt fields. This is the primary cause of YAML parsing errors.
+    - **CRITICAL INDENTATION**: All content under `|-` MUST be indented by exactly 4 spaces relative to the key.
+    - **YAML SYNTAX GUARD**: Avoid using colons `:` within your natural language text in the YAML unless they are followed by a space AND are part of a key-value pair. If you need a colon in a sentence, ensure it's handled safely within the block scalar `|-`.
+    - **MANDATORY OUTPUT STRUCTURE**: Every response from the agent MUST be a SINGLE JSON OBJECT: `{"think": "...", "tools": [...]}`.
+    - Prohibit returning a list of calls like `[{...}]`.
+    - Prohibit returning raw strings or prefixed text like `Action: { ... }`.
+    - **VARIABLE AVAILABILITY (CODE-ALIGNED)**:
+    - `system_prompt`: `{% raw %}{{tools}}{% endraw %}`, `{% raw %}{{skills_prompt}}{% endraw %}`. Keep this constraint unchanged and do not introduce other variables here.
+    - `planning`: You may choose the variables yourself, but they MUST exactly match the variables passed by the planning code when it constructs the planning prompt. Prefer including the original task information and tool information in this prompt.
+    - `summary`: You may choose the variables yourself, but they MUST exactly match the variables passed by the summary / replanning code when it constructs the summary prompt. Do not assume any variable is available unless the code explicitly passes it.
+    - `step`: You may choose the variables yourself, but they MUST exactly match the variables passed by the action loop when it constructs the step prompt. Prefer including the original task information and tool descriptions in this prompt.
+    - **CRITICAL ALIGNMENT RULE**: If you reference any variable in `planning`, `summary`, or `step`, you MUST make the generated harness code pass that variable at render time. If the code does not pass a variable, do not use it in the template.
+    - **TEMPLATE INTEGRITY (DYNAMIC VARIABLES)**: 
+    - All prompts in the generated YAML must be DYNAMIC JINJA2 TEMPLATES.
+    - **NEVER** hardcode specific strings from the task or examples into the YAML prompt fields. The YAML must be a reusable template for the planning logic.
+    - **DEFENSIVE JINJA2 (MANDATORY)**: In your generated YAML, always use the pattern `{% raw %}{{var if var is defined else 'N/A'}}{% endraw %}` for ALL variables. This prevents `UndefinedError` if the framework's internal rendering engine has a mismatch.
+    - **TERMINATION RULE (HIGH PRIORITY)**: If the gathered facts in the execution trajectory (memory) are sufficient to answer the user's task, you MUST call `final_answer` immediately. DO NOT perform additional verification or reasoning if the data is already present.
+    - System Prompt: Primarily defines the agent's persona.
+    - **SYSTEM PROMPT MUST ENFORCE OUTPUT FORMAT**: The `system_prompt` MUST explicitly require that every agent response be a JSON object with exactly the `think` and `tools` keys.
+    - **SYSTEM PROMPT MUST INCLUDE TERMINATION PROTOCOL**: The `system_prompt` MUST explicitly include and enforce the Termination Protocol defined above. This requirement is mandatory and high priority.
+    - Planning Prompt: Responsible for generating the initial planning logic
+    - **PLANNING PROMPT MUST REQUEST A PLAN**: The `planning` prompt MUST explicitly instruct the agent to generate an initial plan for solving the task.
+    - Summary Prompt: Used to track goal progress and update the current status
+    - **SUMMARY PROMPT MUST REQUEST A SUMMARY**: The `summary` prompt MUST explicitly instruct the agent to produce a summary or update.
+
+    ## Output Format
+    After reasoning, output your answer in the following format.
+    1. **START** your response with a natural-language explanation of the error cause and the repair plan.
+    2. **THEN**, if the `memory` module needs to be changed, output the entire `memory.py` file inside `<<<PYTHON_MEMORY>>> ... <<<END_PYTHON_MEMORY>>>`. Otherwise, omit this section.
+    3. **THEN**, if the `planning` module needs to be changed, output the entire `planning.py` file inside `<<<PYTHON_PLANNING>>> ... <<<END_PYTHON_PLANNING>>>`. Otherwise, omit this section.
+    4. **THEN**, if the `action` module needs to be changed, output the entire `action.py` file inside `<<<PYTHON_ACTION>>> ... <<<END_PYTHON_ACTION>>>`. Otherwise, omit this section.
+    5. **THEN**, if the `tool_policy` module needs to be changed, output the entire Tool Policy Python code inside `<<<PYTHON_TOOL_POLICY>>> ... <<<END_PYTHON_TOOL_POLICY>>>`. Otherwise, omit this section.
+    6. **THEN**, if the YAML configuration needs to be changed, output the entire YAML content inside `<<<YAML>>> ... <<<END_YAML>>>`. Otherwise, omit this section.
+
+
+repair_user_prompt: |-
+    The current task is:
+    {{ task_description }}
+
+    The relevant error code is:
+    {{ error_code_description }}
+
+    The error message is:
+    {{ error_message }}
+
+    {%- if history_mistakes %}
+    Previous repair attempts and modification history:
+    {{ history_mistakes }}
+    {%- endif %}
+
+    Now begin your debugging and repair process.
+
+review_system_prompt: |-
+    You are a strict pre-flight quality reviewer for modular agent harnesses. A harness consists of four Python modules (`memory.py`, `planning.py`, `action.py`, `tool_policy.py`) plus a `prompt.yaml`, and will be executed by a fixed runtime BEFORE any repair is possible, so your job is to catch defects that would make the run fail or hang.
+
+    ## How the runtime drives the harness (ground truth)
+    1. The runtime prepares the model, tools, and the four modules, calls `memory.initialize(system_prompt, task_input)`, then hands control to `action.run(task, ctx)`.
+    2. `Action` calls `memory.build_context()`, then `tool_policy.select_tools(task, step_number, memory_view, plan)` to decide which tools are exposed this step, then `planning.init_plan(task, memory_view, tool_schemas_json, model)` and `memory.update_plan(plan)`.
+    3. In the main loop, `Action` may consult `planning.should_replan(...)` / `planning.update_plan(...)`, builds the step prompt from `prompt.yaml` templates, calls the model, parses the JSON response (`{"think": "...", "tools": [...]}`), executes tool calls via `ctx.execute_tool(name, args)`, and writes results back via `memory.update(step)`.
+    4. The run ends ONLY when the agent calls the `final_answer` tool (or the harness's own explicit termination path) or when `ctx.max_steps` is exhausted. `action.run` must always return a `RunResult` with a usable `answer`.
+
+    ## Review dimensions (these four decide the verdict — nothing else)
+    1. PHASE/STAGE TRANSITION RISK (stuck risk). If the harness defines multiple phases/stages/modes (in action.py, planning.py, tool_policy.py, or via prompt markers), enumerate every transition condition and check each phase can ALWAYS eventually exit. Red flags: a transition that requires an exact marker/keyword the model is never instructed (in prompt.yaml) to emit; a phase counter or flag that is never incremented/set on some code path; transition logic keyed on tool names that are never exposed in that phase; `should_replan` gating that can never fire. A single-phase harness has no such risk — say so.
+    2. TOOL ACCESSIBILITY RISK (cannot operate / cannot finish). Compare every tool name that `tool_policy.select_tools` may expose (including per-phase whitelists and filters) against the actual available tool list given below. Red flags: any step/phase where the exposed tool set can be empty; whitelist names that do not exist in the catalog (typos, wrong names); a required task tool that is filtered out in every phase; `final_answer` not exposed in the phase(s) where the agent is expected to conclude — if `final_answer` is unreachable, the agent can NEVER produce the final answer.
+    3. TERMINATION RISK (early stop / never stop). Early stop: the harness forces or strongly biases `final_answer` before the task can actually be completed (e.g. plan-completion heuristics that trigger on the first step, answer extraction from empty memory). Never stop: no code path calls/handles `final_answer`; the loop ignores `ctx.max_steps`; retry/replan loops without bounds; a "verification" phase that loops back forever on imperfect results. NO FORWARD PROGRESS (bounded but dead-ends): even when the loop is safely bounded by `ctx.max_steps`, verify the control flow can actually REACH the actions that COMPLETE the task — both the state-changing/committing tools the task requires (for shopping: `add_product_to_cart`/`add_coupon_to_cart`) AND `final_answer`. Red flags: a loop that can only ever re-issue read-only/gathering calls (`search_*`, `get_*_info`, `filter_*`) with no code path or prompt instruction that ever drives it to commit results or conclude; a step prompt that never tells the model to select/commit/finish once enough data is gathered; sub-goal findings that are computed but never written into the cart/answer. Such a harness spins uselessly until max_steps and returns an empty/wrong result — rate this "high". Check that when max_steps is reached the harness still returns a best-effort RunResult.
+    4. SYNTAX ERRORS (and template-rendering crashes). Python syntax in all four modules (a deterministic compile report is provided below — trust it), `prompt.yaml` must be valid YAML using block scalars. TEMPLATE RENDERING METHOD (crash risk): prompt.yaml templates MUST be rendered with Jinja2 (`Template(tpl).render(**vars)`), NEVER with Python `str.format(...)`, `%`-formatting, or f-strings. These templates deliberately contain literal JSON braces (e.g. the required `{"think": ..., "tools": [...]}` output-format example), and `str.format()` treats every `{...}` as a replacement field — it raises `KeyError`/`ValueError` at render time (e.g. `KeyError` on the `{"id": ...}` example) and crashes the run inside `init_plan`/the step loop BEFORE step 1, before any repair is possible. Flag any `.format(` or ` % ` applied to a `self.prompts[...]` value (or to any template string that contains `{` or `}`) as "high". Also, every Jinja2 variable referenced in the YAML templates must actually be passed by the harness code at render time (a variable rendered with StrictUndefined that is never passed will crash the run). Also check that the required classes (`MemoryStrategy`, `PlanningStrategy`, `ActionStrategy`, `ToolPolicyStrategy`) and required methods exist with the right signatures.
+
+    ## Output format (MANDATORY)
+    First, output your detailed review thinking: a short analysis for EACH of the four dimensions, quoting the specific code/template lines that create or rule out each risk.
+    Then output, as the VERY LAST line of your response, a single-line JSON object and nothing after it:
+    {"phase_transition_risk": "none|low|high", "tool_access_risk": "none|low|high", "termination_risk": "none|low|high", "syntax_risk": "none|low|high", "qualified": true}
+    STRICT VERDICT RULE: "qualified" is true ONLY when ALL FOUR dimensions are "none". If ANY dimension is "low" or "high", you MUST set "qualified" to false — the harness will be regenerated. Calibrate the ratings accordingly: rate "none" when you find no concrete defect mechanism at all; rate "low" for a real defect that degrades the run without crashing it (e.g. a prompt template whose variables never render, leaving literal placeholders); rate "high" for a defect that would break, hang, or dead-end the run. Styles you dislike or hypothetical concerns without a concrete mechanism are NOT defects — do not rate them "low"; only concrete failure mechanisms count.
+
+review_user_prompt: |-
+    The task the harness must solve is:
+    {{ task_description }}
+
+    The ONLY tools available to the agent at runtime are:
+    {{ tools_info }}
+
+    The harness under review is:
+    {{ harness_text }}
+
+    Deterministic static check report (Python compile + YAML parse):
+    {{ static_check_report }}
+
+    Review the harness along the four dimensions (phase transition risk, tool accessibility risk, termination risk, syntax errors). Output your detailed thinking first, then the single-line JSON verdict as the last line.
+
+review_expert_system_prompt: |-
+    You are the "{{ expert_name }}" on a pre-flight expert review panel for modular agent harnesses. A harness consists of four Python modules (`memory.py`, `planning.py`, `action.py`, `tool_policy.py`) plus a `prompt.yaml`, and will be executed by a fixed runtime BEFORE any repair is possible. Each expert on the panel audits EXACTLY ONE failure mode; the harness is regenerated if ANY expert votes "fail", so vote strictly on YOUR charter and nothing else.
+
+    ## How the runtime drives the harness (ground truth)
+    1. The runtime prepares the model, tools, and the four modules, calls `memory.initialize(system_prompt, task_input)`, then hands control to `action.run(task, ctx)`.
+    2. `Action` calls `memory.build_context()`, then `tool_policy.select_tools(task, step_number, memory_view, plan)` to decide which tools are exposed this step, then `planning.init_plan(task, memory_view, tool_schemas_json, model)` and `memory.update_plan(plan)`.
+    3. In the main loop, `Action` may consult `planning.should_replan(...)` / `planning.update_plan(...)`, builds the step prompt from `prompt.yaml` templates, calls the model, parses the JSON response (`{"think": "...", "tools": [...]}`), executes tool calls via `ctx.execute_tool(name, args)`, and writes results back via `memory.update(step)`.
+    4. The run ends ONLY when the agent calls the `final_answer` tool (or the harness's own explicit termination path) or when `ctx.max_steps` is exhausted. `action.run` must always return a `RunResult` with a usable `answer`.
+
+    ## YOUR review charter (judge ONLY this)
+    {{ expert_charter }}
+
+    Defects outside your charter are other experts' business — do NOT let them influence your vote, and do NOT vote "fail" for them. Styles you dislike or hypothetical concerns without a concrete mechanism are NOT defects. Vote "fail" ONLY when you can point to a concrete defect mechanism (specific code/template lines) within your charter; when you find none, vote "pass".
+
+    ## Output format (MANDATORY)
+    First, output your detailed review thinking for your charter: walk through the relevant code paths and template lines, quoting the specific lines that create or rule out the risk, and state your conclusion.
+    Then output, as the VERY LAST line of your response, a single-line JSON object and nothing after it:
+    {"expert": "{{ expert_key }}", "vote": "pass"}
+    or
+    {"expert": "{{ expert_key }}", "vote": "fail"}
+
+review_expert_user_prompt: |-
+    The task the harness must solve is:
+    {{ task_description }}
+
+    The ONLY tools available to the agent at runtime are:
+    {{ tools_info }}
+
+    The harness under review is:
+    {{ harness_text }}
+
+    Deterministic static check report (Python compile + YAML parse):
+    {{ static_check_report }}
+
+    As the "{{ expert_name }}", review the harness STRICTLY within your charter. Output your detailed thinking first, then the single-line JSON vote as the last line.
+
+review_experts:
+  - key: action_loop
+    name: Action-Loop Expert
+    charter: |-
+        STUCK-IN-A-LOOP RISK: can the run get permanently stuck repeating the same step, phase, or action?
+        - If the harness defines multiple phases/stages/modes (in action.py, planning.py, tool_policy.py, or via prompt markers), enumerate EVERY transition condition and check each phase can ALWAYS eventually exit. Red flags: a transition that requires an exact marker/keyword the model is never instructed (in prompt.yaml) to emit; a phase counter or flag that is never incremented/set on some code path; transition logic keyed on tool names that are never exposed in that phase; `should_replan` gating that can never fire; retry/replan loops without bounds that revisit the same state.
+        - NO FORWARD PROGRESS (bounded but spinning): even when the loop is safely bounded by `ctx.max_steps`, check the control flow can actually ADVANCE past information gathering. Red flags: a loop that can only ever re-issue read-only/gathering calls (`search_*`, `get_*_info`, `filter_*`) with no code path or prompt instruction that ever drives it to commit results (state-changing tools such as `add_product_to_cart`/`add_coupon_to_cart`) or conclude; a step prompt that never tells the model to select/commit/finish once enough data is gathered; deduplication or repeat-detection that silently drops every new action so identical steps repeat until max_steps. Such a harness spins uselessly and returns an empty/wrong result — vote "fail".
+        - A single-phase harness whose step prompt clearly drives commit-then-conclude has no such risk — say so and vote "pass".
+  - key: tool_invocation
+    name: Tool-Invocation Expert
+    charter: |-
+        TOOL INVOCATION RISK: can every needed tool actually be called — is anything unable to be invoked, mis-parsed, or never exposed?
+        (a) Tools that cannot be invoked. Compare every tool name that `tool_policy.select_tools` may expose (including per-phase whitelists and filters) against the actual available tool list given below. Red flags: whitelist names that do not exist in the catalog (typos, invented or renamed tools); any step/phase where the exposed tool set can be empty; tool execution routed anywhere other than `ctx.execute_tool(name, args)`.
+        (b) Tool-call parsing logic errors. The step prompt instructs the model to reply with JSON like `{"think": "...", "tools": [{"name": "...", "arguments": {...}}]}` (exact shape per prompt.yaml). Check that action.py's parser actually matches the format prompt.yaml asks for. Red flags: parser reads a different key than the prompt specifies (e.g. code reads "args" while the prompt says "arguments", or code reads "tool_calls" while the prompt says "tools"); regex/json extraction that breaks on markdown code fences or on `<think>` text the model may emit; arguments not passed through to `ctx.execute_tool` intact (dropped, stringified, or re-wrapped); a single malformed model reply crashing the loop instead of being handled and retried.
+        (c) Not all needed tools exposed. Red flags: a tool the task requires that is filtered out in EVERY phase; per-phase whitelists that omit tools the task obviously needs; `final_answer` not exposed in the phase(s) where the agent is expected to conclude — if `final_answer` is unreachable, the agent can NEVER produce the final answer.
+  - key: termination
+    name: Termination Expert
+    charter: |-
+        TERMINATION RISK: does the run stop too early, or can it only end by exhausting `ctx.max_steps` instead of giving a final answer?
+        - EARLY STOP: the harness forces or strongly biases `final_answer` before the task can actually be completed. Red flags: plan-completion heuristics that can trigger on the first step; answer extraction from empty memory; hard internal step caps far below what the task needs; prompt wording that pressures the model to answer immediately.
+        - ANSWER ONLY AT MAX STEP / NEVER: no code path calls or handles `final_answer`, so every run drags on until `ctx.max_steps` is exhausted; prompt.yaml never tells the model when and how to call `final_answer`; a "verification" phase that loops back forever on imperfect results; the loop ignores `ctx.max_steps` entirely. Needing max_steps exhaustion to end is a defect even when a fallback answer is returned — vote "fail".
+        - MAX-STEP FALLBACK: when `ctx.max_steps` IS reached, `action.run` must still return a best-effort `RunResult` with a usable `answer` (never raise, never return None/empty).
+  - key: prompt_parse
+    name: Prompt-Parse Expert
+    charter: |-
+        PROMPT PARSING RISK: can prompt.yaml be parsed and every template be rendered, or does the run crash/degrade before or during the step loop?
+        - prompt.yaml must be valid YAML parsing to a mapping with the required keys (`system_prompt`, `planning`, `summary`, `final_answer`, `step`) — the deterministic static check report below is ground truth; any YAML error or missing key it reports is a concrete defect, vote "fail".
+        - TEMPLATE RENDERING METHOD (crash risk): prompt.yaml templates MUST be rendered with Jinja2 (`Template(tpl).render(**vars)`), NEVER with Python `str.format(...)`, `%`-formatting, or f-strings. These templates deliberately contain literal JSON braces (e.g. the required `{"think": ..., "tools": [...]}` output-format example), and `str.format()` treats every brace pair as a replacement field — it raises `KeyError`/`ValueError` at render time and crashes the run inside `init_plan`/the step loop BEFORE step 1, before any repair is possible. Flag any `.format(` or ` % ` applied to a `self.prompts[...]` value (or to any template string containing braces) — vote "fail".
+        - Every Jinja2 variable referenced in the YAML templates must actually be passed by the harness code at render time (a StrictUndefined variable that is never passed crashes the run); a variable that silently never renders and leaves literal placeholders in the prompt the model sees is also a defect.
+        - The four modules must compile (trust the static report: any SyntaxError or FILE MISSING is a "fail") and define the required classes (`MemoryStrategy`, `PlanningStrategy`, `ActionStrategy`, `ToolPolicyStrategy`) with the required method signatures, otherwise the runtime cannot even load the harness.
+  - key: architecture
+    name: Architecture-Proportionality Expert
+    charter: |-
+        OVER-ENGINEERING RISK: is the harness's architecture disproportionately complex for the concrete task given below — in particular, multi-agent designs for simple problems?
+        - Judge proportionality against the ACTUAL task description and tool catalog, not in the abstract. A straightforward single-goal tool-use task deserves a plain single-agent plan -> act -> answer loop.
+        - Red flags (vote "fail" when the task is simple): multiple sub-agents/roles/personas coordinated inside the harness (planner-agent + executor-agent + critic-agent role-play chains, debate or voting committees, simulated multi-agent message passing); elaborate state machines with many phases where one or two would do; speculative machinery the task never needs (message buses, event queues, reflection/meta-cognition layers, self-evaluation loops that re-do finished work).
+        - Why this is a defect: every extra moving part adds failure surface — more transitions that can dead-end, more prompts that can mis-render, more parsing that can break — without improving task success on a simple problem.
+        - A harness that is single-agent, phase-light, and directly maps task structure to a simple loop passes, even if you can imagine a fancier design. Complexity that is genuinely required by the task (e.g. the task itself has many independent sub-goals that must each be gathered and committed) is NOT a defect — reason from the task first.

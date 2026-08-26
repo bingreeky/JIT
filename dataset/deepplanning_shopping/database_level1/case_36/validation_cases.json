@@ -1,0 +1,458 @@
+{
+  "query": "I'm getting geared up for some serious training and need to order several specific items. First, I’m looking for a pair of 'Trail Running Shoes' from Arc'teryx in Gold. I need them quickly, so transport time has to be less than 2 days, and they must have fewer than 15 three-star reviews. Next, I need two specific size 44 items from Li-Ning: a 'Blizzard Runner' with over 1200 in total sales and less than 10 one-star reviews, and an all-seasons 'Shadow Walker' with over 1200 total reviews and a transport time under 2 days. Finally, I need two things from Under Armour. One is a Camel colored product with over 950 total reviews, fewer than 10 two-star reviews, and a transport time of less than 2 days. The other is Light Grey with an average score above 4.5 and more than 700 five-star ratings.",
+  "ground_truth_products": [
+    {
+      "product_id": "5f22e068",
+      "name": "Men's Phantom Runner Training Shoes",
+      "price": 799.0,
+      "brand": "Under Armour",
+      "color": "Camel",
+      "size": "44",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 978,
+        "distribution": {
+          "5_star": 720,
+          "4_star": 205,
+          "3_star": 40,
+          "2_star": 8,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "37e0f9b6",
+      "name": "Men's 'Blizzard Runner' High-Top Winter Shoes",
+      "price": 699.0,
+      "brand": "Li-Ning",
+      "color": "Orange",
+      "size": "44",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips,Patchwork,Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth, air dry. Do not machine wash or expose to direct sunlight for extended periods.",
+      "sales_volume": {
+        "monthly": 180,
+        "total": 1250
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 358,
+        "distribution": {
+          "5_star": 250,
+          "4_star": 72,
+          "3_star": 18,
+          "2_star": 11,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a1114139",
+      "name": "Men's S-Lite Trail Running Shoes",
+      "price": 1899.0,
+      "brand": "Arc'teryx",
+      "color": "Gold",
+      "size": "44",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Printing, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 112,
+        "total": 1350
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 160,
+          "4_star": 40,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "89feaefa",
+      "name": "Men's 'Shadow Walker' Retro Basketball Shoes",
+      "price": 599.5,
+      "brand": "Li-Ning",
+      "color": "Black",
+      "size": "44",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or expose to direct sunlight for long periods.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 980,
+          "4_star": 210,
+          "3_star": 40,
+          "2_star": 15,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b4cad961",
+      "name": "Men's UA HOVR Phantom 3 Running Shoes",
+      "price": 899.0,
+      "brand": "Under Armour",
+      "color": "Light Grey",
+      "size": "44",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 720,
+          "4_star": 95,
+          "3_star": 20,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Under Armour, the color is Camel, the transport time is less than 2 days, the number of 2-star reviews is less than 10, and there are more than 950 total reviews.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Camel",
+          "operator": "equals",
+          "operator_value": "Camel"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 8,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "brand",
+          "value": "Under Armour",
+          "operator": "equals",
+          "operator_value": "Under Armour"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 978,
+          "operator": "greater_than",
+          "operator_value": 950.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains 'Blizzard Runner', the brand is Li-Ning, the size is 44, the total sales volume is more than 1200, and the number of 1-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 7,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "brand",
+          "value": "Li-Ning",
+          "operator": "equals",
+          "operator_value": "Li-Ning"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 1250,
+          "operator": "greater_than",
+          "operator_value": 1200.0
+        },
+        {
+          "field": "size",
+          "value": "44",
+          "operator": "equals",
+          "operator_value": "44"
+        },
+        {
+          "field": "name",
+          "value": "Men's 'Blizzard Runner' High-Top Winter Shoes",
+          "operator": "contains",
+          "operator_value": "Blizzard Runner"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the brand is Arc'teryx, the color is Gold, the number of 3-star reviews is less than 15, and the name contains 'Trail Running Shoes'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Arc'teryx",
+          "operator": "equals",
+          "operator_value": "Arc'teryx"
+        },
+        {
+          "field": "color",
+          "value": "Gold",
+          "operator": "equals",
+          "operator_value": "Gold"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "name",
+          "value": "Men's S-Lite Trail Running Shoes",
+          "operator": "contains",
+          "operator_value": "Trail Running Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Li-Ning, transport time is less than 2, total reviews are greater than 1200, the product is suitable for all seasons, size is 44, and the name contains 'Shadow Walker'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Li-Ning",
+          "operator": "equals",
+          "operator_value": "Li-Ning"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1250,
+          "operator": "greater_than",
+          "operator_value": 1200.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "size",
+          "value": "44",
+          "operator": "equals",
+          "operator_value": "44"
+        },
+        {
+          "field": "name",
+          "value": "Men's 'Shadow Walker' Retro Basketball Shoes",
+          "operator": "contains",
+          "operator_value": "Shadow Walker"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Under Armour, the color is Light Grey, the average score is above 4.5, and it has more than 700 5-star ratings.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 720,
+          "operator": "greater_than",
+          "operator_value": 700.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "brand",
+          "value": "Under Armour",
+          "operator": "equals",
+          "operator_value": "Under Armour"
+        },
+        {
+          "field": "color",
+          "value": "Light Grey",
+          "operator": "equals",
+          "operator_value": "Light Grey"
+        }
+      ]
+    }
+  ]
+}

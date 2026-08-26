@@ -1,0 +1,15 @@
+description: |-
+  ## 1. Architecture Overview
+
+  AgentFold is a hybrid harness that combines DAG-style planning with AgentFold-style trajectory compression. The agent can ask to compress older execution steps into a shorter summary, so long runs keep a compact working history without losing the plan-level structure.
+
+  ## 2. Key Features / Innovations
+
+  - Supports cooperative history folding. The model may emit a top-level `compress` object alongside its tool plan, specifying which prior step ids should be merged and what compressed text should replace them.
+  
+  ## 3. Where These Features Are Implemented
+
+  - `action`: compression support is wired into `_process_response()`, which parses the model's top-level JSON, extracts any `compress_range` and `compress_text`, and forwards them to memory before the normal tool-call parsing path continues. This is what turns AgentFold compression into an in-band control signal rather than a separate maintenance pass.
+  - `memory`: `memory.py` implements the folded-history representation. `MemoryStrategy` stores execution as a `step_list` of `{start, end, content}` entries, allowing single raw steps and compressed ranges to coexist, while `apply_compression()` replaces a contiguous block of prior steps with one summarized entry.
+  - `memory`: context reconstruction happens in `build_context()` and `_format_previous_steps()`. Older entries are surfaced as `[Compressed Step N]` or `[Compressed Step N to M]`, while the latest step remains uncompressed, so the model sees a compact but still chronologically structured execution trace.
+  - `memory`: each `build_context()` pass should also assign stable ordinal labels to the messages it emits, so the model can identify context segments by message number and compress the working context more reliably.

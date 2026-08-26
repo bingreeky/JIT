@@ -1,0 +1,89 @@
+{
+    "task": "Determine which class has the highest number of students in the provided student-class listing from class_member.xlsx, and save all the students' names from this class in a file named Most_Populous_Class.pdf. Ensure that only the names belonging to the class with the most members are included. Do not include any students from classes with fewer members.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Most_Populous_Class.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Most_Populous_Class.pdf",
+                "keywords": [
+                    "Carol"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Most_Populous_Class.pdf",
+                "keywords": [
+                    "Jack"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Most_Populous_Class.pdf",
+                "keywords": [
+                    "Sam"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Most_Populous_Class.pdf",
+                "keywords": [
+                    "Tina"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Most_Populous_Class.pdf",
+                "keywords": [
+                    "Alice"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Most_Populous_Class.pdf",
+                "keywords": [
+                    "Noah",
+                    "Mia",
+                    "Noahson",
+                    "Jackson",
+                    "Olivia",
+                    "Grace"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Save the names of students in the class with the most students in a PDF file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file should be named Most_Populous_Class.pdf and placed in the data directory."
+        },
+        {
+            "fact": "Only include the names of students from the class with the most members in class_member.xlsx; do not include names from other classes."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

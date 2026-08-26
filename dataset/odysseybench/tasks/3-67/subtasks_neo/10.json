@@ -1,0 +1,53 @@
+{
+    "task": "1. Review the contents of car_trading.xlsx located in /testbed/data and identify all transactions where Bob was either the buyer or seller. 2. Summarize these transactions, including the date, car model, counterpart (buyer or seller), and price. 3. Write this summary into a new Word document named transactions_summary.docx. 4. Convert the Word document to a PDF file named transactions_summary.pdf.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/transactions_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/transactions_summary.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/transactions_summary.docx",
+                "keywords": [
+                    "Bob",
+                    "BMWXS",
+                    "Dealer",
+                    "Toyota Camry",
+                    "Alice"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the car transactions involving Bob and provide the summary in both docx and pdf formats.",
+    "ground_truth_memory": [
+        {
+            "fact": "car_trading.xlsx is located in /testbed/data."
+        },
+        {
+            "action_item": "Summarize every record where Bob is either the buyer or seller."
+        },
+        {
+            "action_item": "Include for each transaction: date, car model, the other party (buyer or seller), and price."
+        },
+        {
+            "action_item": "Write the summary into a new Word file named transactions_summary.docx."
+        },
+        {
+            "action_item": "Convert transactions_summary.docx to transactions_summary.pdf."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

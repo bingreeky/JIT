@@ -1,0 +1,240 @@
+{
+  "query": "I'm doing some online shopping to refresh my wardrobe with a few specific items. First, I'm looking for something pink from the brand Levi's, and I want to ensure it’s well-liked, so it must have fewer than 15 two-star reviews and less than 40 three-star reviews. Next, I need a popular item in size 37 that I can get very quickly, so the transport time must be less than 2. It also needs to have a monthly sales volume over 400, more than 300 total reviews, and fewer than 10 two-star reviews. Lastly, I’m searching for a coffee-colored product from Anta that has an average score greater than 4.5 and more than 80 four-star reviews. Find me some products where the total price is no less than 1086 and no more than 1332.",
+  "ground_truth_products": [
+    {
+      "product_id": "20ee085f",
+      "name": "Levi's Women's Perfect Crewneck T-Shirt",
+      "price": 229.0,
+      "brand": "Levi's",
+      "color": "Pink",
+      "size": "S",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 980,
+        "total": 15600
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1450,
+        "distribution": {
+          "5_star": 1200,
+          "4_star": 200,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f868d153",
+      "name": "WaveFlow Summer Running Shoes",
+      "price": 429.0,
+      "brand": "Li-Ning",
+      "color": "Light Blue",
+      "size": "37",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        },
+        {
+          "material": "Nylon",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 388,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 85,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "df51c01b",
+      "name": "Anta Women's Retro Runner 88 Sneakers",
+      "price": 429.0,
+      "brand": "Anta",
+      "color": "Coffee",
+      "size": "37",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 50
+        },
+        {
+          "material": "Nylon",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Embroidery, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash or expose to direct sunlight for extended periods.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 298,
+          "4_star": 85,
+          "3_star": 18,
+          "2_star": 7,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Levi's, the color is Pink, the count of 2-star reviews is less than 15, and the count of 3-star reviews is less than 40.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Pink"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 35
+        },
+        {
+          "field": "brand",
+          "value": "Levi's"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with fewer than 10 2-star reviews, a transport time of less than 2, in size 37, with more than 300 total reviews, and a monthly sales volume greater than 400.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "size",
+          "value": "37"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 350
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 450
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Anta, the color is Coffee, the average score is greater than 4.5, and the number of 4-star reviews is more than 80.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Anta"
+        },
+        {
+          "field": "color",
+          "value": "Coffee"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 85
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        }
+      ]
+    }
+  ]
+}

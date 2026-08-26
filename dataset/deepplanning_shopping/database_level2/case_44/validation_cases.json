@@ -1,0 +1,381 @@
+{
+  "query": "I'm refreshing my wardrobe for various activities and need to find a few specific items. First, I'm looking for the 'Men's Classic 574 Core Sneakers' from the brand New Balance for Men, and I only want to see ones with more than 350 four-star reviews and less than 20 two-star reviews. I also need some black 'Hiking Shoes' delivered quickly, so the transport time must be less than 3. For casual use, I need some men's 'Canvas Sneakers' with over 1300 total reviews and fewer than 100 three-star reviews. To go with them, I need a 'Training Top' from Li-Ning with over 1100 total reviews and less than 15 two-star reviews. Lastly, I'm looking for a popular item with total sales over 12,000, a score above 4.5, fewer than 50 three-star reviews, and a transport time under 10 days. Find me some products where the total price is no less than 2590 and no more than 2681.",
+  "ground_truth_products": [
+    {
+      "product_id": "e49a1938",
+      "name": "Men's Classic 574 Core Sneakers",
+      "price": 699.0,
+      "brand": "New Balance",
+      "color": "Grey",
+      "size": 44,
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 55
+        },
+        {
+          "material": "Nylon",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Patchwork, Side Pockets, Reflective Strips",
+      "washing_instructions": "Wipe with a damp cloth. Do not immerse in water. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1843,
+        "total": 15288
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3450,
+        "distribution": {
+          "5_star": 2980,
+          "4_star": 360,
+          "3_star": 85,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6751f98f",
+      "name": "Men's TerraFlex Hiking Shoes",
+      "price": 1299.0,
+      "brand": "Patagonia",
+      "color": "Black",
+      "size": "44",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Printing, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4200
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "85b13128",
+      "name": "Men's AirSense Canvas Sneakers",
+      "price": 249.0,
+      "brand": "Uniqlo",
+      "color": "Navy Blue",
+      "size": "44",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Air dry. Do not machine wash or expose to direct sunlight for extended periods.",
+      "sales_volume": {
+        "monthly": 678,
+        "total": 5421
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 1350,
+        "distribution": {
+          "5_star": 910,
+          "4_star": 315,
+          "3_star": 85,
+          "2_star": 25,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "00c93880",
+      "name": "Men's Soft Touch Crew Neck Long-Sleeve T-Shirt",
+      "price": 149.0,
+      "brand": "Uniqlo",
+      "color": "Black",
+      "size": "XXL",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 100
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 2850,
+        "total": 18200
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 1005,
+          "4_star": 200,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "84475a89",
+      "name": "Li-Ning Men's Breathe-Easy Training Top",
+      "price": 229.0,
+      "brand": "Li-Ning",
+      "color": "Orange",
+      "size": "XXL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 9240
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 920,
+          "4_star": 180,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Beijing",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products named 'Men's Classic 574 Core Sneakers' from the brand New Balance for Men, with more than 350 4-star reviews and less than 20 2-star reviews.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "New Balance"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 360
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 15
+        },
+        {
+          "field": "name",
+          "value": "Men's Classic 574 Core Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 3, the color is Black, and the name contains 'Hiking Shoes'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "color",
+          "value": "Black"
+        },
+        {
+          "field": "name",
+          "value": "Men's TerraFlex Hiking Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with more than 1300 total reviews, fewer than 100 3-star reviews, where the target demographic is Men and the name contains 'Canvas Sneakers'.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1350
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 85
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "name",
+          "value": "Men's AirSense Canvas Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total sales volume is more than 12000, transport time is less than 10 days, the average score is greater than 4.5, and the number of 3 star reviews is less than 50.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 12430
+        },
+        {
+          "field": "transport_time",
+          "value": 5
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Li-Ning, the name contains 'Training Top', the total number of reviews is greater than 1100, and it has fewer than 15 2-star reviews.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1150
+        },
+        {
+          "field": "brand",
+          "value": "Li-Ning"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10
+        },
+        {
+          "field": "name",
+          "value": "Li-Ning Men's Breathe-Easy Training Top"
+        }
+      ]
+    }
+  ]
+}

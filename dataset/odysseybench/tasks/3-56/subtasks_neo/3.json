@@ -1,0 +1,39 @@
+{
+    "task": "Add a new student named 'Lucas' to 'class_member.xlsx' and assign him to Class 2. Ensure the new entry is in the next available row of the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "Lucas"
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "value": "2"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add the details of a new student to the class member list.",
+    "ground_truth_memory": [
+        {
+            "fact": "The student to be added is named Lucas."
+        },
+        {
+            "fact": "Lucas should be assigned to Class 2."
+        },
+        {
+            "action_item": "The information should be entered in the next empty row of class_member.xlsx."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,46 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "read company revenues, extract years that revenues are higher than 4000000$, save in good.xlsx, generate reports report.pdf",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/good.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/report.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/good.xlsx",
+                "keywords": [
+                    "2004",
+                    "2014",
+                    "2015"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/report.pdf",
+                "keywords": [
+                    "revenues",
+                    "2004",
+                    "2014",
+                    "2015"
+                ]
+            }
+        }
+    ]
+}

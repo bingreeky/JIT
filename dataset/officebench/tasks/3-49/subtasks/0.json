@@ -1,0 +1,97 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "schedule a helping section, pair one student whose score is in section A/B and one student in section C, create calendar events for each of them using their names, email those students for notification",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Carol.ics",
+                "keywords": [
+                    "helping",
+                    "section"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Frank.ics",
+                "keywords": [
+                    "helping",
+                    "section"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Ivy.ics",
+                "keywords": [
+                    "helping",
+                    "section"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Leo.ics",
+                "keywords": [
+                    "helping",
+                    "section"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Carol",
+                "keywords": [
+                    "helping",
+                    "section"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Frank",
+                "keywords": [
+                    "helping",
+                    "section"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Ivy",
+                "keywords": [
+                    "helping",
+                    "section"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Leo",
+                "keywords": [
+                    "helping",
+                    "section"
+                ]
+            }
+        }
+    ]
+}

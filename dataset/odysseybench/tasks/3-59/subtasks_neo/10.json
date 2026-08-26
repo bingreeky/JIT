@@ -1,0 +1,70 @@
+{
+    "task": "Update the Excel file 'score.xlsx' by performing the following actions: 1) Add a new student entry for 'Olivia' with midterm1 score 85 and midterm2 score 91 as the last row, 2) Correct the midterm2 score for student 'Peter' in row 7 (originally 66) to the new score 78, and 3) Update the midterm1 score for 'Emma' in row 20 to 75. Ensure all provided information is accurately entered in the respective cells.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "Olivia"
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "value": "85"
+                    },
+                    {
+                        "row": 22,
+                        "col": 3,
+                        "value": "91"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 7,
+                        "col": 3,
+                        "value": "78"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 20,
+                        "col": 2,
+                        "value": "75"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the student scores in the score.xlsx file as needed and add any new required student entries.",
+    "ground_truth_memory": [
+        {
+            "memory": "Add a new row for Olivia as the last entry in score.xlsx with midterm1 score 85 and midterm2 score 91."
+        },
+        {
+            "memory": "Update Peter's midterm2 score in row 7 (score.xlsx) to 78."
+        },
+        {
+            "memory": "Change Emma's midterm1 score in row 20 (score.xlsx) to 75."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

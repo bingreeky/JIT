@@ -1,0 +1,65 @@
+{
+    "task": "Create an Excel file named personal_schedule.xlsx. In this file, add a sheet for Bob's weekly personal routine, including time slots for breakfast, gym, and work from Monday to Friday. Then, summarize the main activities in a Word document named schedule_summary.docx, ensuring that the summary highlights at least: exercise (gym), professional work, and daily breakfast time. Both files must be generated according to these specifications.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/personal_schedule.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/schedule_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/personal_schedule.xlsx",
+                "keywords": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "breakfast",
+                    "gym",
+                    "work"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/schedule_summary.docx",
+                "keywords": [
+                    "exercise",
+                    "professional",
+                    "breakfast"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare a weekly schedule for Bob in an Excel file and then summarize the key activities in a Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Excel file to create is called personal_schedule.xlsx, and it should contain a sheet with Bob's weekly routine from Monday to Friday."
+        },
+        {
+            "fact": "The routine must specify time slots for breakfast, gym, and work for each weekday."
+        },
+        {
+            "fact": "The Word file to create is named schedule_summary.docx."
+        },
+        {
+            "fact": "The summary in schedule_summary.docx must discuss exercise (gym), professional work, and daily breakfast as key routines."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

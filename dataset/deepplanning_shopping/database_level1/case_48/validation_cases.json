@@ -1,0 +1,417 @@
+{
+  "query": "I'm doing a major wardrobe upgrade and need to find several specific items. First, I'm looking for a popular Gucci Silk Blouse in size M; it has to have a monthly sales volume of more than 40, and since I need it soon, the transport time must be less than 2. To go with that, I want another highly-rated item from Gucci with more than 400 five-star reviews, fewer than 10 three-star reviews, less than one two-star review, and also a transport time of less than 2 days. Next, I'm searching for two pieces from Levi's. One must have excellent ratings, with more than 700 five-star ratings and less than 10 two-star ratings. The other Levi's item needs to be Camel colored and have fewer than 5 one-star reviews. Finally, for the colder months, I'm looking for a Wool Turtleneck for Winter in size M, and it must have less than one two-star review.",
+  "ground_truth_products": [
+    {
+      "product_id": "e88c4ef8",
+      "name": "Gucci Women's Monogram Silk Blouse",
+      "price": 8500.0,
+      "brand": "Gucci",
+      "color": "Beige",
+      "size": "M",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Silk",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Button-down, Patchwork",
+      "washing_instructions": "Dry clean only. Do not bleach. Cool iron on reverse.",
+      "sales_volume": {
+        "monthly": 45,
+        "total": 530
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 150,
+        "distribution": {
+          "5_star": 125,
+          "4_star": 20,
+          "3_star": 3,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "cd286f9a",
+      "name": "Women's Vintage Ribbed Tank Top",
+      "price": 229.0,
+      "brand": "Levi's",
+      "color": "Coffee",
+      "size": "M",
+      "stock_quantity": 482,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Vintage Wash, Printing",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 815,
+        "total": 5230
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1105,
+        "distribution": {
+          "5_star": 910,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ac13efa6",
+      "name": "Women's Utility Corduroy Jumpsuit",
+      "price": 649.5,
+      "brand": "Levi's",
+      "color": "Camel",
+      "size": "M",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Button-down, Side Pockets, Vintage Wash, Patchwork",
+      "washing_instructions": "Machine wash cold inside out with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1840
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 178,
+        "distribution": {
+          "5_star": 110,
+          "4_star": 45,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "559a83f4",
+      "name": "Women's Luxury Wool-Silk Turtleneck Top",
+      "price": 9800.0,
+      "brand": "Gucci",
+      "color": "Burgundy",
+      "size": "M",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 85
+        },
+        {
+          "material": "Silk",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Dry clean recommended. Hand wash cold separately. Do not bleach. Lay flat to dry.",
+      "sales_volume": {
+        "monthly": 120,
+        "total": 1550
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 410,
+          "4_star": 35,
+          "3_star": 5,
+          "2_star": 0,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ef70378e",
+      "name": "Women's Luxe Wool Turtleneck Top",
+      "price": 9500.0,
+      "brand": "Gucci",
+      "color": "Olive Green",
+      "size": "M",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 85
+        },
+        {
+          "material": "Nylon",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Dry clean only. Do not bleach. Lay flat to dry.",
+      "sales_volume": {
+        "monthly": 38,
+        "total": 192
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 68,
+        "distribution": {
+          "5_star": 62,
+          "4_star": 5,
+          "3_star": 1,
+          "2_star": 0,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Stylish design",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the monthly sales volume is more than 40, the size is M, the brand is Gucci, the transport time is less than 2, and the name contains 'Silk Blouse'.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 42,
+          "operator": "greater_than",
+          "operator_value": 40.0
+        },
+        {
+          "field": "size",
+          "value": "M",
+          "operator": "equals",
+          "operator_value": "M"
+        },
+        {
+          "field": "brand",
+          "value": "Gucci",
+          "operator": "equals",
+          "operator_value": "Gucci"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Interlocking G Silk Blouse",
+          "operator": "contains",
+          "operator_value": "Silk Blouse"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 5-star ratings is more than 700, the brand is Levi's, and the number of 2-star ratings is less than 10.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 701,
+          "operator": "greater_than",
+          "operator_value": 700.0
+        },
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Levi's, the color is Camel, and the number of 1-star reviews is less than 5.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        },
+        {
+          "field": "color",
+          "value": "Camel",
+          "operator": "equals",
+          "operator_value": "Camel"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Gucci, the number of 5-star reviews is greater than 400, the number of 2-star reviews is less than 1, the transport time is less than 2 days, and the number of 3-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 410,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 0,
+          "operator": "less_than",
+          "operator_value": 1.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "brand",
+          "value": "Gucci",
+          "operator": "equals",
+          "operator_value": "Gucci"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is M, the number of 2-star reviews is less than 1, the suitable season is Winter, and the name contains 'Wool Turtleneck'.",
+      "features": [
+        {
+          "field": "size",
+          "value": "M",
+          "operator": "equals",
+          "operator_value": "M"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 0,
+          "operator": "less_than",
+          "operator_value": 1.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "name",
+          "value": "Women's Luxe Wool Turtleneck Top",
+          "operator": "contains",
+          "operator_value": "Wool Turtleneck"
+        }
+      ]
+    }
+  ]
+}

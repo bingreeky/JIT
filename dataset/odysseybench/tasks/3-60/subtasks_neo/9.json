@@ -1,0 +1,68 @@
+{
+    "task": "1. Summarize the distribution of academic standings (Freshman, Sophomore, Junior, Senior) for the CS161 class and write this summary in a new document named Academic_Standing_Summary.docx in the /testbed/data folder. 2. Identify the student(s) with the highest score on HW1 and list their names and student IDs in the same document under a separate heading. 3. At the end of the document, add a note specifying that the summary was created on 2020-05-01, as per Bob's request.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Academic_Standing_Summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/Academic_Standing_Summary.docx",
+                "keywords": [
+                    "Freshman",
+                    "Sophomore",
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/Academic_Standing_Summary.docx",
+                "keywords": [
+                    "HW1",
+                    "highest",
+                    "score"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/Academic_Standing_Summary.docx",
+                "keywords": [
+                    "2020",
+                    "05",
+                    "01",
+                    "Bob"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Produce a document summarizing student academic standings and HW1 top scorer information for CS161 using the class roster, and include any important notes required.",
+    "ground_truth_memory": [
+        {
+            "item": "The summary document file name is Academic_Standing_Summary.docx and must be saved in the /testbed/data folder."
+        },
+        {
+            "item": "The summary must include a breakdown of the number of students in each academic standing: Freshman, Sophomore, Junior, and Senior."
+        },
+        {
+            "item": "List the name and student ID of the student(s) with the highest HW1 score under a section about top HW1 scorers."
+        },
+        {
+            "item": "At the end of the document, add a note that the summary was created on 2020-05-01, as per Bob's request."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

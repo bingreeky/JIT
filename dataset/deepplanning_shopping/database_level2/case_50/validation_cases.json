@@ -1,0 +1,448 @@
+{
+  "query": "I'm upgrading my workout gear and need to order everything to arrive quickly. First, I’m looking for a pair of Men's React Phantom Running Shoes from Nike with more than 1100 total reviews, fewer than 10 one-star reviews, and a transport time under 2 days. To go with them, I need a specific item with 'Compression Mock' in the name that has over 850 five-star reviews, less than 10 one-star reviews, and can also be delivered in under 2 days. I also need to find a popular white item with more than 250 five-star ratings and a monthly sales volume over 100. Next, I need something in camel with more than 5 three-star reviews that also ships in less than 2 days. I am also looking for an olive green product with fewer than 10 one-star reviews and a transport time of less than 5 days. Finally, I need one last item with a stock quantity over 20, an average rating score above 4.5, fewer than 5 three-star reviews, and a transport time of less than 2 days. Please help me find options that fall within a budget of 18875 to 19997.",
+  "ground_truth_products": [
+    {
+      "product_id": "7ff0147e",
+      "name": "Men's ColdGear® Armour Compression Mock",
+      "price": 449.0,
+      "brand": "Under Armour",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 87
+        },
+        {
+          "material": "Spandex",
+          "percentage": 13
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Reflective Strips, Patchwork",
+      "washing_instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 1580,
+        "total": 9250
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1054,
+        "distribution": {
+          "5_star": 885,
+          "4_star": 120,
+          "3_star": 35,
+          "2_star": 9,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Comfortable fabric",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f3909800",
+      "name": "Men's Classic Gabardine Trousers",
+      "price": 7500.0,
+      "brand": "Gucci",
+      "color": "White",
+      "size": "L",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Button-down, Patchwork",
+      "washing_instructions": "Dry clean recommended. Or hand wash cold. Lay flat to dry. Do not use bleach.",
+      "sales_volume": {
+        "monthly": 120,
+        "total": 1550
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 290,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "85226e0b",
+      "name": "Men's Trailblazer Hiking Shoes",
+      "price": 1299.9,
+      "brand": "Patagonia",
+      "color": "Camel",
+      "size": "43",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 92,
+        "total": 1578
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 48,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2e4c82ec",
+      "name": "Men's Heritage Canvas Sneakers",
+      "price": 429.0,
+      "brand": "Peacebird",
+      "color": "Olive Green",
+      "size": "43",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Vintage Wash, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a damp cloth. Air dry. Do not machine wash or expose to direct sunlight for extended periods.",
+      "sales_volume": {
+        "monthly": 412,
+        "total": 3580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 720,
+          "4_star": 110,
+          "3_star": 45,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "20752cdf",
+      "name": "Men's React Phantom Running Shoes",
+      "price": 999.0,
+      "brand": "Nike",
+      "color": "Orange",
+      "size": "43",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe with a damp cloth. Air dry. Do not machine wash or expose to direct heat.",
+      "sales_volume": {
+        "monthly": 480,
+        "total": 5120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 155,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3de0bd03",
+      "name": "Men's Tailored Wool Gabardine Trousers",
+      "price": 8200.0,
+      "brand": "Gucci",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Embroidery",
+      "washing_instructions": "Professional dry clean only. Do not bleach. Cool iron if necessary.",
+      "sales_volume": {
+        "monthly": 18,
+        "total": 250
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 62,
+        "distribution": {
+          "5_star": 58,
+          "4_star": 4,
+          "3_star": 0,
+          "2_star": 0,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, there are more than 850 5-star reviews, fewer than 10 1-star reviews, and the name contains 'Compression Mock'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 885
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        },
+        {
+          "field": "name",
+          "value": "Men's ColdGear® Armour Compression Mock"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is White, there are more than 250 5-star ratings, and the monthly sales volume is more than 100.",
+      "features": [
+        {
+          "field": "color",
+          "value": "White"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 290
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 120
+        }
+      ]
+    },
+    {
+      "sub_query": "I am looking for products where the color is Camel, the number of 3-star reviews is greater than 5, and the transport time is less than 2 days.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Camel"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 1-star reviews is less than 10, the color is Olive Green, and the transport time is less than 5.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 7
+        },
+        {
+          "field": "color",
+          "value": "Olive Green"
+        },
+        {
+          "field": "transport_time",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Nike, the name is 'Men's React Phantom Running Shoes', the transport time is less than 2 days, there are more than 1100 total reviews, and the number of 1-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1150
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        },
+        {
+          "field": "brand",
+          "value": "Nike"
+        },
+        {
+          "field": "name",
+          "value": "Men's React Phantom Running Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with an average rating score greater than 4.5, a stock quantity of more than 20, fewer than 5 3-star reviews, and a transport time of less than 2.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "stock_quantity",
+          "value": 25
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 2
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

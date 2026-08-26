@@ -1,0 +1,19 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "if Dean's list requires term average gpa to be higher than 3.9, how many terms can this students be awarded on Dean's list? Email to student about this result",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Teddy",
+                "keywords": [
+                    "11"
+                ]
+            }
+        }
+    ]
+}

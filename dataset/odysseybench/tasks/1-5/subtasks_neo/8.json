@@ -1,0 +1,46 @@
+{
+    "task": "Add a new row called 'total compensation' to the last row of the salary.xlsx file, and calculate the total compensation by summing up all amounts listed (base, stock, and bonus).",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "total compensation"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "400000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add the total compensation to the last row of the salary file by summing all the existing amounts.",
+    "ground_truth_memory": [
+        {
+            "content": "A new row with the label 'total compensation' should be added to the last row of salary.xlsx.",
+            "type": "action_item"
+        },
+        {
+            "content": "The value for 'total compensation' must be the sum of the amount column: base, stock, and bonus.",
+            "type": "instruction"
+        },
+        {
+            "content": "Write 'total compensation' in the first column and the calculated sum in the second column of the new row.",
+            "type": "action_item"
+        },
+        {
+            "content": "salary.xlsx is the relevant file for this task, and all updates should be made to this file.",
+            "type": "fact"
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

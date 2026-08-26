@@ -1,0 +1,292 @@
+{
+  "query": "I'm putting together my winter wardrobe and need to pick up a few essentials. First, I'm looking for a product from Zara in size 42 for men, and it must have \"Winter Boots\" in the product name. Quality is important, so it needs to have fewer than 5 one-star reviews. Next, I need to get the Men's Urban Utility Cargo Pants specifically, and I'm checking reviews carefully—it should have exactly 850 total reviews with 150 of those being 4-star ratings. Then, I also need something in size M that's really popular, with monthly sales exceeding 1000 units. Finally, I'm searching for a men's item in size XL, and I want to see some honest feedback, so it should have more than 3 two-star reviews to help me understand any potential issues.",
+  "ground_truth_products": [
+    {
+      "product_id": "95df8fda",
+      "name": "Men's Rugged Leather Winter Boots",
+      "price": 290,
+      "brand": "Zara",
+      "color": "Dark Green",
+      "size": "42",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Wool",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Distressed, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Use leather conditioner.",
+      "sales_volume": {
+        "monthly": 210,
+        "total": 1850
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 550,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 80,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "44e117d6",
+      "name": "Men's Urban Utility Cargo Pants",
+      "price": 249.0,
+      "brand": "Converse",
+      "color": "Burgundy",
+      "size": "M",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Vintage Wash, Zipper Closure",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3200
+      },
+      "rating": {
+        "average_score": 4.67,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 150,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "0798bc30",
+      "name": "Men's Cool-Dry Performance Bottoms",
+      "price": 282.0,
+      "brand": "Anta",
+      "color": "Silver",
+      "size": "M",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Reflective Strips, Printing",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 4800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 700,
+          "4_star": 150,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "STO Express"
+      }
+    },
+    {
+      "product_id": "7950bb51",
+      "name": "Men's Gordon Lyons Full-Zip Fleece",
+      "price": 229.0,
+      "brand": "The North Face",
+      "color": "Olive Green",
+      "size": "XL",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 100
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Zipper Closure, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 750,
+        "total": 4820
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1350,
+        "distribution": {
+          "5_star": 1100,
+          "4_star": 200,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥30 off every ¥300": 1,
+    "Cross-store: ¥60 off every ¥500": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the size is 42, the brand is Zara, the target demographic is Men, 1-star reviews are less than 5, and the product name contains Winter Boots.",
+      "features": [
+        {
+          "field": "size",
+          "value": "42"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        },
+        {
+          "field": "brand",
+          "value": "Zara"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "name",
+          "value": "Men's Rugged Leather Winter Boots"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total reviews is 850, the 4-star rating distribution is 150, and the product name is Men's Urban Utility Cargo Pants.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 850
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 150
+        },
+        {
+          "field": "name",
+          "value": "Men's Urban Utility Cargo Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is M and monthly sales volume is more than 1000.",
+      "features": [
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1200
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Men, the 2-star rating count is more than 3, and the size is XL.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        },
+        {
+          "field": "size",
+          "value": "XL"
+        }
+      ]
+    }
+  ]
+}

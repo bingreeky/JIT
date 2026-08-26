@@ -1,0 +1,385 @@
+{
+  "query": "I'm doing a big wardrobe update for the year and need a few specific pieces. First, I'm looking for a Navy Blue item from the brand Columbia that has an average score greater than 4.5. For the colder weather, I need a women's winter product in a size M and Yellow color, and it must have more than 65 five-star reviews. As for things I need quickly, I'm searching for a women's product from Levi's with an average rating score over 4.5 and a transport time of less than 2 days. For my summer plans, I'm looking for a Gucci item with less than one 1-star review and a transport time under 2 days. To go with that, I also need a brown women's summer item that can also be delivered in less than 2 days. Please help me find options that fall within a budget of 20170 to 20408.",
+  "ground_truth_products": [
+    {
+      "product_id": "73086099",
+      "name": "Women's Omni-Heat™ Long-Sleeve Base Layer Top",
+      "price": 489.0,
+      "brand": "Columbia",
+      "color": "Navy Blue",
+      "size": "M",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or use fabric softener.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 15430
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1750,
+          "4_star": 320,
+          "3_star": 60,
+          "2_star": 15,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "c9654be0",
+      "name": "Women's Canary Wool-Blend Trousers",
+      "price": 8599.9,
+      "brand": "Gucci",
+      "color": "Yellow",
+      "size": "M",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Embroidery",
+      "washing_instructions": "Dry clean only. Do not machine wash. Iron on low heat.",
+      "sales_volume": {
+        "monthly": 25,
+        "total": 310
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 85,
+        "distribution": {
+          "5_star": 70,
+          "4_star": 10,
+          "3_star": 3,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "22da8fba",
+      "name": "Women's Silver Sparkle Canvas Shoes",
+      "price": 549.9,
+      "brand": "Levi's",
+      "color": "Silver",
+      "size": "39",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash to preserve metallic finish. Air dry.",
+      "sales_volume": {
+        "monthly": 370,
+        "total": 1988
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 310,
+          "4_star": 75,
+          "3_star": 15,
+          "2_star": 8,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Great color",
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2df179b9",
+      "name": "Gucci Women's Linen-Blend Summer Jumpsuit",
+      "price": 9880.0,
+      "brand": "Gucci",
+      "color": "Beige",
+      "size": "M",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 60
+        },
+        {
+          "material": "Silk",
+          "percentage": 30
+        },
+        {
+          "material": "Cotton",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Embroidery",
+      "washing_instructions": "Dry clean only recommended. Do not bleach. Iron on low heat.",
+      "sales_volume": {
+        "monthly": 85,
+        "total": 970
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 124,
+        "distribution": {
+          "5_star": 105,
+          "4_star": 15,
+          "3_star": 3,
+          "2_star": 1,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b5a707ae",
+      "name": "Women's Summer Breeze Leather Sandals",
+      "price": 689.9,
+      "brand": "Timberland",
+      "color": "Brown",
+      "size": "39",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Vintage Wash, Side Pockets",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 4180
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 355,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 61,
+          "3_star": 10,
+          "2_star": 2,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the average score is greater than 4.5, the brand is Columbia, and the color is Navy Blue.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "brand",
+          "value": "Columbia"
+        },
+        {
+          "field": "color",
+          "value": "Navy Blue"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Yellow, the target demographic is Women, the suitable season is Winter, the number of 5-star reviews is greater than 65, and the size is M.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Yellow"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 70
+        },
+        {
+          "field": "size",
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Levi's, the target demographic is Women, the average rating score is greater than 4.5, and the transport time is less than 2 days.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Levi's"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Gucci, the suitable season is Summer, the number of 1-star reviews is less than 1, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Gucci"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 0
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, the color is Brown, the suitable season is Summer, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "color",
+          "value": "Brown"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

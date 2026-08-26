@@ -1,0 +1,235 @@
+{
+  "query": "I have a last-minute trip this weekend and need to order some things that will arrive quickly. First, I'm looking for a women's product that can be delivered in less than 2 days and has been well-reviewed, with more than 1300 total reviews. Next, I'm searching for a very specific item from Vans: a Light Grey 'Classic Logo Tee'. Since I'm particular about quality, it must have more than 1200 total reviews, with fewer than 10 one-star and fewer than 15 two-star reviews. Lastly, I need to find one more item in a size L. This also needs a transport time of less than 2, and to make sure it's a good choice, it should have over 600 total reviews, with more than 100 of those being four-star reviews. I'd like to keep my total spending between 1730 and 2731. Please help me find the products that meet my requirements.",
+  "ground_truth_products": [
+    {
+      "product_id": "e4805a1a",
+      "name": "Women's Tech Twist Half-Zip Top",
+      "price": 429.0,
+      "brand": "Under Armour",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use softeners or bleach.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 978,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 150,
+          "3_star": 55,
+          "2_star": 15,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "482ed313",
+      "name": "Women's 'Off The Wall' Classic Logo Tee",
+      "price": 259.0,
+      "brand": "Vans",
+      "color": "Light Grey",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1350,
+        "total": 18240
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1256,
+        "distribution": {
+          "5_star": 1011,
+          "4_star": 185,
+          "3_star": 42,
+          "2_star": 10,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "65dd3eb7",
+      "name": "Women's OUTpulse Hiking Shoes",
+      "price": 1099.0,
+      "brand": "Salomon",
+      "color": "Grey",
+      "size": "42",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 65
+        },
+        {
+          "material": "Nylon",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips,Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 480,
+        "total": 5230
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1450,
+        "distribution": {
+          "5_star": 1210,
+          "4_star": 185,
+          "3_star": 40,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Comfortable fabric",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the number of 4-star reviews is more than 100, the transport time is less than 2, the size is L, and there are over 600 total reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 105
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 620
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Vans, the color is Light Grey, the name contains 'Classic Logo Tee', that have more than 1200 total reviews, fewer than 10 1-star reviews, and fewer than 15 2-star reviews.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1256
+        },
+        {
+          "field": "brand",
+          "value": "Vans"
+        },
+        {
+          "field": "color",
+          "value": "Light Grey"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 8
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10
+        },
+        {
+          "field": "name",
+          "value": "Women's 'Off The Wall' Classic Logo Tee"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total number of reviews is more than 1300, the target demographic is Women, and the transport time is less than 2 days.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1320
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

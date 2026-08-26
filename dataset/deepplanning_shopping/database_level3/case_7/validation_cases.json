@@ -1,0 +1,229 @@
+{
+  "query": "I'm planning a complete outfit upgrade and need to order a few specific items online. First, I'm looking for a product with \"Trail Performance Long-Sleeve\" in its name that has an average rating above 4.5 and a stock quantity over 100 to ensure availability. Next, I need something that's clearly popular and well-reviewed, with more than 100 five-star reviews, over 140 total reviews, more than 20 four-star reviews, and fewer than 5 three-star reviews to show consistent quality. Finally, I'm searching for a women's item in size XL that has \"Ruffle\" in the product name and more than 5 three-star reviews in its rating distribution, as I want something with a decent amount of feedback to gauge fit and style accurately.",
+  "ground_truth_products": [
+    {
+      "product_id": "c8f71982",
+      "name": "Women's All-Season Trail Performance Long-Sleeve Top",
+      "price": 383.0,
+      "brand": "Salomon",
+      "color": "Pink",
+      "size": "XL",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 85,
+        "total": 720
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 172,
+          "4_star": 32,
+          "3_star": 6,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "c2f2ddda",
+      "name": "Women's Omni-Tech All-Season Waterproof Shell Jacket",
+      "price": 441.0,
+      "brand": "Columbia",
+      "color": "Blue",
+      "size": "XL",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 85,
+        "total": 1240
+      },
+      "rating": {
+        "average_score": 4.75,
+        "total_reviews": 149,
+        "distribution": {
+          "5_star": 120,
+          "4_star": 24,
+          "3_star": 3,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b2119182",
+      "name": "Women's Summer Ruffle Sleeve Blouse",
+      "price": 231.0,
+      "brand": "Peacebird",
+      "color": "Wine Red",
+      "size": "XL",
+      "stock_quantity": 88,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Patchwork",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Hang to dry.",
+      "sales_volume": {
+        "monthly": 257,
+        "total": 1134
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 221,
+        "distribution": {
+          "5_star": 190,
+          "4_star": 20,
+          "3_star": 7,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "VIP: ¥200 off every ¥1,000": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the rating average score is greater than 4.5, stock quantity is greater than 100, and the name contains Trail Performance Long-Sleeve.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "stock_quantity",
+          "value": 125
+        },
+        {
+          "field": "name",
+          "value": "Women's All-Season Trail Performance Long-Sleeve Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the 5-star reviews are more than 100, 3-star reviews are less than 5, total reviews are more than 140, and 4-star reviews are more than 20.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 120
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 3
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 149
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is XL, the target demographic is Women, the 3-star rating distribution is more than 5, and the product name contains 'Ruffle'.",
+      "features": [
+        {
+          "field": "size",
+          "value": "XL"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 7
+        },
+        {
+          "field": "name",
+          "value": "Women's Summer Ruffle Sleeve Blouse"
+        }
+      ]
+    }
+  ]
+}

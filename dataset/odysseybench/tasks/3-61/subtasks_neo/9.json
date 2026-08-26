@@ -1,0 +1,64 @@
+{
+    "task": "Read Thomas Robinson's course history from Thomas_Robinson_Course_List.xlsx. Summarize his academic progress, including notable strengths and subjects for improvement, in a new Word document named 'Thomas_Progress_Summary.docx'. Based on his completed courses, recommend four suitable courses for him to take in Spring 2023, ensuring they align with his strengths and suggest improvement in weaker areas. Add these recommendations to the end of the summary document. Then, draft and send an email to Thomas Robinson summarizing his academic performance and listing the recommended courses. The email subject should be 'Summary and Recommendations for Spring 2023'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Thomas_Progress_Summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "word",
+                "file": "data/Thomas_Progress_Summary.docx",
+                "keywords": [
+                    "academic progress",
+                    "strength",
+                    "improvement",
+                    "recommended",
+                    "Spring 2023"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Thomas Robinson",
+                "keywords": [
+                    "academic",
+                    "recommended",
+                    "Spring 2023"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Thomas Robinson",
+                "subject": "Summary and Recommendations for Spring 2023"
+            }
+        }
+    ],
+    "query_sentence": "Summarize Thomas Robinson's academic progress, make course recommendations for Spring 2023, and communicate these in a Word document and via email.",
+    "ground_truth_memory": [
+        {
+            "fact": "Final output summary should be written to a new file named 'Thomas_Progress_Summary.docx'."
+        },
+        {
+            "fact": "Word document should summarize Thomas Robinson's academic strengths and suggest areas for improvement, based on his grades in the Excel file."
+        },
+        {
+            "fact": "Four course recommendations for Spring 2023 should be included in the Word document, taking into account his strengths and improvement areas."
+        },
+        {
+            "fact": "The email should be sent to Thomas Robinson with the subject line 'Summary and Recommendations for Spring 2023', containing a summary of academic progress and the list of recommended courses."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,33 @@
+{
+    "task": "Create a summary document (summary.docx) that lists the names of all invoices found in the /testbed/data directory. The summary should state that two invoices, Invoice.pdf and Invoice_2.pdf, are present and are pending processing. Save the summary as summary.docx.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Invoice.pdf",
+                    "Invoice_2.pdf",
+                    "pending processing"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare a report listing the invoices available in the /testbed/data directory and mention their current status.",
+    "ground_truth_memory": [
+        {
+            "fact": "There are two invoice files (Invoice.pdf and Invoice_2.pdf) in the /testbed/data directory."
+        },
+        {
+            "action_item": "The summary document should be named summary.docx."
+        },
+        {
+            "action_item": "The summary must state that Invoice.pdf and Invoice_2.pdf are present and are pending processing."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

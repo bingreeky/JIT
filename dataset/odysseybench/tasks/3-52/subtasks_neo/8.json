@@ -1,0 +1,39 @@
+{
+    "task": "Summarize the key topics, speakers, and timings from the Excel file '/testbed/data/meeting_agenda_2.xlsx' and generate a concise meeting summary in a new Word document named 'meeting_summary.docx'. The summary should include the title, speaker, and scheduled time for each agenda item. Ensure the document covers all sessions as outlined in the Excel file.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "meeting_summary.docx",
+                "keywords": [
+                    "Introductions",
+                    "Linda",
+                    "1pm",
+                    "Agenda",
+                    "Davide",
+                    "2",
+                    "Strategy",
+                    "Charlie",
+                    "3"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the meeting details from the agenda Excel into a Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The meeting agenda file to summarize is '/testbed/data/meeting_agenda_2.xlsx'."
+        },
+        {
+            "action_item": "The Word summary should be saved as 'meeting_summary.docx'."
+        },
+        {
+            "action_item": "Include in the summary each agenda item's title, the speaker/contact, and the scheduled start time as listed in the Excel file."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,467 @@
+{
+  "query": "I'm doing a big wardrobe refresh and need to order several pieces. First, I have to get the Men's Classic Pima Cotton Polo Shirt from Ralph Lauren in Green. Since I need it fast, the transport time must be less than 2, and I want a popular one with more than 1800 total reviews. Next, I'm looking for a 'Men's Vintage Crew Neck Sweatshirt' in a Wine Red color and size L. For this one, I want a high average score of over 4.5 and fewer than 10 two-star reviews. I also need a popular men's item from The North Face with a monthly sales volume of more than 100. For the warmer weather, I'm searching for a summer product from Uniqlo that's extremely well-liked, with over 32000 total reviews and under 60 one-star reviews. From Uniqlo as well, I need another very popular men's item in size L that has a monthly sales volume over 1500 and fewer than 15 one-star reviews. Lastly, I'm looking for some pants from Patagonia with 'Traverse Pants' in the name, specifically in size L, a Gold color, and with more than 5 three-star reviews. Find me some products where the total price is no less than 3953 and no more than 3985.",
+  "ground_truth_products": [
+    {
+      "product_id": "e03803f8",
+      "name": "Men's Classic Pima Cotton Polo Shirt",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Green",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Button-down",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 12450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1890,
+        "distribution": {
+          "5_star": 1550,
+          "4_star": 280,
+          "3_star": 45,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "599924cd",
+      "name": "Men's Vintage Crew Neck Sweatshirt",
+      "price": 489.0,
+      "brand": "Levi's",
+      "color": "Wine Red",
+      "size": "L",
+      "stock_quantity": 152,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 358,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 55,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1fe63bb2",
+      "name": "Men's VECTIV™ Exploris Hiking Shoes",
+      "price": 1298.5,
+      "brand": "The North Face",
+      "color": "Olive Green",
+      "size": "43",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Ribbed Cuffs, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 452,
+        "total": 7855
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1230,
+        "distribution": {
+          "5_star": 850,
+          "4_star": 310,
+          "3_star": 50,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6a9b483d",
+      "name": "Men's AIRism Crew Neck Short-Sleeve T-Shirt",
+      "price": 99.0,
+      "brand": "Uniqlo",
+      "color": "Blue",
+      "size": "L",
+      "stock_quantity": 2150,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Printing",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Cool iron.",
+      "sales_volume": {
+        "monthly": 8500,
+        "total": 150230
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 32150,
+        "distribution": {
+          "5_star": 29850,
+          "4_star": 1800,
+          "3_star": 350,
+          "2_star": 100,
+          "1_star": 50
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e4f3de42",
+      "name": "Men's Heattech Fleece Turtleneck Long-Sleeve T-Shirt",
+      "price": 249.0,
+      "brand": "Uniqlo",
+      "color": "Blue",
+      "size": "L",
+      "stock_quantity": 875,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 65
+        },
+        {
+          "material": "Acrylic",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 4210,
+        "total": 31580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2541,
+        "distribution": {
+          "5_star": 2105,
+          "4_star": 350,
+          "3_star": 65,
+          "2_star": 11,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "44d5c5a7",
+      "name": "Men's All-Weather Traverse Pants",
+      "price": 949.5,
+      "brand": "Patagonia",
+      "color": "Gold",
+      "size": "L",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1845
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 312,
+        "distribution": {
+          "5_star": 260,
+          "4_star": 40,
+          "3_star": 8,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2, the brand is Ralph Lauren, the color is Green, total reviews is more than 1800, and the name is Men's Classic Pima Cotton Polo Shirt.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        },
+        {
+          "field": "color",
+          "value": "Green"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1890
+        },
+        {
+          "field": "name",
+          "value": "Men's Classic Pima Cotton Polo Shirt"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is L, the average score is greater than 4.5, the number of 2-star reviews is less than 10, the color is Wine Red, and the name is 'Men's Vintage Crew Neck Sweatshirt'.",
+      "features": [
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        },
+        {
+          "field": "color",
+          "value": "Wine Red"
+        },
+        {
+          "field": "name",
+          "value": "Men's Vintage Crew Neck Sweatshirt"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is The North Face, the target demographic is Men, and the monthly sales volume is more than 100.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "The North Face"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 120
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total number of reviews is more than 32000, the suitable season is Summer, the number of 1-star reviews is less than 60, and the brand is Uniqlo.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 32150
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 50
+        },
+        {
+          "field": "brand",
+          "value": "Uniqlo"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Uniqlo, the size is L, the target demographic is Men, the monthly sales volume is more than 1500, and the number of 1-star reviews is less than 15.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 10
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1580
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "brand",
+          "value": "Uniqlo"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Patagonia, there are more than 5 three-star reviews, the color is Gold, the size is L, and the name contains 'Traverse Pants'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Patagonia"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 8
+        },
+        {
+          "field": "color",
+          "value": "Gold"
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "name",
+          "value": "Men's All-Weather Traverse Pants"
+        }
+      ]
+    }
+  ]
+}

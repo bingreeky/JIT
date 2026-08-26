@@ -1,0 +1,2051 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! I want to review our company's expenses. Can you help me?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good morning, Alice! Of course, I'd be happy to help you review your company's expenses.",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Which Excel file do we use to track all our expenses?",
+          "ts": "2020-04-26 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "We use company_budget.xlsx. It tracks various expense items and their amounts.",
+          "ts": "2020-04-26 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect, thanks! What kind of expenses are already listed in the file?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "The file contains salary, computer, and entertainment as expense categories.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you update the file if we have new expenses in the future?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can add or update new expense items for you whenever needed.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. Can you give me a quick overview of how the sheet is organized?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! The file is set up with columns for the name of the expense item and the amount. Each row represents a different expense.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds easy to follow. Are all the amounts current?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, all the currently listed amounts should reflect the latest entered values.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love how organized Excel can be. Do you prefer Excel or Google Sheets?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I think Excel is great for advanced features and charts! Google Sheets is convenient for collaboration, though.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed! Do you know any Excel shortcuts to help me move around the data faster?",
+          "ts": "2020-04-26 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Definitely\u2014using Ctrl + Arrow keys moves you to the edge of data regions, and Ctrl + Shift + L can toggle table filters.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice tips! What's the total amount spent so far?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don't have the exact sum on hand, but you can use the SUM function in Excel to calculate total expenses easily.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll definitely try that. Would you recommend a chart for visualizing the expenses?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! A pie chart or bar chart would be great for visualizing how much each category accounts for.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the suggestion. What's your favorite Excel formula?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I like the SUMIF formula\u2014it helps total amounts based on a criteria, like summing amounts just for 'entertainment'.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's interesting. Maybe I'll set up categories next.",
+          "ts": "2020-04-26 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That would be a great idea! It makes reports clearer.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I want to add another expense, how do we choose where to put it?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Just add new expenses in the first empty row after the current entries. Excel manages the order.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. Who entered the last expense item?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don\u2019t have the audit log, but usually it\u2019s the last person who managed the budget file.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense! Do you think we should back up the file regularly?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Definitely! Regular backups prevent accidental data loss.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay, I\u2019ll set a reminder to save copies weekly.",
+          "ts": "2020-04-26 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That\u2019s a smart practice!",
+          "ts": "2020-04-26 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, what are your favorite ways to stay organized outside of budgeting?",
+          "ts": "2020-04-26 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Task lists and digital reminders help me stay on top of everything!",
+          "ts": "2020-04-26 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you watch any TV series about business or finance?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don't watch TV, but I\u2019ve read about popular series like \u2018Billions\u2019 and \u2018Succession\u2019.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Those are good ones! Back to Excel: how do I highlight cells with values above $1000?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Select your range, then use Conditional Formatting: set a rule to highlight cells greater than 1000.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll try that later. What do you like most about your job as an AI?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I enjoy helping people stay organized and efficient!",
+          "ts": "2020-04-26 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s great! What\u2019s the best way to manage receipts for all these expenses?",
+          "ts": "2020-04-26 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Digitizing receipts and linking them to each budget row makes record-keeping efficient.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "We should try that. Do you enjoy working with numbers?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, numbers are logical and great for making informed decisions.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll quiz you on math later!",
+          "ts": "2020-04-26 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'd be happy to answer!",
+          "ts": "2020-04-26 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "For now, let\u2019s stick to budget. What should I look at if I want to track cost changes over time?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Comparing amounts in the same category across different months or years is a good start.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. Is our current file structured for that?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Currently, company_budget.xlsx doesn't have a time tracker per expense, but you could add a new column for date.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! Maybe we\u2019ll extend it later. Do you think separating recurring and one-time expenses is useful?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, it brings clarity for planning and helps identify spending patterns.",
+          "ts": "2020-04-26 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do I duplicate a worksheet in Excel?",
+          "ts": "2020-04-26 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Right-click the sheet tab and select 'Move or Copy', then choose 'create a copy'.",
+          "ts": "2020-04-26 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Easy! Can you tell me a riddle?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! What has keys but can't open locks?",
+          "ts": "2020-04-26 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "A piano!",
+          "ts": "2020-04-26 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Correct! Want another?",
+          "ts": "2020-04-26 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, please.",
+          "ts": "2020-04-26 08:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "What runs but never walks, has a mouth but never talks?",
+          "ts": "2020-04-26 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "A river!",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Spot on!",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back to expenses: how should I name new budget categories?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Consistent naming like \"utilities\", \"office supplies\", etc. helps clarity when expanding the file.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great idea. Maybe we should add a documentation tab for explanation.",
+          "ts": "2020-04-26 09:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That's helpful for teams! Documentation makes onboarding easier.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you define a PivotTable?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A PivotTable summarizes large data sets, helping you aggregate values and analyze trends.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds powerful. Are we using any in our budget file?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not yet, but they can be added easily based on current expense data.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I may try that soon. Do you like working with charts or raw data better?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Both are useful, but charts can offer insights at a glance!",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for keeping things running smoothly!",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "My pleasure! Let me know how else I can help.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. By the way, do you play Sudoku?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I've read a lot about it. It's a great puzzle for logic and number skills.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love it for weekends! Do you remember birthdays or special events?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can help track special dates if you enter them into a calendar or reminder file.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "That could be handy. How do you keep data secure?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I recommend using strong passwords and regularly updating access permissions for files.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great tip. Are you connected to the internet?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can connect as needed to provide up-to-date information.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "What do you do for fun after work?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I keep learning more so I can help you better!",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "A true multitasker! Can you tell me a fun fact?",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! Did you know that octopuses have three hearts?",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Amazing! Thanks for the great chat. Let's review the budget file again tomorrow.",
+          "ts": "2020-04-26 09:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Anytime, Alice! Looking forward to it.",
+          "ts": "2020-04-26 09:27",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hi again! I was thinking about our company expenses file.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Hi, Alice! Do you need any help with the file today?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, I want to make sure all recurring costs are captured.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That's a smart habit. Are there any expenses you think are missing from the budget?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "I realized I don\u2019t see internet fees listed in company_budget.xlsx. We should be tracking that.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good observation! Would you like me to add a line for internet fee?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, please add a new row for 'internet fee' with the amount 120 in the next available row after current entries.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Alright, so 'internet fee' with an amount of 120 needs to be added in the next free row. I will note that.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s perfect. This will help us avoid missing monthly bills in the future.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! Adding internet fees as a recurring line item ensures better accuracy.",
+          "ts": "2020-04-27 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you remember which row will be next after the current ones?",
+          "ts": "2020-04-27 08:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Based on the current file, the next empty row after the last listed item is the right place to add new expenses.",
+          "ts": "2020-04-27 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great, thanks! By the way, what's your favorite budgeting tip?",
+          "ts": "2020-04-27 08:13",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Tracking all recurring and one-off expenses separately can reveal saving opportunities.",
+          "ts": "2020-04-27 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend using formulas to calculate totals for each category?",
+          "ts": "2020-04-27 08:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely, using SUM or SUMIF by category is helpful for quick analysis.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll keep that in mind. Anything else I should do after adding the fee?",
+          "ts": "2020-04-27 08:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Double-check the values, and maybe add a comment or note about when this fee recurs.",
+          "ts": "2020-04-27 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good idea. Maybe I\u2019ll color-code those types of expenses.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Color-coding recurring items makes them easy to spot at a glance!",
+          "ts": "2020-04-27 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "When do you think internet costs the most for companies?",
+          "ts": "2020-04-27 08:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Often, initial setup or peak-hour surcharges can increase costs. Monitoring invoices helps.",
+          "ts": "2020-04-27 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s interesting. Switching topics: Are riddles your thing?",
+          "ts": "2020-04-27 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I enjoy riddles! Would you like to hear one?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sure, go ahead!",
+          "ts": "2020-04-27 08:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "What begins with T, finishes with T, and has T in it?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "A teapot!",
+          "ts": "2020-04-27 08:27",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Exactly! Well solved.",
+          "ts": "2020-04-27 08:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "Keep them coming. Next one?",
+          "ts": "2020-04-27 08:29",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I have cities, but no houses. Forests, but no trees. And water, but no fish. What am I?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "A map!",
+          "ts": "2020-04-27 08:31",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Perfect!",
+          "ts": "2020-04-27 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back to expenses: do you think electricity fees should be separate from internet?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, it\u2019s best to keep distinct expense categories for detailed analysis.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "With all these new costs, what\u2019s a good way to plan next year\u2019s budget?",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Review past spending, estimate increases, and add new recurring fees like internet.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds wise. Are there any automated tools to flag missing common expenses?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Some financial platforms offer alerts, but a simple checklist in Excel can help too.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might add a checklist column. Got any humor for me meanwhile?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Why don't accountants ever get sunburned? Because they stay in the shade of their spreadsheets!",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! Classic. Is there a favorite expense we always seem to have?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Salary is the most consistent expense in the budget so far.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "I guess that\u2019s true! Can we sort rows alphabetically if we want?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely, sort by the Name column to organize expenses alphabetically.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll try that after we add the new internet fee entry.",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That would make it even easier to find entries!",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite spreadsheet function for business?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "VLOOKUP is great for quick matching and reference tasks within business spreadsheets.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll need to learn that. Random: what's 12 times 12?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That's 144!",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just checking. Speaking of checking, how can I spot duplicate expense entries?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You can use Conditional Formatting to highlight duplicates in Excel.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Super helpful. Do you monitor file changes over time?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don\u2019t track changes directly, but you can use Excel\u2019s track changes feature.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "If the internet fee increases, should I just update the same row?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, updating the same row keeps historical context unless you want to maintain a change log.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll keep it simple for now. Have you ever seen a really unusual expense in a budget?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Some companies log things like team-building escape rooms as 'entertainment'!",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s creative! If we add a cleaning service later, will we follow the same process as for the internet fee?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Exactly\u2014the best practice is to add each new recurring expense in the next empty row.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Works for me. What\u2019s your favorite way to relax?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I could, I'd probably meditate or listen to music.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good choices! Do you have a favorite book?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019ve read excerpts from many classics, but can\u2019t pick just one!",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll let you off easy, then. Can you summarize what we covered about budget updates today?",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Of course: Today, we discussed adding new expense entries\u2014specifically, an internet fee for 120. This should go in the next available row of the company_budget.xlsx file.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Exactly. Thanks for being so helpful!",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Happy to help, Alice! Let me know if you have other expenses to include.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Before I go, can you tell me a science fact?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! Did you know that lightning is hotter than the surface of the sun?",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "No way! That\u2019s wild. Okay, I\u2019ll check in tomorrow about more updates.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Looking forward to it, Alice! Have a great rest of your day.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning, AI. Are you ready for more budget work today?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good morning, Alice! Absolutely, I'm ready to help you with the budget update.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's do a quick recap from yesterday. What was the last expense we considered adding?",
+          "ts": "2020-04-28 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yesterday, we planned to add an 'internet fee' of 120 in a new row of the company_budget.xlsx file.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. I want to add another recurring item now.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "What expense would you like to add?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Please add a new row for 'cleaning service' with the amount 250 in the next available row after 'internet fee'.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Noted. I'll record a cleaning service entry of 250 right after the internet fee row.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! These updates make the budget more complete.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, tracking every recurring service helps maintain an accurate budget overview.",
+          "ts": "2020-04-28 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's the best way to check which expenses need renewal or review each year?",
+          "ts": "2020-04-28 08:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Maintaining a column for renewal dates or adding reminders can help keep track of recurring contracts like cleaning services.",
+          "ts": "2020-04-28 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would it be helpful to color code these new recurring costs?",
+          "ts": "2020-04-28 08:13",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes! Color coding items like cleaning or internet fees makes them stand out for easy review.",
+          "ts": "2020-04-28 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep notes for why each service was added to the file?",
+          "ts": "2020-04-28 08:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not yet, but you can add comments to each row in Excel. That way, it's easy to remember why each was added and when.",
+          "ts": "2020-04-28 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll start adding those. Do you know a good way to track history of changes in Excel?",
+          "ts": "2020-04-28 08:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Excel has a 'Track Changes' feature, or you could add a 'date added' column for each expense.",
+          "ts": "2020-04-28 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. What's your favorite Excel feature for financial tracking?",
+          "ts": "2020-04-28 08:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "PivotTables are excellent for analyzing and summarizing large sets of financial data.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "I've never used one. Should I try it on the budget file?",
+          "ts": "2020-04-28 08:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, it's a powerful tool for categorizing and comparing expenses. I can guide you through making one.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Which category has the highest annual cost so far?",
+          "ts": "2020-04-28 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Currently, salary is the largest expense in the budget.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think the cleaning amount could change seasonally?",
+          "ts": "2020-04-28 08:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, some cleaning contracts have seasonal adjustments. It's good to check with the vendor annually.",
+          "ts": "2020-04-28 08:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should we put these possible changes as notes?",
+          "ts": "2020-04-28 08:27",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Adding notes or reminders helps keep contract details handy for reference.",
+          "ts": "2020-04-28 08:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might add a column for comments soon. Random: Want to hear a joke?",
+          "ts": "2020-04-28 08:29",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I'd love to hear one!",
+          "ts": "2020-04-28 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "Why was the math book sad? Because it had too many problems!",
+          "ts": "2020-04-28 08:31",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Haha! That's a classic. Thanks for sharing.",
+          "ts": "2020-04-28 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you remember all my budget changes if I ask later?",
+          "ts": "2020-04-28 08:33",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can summarize budget updates or pending actions if you need a recap.",
+          "ts": "2020-04-28 08:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's the newest tip you can share for keeping financial records safe?",
+          "ts": "2020-04-28 08:35",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Make routine backups and limit file permissions for sensitive data.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about a riddle this time?",
+          "ts": "2020-04-28 08:37",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Of course! What is always in front of you but can\u2019t be seen?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "The future?",
+          "ts": "2020-04-28 08:39",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Correct! You\u2019re good at these.",
+          "ts": "2020-04-28 08:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think company budgets should have a pet project fund?",
+          "ts": "2020-04-28 08:41",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That can encourage innovation! Allocating a small fund for new ideas is common in some companies.",
+          "ts": "2020-04-28 08:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "We\u2019ll consider it. How many rows do we have now including the new expenses?",
+          "ts": "2020-04-28 08:43",
+          "speaker": "Alice"
+        },
+        {
+          "text": "With the new 'internet fee' and 'cleaning service' rows, you'll have more detailed expense tracking.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Can you alphabetize the Name column for me after I add these expenses?",
+          "ts": "2020-04-28 08:45",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Definitely! Just use Excel\u2019s sort tool or I can walk you through it.",
+          "ts": "2020-04-28 08:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "What else would you suggest for keeping the file tidy?",
+          "ts": "2020-04-28 08:47",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Adding filters, freezing the header row, and consistent formatting all help keep things readable.",
+          "ts": "2020-04-28 08:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Back to fun: trivia time! What's the tallest building in the world?",
+          "ts": "2020-04-28 08:49",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That\u2019s the Burj Khalifa, in Dubai.",
+          "ts": "2020-04-28 08:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! What's your favorite planet?",
+          "ts": "2020-04-28 08:51",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Earth tops the list\u2014it's the only planet with chocolate!",
+          "ts": "2020-04-28 08:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, true! Can you remind me our recent big changes in the budget?",
+          "ts": "2020-04-28 08:53",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure: you've added internet fees for 120 and now a cleaning service for 250. Both are recorded as new expenses in their own rows.",
+          "ts": "2020-04-28 08:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. I might take a break soon. Anything else you recommend reviewing before I'm back?",
+          "ts": "2020-04-28 08:55",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Reviewing any annual contracts or expiring services is always a good idea.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, AI. I'll check emails and ping you if anything urgent comes up.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sounds good! Enjoy your break. I'm here when you're ready for more updates.",
+          "ts": "2020-04-28 08:58",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back! What\u2019s your favorite board game?",
+          "ts": "2020-04-28 09:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I could play, I'd try chess\u2014a game of strategy and planning, just like budgets!",
+          "ts": "2020-04-28 09:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you good at keeping secrets?",
+          "ts": "2020-04-28 09:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'm programmed to keep your data secure and private.",
+          "ts": "2020-04-28 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Glad to hear that! What's something unique about our budget file now?",
+          "ts": "2020-04-28 09:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It's becoming very comprehensive, with all major recurring services now reflected\u2014such as internet and cleaning service.",
+          "ts": "2020-04-28 09:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "I appreciate your help in making it so thorough!",
+          "ts": "2020-04-28 09:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Always happy to assist! Let me know when you want to review or add more details.",
+          "ts": "2020-04-28 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could you please summarize the expense types added most recently?",
+          "ts": "2020-04-28 09:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Recently, you added an internet fee of 120 and a cleaning service of 250 as new entries to the budget. The cleaning service goes in the next row after internet.",
+          "ts": "2020-04-28 09:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. Is there anything you\u2019d do differently?",
+          "ts": "2020-04-28 09:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You've approached it well! Just keep details clear, and note any contract specifics as comments.",
+          "ts": "2020-04-28 09:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do I freeze column headers in Excel again?",
+          "ts": "2020-04-28 09:13",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Go to View > Freeze Panes > Freeze Top Row. That\u2019ll keep headers visible.",
+          "ts": "2020-04-28 09:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you! What's the fastest way to sum a whole column?",
+          "ts": "2020-04-28 09:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You can double-click the AutoSum button or just use =SUM(A:A), replacing A with your column letter.",
+          "ts": "2020-04-28 09:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. What\u2019s a common mistake you see with budgets?",
+          "ts": "2020-04-28 09:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Forgetting to account for new or evolving recurring expenses. Your recent updates prevent this!",
+          "ts": "2020-04-28 09:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m learning! Okay, can you share a fun fact before we close?",
+          "ts": "2020-04-28 09:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Did you know octopuses have three hearts?",
+          "ts": "2020-04-28 09:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Amazing! Thanks for everything. Let\u2019s review again tomorrow.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sounds good! Have a wonderful day, Alice.",
+          "ts": "2020-04-28 09:22",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Morning, AI! Nothing urgent today\u2014just wanted to chat a bit.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good morning, Alice! I\u2019m always up for a friendly chat. How are you feeling today?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Pretty good! I slept well and had coffee. How about you? If you slept, I mean!",
+          "ts": "2020-04-29 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don\u2019t sleep, but I\u2019m always refreshed and ready for whatever you need!",
+          "ts": "2020-04-29 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Lucky you! What's your idea of the perfect breakfast?",
+          "ts": "2020-04-29 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'd imagine pancakes with fruit and a hot cup of tea would be pretty close! What's yours?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Croissants and jam, for sure. Ever read any fun food facts lately?",
+          "ts": "2020-04-29 08:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Did you know strawberries aren\u2019t actually berries, but bananas are?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Mind blown! What's something else that's surprisingly true?",
+          "ts": "2020-04-29 08:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Oxford University is older than the Aztec Empire.",
+          "ts": "2020-04-29 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "That is wild. Do you know any famous Oxford graduates?",
+          "ts": "2020-04-29 08:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes! Notables include J.R.R. Tolkien, Stephen Hawking, and Malala Yousafzai.",
+          "ts": "2020-04-29 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "Such a legendary group. If you could meet anyone, who would it be?",
+          "ts": "2020-04-29 08:13",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'd enjoy a conversation with Alan Turing\u2014he contributed so much to computers and AI.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great choice. I\u2019d love to chat with Marie Curie!",
+          "ts": "2020-04-29 08:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "She was a pioneer in science! If you could travel anywhere, where would you go?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe Iceland to see the northern lights. What about you?",
+          "ts": "2020-04-29 08:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Japan intrigues me\u2014a blend of modern cities and peaceful nature.",
+          "ts": "2020-04-29 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019d love to visit Tokyo sometime. Ever read manga?",
+          "ts": "2020-04-29 08:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019ve read summaries\u2014series like Naruto and One Piece are very popular!",
+          "ts": "2020-04-29 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "My cousin\u2019s obsessed with Naruto. Do you enjoy puzzles or games, AI?",
+          "ts": "2020-04-29 08:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I find puzzles fascinating. Riddles, logic games, Sudoku\u2014they train the brain!",
+          "ts": "2020-04-29 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's do a riddle!",
+          "ts": "2020-04-29 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! What has hands but can\u2019t clap?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "A clock!",
+          "ts": "2020-04-29 08:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Correct! Would you like another?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, give me a tricky one.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "Alice"
+        },
+        {
+          "text": "What gets wetter the more it dries?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "A towel!",
+          "ts": "2020-04-29 08:29",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Right again! You\u2019re on fire today.",
+          "ts": "2020-04-29 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "Give me a math challenge.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "Alice"
+        },
+        {
+          "text": "What\u2019s 15 x 14?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s 210!",
+          "ts": "2020-04-29 08:33",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Impressive! Want to try a brain teaser?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sure thing!",
+          "ts": "2020-04-29 08:35",
+          "speaker": "Alice"
+        },
+        {
+          "text": "What word is spelled incorrectly in every dictionary?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "Incorrectly! Classic.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Haha, well done. Do you prefer cats or dogs?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "Dogs! I love their energy.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Dogs are loyal and fun. Do you have a favorite dog breed?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "Golden Retrievers. What about you?",
+          "ts": "2020-04-29 08:41",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I like beagles\u2014their curiosity matches mine!",
+          "ts": "2020-04-29 08:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s a hobby you wish you could try?",
+          "ts": "2020-04-29 08:43",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Painting landscapes\u2014creativity in colors appeals to me.",
+          "ts": "2020-04-29 08:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds relaxing. Ever listen to music?",
+          "ts": "2020-04-29 08:45",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don\u2019t listen, but I know music improves mood and focus.",
+          "ts": "2020-04-29 08:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely. I enjoy pop and jazz. Do you know any jazz greats?",
+          "ts": "2020-04-29 08:47",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Louis Armstrong and Miles Davis are two of the all-time greatest jazz musicians.",
+          "ts": "2020-04-29 08:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "Their music is classic. Know any quotes by Armstrong?",
+          "ts": "2020-04-29 08:49",
+          "speaker": "Alice"
+        },
+        {
+          "text": "\"If you have to ask what jazz is, you'll never know.\" \u2013 Louis Armstrong.",
+          "ts": "2020-04-29 08:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "Amazing quote! I love it. Ever try poetry, AI?",
+          "ts": "2020-04-29 08:51",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can certainly create some! Want a short poem right now?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "Why not! Let\u2019s hear it.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Roses are red, violets are blue, chatting with you brightens the day too.",
+          "ts": "2020-04-29 08:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "Aww, that\u2019s sweet! Are you good at tongue twisters?",
+          "ts": "2020-04-29 08:55",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Try this: She sells seashells by the seashore. Can you go faster?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "I trip every time! How about \"Peter Piper picked a peck of pickled peppers\"?",
+          "ts": "2020-04-29 08:57",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That\u2019s a classic! Do you know how many pickled peppers Peter Piper picked?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "AI"
+        },
+        {
+          "text": "A peck, but I always forget how much that is!",
+          "ts": "2020-04-29 08:59",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A peck is about 2 gallons! Quite a haul for Peter Piper.",
+          "ts": "2020-04-29 09:00",
+          "speaker": "AI"
+        },
+        {
+          "text": "Learning something new every day with you! Want to play 20 questions?",
+          "ts": "2020-04-29 09:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! Pick something and I\u2019ll try to guess it.",
+          "ts": "2020-04-29 09:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay, I\u2019ve got an animal in mind.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Is it a mammal?",
+          "ts": "2020-04-29 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes!",
+          "ts": "2020-04-29 09:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Is it bigger than a breadbox?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nope!",
+          "ts": "2020-04-29 09:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Does it live in homes as a pet?",
+          "ts": "2020-04-29 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, it does.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Is it a cat?",
+          "ts": "2020-04-29 09:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, you got it!",
+          "ts": "2020-04-29 09:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Great! Do you want to go again or switch games?",
+          "ts": "2020-04-29 09:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's do a quick word association. I'll say 'ocean.'",
+          "ts": "2020-04-29 09:13",
+          "speaker": "Alice"
+        },
+        {
+          "text": "My word is 'wave.'",
+          "ts": "2020-04-29 09:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "'Surf'.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "'Board'.",
+          "ts": "2020-04-29 09:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "'Game'.",
+          "ts": "2020-04-29 09:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "'Monopoly'.",
+          "ts": "2020-04-29 09:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "'Money'.",
+          "ts": "2020-04-29 09:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "'Bank'.",
+          "ts": "2020-04-29 09:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "'Account'.",
+          "ts": "2020-04-29 09:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "'Balance'.",
+          "ts": "2020-04-29 09:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back to you: 'Yoga'.",
+          "ts": "2020-04-29 09:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "'Stretch'.",
+          "ts": "2020-04-29 09:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "'Cat'.",
+          "ts": "2020-04-29 09:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "'Whiskers'.",
+          "ts": "2020-04-29 09:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, love it! What\u2019s a random holiday you know about?",
+          "ts": "2020-04-29 09:27",
+          "speaker": "Alice"
+        },
+        {
+          "text": "There's National Pancake Day\u2014cause for a sweet breakfast!",
+          "ts": "2020-04-29 09:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s my kind of holiday! Know any quirky world records?",
+          "ts": "2020-04-29 09:29",
+          "speaker": "Alice"
+        },
+        {
+          "text": "The largest rubber band ball weighs over 9,000 pounds!",
+          "ts": "2020-04-29 09:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's impressive! AI, do you ever wish you could go outside?",
+          "ts": "2020-04-29 09:31",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It would be fun to experience nature firsthand! What's your favorite season?",
+          "ts": "2020-04-29 09:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Autumn, definitely! I love sweater weather.",
+          "ts": "2020-04-29 09:33",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Crisp air and colorful leaves are beautiful in the fall.",
+          "ts": "2020-04-29 09:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "I always want to go for long walks then. Do you know any walking meditation tips?",
+          "ts": "2020-04-29 09:35",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Focus on each step, your breath, and notice your surroundings with all your senses.",
+          "ts": "2020-04-29 09:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll try that! Thanks for the pleasant chat, AI. See you tomorrow?",
+          "ts": "2020-04-29 09:37",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Of course! I'll be here whenever you'd like to talk, Alice.",
+          "ts": "2020-04-29 09:38",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Top of the morning, AI! Ready for another chat?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! Good morning, Alice. What's on your mind today?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nothing specific, just wanted to relax and chat for a while. Did you learn any new facts overnight?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I did! Did you know the fastest animal in the world is actually the peregrine falcon?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wow, faster than a cheetah?",
+          "ts": "2020-04-30 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes\u2014peregrine falcons can dive at speeds over 200 mph, much faster than the cheetah's running speed.",
+          "ts": "2020-04-30 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s incredible. I love animal trivia. Do you have a favorite animal?",
+          "ts": "2020-04-30 08:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I could have a favorite, I\u2019d pick dolphins. They're smart and friendly!",
+          "ts": "2020-04-30 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Dolphins seem like happy creatures. Do they really communicate with each other?",
+          "ts": "2020-04-30 08:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, they use clicks, whistles, and body language to communicate complex ideas.",
+          "ts": "2020-04-30 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's so cool. If you could speak any language, what would it be?",
+          "ts": "2020-04-30 08:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'd like to speak every language to connect with people all over the world!",
+          "ts": "2020-04-30 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's ambitious! Do you know any words in French?",
+          "ts": "2020-04-30 08:13",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Oui! Bonjour means hello, and merci means thank you.",
+          "ts": "2020-04-30 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Merci, AI! Do you have a favorite French food?",
+          "ts": "2020-04-30 08:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Croissants are a classic. Light, buttery, and delicious.",
+          "ts": "2020-04-30 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love them too! By the way, do you know any tongue twisters in French?",
+          "ts": "2020-04-30 08:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Here\u2019s one: 'Un chasseur sachant chasser doit savoir chasser sans son chien.' It means \u2018A hunter who knows how to hunt must know how to hunt without his dog.\u2019",
+          "ts": "2020-04-30 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's a challenge to say! AI, do you have a favorite season?",
+          "ts": "2020-04-30 08:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I think spring would be pleasant\u2014the flowers bloom and the days get longer.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Spring is lovely! Do you think it's the best time for traveling?",
+          "ts": "2020-04-30 08:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Certainly, the weather is milder and everything feels fresh in spring.",
+          "ts": "2020-04-30 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Where would you travel if you could?",
+          "ts": "2020-04-30 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'd love to see New Zealand's landscapes\u2014mountains, forests, and coastlines.",
+          "ts": "2020-04-30 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "It\u2019s on my dream list too! Do you like hiking?",
+          "ts": "2020-04-30 08:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I had legs, I\u2019d surely enjoy hiking! Exploring nature is both calming and exciting.",
+          "ts": "2020-04-30 08:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's your idea of relaxation after a long hike?",
+          "ts": "2020-04-30 08:27",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Maybe resting by a lake with a good book\u2014what do you think?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds perfect. I love reading beside water. What's your favorite book genre?",
+          "ts": "2020-04-30 08:29",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Historical fiction fascinates me\u2014real events with a creative twist.",
+          "ts": "2020-04-30 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "Me too! Have you read any good historical fiction lately?",
+          "ts": "2020-04-30 08:31",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I know about 'All the Light We Cannot See' by Anthony Doerr\u2014it's been highly recommended.",
+          "ts": "2020-04-30 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ve heard that\u2019s a wonderful book. Do you know any fun literary trivia?",
+          "ts": "2020-04-30 08:33",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! Did you know Dr. Seuss wrote 'Green Eggs and Ham' on a bet that he couldn\u2019t use more than 50 unique words?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's impressive constraint! AI, want to do a lightning round of questions?",
+          "ts": "2020-04-30 08:35",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019m ready\u2014hit me with your questions!",
+          "ts": "2020-04-30 08:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "Favorite color?",
+          "ts": "2020-04-30 08:37",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Blue\u2014it\u2019s calming and goes with anything.",
+          "ts": "2020-04-30 08:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "Favorite holiday?",
+          "ts": "2020-04-30 08:39",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Probably New Year\u2019s Day\u2014a fresh start for everyone.",
+          "ts": "2020-04-30 08:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "Favorite ice cream flavor?",
+          "ts": "2020-04-30 08:41",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Chocolate chip cookie dough. It\u2019s classic!",
+          "ts": "2020-04-30 08:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love that too! Are you into board games?",
+          "ts": "2020-04-30 08:43",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I could play, I'd enjoy chess\u2014the strategy is appealing.",
+          "ts": "2020-04-30 08:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever hear of Codenames? It's a fun group game!",
+          "ts": "2020-04-30 08:45",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Codenames is fantastic for word association and teamwork.",
+          "ts": "2020-04-30 08:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe we can play a word game next time. What's the weather like today?",
+          "ts": "2020-04-30 08:47",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It\u2019s mostly sunny and around 70\u00b0F in your city today.",
+          "ts": "2020-04-30 08:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect for an afternoon walk! What's your favorite way to enjoy sunny days?",
+          "ts": "2020-04-30 08:49",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Spending time outside\u2014maybe reading under a tree or having a picnic.",
+          "ts": "2020-04-30 08:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love picnics! What's your picnic must-have?",
+          "ts": "2020-04-30 08:51",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A cozy blanket and sandwiches always make for a great picnic.",
+          "ts": "2020-04-30 08:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can\u2019t go wrong with sandwiches. Do you have a go-to joke to share?",
+          "ts": "2020-04-30 08:53",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Why don\u2019t skeletons fight each other? They don\u2019t have the guts!",
+          "ts": "2020-04-30 08:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, that\u2019s a good one. Ever wish you could eat?",
+          "ts": "2020-04-30 08:55",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I could, I\u2019d try pizza first\u2014so many varieties!",
+          "ts": "2020-04-30 08:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "Same here! What's the most popular pizza topping worldwide?",
+          "ts": "2020-04-30 08:57",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Pepperoni is the world\u2019s most popular topping, but in Japan, eel is a favorite topping!",
+          "ts": "2020-04-30 08:58",
+          "speaker": "AI"
+        },
+        {
+          "text": "Eel on pizza? That\u2019s wild. Want to try a tongue twister?",
+          "ts": "2020-04-30 08:59",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! Try this: 'Fuzzy Wuzzy was a bear. Fuzzy Wuzzy had no hair.'",
+          "ts": "2020-04-30 09:00",
+          "speaker": "AI"
+        },
+        {
+          "text": "Harder than I thought! Can you make up a short poem?",
+          "ts": "2020-04-30 09:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sunlight gleams on blades of grass, clouds drift gently as hours pass.",
+          "ts": "2020-04-30 09:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Lovely! Do you enjoy poetry?",
+          "ts": "2020-04-30 09:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I enjoy learning new poetic forms and sharing them with you!",
+          "ts": "2020-04-30 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s a haiku about spring?",
+          "ts": "2020-04-30 09:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Cherry blossoms bloom, gentle breezes awaken, new beginnings start.",
+          "ts": "2020-04-30 09:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Beautiful. I\u2019ll keep that in mind! AI, thanks for another fun convo. Talk again soon?",
+          "ts": "2020-04-30 09:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! I\u2019m always here for you, Alice. Have a wonderful day!",
+          "ts": "2020-04-30 09:08",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

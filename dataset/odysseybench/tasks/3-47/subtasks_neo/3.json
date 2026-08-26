@@ -1,0 +1,38 @@
+{
+    "task": "Determine the student with the highest combined total of midterm1 and midterm2 scores from /testbed/data/score.xlsx. Create a new docx file named topper.docx. Record the name of the top student and their total score in this document. Ensure the file contains the student's name and their combined score.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/topper.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/topper.docx",
+                "keywords": [
+                    "Carol",
+                    "197"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Find the student with the highest combined midterm1 and midterm2 scores and document their name and score in a new document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file name to use for recording the top student is topper.docx."
+        },
+        {
+            "fact": "The docx file must contain both the student's name and their combined score."
+        },
+        {
+            "action_item": "Sum both midterm1 and midterm2 for each student and select the student with the maximum total."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

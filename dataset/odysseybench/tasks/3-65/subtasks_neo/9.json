@@ -1,0 +1,65 @@
+{
+    "task": "1. Analyze the long-term house price trends in Los Angeles County, CA using the data in house_price_index.xlsx. 2. Create a summary report in a new Word document named 'LA_house_price_trend.docx' that includes the key periods of rapid growth and instances of decline, referencing specific years from the data. 3. Include in the report the URL for the original data source. 4. Email this report to Bob with the subject 'LA House Price Trend Analysis'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/LA_house_price_trend.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/LA_house_price_trend.docx",
+                "keywords": [
+                    "Los Angeles County",
+                    "house price",
+                    "growth",
+                    "decline"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/LA_house_price_trend.docx",
+                "keywords": [
+                    "https://fred.stlouisfed.org"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "LA",
+                    "House",
+                    "Price",
+                    "Trend",
+                    "Analysis"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a summary report of the main trends in the Los Angeles County house price data, and email it to Bob.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary report should be saved to a new file named LA_house_price_trend.docx."
+        },
+        {
+            "fact": "Mention both periods of rapid price increases and any declines, referencing specific years from the data."
+        },
+        {
+            "fact": "Include the URL for the original data source (https://fred.stlouisfed.org) in the report."
+        },
+        {
+            "action": "The email to Bob should have the subject: LA House Price Trend Analysis and include the report as an attachment."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

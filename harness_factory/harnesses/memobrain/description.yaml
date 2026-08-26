@@ -1,0 +1,21 @@
+name: memobrain
+title: MemoBrain
+description: |
+  Dependency-aware reasoning-graph memory. Memory is a graph of reasoning
+  steps (task / subtask / evidence / summary nodes linked by edges), and
+  two passive triggers reshape it:
+    - memorize: after every tool call, an LLM patches the graph with new
+      subtask/evidence nodes + edges.
+    - recall: when current context exceeds the memory budget, an LLM picks
+      redundant nodes to flush and sequential paths to fold into summary
+      nodes. The message list is then rebuilt from the updated graph.
+  Adapted from MemoBrain (https://github.com/TommyChien/MemoBrain).
+agent_loop: |
+  Marker-based ReAct with recall checked at the START of each planning turn
+  and memorize fired after EACH completed tool call. Agent only actively
+  decides <tool_call> / <answer> / continue via marker tags; memory
+  reshaping is entirely passive.
+tags:
+  - memory-compression
+  - reasoning-graph
+  - marker-react

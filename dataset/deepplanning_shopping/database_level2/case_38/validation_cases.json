@@ -1,0 +1,311 @@
+{
+  "query": "I'm doing some online shopping to build a few new outfits for myself. First, I'm looking for some popular 'Wide-Leg Trousers', so they need to have a total sales volume over 8500, more than 300 total reviews, and a stock quantity of more than 250. To go with them, I want a specific 'Women's Golden Lurex Knit Top' from the brand Bosideng, and it has to have more than 500 five-star ratings and a transport time of less than 3 days. I also need a highly-rated item with 'Corduroy' in the name; since I need it very fast, it must have a transport time under 2 days, an average score greater than 4.5, and over 300 total reviews. Lastly, I'm searching for a Beige item from Ralph Lauren in size XS. I need it quickly as well, so the transport time has to be less than 2 days, and it must have fewer than 5 one-star reviews. Please help me find options that fall within a budget of 2145 to 2307.",
+  "ground_truth_products": [
+    {
+      "product_id": "7273d181",
+      "name": "Women's High-Waist Wide-Leg Trousers",
+      "price": 359.0,
+      "brand": "Peacebird",
+      "color": "Light Grey",
+      "size": "S",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Loose Fit (Oversize)",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 8740
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "6f99af34",
+      "name": "Women's Golden Lurex Knit Top",
+      "price": 499.0,
+      "brand": "Bosideng",
+      "color": "Gold",
+      "size": "XS",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 65
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Hand wash recommended, or machine wash cold on gentle cycle. Lay flat to dry. Do not bleach.",
+      "sales_volume": {
+        "monthly": 310,
+        "total": 4520
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 680,
+        "distribution": {
+          "5_star": 550,
+          "4_star": 95,
+          "3_star": 20,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Comfortable fabric",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "77eab127",
+      "name": "Women's High-Waist Corduroy Trousers",
+      "price": 389.9,
+      "brand": "Bosideng",
+      "color": "Yellow",
+      "size": "S",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 412,
+        "total": 2580
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 355,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 55,
+          "3_star": 12,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "bc1f5c2c",
+      "name": "Women's Cable-Knit Crewneck Sweater",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Beige",
+      "size": "XS",
+      "stock_quantity": 120,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Nylon",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Hand wash recommended or machine wash cold on gentle cycle. Lay flat to dry.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 425,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 60,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the stock quantity is more than 250, total sales volume is greater than 8500, there are more than 300 total reviews, and the name contains 'Wide-Leg Trousers'.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 285
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 8740
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 350
+        },
+        {
+          "field": "name",
+          "value": "Women's High-Waist Wide-Leg Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with more than 500 5-star ratings, a transport time of less than 3, where the brand is Bosideng and the name is 'Women's Golden Lurex Knit Top'.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 550
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng"
+        },
+        {
+          "field": "name",
+          "value": "Women's Golden Lurex Knit Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total number of reviews is over 300, the average score is greater than 4.5, the transport time is less than 2, and the name contains 'Corduroy'.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 350
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "name",
+          "value": "Women's Sherpa-Lined Corduroy Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Ralph Lauren, the color is Beige, the size is XS, the transport time is less than 2, and the number of 1-star reviews is less than 5.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Beige"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "size",
+          "value": "XS"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        }
+      ]
+    }
+  ]
+}

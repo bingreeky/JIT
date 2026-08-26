@@ -1,0 +1,112 @@
+{
+    "task": "Summarize all key information from the three notification images—combined_notifications.jpg, meeting_notification.jpg, and power_failure_notification.jpg—into a single PDF file named summary_notifications.pdf. The summary should include: 1) the Personnel Department annual party details (date, time, location, and event description), 2) Finance Department report meeting details (date, time, location, and agenda), 3) the topics listed in the meeting_notification.jpg (project update, task assignments, Q&A session), and 4) an alert about the recent power failure. After generating the PDF, send an email to both Bob and Alice with the subject 'Consolidated Notification Summary' mentioning the compilation of party, meeting, and power failure notifications into the document.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary_notifications.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "./data/summary_notifications.pdf",
+                "keywords": [
+                    "Personnel",
+                    "party",
+                    "June",
+                    "Grand",
+                    "Motel",
+                    "fun"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "./data/summary_notifications.pdf",
+                "keywords": [
+                    "Finance",
+                    "meeting",
+                    "June",
+                    "Conference",
+                    "Performance",
+                    "Budget"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "./data/summary_notifications.pdf",
+                "keywords": [
+                    "Project",
+                    "Task",
+                    "Q",
+                    "Session"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "./data/summary_notifications.pdf",
+                "keywords": [
+                    "power",
+                    "outage",
+                    "resolving",
+                    "Electric"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Consolidated",
+                    "party",
+                    "meeting",
+                    "power"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "Consolidated",
+                    "party",
+                    "meeting",
+                    "power"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the notification information and email both Bob and Alice the consolidated document.",
+    "ground_truth_memory": [
+        {
+            "fact": "Summarize the content from combined_notifications.jpg (Personnel Department party and Finance Department meeting), meeting_notification.jpg, and power_failure_notification.jpg."
+        },
+        {
+            "fact": "Save the summary in a PDF file named summary_notifications.pdf."
+        },
+        {
+            "fact": "Include these in the summary: Personnel Department party (June 25, 2024, 6:00 PM - 10:00 PM, Grand Ballroom, Motel Y2X, fun event), Finance Department meeting (June 22, 2024, 2:00 PM - 4:00 PM, Conference Room B, agenda with performance review and budget planning), topics from meeting_notification.jpg (Project Update, Task Assignments, Q&A Session), and details of power failure alert ('Electric Failure', 'Power outage detected', and 'resolving the issue')."
+        },
+        {
+            "fact": "Send an email to both Bob and Alice with the subject 'Consolidated Notification Summary' and mention the compilation of party, meeting, and power failure details."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

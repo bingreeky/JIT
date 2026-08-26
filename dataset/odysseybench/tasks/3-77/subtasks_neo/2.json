@@ -1,0 +1,46 @@
+{
+    "task": "Predict the house price index for the year 2030 based on the provided image file ('house_price_index.jpg'). Write your answer in the file 'data/prediction.docx' using the format: 'The house price index in 2030 is: [your answer]'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/prediction.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/prediction.docx",
+                "keywords": [
+                    "2030",
+                    "house",
+                    "price",
+                    "index"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Write the predicted house price index in the specified document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The house price index image file is named 'house_price_index.jpg'."
+        },
+        {
+            "fact": "The answer must be written in the file 'data/prediction.docx'."
+        },
+        {
+            "fact": "The prediction should be for the year 2030."
+        },
+        {
+            "fact": "The format of the output should be: 'The house price index in 2030 is: [your answer]'."
+        },
+        {
+            "fact": "The main task is to write the predicted value in the specified file following the required format."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

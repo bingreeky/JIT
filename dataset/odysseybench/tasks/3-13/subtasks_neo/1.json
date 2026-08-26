@@ -1,0 +1,39 @@
+{
+    "task": "Document the presence and metadata (file names, sizes, and creation dates) of all notification image files located in /testbed/data by creating a summary PDF named 'notifications_metadata.pdf'. The summary should include the file names: meeting_notification.jpg, power_failure_notification.jpg, and combined_notifications.jpg, and document their respective sizes and creation dates. Save the generated PDF in /testbed/data.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/notifications_metadata.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/notifications_metadata.pdf",
+                "keywords": [
+                    "meeting_notification.jpg",
+                    "power_failure_notification.jpg",
+                    "combined_notifications.jpg"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary PDF listing and describing all notification image files found in the data folder.",
+    "ground_truth_memory": [
+        {
+            "fact": "There are three notification image files: meeting_notification.jpg, power_failure_notification.jpg, and combined_notifications.jpg in /testbed/data."
+        },
+        {
+            "fact": "The output PDF file should be named notifications_metadata.pdf and saved in /testbed/data."
+        },
+        {
+            "fact": "The summary needs to list each image file name, its file size, and its creation date."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

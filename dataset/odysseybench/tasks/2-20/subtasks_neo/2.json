@@ -1,0 +1,38 @@
+{
+    "task": "Review the CS161_Class_Roster.xlsx and identify all students whose Academic Standing is 'Freshman' and whose HW1 score is above 40. Create a new document called 'freshman_high_HW1.docx' and list their Student ID and First Name, each on separate lines in the format 'Student ID, First Name'.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/freshman_high_HW1.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "S1001",
+                    "Sipaq",
+                    "S1005",
+                    "Tukemoy",
+                    "S1007",
+                    "Jehecat",
+                    "S1008",
+                    "Mec"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a document with students who are Freshmen and scored above 40 in HW1, including their Student IDs and First Names.",
+    "ground_truth_memory": [
+        {
+            "fact": "The file name for the output document should be 'freshman_high_HW1.docx'."
+        },
+        {
+            "fact": "Include only students with Academic Standing 'Freshman' and HW1 greater than 40 based on CS161_Class_Roster.xlsx."
+        },
+        {
+            "fact": "For each student, list 'Student ID, First Name' each on a separate line."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

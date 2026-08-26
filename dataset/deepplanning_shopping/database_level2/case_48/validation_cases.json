@@ -1,0 +1,403 @@
+{
+  "query": "I'm doing a big wardrobe refresh and need everything to arrive quickly. First, I'm looking for a popular all-seasons item with 'Activist' in its name that has a monthly sales volume over 300, more than 100 four-star reviews, and a transport time of less than 2. For the colder months, I need the specific 'Women's WinterPlush High-Top Sneakers' from Anta. They must have an average rating above 4.5, a stock quantity greater than 100, and also ship in less than 2 days. To go with them, I'm searching for a women's 'Long-Sleeve Top' that has a stock quantity over 200 and fewer than 50 two-star reviews. I also need some winter 'Suede Boots' from Uniqlo in Burgundy, with a transport time of less than 2 days. Finally, for the transitional weather, I'm looking for a brown item from Anta for spring/autumn that has over 400 total reviews and fewer than 5 one-star reviews. Please help me find options that fall within a budget of 2855 to 2906.",
+  "ground_truth_products": [
+    {
+      "product_id": "93c1001b",
+      "name": "Women's Activist FUTURELIGHT™ Hiking Shoes",
+      "price": 1298.0,
+      "brand": "The North Face",
+      "color": "Light Blue",
+      "size": 42,
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 312,
+        "total": 4580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1124,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 130,
+          "3_star": 28,
+          "2_star": 11,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e0d1cce0",
+      "name": "Women's WinterPlush High-Top Sneakers",
+      "price": 449.5,
+      "brand": "Anta",
+      "color": "Camel",
+      "size": 42,
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Ribbed Cuffs, Zipper Closure",
+      "washing_instructions": "Spot clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 4500
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1120,
+        "distribution": {
+          "5_star": 850,
+          "4_star": 190,
+          "3_star": 55,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f111b3bb",
+      "name": "Women's Active Comfort Long-Sleeve Top",
+      "price": 289.0,
+      "brand": "Anta",
+      "color": "Orange",
+      "size": "XXL",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Do not iron decoration.",
+      "sales_volume": {
+        "monthly": 758,
+        "total": 6940
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 615,
+        "distribution": {
+          "5_star": 465,
+          "4_star": 120,
+          "3_star": 22,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "303cb330",
+      "name": "Women's Heattech Lined Suede Boots",
+      "price": 499.0,
+      "brand": "Uniqlo",
+      "color": "Burgundy",
+      "size": "42",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or submerge in water. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 2348,
+        "total": 15560
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1245,
+        "distribution": {
+          "5_star": 996,
+          "4_star": 187,
+          "3_star": 37,
+          "2_star": 13,
+          "1_star": 12
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "846cbcca",
+      "name": "Women's Retro Suede-Panel Casual Shoes",
+      "price": 349.0,
+      "brand": "Anta",
+      "color": "Brown",
+      "size": 42,
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Cotton",
+          "percentage": 25
+        },
+        {
+          "material": "Nylon",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Printing, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a soft, damp cloth. Avoid direct sun exposure. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 310,
+        "total": 2548
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 560,
+        "distribution": {
+          "5_star": 482,
+          "4_star": 61,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "YTO Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the monthly sales volume is more than 300, the suitable season is All Seasons, there are more than 100 4-star reviews, transport time is less than 2, and the name contains 'Activist'.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 312
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 130
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "name",
+          "value": "Women's Activist FUTURELIGHT™ Hiking Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, stock quantity is greater than 100, the brand is Anta, the average rating is above 4.5, and the name is 'Women's WinterPlush High-Top Sneakers'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "stock_quantity",
+          "value": 128
+        },
+        {
+          "field": "brand",
+          "value": "Anta"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "name",
+          "value": "Women's WinterPlush High-Top Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 2-star reviews is less than 50, the target demographic is Women, the stock quantity is greater than 200, and the name contains 'Long-Sleeve Top'.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 40
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 215
+        },
+        {
+          "field": "name",
+          "value": "Women's Essential Modal Blend Long-Sleeve Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Uniqlo, the color is Burgundy, the suitable season is Winter, the transport time is less than 2 days, and the name contains 'Suede Boots'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Uniqlo"
+        },
+        {
+          "field": "color",
+          "value": "Burgundy"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "name",
+          "value": "Women's Heattech Lined Suede Boots"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Brown, there are fewer than 5 one-star reviews, the brand is Anta, the total number of reviews is over 400, and the suitable season is Spring/Autumn.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Brown"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 3
+        },
+        {
+          "field": "brand",
+          "value": "Anta"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 410
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        }
+      ]
+    }
+  ]
+}

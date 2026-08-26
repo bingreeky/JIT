@@ -1,0 +1,47 @@
+{
+    "task": "Extract data from Invoice.pdf and Invoice_2.pdf to create a new spreadsheet named invoices.xlsx containing the relevant invoice details. Analyze the data for notable trends, such as repeated vendors or increasing totals, and generate a review report in report.docx summarizing these findings. The report should reference key terms such as \"duplicate vendor\" and \"invoice growth\" in context. Ensure invoices.xlsx and report.docx are newly created and contain the synthesized data and analysis.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/invoices.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/report.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/report.docx",
+                "keywords": [
+                    "duplicate vendor",
+                    "invoice growth"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract data from the two invoice PDFs, analyze them, and prepare a financial review in a spreadsheet and a report document.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new spreadsheet file named invoices.xlsx must be created to contain extracted invoice data."
+        },
+        {
+            "fact": "Create a review report named report.docx that includes a summary of analysis."
+        },
+        {
+            "fact": "The report.docx should reference the concepts 'duplicate vendor' and 'invoice growth' based on trends observed from both invoices."
+        },
+        {
+            "fact": "Both Invoice.pdf and Invoice_2.pdf should be included as sources for the data extraction and analysis."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

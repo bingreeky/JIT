@@ -1,0 +1,242 @@
+{
+  "query": "I'm putting together a few key pieces for my winter wardrobe and need everything to arrive very quickly. First, I’m looking for a specific winter item for myself from the brand Gucci; it has to be a size 39 with an average score greater than 4.5 and have a name containing 'Horsebit'. Next, I need another women's item in size 39. I'm looking for something highly-rated, so it must have an average score over 4.5 and more than 600 five-star ratings. Since I'm in a hurry, its transport time must be less than 2 days. Finally, I'm searching for some 'Athleisure Bottoms' for women from the brand Li-Ning. It's important that this is a popular item, so its total sales volume must be over 8000, and it also needs a transport time of less than 2 days. My budget is between 11127 and 11136.",
+  "ground_truth_products": [
+    {
+      "product_id": "4ee55ec9",
+      "name": "Women's Horsebit Leather Ankle Boots",
+      "price": 9850.0,
+      "brand": "Gucci",
+      "color": "Brown",
+      "size": "39",
+      "stock_quantity": 75,
+      "material_composition": [
+        {
+          "material": "Wool",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 40
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Non-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Zipper Closure",
+      "washing_instructions": "Professional leather clean only. Do not wash or expose to direct heat.",
+      "sales_volume": {
+        "monthly": 180,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 520,
+        "distribution": {
+          "5_star": 495,
+          "4_star": 20,
+          "3_star": 3,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "70931f8a",
+      "name": "Women's HOVR Sonic 5 Running Shoes",
+      "price": 849.0,
+      "brand": "Under Armour",
+      "color": "Wine Red",
+      "size": "39",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        },
+        {
+          "material": "Nylon",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash or expose to high heat.",
+      "sales_volume": {
+        "monthly": 378,
+        "total": 6215
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1240,
+        "distribution": {
+          "5_star": 990,
+          "4_star": 185,
+          "3_star": 45,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6d6c8e44",
+      "name": "Women's Cloud-Weave Athleisure Bottoms",
+      "price": 429.0,
+      "brand": "Li-Ning",
+      "color": "White",
+      "size": "XL",
+      "stock_quantity": 380,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 82
+        },
+        {
+          "material": "Spandex",
+          "percentage": 18
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low or hang dry.",
+      "sales_volume": {
+        "monthly": 950,
+        "total": 8200
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1120,
+        "distribution": {
+          "5_star": 940,
+          "4_star": 135,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the suitable season is Winter, the brand is Gucci, the average score is greater than 4.5, the size is 39, and the name contains 'Horsebit'.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "brand",
+          "value": "Gucci"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "size",
+          "value": "39"
+        },
+        {
+          "field": "name",
+          "value": "Gucci Women's 'Horsebit' Shearling-Lined Ankle Boots"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, the size is 39, there are more than 600 5-star ratings, the average score is greater than 4.5, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "size",
+          "value": "39"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 650
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, total sales volume is more than 8000, the brand is Li-Ning, the target demographic is Women, and the name contains 'Athleisure Bottoms'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 8200
+        },
+        {
+          "field": "brand",
+          "value": "Li-Ning"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "name",
+          "value": "Women's Cloud-Weave Athleisure Bottoms"
+        }
+      ]
+    }
+  ]
+}

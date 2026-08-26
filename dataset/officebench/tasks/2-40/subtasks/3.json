@@ -1,0 +1,57 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "read Bob's and Tom's calendars, find their common events and send email using event names to them separately",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "class"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "class"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "nap",
+                    "lunch",
+                    "dinner",
+                    "sleeping",
+                    "report"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "nap",
+                    "lunch",
+                    "dinner",
+                    "sleeping",
+                    "report"
+                ]
+            }
+        }
+    ]
+}

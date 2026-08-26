@@ -1,0 +1,236 @@
+{
+  "query": "I've got a last-minute social event coming up and need to order a few things online. First, I'm looking for a khaki-colored item that I need delivered in less than 2 days. To make sure it's high quality, it must have an average score greater than 4.5, more than 800 five-star reviews, and fewer than 15 three-star reviews. Next, I need a specific item from Gucci in size 38; since I want a popular choice, it should have a monthly sales volume over 80 and more than 100 total reviews. Lastly, I'm searching for something from New Balance that can be transported in less than 5 days and has more than 250 five-star ratings. Find me some products where the total price is no less than 10271 and no more than 10340.",
+  "ground_truth_products": [
+    {
+      "product_id": "caef76f4",
+      "name": "Women's Delta LT Zip Neck Pullover",
+      "price": 1299.0,
+      "brand": "Arc'teryx",
+      "color": "Khaki",
+      "size": "M",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Zipper Closure, Side Pockets",
+      "washing_instructions": "Machine wash cold on a gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 3480
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 920,
+        "distribution": {
+          "5_star": 810,
+          "4_star": 95,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "c8e4eb3e",
+      "name": "Women's 'Screener' GG Canvas Sneaker",
+      "price": 8200.0,
+      "brand": "Gucci",
+      "color": "Light Blue",
+      "size": "38",
+      "stock_quantity": 55,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Nylon",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Vintage Wash, Patchwork",
+      "washing_instructions": "Specialist cleaning recommended. Wipe clean with a soft, dry cloth. Avoid contact with water.",
+      "sales_volume": {
+        "monthly": 110,
+        "total": 1480
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 305,
+          "4_star": 30,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4637e671",
+      "name": "Women's 574 Legacy Trail Sneakers",
+      "price": 799.0,
+      "brand": "New Balance",
+      "color": "Green",
+      "size": "38",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 4188
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 945,
+          "4_star": 155,
+          "3_star": 30,
+          "2_star": 12,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Khaki, the number of 5 star reviews is more than 800, the transport time is less than 2 days, there are fewer than 15 3-star reviews, and the average score is greater than 4.5.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Khaki"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 810
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.9
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Gucci, the size is 38, the monthly sales volume is more than 80, and there are more than 100 total reviews.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 85
+        },
+        {
+          "field": "size",
+          "value": "38"
+        },
+        {
+          "field": "brand",
+          "value": "Gucci"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 124
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is New Balance, the transport time is less than 5, and the number of 5-star ratings is greater than 250.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "New Balance"
+        },
+        {
+          "field": "transport_time",
+          "value": 4
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 290
+        }
+      ]
+    }
+  ]
+}

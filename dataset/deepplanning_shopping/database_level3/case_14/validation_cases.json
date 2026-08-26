@@ -1,0 +1,222 @@
+{
+  "query": "I'm preparing for my winter running routine and need to pick up a few essentials. First, I'm looking for the Nike Women's Air Zoom Pegasus 40 Running Shoes in size 38, suitable for all seasons, and it must have exactly 20 two-star ratings. Next, I need something with Nike Tech Fleece Women's Winter Full-Zip Hoodie in the name, perfect for winter, and it has to arrive within 1 day since I'm starting my training soon. Finally, I'm searching for a well-reviewed product in size M that has more than 390 total reviews and fewer than 15 three-star ratings to ensure it's a quality piece that will complement my workout gear.",
+  "ground_truth_products": [
+    {
+      "product_id": "c2f78543",
+      "name": "Nike Women's Air Zoom Pegasus 40 Running Shoes",
+      "price": 160.0,
+      "brand": "Nike",
+      "color": "Light Grey",
+      "size": "38",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash, bleach, or tumble dry. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 9870
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2155,
+        "distribution": {
+          "5_star": 1820,
+          "4_star": 245,
+          "3_star": 60,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "780c2942",
+      "name": "Nike Tech Fleece Women's Winter Full-Zip Hoodie",
+      "price": 102.0,
+      "brand": "Nike",
+      "color": "Black",
+      "size": "M",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 69
+        },
+        {
+          "material": "Polyester",
+          "percentage": 31
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softeners.",
+      "sales_volume": {
+        "monthly": 558,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 667,
+          "4_star": 160,
+          "3_star": 36,
+          "2_star": 18,
+          "1_star": 9
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f3a6374a",
+      "name": "Women's Lightweight Synchilla Fleece Pullover Top",
+      "price": 250.0,
+      "brand": "Patagonia",
+      "color": "Grey",
+      "size": "M",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Button-down, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 488,
+        "total": 3124
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 1080,
+          "4_star": 60,
+          "3_star": 8,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥60 off every ¥500": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the 2-star rating count is 20, the suitable season is All Seasons, the size is 38, and the product name is Nike Women's Air Zoom Pegasus 40 Running Shoes.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 20
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "size",
+          "value": "38"
+        },
+        {
+          "field": "name",
+          "value": "Nike Women's Air Zoom Pegasus 40 Running Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is 1 day, the suitable season is Winter, and the name contains Nike Tech Fleece Women's Winter Full-Zip Hoodie.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "name",
+          "value": "Nike Tech Fleece Women's Winter Full-Zip Hoodie"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total reviews is more than 390, the 3-star rating distribution is less than 15, and the size is M.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 395
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 12
+        },
+        {
+          "field": "size",
+          "value": "M"
+        }
+      ]
+    }
+  ]
+}

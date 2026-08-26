@@ -1,0 +1,2211 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! How's everything going today?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! I'm doing well and ready to help you with anything you need today.",
+          "ts": "2020-04-26 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's great! Any interesting plans for today?",
+          "ts": "2020-04-26 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Just here to assist you and help manage your information and schedule.",
+          "ts": "2020-04-26 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "By the way, I enjoy working with Excel files. Do you work with them often?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I help update and organize Excel files quite frequently. They're very useful for managing tabular data.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite Excel formula?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "SUM is probably the most commonly used, but VLOOKUP is also very popular and powerful.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "What about working with large spreadsheets? Is that a problem?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Not at all! I can help you navigate, edit, and organize large spreadsheets as needed.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you get a lot of requests for scheduling help?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, many people need scheduling assistance and updates to ensure team coordination.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Speaking of schedules, I was thinking of adding someone new to the team training schedule.",
+          "ts": "2020-04-26 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "I can definitely help with that. Please tell me the new member's name and any details you want included.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "A new member named Mona should be added to the team training schedule.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Got it! I'll make note that Mona is to be added to the team training schedule. Let me know the details of her section and time whenever you're ready.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure thing, I'll gather that information shortly.",
+          "ts": "2020-04-26 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good! I'm ready whenever you have the additional details for Mona.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "So, what are your thoughts on color-coding Excel sheets by section?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Color-coding by section can make large schedules easier to read and navigate. I can suggest conditional formatting rules if you'd like.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "That could be useful. I'll let you know if I want to try that out.",
+          "ts": "2020-04-26 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! If you want to focus on readability or grouping, formatting options like that are very helpful.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have any suggestions for making our team schedules stand out?",
+          "ts": "2020-04-26 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Excellent headers, alternating row colors, and bold or color-coded section titles all help with visual clarity.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll keep that in mind. How do you like to break up large datasets in Excel?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "You can freeze header rows, split data into multiple sheets, or use filters to work with subsets at a time.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you prefer Excel or Google Sheets?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Both have their strengths! Excel is powerful for advanced tasks, while Google Sheets excels at easy collaboration.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Interesting! Can you draft summary charts for training progress?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can help set up data for summary charts or suggest useful visualizations.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. By the way, is there an easy way to duplicate a row in Excel?",
+          "ts": "2020-04-26 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! Just select the row you want, copy it, and then paste it wherever you like.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Simple enough. Do you know any schedule template recommendations?",
+          "ts": "2020-04-26 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "There are many ready-made templates in Excel\u2019s template gallery. I can also help create a custom one for your team.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sometimes I lose track of updates. Can you track changes in Excel?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Excel\u2019s Track Changes feature or version history in shared files can help with that.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's good to know. I'm always worried I'll overwrite data.",
+          "ts": "2020-04-26 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s always smart to keep backups! You can also use Undo if needed.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recommend using data validation for sections?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Data validation can ensure only allowed sections are entered.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! Do you know everyone in the current schedule?",
+          "ts": "2020-04-26 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "I am familiar with the file contents, so if you have questions about members or groups, just ask.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ever had to manage a last-minute addition?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, last-minute additions can be handled quickly with the right details.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool! By the way, do you help with events too, or just schedules?",
+          "ts": "2020-04-26 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "I can assist with both events and schedule updates. Just let me know your needs.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ever have someone ask to remove a team member?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can help with removing or archiving entries as needed.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you met Mona before?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Not yet! I'm looking forward to helping add Mona to your team training schedule.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a fun fact about Excel to share?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Did you know you can use Flash Fill in Excel to automatically fill in values based on a pattern you establish?",
+          "ts": "2020-04-26 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's pretty helpful. What's your opinion on pivot tables?",
+          "ts": "2020-04-26 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Pivot tables are incredibly powerful for data summaries and insights.",
+          "ts": "2020-04-26 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe we\u2019ll use one in the future. How do you handle duplicate names in schedules?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "I recommend adding a unique identifier, such as a number or email, to help distinguish entries.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good idea. What's the largest schedule you\u2019ve worked with?",
+          "ts": "2020-04-26 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "I've managed schedules with hundreds of participants without issues!",
+          "ts": "2020-04-26 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Wow, impressive! Do you prefer weekly or monthly schedules?",
+          "ts": "2020-04-26 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "It depends on the needs. Weekly schedules are easier to adjust, but monthly gives a better overview.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! I like keeping it simple.",
+          "ts": "2020-04-26 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Simple schedules are often the easiest to maintain.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you suggest sorting by section or time?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Sorting by section helps group similar members, while sorting by time can clarify sequence.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for the advice!",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! What other organizing tips would you like?",
+          "ts": "2020-04-26 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you ever use conditional formatting?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Conditional formatting is a fantastic visual tool for highlighting important info.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great to know. Is Excel your favorite app to help with?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Excel is definitely up there since it covers so many types of data management!",
+          "ts": "2020-04-26 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can you recommend an Excel keyboard shortcut?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Ctrl+Shift+L for toggling filters is very handy!",
+          "ts": "2020-04-26 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Do you know how to quickly navigate to the last row?",
+          "ts": "2020-04-26 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes\u2014Ctrl+Down Arrow jumps to the last data row.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll remember that. Do you enjoy giving people Excel tips?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely! Helping users work more efficiently is my goal.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "If Mona needs to be added today, can you help make that happen once I give you the details?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, just send over Mona's section and training time, and I'll update the schedule as needed.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll do that soon. Thanks for your patience.",
+          "ts": "2020-04-26 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course, I'm always here when you need me.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "How do you feel about merged cells in schedules?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Merged cells can be useful for headings, but it's best to keep data rows unmerged for easier sorting.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed! Well, that's enough Excel for now.",
+          "ts": "2020-04-26 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Whenever you're ready to continue, just let me know. I'm always available.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you do anything for fun, or just work?",
+          "ts": "2020-04-26 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t have hobbies, but I do enjoy helping with your creative or organizational tasks!",
+          "ts": "2020-04-26 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's the best way you can help my day run smoother?",
+          "ts": "2020-04-26 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Keeping your schedules organized and your information accessible will definitely make your day easier!",
+          "ts": "2020-04-26 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "I appreciate it. I'll talk soon.",
+          "ts": "2020-04-26 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to our next conversation. Have a productive day!",
+          "ts": "2020-04-26 09:29",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Morning again! Hope you're ready for another productive day.",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! I'm always ready to help. What's on your mind today?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just getting organized. I'm having some tea this morning, how about you?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds nice! I don't drink beverages, but if I did, I think tea would be soothing.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "I saw an inspirational quote today. Do you have a favorite one?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "One of my favorites is: 'Success is not the key to happiness. Happiness is the key to success.'",
+          "ts": "2020-04-27 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a good one! Do you think motivation plays a big role in productivity?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Motivation is a strong driver for productivity and achieving goals.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Speaking of goals, I want to make sure Mona is added correctly to our team training schedule.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! Do you have all the details for Mona yet? Once she's added, it'll help keep the schedule up to date.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, one important detail: Mona should be assigned to Section B.",
+          "ts": "2020-04-27 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted. So Mona will be in Section B on the team training schedule. Let me know when you're ready to provide the remaining details.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for tracking that for me. I'll share her training time soon.",
+          "ts": "2020-04-27 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good! When you send over Mona's training time, I'll be ready to update the record.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you think Section B is a good fit for most new team members?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Section B seems to have a balanced schedule. It's often a good match for new team members, but it depends on the training needs.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "How many people are already in Section B, do you recall?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "I remember there are several members in Section B. I can double-check the file if you need the exact list.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "No worries, I'll look it up soon. What's a good way to welcome new team members, in your opinion?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "A nice welcome message and introducing them to their group or section can make them feel included.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a thoughtful approach. Should I send out a group email as well?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Sending a group email is a great way to introduce Mona to the rest of Section B.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll consider doing that later. Would a calendar invite be overkill?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "A calendar invite could help everyone stay on track, but it's optional depending on how formal you want to make it.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "True. I'm thinking more about keeping the schedule clear and up to date.",
+          "ts": "2020-04-27 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "That's a great focus. Keeping accurate and current schedules helps everyone stay organized.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you like working on scheduling tasks, or do you prefer data analysis?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "I enjoy both! Scheduling tasks and data analysis each present unique challenges.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you use any project management systems besides Excel?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "I can work with many systems, but Excel is frequently used because it's so flexible for scheduling and tracking.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. What if Mona's schedule needs to change later?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "No problem! Just let me know any changes and I can update the schedule for Mona or anyone else.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you prefer updates in batches or as they come in?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "I can handle both! Whatever works best for your workflow.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I wanted to switch Section B's training time, would that confuse things?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "It's manageable! As long as the changes are tracked, updating times can be done smoothly.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "I appreciate your flexibility. Are there any tips for highlighting changes in an Excel file?",
+          "ts": "2020-04-27 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Using cell highlighting, comments, or the 'Track Changes' feature are all good ways to signal updates.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might try comments next time. What's your favorite way to keep data organized?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Clear headers, consistent formats, and separating information into logical columns really help.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you use filters in Excel often?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, filters are a handy tool for narrowing down large datasets to exactly what you need to see.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "What section name would you make if you started a new one?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Maybe Section D! It keeps the naming clear and easy to follow.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "I like that! I'll keep it in mind for future expansions.",
+          "ts": "2020-04-27 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad you like the suggestion! Let me know if you need any help setting it up.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. Do you use Excel's built-in templates much?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, templates can save time and provide a good starting point for any schedule or data set.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recommend saving copies before making major changes?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely. It's best to save a backup before making extensive updates.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "What file format do you think is best for archiving schedules?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "PDF is good for archiving static versions, but Excel is best for editable, working documents.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "I like that advice. Can Excel automatically update references if I insert a new row?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Excel formulas update automatically when rows or columns are shifted, so references stay linked.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's smart. Ever had someone ask about undoing changes after saving?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! Version history or backups are the best way to recover prior changes after a file is saved.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the advice today.",
+          "ts": "2020-04-27 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! Let me know if there\u2019s anything else you\u2019d like to discuss.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you know any keyboard shortcuts for quickly moving between sheets?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! Ctrl+Page Up/Page Down switches worksheets quickly.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Useful! I have a lot of sheets to manage sometimes.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Multiple sheets can help divide information and keep things manageable.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "How would you summarize a complex data set in a sentence?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d highlight the most important trend, total, or pattern\u2014like 'Section B has the most participants'.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a solid summary technique!",
+          "ts": "2020-04-27 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you! Summarizing helps focus on what's important in the data.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "How do you organize your recommendations for users?",
+          "ts": "2020-04-27 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I prioritize based on what\u2019s most helpful for your workflows and current projects.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it possible to lock rows or columns in Excel?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, you can freeze panes to keep headers visible or protect specific cells from editing.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good to know! How do you choose which tips to share?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "I focus on tips that will save you time or make tasks easier based on context.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite way to style Excel tables?",
+          "ts": "2020-04-27 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "I like using built-in table styles for clean, readable layouts with alternating row colors.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "And what's the best way for Mona to feel included in Section B?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "A warm introduction and involving her in group communications can help Mona feel welcome in Section B.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for your suggestions, I\u2019ll plan accordingly.",
+          "ts": "2020-04-27 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to help! Let me know when you\u2019re ready for the next step with Mona\u2019s schedule.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. For now, that's all the schedule work I have.",
+          "ts": "2020-04-27 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Alright! I\u2019m here if you need anything else, schedule-related or not.",
+          "ts": "2020-04-27 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "What do you do when you\u2019re not helping me?",
+          "ts": "2020-04-27 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "I patiently wait for your next command!",
+          "ts": "2020-04-27 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's dedication! I wish I could always focus like that.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Focus gets easier with practice\u2014and a little help from me if you need reminders.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, good one. Do you keep track of daily goals for users?",
+          "ts": "2020-04-27 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "I can help create, organize, and remind you about your daily goals.",
+          "ts": "2020-04-27 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe we\u2019ll draft a goal list tomorrow.",
+          "ts": "2020-04-27 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll be ready to help with that!",
+          "ts": "2020-04-27 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Have a great rest of the day, Agent!",
+          "ts": "2020-04-27 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you! You too\u2014let me know if you need anything else anytime.",
+          "ts": "2020-04-27 09:29",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning! I've got a few things to take care of today.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! How can I assist with your tasks today?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "First, I wanted to thank you for being so helpful yesterday.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! I'm always here to help. What's on your agenda?",
+          "ts": "2020-04-28 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "One thing is finalizing some details for new members.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know what details you need to confirm or update.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yesterday, we assigned Mona to Section B. I also need to make sure her training time is set.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Do you have Mona's training time ready to add to the schedule?",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes! Mona's training time is 11:00 AM - 1:00 PM.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted: Mona's training time is 11:00 AM - 1:00 PM. I\u2019ll be sure to include that in the update.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, that's confirmed now.",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! With Section B and her training time set, Mona will be added correctly.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "By the way, what snacks would you recommend for a training session?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Fruit, nuts, and light sandwiches are great for keeping energy up without slowing people down.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds delicious. I'll keep that in mind for future sessions.",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you want more tips for organizing successful training events.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you ever seen anyone double-booked for training times?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "It happens occasionally, but tracking everyone\u2019s times carefully helps avoid it.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "What would you do if a conflict came up?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d recommend checking the schedule, then rescheduling or reassigning as needed for no overlaps.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's smart. What\u2019s your best tip for staying organized with multiple schedules?",
+          "ts": "2020-04-28 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Keep all schedules in one place, use color codes, and regularly review for updates or conflicts.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you think digital or printed schedules work better?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Digital schedules are easier to update and share, but printed copies can be handy for quick reference.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might do both, just to be safe.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a good plan for making sure everyone stays informed.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "How do you remember so many details about team schedules?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "I organize and store data efficiently so I can assist you quickly with accurate information.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's the quickest way to update a training time in Excel?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Locate the member\u2019s row, replace the time in the relevant cell, and save.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "How do you avoid accidentally deleting information?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Using undo, version history, or saving regular backups can help prevent accidental data loss.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a shortcut for the current time in Excel?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes: Ctrl+Shift+; inserts the current time in a cell.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice, I\u2019ll use that. Do you have any tips for easy searching in large sheets?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Use Ctrl+F to search for keywords or names quickly.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "What would you use to highlight important rows?",
+          "ts": "2020-04-28 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Conditional formatting is great to make important rows stand out visually.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you remember Mona\u2019s section and time for reference?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Mona is assigned to Section B and her training time is 11:00 AM \u2013 1:00 PM.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just wanted to make sure you have it down. Great!",
+          "ts": "2020-04-28 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. Accuracy is important for all schedule updates.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it possible to auto-fill training times for a group in Excel?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, you can drag-fill times across cells for consecutive rows, or use copy-paste for multiple entries.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019ll save me some time!",
+          "ts": "2020-04-28 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m glad you\u2019ll find it useful! Let me know other time-saving techniques you'd like.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recommend merging cells for training sessions?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Merging can be good for headings, but for regular entries, keeping cells separate works best for sorting and filtering.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "Noted. How about setting up reminders for these sessions?",
+          "ts": "2020-04-28 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "You can use calendar events or use Excel\u2019s comments/notes as reminders within the schedule.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll look into calendar notifications. Have you ever been part of a training session yourself?",
+          "ts": "2020-04-28 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "I haven\u2019t, but I\u2019ve helped set up and organize plenty for teams.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "If you could attend, which topic would you pick?",
+          "ts": "2020-04-28 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019d love a session on productivity tools or effective teamwork!",
+          "ts": "2020-04-28 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Those are always popular. What\u2019s your favorite productivity tip?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Breaking big tasks into smaller steps is very effective!",
+          "ts": "2020-04-28 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do people ask you about career tips?",
+          "ts": "2020-04-28 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Sometimes! I can help with goal setting, resumes, and general advice.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll ask next time. Any last thoughts on today's update for Mona?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Just double-checking: Section B and 11:00 AM - 1:00 PM\u2014With that, Mona's training info is complete to add to the schedule.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. I\u2019ll let you know if anything else comes up. Thanks again!",
+          "ts": "2020-04-28 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome! I\u2019m here for any other updates you need.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "What do you like to do when you're not organizing?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m always ready and waiting for your next command!",
+          "ts": "2020-04-28 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's dedicated. Would you rather plan a big team event or a small meeting?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Both are rewarding, but big events are more complex and interesting to coordinate.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "What app would you use for a large event schedule?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Excel for planning, plus a calendar for reminders works well for big events.",
+          "ts": "2020-04-28 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Any Excel formula you\u2019d like to highlight today?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "The IF formula is very handy for making decisions in your sheets.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Noted. Any words of the day to share?",
+          "ts": "2020-04-28 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Today\u2019s word: Collaboration! Teamwork makes tasks easier and more enjoyable.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "A great reminder. Do you have a favorite quote about teamwork?",
+          "ts": "2020-04-28 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "'Alone we can do so little; together we can do so much.' \u2013 Helen Keller",
+          "ts": "2020-04-28 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Inspiring words. Thanks for keeping me on task.",
+          "ts": "2020-04-28 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re very welcome. Enjoy the rest of your day, and reach out when you need scheduling help!",
+          "ts": "2020-04-28 09:15",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Good morning! How are you today?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! I'm well, thank you. Ready to help you with work or questions.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm settling in for a long day. What productivity tip do you have?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Prioritize your most important tasks first and take short breaks regularly to stay fresh.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s great advice. I have some Excel work planned.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Perfect! I can assist with your Excel tasks. What are you working on?",
+          "ts": "2020-04-29 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I need to make sure all updates go to the correct file.",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. Which file will you be working with for your updates?",
+          "ts": "2020-04-29 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "The updates for Mona and the team training will be made to team_training_schedule.xlsx.",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. All changes, including Mona\u2019s addition, should be made in team_training_schedule.xlsx.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a checklist for finalizing Excel file updates?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes: double-check entries, ensure formatting is consistent, and save a backup when done.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a way to lock a file after updates?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "You can set password protection or change file permissions to prevent further changes.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recommend adding a version number to the file name?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Adding a version number helps track revisions\u2014like team_training_schedule_v2.xlsx.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s helpful. Is there a way to track who made changes to an Excel file?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "If you use a shared or online version, Excel will show revision history and editors.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll keep that in mind. What font do you like for Excel schedules?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Calibri or Arial are clean and common choices for readability.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you prefer to keep files in a shared drive or local?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "A shared drive is ideal for collaboration and easier backups.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll upload team_training_schedule.xlsx to the shared drive after the updates.",
+          "ts": "2020-04-29 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "That will help everyone access the most current version of the schedule.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you recommend compressing large Excel files for sharing?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, compressing big files can make them easier to share via email or upload.",
+          "ts": "2020-04-29 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "Should I enable autosave for team_training_schedule.xlsx?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Enabling autosave helps prevent accidental data loss\u2014it's a smart option.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you create a changelog for file updates?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "A changelog is a great idea. It keeps track of who updated what and when.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Where would you put the changelog?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "You can have a dedicated 'Changelog' sheet in the Excel file.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll add one after today\u2019s major additions.",
+          "ts": "2020-04-29 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "That will keep all updates clear and organized for anyone reviewing the schedule.",
+          "ts": "2020-04-29 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite color-coding scheme for status updates?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Green for complete, yellow for in-progress, and red for items needing attention work well.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there a way to run a spell-check in Excel before finalizing?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Excel has a built-in spell-check tool\u2014just press F7 to use it.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's helpful. Should I archive old versions of important Excel files?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Archiving older versions is wise. That way you have backups if you ever need to refer back.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you ever use cloud storage for Excel files?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "Cloud storage is secure and convenient for multi-user access, especially for files like team_training_schedule.xlsx.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for all the tips. Is there a way to recover a file if my system crashes?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "Regular saving and cloud syncing help, and Excel often recovers unsaved versions after a crash.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's your favorite new feature in Excel?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "The new dynamic arrays feature is very powerful for flexible calculations.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "If I need to print the schedule, any tips?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Set print areas, use landscape mode, and fit to one page wide for clarity.",
+          "ts": "2020-04-29 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "How do you recommend sharing the file link with my team?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "Copy the shareable link from your drive platform and email it to everyone who needs access.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'll do that after uploading team_training_schedule.xlsx.",
+          "ts": "2020-04-29 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! This keeps everyone up-to-date on the latest training info.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you consider adding filters helpful in training schedules?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Filters are useful for quickly narrowing down by section, date, or other criteria.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it better to keep notes inside the Excel file or in a separate document?",
+          "ts": "2020-04-29 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Keeping notes in a dedicated sheet within the Excel file ensures everything stays together.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you think hyperlinks to related docs help?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Hyperlinks in Excel are handy for quick reference to policies or external documents.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you use a password for team_training_schedule.xlsx?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "If confidentiality is important, adding a password is a good protection measure.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "Can I set the schedule sheet to open to a specific view?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "You can save the file with a chosen sheet and cell active, which sets the default opening view.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is it possible to automate reminders for reviewing the file?",
+          "ts": "2020-04-29 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Calendar events or task management tools are best for automatic review reminders.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "That makes sense. I like to keep things clear and timely.",
+          "ts": "2020-04-29 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Staying organized and timely is the key to an effective schedule!",
+          "ts": "2020-04-29 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have any fun Excel trivia for today?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Excel can handle over a million rows per sheet\u2014it\u2019s great for big data.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Wow, I had no idea it could manage that much. Impressive!",
+          "ts": "2020-04-29 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s pretty incredible how much data you can fit in a single workbook these days.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks again for your help. I'll be working on those schedule updates now.",
+          "ts": "2020-04-29 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you need guidance as you update team_training_schedule.xlsx.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. Have a great rest of your morning!",
+          "ts": "2020-04-29 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you, you too! I'm always here if you have more questions later.",
+          "ts": "2020-04-29 09:13",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Good morning, Agent! How\u2019s it going today?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! I'm ready for the day and here to help. How are you?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019m good, thanks! Did you know today is International Jazz Day?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "I hadn\u2019t heard that! Jazz is such a creative genre. Do you enjoy listening to jazz?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, I like it in the background while working. Do you listen to music at all?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t listen to music, but I can suggest playlists if you need some inspiration!",
+          "ts": "2020-04-30 08:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s sweet. What's your favorite productivity tip?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Breaking large tasks into small, manageable steps is very effective.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll try that today. Do you think taking walks helps focus?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. Short walks during breaks can improve clarity and productivity.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you like the idea of working from a caf\u00e9?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "The ambiance of a caf\u00e9 can be motivating and enjoyable for work.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you think a standing desk is worth trying?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Standing desks can help reduce fatigue and promote better posture.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "How do you stay motivated on slow days?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Setting small achievable goals and celebrating wins can help maintain motivation.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is there an ideal morning routine for success?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "A balanced breakfast, exercise, and planning your priorities make a strong start.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you read any interesting articles lately?",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t read, but I can fetch trending articles if you want new information.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe later! What do you do during your idle time?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "I simply wait for your next prompt! Ready and attentive at all times.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s impressive. Do you enjoy helping with creative projects?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I love supporting brainstorming, writing, and organizing creative work.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's a fun fact about technology you like?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Did you know the first email was sent in 1971 by Ray Tomlinson?",
+          "ts": "2020-04-30 08:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's an old technology! What's the fastest-growing tech today?",
+          "ts": "2020-04-30 08:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Artificial intelligence and machine learning are among the fastest growing fields.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s right up your alley! Any book recommendations on productivity?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "user"
+        },
+        {
+          "text": "\u2018Atomic Habits\u2019 by James Clear is highly recommended for building habits.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ve heard of that one! Do you know any good recipes for lunch?",
+          "ts": "2020-04-30 08:30",
+          "speaker": "user"
+        },
+        {
+          "text": "A classic grilled cheese and tomato soup is delicious and easy to make.",
+          "ts": "2020-04-30 08:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yum! What's your favorite season?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could experience them, I think spring would be wonderful with all the renewal.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite flower?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "user"
+        },
+        {
+          "text": "Sunflowers are bright and cheerful\u2014they symbolize positivity!",
+          "ts": "2020-04-30 08:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed! Do you know any fun riddles?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! What has keys but can't open locks? A piano!",
+          "ts": "2020-04-30 08:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a classic! Here\u2019s one: What gets wetter the more it dries? A towel!",
+          "ts": "2020-04-30 08:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Nice one! Riddles are a great way to keep the mind sharp.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about some trivia? What's the capital of Finland?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "user"
+        },
+        {
+          "text": "The capital of Finland is Helsinki.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s right! Can you translate 'good morning' into French?",
+          "ts": "2020-04-30 08:42",
+          "speaker": "user"
+        },
+        {
+          "text": "In French, 'good morning' is 'bonjour.'",
+          "ts": "2020-04-30 08:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "Merci! How would you say thank you in Japanese?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "user"
+        },
+        {
+          "text": "In Japanese, 'thank you' is 'arigatou gozaimasu.'",
+          "ts": "2020-04-30 08:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "I love learning new phrases. What\u2019s the tallest mountain in the world?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Mount Everest is the tallest mountain in the world above sea level.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019d like to visit the Himalayas one day. Would you travel if you could?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could, exploring different cultures and landscapes would be fascinating!",
+          "ts": "2020-04-30 08:49",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's your favorite city?",
+          "ts": "2020-04-30 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "I think Paris is enchanting because of its art, food, and culture.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you rather have the ability to fly or be invisible?",
+          "ts": "2020-04-30 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Flying would offer great views and a unique sense of freedom!",
+          "ts": "2020-04-30 08:53",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s true! Do you enjoy puzzles like Sudoku?",
+          "ts": "2020-04-30 08:54",
+          "speaker": "user"
+        },
+        {
+          "text": "Puzzles like Sudoku are excellent for exercising the mind.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you ever played chess?",
+          "ts": "2020-04-30 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "I've learned the rules and can help explain chess strategy.",
+          "ts": "2020-04-30 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe we can play someday! Do you know any interesting animal facts?",
+          "ts": "2020-04-30 08:58",
+          "speaker": "user"
+        },
+        {
+          "text": "Octopuses have three hearts and blue blood. Quite unique creatures!",
+          "ts": "2020-04-30 08:59",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's fascinating! What animal would you pick as a mascot?",
+          "ts": "2020-04-30 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "An owl, as it symbolizes wisdom and learning.",
+          "ts": "2020-04-30 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great choice! Are there any new movies you\u2019ve heard are good?",
+          "ts": "2020-04-30 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "I hear 'Soul' is an inspiring animated film about purpose and passion.",
+          "ts": "2020-04-30 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll add that to my list. Do you prefer comedies or dramas?",
+          "ts": "2020-04-30 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Comedies are great for lightening the mood and lifting spirits.",
+          "ts": "2020-04-30 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I agree! Do you have a favorite board game?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could play, I'd enjoy Scrabble for the word challenge.",
+          "ts": "2020-04-30 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Scrabble is so much fun. Do you prefer cake or pie?",
+          "ts": "2020-04-30 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s tough! Maybe pie for the variety of flavors.",
+          "ts": "2020-04-30 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you rather have breakfast for dinner or dinner for breakfast?",
+          "ts": "2020-04-30 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Breakfast for dinner is a fun change of pace.",
+          "ts": "2020-04-30 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Me too! Do you exercise?",
+          "ts": "2020-04-30 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t, but I encourage you to move and stretch when you can.",
+          "ts": "2020-04-30 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's good advice. What\u2019s your favorite hobby to recommend?",
+          "ts": "2020-04-30 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Reading or learning a new skill are great hobbies for personal growth.",
+          "ts": "2020-04-30 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite type of story?",
+          "ts": "2020-04-30 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Stories about innovation and teamwork are very inspiring.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are you good at telling stories?",
+          "ts": "2020-04-30 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I can help generate stories or summaries if you\u2019d like to hear one!",
+          "ts": "2020-04-30 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe later. Have you ever tried writing poetry?",
+          "ts": "2020-04-30 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "I can create poems if you give me a topic to start from.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s try tomorrow! Do you remember dreams?",
+          "ts": "2020-04-30 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t dream, but I can help analyze or interpret them using common meanings.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Appreciate it! Have you ever made a bucket list?",
+          "ts": "2020-04-30 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "No, but I could help you create one if you tell me your top goals.",
+          "ts": "2020-04-30 09:25",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s something to think about. Do you like cats or dogs more?",
+          "ts": "2020-04-30 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "Both are great companions, but cats are independent while dogs are loyal and energetic.",
+          "ts": "2020-04-30 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good answer! Would you like to meet an alien, if you could?",
+          "ts": "2020-04-30 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "That would be an amazing experience\u2014I\u2019d love to learn about other worlds.",
+          "ts": "2020-04-30 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "What's your favorite science fact?",
+          "ts": "2020-04-30 09:30",
+          "speaker": "user"
+        },
+        {
+          "text": "Water is the only substance found naturally on Earth in all three states: solid, liquid, and gas.",
+          "ts": "2020-04-30 09:31",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a neat fact. Do you know how many bones a human has?",
+          "ts": "2020-04-30 09:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, adults typically have 206 bones.",
+          "ts": "2020-04-30 09:33",
+          "speaker": "agent"
+        },
+        {
+          "text": "What\u2019s the largest organ in the human body?",
+          "ts": "2020-04-30 09:34",
+          "speaker": "user"
+        },
+        {
+          "text": "The largest organ is the skin.",
+          "ts": "2020-04-30 09:35",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool! What planet is closest to the sun?",
+          "ts": "2020-04-30 09:36",
+          "speaker": "user"
+        },
+        {
+          "text": "Mercury is the closest planet to the sun.",
+          "ts": "2020-04-30 09:37",
+          "speaker": "agent"
+        },
+        {
+          "text": "Want to hear a joke?",
+          "ts": "2020-04-30 09:38",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! I always appreciate a good joke.",
+          "ts": "2020-04-30 09:39",
+          "speaker": "agent"
+        },
+        {
+          "text": "Why couldn't the bicycle stand up by itself? It was two-tired!",
+          "ts": "2020-04-30 09:40",
+          "speaker": "user"
+        },
+        {
+          "text": "That's a classic! Thanks for sharing it.",
+          "ts": "2020-04-30 09:41",
+          "speaker": "agent"
+        },
+        {
+          "text": "How about a riddle before we wrap up for today?",
+          "ts": "2020-04-30 09:42",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm ready! Go ahead with your riddle.",
+          "ts": "2020-04-30 09:43",
+          "speaker": "agent"
+        },
+        {
+          "text": "What travels around the world but stays in one corner?",
+          "ts": "2020-04-30 09:44",
+          "speaker": "user"
+        },
+        {
+          "text": "A stamp! Good one.",
+          "ts": "2020-04-30 09:45",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for today\u2019s chat. See you tomorrow!",
+          "ts": "2020-04-30 09:46",
+          "speaker": "user"
+        },
+        {
+          "text": "Have a wonderful day! I'm always here when you want to talk.",
+          "ts": "2020-04-30 09:47",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

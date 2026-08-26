@@ -1,0 +1,59 @@
+{
+    "task": "Create a company profile document containing the CEO's name, company address, and founding year. The document should be saved as company_profile.docx. Ensure that the CEO's name is Emily Taylor, the company address is 789 Innovation Blvd, Tech City, and the founding year is 2015.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/company_profile.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "Emily",
+                    "Taylor"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/company_profile.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "789",
+                    "Innovation",
+                    "Blvd",
+                    "Tech",
+                    "City"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/company_profile.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "2015"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a company profile document with relevant details and save it as a docx file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The company profile document should be saved as company_profile.docx."
+        },
+        {
+            "fact": "The CEO's name to include is Emily Taylor."
+        },
+        {
+            "fact": "The company address to include is 789 Innovation Blvd, Tech City."
+        },
+        {
+            "fact": "The founding year to include is 2015."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

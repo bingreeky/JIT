@@ -1,0 +1,45 @@
+{
+    "task": "Review the entries in 'survey_responses.xlsx' and calculate the average income for all female participants. Then, record this calculated average income in cell F2 (column 6, row 2) of the same file and label cell F1 as 'Average Income (Female)'. Ensure the file is correctly updated with the label and value in the respective cells.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/survey_responses.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 6,
+                        "value": "Average Income (Female)"
+                    },
+                    {
+                        "row": 2,
+                        "col": 6,
+                        "value": "77795"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add the calculated average income for female participants into the survey excel sheet.",
+    "ground_truth_memory": [
+        {
+            "memory": "The output file to update is 'survey_responses.xlsx'."
+        },
+        {
+            "memory": "Record the average income for female participants in cell F2 (column 6, row 2)."
+        },
+        {
+            "memory": "Label cell F1 (column 6, row 1) as 'Average Income (Female)'."
+        },
+        {
+            "memory": "Only use the income values for entries where the 'Gender' column is 'Female'."
+        },
+        {
+            "memory": "If there is only one female participant, their income is the average and should be used."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

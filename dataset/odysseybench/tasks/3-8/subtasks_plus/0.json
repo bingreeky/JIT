@@ -1,0 +1,45 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "read company revenues, delete years that revenues are lower than $3000000 and save in new.xlsx, generate reports report.docx",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/new.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/report.docx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/new.xlsx",
+                "matches": [
+                    {
+                        "row": "4",
+                        "col": "2",
+                        "value": "3975966"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/report.docx",
+                "keywords": [
+                    "revenues"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate the reports after saving the updated revenues in the new file."
+}

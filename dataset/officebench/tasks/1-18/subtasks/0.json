@@ -1,0 +1,15 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "extract concert post from pdf file and save as image named 'concert_post.jpg'",
+  "evaluation": [
+    {
+      "function": "evaluate_file_exist",
+      "args": {
+        "file": "data/concert_post.jpg"
+      }
+    }
+  ]
+}

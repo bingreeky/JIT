@@ -1,0 +1,260 @@
+{
+  "query": "I'm doing a major wardrobe overhaul and need to pick up a few things for every season. First, for summer, I'm looking for a popular item from Levi's that has a stock quantity greater than 200 and a total sales volume of more than 5000. Next, for the colder months, I need some black Down Pants suitable for winter; they should be a popular choice with a total sales volume over 3500. To round things out, I'm searching for a versatile all-seasons product. It must be highly rated, with an average score over 4.5 and more than 3000 total reviews. Since I need it quickly, the transport time has to be less than 2 days, and it should have a stock quantity of more than 800.",
+  "ground_truth_products": [
+    {
+      "product_id": "7f917c7b",
+      "name": "Men's Classic Summer Denim Shorts",
+      "price": 429.0,
+      "brand": "Levi's",
+      "color": "Light Blue",
+      "size": "XL",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 99
+        },
+        {
+          "material": "Spandex",
+          "percentage": 1
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Side Pockets, Zipper Closure, Distressed",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not bleach. Warm iron if needed.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 8500
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 480,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 90,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "8b33418e",
+      "name": "Men's Windproof Thermal Down Pants",
+      "price": 1299.0,
+      "brand": "Bosideng",
+      "color": "Black",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 50
+        },
+        {
+          "material": "Down",
+          "percentage": 45
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Hand wash recommended, or machine wash cold on gentle cycle. Do not bleach. Tumble dry low with tennis balls to fluff down.",
+      "sales_volume": {
+        "monthly": 412,
+        "total": 3580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 670,
+        "distribution": {
+          "5_star": 550,
+          "4_star": 95,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b454c339",
+      "name": "Men's All-Season Performance Joggers",
+      "price": 389.0,
+      "brand": "Li-Ning",
+      "color": "Wine Red",
+      "size": "XL",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 2315,
+        "total": 15480
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 4510,
+        "distribution": {
+          "5_star": 3820,
+          "4_star": 505,
+          "3_star": 135,
+          "2_star": 30,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Levi's, the stock quantity is greater than 200, the total sales volume is more than 5000, and it is suitable for Summer.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 215,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 5240,
+          "operator": "greater_than",
+          "operator_value": 5000.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Black, the total sales volume is more than 3500, they are suitable for Winter, and the name contains 'Down Pants'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 3580,
+          "operator": "greater_than",
+          "operator_value": 3500.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "name",
+          "value": "Men's Windproof Thermal Down Pants",
+          "operator": "contains",
+          "operator_value": "Down Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total number of reviews is more than 3000, the suitable season is All Seasons, transport time is less than 2, the average score is greater than 4.5, and stock quantity is more than 800.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 3150,
+          "operator": "greater_than",
+          "operator_value": 3000.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "stock_quantity",
+          "value": 850,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        }
+      ]
+    }
+  ]
+}

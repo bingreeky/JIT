@@ -1,0 +1,395 @@
+{
+  "query": "I'm getting my wardrobe ready for summer and need to buy a few specific things. First, I'm looking for a summer product with 'Canvas Slip-On' in its name. I want something well-reviewed, so it must have more than 300 total reviews, with over 200 of them being five-star, and fewer than 10 two-star and 20 three-star reviews. Next, I need a popular summer item from Nike, and since I'm in a hurry, it has to have a transport time of less than 2 days and more than 900 total reviews. I'm also searching for a product from Bosideng with over 1200 total reviews, a monthly sales volume exceeding 500, and fewer than 15 two-star reviews. To go with these, I need a popular black item with a stock quantity of more than 150 and a monthly sales volume over 300. Finally, I'm looking for a size L item from Peacebird with 'Overshirt' in the name, ensuring it has an average rating above 4.5, over 3500 in total sales, and fewer than 10 one-star reviews. Find me some products where the total price is no less than 3326 and no more than 3739.",
+  "ground_truth_products": [
+    {
+      "product_id": "d99d9d91",
+      "name": "Men's Canvas Slip-On Sneakers",
+      "price": 249.99,
+      "brand": "Uniqlo",
+      "color": "Dark Green",
+      "size": "43",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Printing",
+      "washing_instructions": "Spot clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 4850
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 312,
+        "distribution": {
+          "5_star": 220,
+          "4_star": 70,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "aaa2a2f8",
+      "name": "Men's Air Sprint Runner Shoes",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "White",
+      "size": "43",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1245,
+        "total": 15830
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 950,
+        "distribution": {
+          "5_star": 700,
+          "4_star": 200,
+          "3_star": 30,
+          "2_star": 15,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d90eeebd",
+      "name": "Men's Ultra-Light Packable Down Vest",
+      "price": 899.0,
+      "brand": "Bosideng",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Down",
+          "percentage": 90
+        },
+        {
+          "material": "Nylon",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Hand wash recommended. Do not bleach. Lay flat to dry. Do not iron.",
+      "sales_volume": {
+        "monthly": 920,
+        "total": 5400
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 1350,
+        "distribution": {
+          "5_star": 1215,
+          "4_star": 110,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "17d570a2",
+      "name": "Men's KT9 'Zen' Shock-Absorbing Basketball Sneakers",
+      "price": 849.9,
+      "brand": "Anta",
+      "color": "Black",
+      "size": "43",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1258,
+        "total": 18753
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1800,
+          "4_star": 250,
+          "3_star": 70,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "JD Logistics"
+      }
+    },
+    {
+      "product_id": "b7fa07ab",
+      "name": "Men's Vintage Utility Overshirt",
+      "price": 429.9,
+      "brand": "Peacebird",
+      "color": "Olive Green",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Button-down, Side Pockets, Vintage Wash, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 688,
+        "total": 3540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 976,
+        "distribution": {
+          "5_star": 781,
+          "4_star": 156,
+          "3_star": 29,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "Excellent quality",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with 'Canvas Slip-On' in the name, suitable for Summer, that have more than 300 total reviews, over 200 5-star reviews, less than 10 2-star reviews, and less than 20 3-star reviews.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 15
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 220
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 312
+        },
+        {
+          "field": "name",
+          "value": "Men's Canvas Slip-On Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total number of reviews is more than 900, the brand is Nike, the transport time is less than 2, and the suitable season is Summer.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 950
+        },
+        {
+          "field": "brand",
+          "value": "Nike"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Bosideng, the total number of reviews is more than 1200, the number of 2-star reviews is less than 15, and the monthly sales volume is more than 500.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 1235
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 520
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is more than 150, monthly sales volume is more than 300, and the color is Black.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 185
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 320
+        },
+        {
+          "field": "color",
+          "value": "Black"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Peacebird, the size is L, the average rating is above 4.5, the total sales volume is more than 3500, there are fewer than 10 one-star reviews, and the name contains 'Overshirt'.",
+      "features": [
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        },
+        {
+          "field": "brand",
+          "value": "Peacebird"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 3540
+        },
+        {
+          "field": "name",
+          "value": "Men's Vintage Utility Overshirt"
+        }
+      ]
+    }
+  ]
+}

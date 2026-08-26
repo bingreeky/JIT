@@ -1,0 +1,60 @@
+{
+    "task": "Add a new header 'Remark' as the fourth column in the score.xlsx file. For each student listed, assign a remark as follows: if either midterm1 or midterm2 is less than 65, enter 'Needs Improvement'; if both scores are 65 or higher, enter 'Good'. Apply this rule to all rows, including duplicate names. Make sure the new column is positioned correctly as column D.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 4,
+                        "value": "Remark"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 4,
+                        "value": "Good"
+                    },
+                    {
+                        "row": 3,
+                        "col": 4,
+                        "value": "Needs Improvement"
+                    },
+                    {
+                        "row": 7,
+                        "col": 4,
+                        "value": "Needs Improvement"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the score Excel file with remarks for each student based on their scores.",
+    "ground_truth_memory": [
+        {
+            "info": "Add a new header 'Remark' in column 4 of score.xlsx, after midterm2."
+        },
+        {
+            "info": "For any student with either midterm1 or midterm2 score below 65, record 'Needs Improvement'."
+        },
+        {
+            "info": "For students with both midterm scores 65 or higher, record 'Good'."
+        },
+        {
+            "info": "Apply the rules individually to all rows, even for duplicate names, without averaging or aggregation."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

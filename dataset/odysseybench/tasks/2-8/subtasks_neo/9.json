@@ -1,0 +1,42 @@
+{
+    "task": "Extract contact information from Bob and John's business card images ('Bob_card.png' and 'John_card.jpg') and create a summary Excel file named 'contact_summary.xlsx' containing one row for each of these contacts. Do not include any information from Tom's business card ('Tom_card.png') in the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/contact_summary.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "Bob",
+                    "John"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "file": "data/contact_summary.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "Tom"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary table in 'contact_summary.xlsx' with contact information extracted from all business cards except Tom's.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file for the summary should be named 'contact_summary.xlsx'."
+        },
+        {
+            "action_item": "Only include contact information from Bob and John's cards, and exclude Tom."
+        },
+        {
+            "fact": "Each contact should occupy a separate row in the summary Excel file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

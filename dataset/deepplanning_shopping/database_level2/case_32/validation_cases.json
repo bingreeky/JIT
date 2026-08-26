@@ -1,0 +1,390 @@
+{
+  "query": "I'm doing a big wardrobe refresh and need everything to arrive quickly. First, for the upcoming cold weather, I need a winter item from Columbia in Burgundy with an average score over 4.5 and a transport time of less than 2. For milder weather, I'm looking for a men's product for Spring/Autumn in Dark Green, also with a high average score over 4.5 and a stock quantity of more than 300. I also need a popular Grey item in size L that ships in less than 2; it must have a monthly sales volume over 1400 and more than 3000 total reviews. While I'm at it, I need another readily available product with a stock quantity over 300 and a transport time under 2, ensuring it's top quality with fewer than 5 one-star reviews. Finally, I'm searching for a specific all-seasons Dark Green item with 'Core Logo Tee' in its name that has more than 300 four-star reviews. Find me some products where the total price is no less than 2330 and no more than 3319.",
+  "ground_truth_products": [
+    {
+      "product_id": "46a0bf7e",
+      "name": "Men's Explorer Fleece-Lined Winter Trousers",
+      "price": 549.9,
+      "brand": "Columbia",
+      "color": "Burgundy",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 258,
+        "total": 1845
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 750,
+        "distribution": {
+          "5_star": 550,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b046fff7",
+      "name": "Men's Core Cargo Pants",
+      "price": 549.0,
+      "brand": "Vans",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 28
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Button-down, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 5620
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 985,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 180,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "dd364a23",
+      "name": "Men's Sportswear Tech Fleece Pullover",
+      "price": 329.0,
+      "brand": "Anta",
+      "color": "Grey",
+      "size": "L",
+      "stock_quantity": 780,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Do not bleach. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 1452,
+        "total": 18980
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3215,
+        "distribution": {
+          "5_star": 2590,
+          "4_star": 512,
+          "3_star": 85,
+          "2_star": 18,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "65c9ebd3",
+      "name": "Men's Explorer Stretch Trousers",
+      "price": 589.0,
+      "brand": "Columbia",
+      "color": "Olive Green",
+      "size": "L",
+      "stock_quantity": 450,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or use fabric softeners.",
+      "sales_volume": {
+        "monthly": 320,
+        "total": 2850
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 295,
+        "distribution": {
+          "5_star": 220,
+          "4_star": 55,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "420eed17",
+      "name": "Men's Essentials Core Logo Tee",
+      "price": 329.0,
+      "brand": "New Balance",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 40
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 15800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1720,
+          "4_star": 322,
+          "3_star": 65,
+          "2_star": 21,
+          "1_star": 22
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "JD Logistics"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2, the average score is greater than 4.5, the suitable season is Winter, the color is Burgundy, and the brand is Columbia.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "color",
+          "value": "Burgundy"
+        },
+        {
+          "field": "brand",
+          "value": "Columbia"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Spring/Autumn, the color is Dark Green, the average score is greater than 4.5, stock quantity is more than 300, and the target demographic is Men.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "color",
+          "value": "Dark Green"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "stock_quantity",
+          "value": 350
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is L, the color is Grey, the monthly sales volume is more than 1400, the transport time is less than 2, and the total number of reviews is greater than 3000.",
+      "features": [
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "color",
+          "value": "Grey"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1452
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 3215
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the number of 1-star reviews is less than 5, and the stock quantity is more than 300.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 4
+        },
+        {
+          "field": "stock_quantity",
+          "value": 312
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Dark Green, it is suitable for All Seasons, the name contains 'Core Logo Tee', and it has more than 300 4-star reviews.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Dark Green"
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 322
+        },
+        {
+          "field": "name",
+          "value": "Men's Essentials Core Logo Tee"
+        }
+      ]
+    }
+  ]
+}

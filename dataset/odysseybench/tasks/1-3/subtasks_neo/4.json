@@ -1,0 +1,30 @@
+{
+    "task": "Duplicate the Excel file 'file3.xlsx' and rename the copy as 'backup_file3.xlsx' in the same directory.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/backup_file3.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/file3.xlsx"
+            }
+        }
+    ],
+    "query_sentence": "Create a duplicate of the specified Excel file and rename it.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Excel file to duplicate is named 'file3.xlsx'."
+        },
+        {
+            "action_item": "The new copy must be named 'backup_file3.xlsx' and placed in the same directory as the original."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

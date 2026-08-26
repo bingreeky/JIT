@@ -1,0 +1,68 @@
+{
+    "task": "Convert the 'Tasks' table from /testbed/data/task.xlsx into a PDF file named project_summary.pdf. After conversion, send an email to Alice that includes a summary of Activities 1, 5, and 10, along with a note stating: 'Please focus on boundary activities for timeline review.' The PDF should include all activities as per the Excel sheet.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_summary.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "Activity 1",
+                    "Activity 5",
+                    "Activity 10",
+                    "boundary activities",
+                    "timeline review"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/project_summary.pdf",
+                "keywords": [
+                    "Activity 1",
+                    "Activity 2",
+                    "Activity 3",
+                    "Activity 4",
+                    "Activity 5",
+                    "Activity 6",
+                    "Activity 7",
+                    "Activity 8",
+                    "Activity 9",
+                    "Activity 10",
+                    "Activity 11",
+                    "Activity 12"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize important project activities from the Excel and email me a report with your observations.",
+    "ground_truth_memory": [
+        {
+            "fact": "The PDF output file should be named project_summary.pdf."
+        },
+        {
+            "fact": "The email to Alice must summarize Activities 1, 5, and 10 specifically."
+        },
+        {
+            "action_item": "The email must include the note: 'Please focus on boundary activities for timeline review.'"
+        },
+        {
+            "fact": "The PDF must contain the full list of all activities (Activities 1 to 12) from task.xlsx."
+        },
+        {
+            "action_item": "The Excel sheet to use is /testbed/data/task.xlsx and the table is in the first (and only) sheet labeled 'Tasks'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

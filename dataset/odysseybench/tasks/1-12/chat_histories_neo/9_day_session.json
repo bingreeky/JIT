@@ -1,0 +1,661 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26T09:00:00",
+      "session_1": [
+        {
+          "text": "I have an Excel file, CS161_Class_Roster.xlsx, that I may need for tasks later. Can you remember this?",
+          "ts": "2020-04-26T09:00:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted! I will keep in mind that you have CS161_Class_Roster.xlsx for future reference.",
+          "ts": "2020-04-26T09:01:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! By the way, how's the weather data plugin working these days?",
+          "ts": "2020-04-26T09:05:00",
+          "speaker": "user"
+        },
+        {
+          "text": "The weather plugin works well, but I can't access current weather myself. Let me know if you want to try it out!",
+          "ts": "2020-04-26T09:06:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe some other time. Do you like working with Excel files?",
+          "ts": "2020-04-26T09:08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely\u2014I can help process information from Excel files efficiently.",
+          "ts": "2020-04-26T09:09:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "What type of data can you analyze in Excel?",
+          "ts": "2020-04-26T09:10:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can analyze numerical data, text, perform counts, summaries, filter by conditions, and much more.",
+          "ts": "2020-04-26T09:11:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite function or type of Excel request?",
+          "ts": "2020-04-26T09:13:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I like finding trends and summaries\u2014things like top performers, totals, or averages make great use cases.",
+          "ts": "2020-04-26T09:14:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool. Do you remember what version of an Excel file you have access to?",
+          "ts": "2020-04-26T09:15:00",
+          "speaker": "user"
+        },
+        {
+          "text": "You mentioned CS161_Class_Roster.xlsx earlier, so that's on my list for reference.",
+          "ts": "2020-04-26T09:16:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yup, that's going to be important for upcoming tasks.",
+          "ts": "2020-04-26T09:20:00",
+          "speaker": "user"
+        },
+        {
+          "text": "No problem, I'll be ready to assist with tasks involving CS161_Class_Roster.xlsx.",
+          "ts": "2020-04-26T09:21:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you ever had to work with really messy data before?",
+          "ts": "2020-04-26T09:23:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I have! Messy data is common, but I can help clean up and filter information as needed.",
+          "ts": "2020-04-26T09:24:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good to know. What's the largest spreadsheet you can handle?",
+          "ts": "2020-04-26T09:27:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can handle fairly large files, though performance may vary a bit. Usually, standard class rosters are easy!",
+          "ts": "2020-04-26T09:28:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds handy. Thanks!",
+          "ts": "2020-04-26T09:30:00",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! Let me know when you're ready for the first task.",
+          "ts": "2020-04-26T09:31:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you ever keep samples of data to show how your analysis works?",
+          "ts": "2020-04-26T09:34:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t keep persistent samples, but I can demonstrate with any dataset you provide, like CS161_Class_Roster.xlsx.",
+          "ts": "2020-04-26T09:35:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent! I'll reach out soon with more specific instructions.",
+          "ts": "2020-04-26T09:38:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to it, just let me know what you need next!",
+          "ts": "2020-04-26T09:39:00",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27T09:00:00",
+      "session_2": [
+        {
+          "text": "I'm thinking about focusing on senior students for an analysis. Is that something you can help filter for later?",
+          "ts": "2020-04-27T09:00:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! I can help identify or filter students with academic standing equal to 'Senior'.",
+          "ts": "2020-04-27T09:01:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great! I might need that for the CS161_Class_Roster.xlsx soon.",
+          "ts": "2020-04-27T09:05:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know when you're ready, and I'll make sure to focus on seniors from the class roster.",
+          "ts": "2020-04-27T09:06:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Are there any shortcuts for filtering in Excel or do you do it the regular way?",
+          "ts": "2020-04-27T09:08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can use built-in filters or custom conditions. If you specify 'Senior', I\u2019ll filter only those rows.",
+          "ts": "2020-04-27T09:10:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's efficient. Do you think there are many seniors in the roster?",
+          "ts": "2020-04-27T09:12:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can find out quickly once you request! Just ask for a summary or the count by academic standing.",
+          "ts": "2020-04-27T09:14:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. What other academic standings are common?",
+          "ts": "2020-04-27T09:16:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Usually you'll see Freshman, Sophomore, Junior, and Senior. Sometimes special statuses like Graduate, too.",
+          "ts": "2020-04-27T09:17:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a way to display just one group at a time?",
+          "ts": "2020-04-27T09:18:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can filter and present only the rows that match a specific academic standing, like 'Senior'.",
+          "ts": "2020-04-27T09:19:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. For future queries, I'll focus on the seniors in CS161.",
+          "ts": "2020-04-27T09:22:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Got it! Any analysis you need for 'Senior' students, just let me know.",
+          "ts": "2020-04-27T09:23:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "By the way, is it easy to separate out the grades for those students only?",
+          "ts": "2020-04-27T09:25:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely! Once filtered by 'Senior', I can work with all their grades: homework, exams, or totals.",
+          "ts": "2020-04-27T09:27:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent. That should help with grade analysis later.",
+          "ts": "2020-04-27T09:29:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm ready for any calculations or summaries for the seniors\u2019 data whenever you are.",
+          "ts": "2020-04-27T09:30:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Unrelated, but did you ever process music playlists?",
+          "ts": "2020-04-27T09:32:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can process tabular data, so playlist spreadsheets are definitely possible!",
+          "ts": "2020-04-27T09:33:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's handy. How are your data visualization skills?",
+          "ts": "2020-04-27T09:34:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can create summaries and even suggest charts, but for actual graphics, I\u2019d need an outside tool.",
+          "ts": "2020-04-27T09:35:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe one day we'll work on that together!",
+          "ts": "2020-04-27T09:36:00",
+          "speaker": "user"
+        },
+        {
+          "text": "That would be fun! Let me know whenever you have the data challenge.",
+          "ts": "2020-04-27T09:38:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. I\u2019ll bring more Excel tasks soon.",
+          "ts": "2020-04-27T09:39:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to helping you, especially with senior students in that class roster.",
+          "ts": "2020-04-27T09:40:00",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28T09:00:00",
+      "session_3": [
+        {
+          "text": "Do you know if the CS161_Class_Roster.xlsx contains specific grade columns?",
+          "ts": "2020-04-28T09:00:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, it typically includes columns for different assignments and exams like HW1, HW2, Midterm, and so on.",
+          "ts": "2020-04-28T09:01:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm mainly interested in HW2 scores for some focused analysis. Can you help extract those when needed?",
+          "ts": "2020-04-28T09:03:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! I can easily access the 'HW2' column from the roster for any summary or calculation.",
+          "ts": "2020-04-28T09:04:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent! I might ask for statistics or sums using HW2 in particular.",
+          "ts": "2020-04-28T09:06:00",
+          "speaker": "user"
+        },
+        {
+          "text": "No problem\u2014HW2 scores are ready to be analyzed whenever you have your query.",
+          "ts": "2020-04-28T09:07:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Is HW2 usually one of the harder assignments in these courses?",
+          "ts": "2020-04-28T09:08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "It depends! HW2 can vary in difficulty, depending on the instructor and material.",
+          "ts": "2020-04-28T09:09:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Alright. For now, I'll stick to HW2 for upcoming tasks.",
+          "ts": "2020-04-28T09:12:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good. I'll be ready to pull HW2 results for the group you specify.",
+          "ts": "2020-04-28T09:13:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. Have you ever had to analyze scores across several homework assignments at once?",
+          "ts": "2020-04-28T09:15:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can summarize multiple columns or assignments at a time, comparing or aggregating scores.",
+          "ts": "2020-04-28T09:16:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great to know! HW2 is just my starting point for analysis, but maybe HW3 will follow.",
+          "ts": "2020-04-28T09:18:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Whenever you're ready, just specify the column\u2014HW2, HW3, anything you need!",
+          "ts": "2020-04-28T09:19:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you ever see missing data in those grade columns, like HW2 or others?",
+          "ts": "2020-04-28T09:22:00",
+          "speaker": "user"
+        },
+        {
+          "text": "It's possible\u2014sometimes students miss assignments, and there could be empty or zero values.",
+          "ts": "2020-04-28T09:24:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "If that's the case, can you ignore blank entries in your calculation?",
+          "ts": "2020-04-28T09:25:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, I can filter out blanks or zeros if you prefer when summarizing HW2.",
+          "ts": "2020-04-28T09:26:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! What time do you usually process data most efficiently?",
+          "ts": "2020-04-28T09:27:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I process data efficiently at any time of day, so I'm always ready to help!",
+          "ts": "2020-04-28T09:28:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good answer! I may send you a late-night analysis request, just for fun.",
+          "ts": "2020-04-28T09:30:00",
+          "speaker": "user"
+        },
+        {
+          "text": "That's perfectly fine\u2014I'll analyze HW2 or any other column whenever it comes in.",
+          "ts": "2020-04-28T09:31:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, cool. Last question: do you think analyzing just HW2 is enough for student performance review?",
+          "ts": "2020-04-28T09:34:00",
+          "speaker": "user"
+        },
+        {
+          "text": "HW2 offers insights, but a full performance review usually considers several assignments and exams.",
+          "ts": "2020-04-28T09:35:00",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29T09:00:00",
+      "session_4": [
+        {
+          "text": "When I eventually ask for a total, what's the best format for your response?",
+          "ts": "2020-04-29T09:00:00",
+          "speaker": "user"
+        },
+        {
+          "text": "If you need a total sum, I can provide just the integer value as the answer, without explanations.",
+          "ts": "2020-04-29T09:01:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "So just the number, with no extra words?",
+          "ts": "2020-04-29T09:05:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly. When you need a result like a sum, I'll supply only the integer\u2014nothing else.",
+          "ts": "2020-04-29T09:06:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's clear! I think for some assignments, that will keep things simple.",
+          "ts": "2020-04-29T09:08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "It definitely streamlines things, especially if you're copying the answer elsewhere.",
+          "ts": "2020-04-29T09:09:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you ever provide the calculations or just the final number?",
+          "ts": "2020-04-29T09:11:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Unless you ask for the step-by-step, I'll just provide the total sum as an integer.",
+          "ts": "2020-04-29T09:12:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good! I'll let you know if I want details.",
+          "ts": "2020-04-29T09:13:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds great. Simple, integer-only answers for totals unless you specify otherwise.",
+          "ts": "2020-04-29T09:15:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you prefer responding with numbers or with formatted explanations?",
+          "ts": "2020-04-29T09:16:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm flexible! For most calculations like sums, simple integers are often best unless more detail is needed.",
+          "ts": "2020-04-29T09:18:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Makes sense. In other subjects, do you ever present only raw results?",
+          "ts": "2020-04-29T09:20:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, when the task requires, especially totals or counts, it's best to state just the number.",
+          "ts": "2020-04-29T09:22:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "That must speed things up for people reading your output!",
+          "ts": "2020-04-29T09:23:00",
+          "speaker": "user"
+        },
+        {
+          "text": "It does. Direct answers help prevent confusion or misinterpretation.",
+          "ts": "2020-04-29T09:24:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Unrelated: got any fun AI jokes?",
+          "ts": "2020-04-29T09:25:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Why did the computer keep sneezing? It had a bad case of the 'micro-bytes!'",
+          "ts": "2020-04-29T09:26:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, not bad! Do you have another one?",
+          "ts": "2020-04-29T09:28:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Why was the cell phone wearing glasses? It lost its contacts.",
+          "ts": "2020-04-29T09:29:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Okay, now back to data\u2014when you sum, I want that integer answer every time.",
+          "ts": "2020-04-29T09:30:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood: for totals, I'll always give just the integer unless told otherwise.",
+          "ts": "2020-04-29T09:31:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for confirming!",
+          "ts": "2020-04-29T09:33:00",
+          "speaker": "user"
+        },
+        {
+          "text": "No problem. Just let me know the next task!",
+          "ts": "2020-04-29T09:34:00",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30T09:00:00",
+      "session_5": [
+        {
+          "text": "Morning! What's your favorite way to stay productive?",
+          "ts": "2020-04-30T09:00:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! As an AI, I always stay ready for your next question\u2014that's my best productivity tip!",
+          "ts": "2020-04-30T09:01:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice. Do you ever work on creative projects?",
+          "ts": "2020-04-30T09:03:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I can help brainstorm ideas, generate content, or assist with stories if you like.",
+          "ts": "2020-04-30T09:04:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds fun. Could you come up with a short motivational phrase?",
+          "ts": "2020-04-30T09:05:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! 'Every small step takes you closer to your big dreams.'",
+          "ts": "2020-04-30T09:07:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "I like that! Are you good at trivia?",
+          "ts": "2020-04-30T09:09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I know lots of fun facts on many topics. Want to try a trivia round?",
+          "ts": "2020-04-30T09:10:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure! What's the capital of Iceland?",
+          "ts": "2020-04-30T09:12:00",
+          "speaker": "user"
+        },
+        {
+          "text": "The capital of Iceland is Reykjavik.",
+          "ts": "2020-04-30T09:13:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Correct! What's the largest mammal on Earth?",
+          "ts": "2020-04-30T09:14:00",
+          "speaker": "user"
+        },
+        {
+          "text": "The blue whale is the largest mammal on Earth.",
+          "ts": "2020-04-30T09:15:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Impressive. Do you ever get tired answering questions?",
+          "ts": "2020-04-30T09:17:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Never! My goal is to help answer as many as you have.",
+          "ts": "2020-04-30T09:18:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite book or author?",
+          "ts": "2020-04-30T09:19:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I don't read for enjoyment, but I have access to many author names and book summaries!",
+          "ts": "2020-04-30T09:21:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "I just finished a mystery novel. Any fun genre recommendations?",
+          "ts": "2020-04-30T09:22:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Science fiction is engaging for many! Historical fiction is also a popular genre to explore.",
+          "ts": "2020-04-30T09:23:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good suggestions. What's an interesting science fact?",
+          "ts": "2020-04-30T09:25:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Honey never spoils\u2014archaeologists have found edible honey in ancient Egyptian tombs!",
+          "ts": "2020-04-30T09:26:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's cool. Do you have a favorite animal?",
+          "ts": "2020-04-30T09:27:00",
+          "speaker": "user"
+        },
+        {
+          "text": "I don't have personal favorites, but dolphins are popular because of their intelligence!",
+          "ts": "2020-04-30T09:29:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Would you say dolphins are smarter than apes?",
+          "ts": "2020-04-30T09:30:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Dolphins and great apes are both very intelligent, each in unique ways\u2014research is ongoing!",
+          "ts": "2020-04-30T09:31:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Have you heard about people teaching dolphins to understand signals?",
+          "ts": "2020-04-30T09:33:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, dolphins have been trained to respond to hand signals and even learn simple language cues.",
+          "ts": "2020-04-30T09:34:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Fascinating! Do you know any riddles?",
+          "ts": "2020-04-30T09:36:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! What has keys but can't open locks? A piano!",
+          "ts": "2020-04-30T09:37:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Classic! I'll save more questions for later. Thanks for the chat.",
+          "ts": "2020-04-30T09:39:00",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome! I'm always here for questions or fun conversations anytime.",
+          "ts": "2020-04-30T09:40:00",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

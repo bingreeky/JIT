@@ -1,0 +1,49 @@
+{
+    "task": "Extract Tom's contact information from /testbed/data/Tom_card.png using OCR. Add Tom's details to data/contact.xlsx, ensuring the following fields and values are added: Name - 'Tom', Phone - '+1 (689) 123-4567', Email - 'tom@example.com', Address - '809 River street, A Murray, USA'. After updating contact.xlsx, email the file to manager Alice. The email subject should be 'Tom Contact Update', and the content should briefly introduce Tom's contact information to Alice.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/contact.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "emails/Bob/Tom_Contact_Update.eml"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "Alice",
+                    "Tom",
+                    "+1 (689) 123-4567",
+                    "tom@example.com",
+                    "809 River street",
+                    "Contact",
+                    "Update"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract contact details from Tom's card, add them to the contacts Excel file, and notify Alice via email with the updated information.",
+    "ground_truth_memory": [
+        {
+            "fact": "Tom's contact details are: Name - Tom, Phone - +1 (689) 123-4567, Email - tom@example.com, Address - 809 River street, A Murray, USA."
+        },
+        {
+            "action_item": "The OCR data from Tom's card needs to be entered into data/contact.xlsx in the appropriate columns for Name, Phone, Email, and Address."
+        },
+        {
+            "action_item": "After updating contact.xlsx, email the updated file to Alice with subject 'Tom Contact Update' and a message introducing Tom's contact information."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

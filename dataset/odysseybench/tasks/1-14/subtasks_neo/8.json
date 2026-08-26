@@ -1,0 +1,42 @@
+{
+    "task": "Add a new row labeled 'allowance' with the amount 15000 to the salary.xlsx file. Ensure that the row is added in a new row, with 'allowance' in the first column and 15000 in the second column. No other changes should be made to the existing content.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "allowance"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "15000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the salary spreadsheet with the required information.",
+    "ground_truth_memory": [
+        {
+            "file_name": "salary.xlsx"
+        },
+        {
+            "row_label_to_add": "allowance"
+        },
+        {
+            "amount_to_add": "15000"
+        },
+        {
+            "row_for_update_should_be_new": true
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

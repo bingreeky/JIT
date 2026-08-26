@@ -1,0 +1,59 @@
+{
+    "task": "Update the team_training_schedule.xlsx file with a new training session for a new member named Mia in Section A with the training time 9:00 AM - 11:00 AM and score 90. Then, update Bob's score in Section B from 95 to 97 in the same file. Finally, add a note in the 'Name' column for Carol, in Section C, to append '(Team Lead)' after her name, making it 'Carol (Team Lead)'.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_training_schedule.xlsx",
+                "matches": [
+                    {
+                        "row": 14,
+                        "col": 1,
+                        "value": "Mia"
+                    },
+                    {
+                        "row": 14,
+                        "col": 2,
+                        "value": "Section A"
+                    },
+                    {
+                        "row": 14,
+                        "col": 3,
+                        "value": "9:00 AM - 11:00 AM"
+                    },
+                    {
+                        "row": 14,
+                        "col": 4,
+                        "value": "90"
+                    },
+                    {
+                        "row": 3,
+                        "col": 4,
+                        "value": "97"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Carol (Team Lead)"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the training schedule with the new member, make necessary score corrections, and annotate the team lead in the file.",
+    "ground_truth_memory": [
+        {
+            "memory_item": "A new member named Mia is to be added to Section A with training time 9:00 AM - 11:00 AM and score 90, as a new row at the bottom of team_training_schedule.xlsx."
+        },
+        {
+            "memory_item": "Bob's score in Section B should be updated from 95 to 97 in team_training_schedule.xlsx."
+        },
+        {
+            "memory_item": "Modify Carol's name in Section C by appending '(Team Lead)' so it reads 'Carol (Team Lead)' in team_training_schedule.xlsx."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

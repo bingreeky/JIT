@@ -1,0 +1,42 @@
+{
+    "task": "Add a new row labeled 'total yearly compensation after tax' to the end of the salary Excel file. The compensation should be the sum of base, stock, and bonus, minus 30% tax. Enter the value in the correct cell, rounding down to the nearest integer with no decimal.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "total yearly compensation after tax"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "280000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Include the total yearly compensation after tax in the last row of the salary Excel file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new label for the row is 'total yearly compensation after tax'."
+        },
+        {
+            "fact": "The total compensation is calculated as (base + stock + bonus) minus 30% tax."
+        },
+        {
+            "fact": "The total compensation value should be rounded down to the nearest integer with no decimal."
+        },
+        {
+            "fact": "The value should be added to the last row as the second column under 'amount'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

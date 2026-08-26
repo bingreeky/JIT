@@ -1,0 +1,50 @@
+{
+    "task": "Create a summary document called 'honor_roll_courses.docx' that lists all courses from Bill_course_lists.xlsx where the Course Grade is 'A' or 'A-', grouped by academic term (e.g., Winter 2022, Spring 2022, etc.). Each group should be labeled with the term, and under each label, the relevant course names with grades should be listed (e.g., 'CS 101 (A)').",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/honor_roll_courses.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Winter 2022",
+                    "CS 101 (A)",
+                    "PHYS 101 (A-)",
+                    "Spring 2022",
+                    "CS 102 (A)",
+                    "PHYS 102 (A-)",
+                    "Fall 2022",
+                    "MATH 152 (A)",
+                    "Winter 2023",
+                    "CS 104 (A-)",
+                    "MATH 250 (A)",
+                    "Spring 2023",
+                    "CS 105 (A)",
+                    "PHYS 105 (A-)"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a summary document of all courses where the grade is A or A-, grouped by academic term, and save it with the correct file name.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output document should be named honor_roll_courses.docx."
+        },
+        {
+            "action_item": "Group selected courses by academic term (e.g., Winter 2022, Spring 2022, etc.) as section headers."
+        },
+        {
+            "action_item": "For each term, list only those courses from Bill_course_lists.xlsx where the Course Grade is A or A-."
+        },
+        {
+            "action_item": "Include the course name and grade in parentheses, e.g., CS 101 (A), PHYS 101 (A-)."
+        },
+        {
+            "action_item": "Skip other grades; do not include courses with grades other than A or A-."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

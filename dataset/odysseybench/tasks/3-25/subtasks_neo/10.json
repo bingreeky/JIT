@@ -1,0 +1,30 @@
+{
+    "task": "Scan the content of homework.jpg, save the recognized text into a Word file named 'homework.docx', and then export that Word file as a PDF named 'new_homework.pdf'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/homework.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/new_homework.pdf"
+            }
+        }
+    ],
+    "query_sentence": "Scan the homework and save the word file as a PDF.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output Word file should be named 'homework.docx'."
+        },
+        {
+            "fact": "The PDF should be saved as 'new_homework.pdf'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

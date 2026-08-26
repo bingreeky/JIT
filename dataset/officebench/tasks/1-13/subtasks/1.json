@@ -1,0 +1,19 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Given an Excel containing student's previous courses, is he/she qualified for transfering major to CS if student need to take at least 5 CS courses for transfering to CS major? Answer should be 'Yes' or 'No'.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "txt",
+                "file": "./data/answer.txt",
+                "keywords": [
+                    "Yes"
+                ]
+            }
+        }
+    ]
+}

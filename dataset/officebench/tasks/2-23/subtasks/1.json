@@ -1,0 +1,20 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Check the total due in Invoice_2.pdf and save it in costs.xlsx",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/costs.xlsx",
+        "doc_type": "xlsx",
+        "keywords": [
+          "1389.99"
+        ]
+
+      }
+    }
+  ]
+}

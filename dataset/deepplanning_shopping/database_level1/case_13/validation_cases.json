@@ -1,0 +1,343 @@
+{
+  "query": "I'm doing some urgent online shopping for myself and need a few things delivered quickly. First, I'm looking for a product from the 'Trefoil Series' with an average rating over 4.5. It must be in stock with a quantity of more than 800, and crucially, the transport time has to be less than 2. Next, for the winter, I need a popular beige item from Under Armour in size 42 that has a total sales volume of more than 2400. I also need a men's item from the Salomon brand that's highly-rated, with fewer than 5 two-star reviews and a transport time under 2. Lastly, I'm looking for another men's item in size 42, this time from Vans, which also needs a transport time of less than 2.",
+  "ground_truth_products": [
+    {
+      "product_id": "e2e76cfd",
+      "name": "Men's Trefoil Series Performance Top",
+      "price": 449.0,
+      "brand": "Adidas",
+      "color": "Gold",
+      "size": "L",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 2150,
+        "total": 25800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2650,
+        "distribution": {
+          "5_star": 2200,
+          "4_star": 350,
+          "3_star": 65,
+          "2_star": 20,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "446c53de",
+      "name": "Men's Forge Winter Trail Boots",
+      "price": 899.0,
+      "brand": "Under Armour",
+      "color": "Beige",
+      "size": "42",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or immerse in water. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 312,
+        "total": 2480
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 310,
+          "4_star": 95,
+          "3_star": 25,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "9a6bae53",
+      "name": "Men's Agile All-Season Trail Pants",
+      "price": 749.9,
+      "brand": "Salomon",
+      "color": "Red",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not iron or bleach.",
+      "sales_volume": {
+        "monthly": 530,
+        "total": 6890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 452,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "a7c188fa",
+      "name": "Men's Old Skool Classic Skate Shoes",
+      "price": 549.9,
+      "brand": "Vans",
+      "color": "Light Blue",
+      "size": "42",
+      "stock_quantity": 480,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 15600
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1254,
+        "distribution": {
+          "5_star": 1053,
+          "4_star": 151,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the name contains 'Trefoil Series', the average rating is greater than 4.5, the stock quantity is more than 800, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "stock_quantity",
+          "value": 850,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Trefoil Series Performance Top",
+          "operator": "contains",
+          "operator_value": "Trefoil Series"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total sales volume is more than 2400, the color is Beige, the brand is Under Armour, the suitable season is Winter, and the size is 42.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 2480,
+          "operator": "greater_than",
+          "operator_value": 2400.0
+        },
+        {
+          "field": "color",
+          "value": "Beige",
+          "operator": "equals",
+          "operator_value": "Beige"
+        },
+        {
+          "field": "brand",
+          "value": "Under Armour",
+          "operator": "equals",
+          "operator_value": "Under Armour"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "size",
+          "value": "42",
+          "operator": "equals",
+          "operator_value": "42"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Salomon, the target demographic is Men, the number of 2-star reviews is less than 5, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Salomon",
+          "operator": "equals",
+          "operator_value": "Salomon"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the size is 42, the brand is Vans, and the target demographic is Men.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "size",
+          "value": "42",
+          "operator": "equals",
+          "operator_value": "42"
+        },
+        {
+          "field": "brand",
+          "value": "Vans",
+          "operator": "equals",
+          "operator_value": "Vans"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        }
+      ]
+    }
+  ]
+}

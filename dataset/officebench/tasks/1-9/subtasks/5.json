@@ -1,0 +1,27 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "calculate item average weight, write in the bottom row in shopping list excel file with header 'Average'",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/shopping_list.xlsx",
+        "matches": [
+          {
+            "row": "5",
+            "col": "1",
+            "value": "Average"
+          },
+          {
+            "row": "5",
+            "col": "2",
+            "value": "2"
+          }
+        ]
+      }
+    }
+  ]
+}

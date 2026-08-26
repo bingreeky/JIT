@@ -1,0 +1,320 @@
+{
+  "query": "I'm in a hurry to get a few things, so everything I'm looking for needs a transport time of less than 2 days. First, I need a popular product with more than 850 total reviews, a monthly sales volume over 200, and excellent ratings—specifically, fewer than 15 two-star and fewer than 25 three-star reviews. Next, I'm searching for a specific women's item from Gucci: the white 'Ace Leather Sneaker'. I also need a light grey item from the brand Anta that's a bestseller, so it must have a monthly sales volume of more than 1200 and less than 25 two-star reviews. Lastly, I'm looking for a very popular women's product that has a total sales volume of more than 6000 and over 1200 total reviews. Please help me find options that fall within a budget of 8316 to 8615.",
+  "ground_truth_products": [
+    {
+      "product_id": "2bc8b4d6",
+      "name": "Women's VECTIV™ All-Weather Hiking Shoes",
+      "price": 1299.0,
+      "brand": "The North Face",
+      "color": "Camel",
+      "size": "37",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 245,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 105,
+          "3_star": 20,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "bd2ae22d",
+      "name": "Gucci Women's Ace Leather Sneaker",
+      "price": 6200.0,
+      "brand": "Gucci",
+      "color": "White",
+      "size": "37",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Printing, Patchwork",
+      "washing_instructions": "Professional cleaning recommended. Wipe with a soft, dry cloth. Avoid contact with water and harsh chemicals.",
+      "sales_volume": {
+        "monthly": 150,
+        "total": 2350
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 789,
+        "distribution": {
+          "5_star": 680,
+          "4_star": 80,
+          "3_star": 19,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "11970f11",
+      "name": "Women's Urban Explorer Tech Pants",
+      "price": 389.0,
+      "brand": "Anta",
+      "color": "Light Grey",
+      "size": "S",
+      "stock_quantity": 1152,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low or hang dry.",
+      "sales_volume": {
+        "monthly": 1240,
+        "total": 8950
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 658,
+        "distribution": {
+          "5_star": 460,
+          "4_star": 132,
+          "3_star": 33,
+          "2_star": 20,
+          "1_star": 13
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e6462723",
+      "name": "Women's HeatGear Armour Mesh Leggings",
+      "price": 429.0,
+      "brand": "Under Armour",
+      "color": "Wine Red",
+      "size": "S",
+      "stock_quantity": 480,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 87
+        },
+        {
+          "material": "Spandex",
+          "percentage": 13
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Patchwork, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softeners.",
+      "sales_volume": {
+        "monthly": 1152,
+        "total": 14890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1563,
+        "distribution": {
+          "5_star": 1250,
+          "4_star": 245,
+          "3_star": 48,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with a transport time of less than 2, more than 850 total reviews, fewer than 25 3-star reviews, a monthly sales volume greater than 200, and fewer than 15 2-star reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 890
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 20
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 245
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Gucci, the target demographic is Women, the color is White, the name contains 'Ace Leather Sneaker', and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "color",
+          "value": "White"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Gucci"
+        },
+        {
+          "field": "name",
+          "value": "Gucci Women's Ace Leather Sneaker"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Anta, the color is Light Grey, the monthly sales volume is more than 1200, the number of 2-star reviews is less than 25, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 1240
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 20
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Anta"
+        },
+        {
+          "field": "color",
+          "value": "Light Grey"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, total sales volume is more than 6000, the target demographic is Women, and there are more than 1200 total reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 6280
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1245
+        }
+      ]
+    }
+  ]
+}

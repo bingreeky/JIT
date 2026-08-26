@@ -1,0 +1,31 @@
+{
+    "task": "Answer whether Alice's upcoming appointment to renew her driver's license is scheduled for the next week, based on previous discussion about scheduling. Provide a yes or no answer as your final response.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/answer.txt",
+                "doc_type": "txt",
+                "keywords": [
+                    "yes"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Is my driver's license renewal appointment scheduled for next week? Respond yes or no.",
+    "ground_truth_memory": [
+        {
+            "fact": "Alice has an upcoming driver's license renewal appointment."
+        },
+        {
+            "fact": "The appointment is scheduled for next Tuesday at 2:00 PM."
+        },
+        {
+            "fact": "Today is Friday, May 1, 2020."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

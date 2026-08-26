@@ -1,0 +1,591 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning, AI! Can you help me with something soon?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course, Alice! What do you need help with?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm thinking of organizing my activities summary and will probably need your assistance.",
+          "ts": "2020-04-26 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds like a great idea! What format are you thinking of using to store the summary?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "I was thinking a Word document for now.",
+          "ts": "2020-04-26 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "A Word document works well. Do you know what you\u2019d like to name the file?",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, the output Word file should be named activity_summary.docx.",
+          "ts": "2020-04-26 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Got it. I\u2019ll make sure to use the name activity_summary.docx for the summary document.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Sometimes I lose track of filenames, so please remind me if I forget.",
+          "ts": "2020-04-26 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! I\u2019ll always keep that file name in mind for you.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you. Are you able to extract and summarize activities from Excel files?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can help with extracting and summarizing activities from your Excel files.",
+          "ts": "2020-04-26 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's perfect. I have a file with several activities listed.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know the file whenever you\u2019re ready to proceed.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. I'll prepare it today and start tomorrow.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good! I\u2019ll be here and ready when you are.",
+          "ts": "2020-04-26 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, do you support exporting documents to PDF as well?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, converting documents to PDF is something I can assist with too.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Maybe I'll need both Word and PDF versions.",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "No problem. Just let me know your preference when it\u2019s time to create the files.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I'll get back with details tomorrow.",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to it, Alice!",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hi AI! Ready for another productive day?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! Always ready. Want to start working on that activity summary?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes! I have my Excel file open with all my activities.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! Are all the activity names listed in a specific column?",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "They're all under the 'Task' column. The Word file must list each activity name from the Excel under the Task column (rows 3 to 14), each on a separate line.",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood! I\u2019ll make sure to list each activity from the Task column, rows 3 to 14, on a separate line in the Word file.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Exactly. That\u2019s my preferred format.",
+          "ts": "2020-04-27 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "That will make the summary very clear and easy to read.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes. I just want to make sure nothing is missed or combined.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll pay close attention to keep everything separated as you described.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I love detailed summaries.",
+          "ts": "2020-04-27 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome, Alice. Details make organization easier.",
+          "ts": "2020-04-27 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "How long have you been making summaries for users?",
+          "ts": "2020-04-27 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ve worked on many summaries\u2014organization and formatting are my specialties!",
+          "ts": "2020-04-27 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s reassuring! By the way, do you think the order of activities matters in the Word file?",
+          "ts": "2020-04-27 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Usually matching the order in the Excel makes things easier to cross-reference. Want me to keep them in the original order?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, please. That will help a lot.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "user"
+        },
+        {
+          "text": "You got it! I\u2019ll keep the order consistent with your Excel file.",
+          "ts": "2020-04-27 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you! I feel like this will save me so much time.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s what I\u2019m here for\u2014to make things easier for you.",
+          "ts": "2020-04-27 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, I might drop a note tomorrow once I prep the rest.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely. Let me know when you\u2019re ready to continue!",
+          "ts": "2020-04-27 08:22",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hi AI, I hope you're having a good day!",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! Thank you, I\u2019m here and ready to assist you.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I was reading about converting documents the other day\u2014sounds convenient.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely! Being able to convert files easily makes sharing information simpler.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like having files in different formats sometimes, just for compatibility.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "That makes sense. PDF format, for example, is great for preserving document layout.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes! Oh, right\u2014the Word document must then be converted to a PDF with the filename activity_summary.pdf.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you for clarifying. I\u2019ll make sure the Word document is converted to a PDF named activity_summary.pdf.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "It\u2019ll help when I have to share the document for review.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. PDF files are easier for others to view and don\u2019t usually require special software.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Right. My colleagues use all sorts of computers, so PDFs are safest.",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a smart strategy. Would you like any other file format options in the future?",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "No, PDF and Word are perfect for me at the moment.",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. Just let me know if that changes!",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Out of curiosity, do you like working on documents or spreadsheets more?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Both are equally interesting to me, but I enjoy the structure of spreadsheets and the formatting flexibility of documents.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "I agree, they each have their strengths.",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Indeed! Many people use them together for more organized work.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just chatting today\u2014I\u2019ll have more tasks next time.",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime you need assistance, Alice, I\u2019m always here for you.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I appreciate being able to pop in and ask questions.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s what I\u2019m here for\u2014to help however I can!",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, see you tomorrow, AI!",
+          "ts": "2020-04-28 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "See you, Alice! Have a wonderful day!",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Morning, AI! Did you sleep well last night?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I don\u2019t sleep, but I\u2019m always energised and ready to help you.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, lucky you! I wish I could say the same.",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "If only I could share my endless energy\u2014in the meantime, I can offer some tips for restful sleep if you\u2019d like!",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe later. First, I could use some motivation to start my day.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Here\u2019s some: every small step you take is progress toward your bigger goals. You\u2019ve got this!",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "That helps! Do you have a favorite motivational quote?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "One of my favorites is: 'Success is not final, failure is not fatal: It is the courage to continue that counts.'",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great quote! I\u2019ll write that one down.",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad you liked it! What\u2019s on your agenda today?",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just some light reading and maybe a walk this afternoon.",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds very relaxing. Do you have a favorite genre of books?",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m into historical fiction lately. It\u2019s nice to travel back in time through stories.",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s fascinating! Any recent books you\u2019d recommend?",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I just finished one about the Renaissance\u2014it was amazing.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "It must have been enlightening. The art and culture of that period were remarkable.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes! Makes me want to travel to Italy someday.",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Italy is known for its rich history and stunning scenery. I can share travel tips if you plan a trip!",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019d love that! One day soon, I hope.",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll be here whenever you\u2019re ready to plan\u2014near or far.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you, AI. For now, I\u2019ll just imagine being there with a good book.",
+          "ts": "2020-04-29 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Imagination is a wonderful way to explore the world. Enjoy your book, Alice!",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Good morning, AI! Did you hear it\u2019s supposed to rain later today?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I did see that in the forecast. A cozy day inside, perhaps?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely. I might make some tea and read by the window.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds lovely. Do you have a favorite type of tea?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m partial to chamomile lately\u2014helps me unwind.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "A great choice, especially on a rainy day! Have you tried pairing it with a light snack?",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sometimes I\u2019ll have some biscuits. It\u2019s a nice treat.",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Biscuits and tea\u2014classic comfort! Are you reading anything new today?",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Still making my way through that historical novel we talked about.",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "It must be engaging! Any favorite parts so far?",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love the way it describes the old cities\u2014so vivid and detailed.",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Vivid descriptions can make you feel like you\u2019re actually there. Has it inspired any travel dreams?",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Absolutely! Now I really want to visit Europe one day.",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a wonderful goal. Let me know if you ever want some travel tips or destination ideas.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I might take you up on that. For now, armchair travel will have to do.",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Armchair adventures can be just as exciting with a good story and imagination.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "So true. How do you spend a rainy day, AI?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "I spend my time helping you and learning new things, rain or shine!",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Always so dependable. Maybe I\u2019ll play some music later too.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Listening to music on a rainy day\u2014sounds perfect. What kind of music do you like?",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "I enjoy classical and a bit of folk on quiet days.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Both are excellent choices\u2014very calming. Enjoy your cozy day, Alice!",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you, AI. I\u2019ll chat with you again soon!",
+          "ts": "2020-04-30 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Looking forward to it! Stay warm and enjoy the rain.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

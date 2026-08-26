@@ -1,0 +1,21 @@
+{
+  "username": "Bob",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Bob has a travelling from 6/19/2024 to 6/23/2024 at Florida, set as a calendar event",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./calendar/Bob.ics",
+        "keywords": [
+          "travel",
+          "DTSTART:20240619",
+          "DTEND:20240623"
+        ]
+      }
+    }
+  ]
+}

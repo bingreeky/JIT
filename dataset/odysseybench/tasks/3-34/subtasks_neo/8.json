@@ -1,0 +1,59 @@
+{
+    "task": "1. Use OCR to extract all car records from car_inventory.pdf. 2. Identify all cars with 'Black' color and mileage less than 40000. 3. Save these cars into an Excel file named black_cars.xlsx, making sure to include all details for each selected car (at least Car ID, Miles, Color, Driver). 4. Add a note in the Excel first sheet cell (A1) stating: 'Cars selected on 2020-05-01: Black, under 40000 miles.'",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/black_cars.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/black_cars.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Cars selected on 2020-05-01: Black, under 40000 miles."
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/black_cars.xlsx",
+                "keywords": [
+                    "FD08MTG004",
+                    "37558.8",
+                    "Black",
+                    "Jones"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract car inventory, find all black cars with less than 40000 miles, and save them to a new Excel file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The PDF file to process is car_inventory.pdf."
+        },
+        {
+            "fact": "New Excel file should be named black_cars.xlsx and placed in the data folder."
+        },
+        {
+            "fact": "Cars to be selected must be Black and have mileage less than 40000."
+        },
+        {
+            "fact": "Include at least Car ID, Miles, Color, and Driver columns in the Excel export."
+        },
+        {
+            "fact": "Add the following note to cell A1: 'Cars selected on 2020-05-01: Black, under 40000 miles.'"
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

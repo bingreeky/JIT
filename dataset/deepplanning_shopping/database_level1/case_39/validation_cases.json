@@ -1,0 +1,274 @@
+{
+  "query": "I'm getting ready for a winter trip and need to order everything to arrive quickly. First, I'm looking for a specific winter item from Arc'teryx in Wine Red and size 40, and it must have a transport time of less than 2 days. To go with that, I need a blue product from the brand Columbia. I want to make sure it's popular, so it needs more than 180 five-star ratings and also has to ship in under 2 days. Lastly, I'm searching for some winter-specific 'Winter Hiking Shoes' from Columbia that are targeted for women and have a total review count of more than 300.",
+  "ground_truth_products": [
+    {
+      "product_id": "20da9843",
+      "name": "Women's Aerios Insulated Winter Hiking Shoes",
+      "price": 2499.0,
+      "brand": "Arc'teryx",
+      "color": "Wine Red",
+      "size": "40",
+      "stock_quantity": 120,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Printing, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1850
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "27fa251c",
+      "name": "Women's Lakeside Aqua Shoes",
+      "price": 549.5,
+      "brand": "Columbia",
+      "color": "Blue",
+      "size": "40",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry away from direct heat. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1340
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 288,
+        "distribution": {
+          "5_star": 200,
+          "4_star": 65,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "9971e435",
+      "name": "Women's Firecamp Winter Hiking Shoes",
+      "price": 949.5,
+      "brand": "Columbia",
+      "color": "Orange",
+      "size": "40",
+      "stock_quantity": 120,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Zipper Closure, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 458,
+        "total": 2155
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 240,
+          "4_star": 85,
+          "3_star": 15,
+          "2_star": 7,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the brand is Arc'teryx, the suitable season is Winter, the color is Wine Red, and the size is 40.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Arc'teryx",
+          "operator": "equals",
+          "operator_value": "Arc'teryx"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "color",
+          "value": "Wine Red",
+          "operator": "equals",
+          "operator_value": "Wine Red"
+        },
+        {
+          "field": "size",
+          "value": "40",
+          "operator": "equals",
+          "operator_value": "40"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Blue, the number of 5-star ratings is more than 180, the brand is Columbia, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Blue",
+          "operator": "equals",
+          "operator_value": "Blue"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 200,
+          "operator": "greater_than",
+          "operator_value": 180.0
+        },
+        {
+          "field": "brand",
+          "value": "Columbia",
+          "operator": "equals",
+          "operator_value": "Columbia"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Columbia, the target demographic is Women, the suitable season is Winter, the name contains 'Winter Hiking Shoes', and the total number of reviews is more than 300.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Columbia",
+          "operator": "equals",
+          "operator_value": "Columbia"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "name",
+          "value": "Women's Firecamp Winter Hiking Shoes",
+          "operator": "contains",
+          "operator_value": "Winter Hiking Shoes"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 350,
+          "operator": "greater_than",
+          "operator_value": 300.0
+        }
+      ]
+    }
+  ]
+}

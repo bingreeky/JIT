@@ -1,0 +1,51 @@
+{
+    "task": "Create a new Excel file named 'employee_list.xlsx' in the 'data' folder. In this file, add a table with columns: 'Employee ID', 'Name', 'Department', and 'Start Date'. Add a row with Employee ID '1001', Name 'Alice Lee', Department 'Marketing', and Start Date '2020-04-20'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/employee_list.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "./data/employee_list.xlsx",
+                "keywords": [
+                    "Employee ID",
+                    "Name",
+                    "Department",
+                    "Start Date",
+                    "1001",
+                    "Alice Lee",
+                    "Marketing",
+                    "2020-04-20"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Set up an employee list as requested in a new Excel sheet.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new Excel file should be named 'employee_list.xlsx'.",
+            "source": "user"
+        },
+        {
+            "fact": "File should be saved in the 'data' folder.",
+            "source": "user"
+        },
+        {
+            "fact": "A table must be created with columns: 'Employee ID', 'Name', 'Department', 'Start Date'.",
+            "source": "user"
+        },
+        {
+            "fact": "Employee ID '1001', Name 'Alice Lee', Department 'Marketing', Start Date '2020-04-20' should be added as a row.",
+            "source": "user"
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

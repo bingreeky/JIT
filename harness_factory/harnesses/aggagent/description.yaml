@@ -1,0 +1,21 @@
+description: |-
+  ## 1. Architecture Overview
+
+  AggAgent is a two-stage harness that separates exploration from synthesis. It first runs multiple independent rollout workers on the same task so each worker can collect evidence and attempt a solution through its own tool-using trajectory. It then hands the resulting trajectories to a dedicated aggregation agent, which does not solve the task from scratch. Instead, the aggregator inspects the workers' final outputs and intermediate tool observations, compares their reliability, and synthesizes one final answer grounded in the strongest verified evidence across runs.
+
+  ## 2. Key Features / Innovations
+
+  - Uses multi-rollout redundancy: the same task is explored several times, reducing the risk that a single bad trajectory determines the final answer.
+  - Cleanly separates generation and adjudication. Rollout workers focus on solving the task, while the aggregator focuses on cross-trajectory verification and answer synthesis.
+  - Gives the aggregator explicit trajectory-analysis meta-tools instead of the normal runtime tool catalog, so it can inspect solutions, search within logs, and read local step segments before deciding.
+  - Prioritizes evidence over confidence: the aggregation prompt explicitly tells the model to trust tool outputs in the trajectories more than agents' own reasoning or majority agreement.
+  - Keeps worker state isolated. Each rollout has its own independent full-history memory, while the outer harness only stores the merged result after all workers and the aggregator finish.
+
+  ## 3. Where These Features Are Implemented
+
+  - `action`: `action.py` is the core of the harness. `AggAgentAction` runs `K` independent rollout workers, converts each worker's trajectory into the message format expected by the aggregator, then launches a second agentic loop to synthesize the final answer.
+  - `action`: the aggregation phase is implemented with four internal meta-tools defined in `action.py`: `get_solution`, `search_trajectory`, `get_segment`, and `finish`. These tools let the aggregator retrieve workers' final answers, search specific trajectories, inspect local evidence windows, and terminate with a synthesized result.
+  - `action`: the aggregator is intentionally evidence-driven. Helper functions such as `_meta_search_trajectory()` and `_meta_get_segment()` expose raw trajectory content so the aggregator can verify claims against actual tool observations rather than relying only on summary conclusions.
+  - `memory`: `memory.py` uses a split-memory design. The outer `MemoryStrategy` is only a coordinator that stores the system prompt, task, and final merged steps for logging, while each rollout worker gets its own `FullHistoryMemory` that preserves its entire local trajectory without compression.
+  - `planning`: `planning.py` disables explicit global planning. `PlanningStrategy.init_plan()` returns a simple "No explicit plan" directive and `should_replan()` always returns `False`, because control flow comes from the rollout trajectories plus the later aggregation pass rather than an upfront roadmap.
+  - `tool_policy`: `tool_policy.py` exposes the full runtime tool catalog and all loaded skills to every rollout worker. The aggregator phase does not reuse that catalog; it operates only through its internal meta-tools defined inside `action.py`.

@@ -1,0 +1,252 @@
+{
+  "query": "I'm doing some online shopping to update my gear and wardrobe. First, I need to find a popular item and I need it fast, so I'm looking for something with a transport time of less than 2, a total sales volume greater than 3200, and over 150 total reviews. Next, I'm searching for a very specific men's product from Nike that has 'Air Zoom Pegasus 41' in its name; it's a huge seller, so it must have a total sales volume of more than 45000. Finally, I'm trying to find a well-regarded item from Levi's in size L, so I want to see options with more than 2500 five-star reviews and over 400 four-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "9cf14bf0",
+      "name": "Puma Men's Quick-Dry Sports T-Shirt",
+      "price": 219.0,
+      "brand": "Puma",
+      "color": "Yellow",
+      "size": "L",
+      "stock_quantity": 750,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Side Pockets",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1853,
+        "total": 5210
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 340,
+          "4_star": 60,
+          "3_star": 10,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "applicable_coupons": [
+        "Same-brand: ¥25 off every ¥200"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d5fc168d",
+      "name": "Nike Air Zoom Pegasus 41 Running Shoes",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Black",
+      "size": "43",
+      "stock_quantity": 1250,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Nylon",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 3578,
+        "total": 45120
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1800,
+          "4_star": 250,
+          "3_star": 70,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "JD Logistics"
+      }
+    },
+    {
+      "product_id": "bc107b21",
+      "name": "Men's Heritage Waffle-Knit Long Sleeve Top",
+      "price": 449.5,
+      "brand": "Levi's",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 482,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Ribbed Cuffs, Button-down",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 21430
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3450,
+        "distribution": {
+          "5_star": 2898,
+          "4_star": 414,
+          "3_star": 91,
+          "2_star": 27,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2, the total sales volume is greater than 3200, and the number of total reviews is over 150.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 3280,
+          "operator": "greater_than",
+          "operator_value": 3200.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 152,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total sales volume is more than 45000, the target demographic is Men, the brand is Nike, and the name contains 'Air Zoom Pegasus 41'.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 45120,
+          "operator": "greater_than",
+          "operator_value": 45000.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "brand",
+          "value": "Nike",
+          "operator": "equals",
+          "operator_value": "Nike"
+        },
+        {
+          "field": "name",
+          "value": "Nike Air Zoom Pegasus 41 Running Shoes",
+          "operator": "contains",
+          "operator_value": "Air Zoom Pegasus 41"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 4-star reviews is more than 400, the size is L, the brand is Levi's, and the number of 5-star reviews is more than 2500.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 441,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 2604,
+          "operator": "greater_than",
+          "operator_value": 2500.0
+        }
+      ]
+    }
+  ]
+}

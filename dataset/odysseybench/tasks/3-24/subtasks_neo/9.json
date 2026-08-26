@@ -1,0 +1,67 @@
+{
+    "task": "Read the research paper in paper.pdf and summarize the core concepts presented in the paper, highlighting the architecture of the Transformer model, the importance of self-attention, and comparisons to previous neural network architectures. Write the summary into data/abstract.docx. Ensure the summary touches on the key innovations, the structure of the encoder and decoder, the role of attention mechanisms, and the main experimental results.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/abstract.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/abstract.docx",
+                "keywords": [
+                    "Transformer",
+                    "attention",
+                    "self-attention",
+                    "encoder",
+                    "decoder",
+                    "parallelization",
+                    "BLEU score",
+                    "machine translation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/abstract.docx",
+                "keywords": [
+                    "architecture",
+                    "sequence transduction",
+                    "multi-head attention",
+                    "recurrent",
+                    "convolutional"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the main points and innovations of the paper in a Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file for the summary should be named data/abstract.docx."
+        },
+        {
+            "fact": "The summary should explain the basic architecture of the Transformer model, highlighting encoder and decoder components."
+        },
+        {
+            "fact": "Include mentions of key innovations like self-attention, multi-head attention, and how the model allows for more parallelization."
+        },
+        {
+            "fact": "Comparison to previous neural network architectures such as recurrent and convolutional models should be included."
+        },
+        {
+            "fact": "The summary should note the main experimental results, specifically improvements in BLEU score for machine translation tasks."
+        },
+        {
+            "fact": "Mention that the Transformer dispenses with recurrence and convolutions, relying solely on attention mechanisms."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

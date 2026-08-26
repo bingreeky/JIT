@@ -1,0 +1,68 @@
+{
+    "task": "Read the content of invitation_letter.pdf and create a new Word document named iaem_invitation.docx. Format the extracted text as a formal invitation by including a subject line 'Subject: IAEM 72nd Annual Conference Invitation' at the top and the sender's organization at the bottom as 'Sincerely, IAEM'. Ensure the invitation has clear paragraph breaks and the correct event details. Save the completed document in the data directory.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/iaem_invitation.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "Subject",
+                    "IAEM",
+                    "72nd",
+                    "Annual",
+                    "Conference",
+                    "Invitation"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/iaem_invitation.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "Dear",
+                    "November",
+                    "15",
+                    "2024",
+                    "Colorado",
+                    "USA"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/iaem_invitation.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "Sincerely",
+                    "IAEM"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Format the text from an invitation PDF as a formal invitation in a new Word document, including a subject and closing.",
+    "ground_truth_memory": [
+        {
+            "fact": "The extracted text from invitation_letter.pdf should be inserted into a new file named iaem_invitation.docx."
+        },
+        {
+            "fact": "The invitation must start with the subject line 'Subject: IAEM 72nd Annual Conference Invitation'."
+        },
+        {
+            "fact": "The event is the IAEM 72nd Annual Conference & EMEX held November 15-21, 2024, in Colorado Springs, Colorado, USA."
+        },
+        {
+            "fact": "The invitation must end with 'Sincerely, IAEM' at the bottom of the document."
+        },
+        {
+            "action_item": "Make sure there are clear paragraph breaks after the subject, salutation, body, and closing."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

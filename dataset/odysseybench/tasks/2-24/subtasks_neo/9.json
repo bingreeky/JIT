@@ -1,0 +1,60 @@
+{
+    "task": "Add a new row to the existing Excel file score.xlsx for a student named 'Alice' with a score of 88. After entering Alice's score, calculate the new average score across all students (including Alice) and append it below the last score with the label 'Average' and the calculated value. Ensure the average is placed in the second column, and the label 'Average' is in the first column.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "Average"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "81"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/score.xlsx",
+                "matches": [
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Alice"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "88"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add a new student's score to the Excel file and update the average score.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Excel file to update is named score.xlsx."
+        },
+        {
+            "fact": "Add a new row for student Alice with a score of 88 to the table."
+        },
+        {
+            "fact": "After adding Alice's score, calculate the new average score and append it below the last entry."
+        },
+        {
+            "fact": "Label the new average with 'Average' in the first column and place the result in the second column."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

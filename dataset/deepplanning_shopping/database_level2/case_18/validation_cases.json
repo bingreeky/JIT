@@ -1,0 +1,308 @@
+{
+  "query": "I have a last-minute trip coming up, so I need to order a few things with fast shipping. First, I'm looking for a men's item from Ralph Lauren in brown, and it must have a transport time of less than 2. Next, I need something from The North Face that includes 'Tekware Fleece' in its name. This one has to be in a coffee color, have over 850 total reviews, an average score above 4.5, and also a transport time of less than 2 days. Then, I'm looking for a well-regarded product from Under Armour; it must have fewer than 30 one-star reviews and less than 40 two-star reviews. Finally, I need to find a base layer from Uniqlo with 'HEATTECH' in the name. To make sure it's available and well-liked, it needs a stock quantity of more than 850 and over 200 four-star ratings. Find me some products where the total price is no less than 2650 and no more than 2841.",
+  "ground_truth_products": [
+    {
+      "product_id": "90a420e9",
+      "name": "Men's Classic Fit Chino Shorts",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Brown",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Button-down, Vintage Wash",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 5280
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 410,
+          "4_star": 82,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "0d807cc0",
+      "name": "Men's Tekware Fleece Zip Top",
+      "price": 899.9,
+      "brand": "The North Face",
+      "color": "Coffee",
+      "size": "L",
+      "stock_quantity": 284,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 94
+        },
+        {
+          "material": "Spandex",
+          "percentage": 6
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Zipper Closure, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 312,
+        "total": 4580
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 895,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 110,
+          "3_star": 25,
+          "2_star": 6,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Excellent quality",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "83f6aeaf",
+      "name": "Men's ColdGear® Armour Fleece Lined Pants",
+      "price": 549.99,
+      "brand": "Under Armour",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softeners.",
+      "sales_volume": {
+        "monthly": 750,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 900,
+          "4_star": 250,
+          "3_star": 60,
+          "2_star": 25,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "97a80690",
+      "name": "Men's HEATTECH Fleece-Lined Warm Trousers",
+      "price": 349.0,
+      "brand": "Uniqlo",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 875,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 55
+        },
+        {
+          "material": "Polyester",
+          "percentage": 40
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 4280,
+        "total": 21500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1890,
+        "distribution": {
+          "5_star": 1550,
+          "4_star": 250,
+          "3_star": 60,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2, the brand is Ralph Lauren, the color is Brown, and the target demographic is Men.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        },
+        {
+          "field": "color",
+          "value": "Brown"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the color is Coffee, total reviews are over 850, the average score is greater than 4.5, the brand is The North Face, and the name contains 'Tekware Fleece'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Coffee"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 895
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "brand",
+          "value": "The North Face"
+        },
+        {
+          "field": "name",
+          "value": "Men's Tekware Fleece Zip Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Under Armour, the number of 1-star reviews is less than 30, and the number of 2-star reviews is less than 40.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Under Armour"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 20
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Uniqlo, the stock quantity is more than 850, the number of 4-star ratings is greater than 200, and the name contains 'HEATTECH'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Uniqlo"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 875
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 250
+        },
+        {
+          "field": "name",
+          "value": "Men's HEATTECH Fleece-Lined Warm Trousers"
+        }
+      ]
+    }
+  ]
+}

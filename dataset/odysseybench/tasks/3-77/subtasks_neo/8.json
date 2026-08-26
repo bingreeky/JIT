@@ -1,0 +1,42 @@
+{
+    "task": "Since the house_price_index.jpg image could not be processed with OCR, create a summary in summary.docx explaining that the house price index image at /testbed/data/house_price_index.jpg could not be read or extracted for predictions, and include a note that further review or alternative extraction methods may be needed.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary.docx",
+                "keywords": [
+                    "house",
+                    "price",
+                    "index",
+                    "could not",
+                    "extract",
+                    "image"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the result of processing the house price index image in an appropriate document.",
+    "ground_truth_memory": [
+        {
+            "fact": "No OCR data could be extracted from /testbed/data/house_price_index.jpg."
+        },
+        {
+            "action_item": "Create or update summary.docx to record that the house price index image could not be recognized by OCR and data extraction was unsuccessful."
+        },
+        {
+            "action_item": "Include in summary.docx a note suggesting that further review or alternative extraction solutions may be required."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

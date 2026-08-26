@@ -1,0 +1,476 @@
+{
+  "query": "I'm getting some gear together for an impromptu trip, so everything I order needs a transport time of less than 2 days. First, I need a really popular pair of Nike shoes for Spring/Autumn, the 'Men's Air Zoom Pegasus 40 Running Shoes', with more than 2000 total reviews and over 18000 in total sales volume. To go with them, I'm looking for a men's item called 'Konseal FL 2' that is also suitable for Spring/Autumn. For pants, I'm getting the Under Armour 'Terry Tapered Pants', making sure they have fewer than 50 one-star reviews. I'll also get the 'Men's Apex Canyonwall Eco Pants' in Wine Red, as long as they have more than 200 five-star ratings. Then, I need a generic grey item for men with an average score over 4.5 and more than 50 three-star reviews. Finally, I'm looking for a Navy Blue product for men with great ratings — over 200 four-star reviews and less than 10 one-star reviews. Find me some products where the total price is no less than 5190 and no more than 5578.",
+  "ground_truth_products": [
+    {
+      "product_id": "7455ee4f",
+      "name": "Men's Tech Terry Tapered Pants",
+      "price": 429.0,
+      "brand": "Under Armour",
+      "color": "Light Grey",
+      "size": "L",
+      "stock_quantity": 385,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Cotton",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 15800
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1612,
+          "4_star": 323,
+          "3_star": 108,
+          "2_star": 64,
+          "1_star": 43
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "469c35c5",
+      "name": "Men's Konseal FL 2 Approach Shoes",
+      "price": 1999.0,
+      "brand": "Arc'teryx",
+      "color": "Orange",
+      "size": "44",
+      "stock_quantity": 72,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 158,
+        "total": 2890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 51,
+          "3_star": 6,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Great color",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "8f79872a",
+      "name": "Men's Classic Straight Leg Jeans",
+      "price": 799.0,
+      "brand": "Levi's",
+      "color": "Grey",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Side Pockets, Zipper Closure, Distressed",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 580,
+        "total": 7642
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1258,
+        "distribution": {
+          "5_star": 980,
+          "4_star": 210,
+          "3_star": 55,
+          "2_star": 8,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ca9d52ee",
+      "name": "Men's Air Zoom Pegasus 40 Running Shoes",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Light Blue",
+      "size": "44",
+      "stock_quantity": 380,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 65
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1542,
+        "total": 18950
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2155,
+        "distribution": {
+          "5_star": 1820,
+          "4_star": 260,
+          "3_star": 50,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "5f665142",
+      "name": "Men's AIRism Relaxed Fit Shorts",
+      "price": 199.0,
+      "brand": "Uniqlo",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 875,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Reflective Strips, Zipper Closure",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 3500,
+        "total": 21800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1245,
+        "distribution": {
+          "5_star": 980,
+          "4_star": 210,
+          "3_star": 40,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "b2ad1fba",
+      "name": "Men's Apex Canyonwall Eco Pants",
+      "price": 899.9,
+      "brand": "The North Face",
+      "color": "Wine Red",
+      "size": "L",
+      "stock_quantity": 175,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 93
+        },
+        {
+          "material": "Spandex",
+          "percentage": 7
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or use fabric softeners.",
+      "sales_volume": {
+        "monthly": 240,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 328,
+        "distribution": {
+          "5_star": 250,
+          "4_star": 55,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Under Armour, the transport time is less than 2 days, the name contains 'Terry Tapered Pants', and the number of 1-star reviews is less than 50.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Under Armour"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 43
+        },
+        {
+          "field": "name",
+          "value": "Men's Tech Terry Tapered Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products for Men that are suitable for Spring/Autumn, have a transport time less than 2 days, and where the name contains 'Konseal FL 2'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "name",
+          "value": "Men's Konseal FL 2 Approach Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with an average score greater than 4.5, for the Men target demographic, with more than 50 3-star reviews, a transport time less than 2 days, and in the color Grey.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 55
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Grey"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Nike, the name is 'Men's Air Zoom Pegasus 40 Running Shoes', the suitable season is Spring/Autumn, the transport time is less than 2, the total number of reviews is more than 2000, and the total sales volume is more than 18000.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Nike"
+        },
+        {
+          "field": "name",
+          "value": "Men's Air Zoom Pegasus 40 Running Shoes"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 2155
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 18950
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Navy Blue, the target demographic is Men, the number of 4-star reviews is greater than 200, and the number of 1-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Navy Blue"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 210
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the number of 5-star ratings is greater than 200, the target demographic is Men, the color is Wine Red, and the name is Men's Apex Canyonwall Eco Pants.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 250
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "color",
+          "value": "Wine Red"
+        },
+        {
+          "field": "name",
+          "value": "Men's Apex Canyonwall Eco Pants"
+        }
+      ]
+    }
+  ]
+}

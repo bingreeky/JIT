@@ -1,0 +1,306 @@
+{
+  "query": "I'm planning a complete outdoor gear refresh and need to order several specific items. First, I'm looking for a brown product that has exactly 4 two-star ratings. Next, I need something with VECTIV in its name, targeted for men, with an average rating above 4.5, stock quantity over 100, and fewer than 25 two-star reviews. Then, I want the Men's Tech Performance Long-Sleeve Top, but only if it has a precise 4.8 rating, can arrive in just 1 day, and has exactly 10 two-star reviews. Finally, I'm searching for an item with Tech Fleece in its name, suitable for Spring/Autumn seasons, with an average rating exceeding 4.8, fewer than 20 one-star reviews, and fewer than 70 three-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "b6fddbab",
+      "name": "Men's Vintage Corduroy Trucker Jacket",
+      "price": 231.0,
+      "brand": "Levi's",
+      "color": "Brown",
+      "size": "L",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Button-down, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 258,
+        "total": 1985
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 496,
+        "distribution": {
+          "5_star": 410,
+          "4_star": 70,
+          "3_star": 10,
+          "2_star": 4,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1acc0ab7",
+      "name": "Men's VECTIV Escape Futurelight Trail Shoes",
+      "price": 235.0,
+      "brand": "The North Face",
+      "color": "Black",
+      "size": "43",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1560,
+        "distribution": {
+          "5_star": 1300,
+          "4_star": 180,
+          "3_star": 50,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "cee0be75",
+      "name": "Men's Tech Performance Long-Sleeve Top",
+      "price": 207.0,
+      "brand": "Under Armour",
+      "color": "Beige",
+      "size": "L",
+      "stock_quantity": 152,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Ribbed Cuffs, Printing",
+      "washing_instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 855,
+        "total": 12530
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1345,
+        "distribution": {
+          "5_star": 1100,
+          "4_star": 200,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ded6f0c8",
+      "name": "Nike Tech Fleece Men's Jogger Bottoms",
+      "price": 236.0,
+      "brand": "Nike",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 482,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 66
+        },
+        {
+          "material": "Polyester",
+          "percentage": 34
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Side Pockets, Ribbed Cuffs, Zipper Closure",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not iron on print.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 32100
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 9540,
+        "distribution": {
+          "5_star": 8920,
+          "4_star": 515,
+          "3_star": 65,
+          "2_star": 25,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥120 off every ¥900": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Brown and the 2-star rating count is 4.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Brown"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the rating average score is greater than 4.5, stock quantity is more than 100, target demographic is Men, 2-star rating distribution is less than 25, and the product name contains VECTIV.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "stock_quantity",
+          "value": 112
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 20
+        },
+        {
+          "field": "name",
+          "value": "Men's VECTIV Escape Futurelight Trail Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the average rating score is 4.8, the transport time is 1 day, the 2-star review count is 10, and the product name is Men's Tech Performance Long-Sleeve Top.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10
+        },
+        {
+          "field": "name",
+          "value": "Men's Tech Performance Long-Sleeve Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Spring/Autumn, the average rating score is greater than 4.8, the 1-star review count is less than 20, the 3-star review count is less than 70, and the product name contains Tech Fleece.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.9
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 15
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 65
+        },
+        {
+          "field": "name",
+          "value": "Nike Tech Fleece Men's Jogger Bottoms"
+        }
+      ]
+    }
+  ]
+}

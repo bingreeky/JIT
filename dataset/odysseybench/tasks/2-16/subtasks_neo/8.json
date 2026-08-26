@@ -1,0 +1,44 @@
+{
+    "task": "Add a new agenda item 'Budget Review' led by 'Sara' to the meeting agenda in the Excel file '/testbed/data/meeting_agenda_2.xlsx'. Set its time allocation to 00:35:00 and ensure it is scheduled after the last existing agenda item. Update the Start time, End time, and Contact fields accordingly to keep the agenda chronologically correct.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "/testbed/data/meeting_agenda_2.xlsx",
+                "matches": [
+                    {
+                        "row": "6",
+                        "col": "5",
+                        "value": "Budget Review"
+                    },
+                    {
+                        "row": "6",
+                        "col": "6",
+                        "value": "Sara"
+                    },
+                    {
+                        "row": "6",
+                        "col": "4",
+                        "value": "00:35:00"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the meeting agenda in the Excel file with the new details as necessary.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new agenda item titled 'Budget Review' needs to be added after the current last agenda entry in meeting_agenda_2.xlsx."
+        },
+        {
+            "fact": "The item 'Budget Review' should have a time allocation of 00:35:00 and be led by 'Sara'."
+        },
+        {
+            "action_item": "Ensure all fields (Start, End, Time, Item, Contact) for the new entry are filled in, and are placed after the current last row."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

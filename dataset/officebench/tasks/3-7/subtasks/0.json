@@ -1,0 +1,102 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Extract admitted applicant's name and email, write Graduate Program Admission Letter with applicant's name in admission.pdf, and send it to applicant's email admission.eml under folder using their last name",
+  "evaluation": [
+    {
+        "function": "evaluate_file_exist",
+        "args": {
+            "file": "data/admission.pdf"
+        }
+    },
+    {
+        "function": "evaluate_contain",
+        "args": {
+            "doc_type": "pdf",
+            "file": "data/admission.pdf",
+            "keywords": [
+                "Anderson",
+                "Ashley",
+                "Baker",
+                "Robert",
+                "Davis",
+                "Christine",
+                "Flores",
+                "Robert",
+                "Robinson",
+                "Edward",
+                "Nguyen",
+                "Brian"
+            ]
+        }
+    },
+    {
+        "function": "evaluate_contain",
+        "args": {
+            "doc_type": "email",
+            "username": "jennifer.gonzalez",
+            "keywords": [
+                "Anderson",
+                "admission"
+            ]
+        }
+    },
+    {
+        "function": "evaluate_contain",
+        "args": {
+            "doc_type": "email",
+            "username": "sarah.sanchez",
+            "keywords": [
+                "Baker",
+                "admission"
+            ]
+        }
+    },
+    {
+        "function": "evaluate_contain",
+        "args": {
+            "doc_type": "email",
+            "username": "linda.white",
+            "keywords": [
+                "Davis",
+                "admission"
+            ]
+        }
+    },
+    {
+        "function": "evaluate_contain",
+        "args": {
+            "doc_type": "email",
+            "username": "karen.scott",
+            "keywords": [
+                "Flores",
+                "admission"
+            ]
+        }
+    },
+    {
+        "function": "evaluate_contain",
+        "args": {
+            "doc_type": "email",
+            "username": "dorothy.green",
+            "keywords": [
+                "Nguyen",
+                "admission"
+            ]
+        }
+    },
+    {
+        "function": "evaluate_contain",
+        "args": {
+            "doc_type": "email",
+            "username": "sharon.torres",
+            "keywords": [
+                "Lopez",
+                "admission"
+            ]
+        }
+    }
+  ]
+}

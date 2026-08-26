@@ -1,0 +1,47 @@
+{
+    "task": "Read the invitation_letter.pdf to extract the details of the IAEM 72nd Annual Conference & EMEX. Add a new calendar event for this conference for the dates November 15-21, 2024 (set the event start time as 6:00 am if not specifically given) and include the exact title 'IAEM 72nd Annual Conference & EMEX, Colorado Springs, Colorado, USA'. Create a conference invitation poster summarizing the event and save it as 'data/conference_invitation.jpg'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "calendar/Bob.ics"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "IAEM 72nd Annual Conference & EMEX",
+                    "Colorado Springs",
+                    "DTSTART:20241115T060000",
+                    "DTEND:20241121T060000"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/conference_invitation.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Use the conference letter to create a related calendar event and make a conference invitation poster.",
+    "ground_truth_memory": [
+        {
+            "fact": "The IAEM 72nd Annual Conference & EMEX will be held in Colorado Springs, Colorado, USA.",
+            "source": "invitation_letter.pdf"
+        },
+        {
+            "action_item": "Add a calendar event with the title 'IAEM 72nd Annual Conference & EMEX, Colorado Springs, Colorado, USA' with start date November 15, 2024, 6:00 am, and end date November 21, 2024, 6:00 am."
+        },
+        {
+            "action_item": "Create a conference invitation poster summarizing the event and save it as 'data/conference_invitation.jpg'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

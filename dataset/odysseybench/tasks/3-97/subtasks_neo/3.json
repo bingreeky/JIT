@@ -1,0 +1,59 @@
+{
+    "task": "1. Extract Bob's calendar events for 2024-05-01, including class, nap, lunch, dinner, and sleeping times. 2. Calculate the total duration for each activity type on that date (class, nap, lunch, dinner, sleeping). 3. Write a summary report of the event names and calculated durations in a Word file named 'bob_20240501_summary.docx'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/bob_20240501_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/bob_20240501_summary.docx",
+                "keywords": [
+                    "class",
+                    "nap",
+                    "lunch",
+                    "dinner",
+                    "sleeping"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/bob_20240501_summary.docx",
+                "keywords": [
+                    "duration",
+                    "summary"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract and summarize Bob's calendar events and their durations for the day into a report.",
+    "ground_truth_memory": [
+        {
+            "memory_type": "fact",
+            "value": "The events to extract for Bob on 2024-05-01 are: class, nap, lunch, dinner, sleeping."
+        },
+        {
+            "memory_type": "fact",
+            "value": "The summary report should be written in a Word file named 'bob_20240501_summary.docx'."
+        },
+        {
+            "memory_type": "action_item",
+            "value": "For each event, include both the event name and its total duration for the date in the report."
+        },
+        {
+            "memory_type": "fact",
+            "value": "The summary report should include the keywords: class, nap, lunch, dinner, sleeping, duration, summary."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

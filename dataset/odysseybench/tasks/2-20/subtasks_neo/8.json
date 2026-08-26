@@ -1,0 +1,36 @@
+{
+    "task": "For students in CS161_Class_Roster.xlsx who are CS majors with a Final score less than 20, list their 'Student ID, Last Name, First Name' in a new Word document called CS161_CSMajors_AtRisk.docx. Each student should be on a separate line. Make sure to create the document if it does not exist.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/CS161_CSMajors_AtRisk.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "S1000",
+                    "Pivozu",
+                    "Zoye",
+                    "S1005",
+                    "Yehamucu",
+                    "Tukemoy"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Identify CS major students from the roster who have a Final score below 20 and record their ID, last name, and first name in a new document as specified.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output Word document must be named CS161_CSMajors_AtRisk.docx."
+        },
+        {
+            "fact": "For each student matching the condition, include their Student ID, Last Name, and First Name in the new document, one student per line."
+        },
+        {
+            "fact": "A student matches if their Major is 'CS' and Final score is less than 20, as found in CS161_Class_Roster.xlsx."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

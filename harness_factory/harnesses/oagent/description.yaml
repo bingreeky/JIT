@@ -1,0 +1,16 @@
+description: |-
+  ## 1. Architecture Overview
+
+  OAgent is a multi-path ensemble harness that solves one task by running several independent expert agents and then asking a critic model to choose or synthesize the best final answer. Instead of relying on a single reasoning trajectory, it allocates the task across a small pool of workers with different execution styles, including a plan-and-execute worker and several ReAct-style workers. Each expert explores the task separately with its own memory, and the harness only merges results at the end through an explicit voting stage.
+
+  ## 2. Key Features / Innovations
+
+  - Uses multi-expert redundancy rather than a single execution path, improving robustness when one trajectory gets stuck or misses evidence.
+  - Mixes heterogeneous worker styles: one worker is guided by a plan-and-execute prompt, while others use a more adaptive ReAct prompt, so the ensemble benefits from both structured and exploratory behavior.
+  - Adds a critic-based answer selection layer that compares the experts' final outputs on compliance, evidence quality, logic, and specificity before producing the user-facing answer.
+
+  ## 3. Where These Features Are Implemented
+
+  - `action`: `action.py` is the core of the harness. `ActionStrategy.run()` allocates the step budget across experts, runs PE workers first and ReAct workers afterward, collects each expert's `RunResult`, and then calls `_critic_vote()` to pick or synthesize the final answer.
+  - `action`: expert diversity is defined through prompt specialization in `prompt.yaml`. `pe_worker_system_prompt` steers one worker toward a plan-and-execute style, while `react_worker_system_prompt` keeps the other workers in a more flexible ReAct loop.
+  - `action`: workspace isolation is handled inside the ensemble runner. Before each expert starts, the harness snapshots or resets the workspace so each path works from the same baseline and does not inherit filesystem side effects from previous experts.

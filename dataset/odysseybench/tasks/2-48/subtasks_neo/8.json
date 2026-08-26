@@ -1,0 +1,74 @@
+{
+    "task": "Create a new Excel file named 'team_members.xlsx' with the following team member information: Row 1: Name 'Alice', Role 'Project Manager'. Row 2: Name 'Bob', Role 'Developer'. Row 3: Name 'Carol', Role 'Designer'. There should be no headers in the file. Ensure that the name appears in the first column, and the role in the second column for each row, exactly as specified.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/team_members.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_members.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Alice"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Project Manager"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Bob"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "Developer"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Carol"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "Designer"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a new Excel file to store a list of team members and their roles.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new Excel file to be created must be named 'team_members.xlsx'."
+        },
+        {
+            "fact": "The Excel file should have no headers."
+        },
+        {
+            "fact": "Row 1 should have 'Alice' in the first column and 'Project Manager' in the second column."
+        },
+        {
+            "fact": "Row 2 should have 'Bob' in the first column and 'Developer' in the second column."
+        },
+        {
+            "fact": "Row 3 should have 'Carol' in the first column and 'Designer' in the second column."
+        },
+        {
+            "fact": "The file should be saved in the 'data' directory."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

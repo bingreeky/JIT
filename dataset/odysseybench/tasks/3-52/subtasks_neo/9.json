@@ -1,0 +1,87 @@
+{
+    "task": "1. Summarize the meeting agenda from '/testbed/data/meeting_agenda_2.xlsx', covering the titles and the corresponding times. 2. Create a new calendar event with the title 'Team Strategy Meeting', scheduled on 2020-05-03 from 1:00 PM to 4:00 PM, and include a description summarizing the agenda (listing the topics: Introductions, Agenda, Strategy, and their times). 3. Send an email to Linda, Davide, and Charlie with the meeting's details and the agenda summary.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Bob.ics",
+                "keywords": [
+                    "Team",
+                    "Strategy",
+                    "Meeting",
+                    "Introductions",
+                    "1pm",
+                    "Agenda",
+                    "2pm",
+                    "Strategy",
+                    "3pm"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Linda",
+                "keywords": [
+                    "Team",
+                    "Strategy",
+                    "Meeting",
+                    "2020-05-03",
+                    "Introductions",
+                    "Agenda",
+                    "Strategy"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Davide",
+                "keywords": [
+                    "Team",
+                    "Strategy",
+                    "Meeting",
+                    "2020-05-03",
+                    "Introductions",
+                    "Agenda",
+                    "Strategy"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Charlie",
+                "keywords": [
+                    "Team",
+                    "Strategy",
+                    "Meeting",
+                    "2020-05-03",
+                    "Introductions",
+                    "Agenda",
+                    "Strategy"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the meeting agenda from the Excel file, set up a calendar event, and notify participants by email.",
+    "ground_truth_memory": [
+        {
+            "note": "The meeting agenda is in '/testbed/data/meeting_agenda_2.xlsx', with topics Introductions at 1pm, Agenda at 2pm, and Strategy at 3pm."
+        },
+        {
+            "note": "Create a calendar event titled 'Team Strategy Meeting' for 2020-05-03, from 1:00 PM to 4:00 PM, with a description that summarizes the agenda by listing the topics and their times."
+        },
+        {
+            "note": "Send an email with the meeting details and agenda summary to Linda, Davide, and Charlie. Their emails can be taken from the contact names in the Excel file."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

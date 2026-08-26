@@ -1,0 +1,58 @@
+{
+    "task": "Summarize the key details of the concert announcement from 'concert_post.pdf' and create a new Word document named 'concert_summary.docx'. The summary should include the artist's name, concert date and time, venue, and ticket information. Ensure the document's content clearly mentions 'John Smith', 'July 15, 2024', 'Music Hall', and the ticket website. Do not copy the announcement verbatim; instead, write a concise event summary in your own words.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/concert_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/concert_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    [
+                        "John",
+                        "Smith",
+                        "July",
+                        "15",
+                        "2024",
+                        "Music",
+                        "Hall",
+                        "123",
+                        "Main",
+                        "Street",
+                        "www",
+                        "example",
+                        "com",
+                        "concert"
+                    ]
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the concert announcement details into a new Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file must be named 'concert_summary.docx'."
+        },
+        {
+            "fact": "Include in the summary the artist 'John Smith', the date 'July 15, 2024', and the venue 'Music Hall'."
+        },
+        {
+            "fact": "Clearly mention the ticket purchase website: www.example.com/concert."
+        },
+        {
+            "fact": "Do not copy the full announcement—write a concise summary in your own words."
+        },
+        {
+            "fact": "Include the venue address: 123 Main Street, Cityville, in the summary."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

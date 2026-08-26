@@ -1,0 +1,47 @@
+{
+    "task": "Update the class_member.xlsx file by adding a new student named Emma to Class 2, and annotate the sheet by adding a header note in cell A7 stating 'Updated for Semester 2'. Ensure Emma appears as a new row, and the note is in cell A7. Do not alter existing entries.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "Emma"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "2"
+                    },
+                    {
+                        "row": 7,
+                        "col": 1,
+                        "value": "Updated for Semester 2"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the class member sheet with the latest changes for the semester.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new student named Emma should be added to Class 2."
+        },
+        {
+            "fact": "Emma should be entered in a new row after Mia."
+        },
+        {
+            "action_item": "Add a note in cell A7 that says 'Updated for Semester 2'."
+        },
+        {
+            "note": "Only update the class_member.xlsx file; do not modify or remove existing entries."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

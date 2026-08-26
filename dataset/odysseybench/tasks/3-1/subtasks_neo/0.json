@@ -1,0 +1,62 @@
+{
+    "task": "Summarize all project activities from /testbed/data/task.xlsx into a Word document named project_summary.docx, including the number, start date, end date, and task description for each activity; ensure the summary mentions '12 activities' and highlight Activity 7 and Activity 12 with a note that they are of high priority. Email Alice the summary from the Word document for review.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/project_summary.docx",
+                "keywords": [
+                    "12",
+                    "activities",
+                    "Activity 7",
+                    "Activity 12",
+                    "high",
+                    "priority"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "summary",
+                    "Activity 7",
+                    "Activity 12",
+                    "high",
+                    "priority"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please create a summary report of the activities in the Excel file and send it to Alice.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary output must be in a Word document named project_summary.docx."
+        },
+        {
+            "fact": "There are 12 activities in the task.xlsx file, and this should be mentioned in the summary."
+        },
+        {
+            "fact": "Activity 7 and Activity 12 should be called out as high priority in both the summary and the review email."
+        },
+        {
+            "fact": "The summary should include each activity's number, start date, end date, and description."
+        },
+        {
+            "action_item": "After summarizing to project_summary.docx, email Alice the summary, noting Activities 7 and 12 as high priority."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

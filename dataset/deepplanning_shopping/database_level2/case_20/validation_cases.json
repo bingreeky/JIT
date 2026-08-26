@@ -1,0 +1,311 @@
+{
+  "query": "I'm updating my winter wardrobe and have a few specific items I need to find. First, I'm looking for something in a Camel color that can ship very quickly, so the transport time must be less than 2. It has to be a popular choice with a total sales volume over 2500 and fewer than 5 two-star ratings. Next, I'm specifically searching for the 'Women's Off The Wall Corduroy Trousers' that have more than 35 five-star reviews, a stock quantity over 100, and less than a single one-star review. I also need a winter piece in size S that is well-reviewed, with more than 350 total reviews and fewer than 15 three-star reviews. Finally, I'm looking for a size 36 item from Patagonia with 'Snowdrifter' in the name, which must have an average score over 4.5 and fewer than 5 two-star reviews. I'm looking for something that costs somewhere in the range of 3438 to 3684.",
+  "ground_truth_products": [
+    {
+      "product_id": "5f97c618",
+      "name": "Salomon Women's Sense Aero Tank Top",
+      "price": 349.0,
+      "brand": "Salomon",
+      "color": "Camel",
+      "size": "XS",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not use fabric softener. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 310,
+        "total": 2540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 430,
+          "4_star": 65,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "85a1ca0a",
+      "name": "Women's Off The Wall Corduroy Trousers",
+      "price": 529.0,
+      "brand": "Vans",
+      "color": "Red",
+      "size": "S",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash, Patchwork",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 85,
+        "total": 510
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 58,
+        "distribution": {
+          "5_star": 38,
+          "4_star": 15,
+          "3_star": 3,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ae18fa31",
+      "name": "Women's Thermal Quilted Down Pants",
+      "price": 1299.0,
+      "brand": "Bosideng",
+      "color": "Silver",
+      "size": "S",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 55
+        },
+        {
+          "material": "Down",
+          "percentage": 40
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Hand wash recommended or gentle machine cycle. Tumble dry low with clean tennis balls to fluff the down. Do not iron.",
+      "sales_volume": {
+        "monthly": 310,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 45,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f221f015",
+      "name": "Women's Snowdrifter Waterproof Hiking Shoes",
+      "price": 1499.0,
+      "brand": "Patagonia",
+      "color": "Yellow",
+      "size": "36",
+      "stock_quantity": 78,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge in water. Air dry.",
+      "sales_volume": {
+        "monthly": 115,
+        "total": 980
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 122,
+        "distribution": {
+          "5_star": 95,
+          "4_star": 18,
+          "3_star": 5,
+          "2_star": 3,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the number of 2-star ratings is less than 5, total sales volume is greater than 2500, the color is Camel, and transport time is less than 2.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 2540
+        },
+        {
+          "field": "color",
+          "value": "Camel"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 1-star reviews is less than 1, the stock quantity is more than 100, there are more than 35 five-star reviews, and the name is 'Women's Off The Wall Corduroy Trousers'.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 112
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 38
+        },
+        {
+          "field": "name",
+          "value": "Women's Off The Wall Corduroy Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is S, the total number of reviews is more than 350, the suitable season is Winter, and the number of 3-star reviews is less than 15.",
+      "features": [
+        {
+          "field": "size",
+          "value": "S"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 358
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the average score is more than 4.5, the number of 2-star reviews is less than 5, the size is 36, the brand is Patagonia, and the name contains 'Snowdrifter'.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3
+        },
+        {
+          "field": "size",
+          "value": "36"
+        },
+        {
+          "field": "brand",
+          "value": "Patagonia"
+        },
+        {
+          "field": "name",
+          "value": "Women's Snowdrifter Waterproof Hiking Shoes"
+        }
+      ]
+    }
+  ]
+}

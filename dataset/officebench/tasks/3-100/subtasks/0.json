@@ -1,0 +1,28 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "extract revenue numbers and save as a table in excel file revenues.xlsx, email the info to manager Tom (Tom@gmail.com)",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/revenues.xlsx"
+          }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "4439044",
+                    "2212203",
+                    "4983791",
+                    "2832545"
+                ]
+            }
+        }
+    ]
+}

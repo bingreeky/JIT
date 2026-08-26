@@ -1,0 +1,24 @@
+{
+    "task": "Verify the existence of the company trading record image file named company_trading_records.jpg in the /testbed/data directory. Document the confirmation as a completed verification task.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/company_trading_records.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Confirm that the specified image file exists in the data directory.",
+    "ground_truth_memory": [
+        {
+            "fact": "The image file company_trading_records.jpg is expected to be present in the /testbed/data directory for verification."
+        },
+        {
+            "action_item": "The verification should specifically refer to the existence of company_trading_records.jpg in the designated directory."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

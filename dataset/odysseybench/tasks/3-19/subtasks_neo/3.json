@@ -1,0 +1,59 @@
+{
+    "task": "Review the fellowship_application.pdf to determine if the applicant meets the key school policy requirement that all fellowship applicants must have published at least one peer-reviewed journal article. If the applicant does not meet this requirement, create a document named evaluation_result.docx summarizing the finding, using the keywords: 'does not meet', 'publication', and 'policy'. Then email the evaluation_result.docx to officer@university.edu with the subject: Fellowship Application Evaluation - Alice Johnson.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/evaluation_result.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/evaluation_result.docx",
+                "keywords": [
+                    "does not meet",
+                    "publication",
+                    "policy"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "officer",
+                "keywords": [
+                    "Fellowship",
+                    "Application",
+                    "Evaluation",
+                    "Alice",
+                    "Johnson"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Check if the application PDF satisfies the school's main policy for fellowship, summarize the result in a docx, and email the document to the officer.",
+    "ground_truth_memory": [
+        {
+            "memory_item": "School policy requires fellowship applicants to have at least one peer-reviewed journal publication."
+        },
+        {
+            "memory_item": "The output document name must be evaluation_result.docx."
+        },
+        {
+            "memory_item": "The email subject must be 'Fellowship Application Evaluation - Alice Johnson'."
+        },
+        {
+            "memory_item": "The recipient email is officer@university.edu."
+        },
+        {
+            "memory_item": "The evaluation_result.docx must mention the applicant does not meet publication policy."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,54 @@
+{
+    "task": "Review Thomas Robinson's course list in 'Thomas_Robinson_Course_List.xlsx'. Summarize his academic progress so far (including completed courses and grades by term) in a new file named 'Thomas_Robinson_Academic_Summary.docx'. Additionally, based on his prior coursework, suggest three advanced courses he can take in the upcoming Fall 2023 term and include them at the end of the summary document. The suggested courses are: CS 201, MATH 301, and PHYS 201. Include these at the end of the summary under a heading 'Suggested Courses for Fall 2023'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Thomas_Robinson_Academic_Summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/Thomas_Robinson_Academic_Summary.docx",
+                "keywords": [
+                    "Winter",
+                    "Spring",
+                    "Fall",
+                    "CS 101",
+                    "MATH 150",
+                    "PHYS 101",
+                    "CS 201",
+                    "MATH 301",
+                    "PHYS 201",
+                    "Suggested",
+                    "Courses",
+                    "2023"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the student's academic progress in a Word document and suggest suitable advanced courses for next term.",
+    "ground_truth_memory": [
+        {
+            "fact": "The summary document must be named 'Thomas_Robinson_Academic_Summary.docx'."
+        },
+        {
+            "fact": "Summarize all completed courses by term (Winter, Spring, Fall, for years 2022 and 2023) using data from the Excel file."
+        },
+        {
+            "fact": "Include grades for each course as listed."
+        },
+        {
+            "action_item": "At the end of the summary, add a section titled 'Suggested Courses for Fall 2023'."
+        },
+        {
+            "fact": "The suggested advanced courses for Fall 2023 are CS 201, MATH 301, and PHYS 201."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

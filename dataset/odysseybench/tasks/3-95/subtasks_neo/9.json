@@ -1,0 +1,102 @@
+{
+    "task": "Create a new Excel file named project_budget.xlsx. In this file, prepare a table listing the following project expense categories: Materials, Labor, Travel, and Miscellaneous. Insert a new row for Equipment as an additional category, even though this was not requested in the query. Set the initial budgeted amount for each category (Materials: 5000, Labor: 8000, Travel: 2000, Miscellaneous: 1000, Equipment: 1500).",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_budget.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/project_budget.xlsx",
+                "keywords": [
+                    "Materials",
+                    "Labor",
+                    "Travel",
+                    "Miscellaneous",
+                    "Equipment"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/project_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Materials"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "5000"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Labor"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "8000"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Travel"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "2000"
+                    },
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "Miscellaneous"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "1000"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "value": "Equipment"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "value": "1500"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare a new project budget table with main expense categories in Excel.",
+    "ground_truth_memory": [
+        {
+            "content": "The output Excel file should be named 'project_budget.xlsx'."
+        },
+        {
+            "content": "Expense categories to include in the table are: Materials, Labor, Travel, and Miscellaneous."
+        },
+        {
+            "content": "Add an extra row for 'Equipment' as an additional expense category that was not mentioned in the query."
+        },
+        {
+            "content": "Initial budgeted amounts for each category should be: Materials: 5000, Labor: 8000, Travel: 2000, Miscellaneous: 1000, Equipment: 1500."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

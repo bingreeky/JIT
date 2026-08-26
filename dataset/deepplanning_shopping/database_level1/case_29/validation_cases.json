@@ -1,0 +1,282 @@
+{
+  "query": "I'm overhauling my footwear collection for the whole year and have some specific items I need to buy. First, I'm looking for the Men's Urban Pulse Runner Shoes from Adidas, suitable for all seasons. As I want a popular and well-regarded product, it must have more than 1600 five-star reviews and less than 100 three-star reviews, plus a transport time of less than 2. Next, for transitional weather, I need a product from Timberland that is suitable for Spring/Autumn and has a name containing 'Chukka Boot'; it must have more than 800 total reviews. Lastly, for the colder months, I'm searching for a men's product with 'Winter Hiking Boots' in the name. I need it in size 41, with a stock quantity of more than 100 and a transport time of less than 5.",
+  "ground_truth_products": [
+    {
+      "product_id": "d12cdeb8",
+      "name": "Men's Urban Pulse Runner Shoes",
+      "price": 899.0,
+      "brand": "Adidas",
+      "color": "Wine Red",
+      "size": "41",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 853,
+        "total": 9540
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 2150,
+        "distribution": {
+          "5_star": 1610,
+          "4_star": 402,
+          "3_star": 98,
+          "2_star": 25,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "42faa627",
+      "name": "Men's All-Weather Explorer Chukka Boot",
+      "price": 1388.0,
+      "brand": "Timberland",
+      "color": "Khaki",
+      "size": "41",
+      "stock_quantity": 258,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Ribbed Cuffs, Zipper Closure",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3280
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 812,
+        "distribution": {
+          "5_star": 610,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4bfe2a2f",
+      "name": "Men's Classic Winter Hiking Boots",
+      "price": 1299.0,
+      "brand": "Timberland",
+      "color": "Beige",
+      "size": "41",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs, Zipper Closure, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or fully submerge.",
+      "sales_volume": {
+        "monthly": 358,
+        "total": 4210
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 95,
+          "3_star": 25,
+          "2_star": 7,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with the name 'Men's Urban Pulse Runner Shoes' from the brand Adidas, that are suitable for All Seasons, have a transport time of less than 2, with less than 100 3-star reviews and more than 1600 5-star reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.3_star",
+          "value": 98,
+          "operator": "less_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 1610,
+          "operator": "greater_than",
+          "operator_value": 1600.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Adidas",
+          "operator": "equals",
+          "operator_value": "Adidas"
+        },
+        {
+          "field": "name",
+          "value": "Men's Urban Pulse Runner Shoes",
+          "operator": "equals",
+          "operator_value": "Men's Urban Pulse Runner Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products from the brand Timberland that are suitable for Spring/Autumn, have a name containing 'Chukka Boot', and have more than 800 total reviews.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 812,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        },
+        {
+          "field": "brand",
+          "value": "Timberland",
+          "operator": "equals",
+          "operator_value": "Timberland"
+        },
+        {
+          "field": "name",
+          "value": "Men's All-Weather Explorer Chukka Boot",
+          "operator": "contains",
+          "operator_value": "Chukka Boot"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 5, size is 41, stock quantity is more than 100, the target demographic is Men, and the name contains 'Winter Hiking Boots'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "size",
+          "value": "41",
+          "operator": "equals",
+          "operator_value": "41"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 150,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "name",
+          "value": "Men's Classic Winter Hiking Boots",
+          "operator": "contains",
+          "operator_value": "Winter Hiking Boots"
+        }
+      ]
+    }
+  ]
+}

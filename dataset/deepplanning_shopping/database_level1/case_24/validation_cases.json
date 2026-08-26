@@ -1,0 +1,498 @@
+{
+  "query": "I'm doing a big online shopping session to get gear for the whole year. First, I'm looking for something from Arc'teryx in size 43; to make sure the reviews are balanced, it must have more than 5 three-star ratings. Next, I need a popular item from Columbia that ships fast, with a transport time of less than 2 days, over 1800 in total sales, and more than 10 three-star reviews. For the upcoming cold season, I need a winter product with a high sales volume of over 8500 and more than 200 four-star ratings. For summer, I want an item from Puma that also ships in less than 2 days, with more than 1500 total reviews but fewer than 25 two-star reviews. I’m also searching for a specific navy blue Adidas item with '3-Stripes Track Top' in the name; it must have more than 3000 total reviews and less than 15 one-star reviews. Finally, I’ll get a New Balance product with excellent reviews: over 150 five-star reviews and less than 5 two-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "32119720",
+      "name": "Men's Norvan SL 3 Trail Running Shoe",
+      "price": 2199.0,
+      "brand": "Arc'teryx",
+      "color": "Black",
+      "size": "43",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth and mild detergent. Air dry away from direct heat. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 3540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 672,
+        "distribution": {
+          "5_star": 580,
+          "4_star": 75,
+          "3_star": 10,
+          "2_star": 4,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2551eea6",
+      "name": "Men's All-Weather Adventure Jacket",
+      "price": 799.0,
+      "brand": "Columbia",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 312,
+        "total": 2540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 488,
+        "distribution": {
+          "5_star": 401,
+          "4_star": 70,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Great color",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "31dc9212",
+      "name": "Men's Rival Fleece Training Pants",
+      "price": 549.9,
+      "brand": "Under Armour",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 80
+        },
+        {
+          "material": "Cotton",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Printing",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or use softeners.",
+      "sales_volume": {
+        "monthly": 1240,
+        "total": 8560
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1550,
+        "distribution": {
+          "5_star": 1250,
+          "4_star": 220,
+          "3_star": 50,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3adbdfb5",
+      "name": "Men's Active Logo Tee",
+      "price": 249.0,
+      "brand": "Puma",
+      "color": "Yellow",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 40
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 21300
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1542,
+        "distribution": {
+          "5_star": 1105,
+          "4_star": 310,
+          "3_star": 95,
+          "2_star": 22,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "49950027",
+      "name": "Men's Essentials 3-Stripes Track Top",
+      "price": 449.5,
+      "brand": "Adidas",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 91
+        },
+        {
+          "material": "Spandex",
+          "percentage": 9
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or iron on design.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 12400
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3150,
+        "distribution": {
+          "5_star": 2680,
+          "4_star": 350,
+          "3_star": 95,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "46011694",
+      "name": "Men's RC30 Heritage Running Shoes",
+      "price": 899.0,
+      "brand": "New Balance",
+      "color": "Camel",
+      "size": "43",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Patchwork, Printing, Reflective Strips",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash or expose to direct sunlight.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 250,
+        "distribution": {
+          "5_star": 200,
+          "4_star": 40,
+          "3_star": 5,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Arc'teryx, the size is 43, and the number of 3-star ratings is more than 5.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Arc'teryx",
+          "operator": "equals",
+          "operator_value": "Arc'teryx"
+        },
+        {
+          "field": "size",
+          "value": "43",
+          "operator": "equals",
+          "operator_value": "43"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10,
+          "operator": "greater_than",
+          "operator_value": 5.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Columbia, the number of 3-star reviews is more than 10, transport time is less than 2, and the total sales volume is greater than 1800.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Columbia",
+          "operator": "equals",
+          "operator_value": "Columbia"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 15,
+          "operator": "greater_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 1850,
+          "operator": "greater_than",
+          "operator_value": 1800.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Winter, the total sales volume is more than 8500, and it has more than 200 4-star ratings.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 8560,
+          "operator": "greater_than",
+          "operator_value": 8500.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 220,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Puma, suitable for Summer, with more than 1500 total reviews, fewer than 25 2-star reviews, and a transport time of less than 2.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 22,
+          "operator": "less_than",
+          "operator_value": 25.0
+        },
+        {
+          "field": "brand",
+          "value": "Puma",
+          "operator": "equals",
+          "operator_value": "Puma"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1542,
+          "operator": "greater_than",
+          "operator_value": 1500.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with more than 3000 total reviews, where the color is Navy Blue, there are less than 15 1-star reviews, the brand is Adidas, and the name contains '3-Stripes Track Top'.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 3150,
+          "operator": "greater_than",
+          "operator_value": 3000.0
+        },
+        {
+          "field": "color",
+          "value": "Navy Blue",
+          "operator": "equals",
+          "operator_value": "Navy Blue"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 10,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "brand",
+          "value": "Adidas",
+          "operator": "equals",
+          "operator_value": "Adidas"
+        },
+        {
+          "field": "name",
+          "value": "Men's Essentials 3-Stripes Track Top",
+          "operator": "contains",
+          "operator_value": "3-Stripes Track Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is New Balance, the number of 5-star reviews is more than 150, and the number of 2-star reviews is less than 5.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 200,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "brand",
+          "value": "New Balance",
+          "operator": "equals",
+          "operator_value": "New Balance"
+        }
+      ]
+    }
+  ]
+}

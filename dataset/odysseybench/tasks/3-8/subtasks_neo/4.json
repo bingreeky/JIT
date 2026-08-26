@@ -1,0 +1,62 @@
+{
+    "task": "Read the company revenues from company_revenues.xlsx. Identify the year with the lowest revenue. Write this year and its revenue in a newly created file called lowest_revenue.docx. Also, generate a report in lowest_revenue.pdf highlighting the significance of this low revenue year and include the phrase 'lowest point in revenue' in the report.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/lowest_revenue.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/lowest_revenue.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/lowest_revenue.docx",
+                "keywords": [
+                    "2006",
+                    "1193225"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/lowest_revenue.pdf",
+                "keywords": [
+                    "lowest",
+                    "point",
+                    "in",
+                    "revenue",
+                    "2006",
+                    "1193225"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Determine the year with the lowest revenue and prepare the required documents and report.",
+    "ground_truth_memory": [
+        {
+            "item": "Create a new Word file called lowest_revenue.docx to record the year with the lowest revenue and its value."
+        },
+        {
+            "item": "Also generate a PDF report named lowest_revenue.pdf discussing the significance of this low revenue year."
+        },
+        {
+            "item": "Include the phrase 'lowest point in revenue' in the PDF report."
+        },
+        {
+            "item": "Both files should mention the year and value of the lowest revenue (to be identified from the data)."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,236 @@
+{
+  "query": "I'm putting together a new look for myself and need to find a few specific things. First, I want a popular item in dark green that can get to me quickly, so it needs a transport time of less than 2 days, over 500 in monthly sales volume, and more than 600 five-star ratings. To pair with that, I'm looking for something in a size 42 with 'Classic Urban Explorer' in its name. It should be readily available and well-regarded, with a stock quantity greater than 150 and more than 600 total reviews. Lastly, I'm also looking for another size 42 item, but I'm very focused on quality reviews: it must have an average score above 4.5, more than 70 four-star reviews, and fewer than 10 two-star reviews. Find me some products where the total price is no less than 1986 and no more than 1989.",
+  "ground_truth_products": [
+    {
+      "product_id": "0daff72f",
+      "name": "Men's Waffle-Knit Henley Top",
+      "price": 299.0,
+      "brand": "Zara",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Button-down, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 550,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 892,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 180,
+          "3_star": 40,
+          "2_star": 12,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3e3a70c9",
+      "name": "Men's Classic Urban Explorer Shoes",
+      "price": 789.0,
+      "brand": "Levi's",
+      "color": "Brown",
+      "size": "42",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Patchwork, Printing",
+      "washing_instructions": "Do not machine wash. Spot clean with a damp cloth and mild soap. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 245,
+        "total": 1890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 650,
+        "distribution": {
+          "5_star": 480,
+          "4_star": 120,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "784b3783",
+      "name": "Nike Urban Explorer Trail Shoes",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Olive Green",
+      "size": "42",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Nylon",
+          "percentage": 15
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Printing, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach.",
+      "sales_volume": {
+        "monthly": 420,
+        "total": 5180
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 855,
+        "distribution": {
+          "5_star": 710,
+          "4_star": 115,
+          "3_star": 18,
+          "2_star": 7,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Dark Green, transport time is less than 2, monthly sales volume is more than 500, and the number of 5-star ratings is greater than 600.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 650
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 550
+        },
+        {
+          "field": "color",
+          "value": "Dark Green"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is 42, there are more than 600 total reviews, the stock quantity is greater than 150, and the name contains 'Classic Urban Explorer'.",
+      "features": [
+        {
+          "field": "size",
+          "value": "42"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 650
+        },
+        {
+          "field": "stock_quantity",
+          "value": 158
+        },
+        {
+          "field": "name",
+          "value": "Men's Classic Urban Explorer Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is 42, the number of 4-star reviews is greater than 70, the average score is above 4.5, and the number of 2-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "size",
+          "value": "42"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 75
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.9
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}

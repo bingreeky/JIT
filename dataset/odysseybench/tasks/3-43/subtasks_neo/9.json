@@ -1,0 +1,57 @@
+{
+    "task": "Read the meeting agenda from meeting_agenda.pdf and generate a Word document named meeting_minutes.docx summarizing the meeting, ensuring all agenda items are included along with participant names. The summary should include specific time slots, agenda owners, and decisions or votes indicated in the agenda. Save the file as meeting_minutes.docx.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/meeting_minutes.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/meeting_minutes.docx",
+                "keywords": [
+                    "Mirjam",
+                    "Nilsson",
+                    "11:00",
+                    "Fiscal",
+                    "year",
+                    "review",
+                    "Vote",
+                    "on",
+                    "new",
+                    "secretary",
+                    "Rajesh",
+                    "Santoshi",
+                    "Discuss",
+                    "advisory",
+                    "committees",
+                    "Vote",
+                    "on",
+                    "budget",
+                    "Rowan",
+                    "Murphy"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the meeting based on the agenda and create a document containing all key points and names.",
+    "ground_truth_memory": [
+        {
+            "file_name": "meeting_minutes.docx",
+            "action": "Generate a summary of the meeting from the agenda.",
+            "include": [
+                "all agenda items with their scheduled times and owners, as found in the agenda",
+                "names of all participants, as listed",
+                "make sure to clearly mention decisions or votes as indicated in the agenda",
+                "save the document as meeting_minutes.docx"
+            ]
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

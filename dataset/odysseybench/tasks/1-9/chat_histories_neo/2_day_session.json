@@ -1,0 +1,581 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! Quick question\u2014what's the filename for my student scores spreadsheet?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good morning, Alice! The file you're looking for is './data/score.xlsx'.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I always forget if it\u2019s .xlsx or .xls.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "No worries, it\u2019s definitely .xlsx for this one.",
+          "ts": "2020-04-26 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is that file shared in the cloud or just local?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It\u2019s currently only local in your '/data' folder.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. I\u2019ll use that name for now. Thank you!",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You\u2019re welcome! Let me know if you need the file path again.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "On a different note\u2014do you like working with Excel files?",
+          "ts": "2020-04-26 09:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes! Excel files are super handy for processing data and keeping things organized.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "I guess so! I still sometimes miss my old paper grade book though.",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Paper grade books have a nostalgic charm, but digital files make calculations much easier!",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "True! By the way, would opening score.xlsx in Numbers mess it up?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Typically, Numbers can open .xlsx files but some features might not translate perfectly. Just double-check formatting if you do.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know! I'll stick with Excel for now.",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good plan. Excel compatibility is usually best for '.xlsx' files like your scores spreadsheet.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know if there are any hidden sheets or just student data in score.xlsx?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Just student names and two midterm score columns\u2014no hidden sheets in that file.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense! Oh, and by the way, do you ever get tired of looking at spreadsheets?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Never! Each one is a new organizational adventure.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! You're a good sport. Thanks for the info on './data/score.xlsx'!",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Anytime, Alice! Always here to help with your files and a little chitchat.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning! Do you know how I'd go about finding the student with the highest midterm2 score in my spreadsheet?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Morning! Yes, you\u2019d scan the midterm2 column in your score spreadsheet to identify which student(s) has the highest value.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great advice. I guess I just look for the largest number in that column?",
+          "ts": "2020-04-27 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Exactly! The largest number in the midterm2 column indicates the student(s) with the highest score.",
+          "ts": "2020-04-27 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's so helpful! Would it matter if more than one student has that score?",
+          "ts": "2020-04-27 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If more than one student has the top score, all of them would be considered the highest for midterm2.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. I\u2019ll check for ties then!",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good plan! Let me know if you\u2019d like further help with the process or Excel features.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's your favorite Excel function for dealing with grades?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019m partial to MAX, which is perfect for finding the highest score in a range.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "MAX does sound handy! Do you know any keyboard shortcuts in Excel?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Definitely! Ctrl+Arrow to jump cells, Ctrl+C/V for copy-paste. Super useful for navigating.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! I need to practice those more. They\u2019d save me loads of time.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "They will! Once you get used to shortcuts, Excel feels much smoother.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, do you have a favorite color for Excel cell highlighting?",
+          "ts": "2020-04-27 08:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Bright yellow is classic! It\u2019s really noticeable on most sheets.",
+          "ts": "2020-04-27 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "I agree! My eyes go right to it. Do you ever use conditional formatting?",
+          "ts": "2020-04-27 08:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, conditional formatting is great for highlighting highest or lowest values\u2014perfect for grades!",
+          "ts": "2020-04-27 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll try it for my top midterm2 scores. Thanks for the tip.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! Let me know if you want a tutorial on conditional formatting.",
+          "ts": "2020-04-27 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Appreciate your help with the highest midterm2 score advise!",
+          "ts": "2020-04-27 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Anytime, Alice! Let me know if you need anything else\u2014Excel or otherwise.",
+          "ts": "2020-04-27 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019re the best! See you later.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "See you, Alice! Have a great day.",
+          "ts": "2020-04-27 08:26",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Once I find the student(s) with the highest midterm2 score, I want to duplicate their rows. Where should I put the duplicate?",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You should add the duplicated row(s) at the bottom of your Excel file, after the last existing student entry.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect! So, copy all their info\u2014not just the scores, right?",
+          "ts": "2020-04-28 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, copy the entire row for each student with the top midterm2 score, so name and both scores.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense. I don\u2019t need to modify any data, just duplicate correct?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Exactly. No modifications\u2014just duplicate their full row(s) at the bottom.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it! What's your favorite Excel tip for copying rows efficiently?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "My top tip: select the entire row, use Ctrl+C to copy, then select the first empty row and Ctrl+V to paste.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Handy! Sometimes I think Excel was made just for copying and pasting.",
+          "ts": "2020-04-28 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It\u2019s definitely one of its strengths! Makes repetitive tasks way faster.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know if there\u2019s a keyboard shortcut to jump to the last row in Excel?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes! Ctrl+Down Arrow takes you to the last filled cell in the column\u2014very useful for big sheets.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Love it. That'll save me time. Do you use freeze panes often?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely\u2014freeze panes are great for keeping headers visible while scrolling.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite Excel formula?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019m a fan of SUM and VLOOKUP, but for this task, COPY/PASTE is king!",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Hah! True enough. Ever get bored of staring at data tables?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Never! Each table tells a new story.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019re endlessly patient. Thanks for helping me work through this duplication process.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Happy to help! Let me know if you need support with anything else in Excel.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019ll be the first I ask. Off to duplicate rows like a pro!",
+          "ts": "2020-04-28 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Best of luck! You\u2019ll have it done in no time.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Just to clarify, I should paste the duplicated student rows right after the very last row in score.xlsx, correct?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That\u2019s correct! Place the duplicated row(s) immediately after the last existing student row in your score.xlsx file.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. Is there an easy way to find the end of the list in Excel?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes! Press Ctrl+Down Arrow while in a column to quickly jump to the last filled row.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great tip. Do I need to adjust formatting or anything for the new rows?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "As long as you paste, Excel will carry over the formatting. Double-check just in case, but usually it's seamless.",
+          "ts": "2020-04-29 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would there be any issue if I left a blank line before pasting?",
+          "ts": "2020-04-29 08:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It\u2019s best not to leave blank rows between entries, as it could cause confusion or affect formulas referencing the list.",
+          "ts": "2020-04-29 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll keep that in mind! Thanks for specifying where to place the duplicated rows.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You're welcome! Keeping the data continuous helps with clarity and consistency.",
+          "ts": "2020-04-29 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, can you help with Excel printing tips?",
+          "ts": "2020-04-29 08:13",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Of course! Use Print Preview to check page breaks, and select 'Fit Sheet on One Page' for small sets of data.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s super useful. I always get surprised by random blank pages.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Print preview is your friend for avoiding surprises! You can also set custom margins if needed.",
+          "ts": "2020-04-29 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know if conditional formatting copies with rows?",
+          "ts": "2020-04-29 08:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, if the formatting is applied to the whole row, it will copy over when duplicating the row.",
+          "ts": "2020-04-29 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. Have you ever seen someone accidentally overwrite their header?",
+          "ts": "2020-04-29 08:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It happens! Best to double-check that you\u2019re selecting and pasting rows below all existing data.",
+          "ts": "2020-04-29 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted. I\u2019ll always paste after the last row from now on.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That\u2019ll keep your file tidy. You\u2019re doing great!",
+          "ts": "2020-04-29 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Appreciate it! Once these rows are copied, it should be all set.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Exactly. If you need any more Excel tricks, just ask!",
+          "ts": "2020-04-29 08:24",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Just double-checking: when I duplicate those student rows at the end, I shouldn't add another header, right?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That's correct! Simply duplicate the student row(s) as they are\u2014no need to add a new header.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great, thanks for clarifying. I know it's easy to accidentally paste the header again.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, it's a common mistake. Just paste student data below the last existing row\u2014leave the header up top.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect! Do you recommend reviewing the data after duplicating, or is it usually error-free?",
+          "ts": "2020-04-30 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It's always a good idea to review your changes just to make sure everything looks correct.",
+          "ts": "2020-04-30 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright. What would happen if an accidental extra header was left in the middle of the sheet?",
+          "ts": "2020-04-30 08:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Having an extra header row within your data could cause confusion and errors with sorting or formulas\u2014so best avoid it.",
+          "ts": "2020-04-30 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense! I'll make sure to duplicate only the student info.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Great plan. Your data will stay much cleaner that way.",
+          "ts": "2020-04-30 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you like using bold text for headers? I always do!",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Bold headers make the columns easy to spot\u2014definitely a good habit.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about adding colors\u2014any favorite styles for Excel tables?",
+          "ts": "2020-04-30 08:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Light gray or blue is classic, but colors are a fun way to organize sheets your way!",
+          "ts": "2020-04-30 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might try that for fun! Back to rows: is there a fast way to undo a pasted header if I mess up?",
+          "ts": "2020-04-30 08:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely\u2014just press Ctrl+Z right after the mistake, and Excel will undo the last action.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "So helpful! I\u2019m glad you\u2019re always so clear with instructions.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'm always happy to help clarify. Precision keeps data neat!",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "If only I could duplicate your helpfulness with a keyboard shortcut!",
+          "ts": "2020-04-30 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Haha, thanks! I\u2019ll be here anytime you need assistance, shortcut or not.",
+          "ts": "2020-04-30 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, I\u2019m off to finish my spreadsheet. Have a great day!",
+          "ts": "2020-04-30 08:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You too, Alice! Happy spreadsheeting!",
+          "ts": "2020-04-30 08:26",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,460 @@
+{
+  "query": "I'm doing a complete refresh of my athletic wardrobe and need to get a few things quickly. To start, I'm looking for a highly-rated product with an average score above 4.5, more than 800 five-star reviews, and less than 60 three-star reviews. Next, I need a specific item called 'Men's Essentials 3-Stripes Tee' in black that can ship in less than 2 days. It must be well-stocked with a quantity over 1800 and have fewer than 100 one-star reviews. For winter, I want a black item from Li-Ning with over 90 four-star reviews and fewer than 10 two-star reviews. Then, for the summer, I need another item that arrives in less than 2 days, with over 350 five-star ratings and less than 25 three-star ratings. I also need something from Salomon in size 43, with a transport time of less than 2, more than 700 five-star ratings, and less than 10 one-star ratings. Lastly, I'm searching for a Li-Ning product in size L with 'Performance Training Top' in its name and an average rating score over 4.5. I'd like to keep my total spending between 3842 and 3864. Please help me find the products that meet my requirements.",
+  "ground_truth_products": [
+    {
+      "product_id": "c951d3de",
+      "name": "Men's 'Golden Era' Athletic Long-Sleeve Top",
+      "price": 329.0,
+      "brand": "Li-Ning",
+      "color": "Gold",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low or hang dry.",
+      "sales_volume": {
+        "monthly": 950,
+        "total": 6800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1550,
+        "distribution": {
+          "5_star": 1280,
+          "4_star": 215,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "Great color",
+        "Excellent quality",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Beijing",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "40c7b7c8",
+      "name": "Men's Essentials 3-Stripes Tee",
+      "price": 249.0,
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 1850,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not iron decoration.",
+      "sales_volume": {
+        "monthly": 3150,
+        "total": 67800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 8945,
+        "distribution": {
+          "5_star": 7210,
+          "4_star": 1350,
+          "3_star": 215,
+          "2_star": 95,
+          "1_star": 75
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "85eb4266",
+      "name": "Men's WinterShield Performance Long-Sleeve Top",
+      "price": 329.0,
+      "brand": "Li-Ning",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener or bleach.",
+      "sales_volume": {
+        "monthly": 985,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 673,
+        "distribution": {
+          "5_star": 552,
+          "4_star": 98,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3ea82a23",
+      "name": "Men's Canvas Boat Shoes",
+      "price": 1288.0,
+      "brand": "Ralph Lauren",
+      "color": "Camel",
+      "size": "43",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Vintage Wash, Side Pockets",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not submerge. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 1980
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 482,
+        "distribution": {
+          "5_star": 356,
+          "4_star": 95,
+          "3_star": 21,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "Great color",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "593b6b56",
+      "name": "Men's XT-6 Trail Running Shoes",
+      "price": 1299.0,
+      "brand": "Salomon",
+      "color": "Pink",
+      "size": "43",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or tumble dry.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4200
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 110,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "Excellent quality",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "58b3f79f",
+      "name": "Men's AIR-DRY Performance Training Top",
+      "price": 349.0,
+      "brand": "Li-Ning",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron on print.",
+      "sales_volume": {
+        "monthly": 980,
+        "total": 15320
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 2850,
+        "distribution": {
+          "5_star": 2410,
+          "4_star": 355,
+          "3_star": 60,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with an average score greater than 4.5, more than 800 5-star reviews, and less than 60 3-star reviews.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 850
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is greater than 1800, the transport time is less than 2, the color is Black, it has fewer than 100 1-star reviews, and the product name is 'Men's Essentials 3-Stripes Tee'.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 1850
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Black"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 75
+        },
+        {
+          "field": "name",
+          "value": "Men's Essentials 3-Stripes Tee"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Li-Ning, the color is Black, it is suitable for Winter, there are fewer than 10 2-star reviews, and more than 90 4-star reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 98
+        },
+        {
+          "field": "brand",
+          "value": "Li-Ning"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "color",
+          "value": "Black"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the suitable season is Summer, the number of 3-star ratings is less than 25, and the number of 5-star ratings is more than 350.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 20
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 380
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is 43, the brand is Salomon, the transport time is less than 2, the number of 5-star ratings is more than 700, and the number of 1-star ratings is less than 10.",
+      "features": [
+        {
+          "field": "size",
+          "value": "43"
+        },
+        {
+          "field": "brand",
+          "value": "Salomon"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 720
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Li-Ning, the size is L, the average rating score is greater than 4.5, and the name contains 'Performance Training Top'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Li-Ning"
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "name",
+          "value": "Men's AIR-DRY Performance Training Top"
+        }
+      ]
+    }
+  ]
+}

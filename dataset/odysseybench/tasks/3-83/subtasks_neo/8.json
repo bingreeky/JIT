@@ -1,0 +1,56 @@
+{
+    "task": "Identify all students who are enrolled in Class 1 and save their names in a new PDF file named Class1_Students.pdf. Make sure only the names of students from Class 1 are included, and exclude students from other classes.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Class1_Students.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Class1_Students.pdf",
+                "keywords": [
+                    "Noah",
+                    "Jackson",
+                    "Olivia",
+                    "Grace"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/Class1_Students.pdf",
+                "keywords": [
+                    "Carol",
+                    "Jack",
+                    "Sam",
+                    "Tina",
+                    "Alice",
+                    "Mia",
+                    "Noahson"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "List the students in Class 1 and save their names in a PDF file.",
+    "ground_truth_memory": [
+        {
+            "note": "Create a new PDF file named Class1_Students.pdf for the output."
+        },
+        {
+            "note": "Extract the names of students who are in Class 1 only from class_member.xlsx."
+        },
+        {
+            "note": "Only include Class 1 students in the PDF file; do not include students from other classes."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

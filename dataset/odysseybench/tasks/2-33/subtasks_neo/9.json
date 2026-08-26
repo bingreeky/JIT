@@ -1,0 +1,46 @@
+{
+    "task": "Create a summary report in Word format listing each class (from 1 to 5) and the total number of unique students in each class, using data from class_member.xlsx. The report should be saved as class_summary.docx in the /testbed/data/ directory. Include as section headers: 'Class 1', 'Class 2', etc., followed by the student count for each class. Do not include student names, only counts are required.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/class_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Class 1",
+                    "Class 2",
+                    "Class 3",
+                    "Class 4",
+                    "Class 5"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/class_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "students",
+                    "number"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare a Word document summarizing how many students are in each class based on the class member spreadsheet.",
+    "ground_truth_memory": [
+        {
+            "note": "The summary report must be saved as class_summary.docx in the /testbed/data/ directory."
+        },
+        {
+            "note": "Use only unique student names for each class when counting students."
+        },
+        {
+            "note": "The section headers in the Word file should be 'Class 1', 'Class 2', 'Class 3', 'Class 4', and 'Class 5', each followed by the student count for that class."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

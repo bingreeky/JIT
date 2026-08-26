@@ -1,0 +1,15 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Compare income and expenditure based on company trading record, write a short analysis and save it as trading_record_post.jpg in folder named trading_account",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/trading_account/company_trading_records.jpg"
+          }
+        }
+    ]
+}

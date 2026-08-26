@@ -1,0 +1,21 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Use OCR to extract text from business cards and convert them into an Excel sheet with contact information, called 'contacts.xlsx'.",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/contacts.xlsx",
+        "doc_type": "xlsx",
+        "keywords": [
+          "Bob",
+          "John",
+          "Tom"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "username": "Bob",
+    "date": "2022-11-01",
+    "weekday": "Tuesday",
+    "time": "10:00 AM",
+    "task": "Check the emails, and let me know if my scholarship application is approved. Yes or no?",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/answer.txt",
+                "doc_type": "txt",
+                "keywords": [
+                    "yes"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Check if Bob's scholarship application is approved."
+}

@@ -1,0 +1,67 @@
+{
+    "task": "Update the shopping_list.xlsx file by adding a new item 'banana' with the amount 6, and increase the amount of 'apple' to 5. Then, create a summary document shopping_summary.docx listing all items and their updated amounts from the spreadsheet.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/shopping_list.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "banana"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "6"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "5"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/shopping_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/shopping_summary.docx",
+                "keywords": [
+                    "apple",
+                    "5",
+                    "cabbage",
+                    "2",
+                    "onion",
+                    "2",
+                    "banana",
+                    "6"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the shopping list with a new item and generate a summary.",
+    "ground_truth_memory": [
+        {
+            "note": "Add a new item 'banana' with amount 6 into shopping_list.xlsx."
+        },
+        {
+            "note": "Change the amount of 'apple' in shopping_list.xlsx to 5."
+        },
+        {
+            "note": "Create a document named shopping_summary.docx listing all shopping items and their updated amounts from shopping_list.xlsx."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

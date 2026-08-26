@@ -1,0 +1,73 @@
+{
+    "task": "Summarize the meeting agenda from meeting_agenda_2.xlsx into a Word document named summary_meeting_agenda.docx. The summary should list each agenda item's time, title, and contact person, and also include a note that the next meeting is proposed for May 8th at 14:00. Place the meeting proposal note at the end of the summary.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary_meeting_agenda.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary_meeting_agenda.docx",
+                "keywords": [
+                    "Introductions",
+                    "13:00:00",
+                    "Linda"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary_meeting_agenda.docx",
+                "keywords": [
+                    "Agenda",
+                    "Davide"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary_meeting_agenda.docx",
+                "keywords": [
+                    "Strategy",
+                    "Charlie"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary_meeting_agenda.docx",
+                "keywords": [
+                    "May",
+                    "8th",
+                    "14:00"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary of the meeting agenda from the Excel file as a Word document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output Word file should be named summary_meeting_agenda.docx."
+        },
+        {
+            "fact": "The summary must include each agenda item's scheduled time, title, and contact person."
+        },
+        {
+            "action": "Add a note at the end proposing the next meeting for May 8th at 14:00."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

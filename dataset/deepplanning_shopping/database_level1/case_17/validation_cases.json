@@ -1,0 +1,271 @@
+{
+  "query": "I'm putting together a new athletic outfit and need a few specific pieces. First, I'm looking for a 'Crewneck Top' that can arrive quickly, so the transport time must be less than 2 days. It needs to be well-reviewed, with an average score over 4.5, more than 40 four-star reviews, and fewer than 15 three-star reviews. To complement that, I want a very popular item for women from the brand Ralph Lauren. Specifically, it must be Pink, size L, and have over 1000 five-star ratings. Lastly, to complete the set, I need some 'Performance Tights' from Puma in size L. I'm looking for quality, so they must have an average score greater than 4.5 and more than 150 four-star ratings.",
+  "ground_truth_products": [
+    {
+      "product_id": "6913c77e",
+      "name": "Women's Cable-Knit Crewneck Top",
+      "price": 1199.0,
+      "brand": "Ralph Lauren",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Nylon",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Lay flat to dry. Do not bleach.",
+      "sales_volume": {
+        "monthly": 180,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 452,
+        "distribution": {
+          "5_star": 390,
+          "4_star": 45,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "0072ca14",
+      "name": "Women's Classic Pima Cotton Polo Top",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Pink",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Button-down, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Cool iron if needed. Do not bleach.",
+      "sales_volume": {
+        "monthly": 458,
+        "total": 8210
+      },
+      "rating": {
+        "average_score": 4.76,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 1010,
+          "4_star": 200,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "68dbbf8e",
+      "name": "Women's Studio Performance Tights",
+      "price": 429.0,
+      "brand": "Puma",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 510,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 820,
+        "distribution": {
+          "5_star": 610,
+          "4_star": 155,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the name contains 'Crewneck Top', the average score is greater than 4.5, transport time is less than 2 days, the number of 4-star reviews is more than 40, and the number of 3-star reviews is less than 15.",
+      "features": [
+        {
+          "field": "name",
+          "value": "Women's Cable-Knit Crewneck Top",
+          "operator": "contains",
+          "operator_value": "Crewneck Top"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 45,
+          "operator": "greater_than",
+          "operator_value": 40.0
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10,
+          "operator": "less_than",
+          "operator_value": 15.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Pink, the size is L, the brand is Ralph Lauren, the number of 5-star ratings is greater than 1000, and the target demographic is Women.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Pink",
+          "operator": "equals",
+          "operator_value": "Pink"
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren",
+          "operator": "equals",
+          "operator_value": "Ralph Lauren"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 1010,
+          "operator": "greater_than",
+          "operator_value": 1000.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        }
+      ]
+    },
+    {
+      "sub_query": "I am looking for products where the average score is greater than 4.5, the brand is Puma, there are more than 150 4-star ratings, the size is L, and the name contains 'Performance Tights'.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "brand",
+          "value": "Puma",
+          "operator": "equals",
+          "operator_value": "Puma"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 155,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "name",
+          "value": "Women's Studio Performance Tights",
+          "operator": "contains",
+          "operator_value": "Performance Tights"
+        }
+      ]
+    }
+  ]
+}

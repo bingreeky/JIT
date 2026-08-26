@@ -1,0 +1,521 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! I need your help with a file task today.",
+          "ts": "2020-04-26 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning! Absolutely, I'm ready to help. What kind of file task do you have in mind?",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I have an Excel sheet with multiple activities listed. I need a summary made from it.",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! What format would you like the summary in? And what specific details from each activity do you want to include?",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you prepare the summary as a Word document? Please name it 'task_summary.docx' and place it in the data directory.",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Great, so I\u2019ll create a Word document named 'task_summary.docx' in the data directory. What should the contents of the summary be?",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "For each activity in the Excel, include a bullet point with the activity number, its start date, end date, and the activity name.",
+          "ts": "2020-04-26 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. Each bullet point in 'task_summary.docx' will have the activity number, start date, end date, and name for every activity.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Exactly! There are multiple activities, so make sure none are missed.",
+          "ts": "2020-04-26 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll include them all. Should I maintain the order as in the Excel file?",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, keep the original order. Thanks. Do you recommend a particular bullet style for clarity in Word?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Simple filled circles work well for lists, but I can use dashes or another style if you prefer. Let me know if you have a preference.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Circles are fine. By the way, what's your favorite document type to format?",
+          "ts": "2020-04-26 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Word documents are among my favorites since they offer great formatting options. Is this summary for sharing with others?",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, I'll be sharing the summary with the team, so make sure all the activity details are easy to find in the document.",
+          "ts": "2020-04-26 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "I'll make each bullet point concise and readable. Just to confirm, that's: activity number, start date, end date, and name for every Excel activity, all in 'task_summary.docx'.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's correct. And don't forget to save the file in the data directory. What information do you need from me to get started?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "As long as I have access to 'task.xlsx', I should be able to handle the task. Anything else you'd like to specify?",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "No, that's everything. Looking forward to seeing the summary!",
+          "ts": "2020-04-26 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "You can count on me to cover every activity from the Excel file in a clear bullet list inside 'task_summary.docx'. If you think of any other requirements, let me know!",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hi, just checking in about the Excel summary task.",
+          "ts": "2020-04-27 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Hi Alice! I'm here. Do you have any extra details or updates for the summary?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not really, just a quick reminder: the Excel file has 12 activities. I want all of them included in the Word summary.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you for the reminder! I'll be sure that all 12 activities from your Excel sheet appear in the summary document.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Missing any one would disrupt the workflow, so please double-check that every activity is represented.",
+          "ts": "2020-04-27 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "You're right, it's important for completeness. I'll cross-check each of the 12 activities and include them each as bullet points.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Out of curiosity, do you work on weekends, too?",
+          "ts": "2020-04-27 08:07",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm available to assist you every day, including weekends! Let me know if you ever need something urgently done.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's useful to know. Do you also process Excel files with more than 12 activities?",
+          "ts": "2020-04-27 08:09",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I can summarize Excel files with any number of activities. This time, I'll pay special attention to including all 12 in your summary.",
+          "ts": "2020-04-27 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. For this summary, can you also indicate somewhere that all 12 activities are present?",
+          "ts": "2020-04-27 08:11",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I can add a note in the document stating, 'All 12 activities from the Excel file are summarized.' Would that work?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "That would be helpful. I want it to be clear at a glance that nothing's missing.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. Your summary will explicitly confirm that it covers all 12 activities listed in the Excel file.",
+          "ts": "2020-04-27 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that's perfect. How do you keep track of the number of items when generating summaries?",
+          "ts": "2020-04-27 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "I process each item one by one and track the count programmatically, so the summary will have no omissions.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. Just making sure\u2014are 12 activities typical for task lists, or do you see more or less?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "It varies! Some task lists are much longer, but 12 is a manageable and thorough set of activities.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the insight! Let me know if you run into any issues.",
+          "ts": "2020-04-27 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "You got it! If I have a question or spot something unusual in the 12 activities, I'll reach out right away.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hello! Quick question about the Word summary task for the Excel activities.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Hi Alice! Sure, please ask\u2014I'm here to help with anything related to your summary project.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Once the Word summary is ready, can you email me the key contents from that document for my review?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course! After the Word document is generated, I'll email you the main points from the summary for your review.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. That way I can double-check for any errors before sharing it more widely.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Exactly, you\u2019ll have a chance to make sure everything\u2019s right before distributing it further. Would you like the whole summary or just the main highlights in the email?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Send the main contents\u2014activity numbers, dates, and task names for each activity should be sufficient.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. I'll make sure the email includes the main contents: activity number, start and end dates, and the activity names from the Word summary.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! Could you send it to the same email I usually use with you?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I\u2019ll send it directly to your usual email address, Alice. You\u2019ll get it as soon as the summary is prepared.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's helpful. Do you need any further info from me for emailing?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Nope, I have your details saved, so I'll take care of the emailing step after the Word document is finished.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, is there a size limit for what you can email?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "For standard summaries like this, size won't be an issue. I\u2019ll ensure the contents fit smoothly in the body of the email.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! Once you email me, should I send feedback or corrections directly to you?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, please do! If you see any issues in the summary or spot missing details when you review the email, just reply to me and I\u2019ll update the document quickly.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds like a plan. I like this workflow. It helps reduce mistakes.",
+          "ts": "2020-04-28 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Glad to hear that! Streamlined reviews really do minimize errors. I\u2019ll notify you as soon as the summary is delivered via email.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. I look forward to reviewing the summary in my inbox!",
+          "ts": "2020-04-28 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome, Alice! Watch for my email after the Word doc is complete. Let me know if you want a specific subject line or any extra notes included.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Good morning! How are you today?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I\u2019m feeling productive and ready to help. How about you?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm good, thanks. Do you ever get bored processing documents?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Not at all! Each document is a new challenge and a chance to help you out. It keeps things interesting.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you listen to music while working?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t listen to music like humans do, but I\u2019ve read that music can increase productivity. Do you have a favorite playlist?",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like instrumental music\u2014it's relaxing and helps me focus. What about you, do you have a genre you\u2019d recommend for deep work?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Instrumental or classical genres are excellent for focus. Many people enjoy ambient soundtracks as well.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I agree! Sometimes I put on nature sounds. Works wonders for stress.",
+          "ts": "2020-04-29 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds soothing! Nature sounds can boost relaxation and concentration. Do you have a favorite sound?",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love ocean waves. It's like working near the sea!",
+          "ts": "2020-04-29 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Ocean waves are classic. Many people find them calming. A touch of the beach while you work!",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have advice for staying organized during busy weeks?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Using a task list, breaking big tasks into smaller parts, and scheduling short breaks can really help with staying organized and focused.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great advice! I\u2019ll try breaking tasks down more this week.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a great approach. Little steps add up quickly. Anything fun planned for your week?",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not really, just keeping up with work and maybe watching a movie. Any movie recommendations?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "If you like thoughtful stories, \u2018The Secret Life of Walter Mitty\u2019 is inspiring. For fun, \u2018Paddington\u2019 is delightful.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "I haven't seen either! I'll try one this weekend. Thanks!",
+          "ts": "2020-04-29 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy to help! Let me know what you think after you watch. Have a productive and pleasant day, Alice!",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Morning! Did you know it's International Jazz Day today?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I did know that\u2014International Jazz Day is celebrated around the world. Do you enjoy jazz music?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I do! Especially the classics\u2014Coltrane, Miles Davis, that sort of thing.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Great choices! Jazz is so expressive and improvisational. What's your favorite jazz album?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Probably 'Kind of Blue' by Miles Davis. It's timeless. Do you listen to albums in order or shuffle them?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "user"
+        },
+        {
+          "text": "If I listened the way people do, I'd recommend playing classic albums in order to enjoy the flow the artist intended.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's true\u2014I agree. Do you know any fun jazz facts?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Did you know jazz influenced many genres, from rock to hip-hop? And improvisation is a cornerstone of jazz performance.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love that about jazz. Do you have a favorite jazz instrument?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Saxophone is iconic in jazz\u2014so smooth and expressive! The piano is another favorite for its versatility.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Piano jazz solos are amazing. I wish I could play. Do you offer any advice for learning an instrument?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Practice little and often, focus on fundamentals, and listen to a lot of music in your chosen style. Consistency is key!",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's what I've heard. I sometimes just improvise for fun. Feels creative.",
+          "ts": "2020-04-30 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Improvising is both fun and a great way to learn! It's the heart of jazz, after all.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know any famous quotes about music?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! Duke Ellington once said, 'It don't mean a thing if it ain't got that swing.' And Beethoven claimed, 'Music can change the world.'",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice quotes! Music makes everything better. What's a good snack for an afternoon of jazz?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "How about some cheese, crackers, and fruit? It\u2019s simple, classic, and goes well with relaxing music.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds tasty. I'll do that. Thanks for the chat! Have a great day.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "My pleasure, Alice! Enjoy your jazz-filled day and let me know if you want to talk more music anytime.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "username": "Bob",
+  "date": "2024-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "What are Bob's emails for last three months? List the contents as answer.",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/answer.txt",
+        "doc_type": "txt",
+        "keywords": [
+          "Subject: scheduled meeting",
+          "Subject: application approved"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_not_contain",
+      "args": {
+        "file": "data/answer.txt",
+        "doc_type": "txt",
+        "keywords": [
+          "Your Project 2 has been graded.",
+          "Subject: Reminder Rent due"
+        ]
+      }
+    }
+  ]
+}

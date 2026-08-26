@@ -1,0 +1,42 @@
+{
+    "task": "Summarize the car trading records in /testbed/data/car_trading.png by (1) creating a document named car_trading_summary.docx that includes: the car model with the highest trade price, the most frequent seller, and the date of the most recent trade, and (2) ensure the keywords reflecting these summary points appear in the document. Do not simply copy the table. The document should include 'Porsche Cayenne Turbo' as the high-value car, 'Dealer' as most frequent seller, and '2024-04-18' as the most recent trade date.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/car_trading_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "./data/car_trading_summary.docx",
+                "keywords": [
+                    "Porsche Cayenne Turbo",
+                    "Dealer",
+                    "2024-04-18"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the main trends and key facts from the car trading records.",
+    "ground_truth_memory": [
+        {
+            "info": "The summary should be saved in a Word file named car_trading_summary.docx in the data folder."
+        },
+        {
+            "info": "Include the car model with the highest trade price in the summary (Porsche Cayenne Turbo)."
+        },
+        {
+            "info": "Identify 'Dealer' as the most frequent seller in the summary."
+        },
+        {
+            "info": "The most recent trade date is 2024-04-18; include this date prominently in the summary."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

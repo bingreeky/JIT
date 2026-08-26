@@ -1,0 +1,238 @@
+{
+  "query": "I'm getting some new gear for my summer walks and outdoor activities. First, I need to find a specific product from Li-Ning that has 'Walking Shoes' in its name, and I need it in a size 36. I'm looking at reviews carefully, so I want something with more than 5 three-star ratings but also fewer than 5 two-star ratings. To go with that, I need a popular summer item made for women; it must have a monthly sales volume over 1200 and fewer than 15 one-star reviews. Lastly, I want a well-liked item from the brand Arc'teryx, so I'm looking for something with more than 500 five-star ratings and a monthly sales volume greater than 250. I'd like to keep my total spending between 2094 and 2558. Please help me find the products that meet my requirements.",
+  "ground_truth_products": [
+    {
+      "product_id": "c5edd681",
+      "name": "Women's Summer Breeze Walking Shoes",
+      "price": 389.0,
+      "brand": "Li-Ning",
+      "color": "Brown",
+      "size": "36",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        },
+        {
+          "material": "Cotton",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Patchwork, Printing",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 188,
+        "distribution": {
+          "5_star": 120,
+          "4_star": 55,
+          "3_star": 8,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ff0b15fa",
+      "name": "Women's Burgundy Strappy Heeled Sandals",
+      "price": 449.5,
+      "brand": "Zara",
+      "color": "Burgundy",
+      "size": "36",
+      "stock_quantity": 87,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Printing",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge in water.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 4800
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 550,
+          "4_star": 220,
+          "3_star": 50,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Stylish design",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "82af0873",
+      "name": "Women's Norvan GTX Trail Shoe",
+      "price": 1699.99,
+      "brand": "Arc'teryx",
+      "color": "Green",
+      "size": "36",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash, bleach, or tumble dry.",
+      "sales_volume": {
+        "monthly": 275,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 110,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "I am looking for products where the brand is Li-Ning, the name contains 'Walking Shoes', the size is 36, there are more than 5 3-star ratings, and fewer than 5 2-star ratings.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Li-Ning"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 8
+        },
+        {
+          "field": "size",
+          "value": "36"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3
+        },
+        {
+          "field": "name",
+          "value": "Women's Summer Breeze Walking Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Summer, the target demographic is Women, the monthly sales volume is greater than 1200, and there are fewer than 15 1-star reviews.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1250
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where there are more than 500 5-star ratings, the monthly sales volume is more than 250, and the brand is Arc'teryx.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 520
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 280
+        },
+        {
+          "field": "brand",
+          "value": "Arc'teryx"
+        }
+      ]
+    }
+  ]
+}

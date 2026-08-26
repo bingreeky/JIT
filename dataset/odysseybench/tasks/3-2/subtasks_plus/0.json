@@ -1,0 +1,33 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Extract data from a PDF financial report, generate the report.xlsx and analyze the report in report.xlsx, and create a summary in summary.docx, using the news title from the financial report",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/report.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary.docx",
+                "keywords": [
+                    "NVIDIA",
+                    "financial"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate the report.xlsx using the extracted data, analyze the report, and create a summary in summary.docx using the news title from the financial report."
+}

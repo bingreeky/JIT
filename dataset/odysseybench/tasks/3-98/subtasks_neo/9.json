@@ -1,0 +1,121 @@
+{
+    "task": "Create an Excel file named project_plan.xlsx with a worksheet containing a project plan table. The table should have the following columns: Task, Start Date, End Date, Owner. Add three rows with the following data: (1) Task: 'Initial Research', Start Date: '2020-05-02', End Date: '2020-05-05', Owner: 'Alice'; (2) Task: 'Data Collection', Start Date: '2020-05-06', End Date: '2020-05-08', Owner: 'Bob'; (3) Task: 'Analysis', Start Date: '2020-05-09', End Date: '2020-05-12', Owner: 'Carol'. Save the file in the root directory.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_plan.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/project_plan.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Task"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Start Date"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "value": "End Date"
+                    },
+                    {
+                        "row": 1,
+                        "col": 4,
+                        "value": "Owner"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Initial Research"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "2020-05-02"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "2020-05-05"
+                    },
+                    {
+                        "row": 2,
+                        "col": 4,
+                        "value": "Alice"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Data Collection"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "2020-05-06"
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": "2020-05-08"
+                    },
+                    {
+                        "row": 3,
+                        "col": 4,
+                        "value": "Bob"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Analysis"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "2020-05-09"
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "value": "2020-05-12"
+                    },
+                    {
+                        "row": 4,
+                        "col": 4,
+                        "value": "Carol"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create an Excel file with a project plan table containing specified tasks and save it in the root directory.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Excel file to create is named project_plan.xlsx and should be saved in the root directory."
+        },
+        {
+            "fact": "The worksheet should begin with column headers: Task, Start Date, End Date, Owner."
+        },
+        {
+            "fact": "The first row to add has: Task: Initial Research, Start Date: 2020-05-02, End Date: 2020-05-05, Owner: Alice."
+        },
+        {
+            "fact": "The second row to add has: Task: Data Collection, Start Date: 2020-05-06, End Date: 2020-05-08, Owner: Bob."
+        },
+        {
+            "fact": "The third row to add has: Task: Analysis, Start Date: 2020-05-09, End Date: 2020-05-12, Owner: Carol."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,395 @@
+{
+  "query": "I'm getting ready for a last-minute trip and need some things delivered fast. First, I'm looking for a very specific item with the name 'Skater Cropped Hoodie' in Light Grey, size M. It needs to be popular, so its total sales volume must be over 3400 with a rating above 4.5 stars, and it must have a transport time of less than 2. I also need another top for women, specifically a sweatshirt in size M, that can also be delivered with a transport time under 2. For footwear, I'm searching for some 'Waterproof Hiking Shoes' from the brand Columbia in Beige, size 38, for women. Additionally, I need a reliable all-seasons item that has fewer than 15 one-star reviews and less than 30 three-star reviews, with a transport time of less than 2. Lastly, I want something for trail running, and I'm very particular about quality, so it must have fewer than 5 two-star and fewer than 5 three-star reviews, and also arrive in under 2 for transport time. My budget is between 3465 and 3785.",
+  "ground_truth_products": [
+    {
+      "product_id": "0b6343ce",
+      "name": "Women's Classic Skater Cropped Hoodie",
+      "price": 489.0,
+      "brand": "Vans",
+      "color": "Light Grey",
+      "size": "M",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not iron on print.",
+      "sales_volume": {
+        "monthly": 215,
+        "total": 3450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 345,
+        "distribution": {
+          "5_star": 290,
+          "4_star": 40,
+          "3_star": 10,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d08b21f9",
+      "name": "Women's Classic Logo Crewneck Sweatshirt",
+      "price": 429.99,
+      "brand": "Vans",
+      "color": "Wine Red",
+      "size": "M",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 80
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 680,
+        "total": 5420
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1350,
+        "distribution": {
+          "5_star": 1098,
+          "4_star": 201,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 6
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "13236f8c",
+      "name": "Women's Peak Venture Waterproof Hiking Shoes",
+      "price": 849.9,
+      "brand": "Columbia",
+      "color": "Beige",
+      "size": "38",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Ribbed Cuffs, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4200
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 384,
+          "4_star": 77,
+          "3_star": 26,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e96a44b1",
+      "name": "Nike Air Max Pulse Women's Lifestyle Shoes",
+      "price": 949.0,
+      "brand": "Nike",
+      "color": "Navy Blue",
+      "size": "38",
+      "stock_quantity": 258,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 320,
+        "total": 4512
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 950,
+        "distribution": {
+          "5_star": 760,
+          "4_star": 142,
+          "3_star": 28,
+          "2_star": 10,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "82343850",
+      "name": "Women's Agile Trail Running Tights",
+      "price": 749.5,
+      "brand": "Salomon",
+      "color": "Gold",
+      "size": "M",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 84
+        },
+        {
+          "material": "Spandex",
+          "percentage": 16
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low or hang dry.",
+      "sales_volume": {
+        "monthly": 92,
+        "total": 877
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 154,
+        "distribution": {
+          "5_star": 120,
+          "4_star": 28,
+          "3_star": 4,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with a name containing 'Skater Cropped Hoodie', in the color Light Grey, size M, with a rating above 4.5 stars, a total sales volume over 3400, and a transport time of less than 2.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 3450
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8
+        },
+        {
+          "field": "color",
+          "value": "Light Grey"
+        },
+        {
+          "field": "name",
+          "value": "Women's Classic Skater Cropped Hoodie"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the size is M, transport time is less than 2, the target demographic is Women, and the name contains 'Sweatshirt'.",
+      "features": [
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "name",
+          "value": "Women's NB Athletics Crew Neck Sweatshirt"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Columbia, the color is Beige, the target demographic is Women, the size is 38, and the name contains 'Waterproof Hiking Shoes'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Columbia"
+        },
+        {
+          "field": "color",
+          "value": "Beige"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "size",
+          "value": "38"
+        },
+        {
+          "field": "name",
+          "value": "Women's Peak Venture Waterproof Hiking Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is All Seasons, transport time is less than 2, the number of 1-star reviews is less than 15, and the number of 3-star reviews is less than 30.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 10
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 28
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a name containing 'Trail Running', with less than 5 2-star reviews, less than 5 3-star reviews, and a transport time of less than 2.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 2
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 4
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "name",
+          "value": "Women's Agile Trail Running Tights"
+        }
+      ]
+    }
+  ]
+}

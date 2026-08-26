@@ -1,0 +1,50 @@
+{
+    "task": "Create a new excel file named 'monthly_expenses.xlsx'. Add a record for 'groceries' with a value of $150 for the month of April in the first row. Ensure the columns are 'item', 'month', and 'amount' in this order.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/monthly_expenses.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "groceries"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "April"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "value": "150"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add April groceries expense to a new monthly expenses excel file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file must be named 'monthly_expenses.xlsx' and saved in the ./data directory."
+        },
+        {
+            "fact": "The first row should contain item = groceries, month = April, and amount = 150."
+        },
+        {
+            "fact": "The columns should be ordered as: item, month, amount."
+        },
+        {
+            "fact": "The values must be placed in the first row under these columns."
+        },
+        {
+            "fact": "If the file doesn't exist, it should be created with the correct columns and entry."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

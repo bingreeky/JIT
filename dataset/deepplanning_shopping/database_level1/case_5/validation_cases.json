@@ -1,0 +1,343 @@
+{
+  "query": "I'm gearing up for a winter trip and need to order some things quickly. First, I'm looking for a pair of Arc'teryx Insulated Softshell Pants suitable for winter that are highly rated, with more than 350 five-star ratings. To go with them, I need a dark green item in size XL that has an average score greater than 4.5 from over 600 total reviews and can arrive with a transport time of less than 3 days. I also want a yellow item, also in size XL, with fewer than 10 one-star reviews and a transport time of less than 3. Finally, I need one last well-reviewed product with more than 100 four-star reviews, over 25 three-star reviews, but fewer than 10 one-star reviews. Critically, this also must have a transport time of less than 3 so everything arrives before I leave.",
+  "ground_truth_products": [
+    {
+      "product_id": "4b3770ee",
+      "name": "Men's Quick-Dry Sport Polo Top",
+      "price": 229.0,
+      "brand": "Anta",
+      "color": "Khaki",
+      "size": "XL",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Button-down",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 750,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1255,
+        "distribution": {
+          "5_star": 1014,
+          "4_star": 198,
+          "3_star": 29,
+          "2_star": 8,
+          "1_star": 6
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "7280d2bd",
+      "name": "Men's Gamma MX Insulated Softshell Pants",
+      "price": 3899.0,
+      "brand": "Arc'teryx",
+      "color": "Silver",
+      "size": "XL",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold on a gentle cycle. Tumble dry low. Do not use fabric softener or bleach.",
+      "sales_volume": {
+        "monthly": 120,
+        "total": 2540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 450,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 50,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "87220aaa",
+      "name": "Men's Heritage Logo T-Shirt",
+      "price": 249.0,
+      "brand": "New Balance",
+      "color": "Yellow",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 9500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 1050,
+          "4_star": 150,
+          "3_star": 30,
+          "2_star": 15,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "70589526",
+      "name": "Men's NB Dry Performance Tee",
+      "price": 289.0,
+      "brand": "New Balance",
+      "color": "Dark Green",
+      "size": "XL",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 780,
+        "total": 4512
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 612,
+        "distribution": {
+          "5_star": 520,
+          "4_star": 75,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products that have more than 100 4-star reviews, over 25 3-star reviews, a transport time of less than 3, and fewer than 10 1-star reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.4_star",
+          "value": 150,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 30,
+          "operator": "greater_than",
+          "operator_value": 25.0
+        },
+        {
+          "field": "transport_time",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 3.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Arc'teryx, the suitable season is Winter, the name contains 'Insulated Softshell Pants', and the number of 5-star ratings is more than 350.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 380,
+          "operator": "greater_than",
+          "operator_value": 350.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "brand",
+          "value": "Arc'teryx",
+          "operator": "equals",
+          "operator_value": "Arc'teryx"
+        },
+        {
+          "field": "name",
+          "value": "Men's Gamma MX Insulated Softshell Pants",
+          "operator": "contains",
+          "operator_value": "Insulated Softshell Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Yellow, the size is XL, the transport time is less than 3, and the number of 1-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Yellow",
+          "operator": "equals",
+          "operator_value": "Yellow"
+        },
+        {
+          "field": "size",
+          "value": "XL",
+          "operator": "equals",
+          "operator_value": "XL"
+        },
+        {
+          "field": "transport_time",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 3.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with an average score greater than 4.5, where the color is Dark Green, there are more than 600 total reviews, the size is XL, and the transport time is less than 3.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "color",
+          "value": "Dark Green",
+          "operator": "equals",
+          "operator_value": "Dark Green"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 612,
+          "operator": "greater_than",
+          "operator_value": 600.0
+        },
+        {
+          "field": "size",
+          "value": "XL",
+          "operator": "equals",
+          "operator_value": "XL"
+        },
+        {
+          "field": "transport_time",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 3.0
+        }
+      ]
+    }
+  ]
+}

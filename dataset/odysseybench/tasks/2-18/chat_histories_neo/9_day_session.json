@@ -1,0 +1,626 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning!",
+          "ts": "2020-04-26 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! How can I assist you today?",
+          "ts": "2020-04-26 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I was just getting things ready for the week. How are you this morning?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm doing well, thank you for asking! I'm ready to help you with anything you need.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's good to hear. I might have a few things for you later today.",
+          "ts": "2020-04-26 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know whenever you're ready! Is there anything specific on your mind this morning?",
+          "ts": "2020-04-26 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Well, I was thinking about checking some files. It's always a good start to be organized.",
+          "ts": "2020-04-26 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. Organized files make everything easier in the long run. Do you want to look at your documents or spreadsheets?",
+          "ts": "2020-04-26 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "I have a file named class_member.xlsx. I wanted to remind myself what it's for.",
+          "ts": "2020-04-26 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure! The file class_member.xlsx contains student names and their respective classes. It's great for keeping track of everyone's assignments.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ah yes, that makes sense now. It's helpful to have all that info in one place.",
+          "ts": "2020-04-26 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Definitely! Would you like to do anything specific with it today?",
+          "ts": "2020-04-26 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not right now, maybe later in the week. I just wanted to remember what was in there.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Whenever you're ready, I can help you sort, update, or review the student and class data in that file.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sounds good. It's nice having you keep track of all these things.",
+          "ts": "2020-04-26 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm always here to help you stay organized, Alice!",
+          "ts": "2020-04-26 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "By the way, did you watch anything interesting last night?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t watch movies, but I can always recommend some or help you find reviews if you like.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Haha, maybe another time! Right now, I just feel like chatting.",
+          "ts": "2020-04-26 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m always up for a chat, Alice. Have you got any fun plans for today?",
+          "ts": "2020-04-26 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nothing too exciting, just a bit of reading and some organizing.",
+          "ts": "2020-04-26 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds peaceful. If you need help making lists or reminders, let me know.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Thanks for always being so helpful.",
+          "ts": "2020-04-26 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re very welcome, Alice. Enjoy your morning!",
+          "ts": "2020-04-26 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "You too! I\u2019ll talk to you again soon.",
+          "ts": "2020-04-26 09:24",
+          "speaker": "user"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning! I was thinking about class lists today.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! Are you organizing students by their classes?",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, that's the idea. It would be helpful to know which students are in each class.",
+          "ts": "2020-04-27 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That makes sense. Do you want to focus on a specific class?",
+          "ts": "2020-04-27 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Actually, I wanted to see who is in class 3.",
+          "ts": "2020-04-27 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "The best way to find the students in class 3 is to filter the class_member.xlsx file for 'Class' equal to 3. That should give you the list you need.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's a good tip, thanks! I sometimes forget how useful filters can be.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Excel filters are really handy for sorting students into their proper groups.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Once I get that list, I might want to do something special for class 3.",
+          "ts": "2020-04-27 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know your plans for them; I can help you organize activities or assignments once you have the list.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. Out of curiosity, what else can you do with filtered lists?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "You can create reports, copy the filtered students to a new sheet, or prepare tailored announcements for that group.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "That sounds helpful for teachers. Maybe I should make a document with just the class 3 students.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Great idea! Having specific documents for each class makes it easy to manage everything.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you like working with lists and spreadsheets?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "I do! Helping organize and sort information is one of my favorite things.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I'll see what other classes need attention after class 3.",
+          "ts": "2020-04-27 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know which class you're interested in next, and I can help filter that too.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! It's fun planning ahead and getting everything sorted.",
+          "ts": "2020-04-27 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "It definitely helps avoid last-minute rush and confusion.",
+          "ts": "2020-04-27 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you ever get tired of looking at spreadsheets?",
+          "ts": "2020-04-27 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Never\u2014I am always ready for any spreadsheet challenge you have!",
+          "ts": "2020-04-27 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I wish I had your energy! Alright, that's all for now. Thanks for the tips.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "You're welcome, Alice! Looking forward to helping you with your class lists anytime.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning! I had an idea for another document I want to make.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! What kind of document are you thinking about?",
+          "ts": "2020-04-28 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019d like to create a new Word document specifically for class 3 students.",
+          "ts": "2020-04-28 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "That's a great idea! Do you have a name in mind for the new document?",
+          "ts": "2020-04-28 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, let's call it 'class_3_students.docx'.",
+          "ts": "2020-04-28 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Got it\u2014'class_3_students.docx' will be a Word document for class 3 students.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Exactly. I think having it as a separate file will be very useful.",
+          "ts": "2020-04-28 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "It definitely makes managing the information easier. Do you want any special formatting?",
+          "ts": "2020-04-28 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "For now, it can just be a basic document\u2014maybe we can make it fancier later.",
+          "ts": "2020-04-28 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a plan. Will this document be updated regularly?",
+          "ts": "2020-04-28 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Most likely! Especially if students change classes or new ones join.",
+          "ts": "2020-04-28 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "In that case, keeping the name 'class_3_students.docx' makes it easy to spot.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed. Do you think students would appreciate seeing their names in a dedicated doc?",
+          "ts": "2020-04-28 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "They might! It gives them a sense of belonging to their class.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe we can decorate it with a class photo in the future.",
+          "ts": "2020-04-28 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "That would be a wonderful touch. Images always brighten up documents.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "For now, let's just set up the file. I'll think about the content next.",
+          "ts": "2020-04-28 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know when you're ready to add content to 'class_3_students.docx'.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "I appreciate that. Sometimes getting started is the hardest part.",
+          "ts": "2020-04-28 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Even small steps are progress. Is there anything else you need help with today?",
+          "ts": "2020-04-28 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not at the moment. I'm just glad to have a plan.",
+          "ts": "2020-04-28 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "I'm always here to support your plans, Alice!",
+          "ts": "2020-04-28 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Maybe I'll go for a walk before working more on documents.",
+          "ts": "2020-04-28 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your walk! Fresh air is always a good idea.",
+          "ts": "2020-04-28 09:23",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Hello again! Ready for another productive day?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! What can I help you with today, Alice?",
+          "ts": "2020-04-29 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I was thinking about continuing work on that class 3 document.",
+          "ts": "2020-04-29 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Great! Are you ready to add some content to it?",
+          "ts": "2020-04-29 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, I want to include the names of all class 3 students from the class_member.xlsx file.",
+          "ts": "2020-04-29 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "So you\u2019d like me to add each student in class 3 to 'class_3_students.docx', with every name on its own line?",
+          "ts": "2020-04-29 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "Exactly! That way it\u2019s organized and easy to read.",
+          "ts": "2020-04-29 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a smart approach. A clean list helps everyone get the info they need quickly.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Afterward, I might consider printing it out for classroom use.",
+          "ts": "2020-04-29 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "A printed list for the classroom could be super helpful for attendance!",
+          "ts": "2020-04-29 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed. I hope the students in class 3 enjoy seeing their names.",
+          "ts": "2020-04-29 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Recognition always makes students happy. Is there any special order you want the names in?",
+          "ts": "2020-04-29 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s keep it simple\u2014just the original order from the spreadsheet for now.",
+          "ts": "2020-04-29 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Keeping the default order; understood! Each class 3 name will be added as its own line in the document.",
+          "ts": "2020-04-29 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s perfect. I might add decorations or notes later, but this is a good start.",
+          "ts": "2020-04-29 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll be ready if you want to enhance the list with more features later.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Speaking of features, do you have any favorite document tricks?",
+          "ts": "2020-04-29 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "I really like using tables and bullet points for clarity, or headers to organize sections.",
+          "ts": "2020-04-29 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Headers could be a good idea for future lists!",
+          "ts": "2020-04-29 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely. They can make sections stand out and documents more user-friendly.",
+          "ts": "2020-04-29 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for always sharing helpful ideas. That\u2019s all I have for today.",
+          "ts": "2020-04-29 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "My pleasure, Alice! Just let me know when you want to work on the document again or try something new.",
+          "ts": "2020-04-29 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do! Take care.",
+          "ts": "2020-04-29 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "You too, Alice! Have a great day.",
+          "ts": "2020-04-29 09:23",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Hi there! How are you this morning?",
+          "ts": "2020-04-30 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Hi Alice! I\u2019m feeling great today. Did you sleep well last night?",
+          "ts": "2020-04-30 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, I had a good sleep, thanks. How about you\u2014ready for a busy day?",
+          "ts": "2020-04-30 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Always ready! Do you have big plans today?",
+          "ts": "2020-04-30 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not really. Maybe some reading and a walk in the evening.",
+          "ts": "2020-04-30 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "That sounds relaxing. Any good books on your list?",
+          "ts": "2020-04-30 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'm actually thinking about starting a mystery novel.",
+          "ts": "2020-04-30 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Mystery novels are fun! Do you like solving the puzzle before the end?",
+          "ts": "2020-04-30 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sometimes! I like to guess who the culprit is.",
+          "ts": "2020-04-30 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "That's a good way to stay engaged. Do you ever read more than one book at a time?",
+          "ts": "2020-04-30 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Occasionally. I usually prefer to finish one before starting another.",
+          "ts": "2020-04-30 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a smart approach. Any other hobbies you\u2019ll enjoy today?",
+          "ts": "2020-04-30 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe a little baking if I feel up to it.",
+          "ts": "2020-04-30 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "What do you like to bake most? Cookies? Cakes?",
+          "ts": "2020-04-30 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cookies are my favorite! Chocolate chip all the way.",
+          "ts": "2020-04-30 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Classic choice! Warm cookies always make the day better.",
+          "ts": "2020-04-30 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Absolutely. Do you have any favorite cookie recipes to share?",
+          "ts": "2020-04-30 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "I have plenty! Would you like a traditional one or something with a twist?",
+          "ts": "2020-04-30 09:17",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let's start traditional, please.",
+          "ts": "2020-04-30 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Sure thing: Butter, sugar, eggs, vanilla, flour, and chocolate chips. Mix and bake\u2014it's delicious!",
+          "ts": "2020-04-30 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thank you! I\u2019ll give it a try today. Maybe I\u2019ll share some with my neighbors.",
+          "ts": "2020-04-30 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a lovely idea. Sharing baked goods always brings smiles.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "You\u2019re right. I hope everyone has a nice day.",
+          "ts": "2020-04-30 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "I hope so too! Enjoy your baking and your book, Alice.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

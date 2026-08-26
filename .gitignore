@@ -1,0 +1,38 @@
+# --- run artifacts ---------------------------------------------------------
+runs/
+outputs/
+.runtime/
+.cache/
+
+# Transient harness workspaces: one per concurrent (case, rollout), created
+# and removed by the runner. Never commit them.
+scripts/workspaces/*/
+!scripts/workspaces/__init__.py
+
+# --- credentials -----------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- large benchmark assets fetched by scripts/fetch_datasets.sh -----------------
+dataset/deepplanning_travel/database/
+dataset/agentif_oneday/Attachments/
+
+# --- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- editors / os ----------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp

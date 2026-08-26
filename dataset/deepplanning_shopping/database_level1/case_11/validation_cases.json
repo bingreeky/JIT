@@ -1,0 +1,356 @@
+{
+  "query": "I'm updating my workout wardrobe and need to get a few specific things. First, I'm looking for a very popular item in size 43 and Orange; it has to be a bestseller with a monthly sales volume over 850 and more than 12,000 total sales. Next, I need a men's 'Pima Cotton Polo' in Light Grey, size L. Since I need it quickly, it must have a transport time of less than 2 days and be well-reviewed, with over 1800 total reviews. I'm also getting a red 'Men's Air-Flow Performance Training Top' from Li-Ning, ensuring it's in stock with a quantity over 400 and has fewer than 10 one-star reviews. Finally, I'm looking for a white 'Men's National Pride Graphic Training Top' that can also be delivered in under 2 days, has over 3000 total reviews, and fewer than 100 three-star ratings.",
+  "ground_truth_products": [
+    {
+      "product_id": "25c2f6c8",
+      "name": "Men's Classic Canvas Skate Pro Shoes",
+      "price": 549.5,
+      "brand": "Vans",
+      "color": "Orange",
+      "size": "43",
+      "stock_quantity": 358,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 870,
+        "total": 12540
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 3150,
+        "distribution": {
+          "5_star": 2362,
+          "4_star": 473,
+          "3_star": 158,
+          "2_star": 94,
+          "1_star": 63
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Stylish design",
+        "Excellent quality",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "de00975d",
+      "name": "Men's Classic Pima Cotton Polo Shirt",
+      "price": 899.0,
+      "brand": "Ralph Lauren",
+      "color": "Light Grey",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Button-down, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Cool iron if needed. Do not bleach.",
+      "sales_volume": {
+        "monthly": 420,
+        "total": 5890
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 1850,
+        "distribution": {
+          "5_star": 1680,
+          "4_star": 145,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "0d655e70",
+      "name": "Men's Air-Flow Performance Training Top",
+      "price": 249.0,
+      "brand": "Li-Ning",
+      "color": "Red",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1570,
+        "total": 9800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 940,
+          "4_star": 165,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6b056332",
+      "name": "Men's National Pride Graphic Training Top",
+      "price": 229.0,
+      "brand": "Li-Ning",
+      "color": "White",
+      "size": "L",
+      "stock_quantity": 782,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold inside out, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1570,
+        "total": 21450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3280,
+        "distribution": {
+          "5_star": 2689,
+          "4_star": 460,
+          "3_star": 98,
+          "2_star": 18,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the size is 43, the color is Orange, the monthly sales volume is more than 850, and the total sales volume is greater than 12000.",
+      "features": [
+        {
+          "field": "size",
+          "value": "43",
+          "operator": "equals",
+          "operator_value": "43"
+        },
+        {
+          "field": "color",
+          "value": "Orange",
+          "operator": "equals",
+          "operator_value": "Orange"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 870,
+          "operator": "greater_than",
+          "operator_value": 850.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 12540,
+          "operator": "greater_than",
+          "operator_value": 12000.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products for Men in size L and Light Grey color, where the name contains 'Pima Cotton Polo', the transport time is less than 2, and there are more than 1800 total reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1850,
+          "operator": "greater_than",
+          "operator_value": 1800.0
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "color",
+          "value": "Light Grey",
+          "operator": "equals",
+          "operator_value": "Light Grey"
+        },
+        {
+          "field": "name",
+          "value": "Men's Classic Pima Cotton Polo Shirt",
+          "operator": "contains",
+          "operator_value": "Pima Cotton Polo"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Li-Ning, the color is Red, the name is 'Men's Air-Flow Performance Training Top', the stock quantity is more than 400, and the number of 1-star reviews is less than 10.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Li-Ning",
+          "operator": "equals",
+          "operator_value": "Li-Ning"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "color",
+          "value": "Red",
+          "operator": "equals",
+          "operator_value": "Red"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 412,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Air-Flow Performance Training Top",
+          "operator": "equals",
+          "operator_value": "Men's Air-Flow Performance Training Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the number of 3 star ratings is less than 100, the total reviews are more than 3000, the color is White, and the name is 'Men's National Pride Graphic Training Top'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 98,
+          "operator": "less_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 3280,
+          "operator": "greater_than",
+          "operator_value": 3000.0
+        },
+        {
+          "field": "color",
+          "value": "White",
+          "operator": "equals",
+          "operator_value": "White"
+        },
+        {
+          "field": "name",
+          "value": "Men's National Pride Graphic Training Top",
+          "operator": "equals",
+          "operator_value": "Men's National Pride Graphic Training Top"
+        }
+      ]
+    }
+  ]
+}

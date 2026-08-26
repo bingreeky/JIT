@@ -1,0 +1,478 @@
+{
+  "query": "I'm doing a big online shopping haul and need everything to arrive fast. First, I'm looking for a purple item that has fewer than 20 three-star reviews and can be delivered in less than 5 days. I also need a really popular product that has a monthly sales volume over 1200, more than 2000 total reviews, and a transport time of less than 5 days. For something I need urgently, I'm looking for an item from Zara with a transport time of less than 2 days. It must be highly rated, with an average score over 4.5, more than 200 five-star reviews, and over 80 four-star reviews. On a more specific note, I'm searching for a yellow item in size 40 from the brand Anta. It has to contain 'Lite-Run' in its name, have a total sales volume of more than 8900, and fewer than 15 one-star reviews. Next, I need some wine red 'Wide-Leg Trousers' for women that can also ship in under 5 days, with fewer than 70 three-star and 40 two-star reviews. Finally, I'm looking for a popular winter item from Timberland with a total sales volume over 2000. It needs to arrive in less than 2 days and have fewer than 10 two-star ratings. I'd like to keep my total spending between 2467 and 2595. Please help me find the products that meet my requirements.",
+  "ground_truth_products": [
+    {
+      "product_id": "b6051e5a",
+      "name": "Puma Studio Yogini Luxe High-Waist Tights",
+      "price": 429.9,
+      "brand": "Puma",
+      "color": "Purple",
+      "size": "L",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 77
+        },
+        {
+          "material": "Spandex",
+          "percentage": 23
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold inside out, do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 6240
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 578,
+        "distribution": {
+          "5_star": 490,
+          "4_star": 72,
+          "3_star": 10,
+          "2_star": 4,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "aac51c48",
+      "name": "Women's Heattech Fleece Turtleneck Long-Sleeve T-Shirt",
+      "price": 149.0,
+      "brand": "Uniqlo",
+      "color": "Wine Red",
+      "size": "L",
+      "stock_quantity": 1850,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Acrylic",
+          "percentage": 22
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Turtleneck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 4500,
+        "total": 89500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 12345,
+        "distribution": {
+          "5_star": 9259,
+          "4_star": 2469,
+          "3_star": 370,
+          "2_star": 123,
+          "1_star": 124
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "60f3ca68",
+      "name": "Women's Relaxed Fit Linen Blend Trousers",
+      "price": 359.0,
+      "brand": "Zara",
+      "color": "Beige",
+      "size": "L",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 55
+        },
+        {
+          "material": "Viscose",
+          "percentage": 43
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Loose Fit (Oversize)",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low or hang dry. Iron on low heat.",
+      "sales_volume": {
+        "monthly": 1850,
+        "total": 5600
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 320,
+        "distribution": {
+          "5_star": 210,
+          "4_star": 85,
+          "3_star": 15,
+          "2_star": 7,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "fecc1549",
+      "name": "Women's Lite-Run All-Season Sneakers",
+      "price": 429.9,
+      "brand": "Anta",
+      "color": "Yellow",
+      "size": "40",
+      "stock_quantity": 158,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or expose to direct sunlight.",
+      "sales_volume": {
+        "monthly": 750,
+        "total": 8920
+      },
+      "rating": {
+        "average_score": 4.69,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 900,
+          "4_star": 180,
+          "3_star": 40,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "8a6692f5",
+      "name": "Women's Pleated Wide-Leg Trousers",
+      "price": 329.9,
+      "brand": "Zara",
+      "color": "Wine Red",
+      "size": "L",
+      "stock_quantity": 245,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Viscose",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Loose Fit (Oversize)",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Iron on low heat. Do not tumble dry.",
+      "sales_volume": {
+        "monthly": 758,
+        "total": 4512
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 1240,
+        "distribution": {
+          "5_star": 868,
+          "4_star": 248,
+          "3_star": 62,
+          "2_star": 37,
+          "1_star": 25
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "45e1d98d",
+      "name": "Women's Fleece-Lined Winter Cargo Pants",
+      "price": 789.0,
+      "brand": "Timberland",
+      "color": "Grey",
+      "size": "L",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not iron on decoration.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 2345
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 310,
+        "distribution": {
+          "5_star": 250,
+          "4_star": 51,
+          "3_star": 6,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Purple, the transport time is less than 5, and the number of 3 star reviews is less than 20.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Purple"
+        },
+        {
+          "field": "transport_time",
+          "value": 4
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 18
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total number of reviews is more than 2000, the transport time is less than 5, and the monthly sales volume is greater than 1200.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 2150
+        },
+        {
+          "field": "transport_time",
+          "value": 4
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1240
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with an average score greater than 4.5, more than 200 5-star reviews, a transport time of less than 2, more than 80 4-star reviews, and the brand is Zara.",
+      "features": [
+        {
+          "field": "rating.average_score",
+          "value": 4.6
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 210
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 85
+        },
+        {
+          "field": "brand",
+          "value": "Zara"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Anta, the color is Yellow, the size is 40, the total sales volume is more than 8900, it has less than 15 1-star reviews, and the name contains 'Lite-Run'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Anta"
+        },
+        {
+          "field": "color",
+          "value": "Yellow"
+        },
+        {
+          "field": "size",
+          "value": "40"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 8920
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 10
+        },
+        {
+          "field": "name",
+          "value": "Women's Lite-Run All-Season Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Wine Red, the target demographic is Women, the number of 3-star reviews is less than 70, the number of 2-star reviews is less than 40, the transport time is less than 5 days, and the name contains 'Wide-Leg Trousers'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Wine Red"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 62
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 37
+        },
+        {
+          "field": "transport_time",
+          "value": 4
+        },
+        {
+          "field": "name",
+          "value": "Women's Pleated Wide-Leg Trousers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the suitable season is Winter, the total sales volume is greater than 2000, the brand is Timberland, and the number of 2-star ratings is less than 10.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 2150
+        },
+        {
+          "field": "brand",
+          "value": "Timberland"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}

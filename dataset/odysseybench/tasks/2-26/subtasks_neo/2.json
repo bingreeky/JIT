@@ -1,0 +1,40 @@
+{
+    "task": "Extract the text content from the file invitation_letter.pdf and insert this extracted text into a new Word document called invitation_letter.docx. Ensure all meaningful text from the PDF is captured and transferred to the new file.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/invitation_letter.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "IAEM",
+                    "Dear",
+                    "November",
+                    "15",
+                    "2024",
+                    "Colorado",
+                    "USA"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Take the text from the PDF and place it into a new Word file with a matching name.",
+    "ground_truth_memory": [
+        {
+            "fact": "The task requires creating a new Word file named invitation_letter.docx."
+        },
+        {
+            "fact": "Extract the full text contents from invitation_letter.pdf."
+        },
+        {
+            "fact": "The extracted text should be saved in invitation_letter.docx."
+        },
+        {
+            "action_item": "Ensure the main conference and location details from the invitation are included in the Word file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

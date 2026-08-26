@@ -1,0 +1,54 @@
+{
+    "task": "Extract essential invoice details from Invoice.pdf and Invoice_2.pdf, then generate a summary_report.docx containing a structured comparison of key fields (buyer, item/description, total due). The report must clearly mention and compare at least the buyer names, invoice totals, and purchased item descriptions from both invoices.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary_report.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary_report.docx",
+                "keywords": [
+                    "Liane Cormier",
+                    "Mollie Grau",
+                    "cloud",
+                    "pottery"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary_report.docx",
+                "keywords": [
+                    "104.98",
+                    "1389.99"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract the main details from both invoices and create a summary report comparing the buyers, items, and total amounts due.",
+    "ground_truth_memory": [
+        {
+            "fact": "The extracted details from Invoice.pdf and Invoice_2.pdf should be summarized and compared in a new file named summary_report.docx."
+        },
+        {
+            "fact": "The summary report must mention the buyers: Liane Cormier and Mollie Grau."
+        },
+        {
+            "fact": "The summary report must include the item descriptions: 'cloud service' (Invoice.pdf) and 'decorative clay pottery (LG)' (Invoice_2.pdf)."
+        },
+        {
+            "fact": "The summary report should state and compare the total due amounts: 104.98 and 1389.99 for each invoice."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

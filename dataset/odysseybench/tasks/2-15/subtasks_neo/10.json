@@ -1,0 +1,56 @@
+{
+    "task": "Add a new agenda item to the 'meeting_agenda_2.xlsx' file. The new item should be scheduled to start at 14:30:00, last for 30 minutes, be titled 'Q&A Session', and the contact person should be 'Alice'. Ensure the new item appears as the last entry in the agenda and follows the existing format for time calculations in the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "xlsx",
+                "file": "data/meeting_agenda_2.xlsx",
+                "keywords": [
+                    "Q&A Session",
+                    "Alice"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/meeting_agenda_2.xlsx",
+                "matches": [
+                    {
+                        "row": 6,
+                        "col": 5,
+                        "value": "Q&A Session"
+                    },
+                    {
+                        "row": 6,
+                        "col": 6,
+                        "value": "Alice"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please add a new agenda item to the meeting agenda Excel file for a new session starting after the others, including all necessary details.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new agenda item needs to be added to the meeting agenda file."
+        },
+        {
+            "action_item": "The new item should be scheduled to start at 14:30:00 and last for 00:30:00."
+        },
+        {
+            "fact": "The new agenda item should be titled 'Q&A Session'."
+        },
+        {
+            "fact": "The contact person responsible for this item is 'Alice'."
+        },
+        {
+            "action_item": "The new item should be appended as the last row of the file, maintaining the format and formula usage of prior items."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,49 @@
+# OdysseyBench -- long-horizon office workflows over a chat history.
+#
+# NOTE ON MODEL ROLES
+#
+#   model:            the EXECUTION model -- runs the harness's agent loop.
+#   benchmark.judge:  the JUDGE model     -- grades the produced artifacts.
+#   (the META model, which writes the harness, is NOT configured here: it is
+#    injected by the runner via --meta-model / --meta-base so the three can
+#    never be confused -- in particular so the meta model's 64k max_tokens
+#    never leaks into the execution model.)
+#
+# All three speak the OpenAI chat-completions protocol. ${VAR:-default}
+# placeholders resolve from the environment; see .env.example.
+
+harness: plan_and_execute
+
+model:
+  model_id: "${EXEC_MODEL:-deepseek-v4-flash}"
+  api_base: "${OPENAI_API_BASE}"
+  api_key: "${OPENAI_API_KEY}"
+  max_tokens: 32000
+  temperature: 0
+
+tools:
+  - odysseybench_action
+  - final_answer
+
+execution:
+  max_steps: 50
+  concurrency: 1
+
+prompts_type: default
+
+benchmark:
+  name: odysseybench
+  dataset_path: ./dataset/odysseybench/
+  output_path: ./outputs/odysseybench_results.jsonl
+  adapter_kwargs:
+    subset: plus            # plus | neo | both
+    # raw_chat feeds the whole history and needs no embedding server;
+    # use_rag switches to retrieval and then embedding_model must be reachable.
+    memory_mode: raw_chat
+    rag_mode: dialogutterance
+    top_k: 5
+    embedding_model:
+      model_id: "${EMBED_MODEL:-qwen/qwen3-embedding-8b}"
+      api_base: "${EMBED_API_BASE:-${OPENAI_API_BASE}}"
+      api_key: "${EMBED_API_KEY:-${OPENAI_API_KEY}}"
+    override_task_with_query: true

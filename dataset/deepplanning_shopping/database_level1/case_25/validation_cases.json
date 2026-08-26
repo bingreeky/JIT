@@ -1,0 +1,339 @@
+{
+  "query": "I'm putting together a few new outfits and need to find some specific pieces. First, I’m looking for a black 'Long-Sleeve Training Top' that's suitable for all seasons; to ensure it’s well-regarded, it must have more than 200 four-star ratings. To pair with that, I need some khaki 'Utility Cargo Pants' from the brand Vans that are popular, so they should have a monthly sales volume of more than 500. While I'm at it, I want another item from Vans for the spring/autumn season. It has to be a bestseller, with a total sales volume over 12,000, more than 1,000 total reviews, and fewer than 10 one-star reviews. Lastly, I urgently need something in light blue. It must have a transport time of less than 3 days, a stock quantity greater than 200, and fewer than 15 two-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "3477565d",
+      "name": "Men's Performance Long-Sleeve Training Top",
+      "price": 349.0,
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 1250,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 4512,
+        "total": 32890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1650,
+        "distribution": {
+          "5_star": 1350,
+          "4_star": 250,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "066a4c13",
+      "name": "Men's 'Off The Wall' Utility Cargo Pants",
+      "price": 549.0,
+      "brand": "Vans",
+      "color": "Khaki",
+      "size": "L",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Button-down, Vintage Wash, Patchwork",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 521,
+        "total": 8345
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 992,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 180,
+          "3_star": 42,
+          "2_star": 15,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "04004d6b",
+      "name": "Men's Authentic Chino Pants",
+      "price": 499.5,
+      "brand": "Vans",
+      "color": "Khaki",
+      "size": "L",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 12450
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1120,
+        "distribution": {
+          "5_star": 850,
+          "4_star": 200,
+          "3_star": 50,
+          "2_star": 15,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "54453fcd",
+      "name": "Men's AIRism Relaxed Fit Shorts",
+      "price": 199.0,
+      "brand": "Uniqlo",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 850,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Loose Fit (Oversize)",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 3150,
+        "total": 18980
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1245,
+        "distribution": {
+          "5_star": 1010,
+          "4_star": 180,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the suitable season is All Seasons, the number of 4-star ratings is more than 200, the color is Black, and the name contains 'Long-Sleeve Training Top'.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 250,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        },
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "name",
+          "value": "Men's Performance Long-Sleeve Training Top",
+          "operator": "contains",
+          "operator_value": "Long-Sleeve Training Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Vans, the color is Khaki, the monthly sales volume is more than 500, and the name contains 'Utility Cargo Pants'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Vans",
+          "operator": "equals",
+          "operator_value": "Vans"
+        },
+        {
+          "field": "color",
+          "value": "Khaki",
+          "operator": "equals",
+          "operator_value": "Khaki"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 521,
+          "operator": "greater_than",
+          "operator_value": 500.0
+        },
+        {
+          "field": "name",
+          "value": "Men's 'Off The Wall' Utility Cargo Pants",
+          "operator": "contains",
+          "operator_value": "Utility Cargo Pants"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Vans, it is suitable for Spring/Autumn, the total sales volume is more than 12000, the total number of reviews is greater than 1000, and there are less than 10 1-star reviews.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1120,
+          "operator": "greater_than",
+          "operator_value": 1000.0
+        },
+        {
+          "field": "brand",
+          "value": "Vans",
+          "operator": "equals",
+          "operator_value": "Vans"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 12450,
+          "operator": "greater_than",
+          "operator_value": 12000.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a stock quantity greater than 200, where the color is Light Blue, the number of 2-star reviews is less than 15, and the transport time is less than 3 days.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 215,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        },
+        {
+          "field": "color",
+          "value": "Light Blue",
+          "operator": "equals",
+          "operator_value": "Light Blue"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "transport_time",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 3.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+    "task": "Summarize the car trading transactions where the Buyer is 'Bob' and the transaction value exceeds $50,000. Save this summary in a new Word document named 'high_value_bob_summary.docx'. Email this document to Tom with subject 'High Value Transactions by Bob' and include the phrase 'Summary of high-value car purchases by Bob' in the email body.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/high_value_bob_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/high_value_bob_summary.docx",
+                "keywords": [
+                    "BMWXS",
+                    "MS0i",
+                    "52000",
+                    "Bob"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "High",
+                    "Value",
+                    "Transactions",
+                    "by",
+                    "Bob"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Tom",
+                "keywords": [
+                    "Summary",
+                    "of",
+                    "high",
+                    "value",
+                    "car",
+                    "purchases",
+                    "by",
+                    "Bob"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize high-value car transactions for a specific buyer, save to a Word document, and send it by email.",
+    "ground_truth_memory": [
+        {
+            "fact": "Bob is the buyer to focus on."
+        },
+        {
+            "fact": "Only include transactions above $50,000 in the summary."
+        },
+        {
+            "action_item": "The output summary must be saved as 'high_value_bob_summary.docx'."
+        },
+        {
+            "action_item": "Email the summary document to Tom."
+        },
+        {
+            "action_item": "Set the email subject as 'High Value Transactions by Bob'."
+        },
+        {
+            "action_item": "Include the phrase 'Summary of high-value car purchases by Bob' in the body of the email."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

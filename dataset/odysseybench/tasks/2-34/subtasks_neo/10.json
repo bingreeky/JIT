@@ -1,0 +1,31 @@
+{
+    "task": "Analyze the 'house_price_index.xlsx' file to determine the year with the highest house price index value in the provided annual data. Record this year and the corresponding index value into a new Word document named 'highest_house_price_index.docx' located in the /testbed/data/ folder. The document must clearly state both the year and the highest index value as key findings of the analysis.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/highest_house_price_index.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "year",
+                    "2023",
+                    "index",
+                    "375.2"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Identify the year with the highest house price index using the available data and document your finding appropriately.",
+    "ground_truth_memory": [
+        {
+            "action_item": "The output should be written in a new Word document called 'highest_house_price_index.docx' in the /testbed/data/ folder."
+        },
+        {
+            "action_item": "Include both the year and the corresponding index value as key findings in the document."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

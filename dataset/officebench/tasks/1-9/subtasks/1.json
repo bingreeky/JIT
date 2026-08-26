@@ -1,0 +1,32 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "find the student whose midterm1 score is closest to the average in score excel file, duplicate the line at bottom",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/score.xlsx",
+        "matches": [
+          {
+            "row": "22",
+            "col": "1",
+            "value": "Alice"
+          },
+          {
+            "row": "22",
+            "col": "2",
+            "value": "78"
+          },
+          {
+            "row": "22",
+            "col": "3",
+            "value": "75"
+          }
+        ]
+      }
+    }
+  ]
+}

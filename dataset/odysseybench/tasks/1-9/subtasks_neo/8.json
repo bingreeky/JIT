@@ -1,0 +1,41 @@
+{
+    "task": "Count the number of unique class names in the 'Class' column of the class_member.xlsx file and append a new row at the bottom with the header 'Number of Classes' in the 'Name' column and the calculated count in the 'Class' column.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "Number of Classes"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Count the unique number of classes in the class_member.xlsx and record the result in a new row at the bottom.",
+    "ground_truth_memory": [
+        {
+            "memory_type": "action_item",
+            "content": "After counting the unique class names in the Class column of class_member.xlsx, write the result in a new bottom row."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Use header 'Number of Classes' for the Name column and the calculated unique class count for the Class column."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Append the new row after the current last row, which is row 21."
+        },
+        {
+            "memory_type": "action_item",
+            "content": "Ensure the columns remain consistent with the existing structure: Name in the first column and Class in the second."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

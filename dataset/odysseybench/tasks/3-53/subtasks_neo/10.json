@@ -1,0 +1,52 @@
+{
+    "task": "1. Add a new student named Linda to class 2 in the class_member.xlsx file. 2. Change Carol's class from 3 to 4. 3. Update Peter's class from 5 to 2. Ensure all changes are made in-place within class_member.xlsx.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "Linda"
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "value": "2"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "4"
+                    },
+                    {
+                        "row": 20,
+                        "col": 2,
+                        "value": "2"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the class_member.xlsx file by adding a new student, changing class assignments as necessary, and ensuring all updates are saved.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new student, Linda, must be added to class 2 in the class_member.xlsx file."
+        },
+        {
+            "fact": "Carol's class should be updated from 3 to 4 in class_member.xlsx."
+        },
+        {
+            "fact": "Peter's class should be changed from 5 to 2 in class_member.xlsx."
+        },
+        {
+            "fact": "All modifications should be performed in the class_member.xlsx file."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

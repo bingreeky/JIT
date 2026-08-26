@@ -1,0 +1,80 @@
+{
+    "task": "Create a Word document named 'class3_students.docx' that lists all students in class 3 from the class_member.xlsx file. Email the content of this Word document to Carol and Jack, who are in class 3, with a subject 'List of Class 3 Students'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/class3_students.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/class3_students.docx",
+                "keywords": [
+                    "Carol",
+                    "Jack",
+                    "Sam",
+                    "Tina",
+                    "Alice"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Carol",
+                "keywords": [
+                    "List",
+                    "Class",
+                    "3",
+                    "Students",
+                    "Carol",
+                    "Jack",
+                    "Sam",
+                    "Tina",
+                    "Alice"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Jack",
+                "keywords": [
+                    "List",
+                    "Class",
+                    "3",
+                    "Students",
+                    "Carol",
+                    "Jack",
+                    "Sam",
+                    "Tina",
+                    "Alice"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Send the list of all students in class 3 to the members of class 3 by email.",
+    "ground_truth_memory": [
+        {
+            "fact": "The list of students in class 3 includes Carol, Jack, Sam, Tina, and Alice, as per class_member.xlsx."
+        },
+        {
+            "action_item": "The output Word document must be named 'class3_students.docx'."
+        },
+        {
+            "action_item": "Email the content of 'class3_students.docx' to Carol and Jack."
+        },
+        {
+            "fact": "The email subject should be 'List of Class 3 Students'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

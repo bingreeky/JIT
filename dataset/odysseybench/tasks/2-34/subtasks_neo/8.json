@@ -1,0 +1,28 @@
+{
+    "task": "Calculate the average Satisfaction Score for all participants aged 31 in the survey_responses.xlsx file. Write the final result as a number (no explanation) as the answer to this question, so that the answer can be logged to answer.txt by the policy agent.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/answer.txt",
+                "doc_type": "txt",
+                "keywords": [
+                    "5.5"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "What is the average Satisfaction Score for participants aged 31 in the survey responses?",
+    "ground_truth_memory": [
+        {
+            "note": "You should calculate the average Satisfaction Score only for survey participants whose Age is 31."
+        },
+        {
+            "note": "The answer should be provided as a final number, with no explanation, to the user."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

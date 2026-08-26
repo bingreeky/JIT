@@ -1,0 +1,37 @@
+{
+    "task": "Update the value for 'Tax rate' in financial_report_2.xlsx from its current value to 0.25 (reflecting new corporate tax guidelines). Then, ensure that all dependent calculations in the sheet are automatically updated per Excel formulas. Finally, verify that the new value is correctly set in the tax rate cell and that downstream fields reflect recalculation.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/financial_report_2.xlsx",
+                "matches": [
+                    {
+                        "row": 8,
+                        "col": 3,
+                        "value": "0.25"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the corporate tax rate in the financial data spreadsheet to comply with the latest guidelines and ensure all calculations reflect this change.",
+    "ground_truth_memory": [
+        {
+            "fact": "The updated corporate tax rate should be 0.25 per new tax regulation."
+        },
+        {
+            "fact": "The file to update is named financial_report_2.xlsx located in /testbed/data."
+        },
+        {
+            "fact": "The tax rate value is located in row 8, column 3, in financial_report_2.xlsx."
+        },
+        {
+            "action_item": "Update the tax rate in the spreadsheet and ensure that all dependent calculations are refreshed by Excel formulas automatically."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

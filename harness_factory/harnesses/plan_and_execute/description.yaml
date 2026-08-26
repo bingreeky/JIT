@@ -1,0 +1,15 @@
+description: |-
+  ## 1. Architecture Overview
+
+  Plan-and-Execute is a linear ReAct-style agent harness that first produces an ordered roadmap, then executes the task step by step through an action-observation loop. It keeps the full trajectory in memory and periodically generates a progress summary so later actions can stay aligned with the current roadmap.
+
+  ## 2. Key Features / Innovations
+
+  - Organizes the task as an explicit ordered list of steps, making progress easy to track and inspect.
+  - Emphasizes sequential dependencies, so each step naturally builds on verified results from earlier steps.
+  - Preserves a stable linear workflow even when the agent updates its understanding through summaries.
+  - Fits tasks that benefit from a clear roadmap rather than branching or graph-style decomposition.
+
+  ## 3. Where These Features Are Implemented
+
+  - `planning`: `planning.py` is the main place where the list structure is implemented. It generates an ordered roadmap, keeps execution aligned with that sequence, and refreshes the plan through periodic summaries instead of switching to a branching structure.

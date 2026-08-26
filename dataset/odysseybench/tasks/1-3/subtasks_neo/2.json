@@ -1,0 +1,45 @@
+{
+    "task": "Move 'file1.docx', 'file2.pdf', 'file3.xlsx', and 'file4.jpg' into a new subdirectory named 'archive', creating this directory if it does not already exist.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/archive/file1.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/archive/file2.pdf"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/archive/file3.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/archive/file4.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Move all specified files into the designated folder.",
+    "ground_truth_memory": [
+        {
+            "fact": "The files to be moved are file1.docx, file2.pdf, file3.xlsx, and file4.jpg."
+        },
+        {
+            "fact": "They need to be relocated into a subdirectory named 'archive'."
+        },
+        {
+            "fact": "The 'archive' folder should be created if it does not currently exist."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

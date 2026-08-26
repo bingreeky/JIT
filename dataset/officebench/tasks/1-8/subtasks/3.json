@@ -1,0 +1,17 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "delete everything in company budget excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_exact_match",
+      "args": {
+        "doc_type": "xlsx",
+        "result_file": "./data/company_budget.xlsx",
+        "expected_file": "../../../../reference/company_budget.xlsx"
+      }
+    }
+  ]
+}

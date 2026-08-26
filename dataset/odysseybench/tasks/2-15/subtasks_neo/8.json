@@ -1,0 +1,45 @@
+{
+    "task": "Summarize the meeting agenda information from '/testbed/data/meeting_agenda_2.xlsx' into a Word document named 'meeting_agenda_summary.docx', highlighting each item's main points and responsible contact. The summary should include the time, item name, and contact for each agenda entry (e.g., Introductions - Linda, Agenda - Davide, Strategy - Charlie). Ensure each item is covered in the summary. Do not simply copy the table, but create a concise summary document.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/meeting_agenda_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/meeting_agenda_summary.docx",
+                "keywords": [
+                    "Introductions",
+                    "Linda",
+                    "Agenda",
+                    "Davide",
+                    "Strategy",
+                    "Charlie"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the meeting agenda from the Excel file in a concise document.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file name for the summary should be 'meeting_agenda_summary.docx'."
+        },
+        {
+            "fact": "The summary document must include for each item: the scheduled time (start time or duration), the name of the item, and the responsible contact person."
+        },
+        {
+            "fact": "Include in the summary: Introductions (Linda), Agenda (Davide), and Strategy (Charlie), each with their corresponding time information."
+        },
+        {
+            "action": "Do not just copy the Excel table. Write a concise narrative or bullet-point summary for each item, highlighting the key details."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

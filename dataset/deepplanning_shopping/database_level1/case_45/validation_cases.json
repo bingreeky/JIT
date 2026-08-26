@@ -1,0 +1,419 @@
+{
+  "query": "I'm updating my wardrobe and looking for a few specific pieces. First, I'm after something for men from the brand Levi's that's fairly popular, with a monthly sales volume over 350 and more than 5 three-star ratings. I also want another item from Levi's, this time in size L and brown, that's really well-liked, with an average rating above 4.5 and monthly sales of more than 1200. For something more casual, I need 'Fleece-Lined Track Pants' from Anta in size L that have over 300 four-star reviews. Since I'm in a hurry, their transport time has to be less than 2 days. I also need some new footwear, specifically the Adidas 'Urban Explorer Running Shoes' in size 43, which must also have a transport time of less than 2 days. Finally, I'm looking for one more extremely popular product, ensuring it's in stock with a quantity over 400, has more than 4000 total reviews, and over 3500 of those are five-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "b33056fb",
+      "name": "Men's Classic Garment Dye Pocket Tee",
+      "price": 249.0,
+      "brand": "Levi's",
+      "color": "Light Grey",
+      "size": "L",
+      "stock_quantity": 875,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 100
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Printing, Patchwork",
+      "washing_instructions": "Machine wash cold on gentle cycle with like colors. Tumble dry low. Do not bleach. Iron on low heat if needed.",
+      "sales_volume": {
+        "monthly": 1240,
+        "total": 35800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 6210,
+        "distribution": {
+          "5_star": 5210,
+          "4_star": 850,
+          "3_star": 120,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "eb03bc5d",
+      "name": "Men's Urban Explorer Running Shoes",
+      "price": 899.99,
+      "brand": "Adidas",
+      "color": "Navy Blue",
+      "size": "43",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Air dry. Do not machine wash or use harsh detergents.",
+      "sales_volume": {
+        "monthly": 610,
+        "total": 5240
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1350,
+        "distribution": {
+          "5_star": 1080,
+          "4_star": 210,
+          "3_star": 35,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "02233de8",
+      "name": "Men's Vintage Corduroy Trousers",
+      "price": 549.9,
+      "brand": "Levi's",
+      "color": "Brown",
+      "size": "L",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Warm iron if needed.",
+      "sales_volume": {
+        "monthly": 1280,
+        "total": 16450
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 2850,
+        "distribution": {
+          "5_star": 2138,
+          "4_star": 427,
+          "3_star": 142,
+          "2_star": 86,
+          "1_star": 57
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "c13e8026",
+      "name": "Men's CoolDry Performance Crew Neck Tee",
+      "price": 229.0,
+      "brand": "Li-Ning",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 1580,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 4512,
+        "total": 32890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 5120,
+        "distribution": {
+          "5_star": 4102,
+          "4_star": 759,
+          "3_star": 161,
+          "2_star": 53,
+          "1_star": 45
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "0732cb06",
+      "name": "Men's Winter Shield Fleece-Lined Track Pants",
+      "price": 349.0,
+      "brand": "Anta",
+      "color": "Navy Blue",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Ribbed Cuffs, Reflective Strips, Printing",
+      "washing_instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 980,
+        "total": 6750
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1842,
+        "distribution": {
+          "5_star": 1450,
+          "4_star": 320,
+          "3_star": 55,
+          "2_star": 12,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Levi's, the monthly sales volume is more than 350, the target demographic is Men, and the number of 3-star ratings is more than 5.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 358,
+          "operator": "greater_than",
+          "operator_value": 350.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 10,
+          "operator": "greater_than",
+          "operator_value": 5.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Adidas, the transport time is less than 2, the size is 43, and the name contains 'Urban Explorer Running Shoes'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Adidas",
+          "operator": "equals",
+          "operator_value": "Adidas"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "size",
+          "value": "43",
+          "operator": "equals",
+          "operator_value": "43"
+        },
+        {
+          "field": "name",
+          "value": "Men's Urban Explorer Running Shoes",
+          "operator": "contains",
+          "operator_value": "Urban Explorer Running Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Levi's, size is L, color is Brown, the average rating is above 4.5, and monthly sales volume is more than 1200.",
+      "features": [
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1280,
+          "operator": "greater_than",
+          "operator_value": 1200.0
+        },
+        {
+          "field": "color",
+          "value": "Brown",
+          "operator": "equals",
+          "operator_value": "Brown"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is more than 400, total reviews are more than 4000, and the number of 5-star reviews is greater than 3500.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 412,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 4150,
+          "operator": "greater_than",
+          "operator_value": 4000.0
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 3528,
+          "operator": "greater_than",
+          "operator_value": 3500.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Anta, the size is L, transport time is less than 2 days, the number of 4-star reviews is greater than 300, and the name contains 'Fleece-Lined Track Pants'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Anta",
+          "operator": "equals",
+          "operator_value": "Anta"
+        },
+        {
+          "field": "size",
+          "value": "L",
+          "operator": "equals",
+          "operator_value": "L"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 320,
+          "operator": "greater_than",
+          "operator_value": 300.0
+        },
+        {
+          "field": "name",
+          "value": "Men's Winter Shield Fleece-Lined Track Pants",
+          "operator": "contains",
+          "operator_value": "Fleece-Lined Track Pants"
+        }
+      ]
+    }
+  ]
+}

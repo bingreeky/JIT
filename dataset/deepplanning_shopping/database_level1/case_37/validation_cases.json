@@ -1,0 +1,343 @@
+{
+  "query": "I've decided to go on a last-minute hiking trip, so I need to get some gear delivered very quickly. First, I'm looking for a general women's item that I can get soon, so it needs a transport time of less than 5 days and must have less than 5 two-star reviews. For the hike itself, I'm searching for a specific 'Active Logo Training Top' that's popular and well-regarded, so it must have a total sales volume over 20,000 and an average rating score greater than 4.5, with transport time under 2 days. To go with that, I need some orange 'Hiking Bottoms' for women with more than 60 four-star reviews, also arriving in less than 2 days. Finally, I’m looking for an olive green item from Patagonia with a total sales volume over 4500 and an average rating above 4.5, which also needs a transport time of less than 2 days.",
+  "ground_truth_products": [
+    {
+      "product_id": "3543e7fb",
+      "name": "Women's Summer Lightweight V-Neck Top",
+      "price": 189.0,
+      "brand": "Bosideng",
+      "color": "Black",
+      "size": "S",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Lay flat to dry. Do not bleach.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 288,
+        "distribution": {
+          "5_star": 216,
+          "4_star": 52,
+          "3_star": 14,
+          "2_star": 3,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6d13ca61",
+      "name": "Puma Women's Active Logo Training Top",
+      "price": 279.0,
+      "brand": "Puma",
+      "color": "Light Grey",
+      "size": "S",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 90
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1580,
+        "total": 21450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 3150,
+        "distribution": {
+          "5_star": 2580,
+          "4_star": 450,
+          "3_star": 90,
+          "2_star": 20,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "30db750f",
+      "name": "Women's Omni-Shield Hiking Bottoms",
+      "price": 689.5,
+      "brand": "Columbia",
+      "color": "Orange",
+      "size": "S",
+      "stock_quantity": 184,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or iron.",
+      "sales_volume": {
+        "monthly": 315,
+        "total": 2890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 472,
+        "distribution": {
+          "5_star": 390,
+          "4_star": 65,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Excellent quality",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "611dcddc",
+      "name": "Women's TerraFlex Trail Shoes",
+      "price": 1099.0,
+      "brand": "Patagonia",
+      "color": "Olive Green",
+      "size": "37",
+      "stock_quantity": 182,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Ribbed Cuffs, Embroidery, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 512,
+        "total": 4890
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 975,
+        "distribution": {
+          "5_star": 810,
+          "4_star": 125,
+          "3_star": 30,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Comfortable fabric",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with less than 5 2-star reviews, where the target demographic is Women, and the transport time is less than 5 days.",
+      "features": [
+        {
+          "field": "rating.distribution.2_star",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "transport_time",
+          "value": 3,
+          "operator": "less_than",
+          "operator_value": 5.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a transport time of less than 2 days, an average rating score greater than 4.5, total sales volume over 20000, and the name contains 'Active Logo Training Top'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 21450,
+          "operator": "greater_than",
+          "operator_value": 20000.0
+        },
+        {
+          "field": "name",
+          "value": "Puma Women's Active Logo Training Top",
+          "operator": "contains",
+          "operator_value": "Active Logo Training Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, transport time is less than 2 days, the number of 4-star reviews is greater than 60, the color is Orange, and the name contains 'Hiking Bottoms'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 65,
+          "operator": "greater_than",
+          "operator_value": 60.0
+        },
+        {
+          "field": "color",
+          "value": "Orange",
+          "operator": "equals",
+          "operator_value": "Orange"
+        },
+        {
+          "field": "name",
+          "value": "Women's Omni-Shield Hiking Bottoms",
+          "operator": "contains",
+          "operator_value": "Hiking Bottoms"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Olive Green, transport time is less than 2, the brand is Patagonia, total sales volume is more than 4500, and the average rating score is above 4.5.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Olive Green",
+          "operator": "equals",
+          "operator_value": "Olive Green"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Patagonia",
+          "operator": "equals",
+          "operator_value": "Patagonia"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 4890,
+          "operator": "greater_than",
+          "operator_value": 4500.0
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        }
+      ]
+    }
+  ]
+}

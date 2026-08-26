@@ -1,0 +1,37 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "find Bob's emails in January, save it in Jan_emails.pdf",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Jan_emails.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+              "doc_type": "pdf",
+              "file": "data/Jan_emails.pdf",
+              "keywords": [
+                "Project 2"
+              ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+              "file": "data/Jan_emails.pdf",
+              "doc_type": "pdf",
+              "keywords": [
+                "meeting",
+                "rent",
+                "scholarship"
+              ]
+            }
+        }
+    ]
+}

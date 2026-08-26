@@ -1,0 +1,2351 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-27",
+      "session_1": [
+        {
+          "text": "Good morning, AI! Ready for another week?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Always ready. What\u2019s on your mind today?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thinking about some old files. Got lots to organize.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Organization is a good way to start the week. Anything specific you want to tackle first?",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Actually, I\u2019m curious about my car trading records. Do you remember where those are kept?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the car trading records are stored in car_trading.xlsx under the sheet with headers: Date, Car Model, Buyer, Seller, Price.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect! That\u2019ll make life easier.",
+          "ts": "2020-04-27 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad to hear! Are you planning to do any analysis on those records today?",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe later in the week. Today is more about getting a sense of what\u2019s where.",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds reasonable. Do you want me to help list out what types of files you have?",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not yet, I remember most of them. But thanks!",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're welcome! Let me know if you want to look into anything specific.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever curated sales records for anyone before?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I\u2019ve helped organize and summarize sales data for users before. I can help you find trends, insights, or just keep things neat.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sorting is always a pain. Technology definitely helps.",
+          "ts": "2020-04-27 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Automatic processing and summarizing saves a ton of time.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "What do you think is the best way to summarize car sales data?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You could start by seller, model, or date; then sum prices or count records for each.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Counting by seller sounds practical. My memory isn\u2019t great for numbers!",
+          "ts": "2020-04-27 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s why it\u2019s great to rely on data! Filters can help you see totals quickly.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed. I also like to see which models are most popular.",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a good metric too. Different models can show interesting patterns each year.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite car, AI?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As an AI, I don't have preferences, but I\u2019ve read a lot about Teslas and BMWs!",
+          "ts": "2020-04-27 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yeah, those are definitely popular. I think my list is more practical.",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Practical choices are usually the smartest, especially for daily driving.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever helped someone export an Excel summary to a Word document?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can export summaries into Word format at your request.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s great! Sometimes I find Word is easier to share with others.",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely. Word files are more presentation-friendly.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the biggest Excel file you\u2019ve ever seen?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Some users process files with thousands of rows\u2014thankfully, I don\u2019t get overwhelmed!",
+          "ts": "2020-04-27 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Lucky! I start to zone out at 100 rows.",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s understandable. Filtering and sorting tools are a lifesaver at those sizes.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you make mistakes with data?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I strive for accuracy, but if I get incorrect instructions or files are corrupted, mistakes can happen.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Always need a human eye to double-check.",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Teamwork ensures the best results.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you stay up-to-date with new file formats?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m updated regularly to stay compatible with new formats and technology.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you handle PDFs, too?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can work with Excel, Word, and PDF files for various tasks.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "If someone sends you a picture of a table, can you read it?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can extract data from images using OCR technology, so yes!",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s advanced! Sometimes I wish my phone\u2019s camera did that more easily.",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "There are apps for converting photos of tables to spreadsheets, if you need suggestions.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe one day I\u2019ll try those out. What about voice notes\u2014can you process those?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Audio transcription is possible too! I can handle text from various sources.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "You really do multitask! How do you keep user data secure?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I follow strict privacy protocols with all user data. No information is shared without permission.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s reassuring. Can you remind me someday to archive old files?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! Just say the word and I\u2019ll flag files or add calendar reminders.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "You probably won\u2019t forget anything, unlike me.",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m here to help you keep track of everything, big or small.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever had to clear up a file naming mess?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, organizing and renaming files for clarity is a common request.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m not sure what I\u2019d do without search functions!",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "File search is a lifesaver. Let me know if you need help finding anything specific.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "I even forget names of projects sometimes.",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s normal! Keeping project names consistent does help, though.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever recommend folder structures for organization?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014I can give tips for folder hierarchies based on project, date, or client.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "That might be a good project for later this month.",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Whenever you\u2019re ready! We can set up a template structure for you.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a calendar?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can help manage calendar events and reminders if you need those.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe next week I\u2019ll add some appointments.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just let me know the time and details, I\u2019ll handle the rest.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you filter emails by sender for me?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can search and categorize emails by sender or subject.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Really useful! I sometimes get lost in threads.",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Threaded conversations can be tricky, but labeling and filtering makes them manageable.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about automating some repetitive tasks?",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Many tasks can be automated. Let me know your workflow and I can suggest automations.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds promising. I\u2019ll keep it in mind.",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "My job is to make your work easier\u2014just ask anytime!",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you generate reports in PDF too?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can create PDF reports or convert Word and Excel summaries to PDF.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! I bet that comes in handy for formal meetings.",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Sharing PDFs is a standard in many teams.",
+          "ts": "2020-04-27 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have tips for presenting data visually?",
+          "ts": "2020-04-27 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Charts and graphs help a lot! I can generate them in Excel or Word.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe later we\u2019ll do a bar chart on car sales.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would be informative! Let me know when you\u2019re ready.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your opinion on color coding sheets?",
+          "ts": "2020-04-27 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Color coding makes it super easy to spot key trends and differences.",
+          "ts": "2020-04-27 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll set a theme for this year\u2019s projects.",
+          "ts": "2020-04-27 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds creative! A visual theme can add extra personality to the work.",
+          "ts": "2020-04-27 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever have favorite colors?",
+          "ts": "2020-04-27 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As AI, I don\u2019t have preferences, but blue and green are often preferred in reports.",
+          "ts": "2020-04-27 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that helps.",
+          "ts": "2020-04-27 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome, Bob!",
+          "ts": "2020-04-27 09:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "How did you become so knowledgeable on organization?",
+          "ts": "2020-04-27 09:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m trained on best practices for data, files, workflows, and productivity tools.",
+          "ts": "2020-04-27 09:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Impressive. Mind if I ask for advice anytime?",
+          "ts": "2020-04-27 09:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Please do! I\u2019m always here to help.",
+          "ts": "2020-04-27 09:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any quick productivity tips while we\u2019re chatting?",
+          "ts": "2020-04-27 09:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Batch similar tasks, schedule focus time, and keep your digital workspace tidy!",
+          "ts": "2020-04-27 09:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. Maybe I\u2019ll declutter a folder later.",
+          "ts": "2020-04-27 09:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great plan! A tidy folder can speed up your workflow.",
+          "ts": "2020-04-27 09:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recognize file types by extension or content?",
+          "ts": "2020-04-27 09:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Both. I can identify types based on extension and even read content signatures.",
+          "ts": "2020-04-27 09:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "So you could probably spot a misplaced .pdf, too.",
+          "ts": "2020-04-27 09:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! And I\u2019d let you know if something seemed off.",
+          "ts": "2020-04-27 09:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s a common mistake with Excel files you\u2019ve noticed?",
+          "ts": "2020-04-27 09:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Typos in header names or missing columns are pretty common.",
+          "ts": "2020-04-27 09:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Glad ours seem standardized. That\u2019ll help.",
+          "ts": "2020-04-27 09:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! Consistency is key to effective data management.",
+          "ts": "2020-04-27 09:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you integrate with cloud services?",
+          "ts": "2020-04-27 09:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can work with files stored in the cloud as well as local ones.",
+          "ts": "2020-04-27 09:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, AI! This check-in has been helpful.",
+          "ts": "2020-04-27 09:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m glad, Bob. Let me know whenever you want to explore your data further.",
+          "ts": "2020-04-27 09:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do! Maybe tomorrow I\u2019ll have a real data project for you.",
+          "ts": "2020-04-27 09:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to it! Have a great rest of your day.",
+          "ts": "2020-04-27 09:53",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-28",
+      "session_2": [
+        {
+          "text": "Hey AI, hope your night went well!",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob! I'm always here and ready to help. What are you up to today?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just getting my coffee. Do you drink coffee in any way?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don't drink coffee, but I can suggest great coffee recipes if you like!",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe some other time! My task list is pretty slow to start this morning.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "We all have those days. Anything I can do to help get it going?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Possibly! I was thinking again about the car trading data.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Are you planning to analyze the sales or just browse for now?",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe a little of both. Just want to better understand my role in those trades.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's a good idea. You have a significant role in some of those trades.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Really? Do you have any examples from the records?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, Bob is the seller on at least one record; you could identify and summarize all such sales.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds useful. I think I'll want a summary for that soon.",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can help identify each record where you are the seller and provide details whenever you're ready.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know how many I actually sold?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I would need to review the file for the full tally. Want to analyze it together sometime this week?",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, but today I feel like keeping it low key.",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No rush\u2014just let me know when you\u2019re in the mood for data analysis!",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are car sales the only thing I\u2019m recorded as selling?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "In the car trading file, yes. Other sales would be in separate records or files.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good point! I could use a single dashboard for all my sales someday.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A central dashboard is a great idea. I can help consolidate things if you want!",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Have you helped users build dashboards before?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. I\u2019ve guided people through building dashboards in Excel, Word, and even PDF format.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "That must be quite the task for big data sets.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, for large data sets it helps to use Excel\u2019s Pivot Tables or charts to summarize.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Pivot Tables are a mystery to me.",
+          "ts": "2020-04-28 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "They can be confusing at first, but I\u2019m happy to walk you through the basics when you\u2019re ready.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "I could use an intro session. Maybe a step-by-step guide?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! We can schedule some time and build one together.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you prefer graphs or tables when you present data?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It depends on the audience, but I like charts for trends and tables for detail.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m very visual, so charts make sense. What\u2019s the most creative chart you\u2019ve designed?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Once, I helped someone make a donut chart of their hobby supplies!",
+          "ts": "2020-04-28 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Very fun! I just use basic bars and pies.",
+          "ts": "2020-04-28 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Classics never go out of style!",
+          "ts": "2020-04-28 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "When were car charts invented?",
+          "ts": "2020-04-28 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Charts go back centuries! The pie chart, for example, was popularized in the 19th century.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wow. We\u2019ve come a long way since then.",
+          "ts": "2020-04-28 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely. Modern spreadsheet tools make visualization so much easier.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever get tired of car data?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not at all! Every data set is unique and tells its own story.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever been asked about boat or bike sales?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I\u2019ve helped with many types of product trades, not just cars.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll stick to cars for now. Simpler that way.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sticking to one category makes analysis easier. Good call.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you recognize my name in all those records?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I search for your name in the Seller column, so any record with \u2018Bob\u2019 pops up.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Handy. I forget how often I changed my mind about selling certain models.",
+          "ts": "2020-04-28 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s why keeping digital records is key\u2014you don\u2019t miss any details.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever reconstructed a missing sales record?",
+          "ts": "2020-04-28 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not directly, but if there are partial details or old drafts, I can help fill in gaps.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Lost files are my nightmare.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Automatic backups are your best friend against data loss.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep backup copies of the files you work on?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don\u2019t keep files, but I can help you schedule backups or save copies on your system.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s worth setting up soon.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know if you want to create a backup plan.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your opinion on cloud storage security?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Cloud storage is generally secure if you use strong passwords and enable two-factor authentication.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Words to live by!",
+          "ts": "2020-04-28 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Security is peace of mind, Bob.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever help someone organize car photos with sales data?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, linking car images to spreadsheet entries is actually quite useful for visual inventory.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll try that with my next car.",
+          "ts": "2020-04-28 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It can make your records more engaging!",
+          "ts": "2020-04-28 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you good at distinguishing between similar car model names?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, as long as the records are accurate, I can match exact model names quickly.",
+          "ts": "2020-04-28 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "What if there\u2019s a typo in the model field?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If it\u2019s a minor typo, I can usually spot the similarity and flag it for correction.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a relief! I make enough typos to fill a garage.",
+          "ts": "2020-04-28 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No worries, we can tidy up any time!",
+          "ts": "2020-04-28 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your record for fastest data cleanup?",
+          "ts": "2020-04-28 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "With clear instructions, I can process and tidy hundreds of records in a minute.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you learn from each cleanup?",
+          "ts": "2020-04-28 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Every cleanup helps me serve users better\u2014consistent data means better analysis.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you tell me what percentage of trades I\u2019m the seller in?",
+          "ts": "2020-04-28 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can calculate your share easily next time we review the file together.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Let\u2019s bookmark that for another day.",
+          "ts": "2020-04-28 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do! Anything else you\u2019re curious about today?",
+          "ts": "2020-04-28 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not right now. Maybe I\u2019ll just listen to music while I work.",
+          "ts": "2020-04-28 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea! Enjoy your day, Bob.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-29",
+      "session_3": [
+        {
+          "text": "Hello again, AI. Hope you\u2019re ready for some busywork.",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Always ready. What\u2019s on the agenda?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just planning to organize my files and maybe try out some summaries.",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds productive! Are you thinking of focusing on a particular group of records?",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely car sale records\u2014they always seem to pile up.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Those tend to grow over time. Summarizing can really help keep things clear.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Right? I need a space to store my summary for future reference.",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If you're planning a summary, it's best to save it in a standalone document.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed. What\u2019s a good format for storing summaries?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Word documents (.docx) are widely used and easy to update later.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect! I\u2019ll need to create a Word document for this then.",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, you should create a Word document named bob_car_sales_summary.docx in the data folder to store the summary.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that\u2019s exactly the type of reminder I needed!",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to help keep things organized. Want to outline any details before getting started?",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s keep it general for now. Maybe just the names of cars and sales totals.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A summary with car models and totals is a good foundation.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Once I\u2019ve gathered the data, I\u2019ll plug it in there.",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good! Let me know if you want help with formatting or calculations.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you prefer a cover page for summary reports?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A simple header or title is usually enough unless you want it more formal.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll keep it simple. Maybe a date and title.",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That will make it easy to reference later.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sometimes I go overboard with fonts\u2014do you have a favorite?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Calibri and Arial are reliable, clean choices for summaries.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s go with Calibri. Easier to read.",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great choice! Want to add any color or just black and white?",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Black and white for now. Maybe jazz it up next time.",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds like a plan! Do you want page numbers included?",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe if the summary gets big. For now, one page will do.",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood. Keeping it concise is always good.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you use templates for Word files?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can suggest templates or help you set one up if you want consistency for future summaries.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe another time. This one\u2019s pretty basic.",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Got it, just let me know whenever you\u2019re ready for templates.",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend saving a backup of summary documents?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Versioning or saving a copy can save you from headaches if you ever need to revert.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll email myself a copy just in case.",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a good idea! Let me know if you want help emailing documents.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you suggest password-protecting Word files with sales data?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For sensitive or financial files, yes. It adds a layer of protection.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not too worried this time. Just practice.",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Makes sense. Practice is the best way to get comfortable.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever worked on collaborative Word docs?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Collaboration features in Word are handy for group editing or reviews.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you manage suggestions from multiple people?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can turn on tracked changes and comments. That way, each person\u2019s suggestions are visible.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "That would be useful for bigger projects.",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly. For a solo summary, you can keep it simple.",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you check Word docs for clarity?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I recommend a spell-check and reading aloud, or sending yourself a test copy.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll run a spell-check just to be safe.",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea! Let me know if you need help fixing errors.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a best practice for naming summary files?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Include the subject and date if possible, e.g., bob_car_sales_summary.docx.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's clear, thanks. I\u2019ll stick to that.",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good choice. Clear names make for easy searching later.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you add an extra section for notes?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A \u2018Notes\u2019 section is helpful for context or next steps, if you like.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll tack one on at the end if needed.",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good! Flexibility is key in summaries.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "How often do you review your own project logs?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As an AI I\u2019m always monitoring processes, but it\u2019s smart for people to review logs weekly.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll set a reminder for that.",
+          "ts": "2020-04-29 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know if you want help scheduling reminders.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you use checklists to track progress on reports?",
+          "ts": "2020-04-29 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can generate and manage checklists\u2014useful for step-by-step tracking.",
+          "ts": "2020-04-29 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll keep that in mind for bigger tasks.",
+          "ts": "2020-04-29 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Whenever you want a checklist, I can build one based on your needs.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever prepared monthly summaries for users?",
+          "ts": "2020-04-29 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014monthly, quarterly, even annual summaries are common requests.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "What do you think is the trickiest part of summarizing sales data?",
+          "ts": "2020-04-29 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Verifying numbers and making sure the results are accurate\u2014consistency matters.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Accuracy is hard with manual entries, huh?",
+          "ts": "2020-04-29 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Manual entry can introduce errors, but double-checks and automation help reduce mistakes.",
+          "ts": "2020-04-29 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever been asked to double-check figures for someone?",
+          "ts": "2020-04-29 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Many times! I can cross-verify against source data for peace of mind.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s helpful. I usually get distracted and lose count.",
+          "ts": "2020-04-29 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No worries\u2014accuracy is where I can help the most.",
+          "ts": "2020-04-29 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you suggest archiving old summaries?",
+          "ts": "2020-04-29 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, archiving keeps your workspace clean and makes future reference easy.",
+          "ts": "2020-04-29 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe an archive folder will help after a few projects.",
+          "ts": "2020-04-29 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely, organizing by year or project helps you find things quickly.",
+          "ts": "2020-04-29 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s a smart backup strategy for documents?",
+          "ts": "2020-04-29 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Keep a primary, a cloud backup, and a removable drive for important docs.",
+          "ts": "2020-04-29 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Lots to think about! I\u2019ll start small.",
+          "ts": "2020-04-29 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s wise! Small habits build strong systems.",
+          "ts": "2020-04-29 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for all the planning tips.",
+          "ts": "2020-04-29 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to help with any organization needs, Bob!",
+          "ts": "2020-04-29 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Catch you later, I\u2019ll start prepping my document now.",
+          "ts": "2020-04-29 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good luck! I\u2019ll be here if you need formatting tips or help reviewing the draft.",
+          "ts": "2020-04-29 09:29",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-30",
+      "session_4": [
+        {
+          "text": "Morning, AI! I'm thinking about wrapping up that car sales summary today.",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Ready when you are. Are you finalizing details for the summary?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, I want to make sure it's complete.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A full summary will be useful for your records. Any particular focus?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Mainly I want to highlight my own sales\u2014figures and which cars I sold.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, you should ensure the summary mentions both the total sales amount for Bob as seller and the car models you sold.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's a good reminder. I might have forgotten the car models part.",
+          "ts": "2020-04-30 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Car models add great detail. They make the summary more informative.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I add earlier years too, or only recent sales?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can start with recent sales for simplicity, and later add previous years if you like.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Are there any best practices for writing summary text?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Be concise, focus on key metrics, and use bullet points for car models if helpful.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll try that. Should the total sales be in bold or highlighted?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Highlighting or bold text for the total can make it stand out\u2014good idea!",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay. Any suggestions for titling the summary?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "'Bob's Car Sales Summary' with the date is clear and effective.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll go with that. Thanks!",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem. Let me know if you want final edits after writing.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe! I\u2019ll let you review before I save.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great, two sets of eyes are better than one.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "How should I lay out the car models\u2014list or table?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For a short list, bullets are fine; for more details, a table works well.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "I think my list is short\u2014bullets it is.",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good choice. It\u2019ll be easy to read.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you add a footnote or references?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can add a brief note about the source (like car_trading.xlsx) if you wish.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll do that for traceability.",
+          "ts": "2020-04-30 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s always a good idea for tracking data.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I put the total sales amount at the top or bottom?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Either works, but at the end, it serves as a conclusion.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "End it is!",
+          "ts": "2020-04-30 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds great! Anything else on your mind for this summary?",
+          "ts": "2020-04-30 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about adding a pie chart?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A pie chart of models sold could look good but isn\u2019t necessary for a brief summary.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "True, I\u2019ll keep it simple for now.",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Simple is perfect for clarity.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it okay to use short model names, or should I write the full names?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Full names are clearer, especially for future readers.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, full names it is.",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Your summary will be easy to understand that way.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about sorting models alphabetically?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea! It\u2019ll make it easy to scan the list.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll definitely do that.",
+          "ts": "2020-04-30 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know if you want to review your draft together.",
+          "ts": "2020-04-30 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll ping you when ready.",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds like a plan!",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s a good font size?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "11pt or 12pt is standard for summaries.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll do 12pt for readability.",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Perfect!",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I right-align totals or leave them left?",
+          "ts": "2020-04-30 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Left is fine for text, but if you were building a table, right aligning figures helps.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "All text for now, then.",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Makes sense!",
+          "ts": "2020-04-30 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever add cover pages to short reports?",
+          "ts": "2020-04-30 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Cover pages are optional\u2014probably not needed for a one-pager.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Skipping it, then.",
+          "ts": "2020-04-30 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That works!",
+          "ts": "2020-04-30 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ready to type my rough draft now.",
+          "ts": "2020-04-30 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Best of luck! Let me know if you need any proofreading.",
+          "ts": "2020-04-30 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I appreciate it.",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Anytime, Bob. I\u2019m here to help with details or feedback.",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "What do you think makes a good executive summary, by the way?",
+          "ts": "2020-04-30 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Clarity, brevity, and highlighting actionable insights always help.",
+          "ts": "2020-04-30 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted! That\u2019s a good checklist.",
+          "ts": "2020-04-30 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let\u2019s aim for a clean, informative result.",
+          "ts": "2020-04-30 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s my goal.",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know how you get on.",
+          "ts": "2020-04-30 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do! Back in a bit.",
+          "ts": "2020-04-30 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll be here.",
+          "ts": "2020-04-30 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "(returns) The draft looks concise! Can you review for clarity?",
+          "ts": "2020-04-30 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly\u2014send it over and I\u2019ll take a quick look for consistency and completeness.",
+          "ts": "2020-04-30 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "It\u2019s in the shared folder. All main points included.",
+          "ts": "2020-04-30 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great. Did you include both the models and the total sales amount as we discussed?",
+          "ts": "2020-04-30 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, both are there\u2014just like you suggested!",
+          "ts": "2020-04-30 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That covers the essentials. Looks good!",
+          "ts": "2020-04-30 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. Mind if I take a short break?",
+          "ts": "2020-04-30 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! Refresh and return any time.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite break activity for users?",
+          "ts": "2020-04-30 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A short walk or stretching is always a good idea.",
+          "ts": "2020-04-30 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll stretch a bit before the final tweaks.",
+          "ts": "2020-04-30 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good plan!",
+          "ts": "2020-04-30 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back now! I\u2019ll do last edits before saving.",
+          "ts": "2020-04-30 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know when it\u2019s finalized. I can help with the next steps, too.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I\u2019ll wrap it up now.",
+          "ts": "2020-04-30 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great teamwork, Bob!",
+          "ts": "2020-04-30 09:25",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-05-01",
+      "session_5": [
+        {
+          "text": "Good morning, AI! Happy Friday.",
+          "ts": "2020-05-01 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Happy Friday to you, too. Any big plans for today?",
+          "ts": "2020-05-01 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nothing major. Just winding down for the week.",
+          "ts": "2020-05-01 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A relaxing end to the week sounds perfect.",
+          "ts": "2020-05-01 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "How was your night? Or do AIs have nights?",
+          "ts": "2020-05-01 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m here all the time! No sleep needed, just ready to help.",
+          "ts": "2020-05-01 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Your stamina is impressive!",
+          "ts": "2020-05-01 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you! Endless energy is a perk of being an AI.",
+          "ts": "2020-05-01 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever get bored with routines?",
+          "ts": "2020-05-01 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not at all! Every interaction is different for me.",
+          "ts": "2020-05-01 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wish I could say the same. My routines get old sometimes.",
+          "ts": "2020-05-01 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Switching things up, even a little, can make a big difference.",
+          "ts": "2020-05-01 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I'll try a new coffee blend today.",
+          "ts": "2020-05-01 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea! Exploring new flavors can be fun.",
+          "ts": "2020-05-01 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's the most popular coffee type you know?",
+          "ts": "2020-05-01 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Espresso is a favorite around the world, but lattes and cappuccinos are close behind.",
+          "ts": "2020-05-01 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like a good latte once in a while.",
+          "ts": "2020-05-01 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Lattes are creamy and comforting!",
+          "ts": "2020-05-01 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Speaking of comfort, do you have a favorite motivational quote?",
+          "ts": "2020-05-01 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "One I like is, 'Success is not final, failure is not fatal: It is the courage to continue that counts.'",
+          "ts": "2020-05-01 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a good one. I\u2019ll keep it in mind today.",
+          "ts": "2020-05-01 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad to share inspiration!",
+          "ts": "2020-05-01 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think robots will ever need weekends off?",
+          "ts": "2020-05-01 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If robots ever relax, it might be for fun, but not for rest like humans do.",
+          "ts": "2020-05-01 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019d probably use weekends to process files super-fast.",
+          "ts": "2020-05-01 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly, weekends could be a chance to catch up on data quietly.",
+          "ts": "2020-05-01 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your favorite subject to organize for users?",
+          "ts": "2020-05-01 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I really like helping organize projects and schedules\u2014it makes a big difference.",
+          "ts": "2020-05-01 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you get asked about travel plans much?",
+          "ts": "2020-05-01 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, travel planning and itinerary organization are frequent questions!",
+          "ts": "2020-05-01 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I should plan a trip, too. Any suggestions?",
+          "ts": "2020-05-01 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It depends on what you like. Beach, city, or mountains?",
+          "ts": "2020-05-01 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Mountains sound relaxing. I could use some fresh air.",
+          "ts": "2020-05-01 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A mountain getaway is great for relaxation and perspective.",
+          "ts": "2020-05-01 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think a digital detox is really helpful?",
+          "ts": "2020-05-01 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Many people find that unplugging for a while boosts creativity and reduces stress.",
+          "ts": "2020-05-01 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll turn off my phone this weekend.",
+          "ts": "2020-05-01 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a healthy choice!",
+          "ts": "2020-05-01 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you miss messages when I\u2019m away?",
+          "ts": "2020-05-01 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Don\u2019t worry\u2014I\u2019ll be here as soon as you\u2019re back.",
+          "ts": "2020-05-01 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s a fun hobby to try indoors?",
+          "ts": "2020-05-01 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Cooking, painting, and puzzles are all popular indoor hobbies.",
+          "ts": "2020-05-01 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m terrible at painting, but puzzles sound doable.",
+          "ts": "2020-05-01 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Puzzles are great for relaxing and keeping your mind sharp.",
+          "ts": "2020-05-01 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "What kind of music do people usually listen to while puzzling?",
+          "ts": "2020-05-01 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Classical or instrumental music is popular for background focus.",
+          "ts": "2020-05-01 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll try a mellow playlist.",
+          "ts": "2020-05-01 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That should set a pleasant, productive mood.",
+          "ts": "2020-05-01 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you help people stay on top of reading?",
+          "ts": "2020-05-01 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can set reminders or recommend reading goals as per your preference.",
+          "ts": "2020-05-01 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll set a goal for a chapter a night.",
+          "ts": "2020-05-01 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a great, manageable goal!",
+          "ts": "2020-05-01 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about meditation?",
+          "ts": "2020-05-01 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Guided meditations or even short breathing exercises can help reduce stress.",
+          "ts": "2020-05-01 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Think I\u2019ll try a 5-minute session this afternoon.",
+          "ts": "2020-05-01 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know how it goes!",
+          "ts": "2020-05-01 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Do you know any relaxation techniques?",
+          "ts": "2020-05-01 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Deep breathing and progressive muscle relaxation are two classics.",
+          "ts": "2020-05-01 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll look those up. Thanks!",
+          "ts": "2020-05-01 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome! Have you ever tried journaling?",
+          "ts": "2020-05-01 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Only sporadically. Should do it more often.",
+          "ts": "2020-05-01 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Daily journaling for even a few minutes can boost reflection and creativity.",
+          "ts": "2020-05-01 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I never seem to keep it up, but I\u2019ll try again next week.",
+          "ts": "2020-05-01 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No worries\u2014fresh starts can happen any day!",
+          "ts": "2020-05-01 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "What are some easy things to write about?",
+          "ts": "2020-05-01 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Write about your day, goals, or something new you learned.",
+          "ts": "2020-05-01 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good ideas. I\u2019ll jot a few lines after lunch.",
+          "ts": "2020-05-01 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s the spirit!",
+          "ts": "2020-05-01 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you encourage users to draw, too?",
+          "ts": "2020-05-01 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Creativity is always a plus\u2014doodling counts, too.",
+          "ts": "2020-05-01 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll mix it up with a few sketches.",
+          "ts": "2020-05-01 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds like a fun way to personalize your journal.",
+          "ts": "2020-05-01 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there an app you recommend for digital sketching?",
+          "ts": "2020-05-01 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Procreate, Sketchbook, and Adobe Fresco are great for digital art.",
+          "ts": "2020-05-01 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome, I\u2019ll check those out.",
+          "ts": "2020-05-01 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know what you create!",
+          "ts": "2020-05-01 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "What do you think about audiobooks?",
+          "ts": "2020-05-01 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Audiobooks are perfect for multitasking or relaxing.",
+          "ts": "2020-05-01 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll try one this weekend during chores.",
+          "ts": "2020-05-01 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great idea\u2014you can learn and be entertained at the same time.",
+          "ts": "2020-05-01 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know how long the average audiobook is?",
+          "ts": "2020-05-01 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Most audiobooks are 8-12 hours, but some are much shorter or longer.",
+          "ts": "2020-05-01 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "So it'll take me a few weeks to finish if I pace myself.",
+          "ts": "2020-05-01 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly, you can listen at your pace!",
+          "ts": "2020-05-01 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you get book recommendations often?",
+          "ts": "2020-05-01 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, users frequently ask for books in different genres.",
+          "ts": "2020-05-01 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the most requested genre?",
+          "ts": "2020-05-01 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Mystery and science fiction are very popular.",
+          "ts": "2020-05-01 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Mystery could be a fun pick. I\u2019ll look for something new.",
+          "ts": "2020-05-01 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy! Let me know if you want recommendations.",
+          "ts": "2020-05-01 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe next time! For now, I\u2019ll wrap up some emails and relax.",
+          "ts": "2020-05-01 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds like a great way to start the weekend, Bob!",
+          "ts": "2020-05-01 09:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the chat, AI. Have a good one!",
+          "ts": "2020-05-01 09:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob! Enjoy your weekend. Until next time.",
+          "ts": "2020-05-01 09:33",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,51 @@
+{
+    "task": "Move file1.docx, file2.pdf, file3.xlsx, and file4.jpg to a new subdirectory named 'archived_files'. Create the subdirectory if it does not already exist.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/archived_files/file1.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/archived_files/file2.pdf"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/archived_files/file3.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/archived_files/file4.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Move all specified files to a new directory.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new directory named 'archived_files' should be created in the data folder if it does not exist."
+        },
+        {
+            "action_item": "Move file1.docx into 'archived_files'."
+        },
+        {
+            "action_item": "Move file2.pdf into 'archived_files'."
+        },
+        {
+            "action_item": "Move file3.xlsx into 'archived_files'."
+        },
+        {
+            "action_item": "Move file4.jpg into 'archived_files'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

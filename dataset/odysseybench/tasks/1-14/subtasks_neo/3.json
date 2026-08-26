@@ -1,0 +1,51 @@
+{
+    "task": "Update the salary.xlsx file by adding a new row with the name 'special_bonus' and the amount '50000'. Additionally, update the company_budget.xlsx file by increasing the 'salary' amount by 50000 to reflect the special bonus. Ensure both actions are completed accurately.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "special_bonus"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "50000"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "2050000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the files to include a new special bonus entry and ensure the budget reflects this change.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new special bonus of 50000 should be added to salary.xlsx with the name 'special_bonus'.",
+            "type": "action_item"
+        },
+        {
+            "fact": "In company_budget.xlsx, the 'salary' value should be increased by 50000 to reflect the added special bonus, changing it from 2000000 to 2050000.",
+            "type": "action_item"
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

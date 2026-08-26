@@ -1,0 +1,447 @@
+{
+  "query": "I'm putting together some outfits for a trip and need to order several items. First, I'm looking for 'Linen-Blend Shorts' that are well-liked, with over 600 five-star ratings and more than 800 total reviews. Since I need them soon, the transport time must be less than 3 days. I also want a pair of 'Women's Summer Utility Shorts' for summer from the brand Timberland. To go with that, I'm looking for a popular women's item from Arc'teryx in Olive Green, size M, with a total sales volume over 350. Next, I need something from The North Face that's in stock, with a quantity over 150 and an average score above 4.5. I also need a yellow item in size M that can be delivered very quickly, in under 2 days. Finally, I'm searching for a specific dark green item in size 38 with 'Rhyton' in its name that has more than 150 five-star ratings. I'm looking for something that costs somewhere in the range of 13928 to 13951.",
+  "ground_truth_products": [
+    {
+      "product_id": "934e0bb6",
+      "name": "Women's Summer Casual Linen-Blend Shorts",
+      "price": 249.99,
+      "brand": "Bosideng",
+      "color": "Beige",
+      "size": "M",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Linen",
+          "percentage": 70
+        },
+        {
+          "material": "Viscose",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure",
+      "washing_instructions": "Machine wash cold, gentle cycle. Hang dry recommended. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1240,
+        "total": 5890
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 855,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 150,
+          "3_star": 40,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great for summer"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "40b427a0",
+      "name": "Women's Summer Utility Shorts",
+      "price": 599.0,
+      "brand": "Timberland",
+      "color": "Khaki",
+      "size": "M",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 110,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "44467c6d",
+      "name": "Women's VECTIV™ Terra Trail Shoes",
+      "price": 998.0,
+      "brand": "The North Face",
+      "color": "Light Blue",
+      "size": "38",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 182,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 350,
+          "4_star": 45,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "c5f6c1c7",
+      "name": "Women's Gamma Insulated Softshell Pants",
+      "price": 3899.0,
+      "brand": "Arc'teryx",
+      "color": "Olive Green",
+      "size": "M",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not use fabric softener. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 45,
+        "total": 380
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 95,
+        "distribution": {
+          "5_star": 78,
+          "4_star": 12,
+          "3_star": 3,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great for hiking"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "726738ae",
+      "name": "Women's Essentials 3-Stripes Track Pants",
+      "price": 399.0,
+      "brand": "Adidas",
+      "color": "Yellow",
+      "size": "M",
+      "stock_quantity": 380,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Side Pockets, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 550,
+        "total": 4800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 1000,
+          "4_star": 187,
+          "3_star": 38,
+          "2_star": 12,
+          "1_star": 13
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e0edc9e4",
+      "name": "Gucci Rhyton Leather Platform Sneaker",
+      "price": 7800.0,
+      "brand": "Gucci",
+      "color": "Dark Green",
+      "size": "38",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Nylon",
+          "percentage": 10
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a soft, dry cloth. Do not machine wash. Store in provided dust bag.",
+      "sales_volume": {
+        "monthly": 112,
+        "total": 1340
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 180,
+          "4_star": 25,
+          "3_star": 5,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Excellent quality",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products with more than 800 total reviews, a transport time of less than 3 days, over 600 5-star ratings, and a name that contains 'Linen-Blend Shorts'.",
+      "features": [
+        {
+          "field": "rating.total_reviews",
+          "value": 855
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 650
+        },
+        {
+          "field": "name",
+          "value": "Women's Summer Casual Linen-Blend Shorts"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Timberland, the suitable season is Summer, the target demographic is Women, and the name is Women's Summer Utility Shorts.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Timberland"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "name",
+          "value": "Women's Summer Utility Shorts"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is more than 150, the brand is The North Face, and the average score is above 4.5.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 154
+        },
+        {
+          "field": "brand",
+          "value": "The North Face"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Arc'teryx, the color is Olive Green, the target demographic is Women, the size is M, and the total sales volume is more than 350.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Arc'teryx"
+        },
+        {
+          "field": "color",
+          "value": "Olive Green"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 380
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the color is Yellow, and the size is M.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Yellow"
+        },
+        {
+          "field": "size",
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 5-star ratings is more than 150, the size is 38, the color is Dark Green, and the name contains 'Rhyton'.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 180
+        },
+        {
+          "field": "size",
+          "value": "38"
+        },
+        {
+          "field": "color",
+          "value": "Dark Green"
+        },
+        {
+          "field": "name",
+          "value": "Gucci Rhyton Leather Platform Sneaker"
+        }
+      ]
+    }
+  ]
+}

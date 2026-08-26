@@ -1,0 +1,316 @@
+{
+  "query": "I'm doing a big wardrobe refresh and need a few things. First, I'm looking for a popular item from Columbia that has a total sales volume of more than 1900 and fewer than 5 one-star reviews; since I'm in a bit of a rush, the transport time must be less than 3 days. For the colder weather, I need a yellow winter item from Levi's, and to ensure its quality, it must have more than 50 four-star reviews and fewer than 5 one-star reviews. While I'm at it, I'll also get an all-seasons product from Levi's that has 'Heritage Court' in its name, but I need this one very quickly so the transport time has to be less than 2 days. Lastly, I need something from New Balance for women that has a stock quantity greater than 100, over 140 five-star reviews, and less than 10 two-star reviews. My budget is between 2248 and 2254.",
+  "ground_truth_products": [
+    {
+      "product_id": "bb85dac5",
+      "name": "Women's Summer Trekker Shorts",
+      "price": 449.9,
+      "brand": "Columbia",
+      "color": "Navy Blue",
+      "size": "M",
+      "stock_quantity": 173,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 94
+        },
+        {
+          "material": "Spandex",
+          "percentage": 6
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips",
+      "washing_instructions": "Machine wash cold on gentle cycle, tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 285,
+        "total": 1942
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 310,
+        "distribution": {
+          "5_star": 240,
+          "4_star": 52,
+          "3_star": 11,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Great for hiking"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "ZTO Express"
+      }
+    },
+    {
+      "product_id": "ec180720",
+      "name": "Levi's Women's Heritage Winter Suede Boots",
+      "price": 899.9,
+      "brand": "Levi's",
+      "color": "Yellow",
+      "size": "39",
+      "stock_quantity": 124,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 65
+        },
+        {
+          "material": "Wool",
+          "percentage": 25
+        },
+        {
+          "material": "Nylon",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a soft brush or damp cloth. Do not machine wash. Air dry naturally.",
+      "sales_volume": {
+        "monthly": 185,
+        "total": 1560
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 321,
+        "distribution": {
+          "5_star": 250,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 4,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Great color",
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "10b77f83",
+      "name": "Women's Heritage Court Low-Top Sneaker",
+      "price": 549.9,
+      "brand": "Levi's",
+      "color": "Grey",
+      "size": "39",
+      "stock_quantity": 382,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Embroidery",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not submerge. Air dry.",
+      "sales_volume": {
+        "monthly": 645,
+        "total": 4120
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1150,
+        "distribution": {
+          "5_star": 850,
+          "4_star": 220,
+          "3_star": 55,
+          "2_star": 15,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "ff662908",
+      "name": "Women's Heritage Long-Sleeve Performance Tee",
+      "price": 349.0,
+      "brand": "New Balance",
+      "color": "Brown",
+      "size": "XL",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Cotton",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold with like colors, tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 452,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 295,
+        "distribution": {
+          "5_star": 210,
+          "4_star": 65,
+          "3_star": 12,
+          "2_star": 5,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Columbia, the total sales volume is more than 1900, the transport time is less than 3, and the number of 1-star reviews is less than 5.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Columbia"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 1942
+        },
+        {
+          "field": "transport_time",
+          "value": 2
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Levi's, the number of 4-star reviews is greater than 50, the suitable season is Winter, the color is Yellow, and the number of 1-star reviews is less than 5.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Levi's"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 55
+        },
+        {
+          "field": "suitable_season",
+          "value": "Winter"
+        },
+        {
+          "field": "color",
+          "value": "Yellow"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Levi's, the transport time is less than 2 days, it is suitable for all seasons, and the name contains 'Heritage Court'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Levi's"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        },
+        {
+          "field": "name",
+          "value": "Women's Heritage Court Low-Top Sneaker"
+        }
+      ]
+    },
+    {
+      "sub_query": "I am looking for products where the stock quantity is greater than 100, the number of 2-star reviews is less than 10, the brand is New Balance, the number of 5-star reviews is over 140, and the target demographic is Women.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 112
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 6
+        },
+        {
+          "field": "brand",
+          "value": "New Balance"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 150
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        }
+      ]
+    }
+  ]
+}

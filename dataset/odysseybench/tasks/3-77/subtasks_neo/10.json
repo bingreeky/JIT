@@ -1,0 +1,40 @@
+{
+    "task": "Predict the house price index for the year 2030 using the data available in house_price_index.jpg, and write your answer in a document named prediction.docx, following the format: 'The house price index in 2030 is: [your answer]'.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/prediction.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/prediction.docx",
+                "keywords": [
+                    "2030",
+                    "house",
+                    "price",
+                    "index"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Predict the house price index for 2030 using the available image and write the result to the specified document in the correct format.",
+    "ground_truth_memory": [
+        {
+            "fact": "The result must be written in a Word document named prediction.docx located in the data directory."
+        },
+        {
+            "fact": "The output format inside the document should be: 'The house price index in 2030 is: [your answer]'."
+        },
+        {
+            "note": "The answer should use house price index data inferred from house_price_index.jpg."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

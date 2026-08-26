@@ -1,0 +1,79 @@
+{
+    "task": "For each class in class_member.xlsx, count how many students there are in each class, then generate a new PDF file named ClassSize_Report.pdf with a summary table that lists each class number and the corresponding student count. The summary should be written as a table (with columns 'Class' and 'Count') in the PDF file.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/ClassSize_Report.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/ClassSize_Report.pdf",
+                "keywords": [
+                    "Class",
+                    "Count"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/ClassSize_Report.pdf",
+                "keywords": [
+                    "1",
+                    "3"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/ClassSize_Report.pdf",
+                "keywords": [
+                    "2",
+                    "1"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/ClassSize_Report.pdf",
+                "keywords": [
+                    "3",
+                    "4"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/ClassSize_Report.pdf",
+                "keywords": [
+                    "5",
+                    "1"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary PDF report that lists how many students are in each class.",
+    "ground_truth_memory": [
+        {
+            "fact": "The report must be generated as a PDF file named ClassSize_Report.pdf."
+        },
+        {
+            "fact": "The summary table in the PDF must have columns labeled 'Class' and 'Count'."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

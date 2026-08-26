@@ -1,0 +1,27 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "if budget grow 10% per year, add 'predicted budget' for 3 years later to the last row in budget excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/company_budget.xlsx",
+        "matches": [
+          {
+            "row": "5",
+            "col": "1",
+            "value": "predicted budget"
+          },
+          {
+            "row": "5",
+            "col": "2",
+            "value": "2729881"
+          }
+        ]
+      }
+    }
+  ]
+}

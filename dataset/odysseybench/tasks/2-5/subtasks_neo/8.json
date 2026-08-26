@@ -1,0 +1,43 @@
+{
+    "task": "Summarize the main strengths and motivations from Alice Johnson's fellowship application as presented in 'fellowship_application.pdf'. Outline her qualifications and purpose for applying, so that the summary can later be cross-checked with school policy (currently not machine-readable). Create a Word document named 'alice_fellowship_summary.docx' that highlights at least three strengths or motivations shown in her application, as well as her references.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/alice_fellowship_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Alice Johnson",
+                    "research skills",
+                    "academic excellence",
+                    "references",
+                    "dedication",
+                    "contribute"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize Alice Johnson's main strengths and motivations for her fellowship application into a Word document for later policy comparison.",
+    "ground_truth_memory": [
+        {
+            "memory_type": "fact",
+            "content": "Alice Johnson's fellowship application is provided in 'fellowship_application.pdf'."
+        },
+        {
+            "memory_type": "action_item",
+            "content": "Create the summary in a new Word document named 'alice_fellowship_summary.docx'."
+        },
+        {
+            "memory_type": "fact",
+            "content": "The summary should include at least three strengths or motivations, such as: her research skills, track record of academic excellence, and dedication to contributing to the research community."
+        },
+        {
+            "memory_type": "fact",
+            "content": "Include mention of Alice's references (Dr. John Smith, Professor, University X) in the summary."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

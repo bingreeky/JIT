@@ -1,0 +1,21 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "suggest cars and save in cars.docx for people whose budget is 50000$ based on car trading excel file, convert to suggesting.pdf",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/cars.docx"
+          }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/suggesting.pdf"
+          }
+        }
+    ]
+}

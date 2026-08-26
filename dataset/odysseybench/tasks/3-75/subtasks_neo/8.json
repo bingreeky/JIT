@@ -1,0 +1,42 @@
+{
+    "task": "Extract the student name from data/homework_withname.docx, then rename a provided PDF file to match the student's name (Linda.pdf). After renaming, compose and send an email to teacher Alice with the new PDF attached and subject line that clearly states 'homework 1 submission'. The student name must be extracted programmatically from the docx, and all steps should follow precise filenames and instructions specified in the memory.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Alice",
+                "keywords": [
+                    "homework",
+                    "1",
+                    "submission"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/Linda.pdf"
+            }
+        }
+    ],
+    "query_sentence": "Extract the student name from the document, rename the PDF file accordingly, and email it to the teacher with the specified subject.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output PDF after renaming should be saved as data/Linda.pdf."
+        },
+        {
+            "fact": "The email must be sent to teacher Alice."
+        },
+        {
+            "fact": "The subject of the email should include the phrase 'homework 1 submission'."
+        },
+        {
+            "fact": "Extract the student name from the docx, not by manual reading, but programmatically."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

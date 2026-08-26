@@ -1,0 +1,45 @@
+{
+    "task": "Analyze Alice's calendar to determine the frequency and timing of her recurring meeting titled 'weekly meeting.' Generate a summary report as a PDF file named 'meeting_summary.pdf' which describes the recurrence pattern (e.g., weekly), the meeting's start and end time, and includes the phrase 'Alice has a recurring weekly meeting every Friday from 10:00 AM to 12:00 PM.'",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/meeting_summary.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "pdf",
+                "file": "data/meeting_summary.pdf",
+                "keywords": [
+                    "recurring",
+                    "weekly",
+                    "Friday",
+                    "10:00",
+                    "12:00",
+                    "Alice"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a summary report of Alice's recurring meeting schedule and save it as a PDF file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file to be generated is 'meeting_summary.pdf' in the 'data' folder."
+        },
+        {
+            "fact": "The meeting is titled 'weekly meeting' and is held every Friday from 10:00 AM to 12:00 PM."
+        },
+        {
+            "fact": "Alice is the meeting participant whose schedule should be analyzed for this report."
+        },
+        {
+            "action_item": "The report should explicitly state that Alice has a recurring weekly meeting every Friday from 10:00 AM to 12:00 PM."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

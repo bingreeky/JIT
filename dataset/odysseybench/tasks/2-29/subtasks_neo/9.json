@@ -1,0 +1,42 @@
+{
+    "task": "Extract the main conference details—specifically, the conference name, start and end dates, and location—from /testbed/data/invitation_letter.pdf. Using this information, create a calendar event for user Alice in her calendar file on the conference start date. The event title should include the full conference name and 'Colorado Springs', and the event description should also contain the location. Ensure the event is added to Alice's primary calendar and starts on November 15, 2024.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "calendar/Alice.ics",
+                "doc_type": "ics",
+                "keywords": [
+                    "IAEM 72nd Annual Conference",
+                    "DTSTART:20241115",
+                    "Colorado Springs"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add the IAEM conference as an event in my calendar.",
+    "ground_truth_memory": [
+        {
+            "item": "The conference name is 'IAEM 72nd Annual Conference & EMEX'."
+        },
+        {
+            "item": "The conference occurs from November 15 to November 21, 2024."
+        },
+        {
+            "item": "The location is Colorado Springs, Colorado, USA."
+        },
+        {
+            "item": "The calendar event should be created on November 15, 2024."
+        },
+        {
+            "item": "The event title in the calendar should contain both 'IAEM 72nd Annual Conference' and 'Colorado Springs'."
+        },
+        {
+            "item": "The location should be mentioned in the event description as well."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

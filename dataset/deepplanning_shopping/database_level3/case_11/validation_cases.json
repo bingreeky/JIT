@@ -1,0 +1,229 @@
+{
+  "query": "I'm planning to revamp my style and need to get a few key items that can arrive quickly. First, I'm looking for a highly successful product with exceptional quality - it needs to have more than 1800 total sales, absolutely zero 1-star reviews, and monthly sales exceeding 150 units to ensure it's both popular and reliable. Next, I want something from the Vans brand that's well-reviewed, specifically with more than 1300 total sales, fewer than 5 one-star reviews, and over 80 four-star reviews to guarantee good quality. Finally, I need a purple item that I can get immediately - it must have 1-day transport time and more than 40 units in stock so I know it's available for quick delivery. These three items together will help me achieve the fresh look I'm going for.",
+  "ground_truth_products": [
+    {
+      "product_id": "2527834d",
+      "name": "Nike Pro Tech-Knit Performance Long-Sleeve Top",
+      "price": 119.0,
+      "brand": "Nike",
+      "color": "Silver",
+      "size": "L",
+      "stock_quantity": 88,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not use fabric softeners.",
+      "sales_volume": {
+        "monthly": 152,
+        "total": 1825
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 420,
+          "4_star": 80,
+          "3_star": 10,
+          "2_star": 2,
+          "1_star": 0
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "cebd3fed",
+      "name": "Vans Men's Old Skool Pro Skate Shoes - Metallic Gold",
+      "price": 650.0,
+      "brand": "Vans",
+      "color": "Gold",
+      "size": "43",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 75
+        },
+        {
+          "material": "Polyester",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Air dry. Do not machine wash.",
+      "sales_volume": {
+        "monthly": 358,
+        "total": 2150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 812,
+        "distribution": {
+          "5_star": 650,
+          "4_star": 120,
+          "3_star": 30,
+          "2_star": 8,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Great color",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e602eee9",
+      "name": "Men's Urban Tech Runner Shoes",
+      "price": 140.0,
+      "brand": "Zara",
+      "color": "Purple",
+      "size": "43",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Printing, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 120,
+        "total": 1580
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 350,
+        "distribution": {
+          "5_star": 280,
+          "4_star": 50,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥120 off every ¥900": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the total sales volume is more than 1800, the number of 1-star reviews is 0, and the monthly sales volume is more than 150.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 1825
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 0
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 152
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Vans, 1-star reviews are less than 5, 4-star reviews are more than 80, and total sales volume is more than 1300.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Vans"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 2
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 82
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 1345
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is 1 day, stock quantity is greater than 40, and the color is Purple.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "stock_quantity",
+          "value": 42
+        },
+        {
+          "field": "color",
+          "value": "Purple"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "delete the stock and its line in salary excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_diff_contain_text",
+      "file": "./data/salary.xlsx",
+      "args": {
+        "input_file": "../../../../cache/3/testbed/data/salary.xlsx",
+        "output_file": "./data/salary.xlsx",
+        "doc_type": "xlsx",
+        "keywords": [
+          "stock",
+          "100000"
+        ]
+      }
+    }
+  ]
+}

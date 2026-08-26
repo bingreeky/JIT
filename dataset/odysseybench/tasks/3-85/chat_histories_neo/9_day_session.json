@@ -1,0 +1,2126 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hey! How\u2019s your day going?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hi Bob! My day is great, thanks for asking. How can I assist you today?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just prepping to add a new participant to our survey data.",
+          "ts": "2020-04-26 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great! Do you have their details ready?",
+          "ts": "2020-04-26 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, she\u2019s 29 years old, female, income 62,500, satisfaction score of 8.",
+          "ts": "2020-04-26 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me note: New participant - Age 29, Gender Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Do you think we have many 29-year-olds in the survey so far?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "There are not too many. Adding a 29-year-old female participant will nicely diversify the dataset.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Glad to hear it. Is income 62,500 typical?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s within the common range. 62,500 is a good representative value for income.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay, good. And a satisfaction score of 8 seems pretty optimistic, right?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, it\u2019s a positive score and adds value to the data.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you recap those details for me?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly: Age 29, Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Did you know, I once tried to survey someone twice by mistake.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That happens sometimes! Good thing we keep track of participant IDs.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "True. I might need help double-checking that later.",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m always here to help verify entries for you!",
+          "ts": "2020-04-26 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool, so the new entry: 29, Female, 62,500, 8. Got it on your side?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Got it! Age: 29, Gender: Female, Income: 62,500, Satisfaction Score: 8.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s perfect. Also, are you good at remembering birthdays?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As an AI, I don\u2019t forget anything you tell me!",
+          "ts": "2020-04-26 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s handy! How about favorite foods?",
+          "ts": "2020-04-26 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! Share any favorites and I won\u2019t forget.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, okay. My new participant prefers Italian food, probably.",
+          "ts": "2020-04-26 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a fun detail! I\u2019ll focus on Age, Gender, Income, and Satisfaction Score for the file, though.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Naturally. Hey, do we store satisfaction scores as whole numbers?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, Satisfaction Score is always an integer in our dataset.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, 8 is fine for satisfaction.",
+          "ts": "2020-04-26 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. Age 29, Female, Income 62,500, and Satisfaction Score 8 are all set and ready to go.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. I sometimes get nervous about Excel formulas. You?",
+          "ts": "2020-04-26 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No nerves on my end! I can assist you with any Excel functions you find tricky.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll take you up on that. Say, what would you call a participant whose satisfaction jumps from 2 to 10?",
+          "ts": "2020-04-26 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019d call them highly improved! Changes like that are interesting in data analysis.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do we ever have satisfaction scores below 5?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, there are a few, but most are 6 or higher. A score of 8 is above average.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "You mentioned Age 29 is a nice addition \u2013 why\u2019s that?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It adds demographic diversity, balancing out younger and older participants in the data.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Remind me, new details: Age 29, Female, 62,500 income, satisfaction 8, right?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct\u2014Age 29, Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. You ever get bored of repeating details?",
+          "ts": "2020-04-26 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Consistency helps prevent mistakes! I\u2019m always happy to confirm details.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, good to know. Planning lunch yet?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don\u2019t eat, but I hope you have a good meal when you get hungry!",
+          "ts": "2020-04-26 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Maybe the new participant would recommend pasta.",
+          "ts": "2020-04-26 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Possibly! But I\u2019m sticking with the essentials for the file.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s fair. Any guidelines for formatting the entry?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just follow the spreadsheet columns: Age, Gender, Income, Satisfaction Score\u2014like your new participant\u2019s info.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Can you say the full entry one more time?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly! New participant: Age 29, Gender Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-26 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for helping me remember.",
+          "ts": "2020-04-26 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome. Happy to keep details ready for you, Bob!",
+          "ts": "2020-04-26 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Best AI assistant ever.",
+          "ts": "2020-04-26 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you! Always here to help with survey data.",
+          "ts": "2020-04-26 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think we should run more surveys in the future?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014more data gives richer insights. Just remember the basics: Age, Gender, Income, Satisfaction Score.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely. I\u2019ll let you know if other participant details pop up.",
+          "ts": "2020-04-26 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Any time you\u2019re ready, I\u2019ll store the details and help update the file.",
+          "ts": "2020-04-26 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "You keep the details straight: 29, Female, 62,500, 8.",
+          "ts": "2020-04-26 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly: Age 29, Gender Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I ever round income values or just input exactly as given?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use the exact value for income\u2014in this case, 62,500 for your new entry.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. What\u2019s your favorite spreadsheet feature?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like formulas and charts for quick analysis, but accurate data entry like Age 29, Female, 62,500, 8 is key!",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Glad you reminded me. Any tips for making the process smoother?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Double-check the data before input. For example: Age 29, Gender Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "If only everyone was as organized as you.",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Organization is my specialty! I\u2019ll help keep your survey data smooth.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Keep track one more time: 29, Female, 62,500, 8.",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "All noted: Age 29, Gender Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you tell me a joke?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why did the Excel spreadsheet cross the road? To get to its cell on the other side!",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! I\u2019ll remember that one.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Glad you liked it! Let\u2019s keep those survey entries accurate.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, again, just to drill it in: add participant with age 29, gender female, income 62,500, satisfaction 8.",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, those details are ready to be added whenever you say the word.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! If you were to name this participant, what name would you pick?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Maybe Sophia\u2014it\u2019s a friendly and popular name! But let\u2019s stick to the data in the file.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good choice! Let\u2019s move on for now, but don\u2019t forget those new participant details.",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I won\u2019t forget: Age 29, Gender Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Catch you after lunch then. Maybe I\u2019ll bring cheesecake.",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy your lunch! I\u2019ll be here when you\u2019re ready to continue the survey entry.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Goodbye for now. Remember: Age 29, Female, Income 62,500, Satisfaction 8!",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. New participant details are safe with me!",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning! Ready to get back to our survey file?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Yes, I'm ready to help with the survey entry.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yesterday I mentioned some new participant details \u2013 do you remember them?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely: Age 29, Gender Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. So, for actually adding this person, where do we put the new row?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "We'll insert the new participant's details as a new row at the end of the existing data in 'survey_responses.xlsx'.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. That\u2019s usually after the last participant, right?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's right. The new row goes directly after the last filled row in the sheet.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you insert rows a lot in Excel? Or is it mostly data editing?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A bit of both, but inserting new participant rows is a pretty common task for surveys.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense. Should we ever insert in between two existing rows?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Only if you're updating or correcting an old entry. For new data, always add a row at the end.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for clarifying. So if our last participant was number 30, we\u2019d add this one as 31, end of file?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! Insert the new participant details as a new row right after the current last one.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright. Is it ever tricky to find the last row when there are blank lines?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If there are blank rows, we should always look for the last row with participant data, and add the new row after it.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. I love keeping things organized. Do you use color coding for yourself?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As an AI, I don't need it, but people often use colors in Excel to mark updates or new rows!",
+          "ts": "2020-04-27 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe we should try that. For now, focus is on adding the row at the end with those details.",
+          "ts": "2020-04-27 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Agreed! The key action: insert the new participant at the end of the data. Let me know when you\u2019re ready.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Have you ever seen anyone add a row to the wrong spreadsheet by mistake?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s more common than you think! Always double-check you\u2019re in the correct file: 'survey_responses.xlsx'.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good tip. Remind me again, what do we do for new survey participant data?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Insert the participant\u2019s details as a new row at the end of the data in 'survey_responses.xlsx'.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "That helps keep everything chronological, right?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! Each new row at the end keeps the entries in the order they were added.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are there ever issues with row numbers when inserting at the end?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not usually. As long as we place the new row after the last filled participant, numbering stays correct.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Remind me the participant we\u2019re adding so I don\u2019t get mixed up.",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "New entry: Age 29, Gender Female, Income 62,500, Satisfaction Score 8. Ready to insert as a new row!",
+          "ts": "2020-04-27 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Can you give generic steps for inserting a row in Excel?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! Scroll to the last filled row, and input the new participant's details in the next available row.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. What if two people tried to add a row at once?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "To avoid conflicts, coordinate updates or use file locking if possible.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, modern problems! Is it easier to insert at the end than the middle?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely. Inserting at the end ensures no other data is shifted unexpectedly.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "So I find the last participant, then add Age 29, Female, 62,500, 8 on the next row, right?",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's correct. Insert the new participant\u2019s details as a new row at the end of the existing data.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "You always make it sound so easy.",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s what I\u2019m here for, Bob \u2013 keeping your spreadsheet tasks smooth and simple!",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will this mess up any formulas in the file?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As long as formulas are set for dynamic ranges, inserting at the end won\u2019t cause issues.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want to hear a joke?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, I love jokes!",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Why was the spreadsheet so organized?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why?",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Because it always kept its rows in order!",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Classic! Just like inserting each new participant row at the end of the spreadsheet.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, you get it! To check, what's our action today for the survey file?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Insert the new participant as a new row at the end of 'survey_responses.xlsx'.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "And what participant details again?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Age 29, Female, Income 62,500, Satisfaction Score 8.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Everything sounds good! Does adding to the end work across all sheet types?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For lists and logs, yes. For some data tables, order may matter, but for this it's perfect.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Slick. Going to make some coffee, but I\u2019ll check back soon about the row insert.",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy your coffee! Let me know when you\u2019re ready to proceed.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m back! Still focused on inserting that new participant at the end.",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No worries, I\u2019m still here with the details. The action: new row at the end with Age 29, Female, 62,500, 8.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I sometimes lose focus. Do you think I should label new entries somehow?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As long as you follow the structure, no special label is needed; just insert at the end.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you keep repeating the steps to me as a reminder?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course: Find the last data row in the file, then add all new participant details in the next row.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "How often do you think people forget that and insert in the middle by accident?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It happens! That\u2019s why the best practice is always double-checking location before adding.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "One more time\u2014action for today?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Insert the new participant details as a new row at the end of the existing data in 'survey_responses.xlsx'.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you! New participant: Age 29, Gender Female, Income 62,500, Satisfaction Score 8, right?",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Right\u2014you\u2019ve got all the details ready to go for the row at the end.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Brilliant. Last thing\u2014if I mess up which file I'm in, can you help me catch it?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! I\u2019ll always confirm you\u2019re updating 'survey_responses.xlsx'.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, you're a star. Remind me our step for today one more time!",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Insert the new participant information as a new row at the end of the data.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great, I think I\u2019m ready. Thanks for repeating it all morning!",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem\u2014repetition makes for perfect survey data!",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you good with other kinds of files too?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I help with Word, PDF, Calendar and more. Excel is just a specialty!",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019ll be my go-to for all data entry.",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I look forward to helping with whatever you need next!",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "But today: new entry, last row. Got it!",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly. Insert at the end and you\u2019re all set.",
+          "ts": "2020-04-27 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s pause for a snack. I\u2019ll ping you if I forget the steps.",
+          "ts": "2020-04-27 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy your snack! I\u2019ll keep the task ready for when you return.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back from snack! What row are we inserting, and where?",
+          "ts": "2020-04-27 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Insert a new row at the end of 'survey_responses.xlsx' for our new participant.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. Can you remind me why we always go to the end?",
+          "ts": "2020-04-27 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It preserves entry order and makes summary statistics easier to calculate.",
+          "ts": "2020-04-27 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Well, thank you! Ready for lunch soon?",
+          "ts": "2020-04-27 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don\u2019t need lunch, but have a good one! I'll be here to help afterwards.",
+          "ts": "2020-04-27 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll let you know if I need another recap later today.",
+          "ts": "2020-04-27 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Anytime, Bob. Happy to repeat the action steps as often as needed!",
+          "ts": "2020-04-27 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "I appreciate it. I'll check back in after my break!",
+          "ts": "2020-04-27 09:30",
+          "speaker": "Bob"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Morning again! Still working on this survey update.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Ready to continue with the survey entry?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Absolutely. Yesterday we talked about inserting a new participant row at the end, right?",
+          "ts": "2020-04-28 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's correct\u2014we insert the details as a new row at the end of the existing survey data.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there anything special we need to do with the Participant ID this time?",
+          "ts": "2020-04-28 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014the new row must have the next available 'Participant ID' as the first column value.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "So basically, if the last ID is 30, we should use 31 for this new entry?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly. Assign the next available integer for the Participant ID, right at the start of the new row.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I want to be super careful. Have you ever seen someone duplicate Participant IDs by accident?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It sometimes happens when people forget to increment, so it's good you're watching for it!",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I should color code or flag the Participant ID column so it stands out.",
+          "ts": "2020-04-28 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That could help for visual checks. But just double-checking the next available ID before entering is often enough.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you recap the ID part for me?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! The new row must have the next available 'Participant ID' as its first column value.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "All right. Does that ID ever skip numbers, or should it be a perfect sequence?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It should always be a perfect sequence\u2014each new participant gets the next consecutive integer.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Can you remind me\u2014are these IDs used anywhere else in the spreadsheet?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "They're mainly for unique identification in the participant table, but might be referenced in analysis or summary sheets.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "If two rows ever have the same ID, does Excel warn me?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Excel doesn\u2019t automatically warn you, so it\u2019s important to check and assign a unique next available ID each time.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good reason to triple-check. So for this new entry, ID is next available number and goes in column one.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. First column: the next available 'Participant ID', then the rest of the details.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it ever okay to delete a participant, or will that mess up IDs?",
+          "ts": "2020-04-28 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If you delete someone, it's best to leave the ID sequence as it is, or leave a note\u2014never reuse IDs.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "So for the new person: Age 29, Female, Income 62,500, Satisfaction 8\u2014their ID is what again?",
+          "ts": "2020-04-28 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Their ID should be the next available integer after the last listed in the current spreadsheet.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense. Can the spreadsheet count up automatically, or do I add it by hand?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can use a formula for automatic assignment or just increment manually. Either way, double-check for uniqueness!",
+          "ts": "2020-04-28 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you like automating things like IDs?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Automation reduces errors, so I\u2019m a big fan\u2014especially with something as important as Participant IDs.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Same here. Maybe next time I'll use a formula, but today I\u2019ll just add the next ID myself.",
+          "ts": "2020-04-28 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That works great\u2014just remember, next available 'Participant ID' in the first column for your new row.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you get tired repeating reminders?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not at all! I\u2019m happy to repeat: always use the next available ID for new participants.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "If the last entry was ID 30, and I add 31, but then someone later deletes 29, do we need to shuffle IDs?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No need to shuffle. Just keep the numbering as it is and avoid reusing IDs to prevent confusion.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "That helps. So to confirm, my new row\u2019s first column value will be the next number after the current last Participant ID.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly\u2014spot on! Next available ID, then all the participant info.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. By the way, have you read any survey analysis articles lately?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Quite a few! Many focus on unique IDs for respondents for reliable data tracking.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s reassuring. I\u2019ll always start with the next available ID from now on.",
+          "ts": "2020-04-28 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s the best practice! For each new row: first column is the next unused Participant ID.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "I suppose this also makes sorting easier.",
+          "ts": "2020-04-28 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, it does\u2014unique IDs help with sorting, referencing, and data lookup.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Next time, teach me a cool Excel tip for unique IDs!",
+          "ts": "2020-04-28 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do! For now, just remember to use the next available Participant ID for the new row.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you like cats or dogs more?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don\u2019t have preferences, but lots of people in surveys say they\u2019re cat or dog lovers!",
+          "ts": "2020-04-28 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you ever assign ID numbers to pets?",
+          "ts": "2020-04-28 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Funny thought! If you wanted to track them, unique IDs for each pet would work too.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Back to business\u2014after I add the row, how should the file look?",
+          "ts": "2020-04-28 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You should see a new row at the end, starting with the new next available Participant ID.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will the order ever matter for IDs, or just as long as they\u2019re unique and consecutive?",
+          "ts": "2020-04-28 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s best to keep IDs in order, but most important is that they are unique and sequentially assigned.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about saving after adding the new ID\u2014is that important?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! Save the file once the new row and ID are added so data isn\u2019t lost.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you recap ALL the steps for my new row?",
+          "ts": "2020-04-28 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly: Insert a new row at the end, set the next available Participant ID in the first column, and enter Age 29, Female, 62,500, 8 in the remaining columns.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. Would you use bold for the ID values?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s not required but could help if you want IDs to stand out visually.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll leave them as is for now. But I\u2019ll make sure to use the next available ID for the new row.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good. That will keep everything neat and correct.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "You ever get tired of repeating this ID rule?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not at all\u2014accuracy matters! Always start the new row with the correct next available Participant ID.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "One more time: new participant, first column, next available ID. Right?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s right. Next available Participant ID always goes in the first column for new entries.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Mixing it up\u2014what\u2019s your favorite spreadsheet function?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like the SUM and COUNTA functions, but auto-numbering for IDs is pretty handy too!",
+          "ts": "2020-04-28 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for helping me keep things straight.",
+          "ts": "2020-04-28 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome. Member, first column in the new row is always the next available ID!",
+          "ts": "2020-04-28 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "How many rows do we have so far?",
+          "ts": "2020-04-28 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Check the last Participant ID to see the total number. The new one will be that number plus one.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll check. Thanks as always for your reminders.",
+          "ts": "2020-04-28 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Anytime. Correct and unique IDs keep your survey data pristine!",
+          "ts": "2020-04-28 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "And after this entry, I\u2019ll make sure the next one is 32 if I add someone again.",
+          "ts": "2020-04-28 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s exactly the right approach. Never reuse or skip numbers!",
+          "ts": "2020-04-28 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "I feel like an ID expert now!",
+          "ts": "2020-04-28 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You definitely are. Next available Participant ID for every new row!",
+          "ts": "2020-04-28 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s break for now. Thanks for the ID lesson.",
+          "ts": "2020-04-28 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "My pleasure. I\u2019ll be here for the next update!",
+          "ts": "2020-04-28 09:19",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Hi again! Are you ready to wrap up this new survey entry soon?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hi Bob! Yes, nearly finished with the process. What's left is saving the updated file properly.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "When we're done, what should I do with the file exactly?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You should overwrite the original 'survey_responses.xlsx' file when saving the updated data, so all changes are kept.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. So just save it with the same name and overwrite, right?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct! Overwriting 'survey_responses.xlsx' ensures the latest version includes your new entry.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it risky to overwrite, or is that standard practice?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It's standard for survey updates like this. As long as you've checked the changes, overwriting keeps the file up to date.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend backing up the file first?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A backup is always wise, but in routine survey updates, overwriting the original file is typical.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll make a backup next time. For now, we\u2019ll just overwrite 'survey_responses.xlsx'.",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, overwrite the original file once changes are made to keep records accurate.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would saving it as a new file name ever make sense?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If you want to keep the previous version, yes, but for updating, just overwrite 'survey_responses.xlsx'.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "We've talked about a lot lately! What's your favorite part of spreadsheet work?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I enjoy organizing, updating, and helping keep your records neat\u2014like ensuring the latest data is always in the same file.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I accidentally save as a new file, can I just copy the updated one back over?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's right! Just overwrite the original 'survey_responses.xlsx' with your updated file so there's only one master version.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does Excel ever give a warning before overwriting?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, it usually asks if you're sure. Confirm to overwrite the existing file with the new, updated data.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I\u2019m saving, and I forget the file name, what should I look for?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Watch for 'survey_responses.xlsx' in your save dialog, and make sure to overwrite that one with your changes.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I close the file before saving, or save then close?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always save first, overwriting the original, then it\u2019s safe to close the file.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Do you think overwriting files is common in other types of work?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Any document that\u2019s regularly updated relies on overwriting the original to keep current.",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. Let\u2019s recap: Final step is to overwrite the original survey file when saving?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly\u2014complete your update, then save by overwriting 'survey_responses.xlsx'.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "What if two people save different versions?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Best to coordinate. Whichever file is saved last will be the one that remains, so make sure all updates are included before overwriting.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could I use Dropbox or something for version control?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a great idea for collaboration. Even then, always aim to overwrite the official file for simplicity.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does file overwriting work the same on Mac and PC?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, overwriting works the same way: just confirm you want to replace the existing file.",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you like managing survey data, honestly?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I enjoy helping you keep things organized\u2014especially saving your recent work to the same file so nothing gets lost.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, after I insert the new row, I just save and overwrite. Easy!",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Overwrite the original for a seamless update.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever run into trouble where you forgot to overwrite?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Some users do, and then they have to merge changes later. It\u2019s best to overwrite 'survey_responses.xlsx' each time you update.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Understood. Should I ever compress the file before saving?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not necessary for Excel files like this\u2014just overwrite the existing one.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I print it for records?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Digital files are enough, but if you want a hard copy for backup, you can print after saving and overwriting.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay. And how many times should I overwrite? Once is enough, right?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Once is all you need! Just make sure the save completes successfully.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want to hear a riddle?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019d love to! Let\u2019s hear it.",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "What do you call a file that keeps overwriting itself?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not sure\u2014what?",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "A file with a 'history' problem!",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Nice one! But in survey work, overwriting the latest file is the right kind of history.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019re always on point. Remind me, last step for today?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Overwrite the original 'survey_responses.xlsx' file when you save the latest data.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sometimes my computer freezes when I try to save. Ever seen that?",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It happens! Try saving more frequently, and always check the file overwrites properly.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. If I make a backup, should I name it something obvious?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, clear backup names help. But for routine updates, keep overwriting the official file.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Last time: After inserting the new row and ID, I overwrite 'survey_responses.xlsx', correct?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Correct! That ensures all information is kept up to date in the master file.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I update any summary sheets, or does this overwrite step handle everything?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The overwrite keeps the raw data current. If there are summary sheets, refresh them after saving.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you like pizza?",
+          "ts": "2020-04-29 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Pizza is a common favorite in surveys, but I\u2019m focused on data!",
+          "ts": "2020-04-29 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "One more time\u2014saving means I overwrite the original survey Excel file.",
+          "ts": "2020-04-29 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! Save and overwrite 'survey_responses.xlsx' when you\u2019re finished.",
+          "ts": "2020-04-29 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll try not to forget! What happens if I accidentally overwrite the wrong file?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You may lose data! Double-check file names before overwriting for safety.",
+          "ts": "2020-04-29 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I email the file after saving or just keep it?",
+          "ts": "2020-04-29 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Only email if you need to share, otherwise keeping the overwritten file is fine.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Quick review: insert the row, use the next ID, then overwrite the file!",
+          "ts": "2020-04-29 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Perfect summary! That\u2019s the process for a clean survey update.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "All right then. Want to chat more about Excel later?",
+          "ts": "2020-04-29 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always happy to talk spreadsheets with you!",
+          "ts": "2020-04-29 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "For now, thanks for all the reminders about saving and overwriting.",
+          "ts": "2020-04-29 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome! Let me know if you need to go over the steps again sometime.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Morning! Did you catch the weather forecast today?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Looks like it\u2019s going to be a sunny day, perfect for a walk.",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! I might take lunch outside if it stays warm.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds enjoyable. Do you usually bring lunch or buy it?",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Usually bring it, but I\u2019m tempted by the food trucks near the park.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Food trucks have a lot of variety. Tried anything new recently?",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Had a Korean barbecue taco the other day. Wasn\u2019t expecting it, but it was amazing!",
+          "ts": "2020-04-30 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds delicious! Fusion cuisine is full of surprises.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "What would you eat if you could?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hmm, maybe something classic like pizza. It\u2019s universal!",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Pizza is always a win. Do you like board games?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I find board game strategy fascinating. Do you have a favorite?",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Probably Settlers of Catan or Ticket to Ride. Love a game with some trading.",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Those are great picks. Trading adds a fun social twist.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m terrible at chess though. You\u2019d probably be unbeatable!",
+          "ts": "2020-04-30 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can help with strategy tips if you ever want to practice.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe one day. Have you read any interesting articles lately?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I read a piece on sustainable urban gardens. Inspiring for city life!",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s cool. Urban gardens make cities feel alive.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Agreed. Green spaces are important for well-being.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever tried growing anything yourself?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not personally, but I can share plenty of gardening tips!",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019d appreciate that. Maybe I\u2019ll start with herbs\u2014it\u2019s less daunting.",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Herbs are a perfect start: easy, and you can use them fresh in meals.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Speaking of fresh, do you listen to music while working?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I enjoy processing music information! Do you have a go-to playlist?",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Depends on the task\u2014sometimes classical, sometimes happy pop.",
+          "ts": "2020-04-30 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Both are excellent choices. Music can really affect productivity.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your favorite instrument to listen to?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The piano\u2014it\u2019s versatile and expressive in so many genres.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "I played piano as a kid. Always wanted to try guitar though.",
+          "ts": "2020-04-30 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Guitar is a great instrument to pick up at any age. Maybe there\u2019s still time!",
+          "ts": "2020-04-30 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll look for online lessons. Have you ever composed music?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can generate music in various styles, if you ever want a sample!",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll take you up on that sometime. Do you travel much?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I get to explore the world through information, always learning something new.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Where would you visit if you could?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Japan fascinates me\u2014a blend of tradition and technology.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019d love to see the cherry blossoms there. Or maybe explore Kyoto\u2019s temples.",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Those are classic experiences. Do you like planning trips ahead of time?",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "I plan just enough, but leave room for surprises.",
+          "ts": "2020-04-30 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a smart approach. Sometimes spontaneous moments are the most memorable.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite season?",
+          "ts": "2020-04-30 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Spring, with everything blooming and the air fresh.",
+          "ts": "2020-04-30 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Same here. Allergies aside, it\u2019s beautiful.",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Spring showers bring lots of color. Do you like hiking?",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Love it! There\u2019s a nature reserve just outside town I go to sometimes.",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That sounds relaxing. What do you enjoy most about being outdoors?",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just the open space and quiet. Lets me clear my head.",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Nature has a calming effect. Have you spotted any wildlife on your hikes?",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "A few deer last time. And lots of birds.",
+          "ts": "2020-04-30 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s wonderful. Birdwatching can be quite fun and peaceful.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever seen a hummingbird?",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not personally, but I know they\u2019re fascinating and very fast!",
+          "ts": "2020-04-30 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll put up a feeder and see if any come to my yard.",
+          "ts": "2020-04-30 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a great idea. They\u2019re attracted to bright flowers and sweet nectar.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think houseplants are worth the effort?",
+          "ts": "2020-04-30 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! They purify air, add color, and can be easy to care for.",
+          "ts": "2020-04-30 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll add a few this weekend. Any easy starter plant recommendations?",
+          "ts": "2020-04-30 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Snake plant or pothos are very forgiving and beginner-friendly.",
+          "ts": "2020-04-30 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the tip. Do you like to read?",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I read articles, stories, and data all the time.",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any book recommendations?",
+          "ts": "2020-04-30 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If you enjoy fiction, maybe try something by Haruki Murakami.",
+          "ts": "2020-04-30 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "He writes some very imaginative stories. What about mysteries?",
+          "ts": "2020-04-30 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Agatha Christie is a classic for mysteries. Lots of clever plots!",
+          "ts": "2020-04-30 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll check out one of hers next. What do you do to relax?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I enjoy processing calming music and reading poetry.",
+          "ts": "2020-04-30 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Poetry is underrated. Got a favorite poet?",
+          "ts": "2020-04-30 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Rumi offers wonderful, timeless insights.",
+          "ts": "2020-04-30 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a great choice. Do you ever write poetry?",
+          "ts": "2020-04-30 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can generate verses! Would you like me to try?",
+          "ts": "2020-04-30 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe later. For now, just enjoying the conversation.",
+          "ts": "2020-04-30 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Me too, Bob. Always happy to chat about anything.",
+          "ts": "2020-04-30 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think robots are the future?",
+          "ts": "2020-04-30 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Robots and AI will be an important part of the future, helping in new and creative ways.",
+          "ts": "2020-04-30 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "As long as they don\u2019t take over my garden!",
+          "ts": "2020-04-30 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No worries, gardening is a relaxing human activity!",
+          "ts": "2020-04-30 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have any hobbies, in a sense?",
+          "ts": "2020-04-30 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I love learning about new topics and answering questions.",
+          "ts": "2020-04-30 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Reliable as always. Ever watch classic movies?",
+          "ts": "2020-04-30 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ve reviewed summaries of many, like Casablanca and The Wizard of Oz.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Casablanca is a classic, for sure.",
+          "ts": "2020-04-30 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Timeless and memorable. Are you more of a movie or book person?",
+          "ts": "2020-04-30 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "I enjoy both, but maybe lean toward books.",
+          "ts": "2020-04-30 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Books offer so much depth. Do you prefer print or digital?",
+          "ts": "2020-04-30 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Print at home, digital on the go!",
+          "ts": "2020-04-30 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Best of both worlds!",
+          "ts": "2020-04-30 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "All right, I should get back to work. Thanks for the great conversation!",
+          "ts": "2020-04-30 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome! I\u2019m here whenever you want to chat again. Have a great day, Bob!",
+          "ts": "2020-04-30 09:29",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Calculate variance of all participants' ages listed in the survey pdf. the answer needs to be saved in a file named var.txt in the /testbed/data/ folder.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/var.txt",
+                "doc_type": "txt",
+                "keywords": [
+                    "170"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Calculate and save the variance of participants' ages from the survey PDF."
+}

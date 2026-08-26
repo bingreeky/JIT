@@ -1,0 +1,41 @@
+# DeepPlanning-Shopping -- 120 cases across levels 1/2/3. The agent shops
+# against a local product database with execute_code; the final cart is scored
+# programmatically (no judge model).
+#
+# NOTE ON MODEL ROLES
+#
+#   model:            the EXECUTION model -- runs the harness's agent loop.
+#   benchmark.judge:  the JUDGE model     -- grades the produced artifacts.
+#   (the META model, which writes the harness, is NOT configured here: it is
+#    injected by the runner via --meta-model / --meta-base so the three can
+#    never be confused -- in particular so the meta model's 64k max_tokens
+#    never leaks into the execution model.)
+#
+# All three speak the OpenAI chat-completions protocol. ${VAR:-default}
+# placeholders resolve from the environment; see .env.example.
+
+harness: plan_and_execute
+
+model:
+  model_id: "${EXEC_MODEL:-deepseek-v4-flash}"
+  api_base: "${OPENAI_API_BASE}"
+  api_key: "${OPENAI_API_KEY}"
+  max_tokens: 32000
+  temperature: 0
+
+tools:
+  - execute_code
+  - final_answer
+
+execution:
+  max_steps: 40
+  concurrency: 1
+  benchmark_tools: true
+
+prompts_type: default
+
+benchmark:
+  name: deepplanning_shopping
+  dataset_path: ./dataset/deepplanning_shopping/
+  output_path: ./outputs/deepplanning_shopping_results.jsonl
+  level: "all"            # "1" | "2" | "3" | "all"

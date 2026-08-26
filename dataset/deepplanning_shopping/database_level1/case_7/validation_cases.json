@@ -1,0 +1,432 @@
+{
+  "query": "I'm doing a major wardrobe refresh and need to find a few specific things online. First up, I'm looking for a black item from Under Armour that includes 'HOVR Phantom' in its name; I want to make sure it's popular, so it needs more than 400 total reviews but fewer than 10 two-star ratings. To go with it, I need a white 'Ruffled Short-Sleeve Top' that will arrive in less than 3 days, has over 300 total reviews, and fewer than 5 two-star reviews. Next, I'm searching for something from Levi's that's selling well, with a monthly sales volume over 200, and has very few bad reviews—specifically, less than 10 one-star and less than 15 two-star reviews, and a transport time under 2. I also need a popular grey item with a total sales volume of more than 4500 that can also ship in less than 2. Finally, I’m looking for an olive green product from Timberland that's definitely in stock with a quantity over 100 and a total sales volume of more than 1900.",
+  "ground_truth_products": [
+    {
+      "product_id": "af8db576",
+      "name": "Puma Cali Dream Women's Summer Sneaker",
+      "price": 549.0,
+      "brand": "Puma",
+      "color": "Grey",
+      "size": "36",
+      "stock_quantity": 420,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1150,
+        "total": 14800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 952,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 150,
+          "3_star": 32,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "34498b3c",
+      "name": "Women's Ruffled Short-Sleeve Top",
+      "price": 289.0,
+      "brand": "Peacebird",
+      "color": "White",
+      "size": "XS",
+      "stock_quantity": 182,
+      "material_composition": [
+        {
+          "material": "Viscose",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Hand wash recommended or machine wash cold on gentle cycle. Hang to dry.",
+      "sales_volume": {
+        "monthly": 415,
+        "total": 2188
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 310,
+        "distribution": {
+          "5_star": 258,
+          "4_star": 41,
+          "3_star": 8,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "STO Express"
+      }
+    },
+    {
+      "product_id": "8cff25cd",
+      "name": "Women's HOVR Phantom Winterized Running Shoes",
+      "price": 1249.5,
+      "brand": "Under Armour",
+      "color": "Black",
+      "size": "36",
+      "stock_quantity": 150,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge in water. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 412,
+        "distribution": {
+          "5_star": 340,
+          "4_star": 55,
+          "3_star": 10,
+          "2_star": 5,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "404ab712",
+      "name": "Women's High-Waisted Corduroy Trousers",
+      "price": 529.0,
+      "brand": "Levi's",
+      "color": "Yellow",
+      "size": "S",
+      "stock_quantity": 188,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 98
+        },
+        {
+          "material": "Spandex",
+          "percentage": 2
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 210,
+        "total": 3540
+      },
+      "rating": {
+        "average_score": 4.6,
+        "total_reviews": 680,
+        "distribution": {
+          "5_star": 485,
+          "4_star": 135,
+          "3_star": 40,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "047b7844",
+      "name": "Women's Heritage Utility Field Jacket",
+      "price": 899.0,
+      "brand": "Timberland",
+      "color": "Olive Green",
+      "size": "XS",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Button-down, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 280,
+        "total": 1950
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 345,
+        "distribution": {
+          "5_star": 250,
+          "4_star": 75,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Grey, the transport time is less than 2, and the total sales volume is more than 4500.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Grey",
+          "operator": "equals",
+          "operator_value": "Grey"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 4580,
+          "operator": "greater_than",
+          "operator_value": 4500.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is White, the transport time is less than 3 days, there are more than 300 total reviews, the number of 2-star reviews is less than 5, and the name contains 'Ruffled Short-Sleeve Top'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "White",
+          "operator": "equals",
+          "operator_value": "White"
+        },
+        {
+          "field": "transport_time",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 3.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 310,
+          "operator": "greater_than",
+          "operator_value": 300.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 2,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Ruffled Short-Sleeve Top",
+          "operator": "contains",
+          "operator_value": "Ruffled Short-Sleeve Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Under Armour, the color is Black, the name contains 'HOVR Phantom', the total number of reviews is greater than 400, and there are fewer than 10 2-star ratings.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 412,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        },
+        {
+          "field": "brand",
+          "value": "Under Armour",
+          "operator": "equals",
+          "operator_value": "Under Armour"
+        },
+        {
+          "field": "name",
+          "value": "Women's HOVR Phantom Winterized Running Shoes",
+          "operator": "contains",
+          "operator_value": "HOVR Phantom"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Levi's, the transport time is less than 2, the number of 1-star reviews is less than 10, the number of 2-star reviews is less than 15, and the monthly sales volume is more than 200.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 8,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 210,
+          "operator": "greater_than",
+          "operator_value": 200.0
+        },
+        {
+          "field": "brand",
+          "value": "Levi's",
+          "operator": "equals",
+          "operator_value": "Levi's"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Olive Green, the stock quantity is greater than 100, the brand is Timberland, and the total sales volume is more than 1900.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Olive Green",
+          "operator": "equals",
+          "operator_value": "Olive Green"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 125,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "brand",
+          "value": "Timberland",
+          "operator": "equals",
+          "operator_value": "Timberland"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 1950,
+          "operator": "greater_than",
+          "operator_value": 1900.0
+        }
+      ]
+    }
+  ]
+}

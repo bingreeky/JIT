@@ -1,0 +1,62 @@
+{
+    "task": "1. Extract core financial metrics and key business highlights for Q1 FY24 from financial_report.pdf. 2. Compile these into an Excel file named report.xlsx, ensuring to include the Q1 FY24 revenue of $7,192 million and highlight business sections such as 'Data Center' and overall company (NVIDIA) performance. 3. Create a summary.docx that highlights Q1 FY24 financial results and major business developments, ensuring the document references both 'NVIDIA' and the 'Data Center' division explicitly.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/report.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/report.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "7192"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/summary.docx",
+                "keywords": [
+                    "NVIDIA",
+                    "Data Center",
+                    "Q1",
+                    "revenue"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract financial metrics and business highlights from the financial report, compile them into an Excel analysis, and create a Word summary emphasizing Q1 performance and key divisions.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output Excel file must be named report.xlsx and be placed in the data directory."
+        },
+        {
+            "fact": "The Q1 FY24 revenue value $7,192 million must be placed in report.xlsx (row 2, column 2)."
+        },
+        {
+            "fact": "Key business sections like 'Data Center' and the company name 'NVIDIA' must appear in both the Excel and Word summary outputs."
+        },
+        {
+            "fact": "The Word summary must be output to summary.docx in the data directory and highlight Q1 FY24 results and 'Data Center' achievements."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

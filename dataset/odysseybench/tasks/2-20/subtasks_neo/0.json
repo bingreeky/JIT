@@ -1,0 +1,36 @@
+{
+    "task": "Extract all students from CS161_Class_Roster.xlsx whose Academic Standing is 'Freshman' and Major is 'CS'. List their Student ID, First Name, and Last Name in a new file named cs_freshmen_students.docx. Each student should be on a separate line in the format: Student ID, First Name, Last Name.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/cs_freshmen_students.docx",
+                "doc_type": "doc",
+                "keywords": [
+                    "S1001",
+                    "Sipaq",
+                    "Cixarim",
+                    "S1005",
+                    "Tukemoy",
+                    "Yehamucu"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a list of CS major freshmen from the roster and write their information to a new document.",
+    "ground_truth_memory": [
+        {
+            "item": "The output file should be named cs_freshmen_students.docx and placed in the data directory."
+        },
+        {
+            "item": "The student information should be formatted as: Student ID, First Name, Last Name, with each student on a new line."
+        },
+        {
+            "item": "Include only students whose Academic Standing is 'Freshman' and whose Major is 'CS'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

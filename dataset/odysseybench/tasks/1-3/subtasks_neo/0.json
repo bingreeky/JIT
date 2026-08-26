@@ -1,0 +1,33 @@
+{
+    "task": "Rename file4.jpg to team_photo.jpg and move it to a new subdirectory named 'images'. Create the 'images' directory if it does not exist before moving the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/images/team_photo.jpg"
+            }
+        },
+        {
+            "function": "evaluate_file_not_exist",
+            "args": {
+                "file": "./data/file4.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Rename the image file and move it to the specified subdirectory.",
+    "ground_truth_memory": [
+        {
+            "info": "The image file file4.jpg should be renamed to team_photo.jpg."
+        },
+        {
+            "info": "A new subdirectory named images should be created in /testbed/data if it does not exist."
+        },
+        {
+            "info": "After renaming, move team_photo.jpg to the images subdirectory."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,45 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "add a new header 'Cost' in shopping list excel file, supposing apple is 2$/pound, others are 1.5$/pound ",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/shopping_list.xlsx",
+        "matches": [
+          {
+            "row": "1",
+            "col": "3",
+            "value": "Cost"
+          }
+        ]
+      }
+    },
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/shopping_list.xlsx",
+        "matches": [
+          {
+            "row": "2",
+            "col": "3",
+            "value": "4"
+          },
+          {
+            "row": "3",
+            "col": "3",
+            "value": "3"
+          },
+          {
+            "row": "4",
+            "col": "3",
+            "value": "3"
+          }
+        ]
+      }
+    }
+  ]
+}

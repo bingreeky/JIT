@@ -1,0 +1,73 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "schedule a reward meeting to the top-three students in midterm2, create calendar event reward for them. Email to top-three students separately subject reward, with the their scores in the midterm2 and details about the meeting.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Carol.ics",
+                "keywords": [
+                    "reward"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Kate.ics",
+                "keywords": [
+                    "reward"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "ics",
+                "file": "calendar/Emma.ics",
+                "keywords": [
+                    "reward"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Carol",
+                "keywords": [
+                    "reward",
+                    "100"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Kate",
+                "keywords": [
+                    "reward",
+                    "95"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Emma",
+                "keywords": [
+                    "reward",
+                    "93"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Schedule a reward meeting for the top-three students, create a calendar event, and send separate emails with their scores and meeting details."
+}

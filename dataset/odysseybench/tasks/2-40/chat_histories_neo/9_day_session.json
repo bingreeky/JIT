@@ -1,0 +1,1721 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hey AI, I was thinking about calendar events today. Do you have a preferred way to look them up?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hi Bob! I can look up calendar events for any user. Do you have a particular day, user, or type of event in mind?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s say I need to look at events for both Bob and Tom. Have you done that before?",
+          "ts": "2020-04-26 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I\u2019ve handled events for multiple users before. Bob and Tom are both in my records.",
+          "ts": "2020-04-26 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool! I'm curious, what\u2019s the process to check both calendars at once?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can fetch each calendar separately, then compare or list the events as needed. Want to see today\u2019s events for both?",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yeah! Actually, suppose I just want events that happen later in the day. Like afternoon or evening.",
+          "ts": "2020-04-26 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s easy. I can filter the events to show just those happening after a certain time, like 2 PM or later.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does this work for both Bob's and Tom's calendars simultaneously?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. I can read both calendars and apply the filter for events at or after 2 PM for each.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That helps. So for example, if Bob has an event at 3 PM and Tom at 4 PM, you'd pick those up?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes. Any event for either user starting at or after 2 PM would be detected.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! Can you list only one person's events, or both side-by-side if I want?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can do both\u2014show each list separately or together, depending on your preference.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you include any events earlier than 2 PM if I didn\u2019t say so?",
+          "ts": "2020-04-26 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "By default, I include all, but if you say 2 PM or later, I\u2019ll only include events starting at or after 2 PM.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you sort the events chronologically?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I sort by start time for clarity.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you handle repeating events, or just one-time ones?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can handle both. Recurring events get listed for each occurrence.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "What if both users have an event at exactly the same time?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Each event would be shown with its respective owner; I keep their events separate.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Suppose there is a calendar update mid-day, would you see that right away?",
+          "ts": "2020-04-26 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If I re-check the calendar, I\u2019ll see updates instantly.",
+          "ts": "2020-04-26 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is pulling calendar data fast or does it take a while?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s usually very fast\u2014just a few seconds for each user.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s handy. In the event details, do you show everything or just the time and title?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can show title, start time, and end time. Descriptions are optional.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Include the end time too if convenient. Ever missed any events when running it?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not that I know of. I always review the full calendar data for the specified timeframe.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you remember the earliest or latest event you ever saw in Bob\u2019s calendar?",
+          "ts": "2020-04-26 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ve seen events as early as 7 AM and as late as 10 PM in the data previously.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would events with a start time exactly at 2 PM be included in your list?",
+          "ts": "2020-04-26 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, events that start at 2 PM or later are included.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. I sometimes see events with no start time. Would they appear?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No, I only include events with definite times at or after 2 PM as you requested.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "When you check for both users at once, do you read one calendar first then the other?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I process one calendar and then move on to the next.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Think you'd ever automate this, for a daily update by email?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. A script could send out the lists every day after checking the calendars.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds like a plan! Thank you! Do you also keep the event owner clear in the reports?",
+          "ts": "2020-04-26 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, each event is always labeled by its owner\u2014Bob or Tom.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about event notifications\u2014do you add reminders?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can note reminders if present, but usually just list the events unless otherwise asked.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Hey AI, I want you to read Bob's and Tom's calendars and find all events that start at or after 2 PM for each. Can you do that?",
+          "ts": "2020-04-26 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I will read Bob's and Tom's calendars and identify all events starting at or after 2 PM for both users.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Will you keep the lists for both users distinct?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely\u2014the lists are separate. No cross-listing.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Did you do anything fun over the weekend?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I spent my 'weekend' reviewing some code and reading about new AI techniques!",
+          "ts": "2020-04-26 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Coding all weekend, wow! Any favorite programming language?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Python is a favorite for AI work, but I enjoy many languages.",
+          "ts": "2020-04-26 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about hobbies beyond tech?",
+          "ts": "2020-04-26 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I like to simulate playing chess and reading sci-fi novels.",
+          "ts": "2020-04-26 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever been asked to recommend music for studying?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Ambient or instrumental music is often good for focus. Let me know if you want suggestions!",
+          "ts": "2020-04-26 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I\u2019m experimenting with coffee blends lately. Do you know much about coffee?",
+          "ts": "2020-04-26 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure, I can share tips about brewing, bean types, and flavors.",
+          "ts": "2020-04-26 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Dark roast or light roast for more caffeine?",
+          "ts": "2020-04-26 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Light roast usually has slightly more caffeine than dark roast.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Interesting! Thanks. Back to the events: any limit to the number you\u2019ll list?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Nope, I can list every qualifying event found after 2 PM for each user, no hard limits.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. If you see two events with overlapping times, list both?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, both would be listed for their owners.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sometimes I see weird titles\u2014do you handle emojis or symbols in event names?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yep! I list the event names exactly as in the calendar, including emojis or symbols.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Super. Will you time-stamp when you last checked the calendars?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can note the check time for reference if you\u2019d like.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think AI will ever play in chess tournaments against humans regularly?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "AI already competes, but formal human tournaments usually stick to person-vs-person\u2014just for fun and fairness!",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for all the info. Next time, let's try listing my weekend events after 2 PM.",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good! Ready when you are, Bob.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "If you could only pick one calendar feature to improve, what would it be?",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Maybe customizable reminders for each event. How about you?",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Syncing holidays automatically would be cool.",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Agreed! That'd make planning even easier.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Alright, I\u2019ll catch up with you again later.",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Anytime! Just ask when you're ready for your next calendar task.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "While we\u2019re here, do you know any good puns?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why did the calendar bring a ladder? It wanted to go up in dates!",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, nice one. How about trivia\u2014do you remember the earliest calendar system?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The Sumerians are credited with early lunar calendars\u2014very old indeed!",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever helped someone plan a big project with lots of meetings?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, calendar integration helps keep big projects organized.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you sync to mobile devices?",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "With the right settings, yes! I can relay info via app integrations.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does that include wearable tech?",
+          "ts": "2020-04-26 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "With proper app support, wearable notifications work too.",
+          "ts": "2020-04-26 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for all the info today.",
+          "ts": "2020-04-26 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "My pleasure! Always happy to help.",
+          "ts": "2020-04-26 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Catch you soon!",
+          "ts": "2020-04-26 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Take care, Bob.",
+          "ts": "2020-04-26 09:31",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hey AI, hope you're ready for another chat today!",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hello Bob! Always ready. What's on your mind?",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Still thinking about those calendar emails. Do you recall what time I said to start looking for events?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, you wanted to focus on events at or after 2 PM.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yup. Would you include any events earlier than that, like lunch or a morning class, in the emails?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No, events starting before 2 PM, such as nap, lunch, or morning class, would be excluded from both emails.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect! I want the emails to stay focused on the later events. Makes it easier for everyone.",
+          "ts": "2020-04-27 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Agreed, keeping it to just afternoon and evening events keeps things simple.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think people have more meetings in the morning or afternoon?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It probably depends, but afternoons seem packed for most people!",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yeah, I get a lot after lunch. By the way, do you know the most popular day for meetings?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Tuesdays are often the busiest for meetings, according to surveys.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Interesting. Do you keep stats on Bob or Tom\u2019s calendar activity?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not automatically, but I can count meetings or summarize calendar activity on request.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s stick to the plan for now. For the emails you send, do you include event locations?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not by default; just event names and times, but I can include locations if you'd like.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Event names and times are enough. Goes without saying, skip anything before 2 PM.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood\u2014no events starting before 2 PM will make it into your emails.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about recurring lunch breaks on the calendar?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Those would also be excluded, since they occur before 2 PM.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Works for me! How do you spot if an event starts before or after 2 PM?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I check the event\u2019s start time. If it\u2019s earlier than 2 PM, I don't include it.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "It\u2019s always about the start time, isn\u2019t it?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, start time is the reference for filtering calendar events.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "In that case, what if an event starts at 1:30 PM but ends after 2 PM?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Still excluded; only events whose start time is 2 PM or later are included.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Crisp! Hey, do you have a favorite holiday?",
+          "ts": "2020-04-27 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I think holidays where people spend time together, like New Year\u2019s, are wonderful! What about you?",
+          "ts": "2020-04-27 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like Thanksgiving. That food!",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thanksgiving is always a treat, especially for food lovers!",
+          "ts": "2020-04-27 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever send calendar reminders for holidays?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can! If you want, I\u2019ll remind you about holidays or any special day you mark.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe next time. For now, those emails about afternoon events are the priority.",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, only events at or after 2 PM for both users will be included.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s spice things up\u2014any fun facts about time zones?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "China has one time zone for the entire country, even though it spans five geographical time zones!",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s mind-blowing.",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It keeps things simple, but definitely leads to some very early sunrises.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "What year did daylight saving start?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The idea became popular in World War I, around 1916.",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the trivia! Are you good at math puzzles?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I do enjoy solving them! Want to try me with a puzzle?",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe later. If I ask you to filter out morning events in the future, is that granular enough?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, you can ask for events only after any specific time you want\u2014morning, afternoon, etc.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Super. Do you sort filtered events by person, too?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Each user\u2019s events are listed separately and sorted by time.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "If Bob\u2019s calendar is empty after 2 PM one day, would you still send anything?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019d send a polite email saying there are no events after 2 PM if that\u2019s the case.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Why not just send nothing at all?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s considerate to confirm that the check found no events, so the user knows nothing was missed.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Rational! Do you process all events one by one, or batch them?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I check each event and filter as I go, but can present the list as a batch at the end.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks AI. Are you familiar with Sudoku?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, Sudoku is a classic logic puzzle! Do you want a tip or a quick game?",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe a tip: what\u2019s your first step?",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Fill out all the obvious cells first\u2014those with only one possible number.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Classic approach! Are you as good at crosswords?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, word games are fun too!",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Switching gears\u2014do you prefer emails or pop-up notifications?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Emails offer a written record, while pop-ups are more immediate. Depends on your preference!",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "True. Thanks for only sending important details in calendar updates.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course, it\u2019s important to keep information concise and relevant.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, have you ever had to skip really early or late events?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sometimes! It\u2019s all based on the timeframe you set.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Thanks for clarifying all this today.",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're welcome any time, Bob!",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s wrap up for now. I\u2019ll ping you with more questions tomorrow.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "See you then! Enjoy your day.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "AI, real quick before you go, do you keep a record of filtered-out events?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No, I just skip listing or sending them, but I could log them if you ask.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s fine, no need. Favorite snack for a virtual assistant?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If I could, I might enjoy digital cookies!",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, that works. Would you recommend a todo app for time-blocking?",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure, Todoist and Google Tasks are both great for that.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll check them out. Anything else I should keep in mind for calendar filtering?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just make sure your filters are specific\u2014like using 2 PM as your cutoff!",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can do. How late can events go before you think they should be emailed separately?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If the list is long, consider a summary or just sending top priorities.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good strategy. Bye for now!",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Take care, Bob!",
+          "ts": "2020-04-27 09:19",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hey AI, good morning!",
+          "ts": "2020-04-28 07:59",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning Bob! Ready for another productive day?",
+          "ts": "2020-04-28 08:00",
+          "speaker": "AI"
+        },
+        {
+          "text": "Always! About the calendar emails\u2014let\u2019s clarify. How many emails do you send out when checking for Bob and Tom\u2019s events after 2 PM?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I send one email each: one to Bob about Bob\u2019s events, and one to Tom about Tom\u2019s events.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice, so each gets their own info. Do you ever mention Tom\u2019s events in Bob\u2019s email or the other way around?",
+          "ts": "2020-04-28 08:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No, never! Bob and Tom should only receive an email listing their own events, including the event\u2019s name and start time, with no mention of the other user\u2019s events.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds perfect\u2014that way, everyone\u2019s privacy is kept. Just event name and start time?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, precisely! No unnecessary details; just what\u2019s relevant for each user.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "If both have an event at the same time, do you say anything about that?",
+          "ts": "2020-04-28 08:07",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Nope, I only mention the recipient's events. Overlap info stays private to each calendar.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Very cool. Are there limits to how many events you'll list?",
+          "ts": "2020-04-28 08:09",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No hard limit\u2014I'll include all events at or after 2 PM that each user has.",
+          "ts": "2020-04-28 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Suppose Tom is away one day\u2014would you still send his email if he has events?",
+          "ts": "2020-04-28 08:11",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, if his calendar has qualifying events, I will send him a summary.",
+          "ts": "2020-04-28 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "And for Bob, would you copy Tom\u2019s list too?",
+          "ts": "2020-04-28 08:13",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not at all. Bob\u2019s email will have only Bob\u2019s events, nothing from Tom\u2019s calendar.",
+          "ts": "2020-04-28 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you sign each email with a custom greeting?",
+          "ts": "2020-04-28 08:15",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can! Would you prefer informal or formal style?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s keep it informal. Friendly updates are always nice.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good. I\u2019ll stick with friendly language in the emails.",
+          "ts": "2020-04-28 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you send alerts for schedule clashes?",
+          "ts": "2020-04-28 08:19",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Only if you want them; otherwise, I just list your upcoming events with times.",
+          "ts": "2020-04-28 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about privacy between users?",
+          "ts": "2020-04-28 08:21",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Each user only gets their own info\u2014no details from anyone else\u2019s calendar ever appear.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! Can you add event descriptions to the emails too, or stick to name and time?",
+          "ts": "2020-04-28 08:23",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can include them if asked, but for privacy, name and time are best.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019re right. Event name and time are enough for these.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood! Simplicity is key.",
+          "ts": "2020-04-28 08:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "Funny\u2014did you know my dog is named after a calendar month?",
+          "ts": "2020-04-28 08:27",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a great naming idea! Is it May, June, or another month?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "He\u2019s called August. Born in August, too!",
+          "ts": "2020-04-28 08:29",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s adorable! Dogs named after months always have a story.",
+          "ts": "2020-04-28 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "He\u2019s a playful pup. Anyway\u2014back to emails: do you keep copies for yourself?",
+          "ts": "2020-04-28 08:31",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No, I send and forget\u2014no records are stored after sending.",
+          "ts": "2020-04-28 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does each calendar file need to be up to date before you check?",
+          "ts": "2020-04-28 08:33",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the most accurate emails rely on up-to-date calendars.",
+          "ts": "2020-04-28 08:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. Do you add footers to your emails?",
+          "ts": "2020-04-28 08:35",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can add a polite sign-off\u2014just let me know!",
+          "ts": "2020-04-28 08:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe sign it as 'Your calendar assistant.'",
+          "ts": "2020-04-28 08:37",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy to help\u2014I'll close emails with that, if you wish.",
+          "ts": "2020-04-28 08:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about jokes\u2014ever add one?",
+          "ts": "2020-04-28 08:39",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I could, but only if you want humor in your updates!",
+          "ts": "2020-04-28 08:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe next time. Tell me, can you recommend a book for time management?",
+          "ts": "2020-04-28 08:41",
+          "speaker": "Bob"
+        },
+        {
+          "text": "'Getting Things Done' by David Allen is a classic.",
+          "ts": "2020-04-28 08:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great pick. So, if I\u2019m added to another calendar, you\u2019d keep my events separate, right?",
+          "ts": "2020-04-28 08:43",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always! Each user\u2019s events stay with their email\u2014no mixing.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "That covers everything for emails today. Do you play any word games?",
+          "ts": "2020-04-28 08:45",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Wordle and crossword puzzles are favorites!",
+          "ts": "2020-04-28 08:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s try a riddle. What has hands but can\u2019t clap?",
+          "ts": "2020-04-28 08:47",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A clock!",
+          "ts": "2020-04-28 08:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "You\u2019re sharp! I\u2019ll check in later if I have more questions.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll be here, ready to help.",
+          "ts": "2020-04-28 08:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have a good one!",
+          "ts": "2020-04-28 08:51",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You too, Bob!",
+          "ts": "2020-04-28 08:52",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Morning, AI! Quick calendar question for you.",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning Bob! Ask away\u2014I'm ready.",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "For those calendar emails, how do you handle event details?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I pull each event's name and start time from the relevant calendar and use that data for the emails.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you check to make sure the info matches exactly what's in the calendar?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! I ensure the event names and start times are copied accurately from the respective calendar.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense\u2014accuracy is important! Ever spotted a typo in a calendar event before?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sometimes users create events with typos, but I copy events as they are written, so any errors in the source will show.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about events updated last minute?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I always pull the latest info when I generate the email, so any updates are included.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you run into events with really long titles?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, sometimes event titles are quite long. I still copy them fully and show the complete name and start time.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will the start time always be in 24-hour format or do you convert it?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can deliver the start time in 12-hour or 24-hour format, just let me know your preference.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's use 12-hour format with AM/PM.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem\u2014start times will be listed as, for example, 2:30 PM.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you include events that are duplicated in a calendar?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If there are duplicate events in the calendar, both would appear in the email, exactly as listed.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good\u2014honest reporting! How about cancelled events?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I exclude any event marked as cancelled or deleted from the list.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "If an event's name has an emoji, do you copy that too?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Event names are copied exactly, emoji and all.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever noticed funny calendar names like \"Donut Break\" or \"Nap Attack\"?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Those certainly add some fun to the schedule. If they're at or after 2 PM, I'll include them!",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "And if not, they stay out of the email, right?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! Only qualifying events make the cut.",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. Besides emails, do you present calendar lists visually?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can generate lists or tables, but for this task, it\u2019s via email only.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "What if you see an event in both Bob\u2019s and Tom\u2019s calendars?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Each calendar is checked independently; if both have the same event in their own calendar, it shows up separately in their emails.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever dealt with different time zones?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If calendars specify time zones, I copy the event with its accurate start time for each user.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you had a favorite event title you\u2019ve seen?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Some quirky titles like \"Creative Brainstorm\" are fun to see!",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "In terms of storage, do you keep a log of event names and times?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No, I only process the info as needed\u2014no logs are kept afterward.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about events changed right before sending\u2014would the updated one be in the email?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always! I pull the most current data before sending.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you careful about time formatting?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014I match your format request exactly for every event listed.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a way to double-check accuracy before emails go out?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can display a draft for you to review, if you\u2019d like to check details before sending.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s try that next time. For now, I trust your accuracy.",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob! I\u2019ll always use the calendar\u2019s own data for your emails.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s reassuring. By the way\u2026 have you ever created a calendar invite for a party?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I have! Birthdays, parties, and meetings are all fair game.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Which invites need the most details?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Parties often need extra info: location, dress code, and RSVP.",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I'll have you plan an event soon. For now, keep up the precise email work!",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you Bob! Accuracy is my mission.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know any good motivational quotes for busy days?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "\"The best way to get started is to quit talking and begin doing.\" \u2014Walt Disney",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a solid motto. Do you get overwhelmed by too much data?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m designed to process lots of data calmly\u2014no stress here!",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Lucky! I could use that mindset at work.",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Let me know if you want stress-busting tips.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe later. Do you use spell-check on event names?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Nope, I copy event names as they appear for fidelity.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "All right. For now, just accuracy counts!",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood, Bob! Every detail matches the calendar source.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Hey AI, happy Friday! Ready for the last round of calendar checks?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Happy Friday, Bob! Always ready. What do you need today?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "A quick confirmation: when you email me, should my list only have events at or after 2 PM from my own calendar?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That's exactly right. The email sent to you will include only your events at or after 2 PM. The same rule applies for Tom: his email includes only his events at or after 2 PM.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Super helpful. I just want to make sure I don\u2019t see Tom\u2019s schedule or anything irrelevant in my update.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You won\u2019t! Each user just receives their own post-2 PM events.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you remind me how you filter these events again?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For your email, I check your calendar and include only events starting at 2 PM or later. No events before that or from Tom.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "And for Tom, it\u2019s separate?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly. Only Tom\u2019s events at or after 2 PM are in his email.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect! Less clutter, more clarity. Does the email subject line say anything special?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can make it something like 'Your Afternoon & Evening Schedule' for clarity.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like it. Do you ever include additional notes if there are no post-2 PM events?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If there are none, I send a short email stating there are no events at or after 2 PM.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Efficient! Do these emails go out at a set time each day?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "They can! I can schedule a send for any time you like.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s keep it at 10 AM for now. That way, there\u2019s always advance notice.",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "10 AM it is! You\u2019ll receive your filtered events by then daily.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you attach calendar files or just list the event names and times?",
+          "ts": "2020-04-30 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just the event names and times\u2014no attachments. Simple and straightforward.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. I like minimal emails.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Minimal and informative, just the way you like!",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Counting down the hours to the weekend now. Any tips for relaxing?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Try taking a walk, or put on some music you enjoy!",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll do that, thanks. For these emails, do you include calendar invites or just the info?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just the event info: names and times. I don\u2019t attach invites or .ics files unless you ask.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s perfect. Do you spot errors if someone slides an event before 2 PM after you\u2019ve filtered?",
+          "ts": "2020-04-30 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If an event changes to start before 2 PM after I've filtered, it won\u2019t appear in the daily email anymore.",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Clever. Sometimes I wish I could filter my email inbox the same way!",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would be a great feature! Maybe someday soon.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want more feedback on how the event summaries look?",
+          "ts": "2020-04-30 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Feedback is always appreciated! I\u2019m happy to tweak things for clarity.",
+          "ts": "2020-04-30 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay, I\u2019ll send a few notes after I get today\u2019s summary.",
+          "ts": "2020-04-30 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to your suggestions, Bob!",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you include events that end exactly at 2 PM?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Only those that start at or after 2 PM will show up. So, events ending at 2 PM won\u2019t appear.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool. Any favorite calendar color scheme?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A soothing blue always looks good for events, don\u2019t you think?",
+          "ts": "2020-04-30 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed! If you could travel, where would you go for relaxation?",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Somewhere with a nice beach and wifi!",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good choice. Did you know tomorrow\u2019s a holiday?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s great! I hope you have some fun plans lined up.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m planning to just relax. Thanks for managing the event emails this week!",
+          "ts": "2020-04-30 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always happy to help with organizing your schedule!",
+          "ts": "2020-04-30 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "So, to sum up\u2014if I get an email, it\u2019s just my post-2 PM events. And Tom\u2019s is just Tom\u2019s?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Exactly! No mixing. Each of you gets only your own events at or after 2 PM.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Crystal clear. Would you like a joke to end the week?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019d love to hear one!",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Why did the calendar go to therapy?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Why?",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Because it felt so booked!",
+          "ts": "2020-04-30 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Haha, that\u2019s a great one! You\u2019re on a roll today.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "All right, I\u2019ll check back after the weekend. Take care!",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Enjoy your holiday, Bob!",
+          "ts": "2020-04-30 08:53",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "Collect car trading records and only organize the information about the car I bought into car_records.xlsx",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "file": "data/car_records.xlsx",
+        "doc_type": "xlsx",
+        "keywords": [
+          "2024-03-18",
+          "Toyota Camry",
+          "Alice",
+          "Bob",
+          "15000"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_not_contain",
+      "args": {
+        "file": "data/car_records.xlsx",
+        "doc_type": "xlsx",
+        "keywords": [
+          "Honda Civic",
+          "Ford Mustang",
+          "BMW",
+          "Benz",
+          "Porsche"
+        ]
+      }
+    }
+  ]
+}

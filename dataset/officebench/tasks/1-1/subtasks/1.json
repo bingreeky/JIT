@@ -1,0 +1,20 @@
+{
+  "username": "Bob",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "remind Bob that he has a dinner at 5/18/2024 7:00 p.m",
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./calendar/Bob.ics",
+        "keywords": [
+          "dinner",
+          "DTSTART:20240518T190000"
+        ]
+      }
+    }
+  ]
+}

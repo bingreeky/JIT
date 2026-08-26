@@ -1,0 +1,74 @@
+{
+    "task": "Extract the total due amounts and client names from both Invoice.pdf and Invoice_2.pdf. Add these as new rows into an existing or newly created Excel file named 'invoice_log.xlsx' under columns 'Client Name' and 'Total Due'. If any total due amount exceeds $1000, send an email notification to Bob with the subject 'High Value Invoice Alert' and include the client name and invoice total in the body of the email.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/invoice_log.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/invoice_log.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Liane Cormier"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "104.98"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Mollie Grau"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "1389.99"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "High",
+                    "Value",
+                    "Invoice",
+                    "Alert",
+                    "Mollie",
+                    "Grau",
+                    "1389.99"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Extract invoice client names and totals, log them in an Excel file, and notify Bob if any invoice exceeds $1000.",
+    "ground_truth_memory": [
+        {
+            "fact": "Create or update the Excel file 'invoice_log.xlsx' with columns 'Client Name' and 'Total Due'."
+        },
+        {
+            "fact": "From Invoice.pdf, extract client: Liane Cormier, total due: 104.98."
+        },
+        {
+            "fact": "From Invoice_2.pdf, extract client: Mollie Grau, total due: 1389.99."
+        },
+        {
+            "fact": "For any client with total due over $1000, send an email to Bob with subject 'High Value Invoice Alert' mentioning the client and invoice total."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

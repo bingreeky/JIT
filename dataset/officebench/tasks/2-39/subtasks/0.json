@@ -1,0 +1,15 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "find Bob's latest email, save it in latest.docx",
+  "evaluation": [
+    {
+        "function": "evaluate_file_exist",
+        "args": {
+            "file": "data/latest.docx"
+        }
+    }
+  ]
+}

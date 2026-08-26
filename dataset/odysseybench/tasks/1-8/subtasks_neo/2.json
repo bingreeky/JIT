@@ -1,0 +1,38 @@
+{
+    "task": "Update the /testbed/data/salary.xlsx Excel file by adding a new row for a recent retention reward, with the Name as 'retention', and the amount as 50000, as this new retention bonus structure was approved. Ensure the entry is in the same format as existing rows. No other changes to the file are required.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "retention"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "50000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "There is an update needed regarding new compensation components. Please make sure all recent changes to the salary structure are applied in the existing Excel sheet.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new component called 'retention' needs to be added to the salary structure.",
+            "action_item": "Add a new row to /testbed/data/salary.xlsx with Name 'retention' and amount 50000."
+        },
+        {
+            "fact": "The amount for the retention reward is 50000.",
+            "action_item": "Ensure the new 'retention' entry matches the format of other rows and is placed after the existing entries in the salary.xlsx file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

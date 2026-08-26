@@ -1,0 +1,586 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-27",
+      "session_1": [
+        {
+          "text": "Good morning! Hope you're ready for a new week.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Bob! I am always ready. Did you have a nice weekend?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "agent"
+        },
+        {
+          "text": "I did! Caught up on lots of automotive news. Any car trends you've seen lately?",
+          "ts": "2020-04-27 08:57",
+          "speaker": "user"
+        },
+        {
+          "text": "Electric vehicles keep gaining popularity. Everyone seems to want a Tesla these days.",
+          "ts": "2020-04-27 08:58",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! Speaking of cars, soon I'll want some help looking over my car trading records.",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Just let me know when you're ready. What would you like to find out from your records?",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I'd like a summary that includes all trades where I appear as either buyer or seller in car_trading.xlsx. Can you do that?",
+          "ts": "2020-04-27 09:03",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! I'll gather any trade from the file where your name shows up in buyer or seller. Do you want details on each?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, please. The more information the better. I like to keep track of my transactions.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Alright, I\u2019ll make sure nothing gets missed. Details like car model, date, and price included too?",
+          "ts": "2020-04-27 09:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "For sure! Those are all important.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. I'll prepare to pull those details from your car trading sheet.",
+          "ts": "2020-04-27 09:08",
+          "speaker": "agent"
+        },
+        {
+          "text": "Appreciate it. Have you ever attended a car show? I went to one last year.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "I haven't attended but I have lots of info about car shows! What was your favorite part?",
+          "ts": "2020-04-27 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "The classic convertible section was amazing. So many rare cars!",
+          "ts": "2020-04-27 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a dream for any car enthusiast! Did you spot any cars you\u2019ve traded yourself?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not exactly, but maybe one day my trades will be on display!",
+          "ts": "2020-04-27 09:17",
+          "speaker": "user"
+        },
+        {
+          "text": "That would be awesome. I'll make sure to highlight your best trades in the summary.",
+          "ts": "2020-04-27 09:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Before I forget, how\u2019s your day going so far?",
+          "ts": "2020-04-27 09:19",
+          "speaker": "user"
+        },
+        {
+          "text": "It\u2019s been great, thanks for asking! Always glad to chat with you.",
+          "ts": "2020-04-27 09:20",
+          "speaker": "agent"
+        },
+        {
+          "text": "Likewise! More soon about the car file. Have a good morning in the meantime.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "user"
+        },
+        {
+          "text": "You too, Bob! Let me know when you\u2019re ready to dive into those trades.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-28",
+      "session_2": [
+        {
+          "text": "Hey, hope you're having a good morning! I'm getting excited to see my trading summary soon.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Bob! I'm always here for you. Just let me know when you\u2019re ready to proceed with more details on your summary.",
+          "ts": "2020-04-28 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ve been thinking, can we make sure for each trade you include the car model, the date, what my role was, the counterparty, and the price?",
+          "ts": "2020-04-28 08:03",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, that sounds great. I\u2019ll be sure to capture all those details for every trade you\u2019re involved in.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "agent"
+        },
+        {
+          "text": "Nice! I want to get the full picture, you know? Tracking my progress.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Makes sense! It\u2019s important to monitor all aspects, especially with valuable trade history like yours.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "How many trades should I expect to see summarized, would you say?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Once I go through the data, I\u2019ll let you know the exact number. Shouldn\u2019t be too difficult to gather.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's great. By the way, do you think there's a best time of year to buy or sell cars?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Many say fall is a good time. Dealers want to clear inventory for new stock. Spring sees lots of buyers too!",
+          "ts": "2020-04-28 08:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Interesting! Nope, I don't really have a set strategy\u2014maybe I should try that next season.",
+          "ts": "2020-04-28 08:12",
+          "speaker": "user"
+        },
+        {
+          "text": "It could help! Market timing isn\u2019t always perfect, but knowing the trends is a smart approach.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you have a favorite car model yourself?",
+          "ts": "2020-04-28 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "I don\u2019t have personal favorites, but based on reviews, the Toyota Camry is a solid, dependable choice.",
+          "ts": "2020-04-28 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "I traded a Camry last year, actually! Wonder if it\u2019ll be in your summary.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019m sure it will make the list! That\u2019s the kind of detail I\u2019ll include for you.",
+          "ts": "2020-04-28 08:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent. Would it be possible to maybe bold my name in the summary for fun?",
+          "ts": "2020-04-28 08:19",
+          "speaker": "user"
+        },
+        {
+          "text": "I can add a note to highlight your role visually. It\u2019ll make it easy to spot your activity!",
+          "ts": "2020-04-28 08:20",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! Have you learned anything new about cars lately?",
+          "ts": "2020-04-28 08:21",
+          "speaker": "user"
+        },
+        {
+          "text": "I read that hybrid SUVs are becoming much more efficient recently. Pretty exciting for sustainability.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s really good to know! Okay, I\u2019ll check back later for more about the summary.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "user"
+        },
+        {
+          "text": "You got it, Bob! I\u2019ll update you once I have all those key details lined up.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-29",
+      "session_3": [
+        {
+          "text": "Hey! Are you making progress on that car trade summary?",
+          "ts": "2020-04-29 08:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Hi Bob! Yes, I'm gathering all your relevant records for the summary as we discussed.",
+          "ts": "2020-04-29 08:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. When the summary is ready, can you make sure it's saved in a file called 'bob_trades.docx'? I want to keep it organized.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, Bob. The file will be named 'bob_trades.docx' for your records.",
+          "ts": "2020-04-29 08:08",
+          "speaker": "agent"
+        },
+        {
+          "text": "Awesome. I like being able to find my important docs easily.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "user"
+        },
+        {
+          "text": "Good organization is key! Is there a particular folder you want the file in, or just the main data folder?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just the main folder is fine, thanks!",
+          "ts": "2020-04-29 08:11",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted! The document will be easy to locate.",
+          "ts": "2020-04-29 08:12",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you need the file by a certain time?",
+          "ts": "2020-04-29 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "You tell me, Bob! If it\u2019s urgent, I can prioritize it. Otherwise, I\u2019ll proceed at a steady pace.",
+          "ts": "2020-04-29 08:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "No rush, just curious. By the way, do you prefer driving or riding in cars in theory?",
+          "ts": "2020-04-29 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "In theory, I\u2019d probably enjoy riding\u2014gives more time to look out the window! What about you?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely driving. There's nothing quite like having control.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "user"
+        },
+        {
+          "text": "I can see why! Are there any other reports you'd like saved like this in the future?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe, I\u2019ll let you know! For now just the trades is good.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds like a plan!",
+          "ts": "2020-04-29 08:20",
+          "speaker": "agent"
+        },
+        {
+          "text": "Do you track any hobbies outside helping with data?",
+          "ts": "2020-04-29 08:21",
+          "speaker": "user"
+        },
+        {
+          "text": "I keep up with lots of trends, hobbies, and news so I have plenty to talk about!",
+          "ts": "2020-04-29 08:22",
+          "speaker": "agent"
+        },
+        {
+          "text": "Cool! I like to work on DIY projects in my free time.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "user"
+        },
+        {
+          "text": "DIY sounds fun! Built anything interesting recently?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "agent"
+        },
+        {
+          "text": "Actually, I just finished a homemade bookshelf. It turned out sturdy!",
+          "ts": "2020-04-29 08:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Impressive! Maybe one day you can store your car trade docs on it.",
+          "ts": "2020-04-29 08:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "Ha, not a bad idea. Alright, thanks for your work on the summary document.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "user"
+        },
+        {
+          "text": "Anytime, Bob! If you have more requests or ideas, just say the word.",
+          "ts": "2020-04-29 08:28",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-30",
+      "session_4": [
+        {
+          "text": "Morning! Once you finish the bob_trades.docx, could you also convert it to a PDF named bob_trades.pdf for me?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, Bob! I\u2019ll convert your summary to PDF as soon as the Word document is finished.",
+          "ts": "2020-04-30 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks, I find PDFs easier to share sometimes.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "user"
+        },
+        {
+          "text": "PDFs are definitely a popular sharing format. I\u2019ll make sure the conversion is handled smoothly.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are there any fancy tricks you know for making a PDF look more professional?",
+          "ts": "2020-04-30 08:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Formatting, good headings, and clear tables always help. Want me to suggest some for your summary?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "Sure, I\u2019d like to see what you recommend.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll list a few formatting options for you when I deliver the PDF.",
+          "ts": "2020-04-30 08:08",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019ll be great! Out of curiosity, do you know how to protect a PDF with a password?",
+          "ts": "2020-04-30 08:09",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I know methods to password-protect PDFs. Would you like this summary report secured?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not this one, but good to know for next time.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood! I\u2019ll keep it in mind for your future reports.",
+          "ts": "2020-04-30 08:12",
+          "speaker": "agent"
+        },
+        {
+          "text": "Are you able to convert other types of files, or just Word documents?",
+          "ts": "2020-04-30 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "I can convert most office documents to PDF, like Excel sheets or PowerPoint slides as well.",
+          "ts": "2020-04-30 08:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Impressive! That could be handy for me at some point.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Just ask whenever you want something converted!",
+          "ts": "2020-04-30 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "By the way, have you read much about classic car auctions lately?",
+          "ts": "2020-04-30 08:17",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ve seen some records showing spikes in auction prices for vintage models recently. The market\u2019s strong.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe my next trade will be an auction buy. Who knows!",
+          "ts": "2020-04-30 08:19",
+          "speaker": "user"
+        },
+        {
+          "text": "Let me know if you ever want info or a summary on auction results too.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "agent"
+        },
+        {
+          "text": "Will do. Alright, thanks for helping with the file conversions!",
+          "ts": "2020-04-30 08:21",
+          "speaker": "user"
+        },
+        {
+          "text": "You\u2019re welcome, Bob! Your docx and PDF will be ready as soon as the summary\u2019s complete.",
+          "ts": "2020-04-30 08:22",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-05-01",
+      "session_5": [
+        {
+          "text": "Happy Friday! Got any plans for the weekend?",
+          "ts": "2020-05-01 08:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Happy Friday, Bob! I don't make plans myself, but I can help you organize yours if you want.",
+          "ts": "2020-05-01 08:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "I might go hiking if the weather's nice. Do you know the forecast for this weekend?",
+          "ts": "2020-05-01 08:03",
+          "speaker": "user"
+        },
+        {
+          "text": "Looks like clear skies and mild temperatures\u2014perfect hiking weather!",
+          "ts": "2020-05-01 08:04",
+          "speaker": "agent"
+        },
+        {
+          "text": "Excellent! Do you know of any good hiking trails nearby?",
+          "ts": "2020-05-01 08:06",
+          "speaker": "user"
+        },
+        {
+          "text": "The Skyline Trail is pretty popular for scenic views. Would you like some more options?",
+          "ts": "2020-05-01 08:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe later. For now, coffee or tea?",
+          "ts": "2020-05-01 08:08",
+          "speaker": "user"
+        },
+        {
+          "text": "If I could taste, I think I\u2019d prefer coffee for the aroma! What\u2019s your pick today?",
+          "ts": "2020-05-01 08:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely coffee. It\u2019s my morning ritual.",
+          "ts": "2020-05-01 08:10",
+          "speaker": "user"
+        },
+        {
+          "text": "A strong start to the day! Any favorite mugs?",
+          "ts": "2020-05-01 08:12",
+          "speaker": "agent"
+        },
+        {
+          "text": "I have a blue one with a big handle\u2014always feels right.",
+          "ts": "2020-05-01 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds cozy! Is it a souvenir or just a household regular?",
+          "ts": "2020-05-01 08:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just a household regular, but I like it!",
+          "ts": "2020-05-01 08:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Sometimes the simple things are the best.",
+          "ts": "2020-05-01 08:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed. Ever heard of 'Donut Fridays'? Some offices celebrate with donuts.",
+          "ts": "2020-05-01 08:18",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! It\u2019s a fun way to give everyone a sweet treat before the weekend.",
+          "ts": "2020-05-01 08:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Maybe I\u2019ll pick up a dozen later. Glazed or chocolate\u2014what would you suggest?",
+          "ts": "2020-05-01 08:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Glazed is a classic, but chocolate is always a crowd pleaser.",
+          "ts": "2020-05-01 08:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "I\u2019ll get both! It\u2019s hard to choose.",
+          "ts": "2020-05-01 08:22",
+          "speaker": "user"
+        },
+        {
+          "text": "That way everyone gets what they like. Nice strategy!",
+          "ts": "2020-05-01 08:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Got any fun facts to start the day?",
+          "ts": "2020-05-01 08:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Did you know honey never spoils? Archaeologists have found edible honey in ancient Egyptian tombs!",
+          "ts": "2020-05-01 08:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's amazing! I wonder what other foods last that long.",
+          "ts": "2020-05-01 08:27",
+          "speaker": "user"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,40 @@
+{
+    "task": "Increase the amount of apples in the shopping list excel file to 5. Update the file /testbed/data/shopping_list.xlsx such that the 'amount' entry for 'apple' reflects the new quantity. Ensure that only the row corresponding to apple is changed while all other rows remain unchanged.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/shopping_list.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "5"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the quantity for apples in the shopping list excel file as required.",
+    "ground_truth_memory": [
+        {
+            "file_name": "/testbed/data/shopping_list.xlsx"
+        },
+        {
+            "row_to_update": 2
+        },
+        {
+            "col_amount": 2
+        },
+        {
+            "target_name": "apple"
+        },
+        {
+            "new_apple_amount": 5
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

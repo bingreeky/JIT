@@ -1,0 +1,54 @@
+{
+    "task": "Create a new Word document named 'project_summary.docx' that contains a brief summary of the upcoming Apollo Project, including the key objectives, target completion date, assigned team members, and a motivational closing statement. The summary should include the keywords: Apollo Project, key objectives, target completion date: June 30, 2020, team: Alice, Bob, Carol. The motivational closing statement should express enthusiasm for the project's success.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/project_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/project_summary.docx",
+                "keywords": [
+                    "Apollo Project",
+                    "key objectives",
+                    "target completion date",
+                    "June 30",
+                    "2020",
+                    "Alice",
+                    "Bob",
+                    "Carol",
+                    "success"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Write a brief project summary document for an upcoming project, including key information and a motivational remark.",
+    "ground_truth_memory": [
+        {
+            "fact": "The project to be summarized is called 'Apollo Project'."
+        },
+        {
+            "fact": "The summary must include the phrase 'key objectives'."
+        },
+        {
+            "fact": "The project's target completion date is June 30, 2020."
+        },
+        {
+            "fact": "The team members assigned to the project are Alice, Bob, and Carol."
+        },
+        {
+            "action_item": "The document should have a motivational closing statement expressing enthusiasm for success."
+        },
+        {
+            "action_item": "The document filename should be 'project_summary.docx'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

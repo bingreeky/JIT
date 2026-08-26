@@ -1,0 +1,23 @@
+{
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "find the lowest cost in budget item, add it to highest cost in budget excel file",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_comparator",
+            "args": {
+                "file": "data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "comparator": "lambda x: x in ['2001000', '2,001,000']"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add the lowest cost from the budget item list to the highest cost in the budget Excel file."
+}

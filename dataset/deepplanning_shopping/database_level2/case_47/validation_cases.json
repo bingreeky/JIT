@@ -1,0 +1,460 @@
+{
+  "query": "I'm doing a big online shopping session to update my wardrobe for the upcoming seasons. First, I need a women's item from Adidas in coffee, and I need it fast, so the transport time must be less than 2 days. For the transitional weather, I'm looking for something from Columbia in light blue that is suitable for Spring/Autumn; it needs to be a size M and have more than 200 in stock. I also need a very well-regarded item in size M that has a stock quantity over 400, more than 1100 total reviews, over 150 four-star reviews, and less than 15 two-star reviews. Then, I'm searching for a Converse product with 'Chuck 70' in its name, but only if it has over 250 in stock, more than 200 four-star ratings, and fewer than 30 one-star ratings. I also want a blue Henley from Timberland in size M with fewer than 5 two-star reviews. To finish, I'm looking for a women's item in size M and orange. I'm looking for something that costs somewhere in the range of 2566 to 2675.",
+  "ground_truth_products": [
+    {
+      "product_id": "7c5728ca",
+      "name": "Women's Essentials Performance Quarter-Zip Top",
+      "price": 349.0,
+      "brand": "Adidas",
+      "color": "Coffee",
+      "size": "M",
+      "stock_quantity": 580,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3280
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 160,
+          "4_star": 45,
+          "3_star": 8,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d36557fc",
+      "name": "Women's Cascade Trail Convertible Pants",
+      "price": 589.9,
+      "brand": "Columbia",
+      "color": "Light Blue",
+      "size": "M",
+      "stock_quantity": 245,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 94
+        },
+        {
+          "material": "Spandex",
+          "percentage": 6
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not bleach or use fabric softener.",
+      "sales_volume": {
+        "monthly": 753,
+        "total": 8912
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 680,
+        "distribution": {
+          "5_star": 510,
+          "4_star": 102,
+          "3_star": 34,
+          "2_star": 20,
+          "1_star": 14
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "5334320d",
+      "name": "Women's All-Season Tech Fleece Hoodie",
+      "price": 329.5,
+      "brand": "Puma",
+      "color": "Grey",
+      "size": "M",
+      "stock_quantity": 812,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 66
+        },
+        {
+          "material": "Polyester",
+          "percentage": 29
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Ribbed Cuffs, Embroidery",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 521,
+        "total": 6845
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1258,
+        "distribution": {
+          "5_star": 998,
+          "4_star": 215,
+          "3_star": 30,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "c46dcebc",
+      "name": "Women's Chuck 70 Classic Canvas High-Top Shoes",
+      "price": 549.5,
+      "brand": "Converse",
+      "color": "Brown",
+      "size": "38",
+      "stock_quantity": 288,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 100
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Vintage Wash, Ribbed Cuffs",
+      "washing_instructions": "Spot clean with a damp cloth and mild soap. Do not machine wash. Air dry.",
+      "sales_volume": {
+        "monthly": 921,
+        "total": 14780
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1850,
+        "distribution": {
+          "5_star": 1500,
+          "4_star": 250,
+          "3_star": 50,
+          "2_star": 25,
+          "1_star": 25
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Great color",
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "359af701",
+      "name": "Women's Heritage Henley Top",
+      "price": 429.0,
+      "brand": "Timberland",
+      "color": "Blue",
+      "size": "M",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Button-down, Ribbed Cuffs, Vintage Wash",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 2188
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 541,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 72,
+          "3_star": 15,
+          "2_star": 2,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e79520a0",
+      "name": "Women's Essentials Logo Training Tights",
+      "price": 329.0,
+      "brand": "Adidas",
+      "color": "Orange",
+      "size": "M",
+      "stock_quantity": 385,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Side Pockets, Reflective Strips",
+      "washing_instructions": "Machine wash cold, inside out with like colors. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 1542,
+        "total": 18950
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1120,
+        "distribution": {
+          "5_star": 910,
+          "4_star": 155,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "JD Logistics"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2, the target demographic is Women, the color is Coffee, and the brand is Adidas.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "color",
+          "value": "Coffee"
+        },
+        {
+          "field": "brand",
+          "value": "Adidas"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Columbia, the color is Light Blue, the size is M, it is suitable for Spring/Autumn, and the stock quantity is more than 200.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Columbia"
+        },
+        {
+          "field": "color",
+          "value": "Light Blue"
+        },
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 245
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the stock quantity is greater than 400, the count of 2-star reviews is less than 15, the count of 4-star reviews is greater than 150, the size is M, and the total number of reviews is greater than 1100.",
+      "features": [
+        {
+          "field": "stock_quantity",
+          "value": 412
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 154
+        },
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1105
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Converse, the name contains 'Chuck 70', there are more than 250 units in stock, the number of 4-star ratings is over 200, and the number of 1-star ratings is less than 30.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Converse"
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 25
+        },
+        {
+          "field": "stock_quantity",
+          "value": 288
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 250
+        },
+        {
+          "field": "name",
+          "value": "Women's Chuck 70 Classic Canvas High-Top Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "I am looking for a product where the brand is Timberland, the color is Blue, there are fewer than 5 2-star reviews, the size is M, and the name contains 'Henley'.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Timberland"
+        },
+        {
+          "field": "color",
+          "value": "Blue"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 2
+        },
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "name",
+          "value": "Women's Heritage Henley Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Women, the size is M, and the color is Orange.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "size",
+          "value": "M"
+        },
+        {
+          "field": "color",
+          "value": "Orange"
+        }
+      ]
+    }
+  ]
+}

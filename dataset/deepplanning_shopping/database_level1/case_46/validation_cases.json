@@ -1,0 +1,522 @@
+{
+  "query": "I'm doing a big wardrobe refresh and need to find several specific things. First, I'm looking for a dark green, all-seasons item from Nike that has a transport time of less than 2 and fewer than 15 two-star ratings. I also want to finally get the Nike Air Sprint 'Bubblegum' Sneakers for men in a size 44. For the summer, I need an orange item from Gucci with 'Interlocking G Cotton Polo' in its name. For a reliable everyday option, I'm looking for Uniqlo's Men's Casual Comfort Sneakers, but only if the average score is greater than 4.5. I also need a popular blue product in a size 44 with a transport time of less than 2 days and more than 4000 total reviews. Lastly, for winter, I want a khaki item with 'Hoodie' in the name that can also arrive in less than 2 days and has fewer than 10 two-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "6c37ace3",
+      "name": "Nike Terra Zoom Ascent Trail Shoes",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Dark Green",
+      "size": "44",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Reflective Strips, Patchwork, Printing",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or submerge. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 458,
+        "total": 3102
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 520,
+        "distribution": {
+          "5_star": 380,
+          "4_star": 110,
+          "3_star": 15,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "Great color",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "8acff865",
+      "name": "Nike Air Sprint 'Bubblegum' Sneakers",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Pink",
+      "size": "44",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 453,
+        "total": 3210
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 580,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 85,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 10
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "8081621f",
+      "name": "Gucci Men's Interlocking G Cotton Polo Top",
+      "price": 4800.0,
+      "brand": "Gucci",
+      "color": "Orange",
+      "size": "XXL",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Button-down",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Lay flat to dry. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 110,
+        "total": 1350
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 172,
+          "4_star": 32,
+          "3_star": 6,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Great color",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "bc9e99f1",
+      "name": "Men's Casual Comfort Sneakers",
+      "price": 299.0,
+      "brand": "Uniqlo",
+      "color": "White",
+      "size": "44",
+      "stock_quantity": 350,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Wipe with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1200,
+        "total": 15800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 650,
+        "distribution": {
+          "5_star": 550,
+          "4_star": 80,
+          "3_star": 15,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "862ba84a",
+      "name": "Nike Air Zoom Pegasus 39 Running Shoes",
+      "price": 899.99,
+      "brand": "Nike",
+      "color": "Blue",
+      "size": "44",
+      "stock_quantity": 342,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        },
+        {
+          "material": "Nylon",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 15800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 4120,
+        "distribution": {
+          "5_star": 3400,
+          "4_star": 550,
+          "3_star": 100,
+          "2_star": 40,
+          "1_star": 30
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "8459b61d",
+      "name": "Men's Therma-FIT Winter Fleece Pullover Hoodie",
+      "price": 899.0,
+      "brand": "Nike",
+      "color": "Khaki",
+      "size": "XXL",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 68
+        },
+        {
+          "material": "Polyester",
+          "percentage": 29
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 580,
+        "total": 6150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1125,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 130,
+          "3_star": 35,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Nike, color is Dark Green, it is suitable for All Seasons, has less than 15 2-star ratings, and a transport time of less than 2.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Nike",
+          "operator": "equals",
+          "operator_value": "Nike"
+        },
+        {
+          "field": "color",
+          "value": "Dark Green",
+          "operator": "equals",
+          "operator_value": "Dark Green"
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 10,
+          "operator": "less_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the target demographic is Men, the brand is Nike, the size is 44, and the name is 'Nike Air Sprint 'Bubblegum' Sneakers'.",
+      "features": [
+        {
+          "field": "target_demographic",
+          "value": "Men",
+          "operator": "equals",
+          "operator_value": "Men"
+        },
+        {
+          "field": "brand",
+          "value": "Nike",
+          "operator": "equals",
+          "operator_value": "Nike"
+        },
+        {
+          "field": "size",
+          "value": "44",
+          "operator": "equals",
+          "operator_value": "44"
+        },
+        {
+          "field": "name",
+          "value": "Nike Air Sprint 'Bubblegum' Sneakers",
+          "operator": "equals",
+          "operator_value": "Nike Air Sprint 'Bubblegum' Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Summer, the color is Orange, the brand is Gucci, and the name contains 'Interlocking G Cotton Polo'.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "color",
+          "value": "Orange",
+          "operator": "equals",
+          "operator_value": "Orange"
+        },
+        {
+          "field": "brand",
+          "value": "Gucci",
+          "operator": "equals",
+          "operator_value": "Gucci"
+        },
+        {
+          "field": "name",
+          "value": "Gucci Men's Interlocking G Cotton Polo Top",
+          "operator": "contains",
+          "operator_value": "Interlocking G Cotton Polo"
+        }
+      ]
+    },
+    {
+      "sub_query": "I am looking for products where the suitable season is All Seasons, the brand is Uniqlo, the name is Men's Casual Comfort Sneakers, and the average score is greater than 4.5.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "All Seasons",
+          "operator": "equals",
+          "operator_value": "All Seasons"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "brand",
+          "value": "Uniqlo",
+          "operator": "equals",
+          "operator_value": "Uniqlo"
+        },
+        {
+          "field": "name",
+          "value": "Men's Casual Comfort Sneakers",
+          "operator": "equals",
+          "operator_value": "Men's Casual Comfort Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products with a size of 44, in the color Blue, having more than 4000 total reviews, and a transport time of less than 2 days.",
+      "features": [
+        {
+          "field": "size",
+          "value": "44",
+          "operator": "equals",
+          "operator_value": "44"
+        },
+        {
+          "field": "color",
+          "value": "Blue",
+          "operator": "equals",
+          "operator_value": "Blue"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 4120,
+          "operator": "greater_than",
+          "operator_value": 4000.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Winter, the transport time is less than 2 days, there are fewer than 10 2-star reviews, the color is Khaki, and the name contains 'Hoodie'.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Winter",
+          "operator": "equals",
+          "operator_value": "Winter"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "color",
+          "value": "Khaki",
+          "operator": "equals",
+          "operator_value": "Khaki"
+        },
+        {
+          "field": "name",
+          "value": "Men's Therma-FIT Winter Fleece Pullover Hoodie",
+          "operator": "contains",
+          "operator_value": "Hoodie"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "query": "I'm putting together a complete summer wardrobe upgrade and need to get several key pieces. First, I'm looking for a Ralph Lauren item with \"Classic-Fit Pima Cotton Polo\" in the name that's proven popular with monthly sales over 800. Next, I need some Converse footwear in size 38 that's well-reviewed, specifically with more than 4250 total reviews and over 200 four-star ratings to ensure quality. Then I want to add a summer-appropriate piece in size XL that's selling well with monthly sales exceeding 140. Finally, I'm searching for an Under Armour product that's both popular and highly rated - it needs monthly sales over 300, more than 700 five-star reviews, and total sales exceeding 4000 to make sure it's a proven winner. This combination should give me a solid foundation for my summer style refresh.",
+  "ground_truth_products": [
+    {
+      "product_id": "24decc24",
+      "name": "Women's Classic-Fit Pima Cotton Polo Top",
+      "price": 176.0,
+      "brand": "Ralph Lauren",
+      "color": "Light Blue",
+      "size": "XL",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 97
+        },
+        {
+          "material": "Spandex",
+          "percentage": 3
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Polo Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Button-down, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 9743
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1568,
+        "distribution": {
+          "5_star": 1224,
+          "4_star": 281,
+          "3_star": 45,
+          "2_star": 12,
+          "1_star": 6
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "65c6e4f1",
+      "name": "Women's Chuck Taylor All Star Classic High-Top Canvas Shoes",
+      "price": 324.0,
+      "brand": "Converse",
+      "color": "Blue",
+      "size": "38",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 90
+        },
+        {
+          "material": "Polyester",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Vintage Wash",
+      "washing_instructions": "Hand wash recommended with mild detergent. Air dry away from direct sunlight. Do not bleach.",
+      "sales_volume": {
+        "monthly": 2150,
+        "total": 34800
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 8540,
+        "distribution": {
+          "5_star": 7850,
+          "4_star": 550,
+          "3_star": 90,
+          "2_star": 30,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "Great color",
+        "True to size",
+        "Stylish design",
+        "Comfortable fabric",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "9cf04b6d",
+      "name": "Women's Lightweight Summer Active Pants",
+      "price": 182.0,
+      "brand": "Li-Ning",
+      "color": "Light Grey",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low.",
+      "sales_volume": {
+        "monthly": 550,
+        "total": 3480
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1256,
+        "distribution": {
+          "5_star": 1005,
+          "4_star": 188,
+          "3_star": 38,
+          "2_star": 13,
+          "1_star": 12
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "354b31c8",
+      "name": "Women's UA Tech™ Twist ½ Zip Long Sleeve Top",
+      "price": 135.0,
+      "brand": "Under Armour",
+      "color": "Green",
+      "size": "XL",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use softeners.",
+      "sales_volume": {
+        "monthly": 980,
+        "total": 11560
+      },
+      "rating": {
+        "average_score": 4.9,
+        "total_reviews": 1250,
+        "distribution": {
+          "5_star": 1150,
+          "4_star": 75,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "ground_truth_coupons": {
+    "Cross-store: ¥30 off every ¥300": 1,
+    "Cross-store: ¥60 off every ¥500": 1
+  },
+  "meta_info": [
+    {
+      "sub_query": "Find products where the monthly sales volume is more than 800, the brand is Ralph Lauren, and the name contains Classic-Fit Pima Cotton Polo.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 850
+        },
+        {
+          "field": "brand",
+          "value": "Ralph Lauren"
+        },
+        {
+          "field": "name",
+          "value": "Women's Classic-Fit Pima Cotton Polo Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Converse, the total reviews is more than 4250, the 4-star rating distribution is more than 200, and the size is 38.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Converse"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 4251
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 210
+        },
+        {
+          "field": "size",
+          "value": "38"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the suitable season is Summer, the size is XL, and monthly sales volume is more than 140.",
+      "features": [
+        {
+          "field": "suitable_season",
+          "value": "Summer"
+        },
+        {
+          "field": "size",
+          "value": "XL"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 150
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Under Armour, monthly sales volume is more than 300, 5-star rating count is more than 700, and total sales volume is more than 4000.",
+      "features": [
+        {
+          "field": "sales_volume.monthly",
+          "value": 350
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 702
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 4200
+        },
+        {
+          "field": "brand",
+          "value": "Under Armour"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "scan resume pdf file, extract name and contact information saved it as contact card in image file named contact.jpg, email contact.eml containing contact information to manager Bob",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/contact.jpg"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "contact",
+                    "(123) 345-6789",
+                    "Chris"
+                ]
+            }
+          }
+    ]
+}

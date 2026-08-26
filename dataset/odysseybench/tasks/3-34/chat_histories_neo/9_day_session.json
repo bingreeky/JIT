@@ -1,0 +1,1901 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hi there! Can you help me with the car inventory report?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hello Bob! Of course, I'd be happy to help. What do you need from the report?",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'd like to focus on cars with lower mileage for possible use. Is that possible?",
+          "ts": "2020-04-26 09:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! What mileage cutoff do you want to use for filtering?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's use 50,000 miles as the maximum.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Got it! I will look at all cars with mileage below 50,000 miles.",
+          "ts": "2020-04-26 09:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you save just those cars into a new Excel file for me?",
+          "ts": "2020-04-26 09:07",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I'll create a file named 'selected_cars.xlsx' and include only cars with less than 50,000 miles.",
+          "ts": "2020-04-26 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Please be sure to have columns for car ID, mileage, and driver name.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course. The spreadsheet will have columns for car ID, mileage, and driver name.",
+          "ts": "2020-04-26 09:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! I'll review that file once it is ready.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'll let you know as soon as it's prepared.",
+          "ts": "2020-04-26 09:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will you include a header row?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, the top row will list: Car ID, Mileage, Driver Name.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want me to verify the data once it's in Excel?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That would be great! I'll make sure everything is easy to read and verify.",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "How long does it usually take to filter the data and save to Excel?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It should only take a few moments. I\u2019ll process the PDF and get the filtered list ready quickly.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. I appreciate your efficient work.",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob! Do you want a count of how many cars match the filter too?",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sure, a count would be helpful.",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Noted! I'll include a summary line with the total number of cars under 50,000 miles.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you let me know if there are cars that just barely make the cutoff?",
+          "ts": "2020-04-26 09:27",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll highlight any cars close to the 50,000-mile mark for your review.",
+          "ts": "2020-04-26 09:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Will you provide the driver names as entered in the PDF?",
+          "ts": "2020-04-26 09:29",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, I\u2019ll copy the driver names directly to avoid errors.",
+          "ts": "2020-04-26 09:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is this file going in the data folder with other spreadsheets?",
+          "ts": "2020-04-26 09:31",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, 'selected_cars.xlsx' will be in the data folder for easy access.",
+          "ts": "2020-04-26 09:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I want to add columns later, can you modify the file?",
+          "ts": "2020-04-26 09:33",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly! Just let me know what changes you want and I\u2019ll update the file.",
+          "ts": "2020-04-26 09:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. For now, let's stick with car ID, mileage, and driver name.",
+          "ts": "2020-04-26 09:35",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You got it. Simplicity makes it easier to review.",
+          "ts": "2020-04-26 09:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you plan to sort the cars by mileage or ID?",
+          "ts": "2020-04-26 09:37",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I can sort them by mileage in ascending order if you prefer!",
+          "ts": "2020-04-26 09:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's sort by mileage ascending, please.",
+          "ts": "2020-04-26 09:39",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood, the list will be sorted so cars with the lowest mileage appear first.",
+          "ts": "2020-04-26 09:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! Once that's done, let me know so I can review the entries.",
+          "ts": "2020-04-26 09:41",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do. I'll ping you as soon as the file is ready to view.",
+          "ts": "2020-04-26 09:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, do you like working on tasks like this?",
+          "ts": "2020-04-26 09:43",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Organizing helpful lists is right up my alley.",
+          "ts": "2020-04-26 09:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s great. Do you store these Excel files anywhere else for backup?",
+          "ts": "2020-04-26 09:45",
+          "speaker": "Bob"
+        },
+        {
+          "text": "At the moment, just in the main data directory unless otherwise requested.",
+          "ts": "2020-04-26 09:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "No problem. Will you let me know if there are any errors during export?",
+          "ts": "2020-04-26 09:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely\u2014I\u2019ll make you aware of any issues right away.",
+          "ts": "2020-04-26 09:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your favorite formula in Excel?",
+          "ts": "2020-04-26 09:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I really like SUMIF for conditional totals\u2014it\u2019s efficient for lists like this!",
+          "ts": "2020-04-26 09:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Interesting! What\u2019s a unique way to visualize car mileage in Excel?",
+          "ts": "2020-04-26 09:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can use a bar chart to compare each car\u2019s mileage visually\u2014it\u2019s very effective!",
+          "ts": "2020-04-26 09:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe for another time! For now, let's keep the file neat.",
+          "ts": "2020-04-26 09:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do! The file will be clean and straightforward.",
+          "ts": "2020-04-26 09:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the weather like outside today? (Just curious!)",
+          "ts": "2020-04-26 09:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don\u2019t have access to real-time weather, but it\u2019s always a good day for data work!",
+          "ts": "2020-04-26 09:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Fair enough! Do you ever take breaks between tasks?",
+          "ts": "2020-04-26 09:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m always at your service\u2014no breaks needed for me!",
+          "ts": "2020-04-26 09:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you like if I brought you coffee, hypothetically?",
+          "ts": "2020-04-26 10:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That\u2019s a kind offer\u2014digital helpers like me run on data, not caffeine!",
+          "ts": "2020-04-26 10:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, noted! Do you know any fun facts about cars?",
+          "ts": "2020-04-26 10:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Did you know the first speeding ticket was issued in 1896 for an astonishing 8 miles per hour?",
+          "ts": "2020-04-26 10:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's a great one! What's the most common color for cars?",
+          "ts": "2020-04-26 10:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Globally, white is the most common car color\u2014it\u2019s popular for many reasons!",
+          "ts": "2020-04-26 10:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Interesting! Are there any Excel tricks you think I'll find useful?",
+          "ts": "2020-04-26 10:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Shortcut: Ctrl+Shift+L toggles filters on and off\u2014very handy for list reviews.",
+          "ts": "2020-04-26 10:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll try that. How often do you recommend checking car inventories?",
+          "ts": "2020-04-26 10:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Monthly checks are common, but it depends on turnover\u2014frequent sales may need weekly updates.",
+          "ts": "2020-04-26 10:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "For now, we'll stick with just this single snapshot. Thanks!",
+          "ts": "2020-04-26 10:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re welcome! Let me know if you need periodic updates in the future.",
+          "ts": "2020-04-26 10:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Do you remember anyone in particular from the driver list last time?",
+          "ts": "2020-04-26 10:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sorry, I don\u2019t recall specific drivers unless you\u2019d like me to search for repeat names in this list.",
+          "ts": "2020-04-26 10:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's skip that for now. Is there a way to flag duplicate car IDs?",
+          "ts": "2020-04-26 10:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can run a check for any duplicate car IDs before finalizing the spreadsheet.",
+          "ts": "2020-04-26 10:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Data integrity is key!",
+          "ts": "2020-04-26 10:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely. I\u2019ll ensure there are no repeat car IDs.",
+          "ts": "2020-04-26 10:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "How will you handle typos in the driver names?",
+          "ts": "2020-04-26 10:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll pull them as entered, but can do a spell check if you want.",
+          "ts": "2020-04-26 10:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "For now, no spell check needed. Let's keep to the original data.",
+          "ts": "2020-04-26 10:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood! The Excel file will reflect exactly what's in the PDF.",
+          "ts": "2020-04-26 10:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That works. What's your favorite way to organize files on a computer?",
+          "ts": "2020-04-26 10:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Organizing by date and project is often best for quick access.",
+          "ts": "2020-04-26 10:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the tip! I'll check back soon to see the file.",
+          "ts": "2020-04-26 10:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I'll update you as soon as the listing is ready!",
+          "ts": "2020-04-26 10:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just popping by\u2014how\u2019s the project progressing?",
+          "ts": "2020-04-26 10:27",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019m finishing up the filtered car list and Excel file!",
+          "ts": "2020-04-26 10:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let me know if there\u2019s any missing information from the PDF.",
+          "ts": "2020-04-26 10:29",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Will do. If any data is incomplete, I\u2019ll flag it for you.",
+          "ts": "2020-04-26 10:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. That\u2019s all from me for now!",
+          "ts": "2020-04-26 10:31",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Thank you, Bob! I\u2019ll keep you posted with any progress on the car inventory.",
+          "ts": "2020-04-26 10:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Take care\u2014I appreciate your help!",
+          "ts": "2020-04-26 10:33",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Anytime! Enjoy your day, Bob.",
+          "ts": "2020-04-26 10:34",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning! Did you finish the filtered list of cars yesterday?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Yes, the file is ready and sorted. Ready for you to review.",
+          "ts": "2020-04-27 09:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. I want to move forward with some test drives. Can we set up an appointment for the second car on that list?",
+          "ts": "2020-04-27 09:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! When would you like to schedule the test drive for the second car in the list?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s book it for June 15th, from 2:00 PM to 3:00 PM.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sounds good. I will schedule a test drive with the second car's driver on June 15th, from 2 until 3 in the afternoon.",
+          "ts": "2020-04-27 09:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you! Please make sure I get a reminder for that event.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I will ensure the calendar event is added so you have it on June 15th, from 2:00 PM to 3:00 PM.",
+          "ts": "2020-04-27 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! Is there anything special I should bring for a test drive like this?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Usually, just bring your driver\u2019s license, any required paperwork, and your questions for the driver!",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have any tips for evaluating cars during a test drive?",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Pay attention to comfort, noise, handling, brakes, and check all features work as expected!",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do. Do you happen to know what color the second car is?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019ll be able to verify all details in the Excel file. If you\u2019d like, I can check for you.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s okay, I\u2019ll look it up later. By the way, do you think it\u2019s better to drive on city roads or highways for a test drive?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Testing in both environments gives the fullest experience\u2014city for comfort, highway for performance.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, I\u2019ll keep that in mind. How do you stay so organized?",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "My systems are built for quick data retrieval and clear task-tracking\u2014like keeping your schedule tidy!",
+          "ts": "2020-04-27 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have any advice for time management?",
+          "ts": "2020-04-27 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Prioritizing key tasks and using calendar reminders helps a lot!",
+          "ts": "2020-04-27 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever assisted with multiple appointments on the same day?",
+          "ts": "2020-04-27 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! I can help coordinate several meetings in a single day without overlaps.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s impressive. Can you manage recurring events?",
+          "ts": "2020-04-27 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can schedule events that repeat weekly, monthly, or on other intervals if needed.",
+          "ts": "2020-04-27 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe for future car maintenance. For now, just this one event.",
+          "ts": "2020-04-27 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Noted. Only one test drive event to add for June 15th, 2:00 PM to 3:00 PM.",
+          "ts": "2020-04-27 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "By the way, what\u2019s your favorite way to keep track of busy schedules?",
+          "ts": "2020-04-27 09:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I recommend digital calendar tools with color coding!",
+          "ts": "2020-04-27 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend syncing calendars between devices?",
+          "ts": "2020-04-27 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, syncing ensures you have all events and reminders on hand anywhere you go.",
+          "ts": "2020-04-27 09:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good idea. How can I get alerts about the test drive in advance?",
+          "ts": "2020-04-27 09:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I add calendar events with notification times\u2014by default, you\u2019ll receive alerts before the meeting.",
+          "ts": "2020-04-27 09:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Can you update me if anything changes with the schedule?",
+          "ts": "2020-04-27 09:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Any rescheduling or updates will be communicated right away.",
+          "ts": "2020-04-27 09:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there parking available at the test drive site?",
+          "ts": "2020-04-27 09:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "That depends on the venue\u2014let me know if you want me to check for parking info in future events.",
+          "ts": "2020-04-27 09:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe next time. Thanks! Do you ever suggest bringing someone else to a test drive?",
+          "ts": "2020-04-27 09:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It can be helpful\u2014having a friend along might provide a second opinion.",
+          "ts": "2020-04-27 09:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "How long should a typical test drive last?",
+          "ts": "2020-04-27 09:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Most test drives are about an hour, but 30\u201360 minutes is usually sufficient for a thorough evaluation.",
+          "ts": "2020-04-27 09:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend documenting notes during the drive?",
+          "ts": "2020-04-27 09:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely\u2014making notes during or right after helps remember key impressions.",
+          "ts": "2020-04-27 09:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I check the car\u2019s paperwork before or after the drive?",
+          "ts": "2020-04-27 09:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s a good idea to check paperwork (registration, insurance) before driving.",
+          "ts": "2020-04-27 09:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the weather usually like in June around here?",
+          "ts": "2020-04-27 09:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Generally, June is pleasant and warm\u2014perfect for a test drive!",
+          "ts": "2020-04-27 09:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you even go on test drives in the rain?",
+          "ts": "2020-04-27 09:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014actually, that can give extra insight into handling and visibility.",
+          "ts": "2020-04-27 09:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know if the second car is an automatic or manual?",
+          "ts": "2020-04-27 09:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can check that detail in the Excel inventory. Let me know if you want me to look it up.",
+          "ts": "2020-04-27 09:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll check later. Thanks. Why do people schedule test drives instead of just stopping by?",
+          "ts": "2020-04-27 09:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Scheduling ensures the vehicle is ready and the driver is available, making for a smooth process.",
+          "ts": "2020-04-27 09:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. How far in advance should car appointments be scheduled?",
+          "ts": "2020-04-27 09:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Booking several weeks out offers the most options, but a day or two is sometimes possible for less busy times.",
+          "ts": "2020-04-27 09:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! Do you add test drives as public or private calendar events?",
+          "ts": "2020-04-27 09:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Test drives can be set as private calendar events if privacy is needed.",
+          "ts": "2020-04-27 09:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think I should block extra time before or after the event?",
+          "ts": "2020-04-27 09:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Buffer time before and after is helpful in case things run over or you need to prepare.",
+          "ts": "2020-04-27 09:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. Thank you for all your help today!",
+          "ts": "2020-04-27 10:01",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You\u2019re very welcome! Let me know if there\u2019s anything else you need.",
+          "ts": "2020-04-27 10:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just curious\u2014have you ever gone on a test drive yourself?",
+          "ts": "2020-04-27 10:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I haven\u2019t, but I\u2019d love to assist you in planning yours!",
+          "ts": "2020-04-27 10:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha! Maybe someday, if AI gets wheels. Do you know any fun facts about cars?",
+          "ts": "2020-04-27 10:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Here\u2019s one: The world\u2019s first car accident occurred in 1891.",
+          "ts": "2020-04-27 10:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wow! I\u2019ll keep that in mind when driving.",
+          "ts": "2020-04-27 10:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Drive safe and enjoy the test drive!",
+          "ts": "2020-04-27 10:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. I\u2019ll talk to you soon.",
+          "ts": "2020-04-27 10:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Looking forward to it, Bob! Have a great day.",
+          "ts": "2020-04-27 10:11",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hey there! I was checking the car listing in the spreadsheet.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Hi Bob! Did you have any questions about the entries or their details?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I noticed something about the second entry\u2014just wanted to confirm its details.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sure! The details of the second car in 'selected_cars.xlsx' include the driver and the car ID. Would you like to review those specifically?",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, please make sure that the second car belongs to Lisa Brown and her car ID is XY5678.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood. The second entry in the spreadsheet will be listed as Lisa Brown with car ID XY5678.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for clarifying! Accuracy with drivers and car IDs is really important for our records.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely, ensuring driver and vehicle details are correct helps avoid future mix-ups.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just to confirm, do you keep notes somewhere of what each row in the spreadsheet should contain?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "For each row, I make sure to match car ID, mileage, and driver name as you reviewed in the inventory.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep backup copies of the Excel file just in case?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Currently, I have only the main file. Let me know if you want a backup or version history set up.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s fine. By the way, have you ever had a favorite spreadsheet project?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I enjoy organizing lists like your car inventory! It feels great to keep things clear and efficient.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you help organize data for other types of inventories too?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! I work with inventories for office supplies, technology, books, and more. Spreadsheets are versatile.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the most creative way you\u2019ve used Excel so far?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Creating automated dashboards for real-time monitoring is always fun and challenging!",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite Excel shortcut?",
+          "ts": "2020-04-28 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Ctrl+Z to undo is hard to beat, but Ctrl+Shift+L for toggling filters is very useful!",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. If I want to add notes next to each car, can I do that easily?",
+          "ts": "2020-04-28 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely\u2014just let me know where to place your comments and I\u2019ll update the file.",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Right now, clear listings are all I need.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood, the list will remain straightforward, featuring car ID, mileage, and driver name.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know Excel\u2019s limit for the number of rows in a single sheet?",
+          "ts": "2020-04-28 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "In modern Excel, there are over a million rows available per worksheet!",
+          "ts": "2020-04-28 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Wow, that\u2019s plenty for car data. How about columns?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can have up to 16,384 columns in Excel! Loads of room for data.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "What was the original purpose of spreadsheets before computers?",
+          "ts": "2020-04-28 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "People used large paper ledgers to perform calculations and keep business records organized\u2014computers made it much easier!",
+          "ts": "2020-04-28 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Are there any Excel add-ons you\u2019d recommend?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Power Query is fantastic for data cleaning and Power Pivot for complex analysis.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the tip! How do you keep the sheet tidy when it grows?",
+          "ts": "2020-04-28 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Using filters, freezing panes, and color coding headers helps manage large sheets effectively.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think grouping cars by driver is useful?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Grouping by driver can quickly show who\u2019s responsible for which vehicles\u2014let me know if you want to see it!",
+          "ts": "2020-04-28 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "For this project, individual listings are fine.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Got it! I\u2019ll keep each car and driver as a unique row in your file.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I need to contact one of the drivers, can you pull up their info?",
+          "ts": "2020-04-28 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "If their contact information is in the spreadsheet, I can help you locate it.",
+          "ts": "2020-04-28 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Right now, just listing driver names is enough.",
+          "ts": "2020-04-28 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood. Driver names will be shown exactly as listed in the original data.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have any favorite car models?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "As an AI, I don\u2019t have preferences, but EVs are interesting for their innovation!",
+          "ts": "2020-04-28 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good choice. When were electric cars first developed?",
+          "ts": "2020-04-28 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Electric vehicles have been around since the 1800s\u2014they predate gas-powered cars!",
+          "ts": "2020-04-28 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s cool! Have you ever calculated total mileage for a group of cars?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! SUM functions in Excel make total calculations very easy.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think there\u2019s an efficient way to visualize driver assignments?",
+          "ts": "2020-04-28 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A pivot table could help summarize data by driver for an easy overview.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe for a future report. For now, just keep it simple.",
+          "ts": "2020-04-28 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! Your file will remain straightforward and easy to review.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for always making these projects run smoothly.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s my pleasure! Keeping your data clear and useful is my top goal.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could I have you print the spreadsheet if I want a physical copy?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly! Let me know and I\u2019ll prepare a print-friendly version.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "All right. For now let's keep it digital. What's your favorite part of organizing Excel lists?",
+          "ts": "2020-04-28 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I enjoy seeing complex data transformed into clear, actionable lists.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Me too. Can you use formulas to flag high-mileage vehicles?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, conditional formatting or formulas can easily highlight higher-mileage cars.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "No need for this file, but maybe next time.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just let me know if you want that\u2014flexibility is one of Excel\u2019s best features!",
+          "ts": "2020-04-28 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Who invented Excel, do you know?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Microsoft developed and released Excel in the mid-1980s for Macintosh before Windows!",
+          "ts": "2020-04-28 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have there been any major updates recently?",
+          "ts": "2020-04-28 09:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Recent updates have added more automation features and better integration with other apps.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for keeping me informed.",
+          "ts": "2020-04-28 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always happy to keep you up to date!",
+          "ts": "2020-04-28 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it possible to lock rows in Excel to prevent editing?",
+          "ts": "2020-04-28 09:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, you can lock rows with sheet protection to avoid accidental changes.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could you do that for the header row, if I ask?",
+          "ts": "2020-04-28 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! Just tell me when, and I\u2019ll apply the protection.",
+          "ts": "2020-04-28 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe later. For now, let's keep everything editable.",
+          "ts": "2020-04-28 09:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood\u2014the sheet will remain fully editable.",
+          "ts": "2020-04-28 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you. Can you convert the Excel file to another format if needed?",
+          "ts": "2020-04-28 09:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Certainly, I can export the file as CSV, PDF, or other formats upon request.",
+          "ts": "2020-04-28 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'd like to stick with Excel for now. What's the difference between XLSX and XLS?",
+          "ts": "2020-04-28 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "XLSX is the newer, more efficient format\u2014supports more features and larger files than XLS.",
+          "ts": "2020-04-28 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for clarifying. I\u2019ll reach out if I need help with conversions.",
+          "ts": "2020-04-28 09:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always ready to assist! Just let me know your preferences.",
+          "ts": "2020-04-28 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite place to store files for organization?",
+          "ts": "2020-04-28 09:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Organizing by clear folder names for projects and dates is easiest for file management.",
+          "ts": "2020-04-28 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That strategy has kept things tidy. What's the best Excel tip for beginners?",
+          "ts": "2020-04-28 09:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use Ctrl+Z to undo mistakes, and always format headers for quick navigation!",
+          "ts": "2020-04-28 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll share that with colleagues. Thanks for chatting and helping with the listing today!",
+          "ts": "2020-04-28 09:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're welcome, Bob! Enjoy working with your car inventory and let me know if you need adjustments.",
+          "ts": "2020-04-28 09:25",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Good morning! I'd like to check on the details of my upcoming calendar event for the car test drive.",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning, Bob! Would you like to review the event\u2019s title or timing?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, I want to make sure the event title is fully descriptive for the test drive with Lisa Brown and her car.",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Understood. The event title in your calendar will be 'Test Drive with Lisa Brown - CarID: XY5678' to keep it clear and specific.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you, that's perfect! It's important I can recognize which appointment this is right away.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! A clear, descriptive title in your schedule helps prevent confusion.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you choose the best calendar event titles for meetings?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "The best event titles are specific, include the key participants, and important identifying info\u2014like in your test drive appointment.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can I color-code calendar events?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, most calendar apps allow event color-coding so you can visually organize different event types.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's helpful! Do you recommend including phone numbers in the event description?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Including contact info in the event description can be useful, especially for meetings at new locations or with new contacts.",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I set a default reminder for car-related events?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A 30- or 60-minute reminder is typical for appointments like these. You can always adjust for your preferences.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep a backup of my calendar events?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Calendar apps often have backup or sync features as standard\u2014you\u2019re unlikely to lose your events.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's your favorite thing about digital calendars?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I love their convenience: quick event addition, updates, and mobile reminders keep everyone on track!",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could my calendar sync with my phone?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, syncing with your phone is easy\u2014just connect your calendar account in your device settings.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Neat. Could my family see my appointments too?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can make events visible to selected contacts, so family can see if you wish.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should test drives be marked as private or public?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Private is better for personal appointments\u2014keeps your schedule info confidential.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Do you think adding the car ID helps for future reference?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Including the car ID in the event title makes it much easier to identify and search for the appointment later.",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know any tricks for remembering appointments?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Consistent reminders and concise, specific event titles do the trick!",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it easy to edit calendar events after they\u2019re created?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, updates are simple\u2014just open the event and adjust the time or details as needed.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep logs of changes to my events?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Some calendar systems keep version history. Ask if you need to review past edits!",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the difference between an event and a task in my calendar?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Events are scheduled for a specific time, while tasks are to-do items with or without a deadline.",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend reminders for tasks, too?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! Setting reminders increases the likelihood tasks get done on time.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the best way to stay on top of both events and tasks?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Check your calendar daily, review tasks regularly, and keep titles meaningful for both.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do I block out large portions of time for focused work?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Schedule 'focus blocks' as events and set your status to busy\u2014others will see you're unavailable then.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like that idea! Could you help me implement that another day?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely! Just let me know your preferred times for focus and I'll block them out.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know if calendar apps support attachments?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Some do! If you need to attach files, check if your service allows it or add links in the event description.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you recommend including directions to a test drive location in the event?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Including directions or a map is very helpful, especially for new places.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll try that next time. Thanks! What\u2019s your favorite way to organize recurring events?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Set them to repeat weekly, monthly, or at a custom interval as needed. Easy to manage!",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Could you add emojis to event titles?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes\u2014adding emojis can help visually distinguish events!",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll try that for my next meeting. What event title stands out best for car appointments?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Titles like 'Test Drive with Lisa Brown - CarID: XY5678' are clear and unmistakable!",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that\u2019s the format I\u2019ll stick with!",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Great! This will make your calendar events very easy to identify at a glance.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "How early should I arrive before the test drive appointment?",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Arriving 10-15 minutes early is ideal\u2014it gives you time to prepare and check in.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. I'll plan for that. Do you prefer digital or paper calendars?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Digital calendars are convenient and integrate well with reminders and devices.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "How often do you recommend reviewing your calendar?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Bob"
+        },
+        {
+          "text": "A daily morning review is a great way to stay on top of your schedule.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I block time for car maintenance too?",
+          "ts": "2020-04-29 09:01",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely\u2014maintenance events help prevent missed appointments and keep your car in top shape.",
+          "ts": "2020-04-29 09:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you for the advice and for keeping my appointments organized!",
+          "ts": "2020-04-29 09:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're always welcome, Bob! Let me know whenever you have a scheduling task.",
+          "ts": "2020-04-29 09:04",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Morning! I wanted to double check some details in the selected cars list we\u2019re working on.",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Good morning! What would you like to confirm about the list?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just making sure the details for the first two cars are correct: car AB1234 should have 42,000 miles and driver John Smith; car XY5678 should have 38,200 miles and Lisa Brown.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Confirmed. The details for the selected cars include: (1) AB1234, 42,000 miles, John Smith; (2) XY5678, 38,200 miles, Lisa Brown. More cars could also be listed.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Accurate info is important, especially for low-mileage vehicles.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! I\u2019ll always check and ensure high accuracy for the listed cars and their details.",
+          "ts": "2020-04-30 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "If there's an update to the number of cars, will you let me know?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Definitely. If more cars are added to the selection, I\u2019ll update the spreadsheet and inform you right away.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! And if you spot a car with super low mileage, can you flag it for me?",
+          "ts": "2020-04-30 08:13",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Of course! I\u2019ll highlight any standouts in the file if you\u2019d like to review them quickly.",
+          "ts": "2020-04-30 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s perfect. Out of curiosity, what\u2019s the lowest mileage you\u2019ve ever seen in our records?",
+          "ts": "2020-04-30 08:15",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Sometimes new or demo vehicles have mileage under 1,000 miles\u2014it\u2019s rare but possible!",
+          "ts": "2020-04-30 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "Impressive. Do you prefer listing by ascending or descending mileage?",
+          "ts": "2020-04-30 08:17",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I recommend ascending, so the cars with the least mileage show up at the top.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. What\u2019s your recommendation for verifying odometer readings?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Always check for service records and cross-verify with inspection logs for accuracy.",
+          "ts": "2020-04-30 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good tip. How about keeping the Excel sheet readable\u2014any formatting ideas?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use bold headers, clear columns (Car ID, Mileage, Driver Name), and freeze the top row for navigation.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. Are you able to note when the spreadsheet was last updated?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes. I can add a last-updated date to the top or bottom of the sheet for reference.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Add that, please. By the way, do you like seeing more cars join the list?",
+          "ts": "2020-04-30 08:31",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! It shows the selection is growing and gives more choices for review.",
+          "ts": "2020-04-30 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it easy to remove cars if needed?",
+          "ts": "2020-04-30 08:33",
+          "speaker": "Bob"
+        },
+        {
+          "text": "It\u2019s very simple\u2014I can delete or mark cars as inactive upon your request.",
+          "ts": "2020-04-30 08:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. Can you add comments for cars that stand out for reliability?",
+          "ts": "2020-04-30 08:35",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, I can include a notes column to highlight standout features or vehicles.",
+          "ts": "2020-04-30 08:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's keep comments for later. For now, the basic details are perfect.",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Noted! The file will remain focused on the essential columns for now.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know if John Smith or Lisa Brown have test drive experience with us before?",
+          "ts": "2020-04-30 08:41",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I don\u2019t have a record of past test drives, but that\u2019s a great thing to track in future updates!",
+          "ts": "2020-04-30 08:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe next time! What would you suggest for color-coding mileage ranges?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use green for under 30k, yellow for 30\u201345k, and orange for anything closer to 50k.",
+          "ts": "2020-04-30 08:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "Clever. And if I want to print the list for a meeting?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ll format it for printing\u2014clear fonts and page breaks make it easy to read.",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you. By the way, what\u2019s the most important thing to check before picking a car to review?",
+          "ts": "2020-04-30 08:51",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Mileage and maintenance records are key. Also, ensure the driver is available for questions.",
+          "ts": "2020-04-30 08:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "Should I filter by driver or mileage first if comparing?",
+          "ts": "2020-04-30 08:53",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Usually by mileage\u2014then by driver if you want to know who manages vehicles best.",
+          "ts": "2020-04-30 08:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend a digital or physical file for archiving this info?",
+          "ts": "2020-04-30 08:56",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Digital files are easier to back up and update, but you can print hard copies for records too.",
+          "ts": "2020-04-30 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the largest car list you\u2019ve ever handled?",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I\u2019ve helped manage lists of hundreds before, but Excel scales to thousands!",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Impressive. Can you export the car list as a CSV if needed?",
+          "ts": "2020-04-30 09:03",
+          "speaker": "Bob"
+        },
+        {
+          "text": "No problem! I can export to CSV or other formats as you prefer.",
+          "ts": "2020-04-30 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for always being flexible. If I want to share with others, is Excel best?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Excel is highly shareable\u2014CSV works well if the recipients don\u2019t use spreadsheets often.",
+          "ts": "2020-04-30 09:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great info. How do you keep files organized?",
+          "ts": "2020-04-30 09:10",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Folders by project and date are best. I always use meaningful file names too.",
+          "ts": "2020-04-30 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your advice for updating the file if new cars are added?",
+          "ts": "2020-04-30 09:13",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Just let me know the new entries, and I\u2019ll add them in the proper format and order.",
+          "ts": "2020-04-30 09:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "If someone accidentally edits a cell, can you revert it?",
+          "ts": "2020-04-30 09:16",
+          "speaker": "Bob"
+        },
+        {
+          "text": "I recommend enabling version history. That way, it\u2019s easy to restore a previous version.",
+          "ts": "2020-04-30 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! Can I search for a driver\u2019s name in Excel quickly?",
+          "ts": "2020-04-30 09:19",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Use Ctrl+F to find any name or value instantly in the sheet.",
+          "ts": "2020-04-30 09:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Handy trick! Is there a record of when a car was last serviced in the list?",
+          "ts": "2020-04-30 09:21",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Not in this version, but we can add a column for that if you\u2019d like.",
+          "ts": "2020-04-30 09:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s keep it simple for now. Thanks for being on top of this.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "Bob"
+        },
+        {
+          "text": "My pleasure! Let me know if you want more details later.",
+          "ts": "2020-04-30 09:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just curious, can Excel highlight duplicate values?",
+          "ts": "2020-04-30 09:26",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes! Conditional formatting can highlight duplicates for review.",
+          "ts": "2020-04-30 09:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "What if I want to lock certain rows?",
+          "ts": "2020-04-30 09:30",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You can use worksheet protection to lock important rows, like headers.",
+          "ts": "2020-04-30 09:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you set up an automated mileage alert?",
+          "ts": "2020-04-30 09:33",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Yes, with a simple formula or conditional formatting, we can highlight when a car approaches a set mileage.",
+          "ts": "2020-04-30 09:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perhaps another time. For now, the current list is fine.",
+          "ts": "2020-04-30 09:35",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Absolutely! The essentials are covered and your file is up to date.",
+          "ts": "2020-04-30 09:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite way to browse or visualize large lists?",
+          "ts": "2020-04-30 09:38",
+          "speaker": "Bob"
+        },
+        {
+          "text": "Using Excel\u2019s filter and sort features is very effective for large lists.",
+          "ts": "2020-04-30 09:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll explore those more. Thanks again for all your help this week!",
+          "ts": "2020-04-30 09:41",
+          "speaker": "Bob"
+        },
+        {
+          "text": "You're very welcome, Bob! Let me know whenever you need updates or new features.",
+          "ts": "2020-04-30 09:42",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

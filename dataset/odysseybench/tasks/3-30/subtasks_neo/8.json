@@ -1,0 +1,101 @@
+{
+    "task": "Create an Excel spreadsheet named 'team_roster.xlsx' in the data directory. The file should contain a table of team members with three columns: 'Name', 'Role', and 'Start Date'. Enter the following members in this order: Alice (Project Manager, 2020-04-01), Bob (Developer, 2020-04-05), Carol (Designer, 2020-04-07). Make sure the header row is present and matches the required column names. Populate the rows with the corresponding data as described.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/team_roster.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_roster.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Name"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Role"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "value": "Start Date"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Alice"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "Project Manager"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "2020-04-01"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Bob"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "Developer"
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": "2020-04-05"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Carol"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "Designer"
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "value": "2020-04-07"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create an Excel spreadsheet listing the team members along with their roles and start dates. Name the file appropriately and include the required columns and entries.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output Excel file must be named 'team_roster.xlsx' and saved in the data directory."
+        },
+        {
+            "fact": "The spreadsheet should have three columns: 'Name', 'Role', and 'Start Date', with the header as the first row."
+        },
+        {
+            "fact": "The first team member is Alice, with the role Project Manager and start date 2020-04-01; she should be on the second row."
+        },
+        {
+            "fact": "Bob is the second team member, his role is Developer, and his start date is 2020-04-05; enter him on the third row."
+        },
+        {
+            "fact": "Carol is the third team member, her role is Designer, and her start date is 2020-04-07; she should appear on the fourth row."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

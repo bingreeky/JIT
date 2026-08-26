@@ -1,0 +1,27 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "add utilities fee $300 to budget excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/company_budget.xlsx",
+        "matches": [
+          {
+            "row": "5",
+            "col": "1",
+            "value": "utilities fee"
+          },
+          {
+            "row": "5",
+            "col": "2",
+            "value": "300"
+          }
+        ]
+      }
+    }
+  ]
+}

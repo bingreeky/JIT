@@ -1,0 +1,42 @@
+{
+    "task": "Update the existing salary.xlsx file by adding a new row at the end for a 'commission' compensation component with an amount of 50000. Ensure the header and format remain consistent.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/salary.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "commission"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "50000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the salary spreadsheet to include recent compensation information.",
+    "ground_truth_memory": [
+        {
+            "fact": "A new compensation component 'commission' should be added as a new row in salary.xlsx."
+        },
+        {
+            "fact": "The amount for 'commission' should be 50000."
+        },
+        {
+            "fact": "The new row for 'commission' should appear after the existing rows in the file (as row 5)."
+        },
+        {
+            "note": "Header and formatting must remain consistent with the original file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,50 @@
+{
+    "task": "Create a new Word file named 'cafe_story.docx'. Add the content from random_paragraph.txt to this file. Additionally, insert the title 'A Tranquil Oasis' at the top of the document before the paragraph content.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/cafe_story.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "./data/cafe_story.docx",
+                "keywords": [
+                    "A Tranquil Oasis"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "./data/cafe_story.docx",
+                "keywords": [
+                    "In the heart of the bustling city",
+                    "a small café stood as a tranquil oasis amidst the chaos",
+                    "the aroma of freshly brewed coffee",
+                    "Outside, the city buzzed with activity"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Transfer the content from the provided text file to a new Word document, and be sure to include a title.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new Word file to be created should be named cafe_story.docx."
+        },
+        {
+            "fact": "Insert the title 'A Tranquil Oasis' at the top of the document, before adding any paragraph content."
+        },
+        {
+            "fact": "Add the full content from random_paragraph.txt after the title in the new Word file."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,521 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! Can you help me prep some of our reports today?",
+          "ts": "2020-04-26 08:05",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice. Sure, which reports are we focusing on this morning?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "agent"
+        },
+        {
+          "text": "The main one is the Quadrex Hardware financial spreadsheet\u2014the latest version.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "user"
+        },
+        {
+          "text": "Got it. I'll bring up the Quadrex Hardware financial report. Anything specific that changed recently?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, there was a management decision to change the required rate of return.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "user"
+        },
+        {
+          "text": "Alright, do you have the new rate we should use?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "agent"
+        },
+        {
+          "text": "Set it to 0.12, as per the most recent meeting. That\u2019s management\u2019s new directive.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Thank you, Alice. I\u2019ve taken note that the required rate of return will be 0.12 from now on.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. For everything else in the report, I think the assumptions stay the same.",
+          "ts": "2020-04-26 08:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Acknowledged. Just updating the required rate of return to 0.12, all other parameters remain, correct?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's right. Let's keep track of this update for documentation purposes, too.",
+          "ts": "2020-04-26 08:19",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, I\u2019ll keep a note about the new rate so we can reference or document it as needed.",
+          "ts": "2020-04-26 08:20",
+          "speaker": "agent"
+        },
+        {
+          "text": "Did you catch the announcement about the cafeteria menu changes?",
+          "ts": "2020-04-26 08:23",
+          "speaker": "user"
+        },
+        {
+          "text": "No, I missed that one. Anything interesting being added?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "agent"
+        },
+        {
+          "text": "They\u2019re supposed to add more vegetarian options this week.",
+          "ts": "2020-04-26 08:25",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s a nice upgrade! Should make lunch more interesting around here.",
+          "ts": "2020-04-26 08:26",
+          "speaker": "agent"
+        },
+        {
+          "text": "I agree. Anyway, please make a reminder about the new required rate of return\u20140.12 per management\u2019s instructions.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "user"
+        },
+        {
+          "text": "Will do. Required rate of return now set at 0.12, as finalized by the management.",
+          "ts": "2020-04-26 08:28",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks! I think there\u2019s a finance team call scheduled later\u2014let\u2019s check if there are more instructions after that.",
+          "ts": "2020-04-26 08:32",
+          "speaker": "user"
+        },
+        {
+          "text": "Sounds good. I\u2019ll be ready to make any additional note or adjustment after the team call if needed.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "agent"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hi, are you ready for our morning finance check-in?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, Alice, I\u2019m ready to assist you today. What\u2019s on our agenda?",
+          "ts": "2020-04-27 09:01",
+          "speaker": "agent"
+        },
+        {
+          "text": "We need to verify the changes from management are reflected in our files.",
+          "ts": "2020-04-27 09:02",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! Which files do you want to review first?",
+          "ts": "2020-04-27 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s start with /testbed/data/financial_report_2.xlsx since there\u2019s a requirement to update the required rate of return.",
+          "ts": "2020-04-27 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood\u2014the Quadrex Hardware financial spreadsheet. Where exactly should this change be applied in that file?",
+          "ts": "2020-04-27 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "It needs to be updated at row 7, column 3. Management was explicit about that.",
+          "ts": "2020-04-27 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Thanks, Alice. I\u2019ll keep in mind: row 7, column 3 for the required rate of return in /testbed/data/financial_report_2.xlsx.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "agent"
+        },
+        {
+          "text": "Right. Having the precise cell location avoids mistakes when updating.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "user"
+        },
+        {
+          "text": "That\u2019s true\u2014cell-specific updates help with accuracy. I\u2019ve made a note for reference.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "agent"
+        },
+        {
+          "text": "Great. Let\u2019s make sure not to touch any other parameters in that section for now.",
+          "ts": "2020-04-27 09:13",
+          "speaker": "user"
+        },
+        {
+          "text": "Copy that: only the required rate of return in row 7, column 3 will be updated, nothing else in that area.",
+          "ts": "2020-04-27 09:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. By the way, did you see the internal newsletter this morning?",
+          "ts": "2020-04-27 09:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I noticed there\u2019s a new section on remote work tips. Did you find it helpful?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "I did! Some good ideas in there, especially for remote collaboration.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "user"
+        },
+        {
+          "text": "Remote teamwork is definitely more productive with the right tools.",
+          "ts": "2020-04-27 09:20",
+          "speaker": "agent"
+        },
+        {
+          "text": "Agreed. Let\u2019s check back on the finance file after lunch, just to ensure we\u2019re fully in sync on the update location.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "user"
+        },
+        {
+          "text": "I\u2019ll be sure to have the cell\u2014row 7, column 3\u2014ready to review post-lunch.",
+          "ts": "2020-04-27 09:23",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks for keeping track. Let\u2019s loop back this afternoon.",
+          "ts": "2020-04-27 09:24",
+          "speaker": "user"
+        },
+        {
+          "text": "Of course, Alice! Ready for anything after our lunch break.",
+          "ts": "2020-04-27 09:25",
+          "speaker": "agent"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Good morning, are you set for working on more spreadsheet updates today?",
+          "ts": "2020-04-28 08:45",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice. Yes, I'm prepared for another day of financial file management. What's on the docket?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "agent"
+        },
+        {
+          "text": "We need to make sure our audit trail is in order for /testbed/data/financial_report_2.xlsx.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely, documentation is essential for these finance updates. What specifically needs to be added?",
+          "ts": "2020-04-28 08:48",
+          "speaker": "agent"
+        },
+        {
+          "text": "Management wants a new note at the very bottom, recording the latest change to the required rate of return.",
+          "ts": "2020-04-28 08:50",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. Do you have the exact text or location for this note?",
+          "ts": "2020-04-28 08:51",
+          "speaker": "agent"
+        },
+        {
+          "text": "Add the following: 'Required rate of return updated to 12% as of 2020-05-01 per management meeting.' The note should be at row 45, column 2.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "user"
+        },
+        {
+          "text": "Got it: insert the provided note at row 45, column 2, bottom of /testbed/data/financial_report_2.xlsx. Thanks for clarifying.",
+          "ts": "2020-04-28 08:54",
+          "speaker": "agent"
+        },
+        {
+          "text": "Exactly. That way, if anyone reviews the changes, it's clear where and when the update occurred.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "user"
+        },
+        {
+          "text": "Makes perfect sense. Transparency and documentation always help with compliance.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "agent"
+        },
+        {
+          "text": "Please don\u2019t forget to specify the meeting date within the note exactly as I gave it.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "user"
+        },
+        {
+          "text": "No problem, I\u2019ll use your exact wording and include the '2020-05-01' date.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. That\u2019s all for the audit trail today.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "user"
+        },
+        {
+          "text": "Understood. Is there anything else you'd like to address in the spreadsheet or in terms of file organization?",
+          "ts": "2020-04-28 09:03",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not on this file for now. We can review the marketing expenses tomorrow.",
+          "ts": "2020-04-28 09:04",
+          "speaker": "user"
+        },
+        {
+          "text": "Alright, I\u2019ll mark marketing for review on our schedule for tomorrow.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "agent"
+        },
+        {
+          "text": "By the way, did you enjoy your coffee this morning?",
+          "ts": "2020-04-28 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes! It was a good start to the day. How about you?",
+          "ts": "2020-04-28 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "Mine was great too\u2014makes early spreadsheets a little easier!",
+          "ts": "2020-04-28 09:08",
+          "speaker": "user"
+        },
+        {
+          "text": "Agreed! I'm ready for any financial documentation you need today.",
+          "ts": "2020-04-28 09:09",
+          "speaker": "agent"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Morning! Hope you\u2019re ready for another productive day.",
+          "ts": "2020-04-29 09:10",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice. I'm definitely ready. Are we continuing with the financial spreadsheet today?",
+          "ts": "2020-04-29 09:11",
+          "speaker": "agent"
+        },
+        {
+          "text": "Yes, let\u2019s review everything we discussed so far\u2014especially any recent edits.",
+          "ts": "2020-04-29 09:12",
+          "speaker": "user"
+        },
+        {
+          "text": "Certainly. Are you referring to the required rate of return update and the added documentation note?",
+          "ts": "2020-04-29 09:14",
+          "speaker": "agent"
+        },
+        {
+          "text": "Exactly. Once all the updates have been made, please ensure all changes are saved back to /testbed/data/financial_report_2.xlsx.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely\u2014I'll make sure that the latest version of the file includes every modification before saving it back to that location.",
+          "ts": "2020-04-29 09:16",
+          "speaker": "agent"
+        },
+        {
+          "text": "That's important. It's easy to forget and lose work otherwise.",
+          "ts": "2020-04-29 09:18",
+          "speaker": "user"
+        },
+        {
+          "text": "I agree. Saving changes promptly avoids confusion and accidental overwrites.",
+          "ts": "2020-04-29 09:19",
+          "speaker": "agent"
+        },
+        {
+          "text": "Let\u2019s not risk having our audit trail go missing!",
+          "ts": "2020-04-29 09:20",
+          "speaker": "user"
+        },
+        {
+          "text": "Noted, Alice. I\u2019ll double-check the saved file for completeness after all edits.",
+          "ts": "2020-04-29 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Thanks. Did you remember to save the team\u2019s weekly status updates yesterday?",
+          "ts": "2020-04-29 09:23",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, those are safely stored on the team drive as well.",
+          "ts": "2020-04-29 09:24",
+          "speaker": "agent"
+        },
+        {
+          "text": "Good! Let\u2019s keep up the good habits. By the way, any news from maintenance about the heating issue?",
+          "ts": "2020-04-29 09:26",
+          "speaker": "user"
+        },
+        {
+          "text": "They sent an update\u2014service should be restored by the end of the day.",
+          "ts": "2020-04-29 09:27",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s a relief! It\u2019s been a bit chilly in here this week.",
+          "ts": "2020-04-29 09:28",
+          "speaker": "user"
+        },
+        {
+          "text": "Agreed. Hopefully tomorrow is much more comfortable.",
+          "ts": "2020-04-29 09:29",
+          "speaker": "agent"
+        },
+        {
+          "text": "Alright, let\u2019s meet again this afternoon for a status review and final save.",
+          "ts": "2020-04-29 09:31",
+          "speaker": "user"
+        },
+        {
+          "text": "Will do, Alice. I\u2019ll be prepared to save and double-check the file location for all edits.",
+          "ts": "2020-04-29 09:32",
+          "speaker": "agent"
+        },
+        {
+          "text": "Perfect. See you then!",
+          "ts": "2020-04-29 09:33",
+          "speaker": "user"
+        },
+        {
+          "text": "See you later!",
+          "ts": "2020-04-29 09:34",
+          "speaker": "agent"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Morning! How are you feeling today?",
+          "ts": "2020-04-30 09:01",
+          "speaker": "user"
+        },
+        {
+          "text": "Good morning, Alice! I\u2019m in top form. How about yourself?",
+          "ts": "2020-04-30 09:02",
+          "speaker": "agent"
+        },
+        {
+          "text": "Pretty good, thanks. I think the sunshine is helping my mood!",
+          "ts": "2020-04-30 09:03",
+          "speaker": "user"
+        },
+        {
+          "text": "Sunny days do make the workday easier! Got any exciting plans for after work?",
+          "ts": "2020-04-30 09:04",
+          "speaker": "agent"
+        },
+        {
+          "text": "Just thinking of some gardening before dinner. What about you?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "user"
+        },
+        {
+          "text": "I'll be assisting with document archiving this evening. Nothing beats a well-organized file system!",
+          "ts": "2020-04-30 09:07",
+          "speaker": "agent"
+        },
+        {
+          "text": "True! I did some organizing myself over the weekend\u2014my desk feels so much better now.",
+          "ts": "2020-04-30 09:09",
+          "speaker": "user"
+        },
+        {
+          "text": "A tidy workspace can boost productivity. Any tips for keeping papers under control?",
+          "ts": "2020-04-30 09:10",
+          "speaker": "agent"
+        },
+        {
+          "text": "A small set of labeled folders works wonders! Do you use a tagging system for digital files?",
+          "ts": "2020-04-30 09:11",
+          "speaker": "user"
+        },
+        {
+          "text": "Absolutely! I rely on date and project-based tags for sorting\u2014makes retrieval fast.",
+          "ts": "2020-04-30 09:13",
+          "speaker": "agent"
+        },
+        {
+          "text": "That\u2019s smart. Oh, did you catch the latest episode of that financial podcast?",
+          "ts": "2020-04-30 09:14",
+          "speaker": "user"
+        },
+        {
+          "text": "Yes, I really enjoyed the segment on remote work trends.",
+          "ts": "2020-04-30 09:15",
+          "speaker": "agent"
+        },
+        {
+          "text": "Same! Some good insights for team collaboration.",
+          "ts": "2020-04-30 09:16",
+          "speaker": "user"
+        },
+        {
+          "text": "Maybe we could use some of their advice in our weekly check-ins!",
+          "ts": "2020-04-30 09:18",
+          "speaker": "agent"
+        },
+        {
+          "text": "Not a bad idea! Always happy to try new productivity tips.",
+          "ts": "2020-04-30 09:19",
+          "speaker": "user"
+        },
+        {
+          "text": "Let\u2019s chat with the rest of the team about it at our next meeting.",
+          "ts": "2020-04-30 09:21",
+          "speaker": "agent"
+        },
+        {
+          "text": "Definitely. By the way, thanks for your help with the recent schedule changes.",
+          "ts": "2020-04-30 09:23",
+          "speaker": "user"
+        },
+        {
+          "text": "My pleasure, Alice. Always here to keep things running smoothly.",
+          "ts": "2020-04-30 09:24",
+          "speaker": "agent"
+        },
+        {
+          "text": "Alright, I\u2019m off to grab a quick coffee before my calls.",
+          "ts": "2020-04-30 09:25",
+          "speaker": "user"
+        },
+        {
+          "text": "Enjoy your coffee, Alice! Let me know if you need anything when you\u2019re back.",
+          "ts": "2020-04-30 09:26",
+          "speaker": "agent"
+        }
+      ]
+    }
+  }
+]

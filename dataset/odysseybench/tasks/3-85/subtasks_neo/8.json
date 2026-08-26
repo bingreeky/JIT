@@ -1,0 +1,54 @@
+{
+    "task": "Add a new survey participant entry to the existing data in survey_responses.xlsx. The new participant should have the following details: Participant ID 31, Age 35, Gender Female, Income 60000, Satisfaction Score 8. Ensure the new entry is added as the next row after the last existing participant. Do not modify any other data in the file.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/survey_responses.xlsx",
+                "matches": [
+                    {
+                        "row": 32,
+                        "col": 1,
+                        "value": "31"
+                    },
+                    {
+                        "row": 32,
+                        "col": 2,
+                        "value": "35"
+                    },
+                    {
+                        "row": 32,
+                        "col": 3,
+                        "value": "Female"
+                    },
+                    {
+                        "row": 32,
+                        "col": 4,
+                        "value": "60000"
+                    },
+                    {
+                        "row": 32,
+                        "col": 5,
+                        "value": "8"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please add a new participant to the survey Excel file.",
+    "ground_truth_memory": [
+        {
+            "note": "The output file to be updated is survey_responses.xlsx in the data folder."
+        },
+        {
+            "note": "Add a new participant as a new row immediately after the last existing participant entry."
+        },
+        {
+            "note": "The new participant's details are: Participant ID 31, Age 35, Gender Female, Income 60000, Satisfaction Score 8."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

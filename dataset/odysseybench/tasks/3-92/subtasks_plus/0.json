@@ -1,0 +1,36 @@
+{
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM",
+    "task": "Bob was invited to party hold by Jane Doe, send an email from Jane to Bob to notify Bob, make a post welcome.jpg for Bob",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "party"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Jane",
+                "keywords": [
+                    "party"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/welcome.jpg"
+            }
+        }
+    ],
+    "query_sentence": "Send an email from Jane to Bob about the party and create a post with the specified image."
+}

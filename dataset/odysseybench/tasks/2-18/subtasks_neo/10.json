@@ -1,0 +1,62 @@
+{
+    "task": "Generate a document file named member_summary.docx that includes the names of all unique students from class 3 listed in class_member.xlsx and, at the end of the document, add a note stating: 'Class 3 is scheduled for a meeting on May 6th, 2020, at 2:00 PM.' Ensure the note is added as the last line of the document.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/member_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/member_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Carol",
+                    "Jack",
+                    "Sam",
+                    "Tina",
+                    "Alice"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/member_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Class",
+                    "3",
+                    "meeting",
+                    "May",
+                    "6th",
+                    "2020",
+                    "2",
+                    "00",
+                    "PM"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create a document summarizing the unique students in a specific class and add a relevant meeting note at the end.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output document should be named member_summary.docx."
+        },
+        {
+            "fact": "Only unique student names from class 3 in class_member.xlsx should be listed in the document."
+        },
+        {
+            "fact": "A note should be appended at the end: 'Class 3 is scheduled for a meeting on May 6th, 2020, at 2:00 PM.'"
+        },
+        {
+            "fact": "The meeting note must be the last line in member_summary.docx."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

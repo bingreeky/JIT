@@ -1,0 +1,442 @@
+{
+  "query": "I'm doing a big wardrobe update for all seasons and have a few specific things I need to find. First, for summer, I'm looking for a pink 'Active Performance Tank Top' from Puma with an average score greater than 4.5. For the transitional Spring/Autumn weather, I need a women's item in light grey that has 'Cloudfoam Stride' in the name and has been well-reviewed, specifically with more than 130 four-star reviews and over 15 three-star reviews. I also need to find a popular camel-colored item from Bosideng with a monthly sales volume of more than 550, and since I need it urgently, the transport time must be less than 2 days. For my feet, I'm after a size 43 'Sunbeam Strider' from Li-Ning with an average score over 4.5 and fewer than 10 one-star reviews. Lastly, I just need a simple summer item from Converse in size XXL.",
+  "ground_truth_products": [
+    {
+      "product_id": "dda780bf",
+      "name": "Women's Active Performance Tank Top",
+      "price": 249.9,
+      "brand": "Puma",
+      "color": "Pink",
+      "size": "XXL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4280
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 435,
+        "distribution": {
+          "5_star": 320,
+          "4_star": 85,
+          "3_star": 20,
+          "2_star": 7,
+          "1_star": 3
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4dc5e9f8",
+      "name": "Women's 'Cloudfoam Stride' Lifestyle Sneakers",
+      "price": 429.0,
+      "brand": "Anta",
+      "color": "Light Grey",
+      "size": "43",
+      "stock_quantity": 288,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 75
+        },
+        {
+          "material": "Nylon",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3215
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 689,
+        "distribution": {
+          "5_star": 525,
+          "4_star": 135,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 4
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "0d4a99f7",
+      "name": "Women's Fleece-Lined Winter Boots",
+      "price": 899.0,
+      "brand": "Bosideng",
+      "color": "Camel",
+      "size": "43",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 25
+        },
+        {
+          "material": "Down",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Zipper Closure, Ribbed Cuffs, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 580,
+        "total": 2450
+      },
+      "rating": {
+        "average_score": 4.72,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 700,
+          "4_star": 150,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "True to size",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "f24c7623",
+      "name": "Women's 'Sunbeam Strider' Retro Running Shoes",
+      "price": 429.9,
+      "brand": "Li-Ning",
+      "color": "Yellow",
+      "size": "43",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 60
+        },
+        {
+          "material": "Nylon",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Reflective Strips, Embroidery",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or bleach. Air dry.",
+      "sales_volume": {
+        "monthly": 158,
+        "total": 2350
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 521,
+        "distribution": {
+          "5_star": 400,
+          "4_star": 90,
+          "3_star": 20,
+          "2_star": 6,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Fujian",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "bfaea6ad",
+      "name": "Converse Women's Summer V-Neck Tee",
+      "price": 229.0,
+      "brand": "Converse",
+      "color": "Camel",
+      "size": "XXL",
+      "stock_quantity": 412,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "V-Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach or iron on print.",
+      "sales_volume": {
+        "monthly": 985,
+        "total": 12450
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 890,
+        "distribution": {
+          "5_star": 750,
+          "4_star": 110,
+          "3_star": 20,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the color is Pink, it is suitable for Summer, the brand is Puma, the average score is greater than 4.5, and the name contains 'Active Performance Tank Top'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Pink",
+          "operator": "equals",
+          "operator_value": "Pink"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "brand",
+          "value": "Puma",
+          "operator": "equals",
+          "operator_value": "Puma"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "name",
+          "value": "Women's Active Performance Tank Top",
+          "operator": "contains",
+          "operator_value": "Active Performance Tank Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products for Women that are suitable for Spring/Autumn, have the color Light Grey, contain 'Cloudfoam Stride' in the name, have more than 130 4-star reviews, and have more than 15 3-star reviews.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Light Grey",
+          "operator": "equals",
+          "operator_value": "Light Grey"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 135,
+          "operator": "greater_than",
+          "operator_value": 130.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 20,
+          "operator": "greater_than",
+          "operator_value": 15.0
+        },
+        {
+          "field": "name",
+          "value": "Women's 'Cloudfoam Stride' Lifestyle Sneakers",
+          "operator": "contains",
+          "operator_value": "Cloudfoam Stride"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Bosideng, the transport time is less than 2 days, the monthly sales volume is more than 550, and the color is Camel.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Bosideng",
+          "operator": "equals",
+          "operator_value": "Bosideng"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 580,
+          "operator": "greater_than",
+          "operator_value": 550.0
+        },
+        {
+          "field": "color",
+          "value": "Camel",
+          "operator": "equals",
+          "operator_value": "Camel"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 1-star reviews is less than 10, the size is 43, the average score is greater than 4.5, the brand is Li-Ning, and the name contains 'Sunbeam Strider'.",
+      "features": [
+        {
+          "field": "rating.distribution.1_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "size",
+          "value": "43",
+          "operator": "equals",
+          "operator_value": "43"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.7,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "brand",
+          "value": "Li-Ning",
+          "operator": "equals",
+          "operator_value": "Li-Ning"
+        },
+        {
+          "field": "name",
+          "value": "Women's 'Sunbeam Strider' Retro Running Shoes",
+          "operator": "contains",
+          "operator_value": "Sunbeam Strider"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Converse, the suitable season is Summer, and the size is XXL.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Converse",
+          "operator": "equals",
+          "operator_value": "Converse"
+        },
+        {
+          "field": "suitable_season",
+          "value": "Summer",
+          "operator": "equals",
+          "operator_value": "Summer"
+        },
+        {
+          "field": "size",
+          "value": "XXL",
+          "operator": "equals",
+          "operator_value": "XXL"
+        }
+      ]
+    }
+  ]
+}

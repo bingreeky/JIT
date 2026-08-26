@@ -1,0 +1,55 @@
+{
+    "task": "Read the transcript grades and generate a new detailed report named academic_transcript_summary.docx that includes a summary section titled 'Academic Performance Overview'. Also, save a PDF version of this report as academic_transcript_summary_pdf_version.pdf. Ensure that the report contains an introduction indicating the report is for Bob, and the summary section lists the total number of courses. Both the .docx and .pdf files should be created in the data directory.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/academic_transcript_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/academic_transcript_summary_pdf_version.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/academic_transcript_summary.docx",
+                "doc_type": "docx",
+                "keywords": [
+                    "Academic",
+                    "Performance",
+                    "Overview",
+                    "Introduction",
+                    "Bob",
+                    "total",
+                    "courses"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a transcript report as both a Word document and a PDF, including a summary and the name Bob.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Word report should be named academic_transcript_summary.docx."
+        },
+        {
+            "fact": "The PDF copy should be saved as academic_transcript_summary_pdf_version.pdf."
+        },
+        {
+            "fact": "Include a report introduction stating the report is for Bob."
+        },
+        {
+            "fact": "Add a summary section titled 'Academic Performance Overview'."
+        },
+        {
+            "fact": "State the total number of courses in the summary section."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

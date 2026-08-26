@@ -1,0 +1,256 @@
+{
+  "query": "I have a last-minute event to attend and need to get a few things delivered quickly. First, I'm looking for a product from Zara in Navy Blue that has a transport time of less than 2. Next, I need something from the brand Bosideng that's suitable for Spring/Autumn weather. To ensure it's a popular choice, I want it to have a monthly sales volume of more than 1800 and over 550 four-star ratings, and it also must have a transport time of less than 2 days. While I'm looking at that brand, I'm also searching for another highly-rated Bosideng item with more than 700 five-star ratings, over 100 four-star ratings, and more than 850 total reviews, which must also have a transport time of less than 2.",
+  "ground_truth_products": [
+    {
+      "product_id": "8489a845",
+      "name": "Men's Navy Waffle Knit Long-Sleeve Top",
+      "price": 349.5,
+      "brand": "Zara",
+      "color": "Navy Blue",
+      "size": "XL",
+      "stock_quantity": 185,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 85
+        },
+        {
+          "material": "Polyester",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 750,
+        "total": 4512
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 288,
+        "distribution": {
+          "5_star": 215,
+          "4_star": 60,
+          "3_star": 8,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "183d95a2",
+      "name": "Men's Urban Explorer Lightweight Down Vest",
+      "price": 899.0,
+      "brand": "Bosideng",
+      "color": "Blue",
+      "size": "XL",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Down",
+          "percentage": 90
+        },
+        {
+          "material": "Nylon",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Non-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Side Pockets, Reflective Strips",
+      "washing_instructions": "Hand wash cold recommended. Do not bleach. Lay flat to dry.",
+      "sales_volume": {
+        "monthly": 1845,
+        "total": 22300
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 4150,
+        "distribution": {
+          "5_star": 3403,
+          "4_star": 581,
+          "3_star": 124,
+          "2_star": 22,
+          "1_star": 20
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "226888ff",
+      "name": "Men's All-Season Tech-Knit Trousers",
+      "price": 649.0,
+      "brand": "Bosideng",
+      "color": "White",
+      "size": "XL",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips, Patchwork",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Cool iron if needed.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 15200
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1890,
+        "distribution": {
+          "5_star": 1450,
+          "4_star": 310,
+          "3_star": 95,
+          "2_star": 20,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Zara, transport time is less than 2, and the color is Navy Blue.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Zara",
+          "operator": "equals",
+          "operator_value": "Zara"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "color",
+          "value": "Navy Blue",
+          "operator": "equals",
+          "operator_value": "Navy Blue"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Bosideng, the monthly sales volume is more than 1800, transport time is less than 2 days, it's suitable for Spring/Autumn, and has more than 550 4-star ratings.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Bosideng",
+          "operator": "equals",
+          "operator_value": "Bosideng"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 1845,
+          "operator": "greater_than",
+          "operator_value": 1800.0
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 581,
+          "operator": "greater_than",
+          "operator_value": 550.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products from the brand Bosideng that have more than 700 5-star ratings, over 850 total reviews, more than 100 4-star ratings, and a transport time of less than 2.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 710,
+          "operator": "greater_than",
+          "operator_value": 700.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 855,
+          "operator": "greater_than",
+          "operator_value": 850.0
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 115,
+          "operator": "greater_than",
+          "operator_value": 100.0
+        },
+        {
+          "field": "brand",
+          "value": "Bosideng",
+          "operator": "equals",
+          "operator_value": "Bosideng"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        }
+      ]
+    }
+  ]
+}

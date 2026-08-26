@@ -1,0 +1,107 @@
+{
+    "task": "1. Create a new Excel file named car_models.xlsx listing three car models (Model A, Model B, Model C) with their corresponding manufacturers (Manufacturer X, Manufacturer Y, Manufacturer Z), and initial stock numbers (10, 15, 8 respectively). 2. Add a new column called 'Reserved' with initial values of 0 for each car. 3. Update the 'Reserved' column for Model B to 2. 4. Finally, update Model C's stock number to 6 to reflect 2 recent sales.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/car_models.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/car_models.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "Model A"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "Manufacturer X"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "10"
+                    },
+                    {
+                        "row": 2,
+                        "col": 4,
+                        "value": "0"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Model B"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "Manufacturer Y"
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": "15"
+                    },
+                    {
+                        "row": 3,
+                        "col": 4,
+                        "value": "2"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Model C"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "Manufacturer Z"
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "value": "6"
+                    },
+                    {
+                        "row": 4,
+                        "col": 4,
+                        "value": "0"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare an Excel file to list several car models, add a reserved column, reserve some cars, and update stock numbers as needed.",
+    "ground_truth_memory": [
+        {
+            "fact": "The Excel file to be created is named car_models.xlsx and should be saved in the data directory."
+        },
+        {
+            "fact": "Three cars to list: Model A, Model B, Model C."
+        },
+        {
+            "fact": "Manufacturers: Model A corresponds to Manufacturer X, Model B to Manufacturer Y, Model C to Manufacturer Z."
+        },
+        {
+            "fact": "Initial stock numbers: Model A - 10, Model B - 15, Model C - 8."
+        },
+        {
+            "fact": "Add a 'Reserved' column to this sheet, setting initial values to 0 for all cars."
+        },
+        {
+            "action_item": "Update the 'Reserved' value for Model B to 2."
+        },
+        {
+            "action_item": "Model C's stock number needs to be changed to 6 to reflect two recent sales."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

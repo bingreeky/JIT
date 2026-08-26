@@ -1,0 +1,31 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "extract title and authors of the paper from pdf file and save in word file named 'paper.docx'",
+  "evaluation": [
+    {
+        "function": "evaluate_file_exist",
+        "args": {
+            "file": "data/paper.docx"
+        }
+    },
+    {
+        "function": "evaluate_contain",
+        "args": {
+            "doc_type": "docx",
+            "file": "./data/paper.docx",
+            "keywords": [
+                "OS-COPILOT",
+                "Zhiyong",
+                "Wu",
+                "Chengcheng",
+                "Han",
+                "Zichen",
+                "Ding"
+            ]
+        }
+    }
+]
+}

@@ -1,0 +1,47 @@
+{
+    "task": "Update the training schedule in /testbed/data/team_training_schedule.xlsx by adding a new row for a training session for a new member named 'Mona' in Section B, with the training time scheduled from 4:00 PM to 6:00 PM. Ensure that Mona appears at the bottom of the list with her details correctly filled in.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_training_schedule.xlsx",
+                "matches": [
+                    {
+                        "row": 14,
+                        "col": 1,
+                        "value": "Mona"
+                    },
+                    {
+                        "row": 14,
+                        "col": 2,
+                        "value": "Section B"
+                    },
+                    {
+                        "row": 14,
+                        "col": 3,
+                        "value": "4:00 PM - 6:00 PM"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Please update the training schedule to include the new member's session details.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new member's name is Mona."
+        },
+        {
+            "fact": "Mona should be assigned to Section B."
+        },
+        {
+            "fact": "Mona's training session is scheduled for 4:00 PM to 6:00 PM."
+        },
+        {
+            "action_item": "Add Mona to the bottom of /testbed/data/team_training_schedule.xlsx with her section and training time."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

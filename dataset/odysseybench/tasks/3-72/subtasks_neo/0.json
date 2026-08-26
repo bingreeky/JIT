@@ -1,0 +1,70 @@
+{
+    "task": "Summarize the key points of the financial meeting detailed in meeting_agenda.pdf into a Word (.docx) file named 'meeting_summary.docx'. The summary should include: (1) the meeting date, time, and facilitator; (2) a list of participants and their roles; (3) the schedule with time, item, and owner; (4) a short summary of 'new business' as stated in the agenda.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/meeting_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/meeting_summary.docx",
+                "keywords": [
+                    "September",
+                    "9",
+                    "11:00",
+                    "Mirjam",
+                    "Nilsson",
+                    "Rajesh",
+                    "Santoshi",
+                    "Graham",
+                    "Barnes",
+                    "Flora",
+                    "Berggren",
+                    "Fiscal",
+                    "year",
+                    "review",
+                    "Vote",
+                    "budget",
+                    "Break",
+                    "Robin",
+                    "Kline",
+                    "advisory",
+                    "committees",
+                    "New",
+                    "Business",
+                    "Recap",
+                    "Programs"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Summarize the main points from the financial meeting agenda PDF into a Word file, focusing on participants, the schedule, and discussion topics.",
+    "ground_truth_memory": [
+        {
+            "fact": "The output file should be named meeting_summary.docx and saved in the root data folder."
+        },
+        {
+            "fact": "The meeting was scheduled for September 9 at 11:00 am."
+        },
+        {
+            "fact": "Mirjam Nilsson was the facilitator and also a participant as Product Designer."
+        },
+        {
+            "fact": "Participants included: Rajesh Santoshi (President), Elizabeth Moore (COO, SEO Strategist), Flora Berggren (CEO), Graham Barnes (VP Marketing), Robin Kline (Product Designer), Mirjam Nilsson (Product Designer), Takuma Hayashi (VP Product), Content Developer (no name listed)."
+        },
+        {
+            "fact": "The agenda schedule included items: Welcome (11:00, Mirjam Nilsson), Fiscal year review (11:05, Flora Berggren), Vote on new secretary (11:15, Rajesh Santoshi), Discuss advisory committees (11:20, Graham Barnes), Vote on budget (11:30, Rowan Murphy), Break (11:40, Robin Kline), New Business (11:45, mirjam Nilsson)."
+        },
+        {
+            "fact": "New Business section cites Recap and Programs, led by Mirjam Nilsson."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

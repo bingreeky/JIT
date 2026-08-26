@@ -1,0 +1,49 @@
+{
+    "task": "Create a summary report in car_summary.docx that lists all cars purchased by Bob, including the car model, date, and price, based on the information from car_trading.xlsx. Also, convert this summary document to summary_report.pdf for record keeping.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/car_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/summary_report.pdf"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/car_summary.docx",
+                "keywords": [
+                    "Bob",
+                    "BMWXS MS0i",
+                    "2024-04-18",
+                    "52000"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Generate a summary of cars Bob has bought and create both a Word document and a PDF report from this data.",
+    "ground_truth_memory": [
+        {
+            "fact": "The report must include only cars where Bob is the Buyer."
+        },
+        {
+            "fact": "The summary should have: Car Model, Date, and Price for Bob's purchases."
+        },
+        {
+            "fact": "The output docx filename should be car_summary.docx."
+        },
+        {
+            "fact": "The converted PDF filename should be summary_report.pdf."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

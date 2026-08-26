@@ -1,0 +1,64 @@
+{
+    "task": "1. Create a new Excel file named 'trading_summary.xlsx' summarizing total buys and total sells from the company trading records. 2. Prepare a brief summary report as a Word document named 'trading_summary_report.docx' which includes key points: total buy amount, total sell amount, and highest-value item traded. 3. Send an email to the finance manager with the Word summary attached. The email should state that the summary is based on extracted trading records and highlight the highest-value transaction in the body.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "./data/trading_summary.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "./data/trading_summary_report.docx",
+                "keywords": [
+                    "total buy amount",
+                    "total sell amount",
+                    "highest-value item"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "trading summary",
+                    "finance manager",
+                    "highest-value transaction"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "email",
+                "username": "Bob",
+                "keywords": [
+                    "trading_summary_report.docx"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Prepare a summary and send the trading information to the finance manager.",
+    "ground_truth_memory": [
+        {
+            "info": "The trading summary Excel file should be named 'trading_summary.xlsx' and include totals: one row for total buys, another for total sells."
+        },
+        {
+            "info": "The Word report must be saved as 'trading_summary_report.docx' and should include the total buy amount, total sell amount, and mention which item had the highest value transaction."
+        },
+        {
+            "info": "The finance manager is the intended recipient of the summary email and the Word summary must be attached."
+        },
+        {
+            "info": "The email should state in its body that the summary is based on extracted trading records, and highlight which transaction (item) had the highest value."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

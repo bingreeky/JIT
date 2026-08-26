@@ -1,0 +1,355 @@
+{
+  "query": "I'm getting all my gear together for some upcoming spring activities and need to order a few things quickly. First, I'm looking for a popular Puma product in size M. It has to ship fast, so the transport time must be less than 2. To make sure it's in stock and well-regarded, it needs a stock quantity over 350 and more than 800 total reviews. Speaking of Puma, I also want to get the specific 'Puma Cali Dream Metallic Sneaker' in Silver. It must have a stock quantity greater than 250 and more than 1200 total reviews. For my more rugged outings, I need a best-selling item from Salomon for women, in size M and the color Black, with a total sales volume over 15,000. Lastly, I need something from Columbia for the Spring/Autumn season that also has a transport time of less than 2 and more than 50 three-star ratings.",
+  "ground_truth_products": [
+    {
+      "product_id": "0f90becb",
+      "name": "Puma Women's Essential Summer Tank Top",
+      "price": 189.9,
+      "brand": "Puma",
+      "color": "Khaki",
+      "size": "M",
+      "stock_quantity": 450,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 7800
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 955,
+        "distribution": {
+          "5_star": 780,
+          "4_star": 125,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Good value for money",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "10d7d36d",
+      "name": "Puma Cali Dream Metallic Sneaker",
+      "price": 649.9,
+      "brand": "Puma",
+      "color": "Silver",
+      "size": "38",
+      "stock_quantity": 258,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Patchwork, Reflective Strips",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Avoid direct sunlight when drying.",
+      "sales_volume": {
+        "monthly": 730,
+        "total": 8950
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1245,
+        "distribution": {
+          "5_star": 900,
+          "4_star": 250,
+          "3_star": 60,
+          "2_star": 20,
+          "1_star": 15
+        }
+      },
+      "review_summary": [
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "1a4f7efe",
+      "name": "Women's Wayfarer All-Season Trekking Bottoms",
+      "price": 899.0,
+      "brand": "Salomon",
+      "color": "Black",
+      "size": "M",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips",
+      "washing_instructions": "Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Do not iron.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 15500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1620,
+        "distribution": {
+          "5_star": 1380,
+          "4_star": 190,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Excellent quality",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "812d64c7",
+      "name": "Women's Trailblazer Waterproof Hiking Shoes",
+      "price": 849.9,
+      "brand": "Columbia",
+      "color": "Orange",
+      "size": "38",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 60
+        },
+        {
+          "material": "Polyester",
+          "percentage": 35
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Reflective Strips, Patchwork, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash. Air dry away from direct sunlight.",
+      "sales_volume": {
+        "monthly": 352,
+        "total": 4281
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 806,
+          "4_star": 230,
+          "3_star": 58,
+          "2_star": 35,
+          "1_star": 23
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Puma, transport time is less than 2, total reviews is more than 800, stock quantity is greater than 350, and the size is M.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Puma",
+          "operator": "equals",
+          "operator_value": "Puma"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 815,
+          "operator": "greater_than",
+          "operator_value": 800.0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 358,
+          "operator": "greater_than",
+          "operator_value": 350.0
+        },
+        {
+          "field": "size",
+          "value": "M",
+          "operator": "equals",
+          "operator_value": "M"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Puma, the name is 'Puma Cali Dream Metallic Sneaker', the color is Silver, it has more than 1200 total reviews, and the stock quantity is greater than 250.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Silver",
+          "operator": "equals",
+          "operator_value": "Silver"
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 1245,
+          "operator": "greater_than",
+          "operator_value": 1200.0
+        },
+        {
+          "field": "stock_quantity",
+          "value": 258,
+          "operator": "greater_than",
+          "operator_value": 250.0
+        },
+        {
+          "field": "brand",
+          "value": "Puma",
+          "operator": "equals",
+          "operator_value": "Puma"
+        },
+        {
+          "field": "name",
+          "value": "Puma Cali Dream Metallic Sneaker",
+          "operator": "equals",
+          "operator_value": "Puma Cali Dream Metallic Sneaker"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Salomon, the color is Black, the target demographic is Women, the total sales volume is more than 15000, and the size is M.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Salomon",
+          "operator": "equals",
+          "operator_value": "Salomon"
+        },
+        {
+          "field": "color",
+          "value": "Black",
+          "operator": "equals",
+          "operator_value": "Black"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "sales_volume.total",
+          "value": 15500,
+          "operator": "greater_than",
+          "operator_value": 15000.0
+        },
+        {
+          "field": "size",
+          "value": "M",
+          "operator": "equals",
+          "operator_value": "M"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the brand is Columbia, there are more than 50 3-star ratings, and the suitable season is Spring/Autumn.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "brand",
+          "value": "Columbia",
+          "operator": "equals",
+          "operator_value": "Columbia"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 58,
+          "operator": "greater_than",
+          "operator_value": 50.0
+        },
+        {
+          "field": "suitable_season",
+          "value": "Spring/Autumn",
+          "operator": "equals",
+          "operator_value": "Spring/Autumn"
+        }
+      ]
+    }
+  ]
+}

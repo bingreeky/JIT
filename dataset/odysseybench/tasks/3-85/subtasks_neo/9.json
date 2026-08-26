@@ -1,0 +1,57 @@
+{
+    "task": "1. Add a new participant row to the 'survey_responses.xlsx' file with the following details: Age: 29, Gender: Female, Income: 62500, Satisfaction Score: 8. 2. Make sure the 'Participant ID' for the new entry is the next available integer after the last current ID. 3. Save the updated file, overwriting the original 'survey_responses.xlsx'.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/survey_responses.xlsx",
+                "matches": [
+                    {
+                        "row": 32,
+                        "col": 1,
+                        "value": "31"
+                    },
+                    {
+                        "row": 32,
+                        "col": 2,
+                        "value": "29"
+                    },
+                    {
+                        "row": 32,
+                        "col": 3,
+                        "value": "Female"
+                    },
+                    {
+                        "row": 32,
+                        "col": 4,
+                        "value": "62500"
+                    },
+                    {
+                        "row": 32,
+                        "col": 5,
+                        "value": "8"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add a new participant to the end of the survey Excel file using the provided details and update the file accordingly.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new participant to add has Age: 29, Gender: Female, Income: 62500, Satisfaction Score: 8."
+        },
+        {
+            "action_item": "Insert the new participant details as a new row at the end of the existing data in 'survey_responses.xlsx'."
+        },
+        {
+            "action_item": "The new row must have the next available 'Participant ID' as the first column value."
+        },
+        {
+            "action_item": "Overwrite the original 'survey_responses.xlsx' file when saving the updated data."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

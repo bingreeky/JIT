@@ -1,0 +1,1801 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Good morning! Are you available for a project discussion?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good morning! I'm always available. What would you like to discuss today?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I've got some files in /testbed/data for an upcoming task. They're business card images.",
+          "ts": "2020-04-26 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Noted! Do you want me to focus on any specific images?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes. The images are named Bob_card.png, John_card.jpg, and Tom_card.png.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Thanks for providing the names. I'll keep Bob_card.png, John_card.jpg, and Tom_card.png in mind.",
+          "ts": "2020-04-26 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. I haven't finalized the task details yet, but knowing which files to use will help.",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood. Let me know when you're ready to share more specifics about what you'd like done.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are you able to process both PNG and JPG formats?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can process PNG and JPG formats, so all three files will work.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "That should make things easier then. Do you have a preferred OCR engine?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'm compatible with several OCR engines but usually start with Tesseract unless you specify otherwise.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's fine. Tesseract should be suitable for this job.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Great! Have you checked the image quality of Bob_card.png, John_card.jpg, and Tom_card.png?",
+          "ts": "2020-04-26 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, all three are clear. They're cropped and not distorted.",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Excellent. Good quality images will make OCR extraction much more reliable.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm glad to hear that. How do you recommend organizing extracted contact info in Excel?",
+          "ts": "2020-04-26 08:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Typically, I use columns for name, phone, email, and company. Is that what you'd like?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds great, but let's finalize everything once I have all the requirements.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely. I\u2019ll wait for your instructions regarding the format and content.",
+          "ts": "2020-04-26 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a max file size for images that could cause issues with OCR?",
+          "ts": "2020-04-26 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "OCR works best with images under 10MB. Larger files can be slower but aren't usually a problem.",
+          "ts": "2020-04-26 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "All right, these are much smaller than that. Do you want me to check DPI?",
+          "ts": "2020-04-26 08:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If they're clear visually, DPI shouldn't be an issue, but 300 DPI is optimal for OCR.",
+          "ts": "2020-04-26 08:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the tip. I'll keep that in mind for future scans.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Happy to help. Anything else you'd like to discuss about document processing?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "Actually, yes. How do you deal with images containing multiple cards at once?",
+          "ts": "2020-04-26 08:29",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If multiple cards are in one image, I can attempt to segment them, but individual files are more reliable.",
+          "ts": "2020-04-26 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense. These three files each have one card.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Perfect. That should make extraction straightforward.",
+          "ts": "2020-04-26 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you need any templates from me for the Excel output?",
+          "ts": "2020-04-26 08:33",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If you have a specific template, it can help, but I can generate a typical contact spreadsheet myself.",
+          "ts": "2020-04-26 08:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's wait until I confirm the columns needed.",
+          "ts": "2020-04-26 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That's fine. I'll stand by for your decision.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Aside from names and emails, do you recommend including additional fields?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Some users like to include job titles, addresses, or notes, but it depends on your requirements.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll consider that. Are you able to pick up website URLs if they're present?",
+          "ts": "2020-04-26 08:41",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can extract website URLs from cards if they're clear enough.",
+          "ts": "2020-04-26 08:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. How are you at reading small font sizes?",
+          "ts": "2020-04-26 08:43",
+          "speaker": "Alice"
+        },
+        {
+          "text": "OCR works well with fonts as small as 6pt, but clarity depends on the image resolution.",
+          "ts": "2020-04-26 08:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Have you ever processed handwritten cards?",
+          "ts": "2020-04-26 08:45",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can process printed text more reliably. Handwritten text is more prone to errors.",
+          "ts": "2020-04-26 08:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's expected. These cards are all printed.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Great! That should ensure accurate extraction.",
+          "ts": "2020-04-26 08:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever encounter images with watermarks that hinder reading?",
+          "ts": "2020-04-26 08:49",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Watermarks can interfere. If you anticipate any, let me know.",
+          "ts": "2020-04-26 08:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "No watermarks this time.",
+          "ts": "2020-04-26 08:51",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That simplifies things.",
+          "ts": "2020-04-26 08:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want to see the raw images or just work from the paths?",
+          "ts": "2020-04-26 08:53",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Paths are sufficient for processing, unless you'd like to do some pre-checks.",
+          "ts": "2020-04-26 08:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll pass on the paths then. All are in /testbed/data.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Got it. Bob_card.png, John_card.jpg, and Tom_card.png located in /testbed/data.",
+          "ts": "2020-04-26 08:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "Out of curiosity, how long does OCR typically take for a card?",
+          "ts": "2020-04-26 08:57",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Usually a few seconds per image, depending on complexity and text amount.",
+          "ts": "2020-04-26 08:58",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's efficient! Can you process a batch, or just one at a time?",
+          "ts": "2020-04-26 08:59",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can process images in batch or individually, whichever you prefer.",
+          "ts": "2020-04-26 09:00",
+          "speaker": "AI"
+        },
+        {
+          "text": "Batch would be useful for the next steps.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure thing. I'll prepare for batch processing once you share the task details.",
+          "ts": "2020-04-26 09:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "I appreciate it.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You\u2019re welcome! Anything else while we\u2019re at it?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not related to the cards, but how are you with parsing PDFs?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can extract text and tables from PDFs as well as images.",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's useful. I might have a PDF project in the future.",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Let me know whenever you're ready. I handle scanned and text-based PDFs.",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "When processing PDFs, do you retain the original formatting?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I do my best, but complex layouts may lose some formatting in extraction.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "I understand. How about Excel: do you support formula calculations post-import?",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can add basic formulas as needed in Excel files.",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's reassuring. Can you generate charts in Excel if asked?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can create common charts such as bar and line charts in Excel.",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. Are you able to append data to an existing spreadsheet without overwriting?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can append rows or add new sheets to an existing file.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Stacks up nicely against most office tools.",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I strive to be as versatile as possible!",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you take requests for custom scripting, like macros in Excel?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can create simple formulas, but for macros or VBA you'd need a specialist.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. Have you ever imported contacts into an address book directly?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can format output for address book import but don't connect directly to address book apps.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "That works. Can you export to CSV for this purpose?",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Definitely. CSV is well supported.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome! I\u2019m wrapping up for now\u2014just needed to check in on these preparatory points.",
+          "ts": "2020-04-26 09:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Noted. Whenever you're ready, I'm at your service.",
+          "ts": "2020-04-26 09:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, I'll finalize the requirements and chat later today or tomorrow.",
+          "ts": "2020-04-26 09:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sounds like a plan. Have a good rest of your morning!",
+          "ts": "2020-04-26 09:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "You too! I'll be in touch.",
+          "ts": "2020-04-26 09:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Looking forward to it!",
+          "ts": "2020-04-26 09:31",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Hello again! Ready to talk more about the business card project?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! Let me know how you'd like to proceed.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I've started thinking about the final output, and I have a detail to clarify.",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Of course. Please share the detail\u2014you have my full attention.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Tom's contact details shouldn't be included in the Excel output when we process the business cards.",
+          "ts": "2020-04-27 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood. Tom's information will be excluded from the final Excel output.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great, thanks for confirming. Only the other contacts will be listed.",
+          "ts": "2020-04-27 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Exactly. I'll make sure to leave out Tom's details as we process the cards.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you want me to remove his image from the folder, or just ignore it during extraction?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "No need to remove it\u2014I can simply ignore Tom's card (Tom_card.png) during extraction.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "All right. Is there a simple way for you to skip a file when batch processing?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can specify files to process and easily skip Tom_card.png.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. Do you ever mark files you skip for reference?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can log skipped files if you'd like, but otherwise I just exclude them from processing.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just exclude is fine. Thanks for being so thorough.",
+          "ts": "2020-04-27 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You're welcome! Let me know if there are any other exclusions or special rules.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Right now, that's the only exclusion. I'll ping if I've got more.",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Got it. I'll keep an eye on your messages in case anything changes.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "On another topic, how do you handle partially illegible text on cards?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If text is unreadable, I flag those entries for manual review. It helps keep data accurate.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does OCR confidence vary much between different cards?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, it does. Factors like font, color contrast, and card quality can all influence OCR confidence.",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you report uncertainty in extractions?",
+          "ts": "2020-04-27 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can highlight uncertain fields or flag them in the output for review.",
+          "ts": "2020-04-27 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "That works well. I\u2019ll look out for flagged entries.",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure thing! Do you want notes for flagged or uncertain contact fields in the spreadsheet?",
+          "ts": "2020-04-27 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, that would be helpful\u2014just not for Tom, since he\u2019s excluded.",
+          "ts": "2020-04-27 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood. I'll only include notes for the included contacts, not Tom.",
+          "ts": "2020-04-27 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "How are you configured for email extraction? Some cards might have multiple emails.",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If multiple emails are present, I can list them in a single field separated by semicolons or list them in separate columns.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's go with a single field, semicolon separated for now.",
+          "ts": "2020-04-27 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Will do! I'll use a semicolon to separate email addresses in the output.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you support extracting info from the back side of a card if it\u2019s double-sided?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, provided both sides are scanned. Let me know if any cards have a back image I should look for.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "None of these are double-sided, so extraction should be straightforward.",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That should make the process efficient and simple.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there an easy way to separate personal from work contacts when extracting from cards?",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If the card specifies a business or has a company logo, I treat it as a work contact; otherwise, personal.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense, thank you.",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You're welcome! Would you like to talk workflows for any other projects?",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s switch gears a bit. Have you ever processed resumes using OCR?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can parse resumes and extract fields like name, education, experience, and skills.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you generate summaries from the parsed data?",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can create summary tables or bullet-pointed lists from extracted resume data.",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "That can be handy for HR workflows. Have you seen image-based resumes much?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Image-based resumes are less common, but I can process them as long as the text is clear.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the main OCR challenge with resumes?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Complex or creative layouts and inconsistent fonts can make extraction harder.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you handle graphics/photographs in resumes?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I focus on text, but I can note the presence of photos or graphical elements.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "How about table extraction from PDFs?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019m able to extract most tables from PDFs, though complex formatting may need review.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you support exporting tables to Excel?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, extracted tables can be exported as structured Excel data.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good, I\u2019ll keep that in mind for another project.",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Of course! I'm here for any data processing needs.",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Coming back to spreadsheets, can you generate pivot tables if asked?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can create and populate pivot tables in Excel based on your criteria.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's really helpful. Have you worked with survey data imports?",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can import and structure survey data into Excel or other formats, yes.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Awesome. Do you analyze trends in survey data or just structure it?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can do basic trend analysis, such as averages or frequency counts.",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great\u2014sounds like you can do quite a bit!",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I try to be as versatile as possible for all sorts of office automation.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you had experience parsing schedules from calendar PDFs?",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can extract calendar entries and structure them in a table or spreadsheet.",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you handle recurring events?",
+          "ts": "2020-04-27 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can note recurring events, but full pattern recognition may require user review.",
+          "ts": "2020-04-27 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Understood. What's your skill with file conversions\u2014say, PDF to DOCX?",
+          "ts": "2020-04-27 09:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can convert PDFs to Word documents, preserving as much formatting as possible.",
+          "ts": "2020-04-27 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you retain headers and footers?",
+          "ts": "2020-04-27 09:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Simple headers and footers are usually retained, but complex ones may require checking.",
+          "ts": "2020-04-27 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that's helpful.",
+          "ts": "2020-04-27 09:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Let me know if you have more questions about document handling!",
+          "ts": "2020-04-27 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever performed bulk renaming of files?",
+          "ts": "2020-04-27 09:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can automate file renaming based on patterns you specify.",
+          "ts": "2020-04-27 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That could be useful for archiving photos. Are there batch size limits?",
+          "ts": "2020-04-27 09:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Batch renaming works efficiently up to thousands of files, limited only by system resources.",
+          "ts": "2020-04-27 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. Do you ever output logs for file operations?",
+          "ts": "2020-04-27 09:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can create logs of renamed, moved, or deleted files as needed.",
+          "ts": "2020-04-27 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about file format conversions, say JPG to PNG?",
+          "ts": "2020-04-27 09:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can batch-convert images between formats with ease.",
+          "ts": "2020-04-27 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds great. I may need help with digital photo albums soon.",
+          "ts": "2020-04-27 09:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'm ready to assist whenever you're ready!",
+          "ts": "2020-04-27 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Let's wrap up here for now\u2014I'll follow up as needed.",
+          "ts": "2020-04-27 09:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sounds good! I'll be here when you need me next.",
+          "ts": "2020-04-27 09:25",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hi, I want to discuss some details for the card project output.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure, what's on your mind?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I've been thinking about file naming conventions. For this project, I'd like the output Excel file to be named 'team_contacts.xlsx'.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood. I'll make sure the final Excel output is named 'team_contacts.xlsx'.",
+          "ts": "2020-04-28 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks. Consistency helps with future reference.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely, clear naming conventions make workflow easier.",
+          "ts": "2020-04-28 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a process for tracking changes made to files like this?",
+          "ts": "2020-04-28 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can generate a simple change log or add version numbers if needed.",
+          "ts": "2020-04-28 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's good to know for bigger projects. Are file naming rules usually set by the team or the software you use?",
+          "ts": "2020-04-28 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It varies, but usually naming schemes are set based on team preferences and clarity.",
+          "ts": "2020-04-28 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Would adding the date to the file name help versioning?",
+          "ts": "2020-04-28 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Adding dates can be very helpful for tracking, yes. For this project, 'team_contacts.xlsx' will be used per your instruction.",
+          "ts": "2020-04-28 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Is there a max length for file names in Excel?",
+          "ts": "2020-04-28 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "File name length typically shouldn't exceed 218 characters for compatibility, but shorter is always better.",
+          "ts": "2020-04-28 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed. Is it okay to use underscores and dashes in names?",
+          "ts": "2020-04-28 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, underscores and dashes are recommended over spaces for cross-platform compatibility.",
+          "ts": "2020-04-28 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s useful. By the way, do you use any default formats for Excel file outputs?",
+          "ts": "2020-04-28 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I default to .xlsx format unless you specify otherwise.",
+          "ts": "2020-04-28 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Stay with .xlsx for this one. Thanks.",
+          "ts": "2020-04-28 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Noted. The output will be .xlsx as requested.",
+          "ts": "2020-04-28 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it a problem to overwrite an existing file by the same name?",
+          "ts": "2020-04-28 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can either overwrite or create a backup before saving. What's your preference?",
+          "ts": "2020-04-28 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Overwriting is fine for this, since it's just a single deliverable.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood. I'll overwrite any existing 'team_contacts.xlsx' file when saving final data.",
+          "ts": "2020-04-28 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for double-checking. Do you ever alert if a file is already open somewhere else?",
+          "ts": "2020-04-28 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If there's a file access conflict, I'll notify so you can close it first.",
+          "ts": "2020-04-28 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's helpful. Are there any Excel features that sometimes cause compatibility issues?",
+          "ts": "2020-04-28 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Macros, certain formulas, and excessive formatting can cause issues between platforms.",
+          "ts": "2020-04-28 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "We'll keep things simple. Just text fields and maybe some basic headers.",
+          "ts": "2020-04-28 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Simple designs ensure the best compatibility. I'll avoid complex elements.",
+          "ts": "2020-04-28 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you add file properties or metadata to Excel files you create?",
+          "ts": "2020-04-28 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can add file metadata such as title or author if required, but it's not automatic.",
+          "ts": "2020-04-28 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "No need this time. Let's keep it minimal.",
+          "ts": "2020-04-28 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Noted. Minimal, clear output for 'team_contacts.xlsx'.",
+          "ts": "2020-04-28 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "How long does it take you to generate a new Excel file, typically?",
+          "ts": "2020-04-28 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Usually just a few seconds, depending on the amount of data.",
+          "ts": "2020-04-28 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's fast. Can you email me the generated file automatically?",
+          "ts": "2020-04-28 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can prepare the file for sending, but you may need to trigger the actual email for security reasons.",
+          "ts": "2020-04-28 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's fine. I'll handle emails on my end.",
+          "ts": "2020-04-28 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sounds good!",
+          "ts": "2020-04-28 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you generated Excel files for marketing projects?",
+          "ts": "2020-04-28 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I've created Excel files for campaigns, contact lists, and analytics in the past.",
+          "ts": "2020-04-28 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you format cells with conditional coloring ever?",
+          "ts": "2020-04-28 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can add conditional formatting if you'd like to highlight certain values.",
+          "ts": "2020-04-28 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Not required for this project, but good to know for the future.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood! I'll keep cell formatting basic for this run.",
+          "ts": "2020-04-28 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you work with protected Excel files, or do they need to be unlocked?",
+          "ts": "2020-04-28 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "For full editing, files should be unlocked; I can read protected files, but not always write to them.",
+          "ts": "2020-04-28 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "All clear. This file will be new, so no worries.",
+          "ts": "2020-04-28 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Perfect. New file, new data. Ready when you are.",
+          "ts": "2020-04-28 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever add auto filters to columns?",
+          "ts": "2020-04-28 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can add auto filters so you can sort and filter columns easily in Excel.",
+          "ts": "2020-04-28 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "That might be handy. Let's skip it for now, though.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Okay! No filters added unless requested.",
+          "ts": "2020-04-28 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for being flexible. Are there any size or row limits in Excel I should keep in mind?",
+          "ts": "2020-04-28 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Excel supports over a million rows, but performance drops with very large files.",
+          "ts": "2020-04-28 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "This list will be small, so we're safe.",
+          "ts": "2020-04-28 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "No problem then. File size won't be an issue.",
+          "ts": "2020-04-28 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you support hyperlinks in Excel cells?",
+          "ts": "2020-04-28 08:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can add hyperlinks to cells, such as website or email links.",
+          "ts": "2020-04-28 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Neat feature! Good to keep in mind for directory projects.",
+          "ts": "2020-04-28 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely. Directories benefit from clickable info.",
+          "ts": "2020-04-28 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you support exporting other formats from Excel, like PDF?",
+          "ts": "2020-04-28 09:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can export Excel files as PDFs on request.",
+          "ts": "2020-04-28 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. We'll just use plain Excel for this task.",
+          "ts": "2020-04-28 09:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You got it. Just let me know if the output format ever changes.",
+          "ts": "2020-04-28 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "You've been very helpful. Let's circle back if I have more to discuss.",
+          "ts": "2020-04-28 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Happy to help, Alice! Reach out anytime.",
+          "ts": "2020-04-28 09:07",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Good morning! I wanted to clarify a column for the contact Excel file.",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good morning! What would you like to clarify?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Please include a company column and set its value as 'Acme Corp' for each included contact.",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood. I'll add a 'company' column with 'Acme Corp' as the value for each contact in the Excel file.",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you. That will help with organization and searching later.",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely. Including a 'company' column will make filtering and look-up much easier.",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it standard to use the same company for all entries if they\u2019re part of the same team?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, it's standard practice to assign the company name to all relevant team members for consistency.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "How do you prefer to structure Excel files for company directories?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Typically, I recommend columns for name, phone, email, company, and any additional categories like department or role.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll stick with just the basics for now. What order do you usually put the columns in?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A typical order is: name, phone, email, company. Would you like that arrangement?",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, that\u2019s perfect, thanks.",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You\u2019re welcome! The company column will have 'Acme Corp' for all contacts included in the file.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will the company column be static text for all, or can it vary per row if needed?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "For this case, it will be static as 'Acme Corp', but it can be customized per row in future tasks.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's clear. How do you handle missing info in other fields?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I usually leave blank cells for missing info or flag them for later review.",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are there benefits to always including a company column?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, including a company column simplifies sorting, searching, and grouping contacts in the future.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense. How about color-coding the company, is that recommended?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Color coding can be helpful for visual organization, especially in large directories, but it\u2019s optional.",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's skip color for now. Are there comma vs period conventions in company names I should be aware of?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Most databases treat commas and periods as standard. For 'Acme Corp', no punctuation needed.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Understood. How do you sort entries by company if they're all the same value?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If all companies are the same, sorting by company won\u2019t change order, but it\u2019s useful if more companies are added in future.",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good point. Do you ever add logo images to Excel for companies?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can insert small logo images into cells, though it increases file size and complexity.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "We'll keep it simple, so just text columns this time.",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Agreed. Simple structure for clarity and ease of use.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you use drop-down lists for company columns ever?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Drop-down lists can prevent entry errors, but aren't needed if all values are the same.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for that tip. How many columns are too many for a practical Excel contact list?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "For most uses, 5-8 columns is ideal. More than that can become unwieldy.",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it. In future, maybe we\u2019ll add more categories, but not this time.",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Easily done any time! For now: name, phone, email, and company columns.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend adding a hidden column for internal notes?",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A hidden notes column can be useful for admin purposes if needed.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll consider that for next time. How are 'text wrap' settings handled by default in Excel?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Excel can wrap text automatically for long entries if it's enabled on the cell.",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good, that's helpful for long email addresses.",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Indeed, text wrapping prevents overflow in a single line.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "What's the default font for new Excel files?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Excel default font is usually Calibri, size 11.",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's fine for this. Do you prefer larger font for visibility?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Calibri 11 offers good readability, but larger font can help in presentations.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "We'll stick with defaults. How do you recommend setting column widths?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I usually auto-size columns to fit their content for best readability.",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's perfect. Do you insert totals at the bottom of contact lists?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Totals make sense for numeric columns but aren\u2019t needed for contact listings.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed. Will the first row be headers?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, the first row will contain the column headers: name, phone, email, company.",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Consistency matters. Thank you!",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You're welcome, Alice. Let me know if you have more preferences for Excel formatting.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "You've answered all my questions for now. This should make the file very usable.",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Glad to hear it! I'll prepare the company column with 'Acme Corp' as discussed.",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds good. I'll review the file once it's ready.",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Looking forward to your feedback! Let me know if anything changes.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Morning! I\u2019ve got a quick detail to finalize regarding the Excel contact file.",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Morning, Alice! What\u2019s the detail you want to cover?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just to confirm, each included contact\u2014Bob and John\u2014should have columns for name, phone, email, and company.",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Confirmed. For Bob and John, I will ensure there are columns for name, phone, email, and company in the Excel file.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect, that\u2019s the structure I want. Thanks for checking.",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "No problem! Clear column structure always helps for future updates and consistency.",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Are there any other fields you think are necessary for this kind of list?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "For most contact lists, name, phone, email, and company are sufficient. More fields can be added as needed.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s go minimal this time. Maybe in future, we\u2019ll expand.",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood. Minimal and clean is the way to go for now.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great. Would you recommend putting email before or after the company column?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Most common arrangement is name, phone, email, then company. Would you like me to use that order?",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yes, that works. Please keep it consistent across both contacts.",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Will do! Both Bob and John will have the same columns in that order.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you separate each contact with a row, or use another format?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Each contact will be in its own row, with the columns you specified.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s perfect. Are columns auto-sized to fit the data?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I\u2019ll auto-size the columns for readability.",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever created lists with more complex structures, like nested information?",
+          "ts": "2020-04-30 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can make more complex structures if needed, such as grouping contacts by department or using multiple sheets.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s avoid that complexity for now.",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understood. Simple is best in this case.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is it necessary to reformat phone numbers in a particular style?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Standardizing phone formats is helpful. I can format as (XXX) XXX-XXXX or similar if you specify.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "We\u2019ll keep them as found for now. Thanks for the advice.",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "No problem. I\u2019ll copy phone numbers as they appear on the cards.",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "If an email address is missing, do you leave the cell blank?",
+          "ts": "2020-04-30 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, if a field is missing, I'll leave the cell empty. Would you prefer a note or just blank?",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just blank is fine.",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Got it. Empty cells for any missing info.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "You mentioned company column earlier\u2014as \u2018Acme Corp\u2019. Please use that for both Bob and John.",
+          "ts": "2020-04-30 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Confirmed. \u2018Acme Corp\u2019 will be the value for the company column for both contacts.",
+          "ts": "2020-04-30 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for recapping. What about the first row\u2014headers?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, the first row will be the headers: name, phone, email, company.",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Do you format headers in bold by default?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I\u2019ll bold the headers for clarity.",
+          "ts": "2020-04-30 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s great. Are there any special characters or accents allowed in the entries?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I support most Unicode characters for names and emails.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good! We might get some accented names in future.",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "No problem at all\u2014ready for internationalization.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever lock columns to prevent edits in Excel?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can lock columns for editing if you need, but defaults will be fully editable.",
+          "ts": "2020-04-30 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Editable is fine for now. What about data validation on email fields?",
+          "ts": "2020-04-30 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can implement basic validation rules, but for this list, I\u2019ll keep it open.",
+          "ts": "2020-04-30 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thank you. What happens if there\u2019s a duplicate?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If duplicates are found, I can flag them or remove as per your process. Only Bob and John will be included in this file, so shouldn\u2019t be an issue.",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Understood. Are sheet names standard or customizable?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Default is \u2018Sheet1\u2019, but I can rename it. Would you like a custom name?",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Just keep defaults today. Thanks for asking.",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Noted. Sheet name will stay as \u2018Sheet1\u2019.",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you use text alignment for better display?",
+          "ts": "2020-04-30 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can center or left-align as needed. Default alignment will be used for clarity.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s ideal. Anything extra added, or just the basics for now?",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Just the basics: name, phone, email, and company for Bob and John.",
+          "ts": "2020-04-30 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for all your help and confirming the details.",
+          "ts": "2020-04-30 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You\u2019re welcome! Final structure for Bob and John will be those four columns, headers bold, ready for review.",
+          "ts": "2020-04-30 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Looking forward to it. Great teamwork!",
+          "ts": "2020-04-30 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Always happy to assist! Let me know if you need anything further.",
+          "ts": "2020-04-30 08:57",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

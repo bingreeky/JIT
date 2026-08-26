@@ -1,0 +1,450 @@
+{
+  "query": "I'm doing a big wardrobe refresh online and have a few very specific items I need to find. First, I’m looking for something from Nike in a purple color, size XL, and I need it quickly, so the transport time must be less than 2 days. I also need a grey item that can arrive in under 2 days, but for this one, I’m looking for quality, so it needs to have fewer than 15 two-star and fewer than 35 three-star reviews. To go with that, I need something in size 38 suitable for all seasons, with an excellent track record of fewer than 10 three-star reviews. Then, I'm searching for some blue 'Platform Sneakers' from the brand Peacebird that have more than 650 five-star reviews and a transport time of less than 5 days. I also need a 'Hoodie' that will arrive in less than 2 days, and I want to see a full range of feedback, so it should have more than 10 two-star and more than 40 three-star reviews. Finally, I’m looking for a popular black 'Silk Blouse' for women with a monthly sales volume of over 100. I'm looking for something that costs somewhere in the range of 11383 to 18153.",
+  "ground_truth_products": [
+    {
+      "product_id": "11b8aedf",
+      "name": "Women's Dri-FIT Long-Sleeve Training Top",
+      "price": 389.0,
+      "brand": "Nike",
+      "color": "Purple",
+      "size": "XL",
+      "stock_quantity": 85,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 550,
+        "total": 4820
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 621,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 120,
+          "3_star": 30,
+          "2_star": 15,
+          "1_star": 6
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4be6d465",
+      "name": "Women's Exploration Long-Sleeve Tee",
+      "price": 449.0,
+      "brand": "The North Face",
+      "color": "Grey",
+      "size": "XL",
+      "stock_quantity": 128,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not iron on print.",
+      "sales_volume": {
+        "monthly": 540,
+        "total": 8950
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 895,
+        "distribution": {
+          "5_star": 720,
+          "4_star": 150,
+          "3_star": 15,
+          "2_star": 5,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "baf69fdc",
+      "name": "Women's Aerios FL 2 GTX Hiking Shoe",
+      "price": 1899.0,
+      "brand": "Arc'teryx",
+      "color": "Gold",
+      "size": "38",
+      "stock_quantity": 125,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 85
+        },
+        {
+          "material": "Spandex",
+          "percentage": 15
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Side Pockets",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or submerge.",
+      "sales_volume": {
+        "monthly": 210,
+        "total": 2540
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 512,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 50,
+          "3_star": 7,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "3c5d78c1",
+      "name": "Women's Azure Wave Platform Sneakers",
+      "price": 429.0,
+      "brand": "Peacebird",
+      "color": "Blue",
+      "size": "38",
+      "stock_quantity": 245,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 70
+        },
+        {
+          "material": "Cotton",
+          "percentage": 20
+        },
+        {
+          "material": "Spandex",
+          "percentage": 10
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Patchwork, Embroidery, Ribbed Cuffs",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not machine wash or submerge in water.",
+      "sales_volume": {
+        "monthly": 850,
+        "total": 7530
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 982,
+        "distribution": {
+          "5_star": 700,
+          "4_star": 210,
+          "3_star": 50,
+          "2_star": 15,
+          "1_star": 7
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "YTO Express"
+      }
+    },
+    {
+      "product_id": "f2bb176f",
+      "name": "Women's Essentials Fleece Hoodie",
+      "price": 429.99,
+      "brand": "Puma",
+      "color": "Blue",
+      "size": "XL",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 70
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Hooded",
+      "suitable_season": "Winter",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Embroidery, Ribbed Cuffs, Side Pockets",
+      "washing_instructions": "Machine wash cold with like colors. Tumble dry low. Do not bleach or use fabric softeners.",
+      "sales_volume": {
+        "monthly": 1520,
+        "total": 8540
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 1120,
+        "distribution": {
+          "5_star": 850,
+          "4_star": 200,
+          "3_star": 50,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Stylish design",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "53c70222",
+      "name": "Women's Pinstripe Silk Blouse",
+      "price": 7800.0,
+      "brand": "Gucci",
+      "color": "Black",
+      "size": "XL",
+      "stock_quantity": 45,
+      "material_composition": [
+        {
+          "material": "Silk",
+          "percentage": 95
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Lapel Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Button-down, Ribbed Cuffs",
+      "washing_instructions": "Dry clean only. Do not bleach. Cool iron.",
+      "sales_volume": {
+        "monthly": 110,
+        "total": 850
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 215,
+        "distribution": {
+          "5_star": 180,
+          "4_star": 25,
+          "3_star": 7,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Stylish design",
+        "Comfortable fabric",
+        "True to size"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the brand is Nike, the color is Purple, and the size is XL.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Nike"
+        },
+        {
+          "field": "color",
+          "value": "Purple"
+        },
+        {
+          "field": "size",
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Grey, the transport time is less than 2, the number of 2-star reviews is less than 15, and the number of 3-star reviews is less than 35.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Grey"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "sub_query": "Show me products where the size is 38, the count of 3-star reviews is less than 10, and it is suitable for All Seasons.",
+      "features": [
+        {
+          "field": "size",
+          "value": "38"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 7
+        },
+        {
+          "field": "suitable_season",
+          "value": "All Seasons"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Peacebird, the color is Blue, the name contains 'Platform Sneakers', the transport time is less than 5 days, and the number of 5-star reviews is more than 650.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 4
+        },
+        {
+          "field": "brand",
+          "value": "Peacebird"
+        },
+        {
+          "field": "color",
+          "value": "Blue"
+        },
+        {
+          "field": "rating.distribution.5_star",
+          "value": 700
+        },
+        {
+          "field": "name",
+          "value": "Women's Azure Wave Platform Sneakers"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, there are more than 40 3-star reviews, more than 10 2-star reviews, and the name contains 'Hoodie'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 50
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12
+        },
+        {
+          "field": "name",
+          "value": "Women's Essentials Fleece Hoodie"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the color is Black, the target demographic is Women, the monthly sales volume is more than 100, and the name contains 'Silk Blouse'.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Black"
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women"
+        },
+        {
+          "field": "sales_volume.monthly",
+          "value": 110
+        },
+        {
+          "field": "name",
+          "value": "Women's Pinstripe Silk Blouse"
+        }
+      ]
+    }
+  ]
+}

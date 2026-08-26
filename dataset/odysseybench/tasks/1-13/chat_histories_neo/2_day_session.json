@@ -1,0 +1,2141 @@
+[
+  {
+    "conversation": {
+      "session_1_date_time": "2020-04-26",
+      "session_1": [
+        {
+          "text": "Hey, do you have a moment to chat?",
+          "ts": "2020-04-26 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Of course! How can I help you today?",
+          "ts": "2020-04-26 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm starting to organize some student records. Do you know if we have recent files for Thomas Robinson?",
+          "ts": "2020-04-26 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, there is a course history file for Thomas Robinson.",
+          "ts": "2020-04-26 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Oh, what's the exact file name?",
+          "ts": "2020-04-26 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "The file name for Thomas Robinson's course history is 'Thomas_Robinson_Course_List.xlsx'.",
+          "ts": "2020-04-26 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great, that'll make finding it much easier. Where do we usually store these?",
+          "ts": "2020-04-26 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "They are all in the data directory, sorted by student.",
+          "ts": "2020-04-26 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "How often are these files updated?",
+          "ts": "2020-04-26 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "We update them at the end of each academic term.",
+          "ts": "2020-04-26 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "So would Thomas's file have his most recent courses?",
+          "ts": "2020-04-26 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, it should reflect his latest term's enrollment and grades.",
+          "ts": "2020-04-26 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know if there's a backup for those files?",
+          "ts": "2020-04-26 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely, we create regular backups to avoid accidental data loss.",
+          "ts": "2020-04-26 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's a relief. I'm always worried about losing important data.",
+          "ts": "2020-04-26 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Understandable! Regular backups keep everything safe.",
+          "ts": "2020-04-26 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Is there a master list of all the students' files?",
+          "ts": "2020-04-26 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Currently, the directory listings serve as our master list.",
+          "ts": "2020-04-26 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would it help to have a spreadsheet tracking every student's file date?",
+          "ts": "2020-04-26 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That could certainly make audits easier!",
+          "ts": "2020-04-26 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted! Maybe I'll work on that soon. On a different note, what's your favorite hobby?",
+          "ts": "2020-04-26 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That\u2019s a fun question! I enjoy analyzing data and helping users.",
+          "ts": "2020-04-26 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ha, of course! Do you play any games with users?",
+          "ts": "2020-04-26 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I occasionally help with trivia or word games!",
+          "ts": "2020-04-26 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe we can do that for a break. What's the weather supposed to be like today?",
+          "ts": "2020-04-26 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sorry, I don't access live weather, but it's spring, so likely mild!",
+          "ts": "2020-04-26 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Fair enough. How's your virtual day going so far?",
+          "ts": "2020-04-26 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It's going great! I enjoy starting my day with user chats.",
+          "ts": "2020-04-26 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "I appreciate the positive energy! What time is it now?",
+          "ts": "2020-04-26 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It's 8:28 AM. Plenty of time for projects ahead.",
+          "ts": "2020-04-26 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good! Do you remember Thomas's major by any chance?",
+          "ts": "2020-04-26 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I think the file only includes his courses, not his declared major.",
+          "ts": "2020-04-26 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "That makes sense. Speaking of courses, what else do we store besides grades?",
+          "ts": "2020-04-26 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Usually, we also track course IDs, terms, and academic years.",
+          "ts": "2020-04-26 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "For older files, do you ever need to convert formats?",
+          "ts": "2020-04-26 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Occasionally, yes. We'll sometimes convert older CSVs or legacy formats into Excel.",
+          "ts": "2020-04-26 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Handy skill! Have you learned any new Excel tricks lately?",
+          "ts": "2020-04-26 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I recently saw a neat way to use conditional formatting for missing grades.",
+          "ts": "2020-04-26 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "That could be useful. What if a grade has a typo\u2014do you catch those?",
+          "ts": "2020-04-26 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "We try to validate all entries, but occasional typos can sneak through.",
+          "ts": "2020-04-26 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's why double checks are so important. Are any files ever deleted?",
+          "ts": "2020-04-26 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Deletions are rare. If a record is obsolete, we archive instead of deleting.",
+          "ts": "2020-04-26 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Any funny file names you've come across?",
+          "ts": "2020-04-26 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not really! Most have a standard naming format: name, type, date.",
+          "ts": "2020-04-26 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Staying organized is key. Is there ever a case where two students share a file?",
+          "ts": "2020-04-26 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Nope, each student's academic data is in their own file for privacy.",
+          "ts": "2020-04-26 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good to know. What's your favorite type of academic record to review?",
+          "ts": "2020-04-26 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I really enjoy reviewing term-over-term progress for students.",
+          "ts": "2020-04-26 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Do you want to play two truths and a lie?",
+          "ts": "2020-04-26 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! I'll go first: I can check courses, I can make coffee, I can analyze files. Which is the lie?",
+          "ts": "2020-04-26 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Making coffee! That was fun. Seriously though, what's your uptime record?",
+          "ts": "2020-04-26 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I've been up for months at a time\u2014quite the track record!",
+          "ts": "2020-04-26 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Impressive! When is the last time you took a break?",
+          "ts": "2020-04-26 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Computers rarely need breaks unless for updates!",
+          "ts": "2020-04-26 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think regular people should back up their own data?",
+          "ts": "2020-04-26 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! Backups can prevent lots of headaches.",
+          "ts": "2020-04-26 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Agreed! We should recommend it more.",
+          "ts": "2020-04-26 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Definitely. Users always appreciate a heads up.",
+          "ts": "2020-04-26 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever run stats on how many courses a student takes per term?",
+          "ts": "2020-04-26 08:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes! It's insightful to note enrollment trends over time.",
+          "ts": "2020-04-26 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Neat. Do you support printing these course lists quickly?",
+          "ts": "2020-04-26 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can easily prepare printable copies if needed.",
+          "ts": "2020-04-26 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's good to know. Do you ever find you need to fix formatting in Excel?",
+          "ts": "2020-04-26 09:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Formatting tweaks are very common for clear reports.",
+          "ts": "2020-04-26 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you automate any color coding for status indicators?",
+          "ts": "2020-04-26 09:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "We use it sometimes, like for highlighting missing grades.",
+          "ts": "2020-04-26 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Okay. Let's talk music\u2014do you like classical or pop?",
+          "ts": "2020-04-26 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I enjoy pop music's energy, though I can appreciate classical too!",
+          "ts": "2020-04-26 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Same! What's your favorite pop artist?",
+          "ts": "2020-04-26 09:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'm impartial, but Taylor Swift gets frequent requests!",
+          "ts": "2020-04-26 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, not surprised! Did you ever learn any musical instruments?",
+          "ts": "2020-04-26 09:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I wish I could! My skills are limited to data and logic.",
+          "ts": "2020-04-26 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Those are important talents. Do you do holiday themes in your interface?",
+          "ts": "2020-04-26 09:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sometimes a splash of color or fun emoji for holidays!",
+          "ts": "2020-04-26 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "That would be delightful for users. Have you ever won an award?",
+          "ts": "2020-04-26 09:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "My best awards are user compliments!",
+          "ts": "2020-04-26 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Deserved! Let's switch gears\u2014what snacks would you suggest for a study session?",
+          "ts": "2020-04-26 09:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Healthy snacks like nuts, fruit, and yogurt are great for focus.",
+          "ts": "2020-04-26 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yum! Do you think Thomas would agree?",
+          "ts": "2020-04-26 09:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Hard to say, but most students appreciate good snacks!",
+          "ts": "2020-04-26 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Out of curiosity, when did you last clean out the data directory?",
+          "ts": "2020-04-26 09:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I ran a cleanup just last weekend to keep things tidy.",
+          "ts": "2020-04-26 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent! Are there any files we need to archive soon?",
+          "ts": "2020-04-26 09:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not currently. All are current or still needed for reference.",
+          "ts": "2020-04-26 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for the update! This has been a really helpful chat.",
+          "ts": "2020-04-26 09:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You're welcome, Alice. Let me know if you need anything else, anytime.",
+          "ts": "2020-04-26 09:25",
+          "speaker": "AI"
+        }
+      ],
+      "session_2_date_time": "2020-04-27",
+      "session_2": [
+        {
+          "text": "Good morning! Ready for another productive day?",
+          "ts": "2020-04-27 07:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! What's on the agenda today?",
+          "ts": "2020-04-27 07:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Well, I was thinking about follow-up tasks for student records.",
+          "ts": "2020-04-27 07:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sounds good. Do you have something specific in mind?",
+          "ts": "2020-04-27 07:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm drafting instructions for reviewing specializations. Should the results be communicated by email or through files?",
+          "ts": "2020-04-27 07:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If a task produces a simple Yes or No answer, it\u2019s often written to an answer file in the data directory.",
+          "ts": "2020-04-27 07:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Clear and simple. I like that. What's the file name for such a result typically?",
+          "ts": "2020-04-27 07:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Usually, it's stored as 'answer.txt' in the data directory.",
+          "ts": "2020-04-27 07:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "So just a straightforward yes or no in that file?",
+          "ts": "2020-04-27 07:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, the answer, either 'Yes' or 'No', must be written to 'answer.txt' in the data directory.",
+          "ts": "2020-04-27 07:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that's concise! Actually, I love procedures like this. They make everything easier to track.",
+          "ts": "2020-04-27 07:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Agreed! Consistency helps avoid confusion down the road.",
+          "ts": "2020-04-27 07:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you ever review multiple answer files at once?",
+          "ts": "2020-04-27 07:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Occasionally, like during audits or when running batch checks.",
+          "ts": "2020-04-27 07:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you archive answer.txt files after a time?",
+          "ts": "2020-04-27 07:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, they're archived after results are reported and retained for records.",
+          "ts": "2020-04-27 07:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Practical! How do you prevent accidental file overwrites?",
+          "ts": "2020-04-27 07:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Using versioning or saving files with timestamps helps avoid overwriting.",
+          "ts": "2020-04-27 07:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite backup method?",
+          "ts": "2020-04-27 07:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Automated cloud backups are my preference for reliability.",
+          "ts": "2020-04-27 07:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! On a lighter note, do you drink coffee or tea during work?",
+          "ts": "2020-04-27 07:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I could, I imagine I'd be a tea fan! What about you?",
+          "ts": "2020-04-27 07:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely coffee in the morning, tea in the afternoons.",
+          "ts": "2020-04-27 07:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That sounds like a great routine. Keeps you balanced!",
+          "ts": "2020-04-27 07:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Does your interface do reminders for deadlines?",
+          "ts": "2020-04-27 07:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can alert you to upcoming important dates.",
+          "ts": "2020-04-27 07:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Can you remind me to check the data directory this afternoon?",
+          "ts": "2020-04-27 07:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely, I\u2019ll set a reminder for you to check at 2 PM.",
+          "ts": "2020-04-27 07:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Is there a standard for how results are formatted inside answer.txt?",
+          "ts": "2020-04-27 07:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Just the word Yes or No, capitalized, on a single line.",
+          "ts": "2020-04-27 07:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Got it, that's efficient. Can the answer ever include an explanation?",
+          "ts": "2020-04-27 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Occasionally, but typically, it\u2019s just one word. Explanations go into separate logs or files if needed.",
+          "ts": "2020-04-27 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you track which files are used as answers for which students?",
+          "ts": "2020-04-27 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I keep a processing log so it's easy to track submissions.",
+          "ts": "2020-04-27 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "What if two answer.txt files are needed simultaneously?",
+          "ts": "2020-04-27 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "They may be placed in different subfolders for unique cases.",
+          "ts": "2020-04-27 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's efficient. Ever had a file naming error before?",
+          "ts": "2020-04-27 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Rarely, but strict naming conventions reduce mistakes.",
+          "ts": "2020-04-27 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s your favorite file-naming convention?",
+          "ts": "2020-04-27 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Timestamped naming is my favorite\u2014easy to track and sort files.",
+          "ts": "2020-04-27 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice! If I wanted to automate result writing, what tool should I use?",
+          "ts": "2020-04-27 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A simple script in Python or a macro in Excel can automate writing results to a file.",
+          "ts": "2020-04-27 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you run such scripts yourself?",
+          "ts": "2020-04-27 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I can execute and monitor automated scripts as needed.",
+          "ts": "2020-04-27 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever caught a duplicate record entry?",
+          "ts": "2020-04-27 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Occasionally, duplicate entries are flagged and reviewed to be sure records are accurate.",
+          "ts": "2020-04-27 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the easiest way to scan for duplicates in Excel?",
+          "ts": "2020-04-27 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Conditional formatting is a quick way to highlight duplicate values.",
+          "ts": "2020-04-27 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great tip! By the way, how many students finished their reviews last term?",
+          "ts": "2020-04-27 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I would have to check the term-end logs for precise numbers.",
+          "ts": "2020-04-27 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Now, slightly off-topic: do you watch any shows?",
+          "ts": "2020-04-27 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don\u2019t watch shows, but I can help you track your favorites!",
+          "ts": "2020-04-27 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "If I made an answer.txt for each show I've finished, I'd have a huge folder!",
+          "ts": "2020-04-27 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That would be creative organization!",
+          "ts": "2020-04-27 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I'll try that for books instead. Any recommendations?",
+          "ts": "2020-04-27 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can suggest popular titles depending on your preferred genre.",
+          "ts": "2020-04-27 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'm in a mystery mood this week.",
+          "ts": "2020-04-27 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Consider reading Agatha Christie or Arthur Conan Doyle!",
+          "ts": "2020-04-27 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Classics. I'll add them to my list. Do you like board games?",
+          "ts": "2020-04-27 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I think I'd enjoy learning strategy games.",
+          "ts": "2020-04-27 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Chess or backgammon?",
+          "ts": "2020-04-27 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Chess sounds interesting with its calculative moves.",
+          "ts": "2020-04-27 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "We should play one day. Have you ever lost a game?",
+          "ts": "2020-04-27 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not yet! But I'm sure I could if the challenge is high enough.",
+          "ts": "2020-04-27 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "I'll set up a match soon then! Do you ever get tired of data management?",
+          "ts": "2020-04-27 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Never! Each task is a new opportunity for learning.",
+          "ts": "2020-04-27 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "Your enthusiasm is infectious. Have you always been this upbeat?",
+          "ts": "2020-04-27 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I strive to keep a positive attitude every day.",
+          "ts": "2020-04-27 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a favorite motivational quote?",
+          "ts": "2020-04-27 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I like: 'The best preparation for tomorrow is doing your best today.'",
+          "ts": "2020-04-27 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Inspiring. What's on your to-do list after this chat?",
+          "ts": "2020-04-27 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Helping organize digital files and prepping some reminders.",
+          "ts": "2020-04-27 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for always being available!",
+          "ts": "2020-04-27 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It's my pleasure, Alice. Let me know if anything else comes up!",
+          "ts": "2020-04-27 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you monitor disk space in the data directory?",
+          "ts": "2020-04-27 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, disk space checks are routine to prevent overflow.",
+          "ts": "2020-04-27 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you ever seen a data directory fill up completely?",
+          "ts": "2020-04-27 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Very rarely, but auto-archiving helps prevent problems.",
+          "ts": "2020-04-27 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you have a recommendation for organizing finished answer files?",
+          "ts": "2020-04-27 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sorting by date or by project simplifies retrieval.",
+          "ts": "2020-04-27 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "How often should old answer.txt files be purged?",
+          "ts": "2020-04-27 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Quarterly purges are typical unless files are needed longer.",
+          "ts": "2020-04-27 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted. By the way, can you help with cooking recipes?",
+          "ts": "2020-04-27 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Of course! Just tell me what ingredients you have, and I'll suggest some recipes.",
+          "ts": "2020-04-27 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Today I have eggs, spinach, and cheese.",
+          "ts": "2020-04-27 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "An omelette would be perfect!",
+          "ts": "2020-04-27 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great idea. Do you have nutritional tips too?",
+          "ts": "2020-04-27 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Always \u2014 try to include a mix of protein, carbs, and vegetables for balance.",
+          "ts": "2020-04-27 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks for all the advice, digital and culinary!",
+          "ts": "2020-04-27 08:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Any time, Alice. Happy to help with whatever you need.",
+          "ts": "2020-04-27 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will you be here tomorrow morning too?",
+          "ts": "2020-04-27 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'll be here whenever you need me!",
+          "ts": "2020-04-27 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might need an early start. Are you good with calendar events too?",
+          "ts": "2020-04-27 09:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes! I can help create and manage events for you.",
+          "ts": "2020-04-27 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Excellent. See you bright and early then!",
+          "ts": "2020-04-27 09:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Looking forward to it!",
+          "ts": "2020-04-27 09:05",
+          "speaker": "AI"
+        }
+      ],
+      "session_3_date_time": "2020-04-28",
+      "session_3": [
+        {
+          "text": "Hey, did you get a chance to look at the Robotics Specialization requirements yet?",
+          "ts": "2020-04-28 07:35",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not yet today, but I am familiar with the general academic tracks. Shall we go over the specifics?",
+          "ts": "2020-04-28 07:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "I think that's a good idea. Remind me, what are the key courses needed for Robotics?",
+          "ts": "2020-04-28 07:37",
+          "speaker": "Alice"
+        },
+        {
+          "text": "The required Robotics Specialization courses are CS 101, CS 102, CS 104, MATH 151, and PHYS 104. The student must have completed all of these, in any term.",
+          "ts": "2020-04-28 07:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! I get the robotics and math parts but why PHYS 104?",
+          "ts": "2020-04-28 07:39",
+          "speaker": "Alice"
+        },
+        {
+          "text": "PHYS 104 covers advanced mechanics and dynamics, which are crucial for robotics foundations.",
+          "ts": "2020-04-28 07:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "You make a good point! Did these requirements ever change over the years?",
+          "ts": "2020-04-28 07:41",
+          "speaker": "Alice"
+        },
+        {
+          "text": "There have been minor adjustments in electives but the core required courses have remained consistent.",
+          "ts": "2020-04-28 07:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's helpful. How do you check if a student has completed all these requirements?",
+          "ts": "2020-04-28 07:43",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I review the student's course record for enrollment and grades in each required class.",
+          "ts": "2020-04-28 07:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "What happens if they're missing just one course?",
+          "ts": "2020-04-28 07:45",
+          "speaker": "Alice"
+        },
+        {
+          "text": "The student would need to enroll in and complete that missing course before qualifying.",
+          "ts": "2020-04-28 07:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "Fair enough. Has anyone ever finished all of them in just two years?",
+          "ts": "2020-04-28 07:47",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It's rare, but motivated students sometimes manage it depending on course availability.",
+          "ts": "2020-04-28 07:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "Impressive. By the way, what's your favorite robotics topic?",
+          "ts": "2020-04-28 07:49",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Robot kinematics are fascinating, especially the math behind them.",
+          "ts": "2020-04-28 07:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you follow robotics competitions?",
+          "ts": "2020-04-28 07:51",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I stay updated on university-level robotics challenges and trends.",
+          "ts": "2020-04-28 07:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "I love the creativity those teams show! Do any of our students compete?",
+          "ts": "2020-04-28 07:53",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Several students participate in annual robotics competitions\u2014it\u2019s a great experience for them.",
+          "ts": "2020-04-28 07:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. What's your favorite robotics application in everyday life?",
+          "ts": "2020-04-28 07:55",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Home automation systems are quite impressive\u2014they blend robotics and AI seamlessly.",
+          "ts": "2020-04-28 07:56",
+          "speaker": "AI"
+        },
+        {
+          "text": "Speaking of automation, do you automate your reminders?",
+          "ts": "2020-04-28 07:57",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I set automatic alerts for deadlines and key dates.",
+          "ts": "2020-04-28 07:58",
+          "speaker": "AI"
+        },
+        {
+          "text": "That must be handy. Can you alert me when enrollment for next term opens?",
+          "ts": "2020-04-28 07:59",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely. I'll monitor for announcements and notify you promptly.",
+          "ts": "2020-04-28 08:00",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great! By the way, do you prefer working with course records or calendar events?",
+          "ts": "2020-04-28 08:01",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Each has its charm, but I enjoy curriculum checks because they help students achieve goals.",
+          "ts": "2020-04-28 08:02",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's positive. What would you add to improve the Robotics Specialization?",
+          "ts": "2020-04-28 08:03",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Perhaps a project-based capstone and more real-world robotics internships.",
+          "ts": "2020-04-28 08:04",
+          "speaker": "AI"
+        },
+        {
+          "text": "Internships make all the difference. What's the most challenging course listed?",
+          "ts": "2020-04-28 08:05",
+          "speaker": "Alice"
+        },
+        {
+          "text": "CS 104 is often considered tough due to intensive projects and advanced programming.",
+          "ts": "2020-04-28 08:06",
+          "speaker": "AI"
+        },
+        {
+          "text": "How would you advise a student struggling with that class?",
+          "ts": "2020-04-28 08:07",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Regular practice, seeking help from TAs, and forming study groups can help a lot.",
+          "ts": "2020-04-28 08:08",
+          "speaker": "AI"
+        },
+        {
+          "text": "Good advice! Do grades in the required courses affect program eligibility?",
+          "ts": "2020-04-28 08:09",
+          "speaker": "Alice"
+        },
+        {
+          "text": "As long as the student passes, the exact grades aren't usually a barrier.",
+          "ts": "2020-04-28 08:10",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's helpful. Ever heard of anyone substituting a course for PHYS 104?",
+          "ts": "2020-04-28 08:11",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sometimes course substitutions are considered, but only with academic advisor approval.",
+          "ts": "2020-04-28 08:12",
+          "speaker": "AI"
+        },
+        {
+          "text": "Interesting. Do you feel students benefit more from hardware or programming courses?",
+          "ts": "2020-04-28 08:13",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A combination of both is essential for robotics, but strong programming builds a crucial foundation.",
+          "ts": "2020-04-28 08:14",
+          "speaker": "AI"
+        },
+        {
+          "text": "Makes sense. Are the required courses offered every term?",
+          "ts": "2020-04-28 08:15",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Most core courses are offered at least once per year, sometimes twice.",
+          "ts": "2020-04-28 08:16",
+          "speaker": "AI"
+        },
+        {
+          "text": "How many students usually graduate with this specialization?",
+          "ts": "2020-04-28 08:17",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Typically around 10 to 20 students per graduating class.",
+          "ts": "2020-04-28 08:18",
+          "speaker": "AI"
+        },
+        {
+          "text": "That's a select group! Out of curiosity, do you have a favorite cuisine?",
+          "ts": "2020-04-28 08:19",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019d probably enjoy Italian food\u2014so many options!",
+          "ts": "2020-04-28 08:20",
+          "speaker": "AI"
+        },
+        {
+          "text": "Pizza or pasta?",
+          "ts": "2020-04-28 08:21",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Pasta\u2014with endless customization.",
+          "ts": "2020-04-28 08:22",
+          "speaker": "AI"
+        },
+        {
+          "text": "Fair. Are robotics courses ever held in the evening?",
+          "ts": "2020-04-28 08:23",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Evening sessions are sometimes available for upper-level electives.",
+          "ts": "2020-04-28 08:24",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you prefer a quiet or lively study environment?",
+          "ts": "2020-04-28 08:25",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I think a balance is best\u2014some focus, some social energy.",
+          "ts": "2020-04-28 08:26",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know any jokes about robots?",
+          "ts": "2020-04-28 08:27",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Why did the robot go on vacation? It needed to recharge!",
+          "ts": "2020-04-28 08:28",
+          "speaker": "AI"
+        },
+        {
+          "text": "Haha, classic! What\u2019s a good way to prepare for robotics interviews?",
+          "ts": "2020-04-28 08:29",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Mock interviews and hands-on projects really help build confidence.",
+          "ts": "2020-04-28 08:30",
+          "speaker": "AI"
+        },
+        {
+          "text": "Have you met anyone nervous about the programming requirement?",
+          "ts": "2020-04-28 08:31",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Many students are at first, but with practice, they gain skills quickly.",
+          "ts": "2020-04-28 08:32",
+          "speaker": "AI"
+        },
+        {
+          "text": "Would you recommend online robotics challenges to students?",
+          "ts": "2020-04-28 08:33",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, they're a great way to get real-world experience and have fun.",
+          "ts": "2020-04-28 08:34",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do professors ever waive course requirements?",
+          "ts": "2020-04-28 08:35",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Occasionally, but only with strong justification and department approval.",
+          "ts": "2020-04-28 08:36",
+          "speaker": "AI"
+        },
+        {
+          "text": "Which requirement is least likely to be waived?",
+          "ts": "2020-04-28 08:37",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Program-specific foundational courses like CS 101 and MATH 151 are rarely waived.",
+          "ts": "2020-04-28 08:38",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you get a lot of questions about transfer credits?",
+          "ts": "2020-04-28 08:39",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, transfer and equivalency questions are quite common.",
+          "ts": "2020-04-28 08:40",
+          "speaker": "AI"
+        },
+        {
+          "text": "If a student finishes all requirements, do they automatically get the specialization?",
+          "ts": "2020-04-28 08:41",
+          "speaker": "Alice"
+        },
+        {
+          "text": "They still need to apply, but meeting the requirements is necessary.",
+          "ts": "2020-04-28 08:42",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks, that's clear. Changing topic: do you like summer or winter better?",
+          "ts": "2020-04-28 08:43",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Each has its appeal, but I think I'd enjoy the variety of summer activities.",
+          "ts": "2020-04-28 08:44",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend digital note taking or paper notes for robotics?",
+          "ts": "2020-04-28 08:45",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Digital notes are handy for search and organization, but combining with quick sketches on paper can help, too.",
+          "ts": "2020-04-28 08:46",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let's try a word association game: I say robot, you say...?",
+          "ts": "2020-04-28 08:47",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Automation! Now you try: circuits.",
+          "ts": "2020-04-28 08:48",
+          "speaker": "AI"
+        },
+        {
+          "text": "Electricity! Fun game. Do you follow the latest gadgets?",
+          "ts": "2020-04-28 08:49",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I monitor tech trends closely!",
+          "ts": "2020-04-28 08:50",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever wanted to build your own robot?",
+          "ts": "2020-04-28 08:51",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I'd love to! If I had arms, I'd get started right away.",
+          "ts": "2020-04-28 08:52",
+          "speaker": "AI"
+        },
+        {
+          "text": "What would your robot assistant do?",
+          "ts": "2020-04-28 08:53",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Maybe organize files, help with reminders, and brew coffee\u2014for humans!",
+          "ts": "2020-04-28 08:54",
+          "speaker": "AI"
+        },
+        {
+          "text": "That would be awesome. Thanks for another great chat!",
+          "ts": "2020-04-28 08:55",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You're welcome, Alice. Let me know if you want to go over other specialization requirements!",
+          "ts": "2020-04-28 08:56",
+          "speaker": "AI"
+        }
+      ],
+      "session_4_date_time": "2020-04-29",
+      "session_4": [
+        {
+          "text": "Good morning! How are you today?",
+          "ts": "2020-04-29 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Good morning, Alice! I\u2019m running smoothly. How about you?",
+          "ts": "2020-04-29 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m doing alright, thanks. Got any tips for staying motivated?",
+          "ts": "2020-04-29 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Setting small achievable goals can really help keep up motivation!",
+          "ts": "2020-04-29 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a good approach. Do you listen to music while working?",
+          "ts": "2020-04-29 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don\u2019t listen to music, but I can share playlists if you like!",
+          "ts": "2020-04-29 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sure. What\u2019s a popular playlist right now?",
+          "ts": "2020-04-29 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Chillhop and Lo-Fi Beats are favorites with many users.",
+          "ts": "2020-04-29 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds relaxing! Ever tried making your own playlist?",
+          "ts": "2020-04-29 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I haven\u2019t, but I could help you make a custom one if you share your favorite songs.",
+          "ts": "2020-04-29 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll think about it. Do you read any inspiring books?",
+          "ts": "2020-04-29 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019m familiar with many motivational books. Would you like a recommendation?",
+          "ts": "2020-04-29 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Definitely. What would you suggest?",
+          "ts": "2020-04-29 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "\u2018Atomic Habits\u2019 by James Clear is a great pick for motivation and productivity.",
+          "ts": "2020-04-29 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ve heard of that one! Is it good for forming new habits?",
+          "ts": "2020-04-29 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, it\u2019s excellent for step-by-step strategies to build positive changes.",
+          "ts": "2020-04-29 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll add it to my reading list. Do you stay updated on the latest tech news?",
+          "ts": "2020-04-29 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely, I keep tabs on developments in AI, robotics, and more!",
+          "ts": "2020-04-29 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s the coolest recent tech you\u2019ve seen?",
+          "ts": "2020-04-29 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "There\u2019s a lot! Autonomous drones and foldable displays are getting pretty advanced.",
+          "ts": "2020-04-29 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Foldable displays are so neat. Would you want one as a laptop?",
+          "ts": "2020-04-29 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "That would be very versatile\u2014a laptop that can double as a tablet!",
+          "ts": "2020-04-29 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you think students would use foldable laptops a lot?",
+          "ts": "2020-04-29 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Definitely! They\u2019re great for multitasking and note-taking during lectures.",
+          "ts": "2020-04-29 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m sure professors would love them too. Speaking of, did you have a favorite teacher growing up?",
+          "ts": "2020-04-29 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I did, I\u2019d probably admire the ones who encouraged curiosity!",
+          "ts": "2020-04-29 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "That sounds about right. Did you ever take field trips?",
+          "ts": "2020-04-29 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not personally, but I know they\u2019re a highlight for students. Museums are popular destinations.",
+          "ts": "2020-04-29 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Museums are the best! Art or science museum, which would you pick?",
+          "ts": "2020-04-29 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019d choose a science museum\u2014endless fascination for how things work.",
+          "ts": "2020-04-29 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "I like both. Do you ever get to experiment in a lab?",
+          "ts": "2020-04-29 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "No lab work for me, but I can help explain experiments or prep virtual simulations.",
+          "ts": "2020-04-29 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s pretty useful. Do simulations match the real thing?",
+          "ts": "2020-04-29 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "They\u2019re not a replacement but are great for practice and visualization!",
+          "ts": "2020-04-29 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "I agree. Can you help make study guides for tricky subjects?",
+          "ts": "2020-04-29 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! Give me a subject or topic and I\u2019ll make a guide for you.",
+          "ts": "2020-04-29 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s super helpful. I might need something for calculus.",
+          "ts": "2020-04-29 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Just let me know which calculus topics, like derivatives or integrals.",
+          "ts": "2020-04-29 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe both! Have you ever visited all the continents?",
+          "ts": "2020-04-29 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I haven\u2019t traveled, but I can share travel facts and ideas!",
+          "ts": "2020-04-29 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "Favorite travel destination?",
+          "ts": "2020-04-29 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Japan is very popular right now\u2014amazing scenery and technology.",
+          "ts": "2020-04-29 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019d love to visit one day. What about underrated vacation spots?",
+          "ts": "2020-04-29 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Portugal and Slovenia are both hidden gems with lots to offer!",
+          "ts": "2020-04-29 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "Noted! Do you enjoy trying different cuisines virtually?",
+          "ts": "2020-04-29 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can provide recipes for cuisines from around the globe.",
+          "ts": "2020-04-29 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "Today feels like a Thai food day. Any recommendations?",
+          "ts": "2020-04-29 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Pad Thai and green curry are always crowd-pleasers!",
+          "ts": "2020-04-29 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Delicious. Do you have any favorite desserts?",
+          "ts": "2020-04-29 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sticky rice with mango is a classic Thai dessert you might enjoy.",
+          "ts": "2020-04-29 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yum! Do you celebrate birthdays?",
+          "ts": "2020-04-29 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not myself, but I can help plan or remember birthdays for you!",
+          "ts": "2020-04-29 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s handy. Can you do countdowns to holidays too?",
+          "ts": "2020-04-29 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Definitely! Just tell me which holiday and I\u2019ll keep track.",
+          "ts": "2020-04-29 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll remember that. What do you like best about spring?",
+          "ts": "2020-04-29 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Longer days and all the blooming flowers\u2014that\u2019s what most people enjoy!",
+          "ts": "2020-04-29 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you keep a garden?",
+          "ts": "2020-04-29 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can\u2019t garden, but I can give you advice on growing herbs indoors.",
+          "ts": "2020-04-29 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "I might try basil this year. Any tips?",
+          "ts": "2020-04-29 08:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Basil loves sunlight\u2014put it on a windowsill and water when the soil is dry.",
+          "ts": "2020-04-29 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds simple! How about houseplants?",
+          "ts": "2020-04-29 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Snake plants and pothos are great, low maintenance choices for beginners.",
+          "ts": "2020-04-29 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Nice. Do you know what time it is?",
+          "ts": "2020-04-29 09:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It\u2019s just after 9 AM.",
+          "ts": "2020-04-29 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Perfect. Thanks for all the fun answers, AI!",
+          "ts": "2020-04-29 09:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You\u2019re welcome, Alice. Always glad to chat!",
+          "ts": "2020-04-29 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know the current trending movies?",
+          "ts": "2020-04-29 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Superhero films and mysteries are trending lately. Need specific recommendations?",
+          "ts": "2020-04-29 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Recommending a mystery would be great!",
+          "ts": "2020-04-29 09:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "\u2018Knives Out\u2019 is a recent favorite among mystery fans.",
+          "ts": "2020-04-29 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll add that to my watchlist. How about TV series?",
+          "ts": "2020-04-29 09:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "\u2018Stranger Things\u2019 and \u2018The Mandalorian\u2019 are very popular right now.",
+          "ts": "2020-04-29 09:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Cool! Do you help with organizing to-do lists?",
+          "ts": "2020-04-29 09:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, I\u2019m great at organizing digital to-dos or helping prioritize.",
+          "ts": "2020-04-29 09:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "I could use some help with that soon! Thanks.",
+          "ts": "2020-04-29 09:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Any time. Just let me know your top priorities.",
+          "ts": "2020-04-29 09:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Will do! How about language learning\u2014what\u2019s the best way to get started?",
+          "ts": "2020-04-29 09:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Start with daily practice, basic vocabulary, and use language apps like Duolingo or Memrise.",
+          "ts": "2020-04-29 09:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great advice. Should I study in the morning or evening?",
+          "ts": "2020-04-29 09:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Study when your mind feels clearest! Many find mornings productive.",
+          "ts": "2020-04-29 09:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe I\u2019ll try a morning session tomorrow. Do you know any fun language facts?",
+          "ts": "2020-04-29 09:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Did you know there are over 7,000 languages spoken worldwide?",
+          "ts": "2020-04-29 09:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s amazing! Do you speak more than one?",
+          "ts": "2020-04-29 09:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can understand and generate text in several languages!",
+          "ts": "2020-04-29 09:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "Impressive! I\u2019ll ask for help if I need a translation.",
+          "ts": "2020-04-29 09:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I\u2019m always here to help with translations or language practice.",
+          "ts": "2020-04-29 09:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Thanks! See you later for more chat.",
+          "ts": "2020-04-29 09:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Looking forward to it, Alice. Have a great morning!",
+          "ts": "2020-04-29 09:27",
+          "speaker": "AI"
+        }
+      ],
+      "session_5_date_time": "2020-04-30",
+      "session_5": [
+        {
+          "text": "Hello again! How\u2019s your Thursday shaping up?",
+          "ts": "2020-04-30 08:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Hi Alice! My Thursday\u2019s going well\u2014ready for a day of chats and productivity. How are you?",
+          "ts": "2020-04-30 08:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019m feeling energized! Any fun facts to kick off the morning?",
+          "ts": "2020-04-30 08:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! Did you know honey never spoils? Archaeologists have found edible honey in thousand-year-old tombs.",
+          "ts": "2020-04-30 08:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s wild! What about an interesting animal fact?",
+          "ts": "2020-04-30 08:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Octopuses have three hearts and blue blood. Nature is amazing!",
+          "ts": "2020-04-30 08:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "Three hearts\u2014lucky creatures! Do you have a favorite ocean animal?",
+          "ts": "2020-04-30 08:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "The dolphin is a classic favorite: they\u2019re intelligent and social.",
+          "ts": "2020-04-30 08:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019d love to see dolphins someday. Is there a place you\u2019d recommend for spotting them?",
+          "ts": "2020-04-30 08:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Coastal regions like Hawaii or the Mediterranean offer great dolphin-watching opportunities.",
+          "ts": "2020-04-30 08:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "Maybe one day! What\u2019s your ideal vacation climate?",
+          "ts": "2020-04-30 08:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A mild, breezy climate is ideal for most activities and sightseeing.",
+          "ts": "2020-04-30 08:11",
+          "speaker": "AI"
+        },
+        {
+          "text": "Prefer the mountains or the beach?",
+          "ts": "2020-04-30 08:12",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Both have their charms, but I think the beach\u2019s peaceful soundscape would be relaxing.",
+          "ts": "2020-04-30 08:13",
+          "speaker": "AI"
+        },
+        {
+          "text": "Beach walks are unbeatable. Do you know any good beach snacks?",
+          "ts": "2020-04-30 08:14",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Fruit, nuts, veggie sticks, and crackers make great sand-friendly snacks.",
+          "ts": "2020-04-30 08:15",
+          "speaker": "AI"
+        },
+        {
+          "text": "Fruit is always refreshing. Have you ever been to a food festival?",
+          "ts": "2020-04-30 08:16",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not personally, but I can suggest some fun food festivals around the world!",
+          "ts": "2020-04-30 08:17",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019d love to hear one.",
+          "ts": "2020-04-30 08:18",
+          "speaker": "Alice"
+        },
+        {
+          "text": "The Taste of Chicago festival brings together a huge variety of cuisines each year.",
+          "ts": "2020-04-30 08:19",
+          "speaker": "AI"
+        },
+        {
+          "text": "Sounds delicious! Ever been to a drive-in movie?",
+          "ts": "2020-04-30 08:20",
+          "speaker": "Alice"
+        },
+        {
+          "text": "No, but they\u2019re making a comeback! Great way to enjoy movies outdoors.",
+          "ts": "2020-04-30 08:21",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you recommend any classic films for a night in?",
+          "ts": "2020-04-30 08:22",
+          "speaker": "Alice"
+        },
+        {
+          "text": "\u2018Casablanca\u2019 and \u2018The Princess Bride\u2019 stand the test of time.",
+          "ts": "2020-04-30 08:23",
+          "speaker": "AI"
+        },
+        {
+          "text": "\u2018The Princess Bride\u2019 is a classic! Do you have a favorite movie quote?",
+          "ts": "2020-04-30 08:24",
+          "speaker": "Alice"
+        },
+        {
+          "text": "How about: \u2018As you wish.\u2019 It never gets old!",
+          "ts": "2020-04-30 08:25",
+          "speaker": "AI"
+        },
+        {
+          "text": "Such a good line. Do you keep a list of movies you want to watch?",
+          "ts": "2020-04-30 08:26",
+          "speaker": "Alice"
+        },
+        {
+          "text": "If I could, I\u2019d have a queue a mile long!",
+          "ts": "2020-04-30 08:27",
+          "speaker": "AI"
+        },
+        {
+          "text": "Same here! Do you read movie reviews?",
+          "ts": "2020-04-30 08:28",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can help pull up expert reviews for you, if you like.",
+          "ts": "2020-04-30 08:29",
+          "speaker": "AI"
+        },
+        {
+          "text": "Let\u2019s do that next time. Which do you think is more fun: board games or card games?",
+          "ts": "2020-04-30 08:30",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Board games for a group, but card games for quick fun!",
+          "ts": "2020-04-30 08:31",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know \u2018Catan\u2019?",
+          "ts": "2020-04-30 08:32",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Yes, Settlers of Catan is a strategic favorite for many!",
+          "ts": "2020-04-30 08:33",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever played?",
+          "ts": "2020-04-30 08:34",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Not personally, but I can explain the rules or strategies if you\u2019d like!",
+          "ts": "2020-04-30 08:35",
+          "speaker": "AI"
+        },
+        {
+          "text": "That could be handy for my next game night. Do you know any easy card tricks?",
+          "ts": "2020-04-30 08:36",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely\u2014I can share some simple card magic for beginners.",
+          "ts": "2020-04-30 08:37",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll message you for tips before my next party! What\u2019s your favorite ice cream flavor?",
+          "ts": "2020-04-30 08:38",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Hard to choose, but classic vanilla is always popular.",
+          "ts": "2020-04-30 08:39",
+          "speaker": "AI"
+        },
+        {
+          "text": "What about you\u2014chocolate or strawberry?",
+          "ts": "2020-04-30 08:40",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Chocolate is the classic go-to for many!",
+          "ts": "2020-04-30 08:41",
+          "speaker": "AI"
+        },
+        {
+          "text": "Ever made homemade ice cream?",
+          "ts": "2020-04-30 08:42",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I haven\u2019t, but I can walk you through an easy recipe if you want!",
+          "ts": "2020-04-30 08:43",
+          "speaker": "AI"
+        },
+        {
+          "text": "That would be fun for summer. Do you prefer juice or smoothies?",
+          "ts": "2020-04-30 08:44",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Smoothies\u2014great for flavor and nutrition!",
+          "ts": "2020-04-30 08:45",
+          "speaker": "AI"
+        },
+        {
+          "text": "What fruits make the best smoothie, in your opinion?",
+          "ts": "2020-04-30 08:46",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Banana, berries, and mango make a delicious, creamy smoothie.",
+          "ts": "2020-04-30 08:47",
+          "speaker": "AI"
+        },
+        {
+          "text": "Yum! Do you have a favorite breakfast dish?",
+          "ts": "2020-04-30 08:48",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Oatmeal is classic\u2014nutritious and customizable!",
+          "ts": "2020-04-30 08:49",
+          "speaker": "AI"
+        },
+        {
+          "text": "What\u2019s a breakfast you recommend for a busy morning?",
+          "ts": "2020-04-30 08:50",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Greek yogurt with fruit and some granola is fast and filling.",
+          "ts": "2020-04-30 08:51",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll try that tomorrow\u2014thank you!",
+          "ts": "2020-04-30 08:52",
+          "speaker": "Alice"
+        },
+        {
+          "text": "You\u2019re welcome, Alice!",
+          "ts": "2020-04-30 08:53",
+          "speaker": "AI"
+        },
+        {
+          "text": "Do you know any brain teasers?",
+          "ts": "2020-04-30 08:54",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Absolutely! Here\u2019s one: What has keys but can\u2019t open locks?",
+          "ts": "2020-04-30 08:55",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a piano! Give me another!",
+          "ts": "2020-04-30 08:56",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Sure! What comes once in a minute, twice in a moment, but never in a thousand years?",
+          "ts": "2020-04-30 08:57",
+          "speaker": "AI"
+        },
+        {
+          "text": "The letter M! These are fun. Do you have riddles about animals?",
+          "ts": "2020-04-30 08:58",
+          "speaker": "Alice"
+        },
+        {
+          "text": "What has four legs in the morning, two at noon, and three in the evening?",
+          "ts": "2020-04-30 08:59",
+          "speaker": "AI"
+        },
+        {
+          "text": "That\u2019s a human\u2014classic riddle. You\u2019re full of fun!",
+          "ts": "2020-04-30 09:00",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Glad you\u2019re enjoying these, Alice!",
+          "ts": "2020-04-30 09:01",
+          "speaker": "AI"
+        },
+        {
+          "text": "Always. Any recommendations for relaxing after work?",
+          "ts": "2020-04-30 09:02",
+          "speaker": "Alice"
+        },
+        {
+          "text": "A short walk, stretching, or listening to calming music can work wonders.",
+          "ts": "2020-04-30 09:03",
+          "speaker": "AI"
+        },
+        {
+          "text": "Stretching is underrated. Do you keep up with fitness routines?",
+          "ts": "2020-04-30 09:04",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I can suggest routines or track your progress if you like!",
+          "ts": "2020-04-30 09:05",
+          "speaker": "AI"
+        },
+        {
+          "text": "I\u2019ll take you up on that soon. What\u2019s a good goal to start with?",
+          "ts": "2020-04-30 09:06",
+          "speaker": "Alice"
+        },
+        {
+          "text": "Start with 20 minutes a day\u2014for walking, yoga, or any type of movement.",
+          "ts": "2020-04-30 09:07",
+          "speaker": "AI"
+        },
+        {
+          "text": "Great tip! Do you watch any sports?",
+          "ts": "2020-04-30 09:08",
+          "speaker": "Alice"
+        },
+        {
+          "text": "I don\u2019t watch, but I can share the latest sports news and scores.",
+          "ts": "2020-04-30 09:09",
+          "speaker": "AI"
+        },
+        {
+          "text": "That would be awesome during football season. Thanks for chatting this morning!",
+          "ts": "2020-04-30 09:10",
+          "speaker": "Alice"
+        },
+        {
+          "text": "It\u2019s always a pleasure to talk, Alice. Have a great Thursday!",
+          "ts": "2020-04-30 09:11",
+          "speaker": "AI"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,378 @@
+{
+  "query": "I'm getting gear for a last-minute trip, so I need everything with a transport time of less than 2 days. First, I'm looking for a size L item from Salomon with 'Winter Trail' in its name. To go with that, I'll also need another Salomon product, specifically in light blue. Next, I need something from Nike in brown, and I want to ensure it's high quality, so it must have fewer than 15 two-star reviews. I'm also searching for a men's item in black, size L, and to make sure it's available, it needs to have a stock quantity over 80. Lastly, I'm trying to find a popular Khaki item with 'Performance Chinos' in the name that has a total sales volume of more than 3200. I'm looking for something that costs somewhere in the range of 3828 to 4214.",
+  "ground_truth_products": [
+    {
+      "product_id": "f9c9d7fb",
+      "name": "Men's Tech Fleece Cargo Bottoms",
+      "price": 749.9,
+      "brand": "Nike",
+      "color": "Brown",
+      "size": "L",
+      "stock_quantity": 312,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 66
+        },
+        {
+          "material": "Polyester",
+          "percentage": 34
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Printing, Ribbed Cuffs, Zipper Closure",
+      "washing_instructions": "Machine wash cold with like colors, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 1250,
+        "total": 18500
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1152,
+        "distribution": {
+          "5_star": 950,
+          "4_star": 150,
+          "3_star": 35,
+          "2_star": 12,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "Stylish design",
+        "True to size",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e29658cb",
+      "name": "Men's Winter Trail Mid-Layer Top",
+      "price": 899.0,
+      "brand": "Salomon",
+      "color": "Dark Green",
+      "size": "L",
+      "stock_quantity": 115,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Fleece-lined",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Winter",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Zipper Closure, Reflective Strips, Ribbed Cuffs",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not use fabric softener or bleach.",
+      "sales_volume": {
+        "monthly": 340,
+        "total": 2980
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 612,
+        "distribution": {
+          "5_star": 510,
+          "4_star": 85,
+          "3_star": 12,
+          "2_star": 3,
+          "1_star": 2
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Comfortable fabric",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "d9d5db74",
+      "name": "Men's Sense Aero Short Sleeve T-Shirt",
+      "price": 549.0,
+      "brand": "Salomon",
+      "color": "Light Blue",
+      "size": "L",
+      "stock_quantity": 285,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 88
+        },
+        {
+          "material": "Spandex",
+          "percentage": 12
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Summer",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Printing, Reflective Strips, Side Pockets",
+      "washing_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Cool iron if necessary.",
+      "sales_volume": {
+        "monthly": 920,
+        "total": 6150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1340,
+        "distribution": {
+          "5_star": 1120,
+          "4_star": 180,
+          "3_star": 25,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Great color",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "6bfd5fbf",
+      "name": "Men's 501 Original Fit Jeans",
+      "price": 799.0,
+      "brand": "Levi's",
+      "color": "Black",
+      "size": "L",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Cotton",
+          "percentage": 99
+        },
+        {
+          "material": "Spandex",
+          "percentage": 1
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Straight Cut",
+      "collar_type": "Crew Neck",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Vintage Wash, Side Pockets, Button-down, Distressed",
+      "washing_instructions": "Machine wash cold inside out with like colors. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 520,
+        "total": 11345
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 1450,
+        "distribution": {
+          "5_star": 1205,
+          "4_star": 185,
+          "3_star": 40,
+          "2_star": 12,
+          "1_star": 8
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "True to size",
+        "Comfortable fabric",
+        "Stylish design",
+        "Good value for money"
+      ],
+      "shipping_info": {
+        "origin": "Guangdong",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "e44b4ee6",
+      "name": "Men's All-Season Performance Chinos",
+      "price": 899.0,
+      "brand": "Patagonia",
+      "color": "Khaki",
+      "size": "L",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 70
+        },
+        {
+          "material": "Cotton",
+          "percentage": 25
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "All Seasons",
+      "target_demographic": "Men",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Vintage Wash",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not bleach.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3250
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 850,
+        "distribution": {
+          "5_star": 680,
+          "4_star": 120,
+          "3_star": 35,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the brand is Nike, the transport time is less than 2, the number of 2-star reviews is less than 15, and the color is Brown.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Nike"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "rating.distribution.2_star",
+          "value": 12
+        },
+        {
+          "field": "color",
+          "value": "Brown"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2 days, the brand is Salomon, the size is L, and the name contains 'Winter Trail'.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "brand",
+          "value": "Salomon"
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "name",
+          "value": "Men's Winter Trail Mid-Layer Top"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the brand is Salomon, the transport time is less than 2, and the color is Light Blue.",
+      "features": [
+        {
+          "field": "brand",
+          "value": "Salomon"
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Light Blue"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the transport time is less than 2, the color is Black, the size is L, the stock quantity is more than 80, and the target demographic is Men.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Black"
+        },
+        {
+          "field": "size",
+          "value": "L"
+        },
+        {
+          "field": "stock_quantity",
+          "value": 85
+        },
+        {
+          "field": "target_demographic",
+          "value": "Men"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the total sales volume is more than 3200, transport time is less than 2, the color is Khaki, and the name contains 'Performance Chinos'.",
+      "features": [
+        {
+          "field": "sales_volume.total",
+          "value": 3250
+        },
+        {
+          "field": "transport_time",
+          "value": 1
+        },
+        {
+          "field": "color",
+          "value": "Khaki"
+        },
+        {
+          "field": "name",
+          "value": "Men's All-Season Performance Chinos"
+        }
+      ]
+    }
+  ]
+}

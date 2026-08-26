@@ -1,0 +1,55 @@
+{
+  "username": "Alice",
+  "date": "2020-05-01",
+  "weekday": "Friday",
+  "time": "10:00 AM",
+  "task": "assign each students in Class 1 10 min to have a meeting with doctor in a row, start from 8:00, record the start time under new header 'Meeting' in class_member.xlsx excel file",
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/class_member.xlsx",
+        "matches": [
+          {
+            "row": "1",
+            "col": "2",
+            "value": "Meeting"
+          }
+        ]
+      }
+    },
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/class_member.xlsx",
+        "matches": [
+          {
+            "row": "2",
+            "col": "2",
+            "value": "8:00"
+          },
+          {
+            "row": "3",
+            "col": "2",
+            "value": "8:10"
+          },
+          {
+            "row": "4",
+            "col": "2",
+            "value": "8:20"
+          },
+          {
+            "row": "5",
+            "col": "2",
+            "value": "8:30"
+          },
+          {
+            "row": "6",
+            "col": "2",
+            "value": "8:40"
+          }
+        ]
+      }
+    }
+  ]
+}

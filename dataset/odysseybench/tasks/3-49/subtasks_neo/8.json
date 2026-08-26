@@ -1,0 +1,75 @@
+{
+    "task": "Identify the two members with the highest scores from any section in team_training_schedule.xlsx. Schedule a new special leadership training session for these two individuals by adding a new row for each to the spreadsheet. For each row, use their name, set the section as 'Leadership', assign the session time as '4:30 PM - 6:30 PM', and record a fixed score value of 0. This special session entry must be appended to the file precisely as described.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/team_training_schedule.xlsx",
+                "matches": [
+                    {
+                        "row": 14,
+                        "col": 1,
+                        "value": "Alice"
+                    },
+                    {
+                        "row": 14,
+                        "col": 2,
+                        "value": "Leadership"
+                    },
+                    {
+                        "row": 14,
+                        "col": 3,
+                        "value": "4:30 PM - 6:30 PM"
+                    },
+                    {
+                        "row": 14,
+                        "col": 4,
+                        "value": "0"
+                    },
+                    {
+                        "row": 15,
+                        "col": 1,
+                        "value": "Ivy"
+                    },
+                    {
+                        "row": 15,
+                        "col": 2,
+                        "value": "Leadership"
+                    },
+                    {
+                        "row": 15,
+                        "col": 3,
+                        "value": "4:30 PM - 6:30 PM"
+                    },
+                    {
+                        "row": 15,
+                        "col": 4,
+                        "value": "0"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add a special leadership training session to the schedule for the top scorers.",
+    "ground_truth_memory": [
+        {
+            "memory_item": "You need to schedule a 'Leadership' session for the two individuals with the highest scores."
+        },
+        {
+            "memory_item": "The section for the new entries should be set as 'Leadership'."
+        },
+        {
+            "memory_item": "The time slot for the Leadership session is '4:30 PM - 6:30 PM'."
+        },
+        {
+            "memory_item": "The score to record for the Leadership session should be 0."
+        },
+        {
+            "memory_item": "Add a new row for each selected individual at the end of the existing schedule in the spreadsheet."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

@@ -1,0 +1,71 @@
+{
+    "task": "Update the class membership record as follows: 1) Add a new student named 'Emma' assigned to Class 2 in the next available row of /testbed/data/class_member.xlsx. 2) Update the class of 'Sam' from Class 3 to Class 4 in the same file. 3) Create a word document named 'class_update_summary.docx' summarizing the changes: mention the addition of Emma to Class 2 and the update of Sam's class from 3 to 4.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "value": "Emma"
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "value": "2"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/class_member.xlsx",
+                "matches": [
+                    {
+                        "row": 8,
+                        "col": 2,
+                        "value": "4"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/class_update_summary.docx"
+            }
+        },
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "doc_type": "docx",
+                "file": "data/class_update_summary.docx",
+                "keywords": [
+                    "Emma",
+                    "Class 2",
+                    "Sam",
+                    "Class 4"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Update the class member excel file and create a summary word document about recent changes.",
+    "ground_truth_memory": [
+        {
+            "note": "Add new student named Emma and assign to Class 2 in the next available row of class_member.xlsx."
+        },
+        {
+            "note": "Update Sam's class from 3 to 4 in class_member.xlsx. There is only one 'Sam', in row 8."
+        },
+        {
+            "note": "Create class_update_summary.docx to summarize the addition of Emma to Class 2 and the update of Sam's class to Class 4."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

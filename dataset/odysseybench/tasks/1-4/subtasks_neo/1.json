@@ -1,0 +1,42 @@
+{
+    "task": "Add the marketing budget $15000 as a new entry to the company_budget.xlsx file in the next available row. Ensure that the 'Name' field contains 'marketing' and the 'amount' field contains '15000'.",
+    "evaluation": [
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "./data/company_budget.xlsx",
+                "matches": [
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "value": "marketing"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "value": "15000"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Add the marketing budget to the company budget file.",
+    "ground_truth_memory": [
+        {
+            "fact": "The new item 'marketing' should be inserted as a new row in the company_budget.xlsx file, under 'Name'.",
+            "source": "chat"
+        },
+        {
+            "fact": "The amount for the marketing budget should be set as 15000.",
+            "source": "chat"
+        },
+        {
+            "fact": "The marketing budget should be placed in the next available row after the existing entries.",
+            "source": "chat"
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

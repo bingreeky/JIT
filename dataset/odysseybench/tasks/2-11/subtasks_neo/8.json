@@ -1,0 +1,64 @@
+{
+    "task": "Create a new Excel file named 'alice_personal_expenses.xlsx' and log a fictional expense transaction for Alice. The logged entry should include (1) the date '2020-04-29', (2) description 'Book Purchase', (3) vendor 'BookstoreX', and (4) amount '45.99'. Ensure the file contains only this expense entry. Do not include any other expenses or data. All necessary details (file name, values, etc.) are scattered in memory and must be retrieved for task completion.",
+    "evaluation": [
+        {
+            "function": "evaluate_contain",
+            "args": {
+                "file": "data/alice_personal_expenses.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "2020-04-29",
+                    "Book Purchase",
+                    "BookstoreX",
+                    "45.99"
+                ]
+            }
+        },
+        {
+            "function": "evaluate_not_contain",
+            "args": {
+                "file": "data/alice_personal_expenses.xlsx",
+                "doc_type": "xlsx",
+                "keywords": [
+                    "Groceries",
+                    "Utilities",
+                    "Restaurant",
+                    "2020-04-28",
+                    "20.00",
+                    "Phone"
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Record a personal expense for Alice in a new file as needed.",
+    "ground_truth_memory": [
+        {
+            "memory_type": "fact",
+            "content": "The output file should be named 'alice_personal_expenses.xlsx'."
+        },
+        {
+            "memory_type": "action_item",
+            "content": "The file should include only one expense entry."
+        },
+        {
+            "memory_type": "fact",
+            "content": "The expense date to log is '2020-04-29'."
+        },
+        {
+            "memory_type": "fact",
+            "content": "The expense description is 'Book Purchase'."
+        },
+        {
+            "memory_type": "fact",
+            "content": "The vendor is 'BookstoreX'."
+        },
+        {
+            "memory_type": "fact",
+            "content": "The amount spent is '45.99'."
+        }
+    ],
+    "username": "Alice",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

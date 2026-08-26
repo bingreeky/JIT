@@ -1,0 +1,145 @@
+{
+    "task": "Create a new Excel file named contact.xlsx and input contact information for John, Bob, and Tom with the following details: Each contact should have Name, Phone Number, Email, and Company fields. For John, use Name: John Smith, Phone Number: 555-1234, Email: john.smith@email.com, Company: AlphaTech. For Bob, use Name: Bob Lee, Phone Number: 555-5678, Email: bob.lee@email.com, Company: BetaWorks. For Tom, use Name: Tom Clark, Phone Number: 555-8765, Email: tom.clark@email.com, Company: GammaCorp. Make sure the headers and all rows are entered correctly into contact.xlsx.",
+    "evaluation": [
+        {
+            "function": "evaluate_file_exist",
+            "args": {
+                "file": "data/contact.xlsx"
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/contact.xlsx",
+                "matches": [
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "value": "Name"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "value": "Phone Number"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "value": "Email"
+                    },
+                    {
+                        "row": 1,
+                        "col": 4,
+                        "value": "Company"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/contact.xlsx",
+                "matches": [
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "value": "John Smith"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "value": "555-1234"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "value": "john.smith@email.com"
+                    },
+                    {
+                        "row": 2,
+                        "col": 4,
+                        "value": "AlphaTech"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/contact.xlsx",
+                "matches": [
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "value": "Bob Lee"
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "value": "555-5678"
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "value": "bob.lee@email.com"
+                    },
+                    {
+                        "row": 3,
+                        "col": 4,
+                        "value": "BetaWorks"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "evaluate_excel_cell_value",
+            "args": {
+                "file": "data/contact.xlsx",
+                "matches": [
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "value": "Tom Clark"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "value": "555-8765"
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "value": "tom.clark@email.com"
+                    },
+                    {
+                        "row": 4,
+                        "col": 4,
+                        "value": "GammaCorp"
+                    }
+                ]
+            }
+        }
+    ],
+    "query_sentence": "Create an Excel contact list with John, Bob, and Tom's information in contact.xlsx.",
+    "ground_truth_memory": [
+        {
+            "note": "Create a new Excel file named contact.xlsx."
+        },
+        {
+            "note": "Add columns: Name, Phone Number, Email, Company as headers in the first row."
+        },
+        {
+            "note": "Add John Smith with phone 555-1234, email john.smith@email.com, company AlphaTech in row 2."
+        },
+        {
+            "note": "Add Bob Lee with phone 555-5678, email bob.lee@email.com, company BetaWorks in row 3."
+        },
+        {
+            "note": "Add Tom Clark with phone 555-8765, email tom.clark@email.com, company GammaCorp in row 4."
+        }
+    ],
+    "username": "Bob",
+    "date": "2020-05-01",
+    "weekday": "Friday",
+    "time": "10:00 AM"
+}

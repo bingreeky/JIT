@@ -1,0 +1,278 @@
+{
+  "query": "I'm getting ready for a last-minute hiking trip and need to order some gear. First, I need a pair of Waterproof Trail Hiking Shoes in Olive Green, size 38. Since I need them to be reliable, I'm looking for a pair with an average rating score over 4.5 and less than 5 one-star reviews. My trip is very soon, so the transport time must be less than 2. Next, I need a pair of women's Hiking Trousers in Camel that are highly rated, specifically with more than 400 five-star ratings and over 90 four-star ratings. To complete the outfit, I'm looking for a Silver Lightweight Baselayer that can also be delivered in less than 2 days. I want to be sure it's a good product, so it must have more than 150 total reviews but fewer than 10 three-star reviews.",
+  "ground_truth_products": [
+    {
+      "product_id": "13c481cb",
+      "name": "Women's Waterproof Trail Hiking Shoes",
+      "price": 849.0,
+      "brand": "Columbia",
+      "color": "Olive Green",
+      "size": "38",
+      "stock_quantity": 112,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 65
+        },
+        {
+          "material": "Polyester",
+          "percentage": 30
+        },
+        {
+          "material": "Spandex",
+          "percentage": 5
+        }
+      ],
+      "thickness": "Medium-thick",
+      "elasticity": "Slightly-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Reflective Strips, Patchwork",
+      "washing_instructions": "Wipe clean with a damp cloth. Do not submerge in water. Air dry away from direct heat.",
+      "sales_volume": {
+        "monthly": 288,
+        "total": 3150
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 476,
+        "distribution": {
+          "5_star": 390,
+          "4_star": 75,
+          "3_star": 8,
+          "2_star": 2,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Excellent quality",
+        "Comfortable fabric",
+        "True to size",
+        "Great color"
+      ],
+      "shipping_info": {
+        "origin": "Jiangsu",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "2bc5bd2b",
+      "name": "Women's Wayfarer Hiking Trousers",
+      "price": 899.0,
+      "brand": "Salomon",
+      "color": "Camel",
+      "size": "S",
+      "stock_quantity": 215,
+      "material_composition": [
+        {
+          "material": "Nylon",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Regular",
+      "elasticity": "Moderate-stretch",
+      "version_type": "Regular Fit",
+      "collar_type": "Stand Collar",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Side Pockets, Zipper Closure, Reflective Strips",
+      "washing_instructions": "Machine wash cold on gentle cycle. Tumble dry low. Do not use fabric softener.",
+      "sales_volume": {
+        "monthly": 350,
+        "total": 4120
+      },
+      "rating": {
+        "average_score": 4.7,
+        "total_reviews": 580,
+        "distribution": {
+          "5_star": 450,
+          "4_star": 95,
+          "3_star": 20,
+          "2_star": 10,
+          "1_star": 5
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Great color",
+        "Excellent quality"
+      ],
+      "shipping_info": {
+        "origin": "Zhejiang",
+        "provider": "SF Express"
+      }
+    },
+    {
+      "product_id": "4f2f8a20",
+      "name": "Women's Lightweight Baselayer Top",
+      "price": 499.0,
+      "brand": "Patagonia",
+      "color": "Silver",
+      "size": "S",
+      "stock_quantity": 280,
+      "material_composition": [
+        {
+          "material": "Polyester",
+          "percentage": 92
+        },
+        {
+          "material": "Spandex",
+          "percentage": 8
+        }
+      ],
+      "thickness": "Thin",
+      "elasticity": "High-stretch",
+      "version_type": "Slim Fit",
+      "collar_type": "Crew Neck",
+      "suitable_season": "Spring/Autumn",
+      "target_demographic": "Women",
+      "details_craftsmanship": "Printing, Ribbed Cuffs, Reflective Strips",
+      "washing_instructions": "Machine wash cold, gentle cycle. Tumble dry low. Do not use fabric softeners.",
+      "sales_volume": {
+        "monthly": 450,
+        "total": 3200
+      },
+      "rating": {
+        "average_score": 4.8,
+        "total_reviews": 155,
+        "distribution": {
+          "5_star": 120,
+          "4_star": 28,
+          "3_star": 5,
+          "2_star": 1,
+          "1_star": 1
+        }
+      },
+      "review_summary": [
+        "Comfortable fabric",
+        "True to size",
+        "Excellent quality",
+        "Stylish design"
+      ],
+      "shipping_info": {
+        "origin": "Shanghai",
+        "provider": "SF Express"
+      }
+    }
+  ],
+  "meta_info": [
+    {
+      "sub_query": "Find products where the name contains 'Waterproof Trail Hiking Shoes', the color is Olive Green, the average rating score is greater than 4.5, it has less than 5 one-star reviews, the size is 38, and the transport time is less than 2.",
+      "features": [
+        {
+          "field": "color",
+          "value": "Olive Green",
+          "operator": "equals",
+          "operator_value": "Olive Green"
+        },
+        {
+          "field": "rating.average_score",
+          "value": 4.8,
+          "operator": "greater_than",
+          "operator_value": 4.5
+        },
+        {
+          "field": "rating.distribution.1_star",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 5.0
+        },
+        {
+          "field": "size",
+          "value": "38",
+          "operator": "equals",
+          "operator_value": "38"
+        },
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Waterproof Trail Hiking Shoes",
+          "operator": "contains",
+          "operator_value": "Waterproof Trail Hiking Shoes"
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the number of 5-star ratings is more than 400, the target demographic is Women, the color is Camel, the name contains 'Hiking Trousers', and the number of 4-star ratings is more than 90.",
+      "features": [
+        {
+          "field": "rating.distribution.5_star",
+          "value": 450,
+          "operator": "greater_than",
+          "operator_value": 400.0
+        },
+        {
+          "field": "target_demographic",
+          "value": "Women",
+          "operator": "equals",
+          "operator_value": "Women"
+        },
+        {
+          "field": "color",
+          "value": "Camel",
+          "operator": "equals",
+          "operator_value": "Camel"
+        },
+        {
+          "field": "name",
+          "value": "Women's Wayfarer Hiking Trousers",
+          "operator": "contains",
+          "operator_value": "Hiking Trousers"
+        },
+        {
+          "field": "rating.distribution.4_star",
+          "value": 95,
+          "operator": "greater_than",
+          "operator_value": 90.0
+        }
+      ]
+    },
+    {
+      "sub_query": "Find products where the name contains 'Lightweight Baselayer', the color is Silver, the transport time is less than 2 days, has more than 150 total reviews, and has less than 10 3-star reviews.",
+      "features": [
+        {
+          "field": "transport_time",
+          "value": 1,
+          "operator": "less_than",
+          "operator_value": 2.0
+        },
+        {
+          "field": "color",
+          "value": "Silver",
+          "operator": "equals",
+          "operator_value": "Silver"
+        },
+        {
+          "field": "rating.distribution.3_star",
+          "value": 5,
+          "operator": "less_than",
+          "operator_value": 10.0
+        },
+        {
+          "field": "rating.total_reviews",
+          "value": 155,
+          "operator": "greater_than",
+          "operator_value": 150.0
+        },
+        {
+          "field": "name",
+          "value": "Women's Lightweight Baselayer Top",
+          "operator": "contains",
+          "operator_value": "Lightweight Baselayer"
+        }
+      ]
+    }
+  ]
+}
