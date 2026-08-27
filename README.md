@@ -5,6 +5,7 @@
 **Scaling Harness Intelligence via *Just-in-Time* Harness Evolution**
 
 [![GitHub](https://img.shields.io/badge/GitHub-bingreeky%2FJIT-181717?style=flat-square&logo=github)](https://github.com/bingreeky/JIT)
+[![arXiv](https://img.shields.io/badge/arXiv-2608.25593-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2608.25593)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-JIT--Agent-ffbd45?style=flat-square)](https://huggingface.co/JIT-Agent)
 [![License](https://img.shields.io/badge/License-see%20LICENSE-blue?style=flat-square)](LICENSE)
 
@@ -61,7 +62,14 @@ Each directory has its own README with the details.
 
 ## Setup
 
-**1. Environment** (Python 3.11)
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/bingreeky/JIT.git
+cd JIT
+```
+
+**2. Environment** (Python 3.11)
 
 ```bash
 conda env create -f environment.yml && conda activate jit
@@ -71,7 +79,7 @@ or, in an existing environment: `pip install -r requirements.txt`. Serving a loc
 model (vLLM/SGLang + torch) is deliberately not included — the pipeline only ever talks
 HTTP to it.
 
-**2. Credentials**
+**3. Credentials**
 
 ```bash
 cp .env.example .env   # then fill it in
@@ -87,7 +95,7 @@ overridden per run on the command line.
 | Meta model | `META_MODEL`, `META_API_BASE`, `META_API_KEY`, `META_TOKENIZER` | writes the harness (JIT pipeline only) |
 | Tools | `SERPER_API_KEY`, `JINA_API_KEY` | `web_search` / `crawl_page` |
 
-**3. Data**
+**4. Data**
 
 Small datasets ship in the repo; anything large is a documented download.
 
@@ -144,6 +152,22 @@ re-run. `--skip-generate` / `--skip-select` reuse earlier phases, which is how y
 one variable (selector, execution model) over identical harnesses.
 
 Full flag list: `python -m scripts.run_jit --help`.
+
+## Citation
+
+If you find JIT-Agent useful, please cite:
+
+```bibtex
+@misc{zhang2026jitagentscalingharnessintelligence,
+      title={JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution},
+      author={Guibin Zhang and Leo Lu and Fangzhou Xie and Kang Zhu and Junhao Wang and Zhifei Xie and Zhaochen Yu and Zihang Liu and Zhongxiang Sun and Qiankun Li and Yue Liao and Heng Chang and Xiaobin Hu and Qibing Ren and Wangchunshu Zhou and Shuicheng Yan},
+      year={2026},
+      eprint={2608.25593},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.25593},
+}
+```
 
 ## License
 
