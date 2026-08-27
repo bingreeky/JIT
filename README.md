@@ -106,38 +106,73 @@ bash scripts/fetch_datasets.sh travel   # one benchmark ("all" ≈ 1 GB)
 
 ## Usage
 
-**Serve the meta model** — any OpenAI-compatible endpoint works; for a local checkpoint:
+All modes share the same benchmark adapters, execution model, judge, and scoring path.
+The **meta model** writes a harness, the **execution model** runs it, and the **judge
+model** grades the result. Configure credentials in `.env`; CLI flags override them.
+
+| Goal | Entry point | Meta model | Selection |
+|---|---|---|---|
+| Test a fixed HarnessFactory design | `scripts.run_seed_harness` | None | None |
+| Use a hosted API as the meta-agent | `scripts.run_jit` | OpenAI-compatible API | `judge` |
+| Evaluate the JIT checkpoint | `serve_meta_model.sh` + `scripts.run_jit` | Local JIT-27B | `logprob` |
+
+**1. Test a fixed HarnessFactory design.** No meta model is called; the selected harness
+is executed and scored directly.
 
 ```bash
-MODEL=/path/to/jit-checkpoint TP=4 bash scripts/serve_meta_model.sh
+python -m scripts.run_seed_harness --bench xbench --list-harnesses
+python -m scripts.run_seed_harness --bench xbench \
+    --harness plan_and_execute --max-samples 5
 ```
 
-**Run the JIT pipeline** — generate N harnesses per case, let the model pick one, execute
-it, score it:
+See the [HarnessFactory guide](harness_factory/README.md) for the eleven included designs.
+
+**2. Use a hosted API model as the meta-agent.** Hosted APIs usually do not expose
+`prompt_logprobs`, so use judge selection explicitly. `META_API_KEY` is read from `.env`.
 
 ```bash
 python -m scripts.run_jit --bench xbench \
-    --meta-model jit --meta-base http://localhost:8000/v1 --max-samples 5
+    --meta-model provider-model --meta-base https://api.provider.com/v1 \
+    --selector judge --rollouts 3 --max-samples 5
 ```
 
-Defaults reproduce the published setup: 3 candidates per case at temperature 1.0, selected
-by the meta model itself (never by benchmark score). Drop `--max-samples` for the full
-sweep; add `--selector logprob --tokenizer /path/to/checkpoint` to reproduce the published
-selection exactly. `bash scripts/run_jit.sh xbench` is the env-var wrapper around the same
-runner.
-
-**Run a fixed harness baseline** — same evaluation path, no meta model, so the two
-`summary.json` files are directly comparable:
+**3. Evaluate the JIT checkpoint.** Serve the checkpoint, then use its tokenizer for the
+published log-probability selector.
 
 ```bash
-python -m scripts.run_seed_harness --bench xbench --harness plan_and_execute
-python -m scripts.run_seed_harness --bench xbench --list-harnesses
+MODEL=JIT-Agent/jit-27b SERVED_NAME=jit TP=4 \
+    bash scripts/serve_meta_model.sh
 ```
 
-**Benchmarks** — `xbench`, `deepsearchqa`, `agentif`, `officebench`, `odyssey`,
-`shopping`, `travel`.
+```bash
+python -m scripts.run_jit --bench xbench \
+    --meta-model jit --meta-base http://127.0.0.1:8000/v1 \
+    --selector logprob --tokenizer JIT-Agent/jit-27b \
+    --rollouts 3 --meta-temperature 1.0 --max-samples 5
+```
 
-**Output** — everything lands under `runs/<bench>_<...>_<timestamp>/`:
+Drop `--max-samples` for a full run. `MODEL` may also be a local checkpoint path;
+`SERVED_NAME` must match `--meta-model`. The shell wrapper
+`bash scripts/run_jit.sh xbench` reads the same settings from the environment.
+
+**Key arguments**
+
+| Arguments | Purpose |
+|---|---|
+| `--bench`, `--dataset-path` | Select the benchmark and optionally override its data path. |
+| `--meta-model/base/key` | Configure the harness-generating model; JIT runs only. |
+| `--exec-model/base/key` | Configure the model that runs the harness. |
+| `--judge-model/base/key` | Configure the benchmark evaluator. |
+| `--rollouts`, `--meta-temperature` | Control candidate count and generation diversity. |
+| `--selector`, `--tokenizer` | Use `judge` for hosted APIs or `logprob` with a local tokenizer. |
+| `--harness-refs {desc,code}` | Choose design descriptions or sampled source harnesses as references. |
+| `--max-samples`, `--cases`, `--output` | Control smoke tests, case selection, and output location. |
+| `--workers-gen`, `--workers-exec` | Tune generation and execution concurrency independently. |
+
+Supported benchmarks are `xbench`, `deepsearchqa`, `agentif`, `officebench`, `odyssey`,
+`shopping`, and `travel`.
+
+**Output and resume.** JIT runs separate generation, selection, and execution artifacts:
 
 ```
 summary.json    headline metrics + how the run was configured
@@ -146,12 +181,13 @@ select/         the pick per case, the rule that produced it, per-candidate scor
 execute/        the harness that actually ran, its trajectory, and the numbers you report
 ```
 
-Every phase is resume-idempotent: re-run the identical command and only units that failed
-for *infrastructure* reasons are retried — a genuine 0-score is a result and is never
-re-run. `--skip-generate` / `--skip-select` reuse earlier phases, which is how you change
-one variable (selector, execution model) over identical harnesses.
+Fixed-harness runs write `summary.json`, `scores.jsonl`, and per-case reports directly.
+Re-running an identical command resumes completed work and retries only infrastructure
+failures; `--skip-generate` and `--skip-select` reuse earlier JIT phases.
 
-Full flag list: `python -m scripts.run_jit --help`.
+Detailed documentation: [JIT pipeline](jit/README.md) ·
+[HarnessFactory](harness_factory/README.md) · [CLI and runtime](scripts/README.md).
+Run either entry point with `--help` for the full flag list.
 
 ## Citation
 
